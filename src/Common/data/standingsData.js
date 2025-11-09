@@ -1,0 +1,176 @@
+// Données de référence pour tous les classements sportifs
+// Ces données servent de base et sont mises à jour dynamiquement via les APIs
+
+export const currentLigue1Standings = [
+  { team: 'Marseille', played: 12, wins: 8, draws: 1, losses: 3, goalsFor: 28, goalsAgainst: 11, points: 25 },
+  { team: 'Lens', played: 12, wins: 8, draws: 1, losses: 3, goalsFor: 21, goalsAgainst: 11, points: 25 },
+  { team: 'PSG', played: 11, wins: 7, draws: 3, losses: 1, goalsFor: 21, goalsAgainst: 9, points: 24 },
+  { team: 'Lille', played: 11, wins: 6, draws: 2, losses: 3, goalsFor: 23, goalsAgainst: 13, points: 20 },
+  { team: 'Lyon', played: 11, wins: 6, draws: 2, losses: 3, goalsFor: 16, goalsAgainst: 12, points: 20 },
+  { team: 'AS Monaco', played: 12, wins: 6, draws: 2, losses: 4, goalsFor: 24, goalsAgainst: 21, points: 20 },
+  { team: 'Strasbourg', played: 11, wins: 6, draws: 1, losses: 4, goalsFor: 22, goalsAgainst: 16, points: 19 },
+  { team: 'Rennes', played: 12, wins: 4, draws: 6, losses: 2, goalsFor: 19, goalsAgainst: 17, points: 18 },
+  { team: 'Nice', played: 11, wins: 5, draws: 2, losses: 4, goalsFor: 16, goalsAgainst: 16, points: 17 },
+  { team: 'Toulouse', played: 11, wins: 4, draws: 3, losses: 4, goalsFor: 17, goalsAgainst: 15, points: 15 },
+  { team: 'Paris', played: 12, wins: 4, draws: 2, losses: 6, goalsFor: 18, goalsAgainst: 21, points: 14 },
+  { team: 'Le Havre', played: 12, wins: 3, draws: 5, losses: 4, goalsFor: 13, goalsAgainst: 17, points: 14 },
+  { team: 'Brest', played: 12, wins: 2, draws: 4, losses: 6, goalsFor: 14, goalsAgainst: 21, points: 10 },
+  { team: 'Nantes', played: 12, wins: 2, draws: 4, losses: 6, goalsFor: 11, goalsAgainst: 18, points: 10 },
+  { team: 'Angers', played: 11, wins: 2, draws: 4, losses: 5, goalsFor: 8, goalsAgainst: 15, points: 10 },
+  { team: 'Lorient', played: 11, wins: 2, draws: 3, losses: 6, goalsFor: 13, goalsAgainst: 25, points: 9 },
+  { team: 'Metz', played: 11, wins: 2, draws: 2, losses: 7, goalsFor: 10, goalsAgainst: 26, points: 8 },
+  { team: 'Auxerre', played: 11, wins: 2, draws: 1, losses: 8, goalsFor: 7, goalsAgainst: 17, points: 7 }
+];
+
+export const currentLigue2Standings = [
+  { team: 'Troyes', played: 14, wins: 8, draws: 4, losses: 2, goalsFor: 26, goalsAgainst: 14, points: 28 },
+  { team: 'Red Star', played: 14, wins: 8, draws: 3, losses: 3, goalsFor: 19, goalsAgainst: 13, points: 27 },
+  { team: 'Saint-Étienne', played: 14, wins: 8, draws: 2, losses: 4, goalsFor: 31, goalsAgainst: 21, points: 26 },
+  { team: 'Montpellier', played: 14, wins: 7, draws: 3, losses: 4, goalsFor: 17, goalsAgainst: 12, points: 24 },
+  { team: 'Pau', played: 14, wins: 6, draws: 5, losses: 3, goalsFor: 20, goalsAgainst: 21, points: 23 },
+  { team: 'Reims', played: 14, wins: 6, draws: 4, losses: 4, goalsFor: 26, goalsAgainst: 20, points: 22 },
+  { team: 'Le Mans', played: 14, wins: 5, draws: 6, losses: 3, goalsFor: 17, goalsAgainst: 15, points: 21 },
+  { team: 'Dunkerque', played: 14, wins: 5, draws: 5, losses: 4, goalsFor: 25, goalsAgainst: 17, points: 20 },
+  { team: 'Annecy', played: 14, wins: 5, draws: 4, losses: 5, goalsFor: 18, goalsAgainst: 18, points: 19 },
+  { team: 'Grenoble', played: 14, wins: 4, draws: 6, losses: 4, goalsFor: 17, goalsAgainst: 15, points: 18 },
+  { team: 'Guingamp', played: 14, wins: 5, draws: 3, losses: 6, goalsFor: 19, goalsAgainst: 21, points: 18 },
+  { team: 'Caen', played: 14, wins: 4, draws: 4, losses: 6, goalsFor: 14, goalsAgainst: 16, points: 16 },
+  { team: 'Bastia', played: 13, wins: 4, draws: 3, losses: 6, goalsFor: 14, goalsAgainst: 16, points: 15 },
+  { team: 'Ajaccio', played: 13, wins: 4, draws: 3, losses: 6, goalsFor: 11, goalsAgainst: 16, points: 15 },
+  { team: 'Laval', played: 14, wins: 3, draws: 5, losses: 6, goalsFor: 12, goalsAgainst: 20, points: 14 },
+  { team: 'Concarneau', played: 14, wins: 3, draws: 4, losses: 7, goalsFor: 13, goalsAgainst: 22, points: 13 },
+  { team: 'Rodez', played: 13, wins: 3, draws: 3, losses: 7, goalsFor: 11, goalsAgainst: 20, points: 12 },
+  { team: 'Amiens', played: 14, wins: 2, draws: 4, losses: 8, goalsFor: 9, goalsAgainst: 21, points: 10 }
+];
+
+export const currentBundesligaStandings = [
+  { team: 'Bayern Munich', played: 10, wins: 9, draws: 1, losses: 0, goalsFor: 35, goalsAgainst: 6, points: 28 },
+  { team: 'RB Leipzig', played: 10, wins: 7, draws: 1, losses: 2, goalsFor: 20, goalsAgainst: 13, points: 22 },
+  { team: 'Borussia Dortmund', played: 10, wins: 6, draws: 3, losses: 1, goalsFor: 16, goalsAgainst: 7, points: 21 },
+  { team: 'Bayer Leverkusen', played: 10, wins: 6, draws: 2, losses: 2, goalsFor: 24, goalsAgainst: 14, points: 20 },
+  { team: 'TSG Hoffenheim', played: 10, wins: 6, draws: 1, losses: 3, goalsFor: 21, goalsAgainst: 16, points: 19 },
+  { team: 'VfB Stuttgart', played: 9, wins: 6, draws: 0, losses: 3, goalsFor: 14, goalsAgainst: 10, points: 18 },
+  { team: 'Werder Bremen', played: 10, wins: 4, draws: 3, losses: 3, goalsFor: 15, goalsAgainst: 18, points: 15 },
+  { team: 'Eintracht Frankfurt', played: 9, wins: 4, draws: 2, losses: 3, goalsFor: 22, goalsAgainst: 19, points: 14 },
+  { team: '1. FC Köln', played: 10, wins: 4, draws: 2, losses: 4, goalsFor: 17, goalsAgainst: 15, points: 14 },
+  { team: '1. FC Union Berlin', played: 10, wins: 3, draws: 3, losses: 4, goalsFor: 13, goalsAgainst: 17, points: 12 },
+  { team: 'SC Freiburg', played: 9, wins: 2, draws: 4, losses: 3, goalsFor: 11, goalsAgainst: 13, points: 10 },
+  { team: 'Borussia Mönchengladbach', played: 10, wins: 2, draws: 3, losses: 5, goalsFor: 13, goalsAgainst: 19, points: 9 },
+  { team: 'Hamburger SV', played: 10, wins: 2, draws: 3, losses: 5, goalsFor: 9, goalsAgainst: 16, points: 9 },
+  { team: 'VfL Wolfsburg', played: 10, wins: 2, draws: 2, losses: 6, goalsFor: 12, goalsAgainst: 18, points: 8 },
+  { team: 'FC Augsburg', played: 9, wins: 2, draws: 1, losses: 6, goalsFor: 12, goalsAgainst: 21, points: 7 },
+  { team: 'FC St. Pauli', played: 9, wins: 2, draws: 1, losses: 6, goalsFor: 8, goalsAgainst: 18, points: 7 },
+  { team: 'FSV Mainz 05', played: 9, wins: 1, draws: 2, losses: 6, goalsFor: 10, goalsAgainst: 17, points: 5 },
+  { team: 'FC Heidenheim', played: 10, wins: 1, draws: 2, losses: 7, goalsFor: 8, goalsAgainst: 23, points: 5 }
+];
+
+export const currentLaLigaStandings = [
+  { team: 'Real Madrid', played: 11, wins: 10, draws: 0, losses: 1, goalsFor: 26, goalsAgainst: 10, points: 30 },
+  { team: 'Villarreal', played: 12, wins: 8, draws: 2, losses: 2, goalsFor: 24, goalsAgainst: 10, points: 26 },
+  { team: 'Barcelona', played: 11, wins: 8, draws: 1, losses: 2, goalsFor: 28, goalsAgainst: 13, points: 25 },
+  { team: 'Atlético Madrid', played: 12, wins: 7, draws: 4, losses: 1, goalsFor: 24, goalsAgainst: 11, points: 25 },
+  { team: 'Real Betis', played: 11, wins: 5, draws: 4, losses: 2, goalsFor: 18, goalsAgainst: 12, points: 19 },
+  { team: 'Espanyol', played: 12, wins: 5, draws: 3, losses: 4, goalsFor: 15, goalsAgainst: 15, points: 18 },
+  { team: 'Getafe', played: 11, wins: 5, draws: 2, losses: 4, goalsFor: 12, goalsAgainst: 13, points: 17 },
+  { team: 'Sevilla', played: 12, wins: 5, draws: 1, losses: 6, goalsFor: 18, goalsAgainst: 19, points: 16 },
+  { team: 'Alavés', played: 12, wins: 4, draws: 3, losses: 5, goalsFor: 11, goalsAgainst: 11, points: 15 },
+  { team: 'Elche', played: 12, wins: 3, draws: 6, losses: 3, goalsFor: 13, goalsAgainst: 14, points: 15 },
+  { team: 'Rayo Vallecano', played: 11, wins: 4, draws: 2, losses: 5, goalsFor: 12, goalsAgainst: 14, points: 14 },
+  { team: 'Athletic Club', played: 11, wins: 4, draws: 2, losses: 5, goalsFor: 11, goalsAgainst: 13, points: 14 },
+  { team: 'Celta Vigo', played: 11, wins: 2, draws: 7, losses: 2, goalsFor: 13, goalsAgainst: 14, points: 13 },
+  { team: 'Real Sociedad', played: 12, wins: 3, draws: 4, losses: 5, goalsFor: 14, goalsAgainst: 17, points: 13 },
+  { team: 'Osasuna', played: 12, wins: 3, draws: 2, losses: 7, goalsFor: 9, goalsAgainst: 13, points: 11 },
+  { team: 'Girona', played: 12, wins: 2, draws: 4, losses: 6, goalsFor: 11, goalsAgainst: 24, points: 10 },
+  { team: 'Levante', played: 12, wins: 2, draws: 3, losses: 7, goalsFor: 16, goalsAgainst: 23, points: 9 },
+  { team: 'Mallorca', played: 11, wins: 2, draws: 3, losses: 6, goalsFor: 11, goalsAgainst: 18, points: 9 },
+  { team: 'Valencia', played: 11, wins: 2, draws: 3, losses: 6, goalsFor: 10, goalsAgainst: 20, points: 9 },
+  { team: 'Real Oviedo', played: 12, wins: 2, draws: 2, losses: 8, goalsFor: 12, goalsAgainst: 25, points: 8 }
+];
+
+export const currentSerieAStandings = [
+  { team: 'AC Milan', played: 11, wins: 6, draws: 4, losses: 1, goalsFor: 17, goalsAgainst: 9, points: 22 },
+  { team: 'Napoli', played: 10, wins: 7, draws: 1, losses: 2, goalsFor: 16, goalsAgainst: 8, points: 22 },
+  { team: 'Inter', played: 10, wins: 7, draws: 0, losses: 3, goalsFor: 24, goalsAgainst: 12, points: 21 },
+  { team: 'Roma', played: 10, wins: 7, draws: 0, losses: 3, goalsFor: 10, goalsAgainst: 5, points: 21 },
+  { team: 'Juventus', played: 11, wins: 5, draws: 4, losses: 2, goalsFor: 14, goalsAgainst: 10, points: 19 },
+  { team: 'Bologna', played: 10, wins: 5, draws: 3, losses: 2, goalsFor: 16, goalsAgainst: 8, points: 18 },
+  { team: 'Como', played: 11, wins: 4, draws: 6, losses: 1, goalsFor: 12, goalsAgainst: 6, points: 18 },
+  { team: 'Lazio', played: 10, wins: 4, draws: 3, losses: 3, goalsFor: 13, goalsAgainst: 7, points: 15 },
+  { team: 'Udinese', played: 10, wins: 4, draws: 3, losses: 3, goalsFor: 12, goalsAgainst: 15, points: 15 },
+  { team: 'Cremonese', played: 11, wins: 3, draws: 5, losses: 3, goalsFor: 12, goalsAgainst: 13, points: 14 },
+  { team: 'Torino', played: 11, wins: 3, draws: 5, losses: 3, goalsFor: 10, goalsAgainst: 16, points: 14 },
+  { team: 'Atalanta', played: 10, wins: 2, draws: 7, losses: 1, goalsFor: 13, goalsAgainst: 8, points: 13 },
+  { team: 'Sassuolo', played: 10, wins: 4, draws: 1, losses: 5, goalsFor: 11, goalsAgainst: 12, points: 13 },
+  { team: 'Cagliari', played: 11, wins: 2, draws: 4, losses: 5, goalsFor: 9, goalsAgainst: 14, points: 10 },
+  { team: 'Lecce', played: 11, wins: 2, draws: 4, losses: 5, goalsFor: 8, goalsAgainst: 14, points: 10 },
+  { team: 'Pisa', played: 11, wins: 1, draws: 6, losses: 4, goalsFor: 8, goalsAgainst: 14, points: 9 },
+  { team: 'Parma', played: 11, wins: 1, draws: 5, losses: 5, goalsFor: 7, goalsAgainst: 14, points: 8 },
+  { team: 'Genoa', played: 10, wins: 1, draws: 3, losses: 6, goalsFor: 6, goalsAgainst: 14, points: 6 },
+  { team: 'Verona', played: 11, wins: 0, draws: 6, losses: 5, goalsFor: 6, goalsAgainst: 16, points: 6 },
+  { team: 'Fiorentina', played: 10, wins: 0, draws: 4, losses: 6, goalsFor: 7, goalsAgainst: 16, points: 4 }
+];
+
+export const currentPremierLeagueStandings = [
+  { team: 'Arsenal', played: 11, wins: 8, draws: 2, losses: 1, goalsFor: 20, goalsAgainst: 5, points: 26 },
+  { team: 'Chelsea', played: 11, wins: 6, draws: 2, losses: 3, goalsFor: 21, goalsAgainst: 11, points: 20 },
+  { team: 'Manchester City', played: 10, wins: 6, draws: 1, losses: 3, goalsFor: 20, goalsAgainst: 8, points: 19 },
+  { team: 'Sunderland', played: 11, wins: 5, draws: 4, losses: 2, goalsFor: 14, goalsAgainst: 10, points: 19 },
+  { team: 'Tottenham', played: 11, wins: 5, draws: 3, losses: 3, goalsFor: 19, goalsAgainst: 10, points: 18 },
+  { team: 'Liverpool', played: 10, wins: 6, draws: 0, losses: 4, goalsFor: 18, goalsAgainst: 14, points: 18 },
+  { team: 'Bournemouth', played: 10, wins: 5, draws: 3, losses: 2, goalsFor: 17, goalsAgainst: 14, points: 18 },
+  { team: 'Manchester United', played: 11, wins: 5, draws: 3, losses: 3, goalsFor: 19, goalsAgainst: 18, points: 18 },
+  { team: 'Crystal Palace', played: 10, wins: 4, draws: 4, losses: 2, goalsFor: 14, goalsAgainst: 9, points: 16 },
+  { team: 'Brighton', played: 10, wins: 4, draws: 3, losses: 3, goalsFor: 17, goalsAgainst: 15, points: 15 },
+  { team: 'Everton', played: 11, wins: 4, draws: 3, losses: 4, goalsFor: 12, goalsAgainst: 13, points: 15 },
+  { team: 'Aston Villa', played: 10, wins: 4, draws: 3, losses: 3, goalsFor: 9, goalsAgainst: 10, points: 15 },
+  { team: 'Brentford', played: 10, wins: 4, draws: 1, losses: 5, goalsFor: 14, goalsAgainst: 16, points: 13 },
+  { team: 'Newcastle', played: 10, wins: 3, draws: 3, losses: 4, goalsFor: 10, goalsAgainst: 11, points: 12 },
+  { team: 'Fulham', played: 11, wins: 3, draws: 2, losses: 6, goalsFor: 12, goalsAgainst: 16, points: 11 },
+  { team: 'Leeds United', played: 10, wins: 3, draws: 2, losses: 5, goalsFor: 9, goalsAgainst: 17, points: 11 },
+  { team: 'Burnley', played: 11, wins: 3, draws: 1, losses: 7, goalsFor: 14, goalsAgainst: 22, points: 10 },
+  { team: 'West Ham', played: 11, wins: 3, draws: 1, losses: 7, goalsFor: 13, goalsAgainst: 23, points: 10 },
+  { team: 'Nottingham Forest', played: 10, wins: 1, draws: 3, losses: 6, goalsFor: 7, goalsAgainst: 19, points: 6 },
+  { team: 'Wolverhampton', played: 11, wins: 0, draws: 2, losses: 9, goalsFor: 7, goalsAgainst: 25, points: 2 }
+];
+
+export const currentBotolaStandings = [
+  { team: 'AS FAR', played: 7, wins: 5, draws: 2, losses: 0, goalsFor: 14, goalsAgainst: 1, points: 17 },
+  { team: 'WAC', played: 7, wins: 5, draws: 2, losses: 0, goalsFor: 12, goalsAgainst: 4, points: 17 },
+  { team: 'MAS', played: 7, wins: 4, draws: 3, losses: 0, goalsFor: 11, goalsAgainst: 2, points: 15 },
+  { team: 'Raja CA', played: 7, wins: 4, draws: 3, losses: 0, goalsFor: 7, goalsAgainst: 1, points: 15 },
+  { team: 'CODM', played: 8, wins: 3, draws: 3, losses: 2, goalsFor: 6, goalsAgainst: 6, points: 12 },
+  { team: 'RS Berkane', played: 5, wins: 3, draws: 2, losses: 0, goalsFor: 13, goalsAgainst: 6, points: 11 },
+  { team: 'Olympique Dcheira', played: 8, wins: 3, draws: 2, losses: 3, goalsFor: 8, goalsAgainst: 9, points: 11 },
+  { team: 'Renaissance Zemamra', played: 7, wins: 2, draws: 2, losses: 3, goalsFor: 5, goalsAgainst: 9, points: 8 },
+  { team: 'HUSA', played: 8, wins: 2, draws: 1, losses: 5, goalsFor: 6, goalsAgainst: 14, points: 7 },
+  { team: 'KACM', played: 8, wins: 2, draws: 1, losses: 5, goalsFor: 8, goalsAgainst: 9, points: 7 },
+  { team: 'FUS Rabat', played: 7, wins: 2, draws: 1, losses: 4, goalsFor: 7, goalsAgainst: 9, points: 7 },
+  { team: 'USYM', played: 8, wins: 1, draws: 3, losses: 4, goalsFor: 8, goalsAgainst: 11, points: 6 },
+  { team: 'DHJ', played: 7, wins: 1, draws: 3, losses: 3, goalsFor: 5, goalsAgainst: 11, points: 6 },
+  { team: 'OC Safi', played: 7, wins: 1, draws: 2, losses: 4, goalsFor: 5, goalsAgainst: 13, points: 5 },
+  { team: 'Union Touarga', played: 8, wins: 0, draws: 5, losses: 3, goalsFor: 7, goalsAgainst: 12, points: 5 },
+  { team: 'Ittihad Tanger', played: 7, wins: 0, draws: 5, losses: 2, goalsFor: 6, goalsAgainst: 11, points: 5 }
+];
+
+export const currentBrasileiraoStandings = [
+  { team: 'Palmeiras', played: 33, wins: 20, draws: 8, losses: 5, goalsFor: 59, goalsAgainst: 25, points: 68 },
+  { team: 'Flamengo', played: 33, wins: 19, draws: 8, losses: 6, goalsFor: 62, goalsAgainst: 37, points: 65 },
+  { team: 'Cruzeiro', played: 33, wins: 18, draws: 9, losses: 6, goalsFor: 49, goalsAgainst: 32, points: 63 },
+  { team: 'Mirassol', played: 33, wins: 16, draws: 8, losses: 9, goalsFor: 52, goalsAgainst: 43, points: 56 },
+  { team: 'Atlético Mineiro', played: 32, wins: 15, draws: 9, losses: 8, goalsFor: 46, goalsAgainst: 41, points: 54 },
+  { team: 'Botafogo', played: 32, wins: 15, draws: 7, losses: 10, goalsFor: 48, goalsAgainst: 39, points: 52 },
+  { team: 'Santos', played: 33, wins: 15, draws: 6, losses: 12, goalsFor: 51, goalsAgainst: 42, points: 51 },
+  { team: 'Internacional', played: 32, wins: 13, draws: 10, losses: 9, goalsFor: 44, goalsAgainst: 38, points: 49 },
+  { team: 'São Paulo', played: 33, wins: 14, draws: 6, losses: 13, goalsFor: 47, goalsAgainst: 43, points: 48 },
+  { team: 'Bahia', played: 33, wins: 12, draws: 10, losses: 11, goalsFor: 42, goalsAgainst: 42, points: 46 },
+  { team: 'Corinthians', played: 32, wins: 13, draws: 7, losses: 12, goalsFor: 43, goalsAgainst: 45, points: 46 },
+  { team: 'Vasco da Gama', played: 32, wins: 12, draws: 8, losses: 12, goalsFor: 39, goalsAgainst: 44, points: 44 },
+  { team: 'Grêmio', played: 31, wins: 11, draws: 9, losses: 11, goalsFor: 38, goalsAgainst: 39, points: 42 },
+  { team: 'Fluminense', played: 32, wins: 11, draws: 8, losses: 13, goalsFor: 37, goalsAgainst: 41, points: 41 },
+  { team: 'Ceará', played: 33, wins: 11, draws: 7, losses: 15, goalsFor: 37, goalsAgainst: 47, points: 40 },
+  { team: 'Atlético Paranaense', played: 32, wins: 11, draws: 6, losses: 15, goalsFor: 36, goalsAgainst: 44, points: 39 },
+  { team: 'Cuiabá', played: 33, wins: 9, draws: 10, losses: 14, goalsFor: 33, goalsAgainst: 44, points: 37 },
+  { team: 'Juventude', played: 33, wins: 9, draws: 5, losses: 19, goalsFor: 29, goalsAgainst: 59, points: 32 },
+  { team: 'Fortaleza', played: 31, wins: 7, draws: 8, losses: 16, goalsFor: 29, goalsAgainst: 46, points: 29 },
+  { team: 'Sport', played: 32, wins: 2, draws: 11, losses: 19, goalsFor: 24, goalsAgainst: 55, points: 17 }
+];
