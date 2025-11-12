@@ -1,0 +1,1422 @@
+[
+    {
+        "question": "En quelle année a eu lieu la première Coupe du Monde de football?",
+        "options": [
+            "1930",
+            "1934",
+            "1950",
+            "1954"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de football en 1998?",
+        "options": [
+            "Brésil",
+            "France",
+            "Allemagne",
+            "Argentine"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le sport le plus pratiqué au monde?",
+        "options": [
+            "Football",
+            "Basketball",
+            "Tennis",
+            "Cricket"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a remporté le Tour de France en 2020?",
+        "options": [
+            "Chris Froome",
+            "Tadej Pogačar",
+            "Egan Bernal",
+            "Geraint Thomas"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de rugby en 2019?",
+        "options": [
+            "Nouvelle-Zélande",
+            "Angleterre",
+            "Afrique du Sud",
+            "Australie"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du tournoi de tennis qui se déroule chaque année à Wimbledon?",
+        "options": [
+            "Roland-Garros",
+            "US Open",
+            "Australian Open",
+            "Wimbledon"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le joueur de basketball considéré comme le meilleur de tous les temps?",
+        "options": [
+            "Michael Jordan",
+            "LeBron James",
+            "Kobe Bryant",
+            "Larry Bird"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de football féminin en 2019?",
+        "options": [
+            "États-Unis",
+            "Allemagne",
+            "France",
+            "Japon"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du célèbre coureur cycliste américain impliqué dans un scandale de dopage?",
+        "options": [
+            "Lance Armstrong",
+            "Greg LeMond",
+            "Bernard Hinault",
+            "Miguel Indurain"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le sport national du Canada?",
+        "options": [
+            "Hockey sur glace",
+            "Lacrosse",
+            "Football canadien",
+            "Baseball"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du célèbre tournoi de tennis qui se déroule à Roland-Garros?",
+        "options": [
+            "Australian Open",
+            "Wimbledon",
+            "US Open",
+            "Roland-Garros"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du célèbre joueur de football argentin qui a joué pour le FC Barcelone?",
+        "options": [
+            "Diego Maradona",
+            "Lionel Messi",
+            "Gabriel Batistuta",
+            "Juan Román Riquelme"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du célèbre tournoi de golf qui se déroule chaque année à Augusta?",
+        "options": [
+            "The Open Championship",
+            "PGA Championship",
+            "US Open",
+            "The Masters"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du célèbre tournoi de golf qui se déroule chaque année à Augusta?",
+        "options": [
+            "The Open Championship",
+            "PGA Championship",
+            "US Open",
+            "The Masters"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de volley-ball sur le terrain?",
+        "options": [
+            "6",
+            "5",
+            "7",
+            "8"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel pays ont eu lieu les Jeux Olympiques de 2016?",
+        "options": [
+            "Chine",
+            "Brésil",
+            "Royaume-Uni",
+            "Russie"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel nageur détient le record du plus grand nombre de médailles olympiques?",
+        "options": [
+            "Ian Thorpe",
+            "Mark Spitz",
+            "Michael Phelps",
+            "Ryan Lochte"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la distance d'un marathon?",
+        "options": [
+            "40 km",
+            "38.6 km",
+            "41.9 km",
+            "42.195 km"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a remporté le plus de Coupes du Monde de football?",
+        "options": [
+            "Brésil",
+            "Allemagne",
+            "Italie",
+            "Argentine"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel sport se pratique au Madison Square Garden?",
+        "options": [
+            "Football américain",
+            "Basketball",
+            "Baseball",
+            "Hockey sur glace"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure un match de football?",
+        "options": [
+            "80 minutes",
+            "85 minutes",
+            "90 minutes",
+            "95 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le seul sport à avoir été joué sur la Lune?",
+        "options": [
+            "Tennis",
+            "Football",
+            "Frisbee",
+            "Golf"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dans quel sport peut-on réaliser un 'Grand Chelem'?",
+        "options": [
+            "Tennis",
+            "Golf",
+            "Football",
+            "Boxe"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel joueur de football a gagné le plus de Ballons d'Or?",
+        "options": [
+            "Cristiano Ronaldo",
+            "Lionel Messi",
+            "Michel Platini",
+            "Johan Cruyff"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de rugby à XV?",
+        "options": [
+            "11",
+            "13",
+            "15",
+            "17"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la nationalité du sprinter Usain Bolt?",
+        "options": [
+            "Américaine",
+            "Kényane",
+            "Nigériane",
+            "Jamaïcaine"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le diamètre d'un panier de basketball?",
+        "options": [
+            "45 cm",
+            "50 cm",
+            "55 cm",
+            "60 cm"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle équipe a remporté le plus de Super Bowls?",
+        "options": [
+            "Dallas Cowboys",
+            "New England Patriots",
+            "Pittsburgh Steelers",
+            "San Francisco 49ers"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de fois la France a-t-elle remporté la Coupe du Monde de football?",
+        "options": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport peut-on effectuer un 'home run'?",
+        "options": [
+            "Cricket",
+            "Golf",
+            "Football américain",
+            "Baseball"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la durée d'un match de basketball en NBA?",
+        "options": [
+            "48 minutes",
+            "40 minutes",
+            "45 minutes",
+            "50 minutes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel joueur de tennis détient le record du plus grand nombre de titres en Grand Chelem?",
+        "options": [
+            "Rafael Nadal",
+            "Novak Djokovic",
+            "Roger Federer",
+            "Pete Sampras"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de fois Tiger Woods a-t-il remporté le Masters de golf?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport peut-on réaliser un 'touchdown'?",
+        "options": [
+            "Rugby",
+            "Baseball",
+            "Basketball",
+            "Football américain"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le record du monde du 100 mètres masculin?",
+        "options": [
+            "9.58 secondes",
+            "9.63 secondes",
+            "9.69 secondes",
+            "9.74 secondes"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle équipe de Formule 1 détient le record du plus grand nombre de titres constructeurs?",
+        "options": [
+            "McLaren",
+            "Ferrari",
+            "Mercedes",
+            "Red Bull"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de handball sur le terrain?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport utilise-t-on un 'piolet'?",
+        "options": [
+            "Ski",
+            "Snowboard",
+            "Escalade",
+            "Alpinisme"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a organisé la première Coupe du Monde de football?",
+        "options": [
+            "Uruguay",
+            "Brésil",
+            "Italie",
+            "France"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la nationalité du tennisman Rafael Nadal?",
+        "options": [
+            "Portugaise",
+            "Espagnole",
+            "Italienne",
+            "Argentine"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de médailles olympiques a remporté le nageur Michael Phelps?",
+        "options": [
+            "21",
+            "25",
+            "28",
+            "32"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du stade du FC Barcelone?",
+        "options": [
+            "Santiago Bernabéu",
+            "San Siro",
+            "Anfield",
+            "Camp Nou"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle distance parcourt-on dans une épreuve de triathlon Ironman?",
+        "options": [
+            "226 km",
+            "200 km",
+            "180 km",
+            "250 km"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel sport peut-on effectuer un 'strike'?",
+        "options": [
+            "Billard",
+            "Bowling",
+            "Golf",
+            "Tennis"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure un match de hockey sur glace en NHL?",
+        "options": [
+            "45 minutes",
+            "50 minutes",
+            "60 minutes",
+            "70 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel joueur de basketball est surnommé 'King James'?",
+        "options": [
+            "Kobe Bryant",
+            "Michael Jordan",
+            "Shaquille O'Neal",
+            "LeBron James"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du stade des Jeux Olympiques d'Athènes?",
+        "options": [
+            "Stade olympique d'Athènes",
+            "Panathinaïkó",
+            "Stade Karaïskáki",
+            "OAKA"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel sport est associé à Wimbledon?",
+        "options": [
+            "Golf",
+            "Tennis",
+            "Cricket",
+            "Polo"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure une mi-temps en rugby?",
+        "options": [
+            "35 minutes",
+            "30 minutes",
+            "40 minutes",
+            "45 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la hauteur d'un panier de basketball?",
+        "options": [
+            "2.5 mètres",
+            "2.8 mètres",
+            "3 mètres",
+            "3.05 mètres"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a remporté la Coupe du Monde de rugby en 2023?",
+        "options": [
+            "Afrique du Sud",
+            "Nouvelle-Zélande",
+            "France",
+            "Angleterre"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la discipline olympique la plus ancienne?",
+        "options": [
+            "Saut en longueur",
+            "Course à pied",
+            "Lancer du disque",
+            "Lutte"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de water-polo?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nombre maximal de clubs qu'un golfeur peut emporter lors d'une compétition?",
+        "options": [
+            "12",
+            "10",
+            "16",
+            "14"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a remporté le plus de médailles aux Jeux Olympiques d'été?",
+        "options": [
+            "États-Unis",
+            "Chine",
+            "Russie/URSS",
+            "Allemagne"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel sport peut-on réaliser un 'eagle'?",
+        "options": [
+            "Tennis",
+            "Golf",
+            "Football américain",
+            "Tir à l'arc"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de hockey sur glace sur la patinoire?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "7"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport pratique-t-on le 'dunk'?",
+        "options": [
+            "Volleyball",
+            "Football",
+            "Handball",
+            "Basketball"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le sport national du Japon?",
+        "options": [
+            "Sumo",
+            "Judo",
+            "Karaté",
+            "Kendo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la durée d'un combat de boxe professionnel?",
+        "options": [
+            "15 rounds",
+            "12 rounds",
+            "10 rounds",
+            "9 rounds"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de points vaut un essai au rugby?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la nationalité du cycliste Eddy Merckx?",
+        "options": [
+            "Néerlandaise",
+            "Française",
+            "Italienne",
+            "Belge"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a remporté la première Coupe du Monde de football féminin?",
+        "options": [
+            "États-Unis",
+            "Norvège",
+            "Allemagne",
+            "Suède"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle ville se déroulent les 24 Heures du Mans?",
+        "options": [
+            "Paris",
+            "Le Mans",
+            "Marseille",
+            "Lyon"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de médailles d'or Michael Phelps a-t-il remportées aux Jeux Olympiques?",
+        "options": [
+            "18",
+            "21",
+            "23",
+            "25"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du stade de football de Liverpool FC?",
+        "options": [
+            "Old Trafford",
+            "Stamford Bridge",
+            "Emirates Stadium",
+            "Anfield"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a remporté le championnat du monde de Formule 1 en 2023?",
+        "options": [
+            "Max Verstappen",
+            "Lewis Hamilton",
+            "Charles Leclerc",
+            "Fernando Alonso"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel sport se pratique sur un vélodrome?",
+        "options": [
+            "BMX",
+            "Cyclisme sur piste",
+            "VTT",
+            "Cyclo-cross"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure un match de hockey sur gazon?",
+        "options": [
+            "50 minutes",
+            "55 minutes",
+            "60 minutes",
+            "70 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel joueur a marqué le plus de buts en Coupe du Monde de football?",
+        "options": [
+            "Pelé",
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Miroslav Klose"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays a inventé le jeu de cricket?",
+        "options": [
+            "Angleterre",
+            "Inde",
+            "Australie",
+            "Afrique du Sud"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel sport utilise-t-on un 'épéiste'?",
+        "options": [
+            "Judo",
+            "Escrime",
+            "Boxe",
+            "Lutte"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de football américain sur le terrain?",
+        "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du stade de l'équipe de France de rugby?",
+        "options": [
+            "Parc des Princes",
+            "Vélodrome",
+            "Matmut Atlantique",
+            "Stade de France"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le record du monde du saut en hauteur masculin?",
+        "options": [
+            "2.45m",
+            "2.50m",
+            "2.43m",
+            "2.48m"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du célèbre rallye qui se déroule en Afrique?",
+        "options": [
+            "Safari Rally",
+            "Dakar",
+            "Atlas Rally",
+            "Pharaons Rally"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de cricket sur le terrain?",
+        "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel sport utilise un 'bâton de relais'?",
+        "options": [
+            "Natation",
+            "Cyclisme",
+            "Biathlon",
+            "Athlétisme"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a remporté le plus grand nombre de tournois du Grand Chelem en tennis?",
+        "options": [
+            "Novak Djokovic",
+            "Roger Federer",
+            "Rafael Nadal",
+            "Pete Sampras"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel sport peut-on faire un 'ippon'?",
+        "options": [
+            "Karaté",
+            "Judo",
+            "Taekwondo",
+            "Aikido"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs une équipe de baseball a-t-elle sur le terrain?",
+        "options": [
+            "8",
+            "7",
+            "9",
+            "10"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du tournoi de tennis du Grand Chelem qui se déroule aux États-Unis?",
+        "options": [
+            "Australian Open",
+            "Wimbledon",
+            "Roland-Garros",
+            "US Open"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle équipe de football a remporté le plus de Ligues des Champions?",
+        "options": [
+            "Real Madrid",
+            "FC Barcelone",
+            "Bayern Munich",
+            "Liverpool FC"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom de la course cycliste qui relie Paris à Roubaix?",
+        "options": [
+            "Liège-Bastogne-Liège",
+            "Paris-Roubaix",
+            "Milan-San Remo",
+            "Tour des Flandres"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure une période en hockey sur glace?",
+        "options": [
+            "15 minutes",
+            "25 minutes",
+            "20 minutes",
+            "30 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel sport était pratiqué par Muhammad Ali?",
+        "options": [
+            "Judo",
+            "MMA",
+            "Karaté",
+            "Boxe"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la distance parcourue lors du Tour de France?",
+        "options": [
+            "Environ 3500 km",
+            "Environ 2500 km",
+            "Environ 4500 km",
+            "Environ 5500 km"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du trophée remis au vainqueur de la Coupe du Monde de football?",
+        "options": [
+            "Coupe Jules Rimet",
+            "Trophée FIFA",
+            "Champions Cup",
+            "World Cup"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure un match de tennis en Grand Chelem (hommes)?",
+        "options": [
+            "3 sets gagnants",
+            "4 sets gagnants",
+            "5 sets gagnants",
+            "2 sets gagnants"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du plus grand tournoi de poker au monde?",
+        "options": [
+            "European Poker Tour",
+            "Aussie Millions",
+            "World Poker Tour",
+            "World Series of Poker"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel pays est connu pour le sumo?",
+        "options": [
+            "Japon",
+            "Chine",
+            "Corée du Sud",
+            "Mongolie"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle discipline n'est pas incluse dans un triathlon?",
+        "options": [
+            "Course à pied",
+            "Cyclisme",
+            "Aviron",
+            "Natation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport peut-on réaliser un 'birdie'?",
+        "options": [
+            "Tennis",
+            "Badminton",
+            "Golf",
+            "Squash"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du tournoi de football qui oppose les clubs champions d'Amérique du Sud et d'Europe?",
+        "options": [
+            "Coupe Intercontinentale",
+            "Mondial des Clubs",
+            "Super Coupe",
+            "Coupe Toyota"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le prénom de la joueuse de tennis Williams qui a remporté le plus de tournois du Grand Chelem?",
+        "options": [
+            "Venus",
+            "Serena",
+            "Simona",
+            "Maria"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la durée d'un match de basket en compétitions FIBA?",
+        "options": [
+            "48 minutes",
+            "36 minutes",
+            "40 minutes",
+            "45 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la couleur du kimono traditionnel en judo?",
+        "options": [
+            "Rouge",
+            "Noir",
+            "Bleu",
+            "Blanc"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a gagné la médaille d'or au 100m masculin aux Jeux Olympiques de Tokyo 2021?",
+        "options": [
+            "Lamont Marcell Jacobs",
+            "Fred Kerley",
+            "Andre De Grasse",
+            "Noah Lyles"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le record du monde du marathon masculin?",
+        "options": [
+            "2h03m",
+            "2h01m",
+            "2h05m",
+            "2h10m"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de fois par semaine est recommandé de faire de l'exercice physique selon l'OMS?",
+        "options": [
+            "2 fois",
+            "3 fois",
+            "5 fois",
+            "7 fois"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le pays d'origine du karaté?",
+        "options": [
+            "Chine",
+            "Corée",
+            "Thaïlande",
+            "Japon"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dans quel sport le terme 'ace' est-il utilisé?",
+        "options": [
+            "Tennis",
+            "Volleyball",
+            "Football",
+            "Basketball"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel pays est réputé pour le cricket?",
+        "options": [
+            "France",
+            "Inde",
+            "Russie",
+            "Brésil"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la longueur d'une piscine olympique?",
+        "options": [
+            "25 mètres",
+            "75 mètres",
+            "50 mètres",
+            "100 mètres"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle équipe a remporté le plus de Super Bowls?",
+        "options": [
+            "Dallas Cowboys",
+            "Green Bay Packers",
+            "San Francisco 49ers",
+            "New England Patriots/Pittsburgh Steelers"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "En football, quelle équipe a remporté la Coupe du Monde 2022?",
+        "options": [
+            "Argentine",
+            "France",
+            "Brésil",
+            "Espagne"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le surnom de l'équipe nationale de rugby de Nouvelle-Zélande?",
+        "options": [
+            "All Blacks",
+            "Wallabies",
+            "Springboks",
+            "Pumas"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle ville a accueilli les Jeux Olympiques d'été de 2012?",
+        "options": [
+            "Pékin",
+            "Londres",
+            "Rio de Janeiro",
+            "Tokyo"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel joueur de tennis espagnol est connu comme le 'Roi de la terre battue'?",
+        "options": [
+            "Carlos Alcaraz",
+            "David Ferrer",
+            "Rafael Nadal",
+            "Juan Carlos Ferrero"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans quel sport utilise-t-on le terme 'smash'?",
+        "options": [
+            "Basketball",
+            "Football",
+            "Handball",
+            "Badminton"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle course cycliste est surnommée 'La Grande Boucle'?",
+        "options": [
+            "Tour de France",
+            "Giro d'Italia",
+            "Vuelta a España",
+            "Tour de Suisse"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "À quelle altitude est située la ligne de but dans un but de football?",
+        "options": [
+            "2,34 m",
+            "2,44 m",
+            "2,54 m",
+            "2,64 m"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure une mi-temps au football américain de la NFL?",
+        "options": [
+            "10 minutes",
+            "12 minutes",
+            "15 minutes",
+            "20 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du stade du Real Madrid?",
+        "options": [
+            "Camp Nou",
+            "Allianz Arena",
+            "Mestalla",
+            "Santiago Bernabéu"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dans quel sport est décerné le trophée Vezina?",
+        "options": [
+            "Hockey sur glace",
+            "Football américain",
+            "Baseball",
+            "Basketball"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "En natation, quelle est la distance d'un bassin olympique?",
+        "options": [
+            "25 mètres",
+            "50 mètres",
+            "75 mètres",
+            "100 mètres"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de manches compte un match de baseball professionnel?",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le tournoi de golf le plus ancien au monde?",
+        "options": [
+            "US Open",
+            "Masters d'Augusta",
+            "PGA Championship",
+            "The Open Championship"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle équipe de football a gagné le plus de Coupes du Monde?",
+        "options": [
+            "Brésil",
+            "Allemagne",
+            "Italie",
+            "Argentine"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la hauteur officielle d'un filet de volleyball?",
+        "options": [
+            "2,13 m",
+            "2,43 m",
+            "2,24 m",
+            "2,35 m"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la distance d'un sprint de vitesse en athlétisme, après le 100m et le 200m?",
+        "options": [
+            "300m",
+            "350m",
+            "400m",
+            "500m"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le poids d'une boule de bowling standard pour les hommes?",
+        "options": [
+            "5 kg",
+            "6 kg",
+            "7 kg",
+            "7,3 kg"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dans quel sport a excellé Jack Nicklaus?",
+        "options": [
+            "Golf",
+            "Tennis",
+            "Baseball",
+            "Football américain"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle ville se trouve le stade de Wembley?",
+        "options": [
+            "Manchester",
+            "Londres",
+            "Liverpool",
+            "Birmingham"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de points vaut un panier à trois points en basketball?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du championnat de football espagnol?",
+        "options": [
+            "Serie A",
+            "Bundesliga",
+            "Premier League",
+            "La Liga"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel sport pratiquait Wayne Gretzky?",
+        "options": [
+            "Hockey sur glace",
+            "Football américain",
+            "Baseball",
+            "Basketball"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la durée réglementaire d'un match de basketball FIBA?",
+        "options": [
+            "48 minutes",
+            "40 minutes",
+            "36 minutes",
+            "44 minutes"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs y a-t-il dans une équipe de football à 7?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du trophée remis au vainqueur du championnat de hockey sur glace NHL?",
+        "options": [
+            "Trophée Maurice Richard",
+            "Trophée Hart",
+            "Trophée Art Ross",
+            "Coupe Stanley"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a remporté le plus de Ballons d'Or dans l'histoire du football?",
+        "options": [
+            "Lionel Messi",
+            "Cristiano Ronaldo",
+            "Michel Platini",
+            "Johan Cruyff"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel sport le terme 'uppercut' est-il utilisé?",
+        "options": [
+            "Escrime",
+            "Boxe",
+            "Tennis",
+            "Judo"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de joueurs composent une équipe de basketball sur le terrain?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "À quelle distance se situe la ligne des trois points en NBA?",
+        "options": [
+            "6,25 mètres",
+            "6,50 mètres",
+            "6,75 mètres",
+            "7,24 mètres"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le sport national de la Nouvelle-Zélande?",
+        "options": [
+            "Rugby",
+            "Cricket",
+            "Netball",
+            "Football"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la durée d'un combat de boxe amateur?",
+        "options": [
+            "5 rounds de 2 minutes",
+            "3 rounds de 3 minutes",
+            "4 rounds de 2 minutes",
+            "6 rounds de 2 minutes"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de temps dure une période de jeu en hockey sur glace?",
+        "options": [
+            "15 minutes",
+            "25 minutes",
+            "20 minutes",
+            "30 minutes"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle discipline ne fait pas partie du triathlon?",
+        "options": [
+            "Natation",
+            "Course à pied",
+            "Cyclisme",
+            "Canoë-kayak"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel joueur de tennis a remporté le plus de tournois du Grand Chelem en simple messieurs?",
+        "options": [
+            "Novak Djokovic",
+            "Roger Federer",
+            "Rafael Nadal",
+            "Pete Sampras"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la durée d'un match de hockey sur gazon?",
+        "options": [
+            "70 minutes",
+            "60 minutes",
+            "80 minutes",
+            "90 minutes"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le diamètre d'un terrain de basketball FIBA?",
+        "options": [
+            "26 mètres",
+            "24 mètres",
+            "28 mètres",
+            "30 mètres"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la longueur standard d'une canne de hockey sur glace?",
+        "options": [
+            "1,30 mètre",
+            "1,40 mètre",
+            "1,50 mètre",
+            "1,60 mètre"
+        ],
+        "answer": 3
+    }
+]

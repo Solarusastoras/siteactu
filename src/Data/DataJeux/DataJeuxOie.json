@@ -1,0 +1,123 @@
+{
+  "specialCases": {
+    "5": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "6": {
+      "type": "pont",
+      "action": "payToJump",
+      "value": 12,
+      "tokenCost": 1,
+      "message": "Pont! Payez 1 jeton pour avancer jusqu'à la case 12."
+    },
+    "9": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "14": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "18": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "19": {
+      "type": "hotel",
+      "action": "skipAndPay",
+      "value": 2,
+      "tokenCost": 1,
+      "message": "Hôtel ! Payez 1 jeton et passez 2 tours pour reprendre des forces."
+    },
+    "23": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "27": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "31": {
+      "type": "puits",
+      "action": "trapped",
+      "value": 0,
+      "tokenCost": 1,
+      "message": "Puits ! Vous êtes piégé jusqu'à ce qu'un autre joueur vous sauve, il paiera 1 jeton."
+    },
+    "32": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "36": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "41": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "42": {
+      "type": "labyrinthe",
+      "action": "gobackAndPay",
+      "value": 30,
+      "tokenCost": 1,
+      "message": "Labyrinthe ! Payez 1 jeton et retournez à la case 30."
+    },
+    "45": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "50": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "52": {
+      "type": "prison",
+      "action": "trapped",
+      "value": 0,
+      "tokenCost": 1,
+      "message": "Prison ! Vous êtes enfermé jusqu'à ce qu'un autre joueur vous délivre, il paiera 1 jeton."
+    },
+    "54": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    },
+    "58": {
+      "type": "mort",
+      "action": "restart",
+      "value": 0,
+      "message": "Vous vous êtes endormi ! Retournez à la case départ."
+    },
+    "59": {
+      "type": "oie",
+      "action": "double",
+      "value": 0,
+      "message": "Oie ! Avancez encore du même nombre de cases."
+    }
+  }
+}

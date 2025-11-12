@@ -1,0 +1,1132 @@
+[
+    {
+        "question": "Quel est le nom du héros principal de One Piece ?",
+        "options": [
+            "Zoro",
+            "Sanji",
+            "Luffy",
+            "Ace"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans Dragon Ball Z, combien de Dragon Balls faut-il réunir pour invoquer Shenron ?",
+        "options": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le jeu vidéo le plus vendu de tous les temps ?",
+        "options": [
+            "Minecraft",
+            "Tetris",
+            "GTA V",
+            "Super Mario Bros"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le prénom du personnage principal de la saga Zelda ?",
+        "options": [
+            "Link",
+            "Zelda",
+            "Ganondorf",
+            "Epona"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le studio de développement derrière la série des jeux 'The Legend of Zelda'?",
+        "options": [
+            "Nintendo",
+            "Sega",
+            "Square Enix",
+            "Capcom"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel manga trouve-t-on les personnages Sasuke et Sakura?",
+        "options": [
+            "One Piece",
+            "Naruto",
+            "Bleach",
+            "Dragon Ball"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle console a été commercialisée par Sony en 1994?",
+        "options": [
+            "Nintendo 64",
+            "Sega Saturn",
+            "PlayStation",
+            "Xbox"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du protagoniste dans 'Death Note'?",
+        "options": [
+            "L",
+            "Near",
+            "Mello",
+            "Light Yagami"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le créateur de la série 'Metal Gear Solid'?",
+        "options": [
+            "Hideo Kojima",
+            "Shigeru Miyamoto",
+            "Hironobu Sakaguchi",
+            "Hidetaka Miyazaki"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du monde dans 'Minecraft'?",
+        "options": [
+            "Terra",
+            "The Overworld",
+            "Minecraftia",
+            "Blocky World"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom de l'école de magie dans 'Little Witch Academia'?",
+        "options": [
+            "Hogwarts",
+            "Beauxbatons",
+            "Luna Nova",
+            "Magic Academy"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le rival principal de Sonic the Hedgehog?",
+        "options": [
+            "Knuckles",
+            "Tails",
+            "Shadow",
+            "Dr. Robotnik/Eggman"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la capacité spéciale de Monkey D. Luffy dans 'One Piece'?",
+        "options": [
+            "Corps élastique",
+            "Contrôle du feu",
+            "Transformation en animal",
+            "Invisibilité"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel jeu vidéo le personnage principal doit-il sauver la princesse Peach?",
+        "options": [
+            "The Legend of Zelda",
+            "Super Mario Bros.",
+            "Donkey Kong Country",
+            "Kirby's Adventure"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel manga suit l'histoire d'un garçon qui peut voir des esprits?",
+        "options": [
+            "Tokyo Ghoul",
+            "Death Note",
+            "Bleach",
+            "Jujutsu Kaisen"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel jeu utilise le moteur physique 'Havok'?",
+        "options": [
+            "Fortnite",
+            "Minecraft",
+            "Terraria",
+            "Half-Life 2"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la première console de jeux vidéo de Nintendo?",
+        "options": [
+            "Famicom/NES",
+            "Game & Watch",
+            "Game Boy",
+            "Super Nintendo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel manga raconte l'histoire de titans qui attaquent l'humanité?",
+        "options": [
+            "My Hero Academia",
+            "Attack on Titan",
+            "One Punch Man",
+            "Demon Slayer"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du protagoniste dans 'Final Fantasy VII'?",
+        "options": [
+            "Squall Leonhart",
+            "Tidus",
+            "Cloud Strife",
+            "Noctis Lucis Caelum"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans 'Pokémon', quel type est inefficace contre les Pokémon de type Dragon?",
+        "options": [
+            "Eau",
+            "Feu",
+            "Plante",
+            "Fée"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a créé le manga 'Dragon Ball'?",
+        "options": [
+            "Akira Toriyama",
+            "Masashi Kishimoto",
+            "Eiichiro Oda",
+            "Tite Kubo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel jeu vidéo a introduit le personnage de Solid Snake?",
+        "options": [
+            "Contra",
+            "Metal Gear",
+            "Splinter Cell",
+            "Call of Duty"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans 'Naruto', quel est le nom du village caché où réside le protagoniste?",
+        "options": [
+            "Village caché de la Pluie",
+            "Village caché du Sable",
+            "Village caché de la Feuille",
+            "Village caché de la Brume"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le personnage emblématique de la franchise 'The Legend of Zelda'?",
+        "options": [
+            "Ganondorf",
+            "Zelda",
+            "Impa",
+            "Link"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle société a développé le jeu 'Fortnite'?",
+        "options": [
+            "Epic Games",
+            "Blizzard",
+            "Electronic Arts",
+            "Ubisoft"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du frère aîné de Sasuke Uchiha dans 'Naruto'?",
+        "options": [
+            "Madara",
+            "Itachi",
+            "Obito",
+            "Shisui"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la première console de jeux vidéo à utiliser des CD-ROM?",
+        "options": [
+            "Sega Genesis",
+            "Nintendo 64",
+            "Sega CD",
+            "PlayStation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du roi des pirates dans 'One Piece'?",
+        "options": [
+            "Monkey D. Luffy",
+            "Shanks",
+            "Barbe Blanche",
+            "Gol D. Roger"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu vidéo a été le premier à proposer un 'monde ouvert' en 3D?",
+        "options": [
+            "Grand Theft Auto III",
+            "The Elder Scrolls II: Daggerfall",
+            "Super Mario 64",
+            "The Legend of Zelda: Ocarina of Time"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Death Note', quel est le nom du shinigami qui laisse tomber son carnet dans le monde humain?",
+        "options": [
+            "Rem",
+            "Ryuk",
+            "Gelus",
+            "Sidoh"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du studio d'animation qui a produit 'Mon voisin Totoro'?",
+        "options": [
+            "Toei Animation",
+            "Madhouse",
+            "Studio Ghibli",
+            "Kyoto Animation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la capacité spéciale des Uchiha dans 'Naruto'?",
+        "options": [
+            "Byakugan",
+            "Rinnegan",
+            "Mokuton",
+            "Sharingan"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle entreprise a créé la console Xbox?",
+        "options": [
+            "Microsoft",
+            "Sony",
+            "Nintendo",
+            "Sega"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel manga met en scène des Pirates qui recherchent le One Piece?",
+        "options": [
+            "Black Clover",
+            "One Piece",
+            "Fairy Tail",
+            "Hunter x Hunter"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel jeu vidéo met en scène un plombier italien?",
+        "options": [
+            "Sonic the Hedgehog",
+            "Crash Bandicoot",
+            "Super Mario Bros.",
+            "The Legend of Zelda"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du vaisseau spatial de Spike Spiegel dans 'Cowboy Bebop'?",
+        "options": [
+            "Red Tail",
+            "Hammer Head",
+            "Bebop",
+            "Swordfish II"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le personnage principal de 'My Hero Academia'?",
+        "options": [
+            "Izuku Midoriya",
+            "Katsuki Bakugo",
+            "Shoto Todoroki",
+            "All Might"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du héros dans 'The Legend of Zelda'?",
+        "options": [
+            "Zelda",
+            "Link",
+            "Ganon",
+            "Epona"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans 'Demon Slayer', quel est le style de respiration principal de Tanjiro?",
+        "options": [
+            "Respiration de l'eau",
+            "Respiration du feu",
+            "Respiration du soleil",
+            "Respiration de la bête"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de la princesse que Link doit sauver dans 'The Legend of Zelda'?",
+        "options": [
+            "Daisy",
+            "Peach",
+            "Midna",
+            "Zelda"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du Pokémon numéro 001 dans le Pokédex?",
+        "options": [
+            "Bulbizarre",
+            "Salamèche",
+            "Carapuce",
+            "Pikachu"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel personnage de 'Dragon Ball Z' est connu pour son attaque 'Final Flash'?",
+        "options": [
+            "Goku",
+            "Vegeta",
+            "Piccolo",
+            "Gohan"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la créature principale que Ash Ketchum capture au début de 'Pokémon'?",
+        "options": [
+            "Salamèche",
+            "Carapuce",
+            "Pikachu",
+            "Evoli"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel jeu a popularisé le genre 'Battle Royale'?",
+        "options": [
+            "Call of Duty: Warzone",
+            "Apex Legends",
+            "Fortnite",
+            "PlayerUnknown's Battlegrounds"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du protagoniste dans 'Fullmetal Alchemist'?",
+        "options": [
+            "Edward Elric",
+            "Alphonse Elric",
+            "Roy Mustang",
+            "Scar"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du monde dans lequel se déroule 'The Legend of Zelda'?",
+        "options": [
+            "Midgar",
+            "Hyrule",
+            "Azeroth",
+            "Tamriel"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la profession de Satoshi dans 'Pokémon'?",
+        "options": [
+            "Chercheur Pokémon",
+            "Champion d'arène",
+            "Dresseur Pokémon",
+            "Docteur Pokémon"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du personnage principal de 'Trigun'?",
+        "options": [
+            "Nicholas D. Wolfwood",
+            "Legato Bluesummers",
+            "Millions Knives",
+            "Vash the Stampede"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel manga suit l'histoire d'un lycéen qui trouve un carnet permettant de tuer quiconque dont le nom y est inscrit?",
+        "options": [
+            "Death Note",
+            "Bleach",
+            "Code Geass",
+            "Tokyo Ghoul"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Fullmetal Alchemist', quel est le principe fondamental de l'alchimie?",
+        "options": [
+            "La conservation de l'énergie",
+            "L'échange équivalent",
+            "La transmutation circulaire",
+            "La loi de causalité"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom de l'attaque signature de Son Goku dans 'Dragon Ball'?",
+        "options": [
+            "Final Flash",
+            "Makankosappo",
+            "Kamehameha",
+            "Spirit Bomb"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du studio fondé par Hayao Miyazaki?",
+        "options": [
+            "Toei Animation",
+            "Bones",
+            "Madhouse",
+            "Studio Ghibli"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu vidéo a été développé par Mojang Studios?",
+        "options": [
+            "Minecraft",
+            "Terraria",
+            "Roblox",
+            "Fortnite"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel anime met en scène des humains qui se transforment en titans?",
+        "options": [
+            "Tokyo Ghoul",
+            "Attack on Titan",
+            "Kabaneri of the Iron Fortress",
+            "Parasyte"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle console a introduit la manette analogique?",
+        "options": [
+            "Super Nintendo",
+            "Sega Saturn",
+            "Nintendo 64",
+            "PlayStation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel personnage de 'JoJo's Bizarre Adventure' peut arrêter le temps?",
+        "options": [
+            "Joseph Joestar",
+            "Jotaro Kujo",
+            "Josuke Higashikata",
+            "Dio Brando"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu vidéo a popularisé le genre 'Souls-like'?",
+        "options": [
+            "Dark Souls",
+            "Bloodborne",
+            "Demon's Souls",
+            "Sekiro: Shadows Die Twice"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom de l'épée de Kirito dans 'Sword Art Online'?",
+        "options": [
+            "Dark Repulser",
+            "Elucidator",
+            "Lambent Light",
+            "Excalibur"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la console de jeu la plus vendue de tous les temps?",
+        "options": [
+            "Xbox 360",
+            "Wii",
+            "PlayStation 2",
+            "Nintendo DS"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans 'Hunter x Hunter', quel est le nom de la force que les personnages utilisent?",
+        "options": [
+            "Chakra",
+            "Ki",
+            "Reiatsu",
+            "Nen"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle société a développé 'World of Warcraft'?",
+        "options": [
+            "Blizzard Entertainment",
+            "Electronic Arts",
+            "Ubisoft",
+            "Square Enix"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Dragon Ball', quelle planète est la patrie des Saiyans?",
+        "options": [
+            "Namek",
+            "Vegeta",
+            "Terre",
+            "Yardrat"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du jeu vidéo où les joueurs construisent et explorent un monde cubique?",
+        "options": [
+            "Roblox",
+            "Terraria",
+            "Minecraft",
+            "Starbound"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le rival de Yugi Muto dans 'Yu-Gi-Oh!'?",
+        "options": [
+            "Joey Wheeler",
+            "Maximillion Pegasus",
+            "Marik Ishtar",
+            "Seto Kaiba"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du personnage principal dans 'Assassin's Creed'?",
+        "options": [
+            "Desmond Miles",
+            "Ezio Auditore",
+            "Connor Kenway",
+            "Altaïr Ibn-La'Ahad"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quel manga trouve-t-on le personnage principal qui a un chapeau de paille?",
+        "options": [
+            "Naruto",
+            "One Piece",
+            "Bleach",
+            "Fairy Tail"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle console a été commercialisée par Nintendo en 2006?",
+        "options": [
+            "GameCube",
+            "Nintendo DS",
+            "Wii",
+            "Nintendo Switch"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel personnage de 'Fairy Tail' utilise la magie 'Dragon Slayer de feu'?",
+        "options": [
+            "Gray Fullbuster",
+            "Lucy Heartfilia",
+            "Erza Scarlet",
+            "Natsu Dragneel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du créateur de 'Final Fantasy'?",
+        "options": [
+            "Hironobu Sakaguchi",
+            "Shigeru Miyamoto",
+            "Hideo Kojima",
+            "Sid Meier"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Attack on Titan', quel est le nom du personnage principal?",
+        "options": [
+            "Mikasa Ackerman",
+            "Eren Yeager",
+            "Armin Arlert",
+            "Levi Ackerman"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel jeu vidéo met en scène un protagoniste nommé Gordon Freeman?",
+        "options": [
+            "Doom",
+            "Quake",
+            "Half-Life",
+            "System Shock"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de l'organisation criminelle dans 'Pokémon'?",
+        "options": [
+            "Team Magma",
+            "Team Aqua",
+            "Team Galactic",
+            "Team Rocket"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la première console de jeux vidéo à avoir utilisé un lecteur DVD?",
+        "options": [
+            "PlayStation 2",
+            "Xbox",
+            "GameCube",
+            "Dreamcast"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel manga raconte l'histoire d'un ninja blond nommé Naruto?",
+        "options": [
+            "Bleach",
+            "Naruto",
+            "One Piece",
+            "Dragon Ball"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans quel jeu vidéo le protagoniste utilise-t-il un 'Pip-Boy'?",
+        "options": [
+            "The Elder Scrolls",
+            "Metro",
+            "Fallout",
+            "BioShock"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le créateur du manga 'Jojo's Bizarre Adventure'?",
+        "options": [
+            "Akira Toriyama",
+            "Eiichiro Oda",
+            "Masashi Kishimoto",
+            "Hirohiko Araki"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu a remporté le prix du 'Jeu de l'année' aux Game Awards 2020?",
+        "options": [
+            "The Last of Us Part II",
+            "Ghost of Tsushima",
+            "Final Fantasy VII Remake",
+            "Hades"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel anime met en scène des élèves qui s'affrontent dans des duels utilisant des cartes à jouer?",
+        "options": [
+            "Beyblade",
+            "Yu-Gi-Oh!",
+            "Cardfight!! Vanguard",
+            "Pokémon"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel personnage peut se transformer en titan colossal dans 'Attack on Titan'?",
+        "options": [
+            "Eren Yeager",
+            "Annie Leonhart",
+            "Bertolt Hoover",
+            "Reiner Braun"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du professeur qui donne son premier Pokémon à Ash dans 'Pokémon'?",
+        "options": [
+            "Professeur Sycamore",
+            "Professeur Elm",
+            "Professeur Oak",
+            "Professeur Chen"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le créateur de 'Super Mario Bros.'?",
+        "options": [
+            "Shigeru Miyamoto",
+            "Satoshi Tajiri",
+            "Hideo Kojima",
+            "Yuji Naka"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du protagoniste de 'Sword Art Online'?",
+        "options": [
+            "Asuna",
+            "Kirito",
+            "Klein",
+            "Agil"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel jeu se déroule dans le monde post-apocalyptique de 'Midgar'?",
+        "options": [
+            "The Last of Us",
+            "Fallout",
+            "Final Fantasy VII",
+            "Metro 2033"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de la sœur de Tanjiro dans 'Demon Slayer'?",
+        "options": [
+            "Kanao",
+            "Shinobu",
+            "Mitsuri",
+            "Nezuko"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du célèbre hérisson bleu créé par Sega?",
+        "options": [
+            "Sonic",
+            "Tails",
+            "Knuckles",
+            "Shadow"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Naruto', quel village est connu comme le 'Village caché du Sable'?",
+        "options": [
+            "Konoha",
+            "Sunagakure",
+            "Iwagakure",
+            "Kirigakure"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la capacité principale de Monkey D. Luffy dans 'One Piece'?",
+        "options": [
+            "Contrôle du feu",
+            "Transformation en animal",
+            "Corps élastique",
+            "Invisibilité"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le personnage principal de 'Code Geass'?",
+        "options": [
+            "Suzaku Kururugi",
+            "C.C.",
+            "Kallen Stadtfeld",
+            "Lelouch Lamperouge"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la principale série de jeux de Nintendo?",
+        "options": [
+            "Super Mario",
+            "The Legend of Zelda",
+            "Pokémon",
+            "Animal Crossing"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel manga raconte l'histoire d'un monde où 80% de la population possède des super-pouvoirs?",
+        "options": [
+            "Black Clover",
+            "My Hero Academia",
+            "Fairy Tail",
+            "Hunter x Hunter"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est l'arme emblématique de Cloud Strife dans 'Final Fantasy VII'?",
+        "options": [
+            "Gunblade",
+            "Save the Queen",
+            "Buster Sword",
+            "Ultima Weapon"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans 'Pokémon', quelle est l'évolution finale de Pikachu?",
+        "options": [
+            "Pichu",
+            "Pikachu",
+            "Raichu",
+            "Raichu d'Alola"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du robot géant piloté par Shinji Ikari dans 'Neon Genesis Evangelion'?",
+        "options": [
+            "EVA-00",
+            "EVA-02",
+            "NERV",
+            "EVA-01"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu a pour protagoniste un plombier italien qui saute sur des briques?",
+        "options": [
+            "Super Mario Bros.",
+            "Sonic the Hedgehog",
+            "Mega Man",
+            "Crash Bandicoot"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du rival de Yugi Muto dans 'Yu-Gi-Oh!'?",
+        "options": [
+            "Joey Wheeler",
+            "Seto Kaiba",
+            "Maximillion Pegasus",
+            "Bakura Ryou"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la monnaie utilisée dans l'univers de 'The Legend of Zelda'?",
+        "options": [
+            "Or",
+            "Joyaux",
+            "Rubis",
+            "Pièces"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de l'école dans 'My Hero Academia'?",
+        "options": [
+            "École Nekoma",
+            "Académie Kunugigaoka",
+            "Lycée Aldera",
+            "UA High School"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu de combat a pour personnages emblématiques Ryu et Ken?",
+        "options": [
+            "Street Fighter",
+            "Mortal Kombat",
+            "Tekken",
+            "Soul Calibur"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'Dragon Ball', quelle est la technique de fusion utilisée par Goten et Trunks?",
+        "options": [
+            "Potara",
+            "Fusion Dance",
+            "Spirit Bomb",
+            "Kamehameha"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel personnage de 'One Piece' est un squelette musicien?",
+        "options": [
+            "Usopp",
+            "Franky",
+            "Brook",
+            "Chopper"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le frère d'Itachi Uchiha dans 'Naruto'?",
+        "options": [
+            "Naruto",
+            "Kakashi",
+            "Gaara",
+            "Sasuke"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel jeu vidéo a popularisé le genre 'Battle Royale'?",
+        "options": [
+            "PlayerUnknown's Battlegrounds",
+            "Fortnite",
+            "Apex Legends",
+            "Call of Duty: Warzone"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du créateur de 'One Piece'?",
+        "options": [
+            "Masashi Kishimoto",
+            "Eiichiro Oda",
+            "Akira Toriyama",
+            "Tite Kubo"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans 'Pokémon', quel type est super efficace contre le type eau?",
+        "options": [
+            "Feu",
+            "Sol",
+            "Électrique",
+            "Roche"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du personnage principal dans 'Steins;Gate'?",
+        "options": [
+            "Kurisu Makise",
+            "Mayuri Shiina",
+            "Itaru Hashida",
+            "Rintaro Okabe"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du monde dans 'Minecraft'?",
+        "options": [
+            "The Overworld",
+            "The End",
+            "The Nether",
+            "The Aether"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel personnage de 'Demon Slayer' est connu pour porter un masque de sanglier?",
+        "options": [
+            "Zenitsu",
+            "Inosuke",
+            "Tanjiro",
+            "Giyu"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle console portable a été lancée par Nintendo en 2004?",
+        "options": [
+            "Game Boy Advance",
+            "3DS",
+            "Nintendo DS",
+            "PSP"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le méchant principal dans 'JoJo's Bizarre Adventure: Phantom Blood'?",
+        "options": [
+            "Kars",
+            "Yoshikage Kira",
+            "Diavolo",
+            "Dio Brando"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du village natal de Naruto Uzumaki?",
+        "options": [
+            "Konoha",
+            "Suna",
+            "Kiri",
+            "Iwa"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans 'My Hero Academia', quel est le nom du Quirk de All Might?",
+        "options": [
+            "Half-Hot Half-Cold",
+            "One For All",
+            "Explosion",
+            "All For One"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle série de jeux vidéo propose de collectionner des monstres dans des Poké Balls?",
+        "options": [
+            "Digimon",
+            "Monster Hunter",
+            "Pokémon",
+            "Yo-kai Watch"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du personnage principal d'Evangelion?",
+        "options": [
+            "Rei Ayanami",
+            "Asuka Langley",
+            "Misato Katsuragi",
+            "Shinji Ikari"
+        ],
+        "answer": 3
+    }
+]

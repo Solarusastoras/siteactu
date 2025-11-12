@@ -1,0 +1,80 @@
+{
+  "theme-egypt": [
+    { "label": "0 €", "value": 0 },
+    { "label": "100 €", "value": 100 },
+    { "label": "200 €", "value": 200 },
+    { "label": "300 €", "value": 300 },
+    { "label": "500 €", "value": 500 },
+    { "label": "1 000 €", "value": 1000 },
+    { "label": "2 000 €", "value": 2000 },
+    { "label": "4 000 €", "value": 4000 },
+    { "label": "8 000 €", "value": 8000 },
+    { "label": "16 000 €", "value": 16000 },
+    { "label": "32 000 €", "value": 32000 },
+    { "label": "64 000 €", "value": 64000 },
+    { "label": "125 000 €", "value": 125000 },
+    { "label": "250 000 €", "value": 250000 },
+    { "label": "1 000 000 €", "value": 1000000 }
+  ],
+  "theme-moyenage": [
+    { "label": "Serf", "value": 0 },
+    { "label": "Paysan", "value": 100 },
+    { "label": "Artisan", "value": 200 },
+    { "label": "Marchand", "value": 300 },
+    { "label": "Chevalier", "value": 500 },
+    { "label": "Baron", "value": 1000 },
+    { "label": "Comte", "value": 2000 },
+    { "label": "Duc", "value": 4000 },
+    { "label": "Prince", "value": 8000 },
+    { "label": "Roi", "value": 16000 },
+    { "label": "Empereur", "value": 32000 }
+  ],
+  "theme-football": [
+    { "label": "Débutant", "value": 0 },
+    { "label": "Amateur", "value": 100 },
+    { "label": "Régional", "value": 200 },
+    { "label": "National", "value": 300 },
+    { "label": "Professionnel", "value": 500 },
+    { "label": "International", "value": 1000 },
+    { "label": "Star", "value": 2000 },
+    { "label": "Légende", "value": 4000 }
+  ],
+  "theme-science": [
+    { "label": "Étudiant", "value": 0 },
+    { "label": "Bachelier", "value": 100 },
+    { "label": "Licence", "value": 200 },
+    { "label": "Master", "value": 300 },
+    { "label": "Doctorant", "value": 500 },
+    { "label": "Docteur", "value": 1000 },
+    { "label": "Chercheur", "value": 2000 },
+    { "label": "Professeur", "value": 4000 },
+    { "label": "Prix Nobel", "value": 8000 }
+  ],
+  "theme-girly": [
+    { "label": "Novice", "value": 0 },
+    { "label": "Apprenti", "value": 100 },
+    { "label": "Initié", "value": 200 },
+    { "label": "Confirmé", "value": 300 },
+    { "label": "Expert", "value": 500 },
+    { "label": "Maître", "value": 1000 },
+    { "label": "Grand Maître", "value": 2000 },
+    { "label": "Sage", "value": 4000 }
+  ],
+  "theme-argent": [
+    { "label": "0 €", "value": 0 },
+    { "label": "100 €", "value": 100 },
+    { "label": "200 €", "value": 200 },
+    { "label": "300 €", "value": 300 },
+    { "label": "500 €", "value": 500 },
+    { "label": "1 000 €", "value": 1000 },
+    { "label": "2 000 €", "value": 2000 },
+    { "label": "4 000 €", "value": 4000 },
+    { "label": "8 000 €", "value": 8000 },
+    { "label": "16 000 €", "value": 16000 },
+    { "label": "32 000 €", "value": 32000 },
+    { "label": "64 000 €", "value": 64000 },
+    { "label": "125 000 €", "value": 125000 },
+    { "label": "250 000 €", "value": 250000 },
+    { "label": "1 000 000 €", "value": 1000000 }
+  ]
+}

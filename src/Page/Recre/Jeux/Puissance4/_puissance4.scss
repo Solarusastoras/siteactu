@@ -1,0 +1,581 @@
+.puissance4 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Roboto", "Arial", sans-serif;
+
+  .game-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(to right, #ffc107, #ff9800);
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+  }
+
+  .token-selector {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    span {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .token-options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+
+      button {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+        background-color: white;
+        border: 2px solid #e0e0e0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &.selected {
+          border-color: #ffc107;
+          box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+          transform: scale(1.1);
+        }
+
+        &:hover:not(:disabled):not(.selected) {
+          border-color: #ffc107;
+          transform: translateY(-3px);
+        }
+
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+
+  .mode-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #333;
+
+      input[type="radio"] {
+        // accent-color: #FFC107; /* Couleur personnalisée pour les boutons radio */
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        appearance: none;
+        border: 2px solid #ffc107;
+        border-radius: 50%;
+        background: #fff;
+        position: relative;
+        outline: none;
+        transition: border-color 0.2s;
+
+        &:checked {
+          background: #ffc107;
+          border-color: #ffc107;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.3);
+        }
+      }
+    }
+  }
+
+  .victory-counter {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    p {
+      margin: 5px 0;
+      font-weight: bold;
+      color: #333;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom, #f44336, #d32f2f);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: linear-gradient(to bottom, #e53935, #c62828);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+
+  .game-rules {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    p {
+      margin: 0;
+      text-align: center;
+    }
+
+    strong {
+      color: #ffc107;
+    }
+  }
+
+  .player2-tokens {
+    margin-top: 15px;
+    border-top: 1px dashed #e0e0e0;
+    padding-top: 15px;
+  }
+
+  .game-status {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .column-buttons {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 5px;
+
+    .column-button {
+      background: linear-gradient(to bottom, #ffc107, #ff9800);
+      color: white;
+      border: none;
+      border-radius: 10px 10px 0 0;
+      padding: 10px 0;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover:not(:disabled) {
+        background: linear-gradient(to bottom, #ffd54f, #ffa726);
+        transform: translateY(-3px);
+      }
+
+      &:disabled {
+        background: #bdbdbd;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .game-grid {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    width: 100%;
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+
+      .cell {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        cursor: default;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+
+        // Nouveau conteneur pour centrer correctement le jeton
+        &::before {
+          content: attr(data-token);
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 5rem; // Taille triplée (2.5rem * 3)
+          line-height: 1; // Empêcher les problèmes de hauteur de ligne
+          transform: scale(1); // Légère réduction pour éviter les débordements
+        }
+
+        &:empty {
+          background-color: white;
+        }
+
+        // Modifier cette règle pour cibler les cellules avec un jeton
+        &[data-token]:not([data-token=""]) {
+          // Appliquer l'animation au pseudo-élément
+          &::before {
+            animation: drop-token 0.5s cubic-bezier(0.5, 0, 1, 1);
+          }
+        }
+      }
+    }
+  }
+
+  .restart-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    background: linear-gradient(to bottom, #f44336, #d32f2f);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background: linear-gradient(to bottom, #e53935, #c62828);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .difficulty-selector {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .difficulty-options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+
+      .difficulty-option {
+        flex: 1;
+        min-width: 120px;
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background: white;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &.selected {
+          border-color: #ffc107;
+          background-color: rgba(255, 193, 7, 0.1);
+          box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
+          transform: translateY(-3px);
+        }
+
+        &:hover:not(.selected) {
+          border-color: #ffecb3;
+          transform: translateY(-2px);
+        }
+
+        input[type="radio"] {
+          position: absolute;
+          opacity: 0;
+        }
+
+        .difficulty-name {
+          font-weight: bold;
+          font-size: 1.1rem;
+          margin-bottom: 5px;
+          color: #333;
+        }
+
+        .difficulty-description {
+          font-size: 0.9rem;
+          color: #666;
+        }
+      }
+    }
+  }
+
+  // Animation pour le jeton qui tombe
+  @keyframes drop-token {
+    0% {
+      transform: translateY(-300%);
+      opacity: 0.7;
+    }
+    70% {
+      transform: translateY(10%);
+    }
+    85% {
+      transform: translateY(-5%);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+// Thème Girly
+.theme-girly .puissance4 {
+  .game-title {
+    color: #ff69b4;
+    font-family: "Comic Sans MS", cursive;
+
+    &::after {
+      background: linear-gradient(to right, #ff80ab, #f50057);
+    }
+  }
+
+  .token-selector {
+    background-color: #ffe6f2;
+
+    .token-options button {
+      &.selected {
+        border-color: #ff80ab;
+        box-shadow: 0 0 10px rgba(255, 128, 171, 0.5);
+      }
+
+      &:hover:not(:disabled):not(.selected) {
+        border-color: #ff80ab;
+      }
+    }
+  }
+
+  .game-status {
+    background-color: #ffe6f2;
+    color: #f50057;
+  }
+
+  .column-buttons .column-button {
+    background: linear-gradient(to bottom, #ff80ab, #f50057);
+
+    &:hover:not(:disabled) {
+      background: linear-gradient(to bottom, #ff4081, #c51162);
+    }
+  }
+
+  .game-grid {
+    background-color: #ff80ab;
+  }
+
+  .restart-button {
+    background: linear-gradient(to bottom, #ff80ab, #f50057);
+
+    &:hover {
+      background: linear-gradient(to bottom, #ff4081, #c51162);
+    }
+  }
+
+  .difficulty-selector {
+    background-color: #ffe6f2;
+
+    .difficulty-option.selected {
+      border-color: #ff80ab;
+      background-color: rgba(255, 128, 171, 0.1);
+    }
+  }
+}
+
+// Thème Space
+.theme-space .puissance4 {
+  .game-title {
+    color: #7986cb;
+
+    &::after {
+      background: linear-gradient(to right, #3f51b5, #1a237e);
+    }
+  }
+
+  .token-selector {
+    background-color: #1a1a4d;
+    color: #c5cae9;
+
+    .token-options button {
+      background-color: #0a0a2a;
+      border-color: #3f51b5;
+      color: white;
+
+      &.selected {
+        border-color: #7986cb;
+        box-shadow: 0 0 15px rgba(121, 134, 203, 0.7);
+      }
+
+      &:hover:not(:disabled):not(.selected) {
+        border-color: #7986cb;
+      }
+    }
+  }
+
+  .game-status {
+    background-color: #1a1a4d;
+    color: #c5cae9;
+  }
+
+  .column-buttons .column-button {
+    background: linear-gradient(to bottom, #3f51b5, #1a237e);
+
+    &:hover:not(:disabled) {
+      background: linear-gradient(to bottom, #5c6bc0, #3f51b5);
+    }
+  }
+
+  .game-grid {
+    background-color: #3f51b5;
+    box-shadow: 0 8px 16px rgba(13, 71, 161, 0.4);
+
+    .row .cell {
+      background-color: #0a0a2a;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  .restart-button {
+    background: linear-gradient(to bottom, #3f51b5, #1a237e);
+
+    &:hover {
+      background: linear-gradient(to bottom, #5c6bc0, #3f51b5);
+    }
+  }
+
+  .difficulty-selector {
+    background-color: #1a1a4d;
+    color: #c5cae9;
+
+    h3 {
+      color: #c5cae9;
+    }
+
+    .difficulty-option {
+      background-color: #0a0a2a;
+      border-color: #3f51b5;
+
+      .difficulty-name {
+        color: #c5cae9;
+      }
+
+      .difficulty-description {
+        color: #9fa8da;
+      }
+
+      &.selected {
+        border-color: #7986cb;
+        background-color: rgba(121, 134, 203, 0.2);
+      }
+    }
+  }
+}
+
+// Adaptations pour mobile
+@media (max-width: 768px) {
+  .puissance4 {
+    padding: 10px;
+
+    .game-title {
+      font-size: 2rem;
+    }
+
+    .token-selector {
+      .token-options button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+      }
+    }
+
+    .column-buttons .column-button {
+      padding: 8px 0;
+      font-size: 1rem;
+    }
+
+    .game-grid .row .cell {
+      &::before {
+        font-size: clamp(1.2rem, 5vw, 3rem);
+      }
+    }
+  }
+}
+
+// Mobile petit écran
+@media (max-width: 375px) {
+  .puissance4 .game-grid .row .cell {
+    &::before {
+      font-size: clamp(1rem, 4vw, 1.9rem);
+    }
+  }
+}
+
+// Taille par défaut pour les tablettes et écrans plus grands
+.puissance4 .game-grid .row .cell {
+  &::before {
+    font-size: clamp(
+      2rem,
+      8vw,
+      5rem
+    ); // Taille responsive qui s'adapte à la cellule
+    transform: scale(0.9); // Légère réduction pour éviter les débordements
+  }
+}

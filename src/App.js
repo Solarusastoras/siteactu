@@ -1,14 +1,12 @@
 import './App.scss';
-import AllSports from './Page/Sports/AllSports';
+import Home from './Page/Home';
 import Weather from './Page/Weather';
-import Culture from './Page/Culture';
 
 function App() {
   return (
     <div className="App">
-      <AllSports />
       <Weather />
-      <Culture />
+      <Home />
     </div>
   );
 }

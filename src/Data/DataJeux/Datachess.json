@@ -1,0 +1,37 @@
+{
+  "initialBoard": [
+    ["r", "n", "b", "q", "k", "b", "n", "r"],
+    ["p", "p", "p", "p", "p", "p", "p", "p"],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null],
+    ["P", "P", "P", "P", "P", "P", "P", "P"],
+    ["R", "N", "B", "Q", "K", "B", "N", "R"]
+  ],
+  "pieces": {
+    "p": { "name": "pawn", "value": 1, "symbol": "♟" },
+    "r": { "name": "rook", "value": 5, "symbol": "♜" },
+    "n": { "name": "knight", "value": 3, "symbol": "♞" },
+    "b": { "name": "bishop", "value": 3, "symbol": "♝" },
+    "q": { "name": "queen", "value": 9, "symbol": "♛" },
+    "k": { "name": "king", "value": 0, "symbol": "♚" },
+    "P": { "name": "pawn", "value": 1, "symbol": "♙" },
+    "R": { "name": "rook", "value": 5, "symbol": "♖" },
+    "N": { "name": "knight", "value": 3, "symbol": "♘" },
+    "B": { "name": "bishop", "value": 3, "symbol": "♗" },
+    "Q": { "name": "queen", "value": 9, "symbol": "♕" },
+    "K": { "name": "king", "value": 0, "symbol": "♔" }
+  },
+  "movePatterns": {
+    "pawn": {
+      "white": [[0, -1], [0, -2], [1, -1], [-1, -1]],
+      "black": [[0, 1], [0, 2], [1, 1], [-1, 1]]
+    },
+    "rook": [[0, 1], [1, 0], [0, -1], [-1, 0]],
+    "knight": [[1, 2], [2, 1], [2, -1], [1, -2], [-1, -2], [-2, -1], [-2, 1], [-1, 2]],
+    "bishop": [[1, 1], [1, -1], [-1, -1], [-1, 1]],
+    "queen": [[0, 1], [1, 1], [1, 0], [1, -1], [0, -1], [-1, -1], [-1, 0], [-1, 1]],
+    "king": [[0, 1], [1, 1], [1, 0], [1, -1], [0, -1], [-1, -1], [-1, 0], [-1, 1]]
+  }
+}

@@ -1,0 +1,1402 @@
+[
+    {
+        "question": "Quel est le symbole chimique de l'or?",
+        "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "O"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la planète la plus proche du soleil?",
+        "options": [
+            "Vénus",
+            "Terre",
+            "Mars",
+            "Mercure"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le composant principal de l'air que nous respirons?",
+        "options": [
+            "Oxygène",
+            "Dioxyde de carbone",
+            "Azote",
+            "Hydrogène"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la vitesse de la lumière dans le vide?",
+        "options": [
+            "300 000 km/s",
+            "150 000 km/s",
+            "200 000 km/s",
+            "250 000 km/s"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du fer?",
+        "options": [
+            "Fe",
+            "Fr",
+            "Fi",
+            "F"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la plus grande planète du système solaire?",
+        "options": [
+            "Saturne",
+            "Jupiter",
+            "Neptune",
+            "Uranus"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la formule chimique de l'eau?",
+        "options": [
+            "H₂O₂",
+            "CO₂",
+            "H₂O",
+            "O₂"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Comment appelle-t-on une étoile qui explose?",
+        "options": [
+            "Étoile filante",
+            "Pulsar",
+            "Quasar",
+            "Supernova"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est l'os le plus long du corps humain?",
+        "options": [
+            "Fémur",
+            "Tibia",
+            "Humérus",
+            "Radius"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la force électrique?",
+        "options": [
+            "Watt",
+            "Ampère",
+            "Volt",
+            "Ohm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le gaz qui donne sa couleur rouge aux enseignes lumineuses?",
+        "options": [
+            "Hélium",
+            "Xénon",
+            "Néon",
+            "Krypton"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a formulé la théorie de la relativité?",
+        "options": [
+            "Isaac Newton",
+            "Niels Bohr",
+            "Marie Curie",
+            "Albert Einstein"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est l'élément chimique le plus abondant dans l'univers?",
+        "options": [
+            "Hydrogène",
+            "Hélium",
+            "Oxygène",
+            "Carbone"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la particule élémentaire qui porte une charge électrique négative?",
+        "options": [
+            "Proton",
+            "Électron",
+            "Neutron",
+            "Photon"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le centre du système solaire?",
+        "options": [
+            "La Terre",
+            "Jupiter",
+            "Le Soleil",
+            "La Lune"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel scientifique a découvert la pénicilline?",
+        "options": [
+            "Louis Pasteur",
+            "Marie Curie",
+            "Robert Koch",
+            "Alexander Fleming"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la molécule porteuse de l'information génétique?",
+        "options": [
+            "ADN",
+            "ARN",
+            "Protéine",
+            "Glucide"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la pression atmosphérique?",
+        "options": [
+            "Newton",
+            "Pascal",
+            "Joule",
+            "Watt"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le métal le plus conducteur d'électricité?",
+        "options": [
+            "Fer",
+            "Aluminium",
+            "Argent",
+            "Or"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel groupe sanguin est considéré comme donneur universel?",
+        "options": [
+            "A",
+            "B",
+            "AB",
+            "O"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la loi qui décrit la relation entre la force, la masse et l'accélération?",
+        "options": [
+            "Deuxième loi de Newton",
+            "Loi d'Ohm",
+            "Loi de Boyle-Mariotte",
+            "Loi de Hooke"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique de l'argent?",
+        "options": [
+            "Au",
+            "Ag",
+            "Ar",
+            "Al"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de chromosomes possède une cellule humaine normale?",
+        "options": [
+            "23",
+            "24",
+            "46",
+            "48"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la température d'ébullition de l'eau pure au niveau de la mer?",
+        "options": [
+            "90°C",
+            "95°C",
+            "98°C",
+            "100°C"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Comment appelle-t-on la transformation d'un liquide en gaz?",
+        "options": [
+            "Évaporation",
+            "Condensation",
+            "Solidification",
+            "Sublimation"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de l'énergie dans le Système International?",
+        "options": [
+            "Watt",
+            "Joule",
+            "Newton",
+            "Pascal"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel gaz les plantes absorbent-elles principalement lors de la photosynthèse?",
+        "options": [
+            "Oxygène",
+            "Azote",
+            "Dioxyde de carbone",
+            "Hydrogène"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Comment appelle-t-on un angle de 90 degrés?",
+        "options": [
+            "Angle aigu",
+            "Angle plat",
+            "Angle obtus",
+            "Angle droit"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel organe du corps humain produit l'insuline?",
+        "options": [
+            "Pancréas",
+            "Foie",
+            "Rate",
+            "Rein"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du sodium?",
+        "options": [
+            "So",
+            "Na",
+            "Sd",
+            "Sm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la planète connue pour ses anneaux?",
+        "options": [
+            "Jupiter",
+            "Mars",
+            "Saturne",
+            "Uranus"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la plus petite particule d'un élément qui conserve ses propriétés chimiques?",
+        "options": [
+            "Proton",
+            "Électron",
+            "Neutron",
+            "Atome"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la théorie qui explique l'origine de l'univers?",
+        "options": [
+            "Big Bang",
+            "Relativité générale",
+            "Mécanique quantique",
+            "Évolution"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la tension électrique?",
+        "options": [
+            "Ampère",
+            "Volt",
+            "Ohm",
+            "Watt"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le processus par lequel les plantes fabriquent leur nourriture?",
+        "options": [
+            "Respiration",
+            "Transpiration",
+            "Photosynthèse",
+            "Digestion"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la force qui maintient les planètes en orbite autour du Soleil?",
+        "options": [
+            "Force électromagnétique",
+            "Force nucléaire",
+            "Force centrifuge",
+            "Force gravitationnelle"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le plus petit os du corps humain?",
+        "options": [
+            "Étrier",
+            "Phalange",
+            "Malléole",
+            "Rotule"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du carbone?",
+        "options": [
+            "Ca",
+            "C",
+            "Co",
+            "Cb"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la cellule reproductrice féminine?",
+        "options": [
+            "Spermatozoïde",
+            "Zygote",
+            "Ovule",
+            "Cellule souche"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le phénomène d'attraction entre les molécules d'eau?",
+        "options": [
+            "Capillarité",
+            "Osmose",
+            "Diffusion",
+            "Cohésion"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est l'unité de base de la vie?",
+        "options": [
+            "Cellule",
+            "Atome",
+            "Molécule",
+            "Gène"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du potassium?",
+        "options": [
+            "Po",
+            "K",
+            "P",
+            "Pt"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le principal gaz responsable de l'effet de serre?",
+        "options": [
+            "Oxygène",
+            "Azote",
+            "Dioxyde de carbone",
+            "Méthane"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a formulé les lois du mouvement planétaire?",
+        "options": [
+            "Galilée",
+            "Newton",
+            "Copernic",
+            "Kepler"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel type de rayonnement est utilisé pour les radiographies médicales?",
+        "options": [
+            "Rayons X",
+            "Rayons alpha",
+            "Rayons bêta",
+            "Rayons gamma"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du plomb?",
+        "options": [
+            "Pl",
+            "Pb",
+            "Ld",
+            "Pm"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est l'état de la matière le plus organisé?",
+        "options": [
+            "Liquide",
+            "Gaz",
+            "Solide",
+            "Plasma"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la partie du cerveau responsable de la coordination des mouvements?",
+        "options": [
+            "Thalamus",
+            "Hypothalamus",
+            "Hippocampe",
+            "Cervelet"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nombre de neutrons dans un atome d'hélium?",
+        "options": [
+            "2",
+            "1",
+            "4",
+            "0"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la fréquence?",
+        "options": [
+            "Décibel",
+            "Hertz",
+            "Watt",
+            "Lumen"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la branche de la biologie qui étudie les plantes?",
+        "options": [
+            "Zoologie",
+            "Mycologie",
+            "Botanique",
+            "Entomologie"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nombre π (pi) arrondi à deux décimales?",
+        "options": [
+            "3,12",
+            "3,10",
+            "3,15",
+            "3,14"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la couche de l'atmosphère la plus proche de la Terre?",
+        "options": [
+            "Troposphère",
+            "Stratosphère",
+            "Mésosphère",
+            "Thermosphère"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel organe élimine les déchets azotés du sang?",
+        "options": [
+            "Foie",
+            "Rate",
+            "Rein",
+            "Pancréas"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le symbole chimique du chlore?",
+        "options": [
+            "Cl",
+            "C",
+            "Ch",
+            "Cr"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom de la force qui attire les objets vers le centre de la Terre?",
+        "options": [
+            "Force centrifuge",
+            "Force gravitationnelle",
+            "Force électromagnétique",
+            "Force nucléaire"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le principal gaz à effet de serre produit par les activités humaines?",
+        "options": [
+            "Oxygène",
+            "Dioxyde de carbone",
+            "Méthane",
+            "Azote"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est l'élément chimique le plus abondant dans la croûte terrestre?",
+        "options": [
+            "Oxygène",
+            "Silicium",
+            "Aluminium",
+            "Fer"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la loi qui énonce que l'énergie ne peut être ni créée ni détruite?",
+        "options": [
+            "Loi de Murphy",
+            "Loi de conservation de l'énergie",
+            "Loi de Boyle-Mariotte",
+            "Loi d'Avogadro"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quelle est la distance moyenne entre la Terre et le Soleil?",
+        "options": [
+            "100 millions km",
+            "50 millions km",
+            "150 millions km",
+            "200 millions km"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le processus par lequel un solide passe directement à l'état gazeux?",
+        "options": [
+            "Évaporation",
+            "Condensation",
+            "Fusion",
+            "Sublimation"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le seul satellite naturel de la Terre?",
+        "options": [
+            "La Lune",
+            "Mars",
+            "Vénus",
+            "Phobos"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la puissance?",
+        "options": [
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du processus par lequel l'eau passe de l'état liquide à l'état gazeux?",
+        "options": [
+            "Solidification",
+            "Condensation",
+            "Évaporation",
+            "Sublimation"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel scientifique a formulé les lois de la gravitation universelle?",
+        "options": [
+            "Albert Einstein",
+            "Galilée",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la plus petite unité d'information en informatique?",
+        "options": [
+            "Bit",
+            "Octet",
+            "Pixel",
+            "Hertz"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du calcium?",
+        "options": [
+            "Cl",
+            "Ca",
+            "Ce",
+            "Co"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est l'équivalent métrique d'un pouce?",
+        "options": [
+            "1 cm",
+            "2 cm",
+            "2,54 cm",
+            "3 cm"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la plus petite particule de la matière?",
+        "options": [
+            "Atome",
+            "Électron",
+            "Quartz",
+            "Molécule"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le plus grand mammifère terrestre?",
+        "options": [
+            "Éléphant d'Afrique",
+            "Rhinocéros",
+            "Hippopotame",
+            "Girafe"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la résistance électrique?",
+        "options": [
+            "Ampère",
+            "Ohm",
+            "Volt",
+            "Watt"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le symbole chimique de l'azote?",
+        "options": [
+            "Az",
+            "A",
+            "N",
+            "Ni"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la vitesse du son dans l'air à température ambiante?",
+        "options": [
+            "100 m/s",
+            "200 m/s",
+            "300 m/s",
+            "340 m/s"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la science qui étudie les insectes?",
+        "options": [
+            "Entomologie",
+            "Ornithologie",
+            "Herpétologie",
+            "Ichtyologie"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le symbole chimique du cuivre?",
+        "options": [
+            "Co",
+            "Cu",
+            "Cr",
+            "Ca"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien de planètes composent notre système solaire?",
+        "options": [
+            "7",
+            "9",
+            "8",
+            "10"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la plus petite particule d'un élément qui peut participer à une réaction chimique?",
+        "options": [
+            "Proton",
+            "Neutron",
+            "Électron",
+            "Atome"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom de la couche d'ozone qui protège la Terre des rayons ultraviolets?",
+        "options": [
+            "Stratosphère",
+            "Troposphère",
+            "Thermosphère",
+            "Mésosphère"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la valeur de l'accélération due à la gravité sur Terre?",
+        "options": [
+            "5,8 m/s²",
+            "9,8 m/s²",
+            "12,8 m/s²",
+            "15,8 m/s²"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le métal le plus abondant dans la croûte terrestre?",
+        "options": [
+            "Fer",
+            "Cuivre",
+            "Aluminium",
+            "Zinc"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel scientifique a découvert la radioactivité?",
+        "options": [
+            "Marie Curie",
+            "Ernest Rutherford",
+            "Niels Bohr",
+            "Henri Becquerel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel gaz les humains expirent-ils?",
+        "options": [
+            "Dioxyde de carbone",
+            "Oxygène",
+            "Azote",
+            "Hydrogène"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la formule chimique du dioxyde de carbone?",
+        "options": [
+            "CO",
+            "CO₂",
+            "C₂O",
+            "C₂O₂"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est l'organe principal du système respiratoire humain?",
+        "options": [
+            "Cœur",
+            "Foie",
+            "Poumons",
+            "Reins"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est la moitié d'un nombre binaire?",
+        "options": [
+            "Division par 1",
+            "Division par 10",
+            "Déplacement à gauche d'un bit",
+            "Déplacement à droite d'un bit"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la principale source d'énergie du Soleil?",
+        "options": [
+            "Fusion nucléaire",
+            "Fission nucléaire",
+            "Combustion chimique",
+            "Réaction en chaîne"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle unité exprime-t-on généralement la température en physique?",
+        "options": [
+            "Fahrenheit",
+            "Kelvin",
+            "Celsius",
+            "Rankine"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le principal constituant du verre?",
+        "options": [
+            "Calcaire",
+            "Quartz",
+            "Silice",
+            "Alumine"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le premier élément du tableau périodique des éléments?",
+        "options": [
+            "Hélium",
+            "Lithium",
+            "Azote",
+            "Hydrogène"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel phénomène fait que les objets paraissent rouge lorsqu'ils sont très chauds?",
+        "options": [
+            "Incandescence",
+            "Fluorescence",
+            "Phosphorescence",
+            "Luminescence"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel produit obtient-on en mélangeant du bleu et du jaune?",
+        "options": [
+            "Rouge",
+            "Vert",
+            "Orange",
+            "Violet"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le téléphone?",
+        "options": [
+            "Alexander Graham Bell",
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Guglielmo Marconi"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert la pénicilline?",
+        "options": [
+            "Louis Pasteur",
+            "Alexander Fleming",
+            "Robert Koch",
+            "Joseph Lister"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé l'ampoule électrique?",
+        "options": [
+            "Nikola Tesla",
+            "Michael Faraday",
+            "Thomas Edison",
+            "Alessandro Volta"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la radioactivité?",
+        "options": [
+            "Marie Curie",
+            "Pierre Curie",
+            "Ernest Rutherford",
+            "Henri Becquerel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé la théorie de la relativité?",
+        "options": [
+            "Albert Einstein",
+            "Isaac Newton",
+            "Stephen Hawking",
+            "Niels Bohr"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert la structure de l'ADN?",
+        "options": [
+            "Linus Pauling",
+            "Watson et Crick",
+            "Rosalind Franklin",
+            "Gregor Mendel"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le premier ordinateur électronique?",
+        "options": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Alan Turing",
+            "Charles Babbage"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la loi de la gravitation universelle?",
+        "options": [
+            "Galilée",
+            "Albert Einstein",
+            "Johannes Kepler",
+            "Isaac Newton"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé la machine à vapeur?",
+        "options": [
+            "James Watt",
+            "Thomas Newcomen",
+            "Michael Faraday",
+            "Nikola Tesla"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert l'électromagnétisme?",
+        "options": [
+            "Alessandro Volta",
+            "Michael Faraday",
+            "André-Marie Ampère",
+            "James Clerk Maxwell"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le télégraphe?",
+        "options": [
+            "Alexander Graham Bell",
+            "Guglielmo Marconi",
+            "Samuel Morse",
+            "Thomas Edison"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert les quatre satellites de Jupiter?",
+        "options": [
+            "Johannes Kepler",
+            "Isaac Newton",
+            "Tycho Brahe",
+            "Galilée"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le microscope?",
+        "options": [
+            "Antoni van Leeuwenhoek",
+            "Robert Hooke",
+            "Zacharias Janssen",
+            "Galileo Galilei"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert le vaccin contre la rage?",
+        "options": [
+            "Robert Koch",
+            "Louis Pasteur",
+            "Joseph Lister",
+            "Edward Jenner"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le premier avion motorisé?",
+        "options": [
+            "Charles Lindbergh",
+            "Otto Lilienthal",
+            "Les frères Wright",
+            "Santos-Dumont"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la circulation sanguine?",
+        "options": [
+            "Hippocrate",
+            "Galien",
+            "Louis Pasteur",
+            "William Harvey"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé l'imprimerie moderne?",
+        "options": [
+            "Johannes Gutenberg",
+            "William Caxton",
+            "Bi Sheng",
+            "Aldus Manutius"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert les rayons X?",
+        "options": [
+            "Marie Curie",
+            "Wilhelm Röntgen",
+            "Henri Becquerel",
+            "Pierre Curie"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la dynamite?",
+        "options": [
+            "Marie Curie",
+            "Albert Einstein",
+            "Alfred Nobel",
+            "Ernest Rutherford"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert l'électron?",
+        "options": [
+            "Ernest Rutherford",
+            "Niels Bohr",
+            "Albert Einstein",
+            "J.J. Thomson"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé la théorie de l'évolution par sélection naturelle?",
+        "options": [
+            "Charles Darwin",
+            "Gregor Mendel",
+            "Jean-Baptiste Lamarck",
+            "Alfred Russel Wallace"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert le virus du SIDA?",
+        "options": [
+            "Robert Gallo",
+            "Luc Montagnier",
+            "Jonas Salk",
+            "Albert Sabin"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la pile électrique?",
+        "options": [
+            "Michael Faraday",
+            "André-Marie Ampère",
+            "Alessandro Volta",
+            "Georg Ohm"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert les lois de l'hérédité génétique?",
+        "options": [
+            "Charles Darwin",
+            "Francis Crick",
+            "James Watson",
+            "Gregor Mendel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le moteur à combustion interne?",
+        "options": [
+            "Nikolaus Otto",
+            "Rudolf Diesel",
+            "Henry Ford",
+            "Gottlieb Daimler"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert la planète Neptune?",
+        "options": [
+            "William Herschel",
+            "Urbain Le Verrier",
+            "Galilée",
+            "Johannes Kepler"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le laser?",
+        "options": [
+            "Albert Einstein",
+            "Niels Bohr",
+            "Theodore Maiman",
+            "Max Planck"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert le neutron?",
+        "options": [
+            "Ernest Rutherford",
+            "Niels Bohr",
+            "Marie Curie",
+            "James Chadwick"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le premier vaccin?",
+        "options": [
+            "Edward Jenner",
+            "Louis Pasteur",
+            "Jonas Salk",
+            "Robert Koch"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert la loi de la gravitation universelle?",
+        "options": [
+            "Galilée",
+            "Isaac Newton",
+            "Albert Einstein",
+            "Johannes Kepler"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la radio?",
+        "options": [
+            "Thomas Edison",
+            "Alexander Graham Bell",
+            "Guglielmo Marconi",
+            "Nikola Tesla"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la structure du système solaire héliocentrique?",
+        "options": [
+            "Galilée",
+            "Johannes Kepler",
+            "Tycho Brahe",
+            "Nicolas Copernic"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le premier antibiotique?",
+        "options": [
+            "Alexander Fleming",
+            "Louis Pasteur",
+            "Robert Koch",
+            "Joseph Lister"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert l'oxygène?",
+        "options": [
+            "Robert Boyle",
+            "Antoine Lavoisier",
+            "John Dalton",
+            "Dmitri Mendeleïev"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la lampe à incandescence?",
+        "options": [
+            "Nikola Tesla",
+            "Alessandro Volta",
+            "Thomas Edison",
+            "Michael Faraday"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert le principe d'Archimède?",
+        "options": [
+            "Euclide",
+            "Pythagore",
+            "Thalès",
+            "Archimède"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé l'internet?",
+        "options": [
+            "Tim Berners-Lee",
+            "Bill Gates",
+            "Steve Jobs",
+            "Vint Cerf"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert le bacille de la tuberculose?",
+        "options": [
+            "Louis Pasteur",
+            "Robert Koch",
+            "Alexander Fleming",
+            "Joseph Lister"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la photographie?",
+        "options": [
+            "George Eastman",
+            "Thomas Edison",
+            "Louis Daguerre",
+            "William Fox Talbot"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la théorie des quanta?",
+        "options": [
+            "Albert Einstein",
+            "Niels Bohr",
+            "Werner Heisenberg",
+            "Max Planck"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le téléphone portable?",
+        "options": [
+            "Martin Cooper",
+            "Steve Jobs",
+            "Bill Gates",
+            "Tim Berners-Lee"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert les groupes sanguins?",
+        "options": [
+            "Louis Pasteur",
+            "Karl Landsteiner",
+            "Alexander Fleming",
+            "William Harvey"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé la première voiture à essence?",
+        "options": [
+            "Henry Ford",
+            "Rudolf Diesel",
+            "Karl Benz",
+            "Gottlieb Daimler"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la théorie de la tectonique des plaques?",
+        "options": [
+            "Charles Richter",
+            "Georges Cuvier",
+            "Charles Lyell",
+            "Alfred Wegener"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé la théorie des cordes?",
+        "options": [
+            "Brian Greene",
+            "Stephen Hawking",
+            "Michio Kaku",
+            "Edward Witten"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Qui a découvert la théorie de la relativité générale?",
+        "options": [
+            "Stephen Hawking",
+            "Albert Einstein",
+            "Max Planck",
+            "Niels Bohr"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a inventé le World Wide Web?",
+        "options": [
+            "Bill Gates",
+            "Steve Jobs",
+            "Tim Berners-Lee",
+            "Mark Zuckerberg"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a découvert la fission nucléaire?",
+        "options": [
+            "Marie Curie",
+            "Albert Einstein",
+            "Enrico Fermi",
+            "Otto Hahn"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a inventé le premier système d'exploitation?",
+        "options": [
+            "Dennis Ritchie et Ken Thompson",
+            "Bill Gates",
+            "Steve Jobs",
+            "Alan Turing"
+        ],
+        "answer": 0
+    }
+]

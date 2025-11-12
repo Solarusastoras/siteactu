@@ -1,0 +1,797 @@
+.biathlon-game {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+
+  .game-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+    color: antiquewhite;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(to right, #3498db, #2ecc71);
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+  }
+
+  .game-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    .info-item {
+      margin: 5px 10px;
+      font-size: 1.1rem;
+
+      .info-label {
+        font-weight: bold;
+        color: #2980b9;
+      }
+    }
+  }
+
+  .game-message {
+    background-color: #edf8ff;
+    color: #2c3e50;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  .game-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .biathlon-track {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    gap: 10px;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background-color: #bdc3c7;
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+
+    .track-cell {
+      width: 45px;
+      height: 45px;
+      background-color: #fff;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      z-index: 1;
+
+      &.shooting-range {
+        background-color: #ffecb3;
+        border: 2px solid #ffa726;
+
+        .range-icon {
+          font-size: 1.5rem;
+        }
+      }
+
+      &.has-player {
+        transform: scale(1.1);
+        border: 2px solid #3498db;
+        z-index: 10;
+        background-color: #e3f2fd;
+
+        .player {
+          font-size: 1.8rem;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &.finish-line {
+        background-image: repeating-conic-gradient(
+          #ffffff 0% 25%,
+          #000000 0% 50%
+        );
+        background-size: 20px 20px;
+        border: 2px solid #ff4500;
+        position: relative;
+        overflow: hidden;
+
+        .finish-icon {
+          font-size: 1.8rem;
+          z-index: 2;
+          position: relative;
+        }
+
+        &.has-player {
+          .player {
+            z-index: 3; // S'assurer que le joueur est au-dessus du damier
+          }
+        }
+      }
+
+      &.bonus-cell {
+        background-color: #a5d6a7; // Vert clair
+        border: 2px solid #4caf50;
+
+        .bonus-icon {
+          font-size: 1.5rem;
+          z-index: 2;
+          position: relative;
+        }
+      }
+
+      &.malus-cell {
+        background-color: #ef9a9a; // Rouge clair
+        border: 2px solid #f44336;
+
+        .malus-icon {
+          font-size: 1.5rem;
+          z-index: 2;
+          position: relative;
+        }
+      }
+
+      &.ice-cell {
+        background-color: #e1f5fe; // Bleu clair glacé
+        border: 2px solid #81d4fa; // Bleu clair
+
+        .ice-icon {
+          font-size: 1.5rem;
+          z-index: 2;
+          position: relative;
+        }
+      }
+
+      .cell-number {
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        font-size: 0.7rem;
+        color: #7f8c8d;
+      }
+
+      &.has-player1 .player1,
+      &.has-player2 .player2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem; // Taille doublée (par rapport à 1rem)
+        z-index: 3;
+      }
+
+      &.has-player1 .player1 {
+        color: #2196f3; // Bleu pour joueur 1
+      }
+
+      &.has-player2 .player2 {
+        color: #f44336; // Rouge pour joueur 2
+      }
+
+      &.has-player1.has-player2 {
+        background-color: #e1f5fe;
+        border: 2px solid #81d4fa;
+
+        .player1 {
+          transform: translate(-75%, -50%); // Décalé à gauche
+        }
+
+        .player2 {
+          transform: translate(-25%, -50%); // Décalé à droite
+        }
+      }
+
+      &.has-player1 .player1 {
+        color: #2196f3; // Bleu pour joueur 1
+        z-index: 3;
+      }
+
+      &.has-player2 .player2 {
+        color: #f44336; // Rouge pour joueur 2
+        z-index: 3;
+        transform: translateX(
+          10px
+        ); // Décaler légèrement pour voir les deux joueurs
+      }
+
+      &.has-player1.has-player2 {
+        background-color: #e1f5fe;
+        border: 2px solid #81d4fa;
+
+        .player1 {
+          transform: translateX(-10px);
+        }
+      }
+    }
+  }
+
+  .game-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+    .dice-section {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1;
+      min-width: 200px;
+      max-width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      h3 {
+        margin-top: 0;
+        color: #2c3e50;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+      }
+
+      .movement-dice,
+      .shooting-dice {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 20px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #2c3e50;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+
+        &.rolling {
+          animation: diceRoll 0.5s infinite;
+        }
+
+        .dice-result,
+        .dice-placeholder {
+          font-size: 3rem;
+        }
+
+        .white {
+          color: #000;
+        }
+
+        .black {
+          color: #000;
+        }
+      }
+
+      button {
+        padding: 12px 20px;
+        background: linear-gradient(to bottom, #3498db, #2980b9);
+        color: white;
+        border: none;
+        border-radius: 30px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        &:hover:not(:disabled) {
+          background: linear-gradient(to bottom, #2980b9, #1a5276);
+          transform: translateY(-3px);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        &:disabled {
+          background: #bdc3c7;
+          cursor: not-allowed;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
+  // Styles pour le sélecteur de jetons
+  .token-selector {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
+    .token-section {
+      margin-bottom: 15px;
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+        color: #2c3e50;
+        text-align: center;
+      }
+
+      .token-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+
+        button {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 2px solid #ddd;
+          background-color: white;
+          font-size: 1.6rem;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s;
+
+          &:hover:not(:disabled) {
+            transform: translateY(-3px);
+            border-color: #3498db;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+          }
+
+          &.selected {
+            border-color: #3498db;
+            background-color: #e3f2fd;
+            transform: scale(1.1);
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+          }
+
+          &:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+          }
+        }
+      }
+    }
+  }
+
+  .game-over {
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      color: #2980b9;
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .restart-button {
+      padding: 12px 24px;
+      background: linear-gradient(to bottom, #2ecc71, #27ae60);
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+      &:hover {
+        background: linear-gradient(to bottom, #27ae60, #219653);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+
+  .game-rules {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    p {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+  }
+
+  .mode-selector {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .mode-button {
+      padding: 10px 20px;
+      background-color: #f5f5f5;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #e0e0e0;
+        transform: translateY(-2px);
+      }
+
+      &.active {
+        background-color: #2196f3;
+        color: white;
+        border-color: #1976d2;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  @keyframes diceRoll {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+// Adaptations pour thème girly
+.theme-girly .biathlon-game {
+  .game-title::after {
+    background: linear-gradient(to right, #ff80ab, #f50057);
+  }
+
+  .game-message {
+    background-color: #fce4ec;
+    color: #880e4f;
+  }
+
+  .biathlon-track {
+    background-color: #fce4ec;
+
+    &::before {
+      background-color: #f8bbd0;
+    }
+
+    .track-cell {
+      &.shooting-range {
+        background-color: #f8bbd0;
+        border-color: #f06292;
+      }
+
+      &.has-player {
+        border-color: #f06292;
+        background-color: #fce4ec;
+      }
+
+      &.finish-line {
+        background-image: repeating-conic-gradient(
+          #ffe6f2 0% 25%,
+          #ff80ab 0% 50%
+        );
+        border-color: #f06292;
+      }
+
+      &.bonus-cell {
+        background-color: #f8bbd0;
+        border-color: #f06292;
+      }
+
+      &.malus-cell {
+        background-color: #bbdefb;
+        border-color: #42a5f5;
+      }
+
+      &.ice-cell {
+        background-color: #e1f5fe;
+        border-color: #81d4fa;
+      }
+
+      &.has-player1 .player1 {
+        color: #f06292;
+      }
+
+      &.has-player2 .player2 {
+        color: #9c27b0;
+      }
+    }
+  }
+
+  .game-controls .dice-section button {
+    background: linear-gradient(to bottom, #f06292, #e91e63);
+
+    &:hover:not(:disabled) {
+      background: linear-gradient(to bottom, #e91e63, #c2185b);
+    }
+  }
+
+  .token-selector {
+    background-color: #fce4ec;
+
+    .token-section h3 {
+      color: #880e4f;
+    }
+
+    .token-options button {
+      &:hover:not(:disabled) {
+        border-color: #f06292;
+      }
+
+      &.selected {
+        border-color: #f06292;
+        background-color: #fce4ec;
+        box-shadow: 0 0 8px rgba(240, 98, 146, 0.4);
+      }
+    }
+  }
+
+  .mode-selector .mode-button {
+    &.active {
+      background-color: #f06292;
+      border-color: #c2185b;
+    }
+  }
+
+  .game-over {
+    background-color: #fce4ec;
+
+    h3 {
+      color: #c2185b;
+    }
+
+    .restart-button {
+      background: linear-gradient(to bottom, #f06292, #e91e63);
+
+      &:hover {
+        background: linear-gradient(to bottom, #e91e63, #c2185b);
+      }
+    }
+  }
+}
+
+// Adaptations pour thème space
+.theme-space .biathlon-game {
+  .game-title::after {
+    background: linear-gradient(to right, #3f51b5, #1a237e);
+  }
+
+  .game-message {
+    background-color: #e8eaf6;
+    color: #1a237e;
+  }
+
+  .biathlon-track {
+    background-color: #1a1a4d;
+
+    &::before {
+      background-color: #3f51b5;
+    }
+
+    .track-cell {
+      background-color: #0a0a2a;
+      color: #e8eaf6;
+
+      &.shooting-range {
+        background-color: #3f51b5;
+        border-color: #7986cb;
+      }
+
+      &.has-player {
+        border-color: #7986cb;
+        background-color: #5c6bc0;
+      }
+
+      &.finish-line {
+        background-image: repeating-conic-gradient(
+          #1a237e 0% 25%,
+          #7986cb 0% 50%
+        );
+        border-color: #3f51b5;
+      }
+
+      &.bonus-cell {
+        background-color: #5c6bc0;
+        border-color: #3f51b5;
+      }
+
+      &.malus-cell {
+        background-color: #7e57c2;
+        border-color: #512da8;
+      }
+
+      &.ice-cell {
+        background-color: #283593;
+        border-color: #5c6bc0;
+      }
+
+      .cell-number {
+        color: #c5cae9;
+      }
+
+      &.has-player1 .player1 {
+        color: #5c6bc0;
+      }
+
+      &.has-player2 .player2 {
+        color: #7e57c2;
+      }
+    }
+  }
+
+  .game-controls .dice-section {
+    background-color: #1a1a4d;
+    color: #e8eaf6;
+
+    h3 {
+      color: #c5cae9;
+    }
+
+    .movement-dice,
+    .shooting-dice {
+      background-color: #0a0a2a;
+      color: #e8eaf6;
+    }
+
+    button {
+      background: linear-gradient(to bottom, #3f51b5, #1a237e);
+
+      &:hover:not(:disabled) {
+        background: linear-gradient(to bottom, #1a237e, #0d1357);
+      }
+    }
+  }
+
+  .token-selector {
+    background-color: #1a1a4d;
+    color: #e8eaf6;
+
+    .token-section h3 {
+      color: #c5cae9;
+    }
+
+    .token-options button {
+      background-color: #0a0a2a;
+      border-color: #3f51b5;
+
+      &:hover:not(:disabled) {
+        border-color: #7986cb;
+      }
+
+      &.selected {
+        border-color: #7986cb;
+        background-color: #3f51b5;
+        box-shadow: 0 0 8px rgba(121, 134, 203, 0.4);
+      }
+    }
+  }
+
+  .mode-selector .mode-button {
+    background-color: #1a1a4d;
+    color: #c5cae9;
+    border-color: #3f51b5;
+
+    &:hover {
+      background-color: #283593;
+    }
+
+    &.active {
+      background-color: #3f51b5;
+      border-color: #1a237e;
+    }
+  }
+
+  .game-over {
+    background-color: #1a1a4d;
+    color: #e8eaf6;
+
+    h3 {
+      color: #7986cb;
+    }
+
+    .restart-button {
+      background: linear-gradient(to bottom, #3f51b5, #1a237e);
+
+      &:hover {
+        background: linear-gradient(to bottom, #1a237e, #0d1357);
+      }
+    }
+  }
+
+  .game-rules {
+    background-color: #1a1a4d;
+    color: #e8eaf6;
+
+    h3 {
+      color: #7986cb;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .biathlon-game {
+    padding: 10px;
+
+    .game-title {
+      font-size: 2rem;
+    }
+
+    .biathlon-track {
+      grid-template-columns: repeat(auto-fill, minmax(35px, 1fr));
+
+      .track-cell {
+        width: 35px;
+        height: 35px;
+
+        .range-icon,
+        .player {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .game-controls {
+      flex-direction: column;
+      align-items: center;
+
+      .dice-section {
+        min-width: 0;
+        width: 100%;
+      }
+    }
+  }
+}

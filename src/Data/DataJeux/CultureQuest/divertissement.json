@@ -1,0 +1,1232 @@
+[
+
+{
+    "question": "Quel personnage de Disney a perdu sa chaussure à minuit?",
+    "options": [
+        "Blanche-Neige",
+        "Cendrillon",
+        "La Belle au bois dormant",
+        "Ariel"
+    ],
+    "answer": 1
+},
+{
+    "question": "Quel est le nom du célèbre sorcier créé par J.K. Rowling?",
+    "options": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger",
+        "Draco Malfoy"
+    ],
+    "answer": 0
+},
+{
+    "question": "Quel est le nom de la ville où se déroule la série 'Friends'?",
+    "options": [
+        "Los Angeles",
+        "New York",
+        "Chicago",
+        "Miami"
+    ],
+    "answer": 1
+},
+{
+    "question": "Quel est le nom du personnage principal dans 'Le Seigneur des Anneaux'?",
+    "options": [
+        "Frodon Sacquet",
+        "Gandalf",
+        "Aragorn",
+        "Legolas"
+    ],
+    "answer": 0
+}
+,
+{
+    "question": "Quel est le nom de la série qui suit les aventures d'un groupe d'amis dans un café à New York?",
+    "options": [
+        "How I Met Your Mother",
+        "Friends",
+        "The Big Bang Theory",
+        "Seinfeld"
+    ],
+    "answer": 1
+},
+{
+    "question": "Quel est le nom du célèbre personnage de bande dessinée créé par Hergé?",
+    "options": [
+        "Astérix",
+        "Tintin",
+        "Lucky Luke",
+        "Spirou"
+    ],
+    "answer": 1
+},
+{
+        "question": "Quel acteur a joué le rôle de Jack Dawson dans le film 'Titanic'?",
+        "options": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Johnny Depp",
+            "Tom Cruise"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série médiévale-fantastique est basée sur les romans de George R.R. Martin?",
+        "options": [
+            "The Witcher",
+            "Game of Thrones",
+            "The Last Kingdom",
+            "Vikings"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a réalisé le film 'Pulp Fiction'?",
+
+        "options": [
+            "Martin Scorsese",
+            "Steven Spielberg",
+            "Quentin Tarantino",
+            "Christopher Nolan"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel film a remporté l'Oscar du meilleur film en 2020?",
+        "options": [
+            "1917",
+            "Joker",
+            "Les Misérables",
+            "Parasite"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel personnage est interprété par Bryan Cranston dans la série 'Breaking Bad'?",
+
+        "options": [
+            "Walter White",
+            "Jesse Pinkman",
+            "Hank Schrader",
+            "Saul Goodman"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle ville se déroule la série 'The Wire'?",
+
+        "options": [
+            "New York",
+            "Baltimore",
+            "Chicago",
+            "Détroit"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a créé la série 'Les Simpson'?",
+
+        "options": [
+            "Seth MacFarlane",
+            "Mike Judge",
+            "Matt Groening",
+            "Trey Parker"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel personnage n'appartient PAS à l'univers Marvel?",
+        "options": [
+            "Iron Man",
+            "Captain America",
+            "Thor",
+            "Batman"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel acteur a incarné James Bond dans 'Casino Royale' (2006)?",
+        "options": [
+            "Daniel Craig",
+            "Pierce Brosnan",
+            "Sean Connery",
+            "Roger Moore"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série peut-on suivre les aventures du Dr Gregory House?",
+        "options": [
+            "Grey's Anatomy",
+            "Dr House",
+            "Scrubs",
+            "The Good Doctor"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a réalisé 'Le Seigneur des Anneaux'?",
+
+        "options": [
+            "James Cameron",
+            "Christopher Nolan",
+            "Peter Jackson",
+            "George Lucas"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle série raconte l'histoire d'un adolescent ordinaire qui devient un super-héros après avoir été mordu par une araignée?",
+        "options": [
+            "Daredevil",
+            "The Flash",
+            "Arrow",
+            "Spiderman"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a joué le rôle principal dans le film 'Forest Gump'?",
+
+        "options": [
+            "Tom Hanks",
+            "Brad Pitt",
+            "Denzel Washington",
+            "Tom Cruise"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel personnage de série est connu pour sa phrase 'Winter is coming'?",
+
+        "options": [
+            "Rick Grimes",
+            "Ned Stark",
+            "Walter White",
+            "Jon Snow"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans quelle ville se déroule la série 'Breaking Bad'?",
+
+        "options": [
+            "Las Vegas",
+            "Los Angeles",
+            "Albuquerque",
+            "Phoenix"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du robot central dans 'Wall-E'?",
+
+        "options": [
+            "Eve",
+            "Mo",
+            "Auto",
+            "Wall-E"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui interprète Iron Man dans l'univers cinématographique Marvel?",
+
+        "options": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le prénom de la princesse dans 'La Reine des Neiges'?",
+
+        "options": [
+            "Anna",
+            "Elsa",
+            "Olaf",
+            "Kristoff"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Combien y a-t-il de films dans la saga originale 'Star Wars'?",
+
+        "options": [
+            "9",
+            "8",
+            "6",
+            "7"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du vaisseau spatial dans 'Alien'?",
+
+        "options": [
+            "Enterprise",
+            "Discovery",
+            "Millennium Falcon",
+            "Nostromo"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a réalisé 'Inception'?",
+
+        "options": [
+            "Christopher Nolan",
+            "Steven Spielberg",
+            "James Cameron",
+            "Martin Scorsese"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série peut-on voir le personnage de Chandler Bing?",
+
+        "options": [
+            "How I Met Your Mother",
+            "Friends",
+            "The Big Bang Theory",
+            "Modern Family"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui est le créateur de la série 'The Office' (US)?",
+        "options": [
+            "Tina Fey",
+            "Amy Poehler",
+            "Greg Daniels",
+            "Dan Harmon"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel personnage de 'Harry Potter' est un elfe de maison?",
+        "options": [
+            "Hagrid",
+            "Hedwig",
+            "Crockdur",
+            "Dobby"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel réalisateur a créé 'E.T. l'extraterrestre'?",
+        "options": [
+            "Steven Spielberg",
+            "George Lucas",
+            "James Cameron",
+            "Tim Burton"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série un groupe de survivants lutte contre des zombies?",
+        "options": [
+            "Lost",
+            "The Walking Dead",
+            "Supernatural",
+            "Fear the Walking Dead"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film raconte l'histoire du Titanic?",
+        "options": [
+            "Poseidon",
+            "The Perfect Storm",
+            "Titanic",
+            "The Abyss"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui joue le rôle de Neo dans 'Matrix'?",
+        "options": [
+            "Will Smith",
+            "Brad Pitt",
+            "Tom Cruise",
+            "Keanu Reeves"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel acteur interprète Captain America dans les films Marvel?",
+        "options": [
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo",
+            "Chris Pratt"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle est la profession de Ted Mosby dans 'How I Met Your Mother'?",
+
+        "options": [
+            "Avocat",
+            "Architecte",
+            "Médecin",
+            "Professeur"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel animal est Simba dans 'Le Roi Lion'?",
+
+        "options": [
+            "Tigre",
+            "Guépard",
+            "Lion",
+            "Panthère"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a réalisé le film 'Avatar'?",
+
+        "options": [
+            "Peter Jackson",
+            "Steven Spielberg",
+            "George Lucas",
+            "James Cameron"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du personnage joué par Johnny Depp dans 'Pirates des Caraïbes'?",
+
+        "options": [
+            "Jack Sparrow",
+            "Will Turner",
+            "Barbossa",
+            "Davy Jones"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série trouve-t-on le personnage de Eleven?",
+
+        "options": [
+            "The OA",
+            "Stranger Things",
+            "Dark",
+            "Black Mirror"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a réalisé 'Le Parrain'?",
+
+        "options": [
+            "Martin Scorsese",
+            "Brian De Palma",
+            "Francis Ford Coppola",
+            "Sergio Leone"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel personnage est le symbole de la chaîne HBO?",
+
+        "options": [
+            "Un dragon",
+            "Un loup",
+            "Un lion",
+            "Un oiseau"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui joue Hermione Granger dans 'Harry Potter'?",
+
+        "options": [
+            "Emma Watson",
+            "Dakota Fanning",
+            "Bonnie Wright",
+            "Emma Stone"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série le personnage principal s'appelle-t-il Dexter Morgan?",
+
+        "options": [
+            "Breaking Bad",
+            "Dexter",
+            "Six Feet Under",
+            "Hannibal"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel personnage de Disney est une sirène?",
+        "options": [
+            "Belle",
+            "Jasmine",
+            "Ariel",
+            "Mulan"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du méchant dans 'Star Wars' qui porte un masque noir?",
+        "options": [
+            "Luke Skywalker",
+            "Kylo Ren",
+            "Emperor Palpatine",
+            "Darth Vader"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle actrice joue Katniss Everdeen dans 'Hunger Games'?",
+
+        "options": [
+            "Jennifer Lawrence",
+            "Emma Stone",
+            "Shailene Woodley",
+            "Dakota Fanning"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série les personnages principaux sont-ils des scientifiques?",
+        "options": [
+            "Friends",
+            "The Big Bang Theory",
+            "How I Met Your Mother",
+            "Modern Family"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui a réalisé 'Jurassic Park'?",
+
+        "options": [
+            "James Cameron",
+            "Peter Jackson",
+            "Steven Spielberg",
+            "George Lucas"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Dans 'Harry Potter', quelle est la maison de Harry à Poudlard?",
+        "options": [
+            "Serdaigle",
+            "Poufsouffle",
+            "Serpentard",
+            "Gryffondor"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a réalisé 'The Dark Knight'?",
+
+        "options": [
+            "Christopher Nolan",
+            "Zack Snyder",
+            "Tim Burton",
+            "Joel Schumacher"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série un professeur de chimie devient-il fabricant de méthamphétamine?",
+        "options": [
+            "Narcos",
+            "Breaking Bad",
+            "Weeds",
+            "Ozark"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel acteur joue Thor dans l'univers cinématographique Marvel?",
+        "options": [
+            "Chris Evans",
+            "Chris Pratt",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est la voix originale de Woody dans 'Toy Story'?",
+
+        "options": [
+            "Tim Allen",
+            "Mike Myers",
+            "John Goodman",
+            "Tom Hanks"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom de la planète d'origine de Superman?",
+        "options": [
+            "Krypton",
+            "Thanagar",
+            "Asgard",
+            "Xandar"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série peut-on suivre la vie de la famille Stark?",
+        "options": [
+            "The Crown",
+            "Game of Thrones",
+            "House of Cards",
+            "Succession"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du père de Luke Skywalker dans 'Star Wars'?",
+        "options": [
+            "Owen Lars",
+            "Obi-Wan Kenobi",
+            "Anakin Skywalker",
+            "Bail Organa"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est Loki dans les films Marvel?",
+        "options": [
+            "Un humain",
+            "Un mutant",
+            "Un extraterrestre",
+            "Le frère de Thor"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le titre du premier film 'Star Wars' sorti en 1977?",
+        "options": [
+            "Un nouvel espoir",
+            "L'Empire contre-attaque",
+            "Le Retour du Jedi",
+            "La Menace fantôme"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série met en scène un homme politique sans scrupules nommé Frank Underwood?",
+        "options": [
+            "Scandal",
+            "House of Cards",
+            "The West Wing",
+            "Designated Survivor"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel est le nom du chien dans 'Retour vers le futur'?",
+        "options": [
+            "Max",
+            "Rex",
+            "Einstein",
+            "Marty"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le capitaine du Black Pearl dans 'Pirates des Caraïbes'?",
+        "options": [
+            "Will Turner",
+            "Barbossa",
+            "Davy Jones",
+            "Jack Sparrow"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a joué le rôle de Wolverine dans les films X-Men?",
+        "options": [
+            "Hugh Jackman",
+            "Liam Neeson",
+            "Russell Crowe",
+            "Dougray Scott"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série une adolescente peut-elle communiquer avec l'au-delà?",
+        "options": [
+            "Buffy contre les vampires",
+            "Ghost Whisperer",
+            "Charmed",
+            "Sabrina, l'apprentie sorcière"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel animal est Pascal dans 'Raiponce'?",
+        "options": [
+            "Souris",
+            "Oiseau",
+            "Caméléon",
+            "Écureuil"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est l'ennemi juré de Batman?",
+        "options": [
+            "Double-Face",
+            "Le Pingouin",
+            "L'Épouvantail",
+            "Le Joker"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du héros dans 'La Matrice'?",
+        "options": [
+            "Neo",
+            "Morpheus",
+            "Trinity",
+            "Smith"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série se déroule dans un parc d'attractions futuriste peuplé d'androïdes?",
+        "options": [
+            "Black Mirror",
+            "Westworld",
+            "Altered Carbon",
+            "The OA"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film raconte l'histoire de dinosaures clonés dans un parc d'attractions?",
+        "options": [
+            "King Kong",
+            "Godzilla",
+            "Jurassic Park",
+            "The Lost World"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Comment s'appelle le robot dans 'Star Wars' qui parle comme un humain et est doré?",
+        "options": [
+            "R2-D2",
+            "BB-8",
+            "K-2SO",
+            "C-3PO"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le titre du premier film Harry Potter?",
+        "options": [
+            "Harry Potter à l'école des sorciers",
+            "Harry Potter et la Chambre des secrets",
+            "Harry Potter et le Prisonnier d'Azkaban",
+            "Harry Potter et la Coupe de feu"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série les personnages vivent-ils sur une île mystérieuse après un crash d'avion?",
+        "options": [
+            "Survivor",
+            "Lost",
+            "The 100",
+            "Flight 29 Down"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film raconte l'histoire d'un jouet qui veut devenir un vrai petit garçon?",
+        "options": [
+            "Aladdin",
+            "La Belle et la Bête",
+            "Pinocchio",
+            "Peter Pan"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de la mère de famille dans 'Les Simpson'?",
+        "options": [
+            "Lisa",
+            "Maggie",
+            "Selma",
+            "Marge"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le capitaine du vaisseau Enterprise dans 'Star Trek: The Next Generation'?",
+        "options": [
+            "Jean-Luc Picard",
+            "James T. Kirk",
+            "Benjamin Sisko",
+            "Kathryn Janeway"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série raconte l'histoire d'un groupe de naufragés sur une île déserte?",
+        "options": [
+            "Survivorman",
+            "Lost",
+            "Survivor",
+            "Cast Away"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui est le père de Simba dans 'Le Roi Lion'?",
+        "options": [
+            "Scar",
+            "Rafiki",
+            "Mufasa",
+            "Timon"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du personnage joué par Ian McKellen dans 'Le Seigneur des Anneaux'?",
+        "options": [
+            "Frodon",
+            "Aragorn",
+            "Sauron",
+            "Gandalf"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Dans quel film un extraterrestre veut-il 'téléphoner maison'?",
+        "options": [
+            "E.T.",
+            "Alien",
+            "Predator",
+            "Independence Day"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série met en scène un docteur misanthrope spécialisé en diagnostic médical?",
+        "options": [
+            "Grey's Anatomy",
+            "Dr House",
+            "The Good Doctor",
+            "Scrubs"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel personnage de Disney est une jeune fille qui sauve la Chine?",
+        "options": [
+            "Jasmine",
+            "Pocahontas",
+            "Mulan",
+            "Tiana"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quelle est l'arme caractéristique d'un Jedi dans 'Star Wars'?",
+        "options": [
+            "Blaster",
+            "Pistolet laser",
+            "Dague",
+            "Sabre laser"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le héros du film 'Die Hard'?",
+        "options": [
+            "John McClane",
+            "Hans Gruber",
+            "Martin Riggs",
+            "Roger Murtaugh"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série met en scène un chimiste atteint d'un cancer qui devient trafiquant de drogue?",
+        "options": [
+            "Narcos",
+            "Breaking Bad",
+            "Ozark",
+            "The Wire"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel animal de compagnie possède Jasmine dans 'Aladdin'?",
+        "options": [
+            "Un singe",
+            "Un perroquet",
+            "Un tigre",
+            "Un serpent"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le créateur de 'The Mandalorian'?",
+        "options": [
+            "George Lucas",
+            "J.J. Abrams",
+            "Rian Johnson",
+            "Jon Favreau"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel personnage est surnommé 'Le Roi du Nord' dans 'Game of Thrones'?",
+        "options": [
+            "Robb Stark",
+            "Jon Snow",
+            "Ned Stark",
+            "Bran Stark"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle ville se déroule la série 'Desperate Housewives'?",
+        "options": [
+            "Cherry Lane",
+            "Wisteria Lane",
+            "Evergreen Terrace",
+            "Oak Avenue"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel super-héros est aussi connu sous le nom de Bruce Wayne?",
+        "options": [
+            "Iron Man",
+            "Superman",
+            "Batman",
+            "Spider-Man"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est l'interprète de la chanson 'Let It Go' dans 'La Reine des Neiges'?",
+        "options": [
+            "Mandy Moore",
+            "Demi Lovato",
+            "Kristen Bell",
+            "Idina Menzel"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom du premier film 'Avengers'?",
+        "options": [
+            "Avengers",
+            "Avengers: Age of Ultron",
+            "Avengers: Infinity War",
+            "Avengers: Endgame"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série un groupe d'amis se retrouve régulièrement dans un café appelé 'Central Perk'?",
+        "options": [
+            "How I Met Your Mother",
+            "Friends",
+            "Seinfeld",
+            "New Girl"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui est le réalisateur de 'La Liste de Schindler'?",
+        "options": [
+            "Martin Scorsese",
+            "Roman Polanski",
+            "Steven Spielberg",
+            "Francis Ford Coppola"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom de l'école de magie dans 'Harry Potter'?",
+        "options": [
+            "Durmstrang",
+            "Beauxbatons",
+            "Ilvermorny",
+            "Poudlard"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui joue le rôle principal dans 'La La Land'?",
+        "options": [
+            "Ryan Gosling",
+            "Ryan Reynolds",
+            "Bradley Cooper",
+            "Leonardo DiCaprio"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série raconte l'histoire d'une famille mafieuse du New Jersey?",
+        "options": [
+            "Boardwalk Empire",
+            "Les Soprano",
+            "Peaky Blinders",
+            "Gomorra"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film raconte l'histoire d'un lion qui devient roi après la mort de son père?",
+        "options": [
+            "Madagascar",
+            "Kung Fu Panda",
+            "Le Roi Lion",
+            "L'Âge de Glace"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Comment s'appelle la sœur d'Elsa dans 'La Reine des Neiges'?",
+        "options": [
+            "Olaf",
+            "Sven",
+            "Kristoff",
+            "Anna"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui a joué le rôle de Tony Stark / Iron Man dans le MCU?",
+        "options": [
+            "Robert Downey Jr.",
+            "Chris Evans",
+            "Chris Hemsworth",
+            "Mark Ruffalo"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série animée trouve-t-on le personnage de Rick Sanchez?",
+        "options": [
+            "Les Simpson",
+            "Rick et Morty",
+            "Family Guy",
+            "South Park"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film raconte l'histoire d'un extraterrestre qui doit retourner sur sa planète?",
+        "options": [
+            "Avatar",
+            "Arrival",
+            "E.T.",
+            "District 9"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a écrit le roman 'Game of Thrones'?",
+        "options": [
+            "J.K. Rowling",
+            "Stephen King",
+            "J.R.R. Tolkien",
+            "George R.R. Martin"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel film raconte l'histoire d'un poisson clown à la recherche de son fils?",
+        "options": [
+            "Le Monde de Nemo",
+            "Le Monde de Dory",
+            "Shark Tale",
+            "La Petite Sirène"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du bar où se retrouvent les personnages de 'How I Met Your Mother'?",
+        "options": [
+            "Central Perk",
+            "MacLaren's Pub",
+            "Paddy's Pub",
+            "Cheers"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Dans quel film un jeune garçon découvre-t-il qu'il est un sorcier?",
+        "options": [
+            "Le Seigneur des Anneaux",
+            "Percy Jackson",
+            "Harry Potter",
+            "Doctor Strange"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui a réalisé 'Interstellar'?",
+        "options": [
+            "James Cameron",
+            "Steven Spielberg",
+            "Ridley Scott",
+            "Christopher Nolan"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quel est le nom de l'héroïne principale de 'Hunger Games'?",
+        "options": [
+            "Katniss Everdeen",
+            "Primrose Everdeen",
+            "Rue",
+            "Clove"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle série une équipe d'agents fédéraux analyse le comportement de tueurs en série?",
+        "options": [
+            "NCIS",
+            "Esprits Criminels",
+            "Bones",
+            "FBI: Portés disparus"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel film de Pixar met en scène un rat qui rêve de devenir chef cuisinier?",
+        "options": [
+            "Là-haut",
+            "WALL-E",
+            "Ratatouille",
+            "Les Indestructibles"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Qui est le fondateur de la Compagnie de l'Anneau dans 'Le Seigneur des Anneaux'?",
+        "options": [
+            "Gandalf",
+            "Aragorn",
+            "Frodon",
+            "Elrond"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle actrice joue le rôle de Black Widow dans les films Marvel?",
+        "options": [
+            "Scarlett Johansson",
+            "Jennifer Lawrence",
+            "Anne Hathaway",
+            "Emma Stone"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quelle série raconte l'histoire d'une jeune fille dotée de pouvoirs télé-kinésiques?",
+        "options": [
+            "The OA",
+            "Stranger Things",
+            "Dark",
+            "Legion"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Qui est la Femme Invisible dans les 'Quatre Fantastiques'?",
+        "options": [
+            "Jean Grey",
+            "Mary Jane",
+            "Susan Storm",
+            "Carol Danvers"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le vaisseau spatial du Capitaine Malcolm Reynolds dans 'Firefly'?",
+        "options": [
+            "Enterprise",
+            "Millennium Falcon",
+            "Nostromo",
+            "Serenity"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Qui est le créateur de 'La Famille Simpson'?",
+        "options": [
+            "Matt Groening",
+            "Seth MacFarlane",
+            "Trey Parker",
+            "Mike Judge"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Quel est le nom du fils de Dark Vador dans 'Star Wars'?",
+        "options": [
+            "Han Solo",
+            "Luke Skywalker",
+            "Obi-Wan Kenobi",
+            "Lando Calrissian"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Quel dessin animé met en scène un éponge qui vit dans un ananas sous la mer?",
+        "options": [
+            "Les Griffin",
+            "South Park",
+            "Bob l'éponge",
+            "Adventure Time"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Quel est le nom du dragon dans 'Shrek'?",
+        "options": [
+            "Mushu",
+            "Smaug",
+            "Toothless",
+            "Dragon"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Quelle est la particularité du personnage principal dans 'The Good Doctor'?",
+        "options": [
+            "Il est autiste",
+            "Il est aveugle",
+            "Il est muet",
+            "Il est paralysé"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Dans quelle ville se déroule la série 'The Wire'?",
+        "options": [
+            "New York",
+            "Baltimore",
+            "Chicago",
+            "Detroit"
+        ],
+        "answer": 1
+    }
+]

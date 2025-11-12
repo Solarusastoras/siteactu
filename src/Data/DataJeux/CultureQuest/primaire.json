@@ -1,0 +1,2262 @@
+[
+  {
+    "question": "Quelle lettre vient après le A dans l'alphabet?",
+    "options": [
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 2 + 3?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune?",
+    "options": [
+      "Orange",
+      "Violet",
+      "Vert",
+      "Marron"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel animal dit 'miaou'?",
+    "options": [
+      "Le chien",
+      "Le chat",
+      "La souris",
+      "Le lapin"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 10 - 4?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Comment s'appelle la femelle du cheval?",
+    "options": [
+      "La jument",
+      "La chèvre",
+      "La poule",
+      "La vache"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien y a-t-il de jours dans une semaine?",
+    "options": [
+      "5 jours",
+      "6 jours",
+      "7 jours",
+      "8 jours"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle saison vient après le printemps?",
+    "options": [
+      "L'été",
+      "L'automne",
+      "L'hiver",
+      "Le printemps"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Chaperon Rouge'?",
+    "options": [
+      "Charles Perrault",
+      "Hans Christian Andersen",
+      "Les frères Grimm",
+      "Jean de La Fontaine"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le résultat de 6 × 5?",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien y a-t-il de mois dans une année?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle planète est la plus proche du Soleil?",
+    "options": [
+      "Vénus",
+      "Mercure",
+      "La Terre",
+      "Mars"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelle le petit du cheval?",
+    "options": [
+      "Le veau",
+      "L'agneau",
+      "Le poulain",
+      "Le chaton"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la capitale de la France?",
+    "options": [
+      "Lyon",
+      "Marseille",
+      "Paris",
+      "Bordeaux"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Que mange principalement le koala?",
+    "options": [
+      "Des feuilles d'eucalyptus",
+      "Des bambous",
+      "Des carottes",
+      "Des fruits"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 15 divisé par 3?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la moitié de 24?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal est le roi de la jungle?",
+    "options": [
+      "Le tigre",
+      "L'éléphant",
+      "Le lion",
+      "Le singe"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Comment s'appelle le continent où se trouve la France?",
+    "options": [
+      "L'Amérique",
+      "L'Afrique",
+      "L'Asie",
+      "L'Europe"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le plus grand océan du monde?",
+    "options": [
+      "L'océan Atlantique",
+      "L'océan Indien",
+      "L'océan Pacifique",
+      "L'océan Arctique"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien font 7 × 8?",
+    "options": [
+      "49",
+      "56",
+      "64",
+      "72"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel insecte produit du miel?",
+    "options": [
+      "La fourmi",
+      "L'abeille",
+      "La mouche",
+      "La coccinelle"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien y a-t-il de côtés dans un triangle?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel instrument de musique a des touches noires et blanches?",
+    "options": [
+      "La guitare",
+      "La flûte",
+      "Le piano",
+      "Le violon"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En quelle année a commencé la Révolution française?",
+    "options": [
+      "1689",
+      "1789",
+      "1889",
+      "1989"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le premier chiffre après zéro?",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "0"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle est la première lettre du mot 'maison'?",
+    "options": [
+      "a",
+      "m",
+      "s",
+      "n"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien de pattes a une araignée?",
+    "options": [
+      "4 pattes",
+      "6 pattes",
+      "8 pattes",
+      "10 pattes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "De quelle couleur est le ciel par beau temps?",
+    "options": [
+      "Vert",
+      "Bleu",
+      "Rouge",
+      "Jaune"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal adore manger des carottes?",
+    "options": [
+      "Le tigre",
+      "Le lapin",
+      "Le poisson",
+      "L'ours"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien y a-t-il de saisons dans une année?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel jour vient après lundi?",
+    "options": [
+      "Mercredi",
+      "Mardi",
+      "Dimanche",
+      "Jeudi"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 4 + 4?",
+    "options": [
+      "44",
+      "8",
+      "16",
+      "24"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle forme a un ballon de football?",
+    "options": [
+      "Carré",
+      "Rectangle",
+      "Triangle",
+      "Rond"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel animal fait 'cocorico'?",
+    "options": [
+      "Le canard",
+      "Le coq",
+      "Le chien",
+      "Le chat"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la couleur du soleil?",
+    "options": [
+      "Rouge",
+      "Bleu",
+      "Jaune",
+      "Vert"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien de doigts as-tu sur une main?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dans quel pays se trouve Paris?",
+    "options": [
+      "Italie",
+      "Espagne",
+      "Allemagne",
+      "France"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel fruit est rouge avec des pépins noirs?",
+    "options": [
+      "La banane",
+      "La fraise",
+      "La pomme",
+      "La pastèque"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Combien font 10 - 5?",
+    "options": [
+      "5",
+      "15",
+      "0",
+      "10"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le contraire de 'chaud'?",
+    "options": [
+      "Tiède",
+      "Froid",
+      "Bouillant",
+      "Brûlant"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle lettre fait le son 'ssss'?",
+    "options": [
+      "C",
+      "T",
+      "S",
+      "Z"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Que font les oiseaux au printemps?",
+    "options": [
+      "Ils hibernent",
+      "Ils migrent",
+      "Ils construisent des nids",
+      "Ils perdent leurs plumes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "De quelle couleur est la banane mûre?",
+    "options": [
+      "Verte",
+      "Jaune",
+      "Rouge",
+      "Marron"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal vit dans la banquise?",
+    "options": [
+      "L'ours polaire",
+      "Le lion",
+      "Le singe",
+      "La girafe"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 2 × 3?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du petit du mouton?",
+    "options": [
+      "Le veau",
+      "Le poulain",
+      "L'agneau",
+      "Le chaton"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur du ciel la nuit?",
+    "options": [
+      "Rouge",
+      "Bleu",
+      "Noir",
+      "Jaune"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien de côtés a un carré?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel légume fait pleurer quand on le coupe?",
+    "options": [
+      "La carotte",
+      "La tomate",
+      "L'oignon",
+      "La pomme de terre"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la plus petite planète du système solaire?",
+    "options": [
+      "La Terre",
+      "Mars",
+      "Mercure",
+      "Jupiter"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel animal a une trompe?",
+    "options": [
+      "Le lion",
+      "L'éléphant",
+      "La girafe",
+      "Le zèbre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien y a-t-il d'heures dans une journée?",
+    "options": [
+      "12",
+      "24",
+      "48",
+      "60"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le pluriel de 'cheval'?",
+    "options": [
+      "Chevals",
+      "Chevaus",
+      "Chevaux",
+      "Chevalx"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Où vivent les poissons?",
+    "options": [
+      "Dans l'eau",
+      "Dans les arbres",
+      "Dans le ciel",
+      "Dans le désert"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 20 ÷ 4?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle saison vient après l'été?",
+    "options": [
+      "L'hiver",
+      "Le printemps",
+      "L'automne",
+      "L'été"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le résultat de 3 × 4?",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "15"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Comment s'appelle la personne qui soigne les dents?",
+    "options": [
+      "Le boulanger",
+      "Le dentiste",
+      "Le coiffeur",
+      "Le médecin"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la couleur du sang?",
+    "options": [
+      "Bleu",
+      "Noir",
+      "Vert",
+      "Rouge"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel animal dort la tête en bas?",
+    "options": [
+      "Le hibou",
+      "La chauve-souris",
+      "Le serpent",
+      "L'écureuil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 9 + 6?",
+    "options": [
+      "13",
+      "15",
+      "16",
+      "19"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la capitale de l'Espagne?",
+    "options": [
+      "Lisbonne",
+      "Rome",
+      "Madrid",
+      "Barcelone"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le nom de notre planète?",
+    "options": [
+      "Mars",
+      "Terre",
+      "Jupiter",
+      "Soleil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal change de couleur pour se camoufler?",
+    "options": [
+      "Le caméléon",
+      "Le tigre",
+      "L'ours",
+      "Le loup"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 5 × 5?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle est la couleur du citron?",
+    "options": [
+      "Rouge",
+      "Orange",
+      "Jaune",
+      "Vert"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le contraire de 'jour'?",
+    "options": [
+      "Matin",
+      "Soir",
+      "Nuit",
+      "Midi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien y a-t-il de continents sur Terre?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le premier mois de l'année?",
+    "options": [
+      "Décembre",
+      "Janvier",
+      "Février",
+      "Mars"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qu'est-ce qui tombe du ciel quand il pleut?",
+    "options": [
+      "Des flocons",
+      "Des étoiles",
+      "Des gouttes d'eau",
+      "Des nuages"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien font 12 + 8?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel animal donne du lait?",
+    "options": [
+      "Le cheval",
+      "La poule",
+      "La vache",
+      "Le mouton"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le résultat de 18 - 9?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle planète est connue pour ses anneaux?",
+    "options": [
+      "Jupiter",
+      "Vénus",
+      "Mars",
+      "Saturne"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel animal peut voler?",
+    "options": [
+      "Le poisson",
+      "L'oiseau",
+      "Le serpent",
+      "Le chat"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien de lettres y a-t-il dans l'alphabet français?",
+    "options": [
+      "20",
+      "24",
+      "26",
+      "28"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur des feuilles en automne?",
+    "options": [
+      "Vertes",
+      "Rouges et jaunes",
+      "Bleues",
+      "Roses"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 3 × 6?",
+    "options": [
+      "9",
+      "12",
+      "18",
+      "24"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le dernier mois de l'année?",
+    "options": [
+      "Novembre",
+      "Octobre",
+      "Janvier",
+      "Décembre"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le nom de l'animal qui a une carapace?",
+    "options": [
+      "La tortue",
+      "L'ours",
+      "Le lapin",
+      "Le lion"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien de minutes y a-t-il dans une heure?",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le plus grand mammifère terrestre?",
+    "options": [
+      "La girafe",
+      "L'éléphant",
+      "Le rhinocéros",
+      "L'hippopotame"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le contraire de 'grand'?",
+    "options": [
+      "Fort",
+      "Gros",
+      "Petit",
+      "Long"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Dans quel pays peut-on voir la tour Eiffel?",
+    "options": [
+      "Italie",
+      "France",
+      "Espagne",
+      "Allemagne"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 16 - 7?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est l'animal le plus rapide sur terre?",
+    "options": [
+      "Le lion",
+      "Le guépard",
+      "Le tigre",
+      "Le cheval"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 4 × 9?",
+    "options": [
+      "32",
+      "36",
+      "40",
+      "45"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle partie du corps utilisons-nous pour respirer?",
+    "options": [
+      "Le cœur",
+      "L'estomac",
+      "Les poumons",
+      "Le cerveau"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Dans quel continent se trouve l'Égypte?",
+    "options": [
+      "Europe",
+      "Amérique",
+      "Asie",
+      "Afrique"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Combien de quarts y a-t-il dans un tout?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le fruit préféré des singes?",
+    "options": [
+      "La pomme",
+      "La fraise",
+      "La banane",
+      "L'orange"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur du chocolat?",
+    "options": [
+      "Rouge",
+      "Marron",
+      "Noir",
+      "Jaune"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal a des rayures noires et blanches?",
+    "options": [
+      "Le léopard",
+      "Le tigre",
+      "La girafe",
+      "Le zèbre"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Combien font 25 ÷ 5?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du petit cochon dans les contes pour enfants?",
+    "options": [
+      "Les trois petits cochons",
+      "Le grand méchant loup",
+      "Boucle d'or",
+      "Le Petit Poucet"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Où vivent les esquimaux?",
+    "options": [
+      "Au pôle Nord",
+      "Au pôle Sud",
+      "En Afrique",
+      "En Australie"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien de secondes y a-t-il dans une minute?",
+    "options": [
+      "30",
+      "45",
+      "60",
+      "100"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel animal symbolise la sagesse?",
+    "options": [
+      "Le lion",
+      "Le hibou",
+      "Le renard",
+      "L'éléphant"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la plus grande planète du système solaire?",
+    "options": [
+      "La Terre",
+      "Mars",
+      "Saturne",
+      "Jupiter"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel outil utilise-t-on pour écrire?",
+    "options": [
+      "Un marteau",
+      "Un crayon",
+      "Une scie",
+      "Une clé"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 8 × 4?",
+    "options": [
+      "24",
+      "32",
+      "36",
+      "40"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal vit dans la forêt et hiberne l'hiver?",
+    "options": [
+      "L'ours",
+      "Le lion",
+      "Le singe",
+      "Le loup"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le résultat de 14 + 8?",
+    "options": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur du ciel par temps de pluie?",
+    "options": [
+      "Bleu",
+      "Jaune",
+      "Gris",
+      "Rouge"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le fruit qui contient beaucoup de pépins et qui est très juteux?",
+    "options": [
+      "La pomme",
+      "La banane",
+      "L'orange",
+      "La pastèque"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Combien de pétales a généralement une marguerite?",
+    "options": [
+      "4",
+      "8",
+      "Environ 20",
+      "100"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le cri du canard?",
+    "options": [
+      "Meuh",
+      "Coin-coin",
+      "Miaou",
+      "Croâ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 7 + 8?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a écrit 'Les Trois Petits Cochons'?",
+    "options": [
+      "C'est un conte populaire",
+      "Hans Christian Andersen",
+      "Les frères Grimm",
+      "Charles Perrault"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le plus grand océan du monde?",
+    "options": [
+      "L'océan Atlantique",
+      "L'océan Indien",
+      "L'océan Pacifique",
+      "L'océan Arctique"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien font 5 × 9?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "54"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le contraire de 'vide'?",
+    "options": [
+      "Rempli",
+      "Léger",
+      "Lourd",
+      "Sale"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel animal pond des œufs?",
+    "options": [
+      "Le chien",
+      "Le chat",
+      "La poule",
+      "La vache"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien de jours y a-t-il dans une année non bissextile?",
+    "options": [
+      "364",
+      "365",
+      "366",
+      "367"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la capitale de l'Italie?",
+    "options": [
+      "Madrid",
+      "Berlin",
+      "Rome",
+      "Londres"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel organe pompe le sang dans notre corps?",
+    "options": [
+      "Le cerveau",
+      "Le cœur",
+      "Les poumons",
+      "L'estomac"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus petit nombre à deux chiffres?",
+    "options": [
+      "1",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur obtenue en mélangeant du rouge et du bleu?",
+    "options": [
+      "Vert",
+      "Orange",
+      "Violet",
+      "Marron"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien d'angles possède un triangle?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le légume préféré des lapins?",
+    "options": [
+      "La carotte",
+      "La tomate",
+      "La pomme de terre",
+      "Le chou"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Prince'?",
+    "options": [
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Jules Verne",
+      "Jean de La Fontaine"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la langue la plus parlée au monde?",
+    "options": [
+      "L'anglais",
+      "Le français",
+      "L'espagnol",
+      "Le chinois mandarin"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "De quelle couleur est la mer?",
+    "options": [
+      "Rouge",
+      "Verte",
+      "Bleue",
+      "Jaune"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien d'heures y a-t-il dans deux jours?",
+    "options": [
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le nom du petit du lion?",
+    "options": [
+      "Le chaton",
+      "Le lionceau",
+      "Le louveteau",
+      "Le faon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus grand animal terrestre?",
+    "options": [
+      "La baleine",
+      "L'éléphant",
+      "La girafe",
+      "Le dinosaure"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 6 + 9?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la capitale de l'Angleterre?",
+    "options": [
+      "Paris",
+      "Madrid",
+      "Rome",
+      "Londres"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle est la couleur du feu?",
+    "options": [
+      "Bleu",
+      "Rouge",
+      "Vert",
+      "Jaune"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le double de 7?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "21"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelle le petit de la vache?",
+    "options": [
+      "Le veau",
+      "Le poulain",
+      "L'agneau",
+      "Le chiot"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le sport où l'on frappe dans un ballon avec les pieds?",
+    "options": [
+      "Le basketball",
+      "Le tennis",
+      "Le football",
+      "Le rugby"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien de côtés a un rectangle?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle planète est appelée la planète rouge?",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Neptune",
+      "Saturne"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle fête célèbre-t-on le 25 décembre?",
+    "options": [
+      "Halloween",
+      "Noël",
+      "Pâques",
+      "L'Epiphanie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la capitale de l'Allemagne?",
+    "options": [
+      "Paris",
+      "Rome",
+      "Londres",
+      "Berlin"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle est la meilleure source de calcium?",
+    "options": [
+      "La viande",
+      "Les fruits",
+      "Les produits laitiers",
+      "Les légumes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Comment appelle-t-on un rectangle dont tous les côtés sont égaux?",
+    "options": [
+      "Un losange",
+      "Un cercle",
+      "Un carré",
+      "Un triangle"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a écrit 'Les Fables'?",
+    "options": [
+      "Victor Hugo",
+      "Jean de La Fontaine",
+      "Molière",
+      "Jules Verne"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal est le meilleur ami de l'homme?",
+    "options": [
+      "Le chat",
+      "Le chien",
+      "Le cheval",
+      "Le hamster"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Où vivent les pingouins?",
+    "options": [
+      "En Afrique",
+      "En Antarctique",
+      "En Asie",
+      "En Amérique"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l'opposé du jour?",
+    "options": [
+      "La nuit",
+      "Le matin",
+      "Le soir",
+      "L'aube"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Combien font 3 + 5 + 2?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle fleur est souvent jaune et se tourne vers le soleil?",
+    "options": [
+      "La rose",
+      "Le tournesol",
+      "La tulipe",
+      "La marguerite"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel os protège notre cerveau?",
+    "options": [
+      "La colonne vertébrale",
+      "Le crâne",
+      "Le fémur",
+      "Les côtes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus petit mammifère du monde?",
+    "options": [
+      "La souris",
+      "La musaraigne",
+      "Le rat",
+      "L'écureuil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qu'est-ce qu'une phrase?",
+    "options": [
+      "Un groupe de mots",
+      "Un groupe de mots qui a un sens",
+      "Un mot très long",
+      "Une ligne dans un texte"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 100 - 25?",
+    "options": [
+      "65",
+      "70",
+      "75",
+      "80"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la femelle du taureau?",
+    "options": [
+      "La génisse",
+      "La vache",
+      "La chèvre",
+      "La truie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la boisson préférée des chats?",
+    "options": [
+      "Le lait",
+      "L'eau",
+      "Le jus d'orange",
+      "Le soda"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Où était la civilisation des pharaons?",
+    "options": [
+      "En Grèce",
+      "En Égypte",
+      "En Chine",
+      "En Inde"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a écrit 'Le Petit Chaperon Rouge'?",
+    "options": [
+      "Hans Christian Andersen",
+      "Charles Perrault",
+      "Les frères Grimm",
+      "Jean de La Fontaine"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quand fête-t-on le Nouvel An?",
+    "options": [
+      "Le 25 décembre",
+      "Le 1er janvier",
+      "Le 14 juillet",
+      "Le 31 octobre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 4 × 7?",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la couleur du miel?",
+    "options": [
+      "Rouge",
+      "Jaune doré",
+      "Blanc",
+      "Vert"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "De quelle couleur est généralement une pastèque à l'intérieur?",
+    "options": [
+      "Jaune",
+      "Rouge",
+      "Orange",
+      "Vert"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien de pattes a un insecte?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l'organe qui nous permet de respirer?",
+    "options": [
+      "Le cœur",
+      "Les poumons",
+      "Le cerveau",
+      "L'estomac"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus grand fleuve de France?",
+    "options": [
+      "La Seine",
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quand commence le printemps?",
+    "options": [
+      "Le 20 ou 21 janvier",
+      "Le 20 ou 21 mars",
+      "Le 20 ou 21 juin",
+      "Le 20 ou 21 septembre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le contraire de 'jeune'?",
+    "options": [
+      "Beau",
+      "Vieux",
+      "Grand",
+      "Petit"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui découvrit l'Amérique en 1492?",
+    "options": [
+      "Napoléon Bonaparte",
+      "Christophe Colomb",
+      "Jules César",
+      "Marco Polo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la moitié de 50?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l'animal le plus fort du monde?",
+    "options": [
+      "Le gorille",
+      "L'éléphant",
+      "Le rhinocéros",
+      "L'ours"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 6 + 7?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus long os du corps humain?",
+    "options": [
+      "L'humérus",
+      "Le fémur",
+      "Le tibia",
+      "La clavicule"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "En quelle année la France a-t-elle gagné sa première Coupe du Monde de football?",
+    "options": [
+      "1978",
+      "1998",
+      "2006",
+      "2018"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la couleur du ciel sans nuages?",
+    "options": [
+      "Gris",
+      "Bleu",
+      "Blanc",
+      "Transparent"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel jeu se joue avec 32 pièces sur un plateau quadrillé?",
+    "options": [
+      "Les dames",
+      "Les échecs",
+      "Le Monopoly",
+      "Le backgammon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Lequel de ces nombres est impair?",
+    "options": [
+      "2",
+      "7",
+      "10",
+      "16"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment s'écrit correctement le mot 'oiseau'?",
+    "options": [
+      "Oisaux",
+      "Oiseau",
+      "Oiso",
+      "Oiseaux"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la capitale du Japon?",
+    "options": [
+      "Pékin",
+      "Tokyo",
+      "Séoul",
+      "Bangkok"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "De combien de joueurs se compose une équipe de football?",
+    "options": [
+      "9",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le principal ingrédient du guacamole?",
+    "options": [
+      "La tomate",
+      "L'avocat",
+      "L'oignon",
+      "Le citron"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la formule chimique de l'eau?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "H2O2"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 100 ÷ 4?",
+    "options": [
+      "20",
+      "25",
+      "40",
+      "50"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a peint La Joconde?",
+    "options": [
+      "Pablo Picasso",
+      "Léonard de Vinci",
+      "Vincent van Gogh",
+      "Claude Monet"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelle la femelle du cerf?",
+    "options": [
+      "La chèvre",
+      "La biche",
+      "La jument",
+      "La daine"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien de temps faut-il pour que la Terre tourne autour du Soleil?",
+    "options": [
+      "1 mois",
+      "1 an",
+      "24 heures",
+      "7 jours"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel écrivain a écrit 'Le Petit Nicolas'?",
+    "options": [
+      "J.K. Rowling",
+      "René Goscinny",
+      "Jules Verne",
+      "Antoine de Saint-Exupéry"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus petit nombre à deux chiffres?",
+    "options": [
+      "00",
+      "10",
+      "11",
+      "99"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dans quel pays est né le père Noël selon la légende?",
+    "options": [
+      "Norvège",
+      "Finlande",
+      "Russie",
+      "Canada"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel insecte pique et peut propager des maladies?",
+    "options": [
+      "La fourmi",
+      "Le moustique",
+      "La coccinelle",
+      "Le papillon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 9 × 6?",
+    "options": [
+      "45",
+      "54",
+      "63",
+      "72"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui écrit les lois en France?",
+    "options": [
+      "Le président",
+      "Le parlement",
+      "Les juges",
+      "Les maires"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment appelle-t-on une figure à huit côtés?",
+    "options": [
+      "Un hexagone",
+      "Un octogone",
+      "Un pentagone",
+      "Un décagone"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Lequel de ces animaux ne produit pas de miel?",
+    "options": [
+      "L'abeille domestique",
+      "Le bourdon",
+      "Le frelon",
+      "La guêpe"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le plus long fleuve du monde?",
+    "options": [
+      "Le Nil",
+      "L'Amazone",
+      "Le Mississippi",
+      "Le Yangtsé"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Comment appelle-t-on la personne qui dirige un orchestre?",
+    "options": [
+      "Le soliste",
+      "Le chef d'orchestre",
+      "Le compositeur",
+      "Le musicien"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est l'opposé du mot 'monter'?",
+    "options": [
+      "Grimper",
+      "Descendre",
+      "Courir",
+      "Sauter"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quels sont les trois états de l'eau?",
+    "options": [
+      "Chaud, tiède, froid",
+      "Solide, liquide, gazeux",
+      "Dur, mou, moyen",
+      "Gelé, fondu, évaporé"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la planète la plus chaude du système solaire?",
+    "options": [
+      "Mercure",
+      "Vénus",
+      "Mars",
+      "Jupiter"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus petit pays du monde?",
+    "options": [
+      "Monaco",
+      "Le Vatican",
+      "Saint-Marin",
+      "Malte"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dans quel organe du corps se trouve l'iris?",
+    "options": [
+      "La peau",
+      "L'œil",
+      "Le cœur",
+      "Le cerveau"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle saison vient après l'hiver?",
+    "options": [
+      "L'automne",
+      "Le printemps",
+      "L'été",
+      "L'hiver"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quand célèbre-t-on la fête des mères en France?",
+    "options": [
+      "Le premier dimanche de mai",
+      "Le dernier dimanche de mai",
+      "Le premier dimanche de juin",
+      "Le dernier dimanche de juin"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la couleur du diamant le plus commun?",
+    "options": [
+      "Rouge",
+      "Transparent",
+      "Bleu",
+      "Vert"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien d'années compte un siècle?",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel musicien est connu pour avoir composé 'Pour Élise'?",
+    "options": [
+      "Mozart",
+      "Beethoven",
+      "Bach",
+      "Chopin"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Où trouve-t-on la Grande Muraille?",
+    "options": [
+      "En Inde",
+      "En Chine",
+      "Au Japon",
+      "En Russie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel fruit sec trouve-t-on dans le nougat?",
+    "options": [
+      "La cacahuète",
+      "L'amande",
+      "La noisette",
+      "La noix"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nombre de points maximum au jeu de 421?",
+    "options": [
+      "421",
+      "7",
+      "11",
+      "21"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qu'est-ce qui n'est pas un agrume?",
+    "options": [
+      "L'orange",
+      "La pomme",
+      "Le citron",
+      "Le pamplemousse"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel roi a fait construire le château de Versailles?",
+    "options": [
+      "François Ier",
+      "Louis XIV",
+      "Henri IV",
+      "Napoléon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la forme géométrique d'un ballon de football?",
+    "options": [
+      "Cube",
+      "Sphère",
+      "Cylindre",
+      "Pyramide"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Dans quelle ville se trouve la Tour Eiffel?",
+    "options": [
+      "Lyon",
+      "Paris",
+      "Marseille",
+      "Strasbourg"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien font 17 + 15?",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la 5ème lettre de l'alphabet?",
+    "options": [
+      "C",
+      "E",
+      "D",
+      "F"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien de semaines y a-t-il dans une année?",
+    "options": [
+      "48",
+      "52",
+      "56",
+      "60"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le résultat de 200 ÷ 8?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de l'os du bras?",
+    "options": [
+      "Le tibia",
+      "L'humérus",
+      "Le fémur",
+      "Le radius"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qu'est-ce qu'un losange?",
+    "options": [
+      "Un triangle à trois côtés égaux",
+      "Un quadrilatère dont les 4 côtés sont égaux",
+      "Un cercle aplati",
+      "Un rectangle dont 2 côtés sont égaux"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal est le symbole de la France?",
+    "options": [
+      "L'aigle",
+      "Le coq",
+      "Le lion",
+      "Le taureau"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "D'où vient le chocolat?",
+    "options": [
+      "De la noisette",
+      "Du cacao",
+      "Du café",
+      "De la vanille"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la langue la plus parlée en Europe?",
+    "options": [
+      "Le français",
+      "L'allemand",
+      "L'espagnol",
+      "L'anglais"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui a inventé l'ampoule électrique?",
+    "options": [
+      "Albert Einstein",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Isaac Newton"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le plus grand désert chaud du monde?",
+    "options": [
+      "Le désert de Gobi",
+      "Le Sahara",
+      "Le désert d'Atacama",
+      "Le désert d'Arabie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de la monnaie utilisée au Japon?",
+    "options": [
+      "Le dollar",
+      "Le yen",
+      "L'euro",
+      "La livre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Combien fait 3 au carré?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel animal ne change pas de couleur?",
+    "options": [
+      "Le caméléon",
+      "Le chat",
+      "La pieuvre",
+      "Le calmar"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le symbole chimique de l'oxygène?",
+    "options": [
+      "Ox",
+      "O",
+      "Ox2",
+      "Oy"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la date de la fête nationale française?",
+    "options": [
+      "1er mai",
+      "14 juillet",
+      "8 mai",
+      "11 novembre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du petit du chien?",
+    "options": [
+      "Le chaton",
+      "Le chiot",
+      "Le poulain",
+      "Le caneton"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le contraire du mot 'rapide'?",
+    "options": [
+      "Doux",
+      "Lent",
+      "Rude",
+      "Difficile"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du triangle qui a trois côtés égaux?",
+    "options": [
+      "Triangle rectangle",
+      "Triangle équilatéral",
+      "Triangle isocèle",
+      "Triangle quelconque"
+    ],
+    "answer": 1
+  }
+]

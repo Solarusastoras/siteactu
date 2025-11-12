@@ -1,0 +1,53 @@
+{
+  "jeux": [
+    {
+      "id": "echecs",
+      "nom": "Échecs",
+      "icon": "♟️",
+      "description": "Le jeu de stratégie classique. Protège ton roi et mets ton adversaire échec et mat!",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "biathlon",
+      "nom": "Biathlon",
+      "icon": "🎿 ",
+      "description": "Combine le ski de fond et le tir à la carabine pour remporter la victoire!",
+      "color": "#FF9F1C"
+    },
+    {
+      "id": "puissance4",
+      "nom": "Puissance 4",
+      "icon": "🔢",
+      "description": "Aligne 4 jetons de ta couleur horizontalement, verticalement ou en diagonale!",
+      "color": "#3D5A80"
+    },
+    {
+      "id": "culturequest",
+      "nom": "Culture Quest",
+      "icon": "🧩",
+      "description": "Teste tes connaissances dans différentes catégories et remporte tous les camemberts!",
+      "color": "#7209B7"
+    },
+    {
+      "id": "footdice",
+      "nom": "Foot Dice",
+      "icon": "⚽",
+      "description": "Jeu de football aux dés ! Attaque, défend et marque des buts avec les dés!",
+      "color": "#00A86B"
+    },
+    {
+      "id": "yams",
+      "nom": "Yams",
+      "icon": "🎯",
+      "description": "Lance les dés et réalise les meilleures combinaisons pour marquer un maximum de points!",
+      "color": "#e74c3c"
+    },
+    {
+      "id": "FamilleOr",
+      "nom": "Les habitudes Françaises",
+      "icon": "🧠",
+      "description": "Trouve les reponses aux questions les plus données sur les habitudes françaises!",
+      "color": "#8e44ad"
+    }
+  ]
+}

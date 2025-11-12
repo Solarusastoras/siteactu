@@ -1,0 +1,1752 @@
+[
+  {
+    "question": "Quel est le nom de la pyramide la plus célèbre d'Égypte ?",
+    "options": [
+      "Pyramide de Khéops",
+      "Pyramide de Khéphren",
+      "Pyramide de Mykérinos",
+      "Pyramide de Djoser"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel fleuve traverse l'Égypte du sud au nord ?",
+    "options": [
+      "Le Tigre",
+      "L'Euphrate",
+      "Le Nil",
+      "Le Jourdain"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a déchiffré les hiéroglyphes égyptiens en 1822 ?",
+    "options": [
+      "Howard Carter",
+      "Jean-François Champollion",
+      "Auguste Mariette",
+      "Gaston Maspero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle déesse égyptienne était associée à la maternité et à la fertilité ?",
+    "options": [
+      "Isis",
+      "Hathor",
+      "Sekhmet",
+      "Bastet"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel pharaon a fait construire le temple d'Abou Simbel ?",
+    "options": [
+      "Toutânkhamon",
+      "Ramsès II",
+      "Akhenaton",
+      "Khéops"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel dieu égyptien avait une tête de chacal ?",
+    "options": [
+      "Anubis",
+      "Thot",
+      "Horus",
+      "Seth"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle est la capitale actuelle de l'Égypte ?",
+    "options": [
+      "Alexandrie",
+      "Louxor",
+      "Assouan",
+      "Le Caire"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel monument, l'une des sept merveilles du monde antique, était situé à Alexandrie ?",
+    "options": [
+      "Le Colosse de Rhodes",
+      "Le Phare d'Alexandrie",
+      "Les Jardins suspendus de Babylone",
+      "Le Temple d'Artémis"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du document qui a permis de déchiffrer les hiéroglyphes ?",
+    "options": [
+      "La Pierre de Rosette",
+      "Le Papyrus d'Ani",
+      "Le Livre des Morts",
+      "Le Texte des Pyramides"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui était le dieu du soleil dans la mythologie égyptienne ?",
+    "options": [
+      "Osiris",
+      "Rê",
+      "Ptah",
+      "Thot"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a instauré le culte d'un dieu unique, Aton ?",
+    "options": [
+      "Ramsès II",
+      "Toutânkhamon",
+      "Akhenaton",
+      "Séthi I"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Dans quelle vallée sont enterrés la plupart des pharaons du Nouvel Empire ?",
+    "options": [
+      "La Vallée des Nobles",
+      "La Vallée des Reines",
+      "La Vallée des Rois",
+      "La Vallée des Singes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était l'épouse principale de Ramsès II ?",
+    "options": [
+      "Néfertiti",
+      "Hatchepsout",
+      "Néfertari",
+      "Cléopâtre"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon est connu pour son trésor découvert intact en 1922 ?",
+    "options": [
+      "Toutânkhamon",
+      "Ramsès II",
+      "Khéops",
+      "Aménophis III"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a découvert la tombe de Toutânkhamon ?",
+    "options": [
+      "Jean-François Champollion",
+      "Howard Carter",
+      "Auguste Mariette",
+      "Gaston Maspero"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la fonction du Sphinx de Gizeh ?",
+    "options": [
+      "Un temple funéraire",
+      "Un gardien des pyramides",
+      "Un observatoire astronomique",
+      "Un palais royal"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel objet était placé sur le visage des momies royales ?",
+    "options": [
+      "Un scarabée en or",
+      "Un masque funéraire",
+      "Un collier pectoral",
+      "Un ankh en argent"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle reine a régné comme pharaon pendant près de 20 ans ?",
+    "options": [
+      "Cléopâtre",
+      "Néfertiti",
+      "Hatchepsout",
+      "Tiyi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le nom du dieu à tête d'ibis, associé à l'écriture ?",
+    "options": [
+      "Anubis",
+      "Thot",
+      "Horus",
+      "Sobek"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle méthode les Égyptiens utilisaient-ils pour préserver les corps des défunts ?",
+    "options": [
+      "La crémation",
+      "L'embaumement",
+      "La congélation naturelle",
+      "L'immersion dans du miel"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le dieu des morts dans la mythologie égyptienne ?",
+    "options": [
+      "Anubis",
+      "Seth",
+      "Osiris",
+      "Ptah"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille navale de 31 av. J.-C. a mis fin à la période ptolémaïque en Égypte ?",
+    "options": [
+      "Bataille d'Actium",
+      "Bataille du Nil",
+      "Bataille de Péluse",
+      "Bataille d'Alexandrie"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel matériau était principalement utilisé pour fabriquer le papier dans l'Égypte ancienne ?",
+    "options": [
+      "Papyrus",
+      "Soie",
+      "Lin",
+      "Parchemin"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle structure a été la première pyramide à degrés d'Égypte ?",
+    "options": [
+      "La pyramide de Khéops",
+      "La pyramide de Khéphren",
+      "La pyramide de Djoser",
+      "La pyramide rouge"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel animal est associé au dieu Sobek ?",
+    "options": [
+      "Le faucon",
+      "Le chat",
+      "Le crocodile",
+      "Le chacal"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon a conclu le premier traité de paix connu de l'histoire avec les Hittites ?",
+    "options": [
+      "Amenhotep III",
+      "Toutmôsis III",
+      "Ramsès II",
+      "Séthi I"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la fonction des obélisques dans l'Égypte ancienne ?",
+    "options": [
+      "Marquer les tombes royales",
+      "Honorer les dieux solaires",
+      "Servir de cadrans solaires",
+      "Indiquer les crues du Nil"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de la déesse associée à la protection, représentée avec une tête de lionne ?",
+    "options": [
+      "Isis",
+      "Hathor",
+      "Sekhmet",
+      "Bastet"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel artefact a été le plus utilisé pour dater les événements dans l'histoire de l'Égypte ancienne ?",
+    "options": [
+      "Les listes royales",
+      "Les papyrus administratifs",
+      "Les temples",
+      "Les objets d'art"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom de la ville fondée par Alexandre le Grand en Égypte ?",
+    "options": [
+      "Thèbes",
+      "Memphis",
+      "Alexandrie",
+      "Héliopolis"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle dynastie a unifié la Haute et la Basse Égypte ?",
+    "options": [
+      "La dynastie ptolémaïque",
+      "La XVIIIe dynastie",
+      "La XIIe dynastie",
+      "La Ire dynastie"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le symbole associé à la vie éternelle dans l'Égypte ancienne ?",
+    "options": [
+      "L'ankh",
+      "Le djed",
+      "L'œil d'Horus",
+      "Le scarabée"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était l'unité monétaire de l'Égypte avant la livre égyptienne ?",
+    "options": [
+      "Le denier",
+      "Le deben",
+      "La drachme",
+      "Le dirham"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel nom les anciens Égyptiens donnaient-ils à leur pays ?",
+    "options": [
+      "Kemet",
+      "Deshret",
+      "Ta-Mehu",
+      "Aegypta"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel barrage a été construit sur le Nil dans les années 1960 ?",
+    "options": [
+      "Le barrage de Rosette",
+      "Le barrage d'Assouan",
+      "Le barrage du Delta",
+      "Le barrage de Memphis"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la capitale de l'Égypte pendant l'Ancien Empire ?",
+    "options": [
+      "Thèbes",
+      "Memphis",
+      "Alexandrie",
+      "Pi-Ramsès"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle plante était le symbole de la Basse-Égypte ?",
+    "options": [
+      "Le lotus",
+      "Le papyrus",
+      "Le sycomore",
+      "Le palmier"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du canal qui relie la mer Méditerranée à la mer Rouge ?",
+    "options": [
+      "Le canal d'Alexandrie",
+      "Le canal des Pharaons",
+      "Le canal de Suez",
+      "Le canal du Nil"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel peuple a dominé l'Égypte pendant la Deuxième Période Intermédiaire ?",
+    "options": [
+      "Les Hittites",
+      "Les Assyriens",
+      "Les Hyksos",
+      "Les Nubiens"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon a déplacé la capitale à Amarna ?",
+    "options": [
+      "Toutânkhamon",
+      "Akhenaton",
+      "Ramsès II",
+      "Séthi I"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle déesse était représentée avec une tête de vache ?",
+    "options": [
+      "Isis",
+      "Hathor",
+      "Sekhmet",
+      "Nephtys"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a construit le plus grand temple de Karnak ?",
+    "options": [
+      "Amenhotep III",
+      "Toutmôsis III",
+      "Ramsès II",
+      "Amenhotep IV"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel dieu avait une tête de faucon ?",
+    "options": [
+      "Seth",
+      "Horus",
+      "Anubis",
+      "Thot"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle couleur symbolisait la royauté dans l'Égypte ancienne ?",
+    "options": [
+      "Le rouge",
+      "Le bleu",
+      "Le blanc",
+      "Le doré"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le nom du général qui a conquis l'Égypte pour Rome en 30 av. J.-C. ?",
+    "options": [
+      "Jules César",
+      "Marc Antoine",
+      "Octave (Auguste)",
+      "Pompée"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle pierre était particulièrement utilisée pour les scarabées sacrés ?",
+    "options": [
+      "L'améthyste",
+      "Le lapis-lazuli",
+      "La turquoise",
+      "La stéatite"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel pharaon a construit les deux grands temples d'Abou Simbel ?",
+    "options": [
+      "Amenhotep III",
+      "Ramsès II",
+      "Toutmôsis III",
+      "Séthi I"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de la déesse du ciel ?",
+    "options": [
+      "Isis",
+      "Nout",
+      "Hathor",
+      "Sekhmet"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la fonction principale des pyramides ?",
+    "options": [
+      "Des temples dédiés aux dieux",
+      "Des tombeaux pour les pharaons",
+      "Des palais royaux",
+      "Des observatoires astronomiques"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel roi perse a conquis l'Égypte en 525 av. J.-C. ?",
+    "options": [
+      "Cyrus le Grand",
+      "Darius Ier",
+      "Cambyse II",
+      "Xerxès"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle déesse était vénérée sous la forme d'une chatte ?",
+    "options": [
+      "Isis",
+      "Sekhmet",
+      "Hathor",
+      "Bastet"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel est le nom du livre funéraire égyptien contenant des formules magiques ?",
+    "options": [
+      "Le Livre des Portes",
+      "Le Livre des Cavernes",
+      "Le Livre des Morts",
+      "Le Livre de l'Amdouat"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle cérémonie était célébrée par le pharaon après 30 ans de règne ?",
+    "options": [
+      "La fête Sed",
+      "La fête d'Opet",
+      "La fête de Min",
+      "La fête de la Vallée"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel pharaon est représenté sur le Sphinx de Gizeh ?",
+    "options": [
+      "Khéops",
+      "Khéphren",
+      "Mykérinos",
+      "Akhenaton"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le centre du culte d'Osiris dans l'Égypte ancienne ?",
+    "options": [
+      "Thèbes",
+      "Memphis",
+      "Abydos",
+      "Héliopolis"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle période est connue comme l'âge d'or de l'Égypte ancienne ?",
+    "options": [
+      "L'Ancien Empire",
+      "Le Moyen Empire",
+      "Le Nouvel Empire",
+      "La Période Tardive"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle pierre a été principalement utilisée pour la construction des pyramides ?",
+    "options": [
+      "Le granite",
+      "Le basalte",
+      "Le calcaire",
+      "Le grès"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel roi nubien a conquis l'Égypte et fondé la XXVe dynastie ?",
+    "options": [
+      "Psammetique",
+      "Piânkhy",
+      "Taharqa",
+      "Shabaka"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel dieu était associé au désert et aux orages ?",
+    "options": [
+      "Horus",
+      "Osiris",
+      "Seth",
+      "Ptah"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le jeu de société le plus populaire dans l'Égypte ancienne ?",
+    "options": [
+      "Mehen",
+      "Senet",
+      "Tjau",
+      "Aseb"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel symbole était utilisé pour représenter le pharaon ?",
+    "options": [
+      "Le cobra royal (uraeus)",
+      "Le vautour",
+      "Le scarabée",
+      "L'ankh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle déesse représentait la justice et l'harmonie cosmique ?",
+    "options": [
+      "Isis",
+      "Maat",
+      "Hathor",
+      "Nephtys"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle est la période approximative de l'Ancien Empire égyptien ?",
+    "options": [
+      "5000-3000 av. J.-C.",
+      "3000-2200 av. J.-C.",
+      "2000-1700 av. J.-C.",
+      "1500-1000 av. J.-C."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a été le premier égyptologue à mener des fouilles systématiques en Égypte ?",
+    "options": [
+      "Jean-François Champollion",
+      "Auguste Mariette",
+      "Howard Carter",
+      "Flinders Petrie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel monument funéraire a été construit par la reine Hatchepsout ?",
+    "options": [
+      "Le temple d'Abou Simbel",
+      "Le temple de Louxor",
+      "Le temple de Deir el-Bahari",
+      "Le Ramesséum"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la pierre sacrée vénérée à Héliopolis ?",
+    "options": [
+      "L'Œil d'Horus",
+      "Le Benben",
+      "Le Scarabée Sacré",
+      "La Pierre Noire"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon est connu pour avoir perdu la bataille de Qadesh contre les Hittites ?",
+    "options": [
+      "Amenhotep III",
+      "Toutmôsis III",
+      "Ramsès II",
+      "Séthi I"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel dieu était représenté comme un homme à tête de bélier ?",
+    "options": [
+      "Amon",
+      "Khnoum",
+      "Ptah",
+      "Montou"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle technique d'irrigation était utilisée dans l'Égypte ancienne ?",
+    "options": [
+      "Le chadouf",
+      "L'aqueduc",
+      "La noria",
+      "Le qanat"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était la capitale culturelle et religieuse pendant le Nouvel Empire ?",
+    "options": [
+      "Memphis",
+      "Thèbes",
+      "Alexandrie",
+      "Abydos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a vaincu les Peuples de la Mer au début du XIIe siècle av. J.-C. ?",
+    "options": [
+      "Ramsès II",
+      "Séthi I",
+      "Ramsès III",
+      "Mérenptah"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la forme traditionnelle des tombes royales avant les pyramides ?",
+    "options": [
+      "Les mastabas",
+      "Les hypogées",
+      "Les tumulus",
+      "Les dolmens"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle reine égyptienne a mené une expédition commerciale au pays de Pount ?",
+    "options": [
+      "Néfertiti",
+      "Hatchepsout",
+      "Tiyi",
+      "Néfertari"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon est associé à la construction de la pyramide rhomboïdale ?",
+    "options": [
+      "Khéops",
+      "Khéphren",
+      "Mykérinos",
+      "Snéfrou"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle ville était la capitale de l'Égypte sous les Ptolémées ?",
+    "options": [
+      "Thèbes",
+      "Memphis",
+      "Alexandrie",
+      "Pi-Ramsès"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était l'architecte de la première pyramide à degrés ?",
+    "options": [
+      "Imhotep",
+      "Hemon",
+      "Kanofer",
+      "Senenmout"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel animal était le symbole du dieu Seth ?",
+    "options": [
+      "Le crocodile",
+      "L'hippopotame",
+      "Un animal imaginaire",
+      "Le serpent"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quand a eu lieu l'expédition d'Égypte menée par Napoléon Bonaparte ?",
+    "options": [
+      "1798-1801",
+      "1805-1810",
+      "1815-1818",
+      "1820-1825"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle divinité égyptienne était représentée avec un corps humain et la tête d'un ibis ?",
+    "options": [
+      "Anubis",
+      "Thot",
+      "Horus",
+      "Ptah"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du calendrier utilisé par les anciens Égyptiens ?",
+    "options": [
+      "Calendrier solaire",
+      "Calendrier lunaire",
+      "Calendrier nilotique",
+      "Calendrier stellaire"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel animal était considéré comme l'incarnation du dieu Apis ?",
+    "options": [
+      "Le chat",
+      "Le taureau",
+      "Le faucon",
+      "Le crocodile"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de l'outil utilisé par les scribes égyptiens pour écrire ?",
+    "options": [
+      "Le roseau",
+      "Le calame",
+      "Le stylet",
+      "La plume"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la première capitale de l'Égypte unifiée ?",
+    "options": [
+      "Thèbes",
+      "Memphis",
+      "Abydos",
+      "Héliopolis"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a mené une campagne militaire contre les Hittites à Qadesh ?",
+    "options": [
+      "Amenhotep III",
+      "Touthmôsis III",
+      "Ramsès II",
+      "Séthi I"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "En quelle année l'Égypte est-elle devenue une république ?",
+    "options": [
+      "1922",
+      "1945",
+      "1952",
+      "1956"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom de la plus grande ville du monde antique située en Égypte ?",
+    "options": [
+      "Alexandrie",
+      "Memphis",
+      "Thèbes",
+      "Abydos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle méthode les Égyptiens utilisaient-ils pour déterminer l'heure pendant la journée ?",
+    "options": [
+      "Les sabliers",
+      "Les horloges à eau",
+      "Les cadrans solaires",
+      "Les horloges mécaniques"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Combien d'années ont duré les travaux de construction du barrage d'Assouan ?",
+    "options": [
+      "5 ans",
+      "10 ans",
+      "15 ans",
+      "20 ans"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la fonction des pyramides textes ?",
+    "options": [
+      "Récits historiques",
+      "Formules funéraires",
+      "Instructions de construction",
+      "Textes administratifs"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la principale ressource exportée par l'Égypte antique ?",
+    "options": [
+      "Le grain",
+      "L'or",
+      "Le papyrus",
+      "Le lin"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel instrument de musique était particulièrement populaire dans l'Égypte ancienne ?",
+    "options": [
+      "La harpe",
+      "La flûte",
+      "Le tambour",
+      "Le sistre"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle plante était particulièrement vénérée dans l'Égypte ancienne ?",
+    "options": [
+      "Le lotus",
+      "Le papyrus",
+      "Le palmier",
+      "L'olivier"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel roi d'Égypte a signé un traité de paix avec Israël en 1979 ?",
+    "options": [
+      "Gamal Abdel Nasser",
+      "Anouar el-Sadate",
+      "Hosni Moubarak",
+      "Mohamed Naguib"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle divinité représentait la Lune dans la mythologie égyptienne ?",
+    "options": [
+      "Thot",
+      "Khonsou",
+      "Osiris",
+      "Atoum"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a construit le temple de Louxor ?",
+    "options": [
+      "Amenhotep III",
+      "Ramsès II",
+      "Touthmôsis IV",
+      "Akhenaton"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle substance était utilisée pour noircir le contour des yeux en Égypte ancienne ?",
+    "options": [
+      "L'encre",
+      "Le charbon",
+      "Le khôl",
+      "L'indigo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le nom du dernier pharaon d'Égypte ?",
+    "options": [
+      "Cléopâtre VII",
+      "Ptolémée XV César",
+      "Nectanébo II",
+      "Alexandre Aegos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la forme de gouvernement de l'Égypte ancienne ?",
+    "options": [
+      "Une démocratie",
+      "Une théocratie",
+      "Une monarchie absolue",
+      "Une république"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la ville sainte du culte solaire dans l'Égypte ancienne ?",
+    "options": [
+      "Thèbes",
+      "Héliopolis",
+      "Memphis",
+      "Abydos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel matériau était utilisé pour fabriquer la majorité des bijoux égyptiens ?",
+    "options": [
+      "L'or",
+      "L'argent",
+      "Le bronze",
+      "Le fer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel animal était associé à la déesse Bastet ?",
+    "options": [
+      "Le lion",
+      "L'ibis",
+      "Le chat",
+      "Le faucon"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la boisson la plus consommée par les Égyptiens de l'Antiquité ?",
+    "options": [
+      "Le vin",
+      "La bière",
+      "Le lait",
+      "L'eau du Nil filtrée"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Comment s'appelait la reine qui a régné aux côtés de Ramsès II ?",
+    "options": [
+      "Néfertiti",
+      "Néfertari",
+      "Tiyi",
+      "Hatchepsout"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel historien grec a visité l'Égypte au Ve siècle av. J.-C. et a laissé des descriptions détaillées ?",
+    "options": [
+      "Thucydide",
+      "Hérodote",
+      "Plutarque",
+      "Xénophon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la résidence principale de la déesse Hathor ?",
+    "options": [
+      "Dendérah",
+      "Abydos",
+      "Héliopolis",
+      "Thèbes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le nom de la plus grande nécropole de l'Égypte ancienne ?",
+    "options": [
+      "Gizeh",
+      "Louxor",
+      "Saqqarah",
+      "Abydos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel système d'écriture a remplacé les hiéroglyphes en Égypte ?",
+    "options": [
+      "Le démotique",
+      "Le hiératique",
+      "Le copte",
+      "L'arabe"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était la durée moyenne de vie d'un Égyptien de l'Antiquité ?",
+    "options": [
+      "25-30 ans",
+      "35-40 ans",
+      "45-50 ans",
+      "55-60 ans"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon est associé à l'âge d'or de la médecine égyptienne ?",
+    "options": [
+      "Imhotep",
+      "Djoser",
+      "Amenhotep III",
+      "Akhenaton"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le principal céréal cultivé en Égypte ancienne ?",
+    "options": [
+      "Le blé",
+      "L'orge",
+      "Le seigle",
+      "Le millet"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle technique artistique les Égyptiens utilisaient-ils pour représenter le corps humain ?",
+    "options": [
+      "La perspective",
+      "Le canon de proportion",
+      "Le réalisme",
+      "L'impressionnisme"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel objet symbolisait le pouvoir du pharaon ?",
+    "options": [
+      "Le sceptre heqa",
+      "L'ankh",
+      "Le scarabée",
+      "L'uraeus"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle divinité égyptienne était considérée comme la protectrice des femmes enceintes ?",
+    "options": [
+      "Isis",
+      "Hathor",
+      "Taweret",
+      "Nephthys"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la principale méthode utilisée pour la construction des pyramides ?",
+    "options": [
+      "L'utilisation de rampes",
+      "L'utilisation de grues",
+      "L'utilisation de poulies",
+      "L'utilisation de leviers"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel oiseau était associé au dieu Thot ?",
+    "options": [
+      "Le faucon",
+      "L'ibis",
+      "Le vautour",
+      "L'aigle"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle activité récréative était très populaire parmi les nobles égyptiens ?",
+    "options": [
+      "La chasse",
+      "La pêche",
+      "Les courses de chars",
+      "La natation"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle est la hauteur approximative de la Grande Pyramide de Gizeh à l'origine ?",
+    "options": [
+      "100 mètres",
+      "125 mètres",
+      "146 mètres",
+      "175 mètres"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du système judiciaire dans l'Égypte ancienne ?",
+    "options": [
+      "La Maison de Vérité",
+      "La Cour des Juges",
+      "Le Tribunal de Maat",
+      "La Cour Royale"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nombre de provinces (nomes) dans l'Égypte ancienne ?",
+    "options": [
+      "22",
+      "32",
+      "42",
+      "52"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la monnaie utilisée dans l'Égypte ptolémaïque ?",
+    "options": [
+      "Le deben",
+      "La drachme",
+      "Le sesterce",
+      "Le shekel"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom du premier roi à avoir uni la Haute et la Basse Égypte ?",
+    "options": [
+      "Narmer (Ménès)",
+      "Scorpion",
+      "Hor-Aha",
+      "Djer"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le principal instrument utilisé pour mesurer la crue du Nil ?",
+    "options": [
+      "Le pluviomètre",
+      "Le nilomètre",
+      "L'hygromètre",
+      "Le baromètre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la fonction du vizir dans le gouvernement égyptien ?",
+    "options": [
+      "Chef militaire",
+      "Chef religieux",
+      "Administrateur en chef",
+      "Responsable des finances"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle est la principale raison de la préservation des momies égyptiennes à travers les millénaires ?",
+    "options": [
+      "Le climat sec du désert",
+      "Les techniques d'embaumement",
+      "Les tombes scellées",
+      "Les huiles essentielles utilisées"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le nom du complexe de temples souterrains sauvés des eaux lors de la construction du barrage d'Assouan ?",
+    "options": [
+      "Karnak",
+      "Louxor",
+      "Abou Simbel",
+      "Philae"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a fondé la dynastie ptolémaïque en Égypte ?",
+    "options": [
+      "Alexandre le Grand",
+      "Ptolémée Ier Sôter",
+      "Jules César",
+      "Marc Antoine"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quels étaient les trois cycles du calendrier égyptien antique ?",
+    "options": [
+      "Solaire, lunaire et stellaire",
+      "Saisons, jours et heures",
+      "Akhet, Peret et Shemu",
+      "Matin, midi et soir"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était l'emblème de la Haute-Égypte ?",
+    "options": [
+      "Le lotus",
+      "Le papyrus",
+      "Le palmier",
+      "Le sycomore"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel est le nom du disque ailé qui symbolisait la protection solaire dans l'art égyptien ?",
+    "options": [
+      "L'ankh",
+      "Le djed",
+      "L'uraeus",
+      "Le Behedeti"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui était le dieu primordial dans la cosmogonie d'Héliopolis ?",
+    "options": [
+      "Rê",
+      "Amon",
+      "Atoum",
+      "Ptah"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel roi égyptien a lutté contre les Hyksos et entamé leur expulsion ?",
+    "options": [
+      "Séqénenrê Taâ",
+      "Kamosis",
+      "Ahmosis",
+      "Amenhotep I"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle ville était considérée comme la capitale religieuse de l'Égypte durant le Nouvel Empire ?",
+    "options": [
+      "Memphis",
+      "Thèbes",
+      "Héliopolis",
+      "Abydos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel papyrus médical égyptien est le plus ancien connu ?",
+    "options": [
+      "Le papyrus Ebers",
+      "Le papyrus Edwin Smith",
+      "Le papyrus Kahun",
+      "Le papyrus de Londres"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel est le nom du dieu-créateur associé à Memphis ?",
+    "options": [
+      "Ptah",
+      "Amon",
+      "Rê",
+      "Khnoum"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom du bateau sacré d'Amon à Thèbes ?",
+    "options": [
+      "La barque Ouserhat",
+      "La barque Hennou",
+      "La barque Mesektet",
+      "La barque Mandjet"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel pharaon a construit le temple d'Horus à Edfou ?",
+    "options": [
+      "Ramsès II",
+      "Ptolémée III",
+      "Amenhotep III",
+      "Thoutmôsis III"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la formation militaire d'élite créée sous Ramsès II ?",
+    "options": [
+      "Les Shardanes",
+      "Les Medjay",
+      "Les Immortels",
+      "Les Compagnons"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel type de pierre était utilisé pour les obélisques égyptiens ?",
+    "options": [
+      "Le calcaire",
+      "Le granite",
+      "Le grès",
+      "Le marbre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a ordonné l'effacement systématique du nom d'Amon des monuments ?",
+    "options": [
+      "Toutânkhamon",
+      "Akhenaton",
+      "Horemheb",
+      "Hatshepsout"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le nom de l'école des scribes dans l'Égypte ancienne ?",
+    "options": [
+      "La Maison des Livres",
+      "La Maison de Vie",
+      "L'Académie Royale",
+      "Le Temple du Savoir"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le nom égyptien du Sphinx de Gizeh ?",
+    "options": [
+      "Horus de l'Horizon",
+      "Harmakhis",
+      "Horemakhet",
+      "Hor-em-akhet"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle était la résidence principale des dieux selon les Égyptiens ?",
+    "options": [
+      "Le ciel",
+      "Les temples",
+      "Les statues divines",
+      "Le Duat (monde souterrain)"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon a été enterré dans la plus petite des trois grandes pyramides de Gizeh ?",
+    "options": [
+      "Khéops",
+      "Khéphren",
+      "Mykérinos",
+      "Snéfrou"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle fête célébrait l'union d'Amon et de la reine-pharaon ?",
+    "options": [
+      "La fête d'Opet",
+      "La fête de Min",
+      "La fête de la Vallée",
+      "La fête Sed"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle période égyptienne est caractérisée par l'art amarnien ?",
+    "options": [
+      "L'Ancien Empire",
+      "Le Moyen Empire",
+      "Le Nouvel Empire",
+      "La Basse Époque"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la principale culture sur les rives du Nil pendant l'ère prédynastique ?",
+    "options": [
+      "La culture de Nagada",
+      "La culture de Badari",
+      "La culture de Fayoum",
+      "La culture de Mérimda"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel oiseau représentait l'âme (ba) dans l'iconographie égyptienne ?",
+    "options": [
+      "Un faucon",
+      "Un ibis",
+      "Un oiseau à tête humaine",
+      "Un vautour"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle pierre précieuse était particulièrement prisée en Égypte ancienne pour sa couleur bleue ?",
+    "options": [
+      "Le lapis-lazuli",
+      "L'améthyste",
+      "La turquoise",
+      "L'émeraude"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle ville a été fondée comme nouvelle capitale par Akhenaton ?",
+    "options": [
+      "Pi-Ramsès",
+      "Akhetaton",
+      "Tell el-Amarna",
+      "Hermopolis"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le plus long règne de l'histoire égyptienne ?",
+    "options": [
+      "Ramsès II",
+      "Pépi II",
+      "Thoutmôsis III",
+      "Amenemhat III"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le titre du grand prêtre de Ptah à Memphis ?",
+    "options": [
+      "Le Grand des Voyants",
+      "Le Chef des Mystères",
+      "Le Grand des Artisans",
+      "Le Serviteur Divin"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel type de vêtement était typiquement porté par les pharaons ?",
+    "options": [
+      "La toge",
+      "Le shendyt",
+      "Le kalasiris",
+      "Le chiton"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la meilleure période pour la crue du Nil ?",
+    "options": [
+      "Printemps",
+      "Été",
+      "Automne",
+      "Hiver"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a été le dernier grand bâtisseur du Nouvel Empire ?",
+    "options": [
+      "Ramsès II",
+      "Ramsès III",
+      "Séthi I",
+      "Mérenptah"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle dynastie a été qualifiée de 'renaissance égyptienne' après la Troisième Période Intermédiaire ?",
+    "options": [
+      "XXVIe dynastie",
+      "XXIXe dynastie",
+      "XXXe dynastie",
+      "XXVe dynastie"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était la substance utilisée pour momifier les corps en Égypte ancienne ?",
+    "options": [
+      "La myrrhe",
+      "Le natron",
+      "L'encens",
+      "L'huile de cèdre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le rôle du 'fils royal de Koush' dans l'administration égyptienne ?",
+    "options": [
+      "Prince héritier",
+      "Gouverneur de Nubie",
+      "Chef religieux pour les cultes nubiens",
+      "Ambassadeur auprès des royaumes africains"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel rite funéraire permettait au défunt de retrouver ses fonctions vitales dans l'au-delà ?",
+    "options": [
+      "La pesée du cœur",
+      "L'offrande funéraire",
+      "L'ouverture de la bouche",
+      "La consécration du tombeau"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel type de colonne caractéristique représente le papyrus dans l'architecture égyptienne ?",
+    "options": [
+      "La colonne papyriforme",
+      "La colonne lotiforme",
+      "La colonne palmiforme",
+      "La colonne hathorique"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle a été la principale innovation militaire introduite par les Hyksos en Égypte ?",
+    "options": [
+      "L'arc composite",
+      "Le char de guerre",
+      "L'armure métallique",
+      "La cavalerie montée"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pharaon a établi sa capitale à Tanis dans le Delta ?",
+    "options": [
+      "Ramsès II",
+      "Psousennès I",
+      "Sheshonq I",
+      "Osorkon II"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le nom de la police du désert en Égypte ancienne ?",
+    "options": [
+      "Les Shardanes",
+      "Les Médjay",
+      "Les Tjéhenou",
+      "Les Ḥryw-š3y"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle fête célébrait la résurrection d'Osiris en Égypte ancienne ?",
+    "options": [
+      "La fête d'Opet",
+      "Les mystères d'Abydos",
+      "La fête de Khoiak",
+      "La fête de la Vallée"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du dieu-faucon vénéré à Edfou ?",
+    "options": [
+      "Horus Behedeti",
+      "Horus fils d'Isis",
+      "Horus l'Ancien",
+      "Haroeris"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était la couleur traditionnelle de la couronne de Haute-Égypte ?",
+    "options": [
+      "Rouge",
+      "Blanche",
+      "Bleue",
+      "Verte"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle structure funéraire a été construite par Djoser à Saqqarah ?",
+    "options": [
+      "Une pyramide à faces lisses",
+      "Un mastaba monumental",
+      "Une pyramide à degrés",
+      "Un temple funéraire"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon a épousé une princesse hittite pour sceller l'alliance entre les deux empires ?",
+    "options": [
+      "Amenhotep III",
+      "Akhenaton",
+      "Ramsès II",
+      "Toutânkhamon"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la langue parlée en Égypte à l'époque ptolémaïque ?",
+    "options": [
+      "L'égyptien ancien uniquement",
+      "Le grec uniquement",
+      "L'égyptien ancien et le grec",
+      "L'araméen et le grec"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel titre portait le chef des prêtres d'Amon à Thèbes ?",
+    "options": [
+      "Premier Prophète d'Amon",
+      "Serviteur Divin d'Amon",
+      "Grand des Voyants",
+      "Chef des Mystères"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle couleur symbolisait la régénération dans l'art égyptien ?",
+    "options": [
+      "Le rouge",
+      "Le bleu",
+      "Le vert",
+      "Le noir"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon a fondé l'école des médecins en Égypte ancienne ?",
+    "options": [
+      "Djoser",
+      "Imhotep",
+      "Amenhotep fils de Hapou",
+      "Pétosiris"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle composition funéraire garantissait le passage sûr dans l'au-delà ?",
+    "options": [
+      "Les Textes des Pyramides",
+      "Les Textes des Sarcophages",
+      "Le Livre des Morts",
+      "Le Livre des Portes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du principal port égyptien sur la mer Rouge durant l'époque ptolémaïque ?",
+    "options": [
+      "Alexandrie",
+      "Bérénice",
+      "Péluse",
+      "Myos Hormos"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel est le style architectural caractéristique des temples égyptiens du Nouvel Empire ?",
+    "options": [
+      "Style périptère",
+      "Style hypostyle",
+      "Style mégalithique",
+      "Style périptéral"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel type de sculpture égyptienne montre une personne accroupie enveloppée dans un manteau ?",
+    "options": [
+      "Le scribe accroupi",
+      "La statue cube",
+      "Le groupe familial",
+      "La statue naophore"
+    ],
+    "answer": 1
+  }
+]

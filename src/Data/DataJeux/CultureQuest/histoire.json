@@ -1,0 +1,1272 @@
+[
+  {
+    "question": "Quel événement a marqué le début de la Révolution industrielle?",
+    "options": [
+      "L'invention de la machine à vapeur",
+      "La découverte de l'électricité",
+      "L'invention du télégraphe",
+      "La découverte du pétrole"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a écrit 'Le Prince', un traité politique sur le pouvoir?",
+    "options": [
+      "Machiavel",
+      "Hobbes",
+      "Locke",
+      "Rousseau"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En quelle année a eu lieu la Révolution française?",
+    "options": [
+      "1799",
+      "1789",
+      "1769",
+      "1776"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le premier empereur romain?",
+    "options": [
+      "Néron",
+      "Jules César",
+      "Caligula",
+      "Auguste"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel événement a marqué le début de la Seconde Guerre mondiale en Europe?",
+    "options": [
+      "L'attaque de Pearl Harbor",
+      "L'invasion de la Pologne",
+      "La bataille de Stalingrad",
+      "Le débarquement de Normandie"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le roi de France pendant la Guerre de Cent Ans?",
+    "options": [
+      "Louis XIV",
+      "François Ier",
+      "Charles VII",
+      "Philippe Auguste"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pharaon est associé à la plus grande pyramide de Gizeh?",
+    "options": [
+      "Toutânkhamon",
+      "Ramsès II",
+      "Khéops",
+      "Akhenaton"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille a mis fin aux guerres napoléoniennes?",
+    "options": [
+      "Austerlitz",
+      "Waterloo",
+      "Trafalgar",
+      "Wagram"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel chef militaire a conduit les Mongols à la conquête d'une grande partie de l'Asie?",
+    "options": [
+      "Gengis Khan",
+      "Kubilai Khan",
+      "Tamerlan",
+      "Attila"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "En quelle année l'Empire romain d'Occident a-t-il pris fin?",
+    "options": [
+      "395",
+      "410",
+      "476",
+      "527"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel traité a mis fin à la Première Guerre mondiale?",
+    "options": [
+      "Traité de Versailles",
+      "Traité de Paris",
+      "Traité de Saint-Germain",
+      "Traité de Sèvres"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle bataille navale a opposé les Grecs aux Perses en 480 av. J.-C.?",
+    "options": [
+      "Marathon",
+      "Salamine",
+      "Platées",
+      "Thermopyles"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a dirigé l'URSS pendant la majeure partie de la Seconde Guerre mondiale?",
+    "options": [
+      "Lénine",
+      "Trotsky",
+      "Khrouchtchev",
+      "Staline"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel roi anglais a signé la Grande Charte (Magna Carta) en 1215?",
+    "options": [
+      "Richard Cœur de Lion",
+      "Jean sans Terre",
+      "Henri II",
+      "Édouard Ier"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle ville a été le site de deux bombes atomiques en 1945?",
+    "options": [
+      "Hiroshima",
+      "Tokyo",
+      "Osaka",
+      "Nagasaki"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui a fondé l'Empire perse au VIe siècle av. J.-C.?",
+    "options": [
+      "Darius",
+      "Cyrus le Grand",
+      "Xerxès",
+      "Cambyse"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel événement a déclenché la Première Guerre mondiale?",
+    "options": [
+      "Le naufrage du Lusitania",
+      "L'invasion de la Belgique",
+      "L'assassinat de l'archiduc François-Ferdinand",
+      "La révolution russe"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle cité-État grecque était connue pour son régime militaire strict?",
+    "options": [
+      "Athènes",
+      "Corinthe",
+      "Sparte",
+      "Thèbes"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel général carthaginois a traversé les Alpes avec des éléphants?",
+    "options": [
+      "Hamilcar",
+      "Hasdrubal",
+      "Hannibal",
+      "Magon"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille de 1942 a marqué un tournant dans la guerre du Pacifique?",
+    "options": [
+      "Midway",
+      "Guadalcanal",
+      "Iwo Jima",
+      "Corail"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel empereur romain a construit un mur en Grande-Bretagne?",
+    "options": [
+      "Trajan",
+      "Hadrien",
+      "Claude",
+      "Constantin"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le commandant en chef des forces alliées en Europe pendant la Seconde Guerre mondiale?",
+    "options": [
+      "George Patton",
+      "Bernard Montgomery",
+      "Douglas MacArthur",
+      "Dwight Eisenhower"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle était la capitale de l'Empire byzantin?",
+    "options": [
+      "Rome",
+      "Athènes",
+      "Constantinople",
+      "Alexandrie"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a dirigé l'expédition qui a fait le premier tour du monde?",
+    "options": [
+      "Christophe Colomb",
+      "Vasco de Gama",
+      "Ferdinand Magellan",
+      "Jacques Cartier"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pays a été neutre pendant les deux guerres mondiales?",
+    "options": [
+      "Suède",
+      "Espagne",
+      "Suisse",
+      "Portugal"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel roi de France a été guillotiné pendant la Révolution française?",
+    "options": [
+      "Louis XV",
+      "Louis XVI",
+      "Louis XIV",
+      "Louis XVIII"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle bataille de 1066 a conduit à la conquête normande de l'Angleterre?",
+    "options": [
+      "Crécy",
+      "Poitiers",
+      "Agincourt",
+      "Hastings"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui a été le premier empereur de Chine?",
+    "options": [
+      "Qin Shi Huang",
+      "Han Wudi",
+      "Kublai Khan",
+      "Sun Yat-sen"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle fut la première grande bataille de la Première Guerre mondiale?",
+    "options": [
+      "Verdun",
+      "La Marne",
+      "La Somme",
+      "Ypres"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le dieu suprême dans la mythologie grecque?",
+    "options": [
+      "Apollon",
+      "Poséidon",
+      "Zeus",
+      "Hadès"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du plan allemand d'invasion de la France en 1940?",
+    "options": [
+      "Plan Jaune",
+      "Plan Barbarossa",
+      "Plan Z",
+      "Plan Schlieffen"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui était la reine égyptienne connue pour sa relation avec Marc Antoine?",
+    "options": [
+      "Hatchepsout",
+      "Néfertiti",
+      "Cléopâtre VII",
+      "Tiyi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille navale de 1805 a assuré la domination britannique des mers?",
+    "options": [
+      "Aboukir",
+      "Trafalgar",
+      "Copenhague",
+      "Les Saintes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel ordre militaire et religieux a été fondé durant les croisades?",
+    "options": [
+      "Jésuites",
+      "Dominicains",
+      "Templiers",
+      "Franciscains"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel général allemand était connu sous le nom de 'Renard du désert' pendant la Seconde Guerre mondiale?",
+    "options": [
+      "Rommel",
+      "Guderian",
+      "von Paulus",
+      "Keitel"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle civilisation a construit Machu Picchu?",
+    "options": [
+      "Aztèque",
+      "Maya",
+      "Inca",
+      "Olmèque"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle opération alliée a été le débarquement en Normandie en 1944?",
+    "options": [
+      "Market Garden",
+      "Overlord",
+      "Torch",
+      "Husky"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le philosophe grec qui a enseigné Alexandre le Grand?",
+    "options": [
+      "Socrate",
+      "Platon",
+      "Diogène",
+      "Aristote"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel mouvement artistique et intellectuel a marqué la Renaissance?",
+    "options": [
+      "L'humanisme",
+      "Le baroque",
+      "Le romantisme",
+      "Le réalisme"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle bataille de 1916 a été la plus longue de la Première Guerre mondiale?",
+    "options": [
+      "La Somme",
+      "Ypres",
+      "Verdun",
+      "Passchendaele"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du code civil promulgué par Napoléon Bonaparte?",
+    "options": [
+      "Code Justinien",
+      "Code Louisiane",
+      "Code Napoléon",
+      "Code Civil"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Dans quelle ville s'est tenue la conférence qui a organisé l'Europe après la Seconde Guerre mondiale?",
+    "options": [
+      "Yalta",
+      "Potsdam",
+      "Téhéran",
+      "Munich"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel empereur romain a adopté le christianisme comme religion officielle?",
+    "options": [
+      "Néron",
+      "Trajan",
+      "Constantin",
+      "Théodose"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a mené les Huns lors de leurs invasions en Europe au 5ème siècle?",
+    "options": [
+      "Attila",
+      "Alaric",
+      "Genséric",
+      "Odoacre"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel pays a été le premier à utiliser des chars d'assaut en 1916?",
+    "options": [
+      "France",
+      "Allemagne",
+      "Royaume-Uni",
+      "États-Unis"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel empire a été dissous après la Première Guerre mondiale?",
+    "options": [
+      "Empire allemand",
+      "Empire austro-hongrois",
+      "Empire britannique",
+      "Empire ottoman"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle ville a été divisée par un mur de 1961 à 1989?",
+    "options": [
+      "Vienne",
+      "Prague",
+      "Varsovie",
+      "Berlin"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui était le dernier pharaon de l'Égypte antique?",
+    "options": [
+      "Cléopâtre VII",
+      "Ptolémée XV",
+      "Ramsès XI",
+      "Nectanébo II"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle a été la plus longue dynastie chinoise?",
+    "options": [
+      "Ming",
+      "Zhou",
+      "Han",
+      "Qing"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pays a été envahi par l'Allemagne en avril 1940?",
+    "options": [
+      "Danemark",
+      "Pologne",
+      "Norvège",
+      "Belgique"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était le dirigeant soviétique lors de la crise des missiles de Cuba?",
+    "options": [
+      "Staline",
+      "Brejnev",
+      "Khrouchtchev",
+      "Gorbatchev"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle dynastie a régné sur la France pendant la majeure partie du Moyen Âge?",
+    "options": [
+      "Mérovingiens",
+      "Carolingiens",
+      "Valois",
+      "Capétiens"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle était la capitale de l'Empire ottoman?",
+    "options": [
+      "Le Caire",
+      "Bagdad",
+      "Damas",
+      "Constantinople"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui a découvert l'Amérique pour l'Espagne en 1492?",
+    "options": [
+      "Amerigo Vespucci",
+      "Christophe Colomb",
+      "Vasco de Gama",
+      "Ferdinand Magellan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le nom de la ligne de défense française face à l'Allemagne pendant l'entre-deux-guerres?",
+    "options": [
+      "La ligne Siegfried",
+      "La ligne Hindenburg",
+      "La ligne Maginot",
+      "La ligne Gustav"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était le pharaon lors de l'Exode des Hébreux d'Égypte selon la tradition?",
+    "options": [
+      "Ramsès II",
+      "Toutânkhamon",
+      "Akhenaton",
+      "Séthi Ier"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle bataille mit fin à l'Empire aztèque?",
+    "options": [
+      "La bataille de Cajamarca",
+      "La bataille de Tenochtitlán",
+      "La bataille de Cusco",
+      "La bataille de Potosí"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel événement est considéré comme le début de la Renaissance?",
+    "options": [
+      "La chute de Constantinople",
+      "L'invention de l'imprimerie",
+      "La découverte de l'Amérique",
+      "La fin de la Guerre de Cent Ans"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel roi d'Angleterre a fondé l'Église anglicane?",
+    "options": [
+      "Henri VII",
+      "Henri VIII",
+      "Édouard VI",
+      "Jacques Ier"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle était la principale cité-État commerçante de la Renaissance italienne?",
+    "options": [
+      "Milan",
+      "Rome",
+      "Florence",
+      "Venise"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui était le grand conquérant macédonien du IVe siècle av. J.-C.?",
+    "options": [
+      "Alexandre le Grand",
+      "Philippe II",
+      "Ptolémée",
+      "Antigone"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle a été la cause directe de la Première Guerre mondiale?",
+    "options": [
+      "La course aux armements",
+      "Les tensions coloniales",
+      "L'assassinat de l'archiduc François-Ferdinand",
+      "La montée du nationalisme"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom du programme américain d'aide économique à l'Europe après la Seconde Guerre mondiale?",
+    "options": [
+      "New Deal",
+      "Plan Marshall",
+      "Doctrine Truman",
+      "Programme Fulbright"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le célèbre stratège chinois auteur de 'L'Art de la Guerre'?",
+    "options": [
+      "Confucius",
+      "Lao Tseu",
+      "Sun Tzu",
+      "Mencius"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle civilisation a construit les pyramides de Teotihuacan?",
+    "options": [
+      "Maya",
+      "Aztèque",
+      "Olmèque",
+      "Toltèque"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel empereur romain a construit le Panthéon à Rome?",
+    "options": [
+      "Auguste",
+      "Hadrien",
+      "Trajan",
+      "Néron"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle bataille navale de 1571 a opposé l'Empire ottoman à la Sainte Ligue?",
+    "options": [
+      "Lépante",
+      "Actium",
+      "Navarin",
+      "Préveza"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui était le leader spirituel de l'indépendance indienne?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Indira Gandhi",
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel roi de France a révoqué l'Édit de Nantes en 1685?",
+    "options": [
+      "Louis XIII",
+      "Louis XIV",
+      "Louis XV",
+      "Henri IV"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle a été la principale bataille navale de la guerre du Pacifique en 1942?",
+    "options": [
+      "Midway",
+      "Coral Sea",
+      "Leyte Gulf",
+      "Guadalcanal"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui était le vizir de Saladin pendant les croisades?",
+    "options": [
+      "Nur ad-Din",
+      "Al-Fadil",
+      "Imad ad-Din",
+      "Karakush"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel traité a mis fin à la guerre de Trente Ans?",
+    "options": [
+      "Traité de Versailles",
+      "Traité d'Utrecht",
+      "Traité de Westphalie",
+      "Traité de Ryswick"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a succédé à Staline à la tête de l'URSS?",
+    "options": [
+      "Brejnev",
+      "Gorbatchev",
+      "Khrouchtchev",
+      "Andropov"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la capitale de l'Empire inca?",
+    "options": [
+      "Machu Picchu",
+      "Quito",
+      "Cuzco",
+      "Titicaca"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle était la monnaie de la Rome antique?",
+    "options": [
+      "Drachme",
+      "Denier",
+      "Talent",
+      "Sesterce"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel a été le premier État fasciste au monde?",
+    "options": [
+      "Italie",
+      "Allemagne",
+      "Espagne",
+      "Portugal"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle ville japonaise a été la première à subir une attaque atomique?",
+    "options": [
+      "Nagasaki",
+      "Tokyo",
+      "Kyoto",
+      "Hiroshima"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quelle était la principale divinité du panthéon égyptien?",
+    "options": [
+      "Isis",
+      "Osiris",
+      "Rê",
+      "Anubis"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était le grand réformateur protestant allemand?",
+    "options": [
+      "Jean Calvin",
+      "Martin Luther",
+      "Ulrich Zwingli",
+      "Jan Hus"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle bataille de 52 av. J.-C. a marqué la défaite des Gaulois face à Rome?",
+    "options": [
+      "Gergovie",
+      "Bibracte",
+      "Alésia",
+      "Avaricum"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel événement marque traditionnellement la fin du Moyen Âge?",
+    "options": [
+      "La chute de Constantinople",
+      "La découverte de l'Amérique",
+      "La Guerre de Cent Ans",
+      "La Peste Noire"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a mené la révolution cubaine avec Fidel Castro?",
+    "options": [
+      "Raúl Castro",
+      "Camilo Cienfuegos",
+      "Che Guevara",
+      "Fulgencio Batista"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel peuple scandinave a conquis la Normandie au Xe siècle?",
+    "options": [
+      "Les Vikings",
+      "Les Goths",
+      "Les Angles",
+      "Les Saxons"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel conflit a opposé les États-Unis et l'URSS de 1947 à 1991?",
+    "options": [
+      "La Grande Guerre",
+      "La Guerre froide",
+      "La Guerre de Corée",
+      "La Guerre du Vietnam"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui est considéré comme le fondateur de l'Empire perse?",
+    "options": [
+      "Darius",
+      "Xerxès",
+      "Cyrus le Grand",
+      "Cambyse"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille de 732 a arrêté l'expansion musulmane en Europe occidentale?",
+    "options": [
+      "Poitiers",
+      "Roncevaux",
+      "Tolbiac",
+      "Vouillé"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a été le premier tsar de Russie?",
+    "options": [
+      "Pierre le Grand",
+      "Ivan le Terrible",
+      "Nicolas II",
+      "Alexandre Ier"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quelle a été la conséquence majeure de la guerre des Six Jours?",
+    "options": [
+      "La création d'Israël",
+      "L'expansion territoriale d'Israël",
+      "La création de l'OLP",
+      "Les accords de Camp David"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel philosophe grec est connu pour sa méthode d'interrogation?",
+    "options": [
+      "Platon",
+      "Aristote",
+      "Socrate",
+      "Épicure"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle grande civilisation s'est développée dans la vallée de l'Indus?",
+    "options": [
+      "La civilisation de Mohenjo-daro",
+      "La civilisation sumérienne",
+      "La civilisation harappéenne",
+      "La civilisation védique"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui était le dernier empereur de Chine?",
+    "options": [
+      "Puyi",
+      "Guangxu",
+      "Hongzhi",
+      "Kangxi"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle a été la plus grande révolte d'esclaves de l'Antiquité romaine?",
+    "options": [
+      "La révolte de Sicile",
+      "La révolte de Spartacus",
+      "La révolte d'Eunus",
+      "La révolte de Boudica"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel événement a marqué le début de la Révolution française?",
+    "options": [
+      "La prise de la Bastille",
+      "Le serment du Jeu de paume",
+      "La Nuit du 4 août",
+      "Les États généraux"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a créé l'Académie de Platon dans la Grèce antique?",
+    "options": [
+      "Socrate",
+      "Aristote",
+      "Platon",
+      "Épicure"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel pays a été le premier à mettre un satellite en orbite?",
+    "options": [
+      "États-Unis",
+      "Chine",
+      "Union soviétique",
+      "France"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle a été la principale bataille navale de la guerre hispano-américaine?",
+    "options": [
+      "Manille",
+      "Santiago de Cuba",
+      "La Havane",
+      "San Juan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a dirigé l'Allemagne nazie pendant la Seconde Guerre mondiale?",
+    "options": [
+      "Adolf Hitler",
+      "Heinrich Himmler",
+      "Hermann Göring",
+      "Joseph Goebbels"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle était la capitale de l'Empire carolingien?",
+    "options": [
+      "Paris",
+      "Rome",
+      "Aix-la-Chapelle",
+      "Francfort"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel conflit militaire a été surnommé 'la guerre oubliée'?",
+    "options": [
+      "La guerre de Corée",
+      "La guerre du Vietnam",
+      "La guerre d'Afghanistan",
+      "La guerre du Golfe"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle civilisation a construit Angkor Wat?",
+    "options": [
+      "Les Khmers",
+      "Les Chams",
+      "Les Thaïs",
+      "Les Javanais"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a été le premier président des États-Unis à démissionner?",
+    "options": [
+      "Gerald Ford",
+      "Jimmy Carter",
+      "Richard Nixon",
+      "Lyndon Johnson"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle bataille a mis fin à la dynastie des Plantagenêts en Angleterre?",
+    "options": [
+      "Azincourt",
+      "Crécy",
+      "Bosworth",
+      "Poitiers"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quel était le nom de la première ville fondée par les colons anglais en Amérique du Nord?",
+    "options": [
+      "Plymouth",
+      "Boston",
+      "Jamestown",
+      "New York"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle civilisation a développé le premier système d'écriture connu?",
+    "options": [
+      "Les Égyptiens",
+      "Les Sumériens",
+      "Les Phéniciens",
+      "Les Chinois"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui a été le dernier roi de France?",
+    "options": [
+      "Louis-Philippe Ier",
+      "Louis XVIII",
+      "Charles X",
+      "Napoléon III"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quelle bataille a marqué la fin de la domination napoléonienne en Espagne?",
+    "options": [
+      "Bailén",
+      "Vitoria",
+      "Salamanque",
+      "Madrid"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel explorateur a cartographié pour la première fois la côte orientale de l'Australie?",
+    "options": [
+      "James Cook",
+      "Abel Tasman",
+      "Willem Janszoon",
+      "Matthew Flinders"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel événement a déclenché la guerre de Sécession aux États-Unis?",
+    "options": [
+      "L'élection d'Abraham Lincoln",
+      "La bataille de Fort Sumter",
+      "L'abolition de l'esclavage",
+      "La sécession de la Caroline du Sud"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Qui était le dirigeant de l'URSS lors de la crise de Cuba?",
+    "options": [
+      "Léonid Brejnev",
+      "Mikhaïl Gorbatchev",
+      "Nikita Khrouchtchev",
+      "Iossif Staline"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Quelle civilisation a construit Chichén Itzá?",
+    "options": [
+      "Les Aztèques",
+      "Les Olmèques",
+      "Les Incas",
+      "Les Mayas"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel roi de France a été surnommé 'le Juste'?",
+    "options": [
+      "Louis IX",
+      "Philippe II",
+      "Charles VII",
+      "François Ier"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel traité a mis fin à la guerre de Sécession?",
+    "options": [
+      "Traité de Paris",
+      "Traité de Versailles",
+      "Traité de Gettysburg",
+      "Traité d'Appomattox"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Qui a été le premier président des États-Unis?",
+    "options": [
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams",
+      "James Madison"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom de la première dynastie chinoise?",
+    "options": [
+      "Shang",
+      "Zhou",
+      "Qin",
+      "Han"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel événement a marqué le début de la Révolution industrielle?",
+    "options": [
+      "L'invention de la machine à vapeur",
+      "La découverte de l'Amérique",
+      "La Révolution française",
+      "La guerre de Sécession"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel roi d'Angleterre a été connu sous le nom de 'Lion de Juda'?",
+    "options": [
+      "Richard Ier",
+      "Jean sans Terre",
+      "Henri II",
+      "Édouard Ier"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom du mouvement artistique et culturel de la Renaissance?",
+    "options": [
+      "Baroque",
+      "Rococo",
+      "Humanisme",
+      "Romantisme"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Qui a été le premier empereur romain?",
+    "options": [
+      "Jules César",
+      "Auguste",
+      "Néron",
+      "Trajan"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel pays a été le premier à abolir l'esclavage?",
+    "options": [
+      "Royaume-Uni",
+      "France",
+      "États-Unis",
+      "Danemark"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Quel était le nom de la première femme à obtenir le prix Nobel?",
+    "options": [
+      "Marie Curie",
+      "Irène Joliot-Curie",
+      "Rosalind Franklin",
+      "Lise Meitner"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel événement a marqué la fin de la guerre froide?",
+    "options": [
+      "La chute du mur de Berlin",
+      "La guerre du Golfe",
+      "L'effondrement de l'URSS",
+      "Les accords de Camp David"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Qui a été le premier président noir des États-Unis?",
+    "options": [
+      "Barack Obama",
+      "Colin Powell",
+      "Jesse Jackson",
+      "Al Sharpton"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom de la première femme à voyager dans l'espace?",
+    "options": [
+      "Valentina Terechkova",
+      "Sally Ride",
+      "Mae Jemison",
+      "Eileen Collins"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel pays a été le premier à envoyer un homme sur la Lune?",
+    "options": [
+      "États-Unis",
+      "URSS",
+      "Chine",
+      "France"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel était le nom de la première femme à être élue au Congrès américain?",
+    "options": [
+      "Jeannette Rankin",
+      "Margaret Chase Smith",
+      "Eleanor Roosevelt",
+      "Hillary Clinton"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Quel événement a marqué le début de la guerre du Vietnam?",
+    "options": [
+      "La bataille de Dien Bien Phu",
+      "Le golfe du Tonkin",
+      "L'attaque de Pearl Harbor",
+      "La chute de Saïgon"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Quel était le nom de la première femme à être élue présidente d'un pays?",
+    "options": [
+      "Indira Gandhi",
+      "Golda Meir",
+      "Margaret Thatcher",
+      "Ellen Johnson Sirleaf"
+    ],
+    "answer": 3
+  }
+]
