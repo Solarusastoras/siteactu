@@ -3,32 +3,91 @@ import Card from '../../../Common/card';
 import './JeuxVideo.scss';
 
 function JeuxVideo() {
+    const [activeTab, setActiveTab] = useState('actu');
+    
+    // États pour l'onglet "Actu Jeux Vidéo"
+    const [actualites, setActualites] = useState([]);
+    const [loadingActu, setLoadingActu] = useState(true);
+    const [errorActu, setErrorActu] = useState(null);
+    
+    // États pour l'onglet "Chercher Jeu"
     const [games, setGames] = useState([]);
     const [filteredGames, setFilteredGames] = useState([]);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+    const [loadingGames, setLoadingGames] = useState(false);
+    const [errorGames, setErrorGames] = useState(null);
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedPlatform, setSelectedPlatform] = useState('all');
 
     // Google Sheet publié en CSV
     const GOOGLE_SHEET_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTOyYukGaAbj5Wv5AftfcJOD-adMA-7F5JLjoJWFCLR8ZHZlXguGyAnSesQHDJwR6IdFgv4CyAwrJO3/pub?output=csv';
 
+    // Charger les actualités jeux vidéo au montage du composant
     useEffect(() => {
-        fetchGames();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
+        fetchActualites();
+        const interval = setInterval(fetchActualites, 30 * 60 * 1000); // Actualiser toutes les 30 minutes
+        return () => clearInterval(interval);
     }, []);
+
+    useEffect(() => {
+        if (activeTab === 'search' && games.length === 0) {
+            fetchGames();
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [activeTab]);
 
     useEffect(() => {
         filterGames();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [games, searchQuery, selectedPlatform]);
 
+    const fetchActualites = async () => {
+        try {
+            setLoadingActu(true);
+            setErrorActu(null);
+
+            const RSS_URL = 'https://www.jeuxvideo.com/rss/rss.xml';
+            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(RSS_URL)}`);
+            
+            if (!response.ok) throw new Error('Erreur lors de la récupération des actualités');
+            
+            const data = await response.json();
+            const parser = new DOMParser();
+            const xml = parser.parseFromString(data.contents, 'text/xml');
+            
+            const items = xml.querySelectorAll('item');
+            const articles = Array.from(items).slice(0, 20).map((item, index) => {
+                const enclosure = item.querySelector('enclosure');
+                return {
+                    id: index,
+                    titre: item.querySelector('title')?.textContent || 'Sans titre',
+                    description: item.querySelector('description')?.textContent || '',
+                    lien: item.querySelector('link')?.textContent || '#',
+                    date: new Date(item.querySelector('pubDate')?.textContent).toLocaleDateString('fr-FR', {
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    }),
+                    image: enclosure?.getAttribute('url') || null,
+                    category: item.querySelector('category')?.textContent || 'News'
+                };
+            });
+            
+            setActualites(articles);
+        } catch (err) {
+            console.error('Erreur chargement actus jeux vidéo:', err);
+            setErrorActu('Impossible de charger les actualités jeux vidéo');
+        } finally {
+            setLoadingActu(false);
+        }
+    };
+
     const fetchGames = async () => {
-        setLoading(true);
-        setError(null);
+        setLoadingGames(true);
+        setErrorGames(null);
         
         try {
-            // Ajouter un paramètre pour éviter le cache
             const timestamp = new Date().getTime();
             const response = await fetch(`${GOOGLE_SHEET_URL}&t=${timestamp}`);
             
@@ -37,16 +96,14 @@ function JeuxVideo() {
             }
             
             const csvText = await response.text();
-            console.log('CSV reçu:', csvText.substring(0, 200)); // Debug
             const parsedGames = parseCSV(csvText);
-            console.log('Jeux parsés:', parsedGames.length); // Debug
             setGames(parsedGames);
         } catch (err) {
             console.error('Erreur Google Sheets:', err);
-            setError('Impossible de charger les données. Vérifiez que le Google Sheet est publié et contient des données.');
+            setErrorGames('Impossible de charger les données. Vérifiez que le Google Sheet est publié et contient des données.');
             setGames([]);
         } finally {
-            setLoading(false);
+            setLoadingGames(false);
         }
     };
 
@@ -78,7 +135,6 @@ function JeuxVideo() {
     const filterGames = () => {
         let filtered = [...games];
 
-        // Filter by search query
         if (searchQuery) {
             filtered = filtered.filter(game =>
                 game.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -86,7 +142,6 @@ function JeuxVideo() {
             );
         }
 
-        // Filter by platform
         if (selectedPlatform !== 'all') {
             filtered = filtered.filter(game =>
                 game.platform?.toLowerCase().includes(selectedPlatform.toLowerCase())
@@ -157,67 +212,145 @@ function JeuxVideo() {
         <div className="jeuxvideo-container">
             <div className="jeuxvideo-header">
                 <h2>🎮 Jeux Vidéo</h2>
-                <p className="subtitle">Recherchez et découvrez des jeux</p>
+                
+                <div className="tabs">
+                    <button 
+                        className={`tab-btn ${activeTab === 'actu' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('actu')}
+                    >
+                        📰 Actu Jeux Vidéo
+                    </button>
+                    <button 
+                        className={`tab-btn ${activeTab === 'search' ? 'active' : ''}`}
+                        onClick={() => setActiveTab('search')}
+                    >
+                        🔍 Chercher Jeu
+                    </button>
+                </div>
             </div>
 
-            {/* Search and Filters */}
-            <div className="search-filters">
-                <input
-                    type="text"
-                    placeholder="Rechercher un jeu..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="search-input"
-                />
-                <select
-                    value={selectedPlatform}
-                    onChange={(e) => setSelectedPlatform(e.target.value)}
-                    className="platform-select"
-                >
-                    <option value="all">Toutes les plateformes</option>
-                    <option value="pc">PC</option>
-                    <option value="playstation">PlayStation</option>
-                    <option value="xbox">Xbox</option>
-                    <option value="switch">Switch</option>
-                    <option value="android">Android</option>
-                    <option value="ios">iOS</option>
-                </select>
-            </div>
+            {/* Onglet Actu Jeux Vidéo */}
+            {activeTab === 'actu' && (
+                <div className="actu-jeuxvideo-section">
+                    {loadingActu && (
+                        <div className="loading">
+                            <h3>Chargement des actualités...</h3>
+                            <div className="loading-spinner"></div>
+                        </div>
+                    )}
 
-            {/* Content */}
-            {loading && (
-                <div className="loading">
-                    <h3>Chargement des jeux...</h3>
-                    <div className="loading-spinner"></div>
+                    {errorActu && (
+                        <Card variant="game" className="error-card">
+                            <h3>⚠️ {errorActu}</h3>
+                            <button onClick={fetchActualites} className="retry-button">
+                                Réessayer
+                            </button>
+                        </Card>
+                    )}
+
+                    {!loadingActu && !errorActu && (
+                        <div className="actualites-grid">
+                            {actualites.length > 0 ? (
+                                actualites.map((actu) => (
+                                    <Card key={actu.id} variant="game" className="actu-card">
+                                        {actu.image && (
+                                            <div className="actu-image">
+                                                <img src={actu.image} alt={actu.titre} onError={(e) => e.target.style.display = 'none'} />
+                                                {actu.category && (
+                                                    <div className="actu-category">{actu.category}</div>
+                                                )}
+                                            </div>
+                                        )}
+                                        <div className="actu-content">
+                                            <h3>{actu.titre}</h3>
+                                            <p className="actu-description">{actu.description}</p>
+                                            <div className="actu-meta">
+                                                <span className="actu-date">📅 {actu.date}</span>
+                                                <a 
+                                                    href={actu.lien} 
+                                                    target="_blank" 
+                                                    rel="noopener noreferrer"
+                                                    className="actu-link"
+                                                >
+                                                    Lire la suite →
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </Card>
+                                ))
+                            ) : (
+                                <Card variant="game">
+                                    <p>Aucune actualité disponible</p>
+                                </Card>
+                            )}
+                        </div>
+                    )}
                 </div>
             )}
 
-            {error && (
-                <Card variant="game" className="error-card">
-                    <h3>⚠️ {error}</h3>
-                    <button onClick={fetchGames} className="retry-button">
-                        Réessayer
-                    </button>
-                </Card>
-            )}
+            {/* Onglet Chercher Jeu */}
+            {activeTab === 'search' && (
+                <div className="search-jeuxvideo-section">
+                    <p className="subtitle">Recherchez et découvrez des jeux</p>
 
-            {!loading && !error && filteredGames.length === 0 && games.length === 0 && (
-                <Card variant="game" className="welcome-card">
-                    <h3>🎮 Découvrez des jeux</h3>
-                    <p>Utilisez la barre de recherche pour trouver des jeux sur différentes plateformes</p>
-                </Card>
-            )}
+                    <div className="search-filters">
+                        <input
+                            type="text"
+                            placeholder="Rechercher un jeu..."
+                            value={searchQuery}
+                            onChange={(e) => setSearchQuery(e.target.value)}
+                            className="search-input"
+                        />
+                        <select
+                            value={selectedPlatform}
+                            onChange={(e) => setSelectedPlatform(e.target.value)}
+                            className="platform-select"
+                        >
+                            <option value="all">Toutes les plateformes</option>
+                            <option value="pc">PC</option>
+                            <option value="playstation">PlayStation</option>
+                            <option value="xbox">Xbox</option>
+                            <option value="switch">Switch</option>
+                            <option value="android">Android</option>
+                            <option value="ios">iOS</option>
+                        </select>
+                    </div>
 
-            {!loading && !error && filteredGames.length === 0 && games.length > 0 && (
-                <Card variant="game" className="no-results-card">
-                    <h3>Aucun résultat</h3>
-                    <p>Aucun jeu trouvé pour ces critères.</p>
-                </Card>
-            )}
+                    {loadingGames && (
+                        <div className="loading">
+                            <h3>Chargement des jeux...</h3>
+                            <div className="loading-spinner"></div>
+                        </div>
+                    )}
 
-            {!loading && filteredGames.length > 0 && (
-                <div className="games-grid">
-                    {filteredGames.map(game => renderGameCard(game))}
+                    {errorGames && (
+                        <Card variant="game" className="error-card">
+                            <h3>⚠️ {errorGames}</h3>
+                            <button onClick={fetchGames} className="retry-button">
+                                Réessayer
+                            </button>
+                        </Card>
+                    )}
+
+                    {!loadingGames && !errorGames && filteredGames.length === 0 && games.length === 0 && (
+                        <Card variant="game" className="welcome-card">
+                            <h3>🎮 Découvrez des jeux</h3>
+                            <p>Utilisez la barre de recherche pour trouver des jeux sur différentes plateformes</p>
+                        </Card>
+                    )}
+
+                    {!loadingGames && !errorGames && filteredGames.length === 0 && games.length > 0 && (
+                        <Card variant="game" className="no-results-card">
+                            <h3>Aucun résultat</h3>
+                            <p>Aucun jeu trouvé pour ces critères.</p>
+                        </Card>
+                    )}
+
+                    {!loadingGames && filteredGames.length > 0 && (
+                        <div className="games-grid">
+                            {filteredGames.map(game => renderGameCard(game))}
+                        </div>
+                    )}
                 </div>
             )}
         </div>

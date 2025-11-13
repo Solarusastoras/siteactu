@@ -28,13 +28,7 @@
       "description": "Teste tes connaissances dans différentes catégories et remporte tous les camemberts!",
       "color": "#7209B7"
     },
-    {
-      "id": "footdice",
-      "nom": "Foot Dice",
-      "icon": "⚽",
-      "description": "Jeu de football aux dés ! Attaque, défend et marque des buts avec les dés!",
-      "color": "#00A86B"
-    },
+
     {
       "id": "yams",
       "nom": "Yams",

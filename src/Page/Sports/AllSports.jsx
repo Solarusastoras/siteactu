@@ -146,6 +146,12 @@ const AllSports = () => {
             📅 Matchs
           </button>
           <button 
+            className={`control-btn ${footballView === 'avenir' ? 'active' : ''}`}
+            onClick={() => setFootballView('avenir')}
+          >
+            🔜 Matchs à venir
+          </button>
+          <button 
             className={`control-btn ${footballView === 'classement' ? 'active' : ''}`}
             onClick={() => setFootballView('classement')}
           >

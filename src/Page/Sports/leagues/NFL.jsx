@@ -13,11 +13,26 @@ const NFL = ({ view = 'matches' }) => {
       try {
         setLoading(true);
         
-        // Récupérer les matchs
-        const matchesResponse = await fetch('https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard');
-        const matchesData = await matchesResponse.json();
-        console.log('NFL Matches Data:', matchesData);
-        setData(matchesData);
+        // Vérifier les plages horaires pour les matchs NFL
+        const now = new Date();
+        const dayOfWeek = now.getDay(); // 0 = dimanche, 5 = vendredi, 2 = mardi
+        const hours = now.getHours();
+        const currentTime = hours * 60 + now.getMinutes();
+        
+        const isMatchTime = 
+          (dayOfWeek === 5 && currentTime >= 2 * 60 + 15 && currentTime <= 6 * 60) || // Vendredi 2h15-6h00
+          (dayOfWeek === 0 && currentTime >= 15 * 60 + 29 && currentTime <= 30 * 60) || // Dimanche 15h29-6h00 (lendemain)
+          (dayOfWeek === 2 && currentTime >= 2 * 60 && currentTime <= 6 * 60); // Mardi 2h00-6h00
+        
+        // Récupérer les matchs seulement pendant les plages horaires
+        if (isMatchTime) {
+          const matchesResponse = await fetch('https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard');
+          const matchesData = await matchesResponse.json();
+          console.log('⚽ Actualisation matchs en cours NFL');
+          setData(matchesData);
+        } else {
+          console.log('📦 Hors plage horaire NFL - pas d\'actualisation');
+        }
         
         // Récupérer le classement
         try {
@@ -113,6 +128,8 @@ const NFL = ({ view = 'matches' }) => {
     };
 
     fetchData();
+    const interval = setInterval(fetchData, 10000); // Vérifier toutes les 10 secondes
+    return () => clearInterval(interval);
   }, []);
 
   if (loading) return <div className="loading"><h2>Chargement...</h2></div>;
@@ -182,9 +199,10 @@ const NFL = ({ view = 'matches' }) => {
               {game.status.type.description}
             </span>
             <span className="game-time">
-              {game.status.type.completed ? 'Terminé' : 
+              {game.status.type.completed ? 
+                'FT' : 
                 game.status.type.state === 'in' ? 
-                  `${game.status.displayClock} ${game.status.period ? `- ${game.status.period}'` : ''}` :
+                  `LIVE - ${game.status.displayClock} ${game.status.period ? `Q${game.status.period}` : ''}` :
                   formatTime(game.date)}
             </span>
           </div>

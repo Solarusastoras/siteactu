@@ -1,0 +1,207 @@
+.sciences-container {
+  padding: 30px 20px;
+  min-height: 100vh;
+  background: #1a1a1a;
+
+  .sciences-header {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h1 {
+      color: #00bfff;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 8px rgba(0, 191, 255, 0.3);
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+
+      .tab-btn {
+        padding: 15px 35px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        background: linear-gradient(135deg, #00bfff 0%, #1e90ff 100%);
+        color: #fff;
+        border: 2px solid #00bfff;
+        border-radius: 10px;
+        cursor: default;
+        box-shadow: 0 4px 15px rgba(0, 191, 255, 0.4);
+      }
+    }
+  }
+
+  .sciences-content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .actualites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+
+    .actu-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 191, 255, 0.3);
+      }
+
+      .actu-image {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        border-radius: 8px 8px 0 0;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .actu-content {
+        padding: 20px;
+
+        h3 {
+          font-size: 1.3rem;
+          color: #00bfff;
+          margin-bottom: 12px;
+          font-weight: 600;
+          line-height: 1.4;
+        }
+
+        .actu-description {
+          font-size: 0.95rem;
+          color: #b0b0b0;
+          line-height: 1.6;
+          margin-bottom: 15px;
+        }
+
+        .actu-meta {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 10px;
+
+          .actu-date {
+            font-size: 0.9rem;
+            color: #888;
+          }
+
+          .actu-link {
+            color: #00bfff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+
+            &:hover {
+              color: #1e90ff;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: #e0e0e0;
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #00bfff;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid #3a3a3a;
+      border-top: 4px solid #00bfff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .error-card {
+    text-align: center;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+
+    h3 {
+      font-size: 1.8rem;
+      color: #00bfff;
+      margin-bottom: 15px;
+    }
+
+    .retry-button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: linear-gradient(135deg, #00bfff 0%, #1e90ff 100%);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 191, 255, 0.4);
+      }
+    }
+  }
+
+  .sciences-footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 1px solid #3a3a3a;
+    color: #888;
+
+    p {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    small {
+      font-size: 0.85rem;
+      color: #666;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sciences-header {
+      .tabs {
+        flex-direction: column;
+        gap: 10px;
+
+        .tab-btn {
+          width: 100%;
+        }
+      }
+    }
+
+    .actualites-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}

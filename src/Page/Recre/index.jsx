@@ -3,7 +3,7 @@ import "./_recre.scss";
 import Echecs from "./Jeux/Echecs";
 import CultureQuest from "./Jeux/CultureQuest";
 import Biathlon from "./Jeux/Biathlon";
-import FootDice from "./Jeux/FootDice";
+
 import Yams from "./Jeux/Yams";
 import FamilleOr from "./Jeux/FamilleOr";
 import Puissance4 from "./Jeux/Puissance4";
@@ -14,7 +14,7 @@ const COMPONENTS = {
   biathlon: Biathlon,
   puissance4: Puissance4,
   culturequest: CultureQuest,
-  footdice: FootDice,
+
   yams: Yams,
   FamilleOr: FamilleOr,
 };

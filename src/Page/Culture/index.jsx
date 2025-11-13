@@ -4,6 +4,8 @@ import Cinema from './Cinema';
 import Literature from './Literature';
 import Musique from './Musique';
 import JeuxVideo from './JeuxVideo';
+import Sciences from './Sciences';
+import Sante from './Sante';
 
 const Culture = () => {
   const [activeSection, setActiveSection] = useState('cinema');
@@ -18,6 +20,10 @@ const Culture = () => {
         return <Musique />;
       case 'jeuxvideo':
         return <JeuxVideo />;
+      case 'sciences':
+        return <Sciences />;
+      case 'sante':
+        return <Sante />;
       default:
         return <Cinema />;
     }
@@ -55,7 +61,20 @@ const Culture = () => {
         >
           🎮 Jeux Vidéo
         </button>
+        <button 
+          className={`tab ${activeSection === 'sciences' ? 'active' : ''}`}
+          onClick={() => setActiveSection('sciences')}
+        >
+          🔬 Sciences
+        </button>
+        <button 
+          className={`tab ${activeSection === 'sante' ? 'active' : ''}`}
+          onClick={() => setActiveSection('sante')}
+        >
+          🏥 Santé
+        </button>
       </nav>
+
 
       <main className="culture-content">
         {renderSection()}

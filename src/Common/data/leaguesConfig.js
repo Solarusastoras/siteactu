@@ -6,7 +6,7 @@
 export const leaguesConfig = {
   ligue1: {
     id: 'ligue1',
-    name: 'Classement Ligue 1',
+    name: 'Ligue 1',
     icon: '🏆',
     flag: '🇫🇷',
     apiEndpoint: 'fra.1',
@@ -37,7 +37,7 @@ export const leaguesConfig = {
 
   ligue2: {
     id: 'ligue2',
-    name: 'Classement Ligue 2',
+    name: 'Ligue 2',
     icon: '⚽',
     flag: '🇫🇷',
     apiEndpoint: 'fra.2',

@@ -18,8 +18,7 @@ const NHLStandings = ({ standingsData }) => {
       atlantic: 'Atlantic',
       metropolitan: 'Metropolitan',
       central: 'Central',
-      pacific: 'Pacific',
-      wildcard: 'Wild Card'
+      pacific: 'Pacific'
     };
 
     return (
@@ -38,13 +37,12 @@ const NHLStandings = ({ standingsData }) => {
           </div>
           {sortedTeams.map((team, index) => {
             const position = index + 1;
-            const isPlayoffSpot = divisionName !== 'wildcard' && position <= 3;
-            const isWildcard = divisionName === 'wildcard' && position <= 2;
+            const isPlayoffSpot = position <= 3;
             
             return (
               <div 
                 key={team.abbr} 
-                className={`standings-row ${isPlayoffSpot || isWildcard ? 'playoff-spot' : ''}`}
+                className={`standings-row ${isPlayoffSpot ? 'playoff-spot' : ''}`}
               >
                 <div className="team-info team-col">
                   <span className="position-indicator">{position}</span>
@@ -77,13 +75,11 @@ const NHLStandings = ({ standingsData }) => {
             <>
               {renderDivision('atlantic', conferenceData.atlantic, conferenceName)}
               {renderDivision('metropolitan', conferenceData.metropolitan, conferenceName)}
-              {renderDivision('wildcard', conferenceData.wildcard, conferenceName)}
             </>
           ) : (
             <>
               {renderDivision('central', conferenceData.central, conferenceName)}
               {renderDivision('pacific', conferenceData.pacific, conferenceName)}
-              {renderDivision('wildcard', conferenceData.wildcard, conferenceName)}
             </>
           )}
         </div>
@@ -107,7 +103,7 @@ const NHLStandings = ({ standingsData }) => {
       <div className="standings-legend nhl-legend">
         <div className="legend-item playoff-spot">🏆 Positions qualificatives pour les playoffs</div>
         <div className="legend-note">
-          <strong>Note:</strong> En NHL, les 3 premiers de chaque division + 2 équipes wild card par conférence se qualifient pour les playoffs (16 équipes au total)
+          <strong>Note:</strong> En NHL, les 3 premiers de chaque division se qualifient pour les playoffs
         </div>
         <div className="legend-abbreviations">
           <p><strong>Abréviations:</strong></p>

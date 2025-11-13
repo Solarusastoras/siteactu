@@ -5,16 +5,63 @@ const NBA = ({ view = 'matches' }) => {
   const [data, setData] = useState(null);
   const [standings, setStandings] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [matchTimeRange, setMatchTimeRange] = useState(() => {
+    // Charger les horaires depuis localStorage
+    const cached = localStorage.getItem('nba_match_time_range');
+    return cached ? JSON.parse(cached) : { start: 1 * 60, end: 4 * 60 + 30 }; // Par défaut 1h-4h30
+  });
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
         
-        // Récupérer les matchs
-        const matchesResponse = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard');
-        const matchesData = await matchesResponse.json();
-        setData(matchesData);
+        const now = new Date();
+        const hours = now.getHours();
+        const minutes = now.getMinutes();
+        const currentTime = hours * 60 + minutes;
+        
+        // Appel à 0h-1h pour récupérer les horaires des matchs du jour
+        const isScheduleCheckTime = (hours === 0 || hours === 1);
+        
+        if (isScheduleCheckTime) {
+          console.log('🕐 NBA - Récupération des horaires des matchs du jour...');
+          const scheduleResponse = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard');
+          const scheduleData = await scheduleResponse.json();
+          
+          if (scheduleData?.events && scheduleData.events.length > 0) {
+            // Trouver l'heure du premier match
+            const firstMatchTime = new Date(scheduleData.events[0].date);
+            const firstMatchMinutes = firstMatchTime.getHours() * 60 + firstMatchTime.getMinutes();
+            
+            // Trouver l'heure du dernier match + 3h
+            const lastMatchTime = new Date(scheduleData.events[scheduleData.events.length - 1].date);
+            const lastMatchMinutes = (lastMatchTime.getHours() + 3) * 60 + lastMatchTime.getMinutes();
+            
+            const newTimeRange = {
+              start: firstMatchMinutes,
+              end: lastMatchMinutes > 24 * 60 ? lastMatchMinutes - 24 * 60 : lastMatchMinutes
+            };
+            
+            console.log(`🏀 NBA - Plage horaire calculée: ${Math.floor(newTimeRange.start / 60)}h${newTimeRange.start % 60} - ${Math.floor(newTimeRange.end / 60)}h${newTimeRange.end % 60}`);
+            
+            setMatchTimeRange(newTimeRange);
+            localStorage.setItem('nba_match_time_range', JSON.stringify(newTimeRange));
+            setData(scheduleData);
+          }
+        }
+        
+        // Vérifier si on est dans la plage horaire des matchs
+        const isMatchTime = currentTime >= matchTimeRange.start && currentTime <= matchTimeRange.end;
+        
+        if (isMatchTime && !isScheduleCheckTime) {
+          console.log('🏀 Actualisation matchs en cours NBA');
+          const matchesResponse = await fetch('https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard');
+          const matchesData = await matchesResponse.json();
+          setData(matchesData);
+        } else if (!isScheduleCheckTime) {
+          console.log('📦 Hors plage horaire NBA - pas d\'actualisation');
+        }
         
         // Récupérer le classement
         try {
@@ -98,7 +145,9 @@ const NBA = ({ view = 'matches' }) => {
     };
 
     fetchData();
-  }, []);
+    const interval = setInterval(fetchData, 10000); // Vérifier toutes les 10 secondes
+    return () => clearInterval(interval);
+  }, [matchTimeRange]);
 
   if (loading) return <div className="loading"><h2>Chargement...</h2></div>;
 
@@ -167,9 +216,10 @@ const NBA = ({ view = 'matches' }) => {
               {game.status.type.description}
             </span>
             <span className="game-time">
-              {game.status.type.completed ? 'Terminé' : 
+              {game.status.type.completed ? 
+                (game.status.displayClock || 'FT') : 
                 game.status.type.state === 'in' ? 
-                  `${game.status.displayClock} ${game.status.period ? `- Q${game.status.period}` : ''}` :
+                  `LIVE - ${game.status.displayClock} ${game.status.period ? `Q${game.status.period}` : ''}` :
                   formatTime(game.date)}
             </span>
           </div>
