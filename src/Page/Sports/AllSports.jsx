@@ -6,7 +6,6 @@ import LigaSantenderLogo from '../../Utils/Img/LaLiga_Santander.png';
 import PremierLeagueLogo from '../../Utils/Img/PremierLeague.jpg';
 import SerieALogo from '../../Utils/Img/SerieA.png';
 import BundesligaLogo from '../../Utils/Img/Bundesliga.png';
-import BotolaLogo from '../../Utils/Img/Botola.png';
 import BrasilLogo from '../../Utils/Img/Brasil.png';
 import NFLLogo from '../../Utils/Img/NFL.png';
 import NHLLogo from '../../Utils/Img/NHL.png';
@@ -17,16 +16,17 @@ import {
   LaLiga,
   SerieA,
   Bundesliga,
-  Botola,
   Brasileirao,
   NHL,
-  NFL
+  NFL,
+  NBA
 } from './leagues';
 
 const AllSports = () => {
   const [activeTab, setActiveTab] = useState('football');
   const [footballLeague, setFootballLeague] = useState('ligue1');
   const [footballView, setFootballView] = useState('matches');
+  const [basketView, setBasketView] = useState('matches');
   const [nhlView, setNhlView] = useState('matches');
   const [nflView, setNflView] = useState('matches');
 
@@ -48,7 +48,6 @@ const AllSports = () => {
       laliga: <LaLiga view={footballView} />,
       seriea: <SerieA view={footballView} />,
       bundesliga: <Bundesliga view={footballView} />,
-      botola: <Botola view={footballView} />,
       brasileirao: <Brasileirao view={footballView} />
     };
 
@@ -68,6 +67,12 @@ const AllSports = () => {
           onClick={() => setActiveTab('football')}
         >
           ⚽ Football
+        </button>
+        <button 
+          className={`tab ${activeTab === 'basket' ? 'active' : ''}`}
+          onClick={() => setActiveTab('basket')}
+        >
+          🏀 NBA
         </button>
         <button 
           className={`tab ${activeTab === 'nhl' ? 'active' : ''}`}
@@ -123,12 +128,6 @@ const AllSports = () => {
               <img src={BundesligaLogo} alt="Bundesliga" className="league-logo" />
             </button>
             <button 
-              className={`control-btn ${footballLeague === 'botola' ? 'active' : ''}`}
-              onClick={() => setFootballLeague('botola')}
-            >
-              <img src={BotolaLogo} alt="Botola Pro" className="league-logo" />
-            </button>
-            <button 
               className={`control-btn ${footballLeague === 'brasileirao' ? 'active' : ''}`}
               onClick={() => setFootballLeague('brasileirao')}
             >
@@ -149,6 +148,23 @@ const AllSports = () => {
           <button 
             className={`control-btn ${footballView === 'classement' ? 'active' : ''}`}
             onClick={() => setFootballView('classement')}
+          >
+            🏆 Classement
+          </button>
+        </div>
+      )}
+
+      {activeTab === 'basket' && (
+        <div className="sport-controls">
+          <button 
+            className={`control-btn ${basketView === 'matches' ? 'active' : ''}`}
+            onClick={() => setBasketView('matches')}
+          >
+            📅 Matchs
+          </button>
+          <button 
+            className={`control-btn ${basketView === 'classement' ? 'active' : ''}`}
+            onClick={() => setBasketView('classement')}
           >
             🏆 Classement
           </button>
@@ -191,6 +207,7 @@ const AllSports = () => {
 
       <main className="games-container">
         {activeTab === 'football' && renderLeagueComponent()}
+        {activeTab === 'basket' && <NBA view={basketView} />}
         {activeTab === 'nhl' && <NHL view={nhlView} />}
         {activeTab === 'nfl' && <NFL view={nflView} />}
       </main>

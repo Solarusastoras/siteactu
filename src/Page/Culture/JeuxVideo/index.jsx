@@ -3,7 +3,6 @@ import Card from '../../../Common/card';
 import './JeuxVideo.scss';
 
 function JeuxVideo() {
-    const [activeView, setActiveView] = useState('news');
     const [games, setGames] = useState([]);
     const [filteredGames, setFilteredGames] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -22,7 +21,7 @@ function JeuxVideo() {
     useEffect(() => {
         filterGames();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [games, searchQuery, selectedPlatform, activeView]);
+    }, [games, searchQuery, selectedPlatform]);
 
     const fetchGames = async () => {
         setLoading(true);
@@ -76,78 +75,8 @@ function JeuxVideo() {
         });
     };
 
-    const getDemoGames = () => {
-        return [
-            {
-                id: 1,
-                title: 'The Witcher 3: Wild Hunt',
-                description: 'RPG épique dans un monde ouvert fantastique. Incarnez Geralt de Riv, chasseur de monstres.',
-                image: 'https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg',
-                platform: 'PC, PS5, Xbox',
-                price: '29.99€',
-                link: 'https://store.steampowered.com/app/292030',
-                type: 'news'
-            },
-            {
-                id: 2,
-                title: 'Cyberpunk 2077',
-                description: 'RPG d\'action en monde ouvert dans Night City, une mégapole obsédée par le pouvoir.',
-                image: 'https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg',
-                platform: 'PC, PS5, Xbox',
-                price: '39.99€',
-                link: 'https://store.steampowered.com/app/1091500',
-                type: 'news'
-            },
-            {
-                id: 3,
-                title: 'Baldur\'s Gate 3',
-                description: 'RPG tactique basé sur Donjons & Dragons. Créez votre personnage et vivez une aventure épique.',
-                image: 'https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg',
-                platform: 'PC, PS5',
-                price: '59.99€',
-                link: 'https://store.steampowered.com/app/1086940',
-                type: 'news'
-            },
-            {
-                id: 4,
-                title: 'Elden Ring',
-                description: 'Action-RPG développé par FromSoftware en collaboration avec George R.R. Martin.',
-                image: 'https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg',
-                platform: 'PC, PS5, Xbox',
-                price: '49.99€',
-                link: 'https://store.steampowered.com/app/1245620',
-                type: 'news'
-            },
-            {
-                id: 5,
-                title: 'GTA VI',
-                description: 'Le prochain opus de la saga Grand Theft Auto. Retour à Vice City prévu pour 2025.',
-                image: 'https://via.placeholder.com/460x215/1a1a1a/ff6b6b?text=GTA+VI',
-                platform: 'PS5, Xbox, PC',
-                price: 'À venir',
-                link: '#',
-                type: 'upcoming'
-            },
-            {
-                id: 6,
-                title: 'Hollow Knight: Silksong',
-                description: 'Suite très attendue du metroidvania acclamé Hollow Knight.',
-                image: 'https://via.placeholder.com/460x215/2c2c2c/4ecdc4?text=Silksong',
-                platform: 'PC, Switch, PS5, Xbox',
-                price: 'À venir',
-                link: '#',
-                type: 'upcoming'
-            }
-        ];
-    };
-
     const filterGames = () => {
         let filtered = [...games];
-
-        // Filter by view type
-        if (activeView !== 'search') {
-            filtered = filtered.filter(game => game.type === activeView);
-        }
 
         // Filter by search query
         if (searchQuery) {
@@ -224,100 +153,73 @@ function JeuxVideo() {
         );
     };
 
-    const renderContent = () => {
-        if (loading) {
-            return (
-                <div className="loading-container">
-                    <div className="loading-spinner"></div>
-                    <p>Chargement des jeux...</p>
-                </div>
-            );
-        }
-
-        if (error) {
-            return (
-                <div className="error-container">
-                    <p className="error-message">⚠️ {error}</p>
-                    <p className="info-message">📝 Utilisation des données de démonstration</p>
-                    <button onClick={fetchGames} className="retry-button">
-                        Réessayer
-                    </button>
-                </div>
-            );
-        }
-
-        if (filteredGames.length === 0) {
-            return (
-                <div className="no-results">
-                    <p>Aucun jeu trouvé pour ces critères.</p>
-                </div>
-            );
-        }
-
-        return (
-            <div className="games-grid">
-                {filteredGames.map(game => renderGameCard(game))}
-            </div>
-        );
-    };
-
     return (
         <div className="jeuxvideo-container">
             <div className="jeuxvideo-header">
                 <h2>🎮 Jeux Vidéo</h2>
-                <p className="subtitle">Découvrez les dernières actualités et sorties à venir</p>
-            </div>
-
-            {/* Navigation Tabs */}
-            <div className="tabs-container">
-                <button
-                    className={`tab ${activeView === 'news' ? 'active' : ''}`}
-                    onClick={() => setActiveView('news')}
-                >
-                    🔥 Actualités
-                </button>
-                <button
-                    className={`tab ${activeView === 'upcoming' ? 'active' : ''}`}
-                    onClick={() => setActiveView('upcoming')}
-                >
-                    📅 À venir
-                </button>
-                <button
-                    className={`tab ${activeView === 'search' ? 'active' : ''}`}
-                    onClick={() => setActiveView('search')}
-                >
-                    🔍 Rechercher
-                </button>
+                <p className="subtitle">Recherchez et découvrez des jeux</p>
             </div>
 
             {/* Search and Filters */}
-            {activeView === 'search' && (
-                <div className="search-filters">
-                    <input
-                        type="text"
-                        placeholder="Rechercher un jeu..."
-                        value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
-                        className="search-input"
-                    />
-                    <select
-                        value={selectedPlatform}
-                        onChange={(e) => setSelectedPlatform(e.target.value)}
-                        className="platform-select"
-                    >
-                        <option value="all">Toutes les plateformes</option>
-                        <option value="pc">PC</option>
-                        <option value="playstation">PlayStation</option>
-                        <option value="xbox">Xbox</option>
-                        <option value="switch">Switch</option>
-                        <option value="android">Android</option>
-                        <option value="ios">iOS</option>
-                    </select>
+            <div className="search-filters">
+                <input
+                    type="text"
+                    placeholder="Rechercher un jeu..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="search-input"
+                />
+                <select
+                    value={selectedPlatform}
+                    onChange={(e) => setSelectedPlatform(e.target.value)}
+                    className="platform-select"
+                >
+                    <option value="all">Toutes les plateformes</option>
+                    <option value="pc">PC</option>
+                    <option value="playstation">PlayStation</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="switch">Switch</option>
+                    <option value="android">Android</option>
+                    <option value="ios">iOS</option>
+                </select>
+            </div>
+
+            {/* Content */}
+            {loading && (
+                <div className="loading">
+                    <h3>Chargement des jeux...</h3>
+                    <div className="loading-spinner"></div>
                 </div>
             )}
 
-            {/* Content */}
-            {renderContent()}
+            {error && (
+                <Card variant="game" className="error-card">
+                    <h3>⚠️ {error}</h3>
+                    <button onClick={fetchGames} className="retry-button">
+                        Réessayer
+                    </button>
+                </Card>
+            )}
+
+            {!loading && !error && filteredGames.length === 0 && games.length === 0 && (
+                <Card variant="game" className="welcome-card">
+                    <h3>🎮 Découvrez des jeux</h3>
+                    <p>Utilisez la barre de recherche pour trouver des jeux sur différentes plateformes</p>
+                </Card>
+            )}
+
+            {!loading && !error && filteredGames.length === 0 && games.length > 0 && (
+                <Card variant="game" className="no-results-card">
+                    <h3>Aucun résultat</h3>
+                    <p>Aucun jeu trouvé pour ces critères.</p>
+                </Card>
+            )}
+
+            {!loading && filteredGames.length > 0 && (
+                <div className="games-grid">
+                    {filteredGames.map(game => renderGameCard(game))}
+                </div>
+            )}
         </div>
     );
 }
