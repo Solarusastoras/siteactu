@@ -1,15 +1,30 @@
 import { useState, useEffect } from 'react';
 import Card from '../../../Common/card';
 
+// eslint-disable-next-line no-unused-vars
+let actuMondeCache = { data: null, timestamp: null };
+// eslint-disable-next-line no-unused-vars
+const CACHE_DURATION = 30 * 60 * 1000;
+
 function ActuMonde() {
     const [actualites, setActualites] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetchActualites();
-        const interval = setInterval(fetchActualites, 30 * 60 * 1000); // Actualiser toutes les 30 minutes
+        const loadData = async () => {
+            const now = Date.now();
+            if (actuMondeCache.data && actuMondeCache.timestamp && (now - actuMondeCache.timestamp) < CACHE_DURATION) {
+                setActualites(actuMondeCache.data);
+                setLoading(false);
+                return;
+            }
+            await fetchActualites();
+        };
+        loadData();
+        const interval = setInterval(async () => await fetchActualites(), CACHE_DURATION);
         return () => clearInterval(interval);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const fetchActualites = async () => {

@@ -1,0 +1,2292 @@
+{
+  "currentWorldCup": {
+    "year": 2026,
+    "hosts": ["États-Unis", "Canada", "Mexique"],
+    "status": "en_cours",
+    "startDate": "2026-06-11",
+    "endDate": "2026-07-19",
+    "totalTeams": 48,
+    "phase": "Phase de groupes",
+    "matchesPlayed": 0,
+    "totalMatches": 104
+  },
+  "pastWorldCups": [
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇭🇷 Croatie",
+      "fourth": "🇲🇦 Maroc",
+      "totalTeams": 32,
+      "finalScore": "3-3 (4-2 aux t.a.b)",
+      "topScorer": "Kylian Mbappé (8 buts)",
+      "bestPlayer": "Lionel Messi",
+      "venue": "Stade de Lusail",
+      "attendance": "88966"
+    },
+    {
+      "year": 2018,
+      "host": "Russie",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇭🇷 Croatie",
+      "third": "🇧🇪 Belgique",
+      "fourth": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+      "totalTeams": 32,
+      "finalScore": "4-2",
+      "topScorer": "Harry Kane (6 buts)",
+      "bestPlayer": "Luka Modrić",
+      "venue": "Stade Loujniki",
+      "attendance": "78011"
+    },
+    {
+      "year": 2014,
+      "host": "Brésil",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇧🇷 Brésil",
+      "totalTeams": 32,
+      "finalScore": "1-0 (a.p.)",
+      "topScorer": "James Rodríguez (6 buts)",
+      "bestPlayer": "Lionel Messi",
+      "venue": "Maracanã",
+      "attendance": "74738"
+    },
+    {
+      "year": 2010,
+      "host": "Afrique du Sud",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🇺🇾 Uruguay",
+      "totalTeams": 32,
+      "finalScore": "1-0 (a.p.)",
+      "topScorer": "Thomas Müller (5 buts)",
+      "bestPlayer": "Diego Forlán",
+      "venue": "Soccer City",
+      "attendance": "84490"
+    },
+    {
+      "year": 2006,
+      "host": "Allemagne",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🇵🇹 Portugal",
+      "totalTeams": 32,
+      "finalScore": "1-1 (5-3 aux t.a.b)",
+      "topScorer": "Miroslav Klose (5 buts)",
+      "bestPlayer": "Zinédine Zidane",
+      "venue": "Olympiastadion Berlin",
+      "attendance": "69000"
+    },
+    {
+      "year": 2002,
+      "host": "Corée du Sud / Japon",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇹🇷 Turquie",
+      "fourth": "🇰🇷 Corée du Sud",
+      "totalTeams": 32,
+      "finalScore": "2-0",
+      "topScorer": "Ronaldo (8 buts)",
+      "bestPlayer": "Oliver Kahn",
+      "venue": "Stade International de Yokohama",
+      "attendance": "69029"
+    },
+    {
+      "year": 1998,
+      "host": "France",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇧🇷 Brésil",
+      "third": "🇭🇷 Croatie",
+      "fourth": "🇳🇱 Pays-Bas",
+      "totalTeams": 32,
+      "finalScore": "3-0",
+      "topScorer": "Davor Šuker (6 buts)",
+      "bestPlayer": "Ronaldo",
+      "venue": "Stade de France",
+      "attendance": "80000"
+    },
+    {
+      "year": 1994,
+      "host": "États-Unis",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇸🇪 Suède",
+      "fourth": "🇧🇬 Bulgarie",
+      "totalTeams": 24,
+      "finalScore": "0-0 (3-2 aux t.a.b)",
+      "topScorer": "Oleg Salenko / Hristo Stoichkov (6 buts)",
+      "bestPlayer": "Romário",
+      "venue": "Rose Bowl",
+      "attendance": "94194"
+    },
+    {
+      "year": 1990,
+      "host": "Italie",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇮🇹 Italie",
+      "fourth": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+      "totalTeams": 24,
+      "finalScore": "1-0",
+      "topScorer": "Salvatore Schillaci (6 buts)",
+      "bestPlayer": "Salvatore Schillaci",
+      "venue": "Stadio Olimpico",
+      "attendance": "73603"
+    },
+    {
+      "year": 1986,
+      "host": "Mexique",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇫🇷 France",
+      "fourth": "🇧🇪 Belgique",
+      "totalTeams": 24,
+      "finalScore": "3-2",
+      "topScorer": "Gary Lineker (6 buts)",
+      "bestPlayer": "Diego Maradona",
+      "venue": "Estadio Azteca",
+      "attendance": "114600"
+    },
+    {
+      "year": 1982,
+      "host": "Espagne",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇵🇱 Pologne",
+      "fourth": "🇫🇷 France",
+      "totalTeams": 24,
+      "finalScore": "3-1",
+      "topScorer": "Paolo Rossi (6 buts)",
+      "bestPlayer": "Paolo Rossi",
+      "venue": "Santiago Bernabéu",
+      "attendance": "90000"
+    },
+    {
+      "year": 1978,
+      "host": "Argentine",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇧🇷 Brésil",
+      "fourth": "🇮🇹 Italie",
+      "totalTeams": 16,
+      "finalScore": "3-1 (a.p.)",
+      "topScorer": "Mario Kempes (6 buts)",
+      "bestPlayer": "Mario Kempes",
+      "venue": "Estadio Monumental",
+      "attendance": "71483"
+    },
+    {
+      "year": 1974,
+      "host": "Allemagne de l'Ouest",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇵🇱 Pologne",
+      "fourth": "🇧🇷 Brésil",
+      "totalTeams": 16,
+      "finalScore": "2-1",
+      "topScorer": "Grzegorz Lato (7 buts)",
+      "bestPlayer": "Johan Cruyff",
+      "venue": "Olympiastadion München",
+      "attendance": "75200"
+    },
+    {
+      "year": 1970,
+      "host": "Mexique",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🇺🇾 Uruguay",
+      "totalTeams": 16,
+      "finalScore": "4-1",
+      "topScorer": "Gerd Müller (10 buts)",
+      "bestPlayer": "Pelé",
+      "venue": "Estadio Azteca",
+      "attendance": "107412"
+    },
+    {
+      "year": 1966,
+      "host": "Angleterre",
+      "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇵🇹 Portugal",
+      "fourth": "🇷🇺 URSS",
+      "totalTeams": 16,
+      "finalScore": "4-2 (a.p.)",
+      "topScorer": "Eusébio (9 buts)",
+      "bestPlayer": "Bobby Charlton",
+      "venue": "Wembley Stadium",
+      "attendance": "96924"
+    },
+    {
+      "year": 1962,
+      "host": "Chili",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇨🇿 Tchécoslovaquie",
+      "third": "🇨🇱 Chili",
+      "fourth": "🇷🇸 Yougoslavie",
+      "totalTeams": 16,
+      "finalScore": "3-1",
+      "topScorer": "Garrincha / Vavá (4 buts)",
+      "bestPlayer": "Garrincha",
+      "venue": "Estadio Nacional",
+      "attendance": "68679"
+    },
+    {
+      "year": 1958,
+      "host": "Suède",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇸🇪 Suède",
+      "third": "🇫🇷 France",
+      "fourth": "🇩🇪 Allemagne",
+      "totalTeams": 16,
+      "finalScore": "5-2",
+      "topScorer": "Just Fontaine (13 buts)",
+      "bestPlayer": "Pelé",
+      "venue": "Råsunda Stadium",
+      "attendance": "51800"
+    },
+    {
+      "year": 1954,
+      "host": "Suisse",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇭🇺 Hongrie",
+      "third": "🇦🇹 Autriche",
+      "fourth": "🇺🇾 Uruguay",
+      "totalTeams": 16,
+      "finalScore": "3-2",
+      "topScorer": "Sándor Kocsis (11 buts)",
+      "bestPlayer": "Ferenc Puskás",
+      "venue": "Wankdorf Stadium",
+      "attendance": "62500"
+    },
+    {
+      "year": 1950,
+      "host": "Brésil",
+      "winner": "🇺🇾 Uruguay",
+      "runnerUp": "🇧🇷 Brésil",
+      "third": "🇸🇪 Suède",
+      "fourth": "🇪🇸 Espagne",
+      "totalTeams": 13,
+      "finalScore": "2-1",
+      "topScorer": "Ademir (9 buts)",
+      "bestPlayer": "Zizinho",
+      "venue": "Maracanã",
+      "attendance": "173850"
+    },
+    {
+      "year": 1938,
+      "host": "France",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇭🇺 Hongrie",
+      "third": "🇧🇷 Brésil",
+      "fourth": "🇸🇪 Suède",
+      "totalTeams": 15,
+      "finalScore": "4-2",
+      "topScorer": "Leônidas (7 buts)",
+      "bestPlayer": "Leônidas",
+      "venue": "Stade Olympique de Colombes",
+      "attendance": "45000"
+    },
+    {
+      "year": 1934,
+      "host": "Italie",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇨🇿 Tchécoslovaquie",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🇦🇹 Autriche",
+      "totalTeams": 16,
+      "finalScore": "2-1 (a.p.)",
+      "topScorer": "Oldřich Nejedlý (5 buts)",
+      "bestPlayer": "Giuseppe Meazza",
+      "venue": "Stadio Nazionale PNF",
+      "attendance": "55000"
+    },
+    {
+      "year": 1930,
+      "host": "Uruguay",
+      "winner": "🇺🇾 Uruguay",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇺🇸 États-Unis",
+      "fourth": "🇷🇸 Yougoslavie",
+      "totalTeams": 13,
+      "finalScore": "4-2",
+      "topScorer": "Guillermo Stábile (8 buts)",
+      "bestPlayer": "José Nasazzi",
+      "venue": "Estadio Centenario",
+      "attendance": "68346"
+    }
+  ],
+  "detailedEditions": {
+    "2022": {
+      "year": 2022,
+      "host": "Qatar",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇭🇷 Croatie",
+      "totalTeams": 32,
+      "topScorer": "Kylian Mbappé (8 buts)",
+      "bestPlayer": "Lionel Messi",
+      "venue": "Stade de Lusail",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇸🇳 Sénégal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": false },
+            { "team": "🇶🇦 Qatar", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDiff": 7, "points": 7, "qualified": true },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pays de Galles", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 6, "qualified": true },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇯🇵 Japon", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 9, "goalsAgainst": 3, "goalDiff": 6, "points": 4, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": false },
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 11, "goalDiff": -8, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇨🇦 Canada", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇷🇸 Serbie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇬🇭 Ghana", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 7, "goalDiff": -2, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇺🇸 États-Unis", "score": "3-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇦🇺 Australie", "score": "2-1", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇫🇷 France", "team2": "🇵🇱 Pologne", "score": "3-1", "winner": "🇫🇷 France" },
+          { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇸🇳 Sénégal", "score": "3-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre" },
+          { "team1": "🇯🇵 Japon", "team2": "🇭🇷 Croatie", "score": "1-1 (1-3 t.a.b)", "winner": "🇭🇷 Croatie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇰🇷 Corée du Sud", "score": "4-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇲🇦 Maroc", "team2": "🇪🇸 Espagne", "score": "0-0 (3-0 t.a.b)", "winner": "🇲🇦 Maroc" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇨🇭 Suisse", "score": "6-1", "winner": "🇵🇹 Portugal" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇭🇷 Croatie", "team2": "🇧🇷 Brésil", "score": "1-1 (4-2 t.a.b)", "winner": "🇭🇷 Croatie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇷 Argentine", "score": "2-2 (3-4 t.a.b)", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇲🇦 Maroc", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇲🇦 Maroc" },
+          { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇫🇷 France", "score": "1-2", "winner": "🇫🇷 France" }
+        ],
+        "semifinals": [
+          { "team1": "🇦🇷 Argentine", "team2": "🇭🇷 Croatie", "score": "3-0", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇫🇷 France", "team2": "🇲🇦 Maroc", "score": "2-0", "winner": "🇫🇷 France" }
+        ],
+        "thirdPlace": {
+          "team1": "🇭🇷 Croatie",
+          "team2": "🇲🇦 Maroc",
+          "score": "2-1",
+          "winner": "🇭🇷 Croatie"
+        },
+        "final": {
+          "team1": "🇦🇷 Argentine",
+          "team2": "🇫🇷 France",
+          "score": "3-3 (4-2 t.a.b)",
+          "winner": "🇦🇷 Argentine"
+        }
+      }
+    },
+    "2018": {
+      "year": 2018,
+      "host": "Russie",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇭🇷 Croatie",
+      "third": "🇧🇪 Belgique",
+      "totalTeams": 32,
+      "topScorer": "Harry Kane (6 buts)",
+      "bestPlayer": "Luka Modrić",
+      "venue": "Stade Loujniki",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 9, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 3, "qualified": false },
+            { "team": "🇪🇬 Égypte", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇵🇪 Pérou", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 4, "qualified": true },
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇮🇸 Islande", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇷🇸 Serbie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 6, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🇵🇦 Panama", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 11, "goalDiff": -9, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇯🇵 Japon", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇸🇳 Sénégal", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇫🇷 France", "team2": "🇦🇷 Argentine", "score": "4-3", "winner": "🇫🇷 France" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🇵🇹 Portugal", "score": "2-1", "winner": "🇺🇾 Uruguay" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇷🇺 Russie", "score": "1-1 (3-4 t.a.b)", "winner": "🇷🇺 Russie" },
+          { "team1": "🇭🇷 Croatie", "team2": "🇩🇰 Danemark", "score": "1-1 (3-2 t.a.b)", "winner": "🇭🇷 Croatie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇲🇽 Mexique", "score": "2-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇧🇪 Belgique", "team2": "🇯🇵 Japon", "score": "3-2", "winner": "🇧🇪 Belgique" },
+          { "team1": "🇸🇪 Suède", "team2": "🇨🇭 Suisse", "score": "1-0", "winner": "🇸🇪 Suède" },
+          { "team1": "🇨🇴 Colombie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "1-1 (3-4 t.a.b)", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇫🇷 France", "score": "0-2", "winner": "🇫🇷 France" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇧🇪 Belgique", "score": "1-2", "winner": "🇧🇪 Belgique" },
+          { "team1": "🇸🇪 Suède", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-2", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre" },
+          { "team1": "🇷🇺 Russie", "team2": "🇭🇷 Croatie", "score": "2-2 (3-4 t.a.b)", "winner": "🇭🇷 Croatie" }
+        ],
+        "semifinals": [
+          { "team1": "🇫🇷 France", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇫🇷 France" },
+          { "team1": "🇭🇷 Croatie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-1 (a.p.)", "winner": "🇭🇷 Croatie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇧🇪 Belgique",
+          "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+          "score": "2-0",
+          "winner": "🇧🇪 Belgique"
+        },
+        "final": {
+          "team1": "🇫🇷 France",
+          "team2": "🇭🇷 Croatie",
+          "score": "4-2",
+          "winner": "🇫🇷 France"
+        }
+      }
+    },
+    "2014": {
+      "year": 2014,
+      "host": "Brésil",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 32,
+      "topScorer": "James Rodríguez (6 buts)",
+      "bestPlayer": "Lionel Messi",
+      "venue": "Maracanã",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 9, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 10, "goalsAgainst": 3, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 9, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 4, "qualified": true },
+            { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇯🇵 Japon", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 7, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 9, "qualified": true },
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇧🇦 Bosnie-Herzégovine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 4, "qualified": false },
+            { "team": "🇬🇭 Ghana", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 9, "qualified": true },
+            { "team": "🇩🇿 Algérie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇱 Chili", "score": "1-1 (3-2 t.a.b)", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇨🇴 Colombie", "team2": "🇺🇾 Uruguay", "score": "2-0", "winner": "🇨🇴 Colombie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇲🇽 Mexique", "score": "2-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇨🇷 Costa Rica", "team2": "🇬🇷 Grèce", "score": "1-1 (5-3 t.a.b)", "winner": "🇨🇷 Costa Rica" },
+          { "team1": "🇫🇷 France", "team2": "🇳🇬 Nigeria", "score": "2-0", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇩🇿 Algérie", "score": "2-1 (a.p.)", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇨🇭 Suisse", "score": "1-0 (a.p.)", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇧🇪 Belgique", "team2": "🇺🇸 États-Unis", "score": "2-1 (a.p.)", "winner": "🇧🇪 Belgique" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇴 Colombie", "score": "2-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇫🇷 France", "team2": "🇩🇪 Allemagne", "score": "0-1", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇷 Costa Rica", "score": "0-0 (4-3 t.a.b)", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇦🇷 Argentine" }
+        ],
+        "semifinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇩🇪 Allemagne", "score": "1-7", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇷 Argentine", "score": "0-0 (2-4 t.a.b)", "winner": "🇦🇷 Argentine" }
+        ],
+        "thirdPlace": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇳🇱 Pays-Bas",
+          "score": "0-3",
+          "winner": "🇳🇱 Pays-Bas"
+        },
+        "final": {
+          "team1": "🇩🇪 Allemagne",
+          "team2": "🇦🇷 Argentine",
+          "score": "1-0 (a.p.)",
+          "winner": "🇩🇪 Allemagne"
+        }
+      }
+    },
+    "2010": {
+      "year": 2010,
+      "host": "Afrique du Sud",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 32,
+      "topScorer": "Thomas Müller (5 buts)",
+      "bestPlayer": "Diego Forlán",
+      "venue": "Soccer City",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 4, "qualified": false },
+            { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇸🇮 Slovénie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇩🇿 Algérie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 2, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇬🇭 Ghana", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 4, "qualified": false },
+            { "team": "🇷🇸 Serbie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 9, "qualified": true },
+            { "team": "🇯🇵 Japon", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇸🇰 Slovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇳🇿 Nouvelle-Zélande", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 0, "goalDiff": 7, "points": 5, "qualified": true },
+            { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": false },
+            { "team": "🇰🇵 Corée du Nord", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 12, "goalDiff": -11, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 3, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇰🇷 Corée du Sud", "score": "2-1", "winner": "🇺🇾 Uruguay" },
+          { "team1": "🇺🇸 États-Unis", "team2": "🇬🇭 Ghana", "score": "1-2 (a.p.)", "winner": "🇬🇭 Ghana" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "4-1", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇲🇽 Mexique", "score": "3-1", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇸🇰 Slovaquie", "score": "2-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇱 Chili", "score": "3-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇵🇾 Paraguay", "team2": "🇯🇵 Japon", "score": "0-0 (5-3 t.a.b)", "winner": "🇵🇾 Paraguay" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇪🇸 Espagne" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇧🇷 Brésil", "score": "2-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🇬🇭 Ghana", "score": "1-1 (4-2 t.a.b)", "winner": "🇺🇾 Uruguay" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇩🇪 Allemagne", "score": "0-4", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇵🇾 Paraguay", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne" }
+        ],
+        "semifinals": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇳🇱 Pays-Bas", "score": "2-3", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne" }
+        ],
+        "thirdPlace": {
+          "team1": "🇺🇾 Uruguay",
+          "team2": "🇩🇪 Allemagne",
+          "score": "2-3",
+          "winner": "🇩🇪 Allemagne"
+        },
+        "final": {
+          "team1": "🇳🇱 Pays-Bas",
+          "team2": "🇪🇸 Espagne",
+          "score": "0-1 (a.p.)",
+          "winner": "🇪🇸 Espagne"
+        }
+      }
+    },
+    "2006": {
+      "year": 2006,
+      "host": "Allemagne",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 32,
+      "topScorer": "Miroslav Klose (5 buts)",
+      "bestPlayer": "Zinédine Zidane",
+      "venue": "Olympiastadion Berlin",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇪🇨 Équateur", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇹🇹 Trinité-et-Tobago", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 4, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 1, "goalDiff": 7, "points": 7, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇷🇸 Serbie-et-Monténégro", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 10, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 9, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇦🇴 Angola", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇬🇭 Ghana", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇨🇿 République tchèque", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇯🇵 Japon", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇹🇬 Togo", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 1, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🇺🇦 Ukraine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇸🇪 Suède", "score": "2-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇲🇽 Mexique", "score": "2-1 (a.p.)", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇪🇨 Équateur", "score": "1-0", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇳🇱 Pays-Bas", "score": "1-0", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇮🇹 Italie", "team2": "🇦🇺 Australie", "score": "1-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇨🇭 Suisse", "team2": "🇺🇦 Ukraine", "score": "0-0 (0-3 t.a.b)", "winner": "🇺🇦 Ukraine" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇬🇭 Ghana", "score": "3-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇫🇷 France", "score": "1-3", "winner": "🇫🇷 France" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇦🇷 Argentine", "score": "1-1 (4-2 t.a.b)", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇮🇹 Italie", "team2": "🇺🇦 Ukraine", "score": "3-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇵🇹 Portugal", "score": "0-0 (1-3 t.a.b)", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇫🇷 France", "score": "0-1", "winner": "🇫🇷 France" }
+        ],
+        "semifinals": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇮🇹 Italie", "score": "0-2 (a.p.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇫🇷 France", "score": "0-1", "winner": "🇫🇷 France" }
+        ],
+        "thirdPlace": {
+          "team1": "🇩🇪 Allemagne",
+          "team2": "🇵🇹 Portugal",
+          "score": "3-1",
+          "winner": "🇩🇪 Allemagne"
+        },
+        "final": {
+          "team1": "🇮🇹 Italie",
+          "team2": "🇫🇷 France",
+          "score": "1-1 (5-3 t.a.b)",
+          "winner": "🇮🇹 Italie"
+        }
+      }
+    },
+    "2002": {
+      "year": 2002,
+      "host": "Corée du Sud / Japon",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇹🇷 Turquie",
+      "totalTeams": 32,
+      "topScorer": "Ronaldo (8 buts)",
+      "bestPlayer": "Oliver Kahn",
+      "venue": "Stade International de Yokohama",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇸🇳 Sénégal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 3, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 4, "goalDiff": 5, "points": 9, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇸🇮 Slovénie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 11, "goalsAgainst": 3, "goalDiff": 8, "points": 9, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇨🇳 Chine", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 9, "goalDiff": -9, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 3, "qualified": false },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 7, "goalDiff": -4, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 11, "goalsAgainst": 1, "goalDiff": 10, "points": 7, "qualified": true },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 12, "goalDiff": -12, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇯🇵 Japon", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇵🇾 Paraguay", "score": "1-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇩🇰 Danemark", "team2": "🇬🇧 Angleterre", "score": "0-3", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇸🇪 Suède", "team2": "🇸🇳 Sénégal", "score": "1-2 (a.p.)", "winner": "🇸🇳 Sénégal" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇮🇪 Irlande", "score": "1-1 (3-2 t.a.b)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇲🇽 Mexique", "team2": "🇺🇸 États-Unis", "score": "0-2", "winner": "🇺🇸 États-Unis" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇧🇪 Belgique", "score": "2-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇯🇵 Japon", "team2": "🇹🇷 Turquie", "score": "0-1", "winner": "🇹🇷 Turquie" },
+          { "team1": "🇰🇷 Corée du Sud", "team2": "🇮🇹 Italie", "score": "2-1 (a.p.)", "winner": "🇰🇷 Corée du Sud" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇬🇧 Angleterre", "team2": "🇧🇷 Brésil", "score": "1-2", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇺🇸 États-Unis", "score": "1-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇰🇷 Corée du Sud", "score": "0-0 (3-5 t.a.b)", "winner": "🇰🇷 Corée du Sud" },
+          { "team1": "🇸🇳 Sénégal", "team2": "🇹🇷 Turquie", "score": "0-1 (a.p.)", "winner": "🇹🇷 Turquie" }
+        ],
+        "semifinals": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇰🇷 Corée du Sud", "score": "1-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇹🇷 Turquie", "score": "1-0", "winner": "🇧🇷 Brésil" }
+        ],
+        "thirdPlace": {
+          "team1": "🇹🇷 Turquie",
+          "team2": "🇰🇷 Corée du Sud",
+          "score": "3-2",
+          "winner": "🇹🇷 Turquie"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇩🇪 Allemagne",
+          "score": "2-0",
+          "winner": "🇧🇷 Brésil"
+        }
+      }
+    },
+    "1998": {
+      "year": 1998,
+      "host": "France",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇧🇷 Brésil",
+      "third": "🇭🇷 Croatie",
+      "totalTeams": 32,
+      "topScorer": "Davor Šuker (6 buts)",
+      "bestPlayer": "Ronaldo",
+      "venue": "Stade de France",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇳🇴 Norvège", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇬🇧 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 3, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 1, "goalDiff": 8, "points": 9, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 2, "qualified": false },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 4, "qualified": false },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 5, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 9, "goalDiff": -7, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 0, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇯🇵 Japon", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇯🇲 Jamaïque", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇮🇹 Italie", "team2": "🇳🇴 Norvège", "score": "1-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇱 Chili", "score": "4-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇫🇷 France", "team2": "🇵🇾 Paraguay", "score": "1-0 (a.p.)", "winner": "🇫🇷 France" },
+          { "team1": "🇳🇬 Nigeria", "team2": "🇩🇰 Danemark", "score": "1-4", "winner": "🇩🇰 Danemark" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇲🇽 Mexique", "score": "2-1", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇸 Yougoslavie", "score": "2-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇷🇴 Roumanie", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie" },
+          { "team1": "🇦🇷 Argentine", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-2 (4-3 t.a.b)", "winner": "🇦🇷 Argentine" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇫🇷 France", "score": "0-0 (3-4 t.a.b)", "winner": "🇫🇷 France" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇩🇰 Danemark", "score": "3-2", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇷 Argentine", "score": "2-1", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇭🇷 Croatie", "score": "0-3", "winner": "🇭🇷 Croatie" }
+        ],
+        "semifinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇳🇱 Pays-Bas", "score": "1-1 (4-2 t.a.b)", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇫🇷 France", "team2": "🇭🇷 Croatie", "score": "2-1", "winner": "🇫🇷 France" }
+        ],
+        "thirdPlace": {
+          "team1": "🇭🇷 Croatie",
+          "team2": "🇳🇱 Pays-Bas",
+          "score": "2-1",
+          "winner": "🇭🇷 Croatie"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇫🇷 France",
+          "score": "0-3",
+          "winner": "🇫🇷 France"
+        }
+      }
+    },
+    "1994": {
+      "year": 1994,
+      "host": "États-Unis",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇸🇪 Suède",
+      "totalTeams": 24,
+      "topScorer": "Oleg Salenko / Hristo Stoichkov (6 buts)",
+      "bestPlayer": "Romário",
+      "venue": "Rose Bowl",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 11, "goalDiff": -8, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": true },
+            { "team": "🇧🇴 Bolivie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇳🇬 Nigeria", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 10, "goalDiff": -10, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇳🇴 Norvège", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇧🇪 Belgique", "score": "3-2", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇨🇭 Suisse", "score": "3-0", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇸🇪 Suède", "score": "1-3", "winner": "🇸🇪 Suède" },
+          { "team1": "🇷🇴 Roumanie", "team2": "🇦🇷 Argentine", "score": "3-2", "winner": "🇷🇴 Roumanie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇮🇪 Irlande", "score": "2-0", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇺🇸 États-Unis", "score": "1-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇳🇬 Nigeria", "team2": "🇮🇹 Italie", "score": "1-2 (a.p.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇲🇽 Mexique", "team2": "🇧🇬 Bulgarie", "score": "1-1 (1-3 t.a.b)", "winner": "🇧🇬 Bulgarie" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇧🇷 Brésil", "score": "2-3", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇧🇬 Bulgarie", "team2": "🇩🇪 Allemagne", "score": "2-1", "winner": "🇧🇬 Bulgarie" },
+          { "team1": "🇷🇴 Roumanie", "team2": "🇸🇪 Suède", "score": "2-2 (4-5 t.a.b)", "winner": "🇸🇪 Suède" }
+        ],
+        "semifinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇧🇬 Bulgarie", "score": "2-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Suède", "score": "1-0", "winner": "🇧🇷 Brésil" }
+        ],
+        "thirdPlace": {
+          "team1": "🇸🇪 Suède",
+          "team2": "🇧🇬 Bulgarie",
+          "score": "4-0",
+          "winner": "🇸🇪 Suède"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇮🇹 Italie",
+          "score": "0-0 (3-2 t.a.b)",
+          "winner": "🇧🇷 Brésil"
+        }
+      }
+    },
+    "1990": {
+      "year": 1990,
+      "host": "Italie",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇮🇹 Italie",
+      "totalTeams": 24,
+      "topScorer": "Salvatore Schillaci (6 buts)",
+      "bestPlayer": "Salvatore Schillaci",
+      "venue": "Stadio Olimpico",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 4, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 4, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇷🇺 URSS", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇨🇷 Costa Rica", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 1, "qualified": false },
+            { "team": "🇸🇪 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 10, "goalsAgainst": 3, "goalDiff": 7, "points": 5, "qualified": true },
+            { "team": "🇾🇺 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇦🇪 Émirats arabes unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 11, "goalDiff": -9, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 4, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇪🇬 Égypte", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇨🇲 Cameroun", "team2": "🇨🇴 Colombie", "score": "2-1 (a.p.)", "winner": "🇨🇲 Cameroun" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇨🇷 Costa Rica", "score": "4-1", "winner": "🇨🇿 Tchécoslovaquie" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇧🇷 Brésil", "score": "1-0", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇳🇱 Pays-Bas", "score": "2-1", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇮🇹 Italie", "team2": "🇺🇾 Uruguay", "score": "2-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇾🇺 Yougoslavie", "team2": "🇪🇸 Espagne", "score": "2-1 (a.p.)", "winner": "🇾🇺 Yougoslavie" },
+          { "team1": "🇷🇴 Roumanie", "team2": "🇮🇪 Irlande", "score": "0-0 (5-4 t.a.b)", "winner": "🇷🇴 Roumanie" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇧🇪 Belgique", "score": "1-0 (a.p.)", "winner": "🇬🇧 Angleterre" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇦🇷 Argentine", "team2": "🇾🇺 Yougoslavie", "score": "0-0 (3-2 t.a.b)", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇮🇹 Italie", "team2": "🇮🇪 Irlande", "score": "1-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇨🇲 Cameroun", "score": "3-2 (a.p.)", "winner": "🇬🇧 Angleterre" }
+        ],
+        "semifinals": [
+          { "team1": "🇦🇷 Argentine", "team2": "🇮🇹 Italie", "score": "1-1 (4-3 t.a.b)", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇬🇧 Angleterre", "score": "1-1 (4-3 t.a.b)", "winner": "🇩🇪 Allemagne" }
+        ],
+        "thirdPlace": {
+          "team1": "🇮🇹 Italie",
+          "team2": "🇬🇧 Angleterre",
+          "score": "2-1",
+          "winner": "🇮🇹 Italie"
+        },
+        "final": {
+          "team1": "🇩🇪 Allemagne",
+          "team2": "🇦🇷 Argentine",
+          "score": "1-0",
+          "winner": "🇩🇪 Allemagne"
+        }
+      }
+    },
+    "1986": {
+      "year": 1986,
+      "host": "Mexique",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇫🇷 France",
+      "totalTeams": 24,
+      "topScorer": "Gary Lineker (6 buts)",
+      "bestPlayer": "Diego Maradona",
+      "venue": "Estadio Azteca",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 2, "qualified": true },
+            { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇮🇶 Irak", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 9, "goalsAgainst": 1, "goalDiff": 8, "points": 5, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 9, "goalDiff": -7, "points": 2, "qualified": false },
+            { "team": "🇨🇦 Canada", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 4, "qualified": true },
+            { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": true },
+            { "team": "🇩🇿 Algérie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 1, "goalDiff": 8, "points": 6, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 2, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 3, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 2, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇲🇽 Mexique", "team2": "🇧🇬 Bulgarie", "score": "2-0", "winner": "🇲🇽 Mexique" },
+          { "team1": "🇧🇪 Belgique", "team2": "🇷🇺 URSS", "score": "4-3 (a.p.)", "winner": "🇧🇪 Belgique" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇵🇱 Pologne", "score": "4-0", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇺🇾 Uruguay", "score": "1-0", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇫🇷 France", "team2": "🇮🇹 Italie", "score": "2-0", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇲🇦 Maroc", "score": "1-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇵🇾 Paraguay", "score": "3-0", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇩🇰 Danemark", "team2": "🇪🇸 Espagne", "score": "1-5", "winner": "🇪🇸 Espagne" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇫🇷 France", "score": "1-1 (3-4 t.a.b)", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇲🇽 Mexique", "score": "0-0 (4-1 t.a.b)", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇬🇧 Angleterre", "score": "2-1", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇧🇪 Belgique", "score": "1-1 (5-4 t.a.b)", "winner": "🇧🇪 Belgique" }
+        ],
+        "semifinals": [
+          { "team1": "🇫🇷 France", "team2": "🇩🇪 Allemagne", "score": "0-2", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇦🇷 Argentine", "team2": "🇧🇪 Belgique", "score": "2-0", "winner": "🇦🇷 Argentine" }
+        ],
+        "thirdPlace": {
+          "team1": "🇫🇷 France",
+          "team2": "🇧🇪 Belgique",
+          "score": "4-2 (a.p.)",
+          "winner": "🇫🇷 France"
+        },
+        "final": {
+          "team1": "🇦🇷 Argentine",
+          "team2": "🇩🇪 Allemagne",
+          "score": "3-2",
+          "winner": "🇦🇷 Argentine"
+        }
+      }
+    },
+    "1982": {
+      "year": 1982,
+      "host": "Espagne",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇵🇱 Pologne",
+      "totalTeams": 24,
+      "topScorer": "Paolo Rossi (6 buts)",
+      "bestPlayer": "Paolo Rossi",
+      "venue": "Santiago Bernabéu",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇵🇪 Pérou", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 4, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇩🇿 Algérie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 8, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 4, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 12, "goalsAgainst": 6, "goalDiff": 6, "points": 3, "qualified": false },
+            { "team": "🇸🇻 Salvador", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 13, "goalDiff": -12, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇰🇼 Koweït", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 5",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 6",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 10, "goalsAgainst": 2, "goalDiff": 8, "points": 6, "qualified": true },
+            { "team": "🇷🇺 URSS", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 3, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 8, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇳🇿 Nouvelle-Zélande", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 12, "goalDiff": -10, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "secondRound": [
+          { "group": "A", "teams": ["🇵🇱 Pologne", "🇧🇪 Belgique", "🇷🇺 URSS"], "winner": "🇵🇱 Pologne" },
+          { "group": "B", "teams": ["🇩🇪 Allemagne", "🇬🇧 Angleterre", "🇪🇸 Espagne"], "winner": "🇩🇪 Allemagne" },
+          { "group": "C", "teams": ["🇮🇹 Italie", "🇧🇷 Brésil", "🇦🇷 Argentine"], "winner": "🇮🇹 Italie" },
+          { "group": "D", "teams": ["🇫🇷 France", "🇦🇹 Autriche", "🇮🇪 Irlande du Nord"], "winner": "🇫🇷 France" }
+        ],
+        "semifinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇵🇱 Pologne", "score": "2-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇫🇷 France", "score": "3-3 (5-4 t.a.b)", "winner": "🇩🇪 Allemagne" }
+        ],
+        "thirdPlace": {
+          "team1": "🇵🇱 Pologne",
+          "team2": "🇫🇷 France",
+          "score": "3-2",
+          "winner": "🇵🇱 Pologne"
+        },
+        "final": {
+          "team1": "🇮🇹 Italie",
+          "team2": "🇩🇪 Allemagne",
+          "score": "3-1",
+          "winner": "🇮🇹 Italie"
+        }
+      }
+    },
+    "1978": {
+      "year": 1978,
+      "host": "Argentine",
+      "winner": "🇦🇷 Argentine",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇧🇷 Brésil",
+      "totalTeams": 16,
+      "topScorer": "Mario Kempes (6 buts)",
+      "bestPlayer": "Mario Kempes",
+      "venue": "Estadio Monumental",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 2, "qualified": false },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 8, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
+            { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": false },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 12, "goalDiff": -10, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇵🇪 Pérou", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 5, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 3, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇮🇷 Iran", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "secondRound": [
+          { "group": "A", "teams": ["🇳🇱 Pays-Bas", "🇮🇹 Italie", "🇩🇪 Allemagne", "🇦🇹 Autriche"], "winner": "🇳🇱 Pays-Bas" },
+          { "group": "B", "teams": ["🇦🇷 Argentine", "🇧🇷 Brésil", "🇵🇱 Pologne", "🇵🇪 Pérou"], "winner": "🇦🇷 Argentine" }
+        ],
+        "thirdPlace": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇮🇹 Italie",
+          "score": "2-1",
+          "winner": "🇧🇷 Brésil"
+        },
+        "final": {
+          "team1": "🇦🇷 Argentine",
+          "team2": "🇳🇱 Pays-Bas",
+          "score": "3-1 (a.p.)",
+          "winner": "🇦🇷 Argentine"
+        }
+      }
+    },
+    "1974": {
+      "year": 1974,
+      "host": "Allemagne de l'Ouest",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇳🇱 Pays-Bas",
+      "third": "🇵🇱 Pologne",
+      "totalTeams": 16,
+      "topScorer": "Grzegorz Lato (7 buts)",
+      "bestPlayer": "Johan Cruyff",
+      "venue": "Olympiastadion München",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇩🇪 Allemagne de l'Est", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 4, "qualified": false },
+            { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇾🇺 Yougoslavie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 10, "goalsAgainst": 1, "goalDiff": 9, "points": 4, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 0, "goalDiff": 3, "points": 4, "qualified": false },
+            { "team": "🇸🇨 Écosse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 4, "qualified": false },
+            { "team": "🇿🇷 Zaïre", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 14, "goalDiff": -14, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 5, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 0, "goalDiff": 3, "points": 4, "qualified": false },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 2, "qualified": false },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 12, "goalsAgainst": 3, "goalDiff": 9, "points": 6, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 3, "qualified": false },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 3, "qualified": false },
+            { "team": "🇭🇹 Haïti", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 14, "goalDiff": -12, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe A (2ème tour)",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 0, "goalDiff": 8, "points": 6, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇩🇪 Allemagne de l'Est", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 2, "qualified": false },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B (2ème tour)",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇾🇺 Yougoslavie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "thirdPlace": {
+          "team1": "🇵🇱 Pologne",
+          "team2": "🇧🇷 Brésil",
+          "score": "1-0",
+          "winner": "🇵🇱 Pologne"
+        },
+        "final": {
+          "team1": "🇩🇪 Allemagne de l'Ouest",
+          "team2": "🇳🇱 Pays-Bas",
+          "score": "2-1",
+          "winner": "🇩🇪 Allemagne de l'Ouest"
+        }
+      }
+    },
+    "1970": {
+      "year": 1970,
+      "host": "Mexique",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 16,
+      "topScorer": "Gerd Müller (10 buts)",
+      "bestPlayer": "Pelé",
+      "venue": "Estadio Azteca",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 1, "goalsAgainst": 0, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇮🇱 Israël", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 10, "goalsAgainst": 4, "goalDiff": 6, "points": 6, "qualified": true },
+            { "team": "🇵🇪 Pérou", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 1, "qualified": false },
+            { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 5, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇸🇻 Salvador", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterfinals": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇷🇺 URSS", "score": "1-0 (a.p.)", "winner": "🇺🇾 Uruguay" },
+          { "team1": "🇮🇹 Italie", "team2": "🇲🇽 Mexique", "score": "4-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇵🇪 Pérou", "score": "4-2", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇬🇧 Angleterre", "score": "3-2 (a.p.)", "winner": "🇩🇪 Allemagne de l'Ouest" }
+        ],
+        "semifinals": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇧🇷 Brésil", "score": "1-3", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇮🇹 Italie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "4-3 (a.p.)", "winner": "🇮🇹 Italie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇩🇪 Allemagne de l'Ouest",
+          "team2": "🇺🇾 Uruguay",
+          "score": "1-0",
+          "winner": "🇩🇪 Allemagne de l'Ouest"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇮🇹 Italie",
+          "score": "4-1",
+          "winner": "🇧🇷 Brésil"
+        }
+      }
+    },
+    "1966": {
+      "year": 1966,
+      "host": "Angleterre",
+      "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇵🇹 Portugal",
+      "totalTeams": 16,
+      "topScorer": "Eusébio (9 buts)",
+      "bestPlayer": "Bobby Charlton",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 5, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 9, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDiff": 7, "points": 6, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇷🇺 URSS", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🇰🇵 Corée du Nord", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterfinals": [
+          { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇦🇷 Argentine", "score": "1-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre" },
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇺🇾 Uruguay", "score": "4-0", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇰🇵 Corée du Nord", "score": "5-3", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇷🇺 URSS", "team2": "🇭🇺 Hongrie", "score": "2-1", "winner": "🇷🇺 URSS" }
+        ],
+        "semifinals": [
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇷🇺 URSS", "score": "2-1", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇵🇹 Portugal", "score": "2-1", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre" }
+        ],
+        "thirdPlace": {
+          "team1": "🇵🇹 Portugal",
+          "team2": "🇷🇺 URSS",
+          "score": "2-1",
+          "winner": "🇵🇹 Portugal"
+        },
+        "final": {
+          "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre",
+          "team2": "🇩🇪 Allemagne de l'Ouest",
+          "score": "4-2 (a.p.)",
+          "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre"
+        }
+      }
+    },
+    "1962": {
+      "year": 1962,
+      "host": "Chili",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇨🇿 Tchécoslovaquie",
+      "third": "🇨🇱 Chili",
+      "totalTeams": 16,
+      "topScorer": "Garrincha / Vavá (4 buts)",
+      "bestPlayer": "Garrincha",
+      "venue": "Estadio Nacional",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 5, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 4, "qualified": true },
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇨🇴 Colombie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 11, "goalDiff": -6, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": false },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": true },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 5, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterfinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "3-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇨🇱 Chili", "team2": "🇷🇺 URSS", "score": "2-1", "winner": "🇨🇱 Chili" },
+          { "team1": "🇷🇸 Yougoslavie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "0-1", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇨🇿 Tchécoslovaquie", "score": "0-1", "winner": "🇨🇿 Tchécoslovaquie" }
+        ],
+        "semifinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇱 Chili", "score": "4-2", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "3-1", "winner": "🇨🇿 Tchécoslovaquie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇨🇱 Chili",
+          "team2": "🇩🇪 Allemagne de l'Ouest",
+          "score": "1-0",
+          "winner": "🇨🇱 Chili"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇨🇿 Tchécoslovaquie",
+          "score": "3-1",
+          "winner": "🇧🇷 Brésil"
+        }
+      }
+    },
+    "1958": {
+      "year": 1958,
+      "host": "Suède",
+      "winner": "🇧🇷 Brésil",
+      "runnerUp": "🇸🇪 Suède",
+      "third": "🇫🇷 France",
+      "totalTeams": 16,
+      "topScorer": "Just Fontaine (13 buts)",
+      "bestPlayer": "Pelé",
+      "venue": "Råsunda Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 3, "qualified": true },
+            { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 10, "goalDiff": -5, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 4, "qualified": true },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 9, "goalsAgainst": 12, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 3, "qualified": true },
+            { "team": "🇬🇧 Pays de Galles", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 5, "qualified": true },
+            { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterfinals": [
+          { "team1": "🇫🇷 France", "team2": "🇮🇪 Irlande du Nord", "score": "4-0", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇷🇸 Yougoslavie", "score": "1-0", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇸🇪 Suède", "team2": "🇷🇺 URSS", "score": "2-0", "winner": "🇸🇪 Suède" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇬🇧 Pays de Galles", "score": "1-0", "winner": "🇧🇷 Brésil" }
+        ],
+        "semifinals": [
+          { "team1": "🇧🇷 Brésil", "team2": "🇫🇷 France", "score": "5-2", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇸🇪 Suède", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "3-1", "winner": "🇸🇪 Suède" }
+        ],
+        "thirdPlace": {
+          "team1": "🇫🇷 France",
+          "team2": "🇩🇪 Allemagne de l'Ouest",
+          "score": "6-3",
+          "winner": "🇫🇷 France"
+        },
+        "final": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇸🇪 Suède",
+          "score": "5-2",
+          "winner": "🇧🇷 Brésil"
+        }
+      }
+    },
+    "1954": {
+      "year": 1954,
+      "host": "Suisse",
+      "winner": "🇩🇪 Allemagne de l'Ouest",
+      "runnerUp": "🇭🇺 Hongrie",
+      "third": "🇦🇹 Autriche",
+      "totalTeams": 16,
+      "topScorer": "Sándor Kocsis (11 buts)",
+      "bestPlayer": "Ferenc Puskás",
+      "venue": "Wankdorf Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇷🇸 Yougoslavie", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 2, "goalsAgainst": 0, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 3, "qualified": true },
+            { "team": "🇫🇷 France", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 2, "qualified": false },
+            { "team": "🇲🇽 Mexique", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇭🇺 Hongrie", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 17, "goalsAgainst": 3, "goalDiff": 14, "points": 4, "qualified": true },
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 2, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 2, "qualified": false },
+            { "team": "🇰🇷 Corée du Sud", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 16, "goalDiff": -16, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 0, "goalDiff": 9, "points": 4, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 7, "goalDiff": -7, "points": 0, "qualified": false },
+            { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 3, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 2, "qualified": false },
+            { "team": "🇧🇪 Belgique", "played": 2, "won": 0, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterfinals": [
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇷🇸 Yougoslavie", "score": "2-0", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇧🇷 Brésil", "score": "4-2", "winner": "🇭🇺 Hongrie" },
+          { "team1": "🇦🇹 Autriche", "team2": "🇨🇭 Suisse", "score": "7-5", "winner": "🇦🇹 Autriche" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "4-2", "winner": "🇺🇾 Uruguay" }
+        ],
+        "semifinals": [
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇦🇹 Autriche", "score": "6-1", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇺🇾 Uruguay", "score": "4-2 (a.p.)", "winner": "🇭🇺 Hongrie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇦🇹 Autriche",
+          "team2": "🇺🇾 Uruguay",
+          "score": "3-1",
+          "winner": "🇦🇹 Autriche"
+        },
+        "final": {
+          "team1": "🇩🇪 Allemagne de l'Ouest",
+          "team2": "🇭🇺 Hongrie",
+          "score": "3-2",
+          "winner": "🇩🇪 Allemagne de l'Ouest"
+        }
+      }
+    },
+    "1950": {
+      "year": 1950,
+      "host": "Brésil",
+      "winner": "🇺🇾 Uruguay",
+      "runnerUp": "🇧🇷 Brésil",
+      "third": "🇸🇪 Suède",
+      "totalTeams": 13,
+      "topScorer": "Ademir (9 buts)",
+      "bestPlayer": "Zizinho",
+      "venue": "Maracanã",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 5, "qualified": true },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 3, "goalDiff": 4, "points": 4, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 10, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 6, "qualified": true },
+            { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 2, "qualified": false },
+            { "team": "🇵🇾 Paraguay", "played": 2, "won": 0, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 1, "won": 1, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 0, "goalDiff": 8, "points": 2, "qualified": true },
+            { "team": "🇧🇴 Bolivie", "played": 1, "won": 0, "drawn": 0, "lost": 1, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe Final",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 14, "goalsAgainst": 4, "goalDiff": 10, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 2, "qualified": false },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 11, "goalDiff": -7, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "finalGroup": [
+          { "team1": "🇺🇾 Uruguay", "team2": "🇪🇸 Espagne", "score": "2-2", "winner": null },
+          { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Suède", "score": "7-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🇸🇪 Suède", "score": "3-2", "winner": "🇺🇾 Uruguay" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇪🇸 Espagne", "score": "6-1", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇸🇪 Suède", "team2": "🇪🇸 Espagne", "score": "3-1", "winner": "🇸🇪 Suède" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🇧🇷 Brésil", "score": "2-1", "winner": "🇺🇾 Uruguay" }
+        ]
+      }
+    },
+    "1938": {
+      "year": 1938,
+      "host": "France",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇭🇺 Hongrie",
+      "third": "🇧🇷 Brésil",
+      "totalTeams": 15,
+      "topScorer": "Leônidas (7 buts)",
+      "bestPlayer": "Leônidas",
+      "venue": "Stade Olympique de Colombes",
+      "groupStage": [],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇨🇭 Suisse", "team2": "🇩🇪 Allemagne", "score": "1-1 (a.p.), 4-2 (rep.)", "winner": "🇨🇭 Suisse" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇨🇭 Suisse", "score": "2-4 (rep.)", "winner": "🇨🇭 Suisse" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇳🇱 Pays-Bas", "score": "6-0", "winner": "🇭🇺 Hongrie" },
+          { "team1": "🇸🇪 Suède", "team2": "🇦🇹 Autriche", "score": "Forfait", "winner": "🇸🇪 Suède" },
+          { "team1": "🇫🇷 France", "team2": "🇧🇪 Belgique", "score": "3-1", "winner": "🇫🇷 France" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇳🇱 Pays-Bas", "score": "3-0 (a.p.), 3-0 (rep.)", "winner": "🇨🇿 Tchécoslovaquie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇵🇱 Pologne", "score": "6-5 (a.p.)", "winner": "🇧🇷 Brésil" },
+          { "team1": "🇮🇹 Italie", "team2": "🇳🇴 Norvège", "score": "2-1 (a.p.)", "winner": "🇮🇹 Italie" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇸🇪 Suède", "team2": "🇨🇺 Cuba", "score": "8-0", "winner": "🇸🇪 Suède" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇨🇭 Suisse", "score": "2-0", "winner": "🇭🇺 Hongrie" },
+          { "team1": "🇮🇹 Italie", "team2": "🇫🇷 France", "score": "3-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇧🇷 Brésil", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-1 (a.p.), 2-1 (rep.)", "winner": "🇧🇷 Brésil" }
+        ],
+        "semifinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇧🇷 Brésil", "score": "2-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇸🇪 Suède", "score": "5-1", "winner": "🇭🇺 Hongrie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇧🇷 Brésil",
+          "team2": "🇸🇪 Suède",
+          "score": "4-2",
+          "winner": "🇧🇷 Brésil"
+        },
+        "final": {
+          "team1": "🇮🇹 Italie",
+          "team2": "🇭🇺 Hongrie",
+          "score": "4-2",
+          "winner": "🇮🇹 Italie"
+        }
+      }
+    },
+    "1934": {
+      "year": 1934,
+      "host": "Italie",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇨🇿 Tchécoslovaquie",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 16,
+      "topScorer": "Oldřich Nejedlý (5 buts)",
+      "bestPlayer": "Giuseppe Meazza",
+      "venue": "Stadio Nazionale PNF",
+      "groupStage": [],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇮🇹 Italie", "team2": "🇺🇸 États-Unis", "score": "7-1", "winner": "🇮🇹 Italie" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇧🇷 Brésil", "score": "3-1", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇦🇹 Autriche", "team2": "🇫🇷 France", "score": "3-2 (a.p.)", "winner": "🇦🇹 Autriche" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇪🇬 Égypte", "score": "4-2", "winner": "🇭🇺 Hongrie" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇷🇴 Roumanie", "score": "2-1", "winner": "🇨🇿 Tchécoslovaquie" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇧🇪 Belgique", "score": "5-2", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇸🇪 Suède", "team2": "🇦🇷 Argentine", "score": "3-2", "winner": "🇸🇪 Suède" },
+          { "team1": "🇨🇭 Suisse", "team2": "🇳🇱 Pays-Bas", "score": "3-2", "winner": "🇨🇭 Suisse" }
+        ],
+        "quarterfinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "1-1 (a.p.), 1-0 (rep.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇦🇹 Autriche", "team2": "🇭🇺 Hongrie", "score": "2-1", "winner": "🇦🇹 Autriche" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇨🇭 Suisse", "score": "3-2", "winner": "🇨🇿 Tchécoslovaquie" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇩🇪 Allemagne" }
+        ],
+        "semifinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇦🇹 Autriche", "score": "1-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇩🇪 Allemagne", "score": "3-1", "winner": "🇨🇿 Tchécoslovaquie" }
+        ],
+        "thirdPlace": {
+          "team1": "🇩🇪 Allemagne",
+          "team2": "🇦🇹 Autriche",
+          "score": "3-2",
+          "winner": "🇩🇪 Allemagne"
+        },
+        "final": {
+          "team1": "🇮🇹 Italie",
+          "team2": "🇨🇿 Tchécoslovaquie",
+          "score": "2-1 (a.p.)",
+          "winner": "🇮🇹 Italie"
+        }
+      }
+    },
+    "1930": {
+      "year": 1930,
+      "host": "Uruguay",
+      "winner": "🇺🇾 Uruguay",
+      "runnerUp": "🇦🇷 Argentine",
+      "third": "🇺🇸 États-Unis",
+      "totalTeams": 13,
+      "topScorer": "Guillermo Stábile (8 buts)",
+      "bestPlayer": "José Nasazzi",
+      "venue": "Estadio Centenario",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇦🇷 Argentine", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 10, "goalsAgainst": 4, "goalDiff": 6, "points": 6, "qualified": true },
+            { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": false },
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 2, "qualified": false },
+            { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇷🇸 Yougoslavie", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 4, "qualified": true },
+            { "team": "🇧🇷 Brésil", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 2, "qualified": false },
+            { "team": "🇧🇴 Bolivie", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 3",
+          "standings": [
+            { "team": "🇺🇾 Uruguay", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 4, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇵🇪 Pérou", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe 4",
+          "standings": [
+            { "team": "🇺🇸 États-Unis", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
+            { "team": "🇵🇾 Paraguay", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇧🇪 Belgique", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 4, "goalDiff": -4, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "semifinals": [
+          { "team1": "🇦🇷 Argentine", "team2": "🇺🇸 États-Unis", "score": "6-1", "winner": "🇦🇷 Argentine" },
+          { "team1": "🇺🇾 Uruguay", "team2": "🇷🇸 Yougoslavie", "score": "6-1", "winner": "🇺🇾 Uruguay" }
+        ],
+        "final": {
+          "team1": "🇺🇾 Uruguay",
+          "team2": "🇦🇷 Argentine",
+          "score": "4-2",
+          "winner": "🇺🇾 Uruguay"
+        }
+      }
+    }
+  },
+  "statistics": {
+    "mostWins": {
+      "country": "🇧🇷 Brésil",
+      "titles": 5,
+      "years": [1958, 1962, 1970, 1994, 2002]
+    },
+    "recentChampions": [
+      { "year": 2022, "country": "🇦🇷 Argentine" },
+      { "year": 2018, "country": "🇫🇷 France" },
+      { "year": 2014, "country": "🇩🇪 Allemagne" }
+    ]
+  }
+}

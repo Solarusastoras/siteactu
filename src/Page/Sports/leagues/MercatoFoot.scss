@@ -1,0 +1,432 @@
+.mercato-foot {
+  width: 100%;
+  padding: 20px;
+  
+  .mercato-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
+    h2 {
+      color: #fff;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .mercato-subtitle {
+      color: #ffd700;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  .mercato-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .mercato-card {
+    cursor: default;
+    transition: all 0.3s ease;
+    border: 2px solid #e0e0e0;
+    background: #fff;
+    overflow: hidden;
+    display: flex !important;
+    flex-direction: row !important;
+    min-height: 160px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    
+    &:hover {
+      transform: translateX(5px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+      border-color: #ffd700;
+      
+      .mercato-title {
+        color: #0056b3;
+      }
+      
+      .mercato-link {
+        color: #ffd700;
+      }
+    }
+
+    .mercato-image,
+    .mercato-image-placeholder {
+      position: relative;
+      width: 180px;
+      min-width: 180px;
+      height: auto;
+      overflow: hidden;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      
+      &:hover img {
+        transform: scale(1.08);
+      }
+      
+      .mercato-badge {
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-weight: 700;
+        font-size: 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        box-shadow: 0 3px 10px rgba(102, 126, 234, 0.5);
+        border: 2px solid #ffd700;
+        width: fit-content;
+        max-width: 90%;
+        
+        .badge-icon {
+          font-size: 0.85rem;
+        }
+        
+        .badge-text {
+          display: inline;
+          font-weight: 700;
+          letter-spacing: 0.3px;
+        }
+      }
+    }
+
+    .mercato-content {
+      padding: 15px 18px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: visible;
+      
+      .mercato-title {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #1a1a2e;
+        margin-bottom: 8px;
+        line-height: 1.35;
+        transition: color 0.3s ease;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      
+      .mercato-description {
+        color: #666;
+        font-size: 0.85rem;
+        line-height: 1.45;
+        margin-bottom: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        flex: 1;
+      }
+      
+      .mercato-meta-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 8px;
+        border-top: 1px solid #eee;
+        
+        .mercato-date {
+          color: #999;
+          font-size: 0.78rem;
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          
+          .date-icon {
+            font-size: 0.9rem;
+          }
+        }
+        
+        .mercato-link {
+          color: #667eea;
+          font-weight: 600;
+          font-size: 0.78rem;
+          transition: all 0.3s ease;
+          cursor: pointer;
+          
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .loading, .error-card {
+    text-align: center;
+    padding: 40px;
+    
+    h3 {
+      color: #1a1a2e;
+      margin-bottom: 20px;
+    }
+    
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+    
+    .retry-button {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+      }
+    }
+  }
+
+  .mercato-footer {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    
+    .footer-content {
+      text-align: center;
+      color: white;
+      
+      p {
+        margin: 0 0 5px 0;
+        font-weight: 600;
+        font-size: 1rem;
+      }
+      
+      small {
+        color: #ccc;
+        font-size: 0.85rem;
+        display: block;
+        margin-top: 8px;
+      }
+      
+      .copyright {
+        margin-top: 10px;
+      }
+    }
+  }
+  
+  .sources-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    
+    .sources-label {
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0;
+      color: #ffd700;
+    }
+    
+    .sources-badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      
+      .source-badge {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        border: 2px solid #ffd700;
+        box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        transition: all 0.3s ease;
+        
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+        }
+      }
+    }
+  }
+  
+  .mercato-source {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    border: 1.5px solid #ffd700;
+    box-shadow: 0 2px 6px rgba(102, 126, 234, 0.3);
+    white-space: nowrap;
+  }
+}
+
+// Responsive
+@media (max-width: 1200px) {
+  .mercato-foot {
+    .mercato-card {
+      height: 130px;
+      
+      .mercato-image {
+        width: 180px;
+        min-width: 180px;
+      }
+      
+      .mercato-content {
+        padding: 10px 12px;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 768px) {
+  .mercato-foot {
+    padding: 10px;
+    
+    .mercato-header {
+      padding: 15px;
+      
+      h2 {
+        font-size: 1.6rem;
+      }
+      
+      .mercato-subtitle {
+        font-size: 1rem;
+      }
+    }
+    
+    .mercato-grid {
+      gap: 12px;
+    }
+    
+    .mercato-card {
+      height: 120px;
+      
+      .mercato-image {
+        width: 140px;
+        min-width: 140px;
+      }
+      
+      .mercato-content {
+        padding: 8px 10px;
+        
+        .mercato-title {
+          font-size: 0.85rem;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+        }
+        
+        .mercato-description {
+          font-size: 0.75rem;
+          -webkit-line-clamp: 1;
+          line-clamp: 1;
+        }
+        
+        .mercato-meta-bottom {
+          .mercato-date {
+            font-size: 0.7rem;
+          }
+          
+          .mercato-link {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Sélecteur de source RSS
+.source-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  
+  label {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .source-dropdown {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: 2px solid #ffd700;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    
+    &:hover {
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    }
+    
+    &:focus {
+      border-color: #fff;
+      box-shadow: 0 0 0 3px rgba(255, 215, 0, 0.3);
+    }
+    
+    option {
+      background: #1a1a2e;
+      color: #fff;
+      padding: 10px;
+    }
+  }
+}

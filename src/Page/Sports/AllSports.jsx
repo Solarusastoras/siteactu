@@ -9,7 +9,12 @@ import BundesligaLogo from '../../Utils/Img/Bundesliga.png';
 import BrasilLogo from '../../Utils/Img/Brasil.png';
 import NFLLogo from '../../Utils/Img/NFL.png';
 import NHLLogo from '../../Utils/Img/NHL.png';
+import MercatoFootLogo from '../../Utils/Img/MercatoFoot.png';
+import WorldCupLogo from '../../Utils/Img/WorldCup.png';
+
+
 import {
+  MercatoFoot,
   Ligue1,
   Ligue2,
   PremierLeague,
@@ -19,12 +24,13 @@ import {
   Brasileirao,
   NHL,
   NFL,
-  NBA
+  NBA,
+  WorldCup
 } from './leagues';
 
 const AllSports = () => {
   const [activeTab, setActiveTab] = useState('football');
-  const [footballLeague, setFootballLeague] = useState('ligue1');
+  const [footballLeague, setFootballLeague] = useState('mercato');
   const [footballView, setFootballView] = useState('matches');
   const [basketView, setBasketView] = useState('matches');
   const [nhlView, setNhlView] = useState('matches');
@@ -42,13 +48,15 @@ const AllSports = () => {
 
   const renderLeagueComponent = () => {
     const leagueComponents = {
+      mercato: <MercatoFoot />,
       ligue1: <Ligue1 view={footballView} />,
       ligue2: <Ligue2 view={footballView} />,
       premier: <PremierLeague view={footballView} />,
       laliga: <LaLiga view={footballView} />,
       seriea: <SerieA view={footballView} />,
       bundesliga: <Bundesliga view={footballView} />,
-      brasileirao: <Brasileirao view={footballView} />
+      brasileirao: <Brasileirao view={footballView} />,
+      worldcup: <WorldCup view={footballView} />
     };
 
     return leagueComponents[footballLeague];
@@ -57,7 +65,7 @@ const AllSports = () => {
   return (
     <div className="sports-container">
       <header className="sports-header">
-        <h1>Centre Sportif</h1>
+        <h1>Sports</h1>
         <p className="date">{formatDate(new Date())}</p>
       </header>
 
@@ -91,6 +99,12 @@ const AllSports = () => {
       {activeTab === 'football' && (
         <div className="football-leagues">
           <div className="league-tabs">
+            <button 
+              className={`control-btn ${footballLeague === 'mercato' ? 'active' : ''}`}
+              onClick={() => setFootballLeague('mercato')}
+            >
+              <img src={MercatoFootLogo} alt="Mercato Foot" className="league-logo" />
+            </button>
             <button 
               className={`control-btn ${footballLeague === 'ligue1' ? 'active' : ''}`}
               onClick={() => setFootballLeague('ligue1')}
@@ -133,11 +147,17 @@ const AllSports = () => {
             >
               <img src={BrasilLogo} alt="Brasileirão" className="league-logo" />
             </button>
+            <button 
+              className={`control-btn ${footballLeague === 'worldcup' ? 'active' : ''}`}
+              onClick={() => setFootballLeague('worldcup')}
+            >
+              <img src={WorldCupLogo} alt="World Cup" className="league-logo" />
+            </button>
           </div>
         </div>
       )}
 
-      {activeTab === 'football' && (
+      {activeTab === 'football' && footballLeague !== 'mercato' && footballLeague !== 'actufoot' && (
         <div className="sport-controls">
           <button 
             className={`control-btn ${footballView === 'matches' ? 'active' : ''}`}

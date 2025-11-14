@@ -85,6 +85,11 @@
 
 
 
+.football-leagues {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .league-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -94,25 +99,20 @@
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-}
+  padding: 20px 10px;
 
-.sport-controls {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-}
-
-.control-btn {
-  background-color: #1a1a1a;;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: antiquewhite;
+  .control-btn {
+    background-color: #1a1a1a;
+    border: 2px solid transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
 
   .league-logo {
     width: 120px;
@@ -126,8 +126,157 @@
   .league-emoji {
     font-size: 1.2em;
   }
+
+  &.mercato-btn {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border: 2px solid #667eea;
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 140px;
+
+    .mercato-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .league-logo {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: 2px solid #ffd700;
+      padding: 8px;
+    }
+
+    .mercato-text {
+      color: #ffd700;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    &.active {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-color: #ffd700;
+      transform: scale(1.05);
+
+      .mercato-text {
+        color: #fff;
+      }
+    }
+
+    &:hover {
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+    }
+  }
+
+  &.actufoot-btn {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 100%);
+    border: 2px solid #00d4ff;
+    border-radius: 12px;
+    padding: 10px;
+    min-width: 140px;
+
+    .actufoot-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .league-logo {
+      width: 100px;
+      height: 100px;
+      background: linear-gradient(135deg, #00d4ff 0%, #00a8ff 100%);
+      border: 2px solid #00d4ff;
+      padding: 8px;
+    }
+
+    .actufoot-text {
+      color: #00d4ff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    &.active {
+      background: linear-gradient(135deg, #00d4ff 0%, #00a8ff 100%);
+      border-color: #fff;
+      transform: scale(1.05);
+
+      .actufoot-text {
+        color: #fff;
+      }
+    }
+
+    &:hover {
+      background: linear-gradient(135deg, #00a8ff 0%, #00d4ff 100%);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 212, 255, 0.3);
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+
+  &.active {
+    background-color: #2c3e50;
+    border-color: #3498db;
+    box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+  }
+  }
 }
 
+.sport-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  flex-wrap: wrap;
+
+  .control-btn {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 2px solid #334155;
+    color: #e2e8f0;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    justify-content: center;
+
+    &:hover {
+      background: linear-gradient(135deg, #334155 0%, #1e293b 100%);
+      border-color: #60a5fa;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 15px rgba(96, 165, 250, 0.3);
+      color: #fff;
+    }
+
+    &.active {
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+      border-color: #60a5fa;
+      color: #fff;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+      font-weight: 700;
+    }
+  }
+}
 
 .update-schedule-panel {
   max-width: 900px;
@@ -581,7 +730,7 @@
   text-align: center;
   color: #ffffff;
   font-size: 1.1rem;
-  background: linear-gradient(135deg, #607d8b 0%, #90a4ae 100%);
+
   width: 40px;
   height: 40px;
   display: flex;
