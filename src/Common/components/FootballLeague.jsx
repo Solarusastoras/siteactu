@@ -321,7 +321,17 @@ const FootballLeague = ({
                   </div>
                 </div>
                 
-                <span className="vs-inline">vs</span>
+                <div className="vs-inline" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'}}>
+                  <span>vs</span>
+                  {game.status.type.state === 'in' && game.status.displayClock && (
+                    <div style={{fontSize: '0.75rem', color: '#4caf50', fontWeight: '600', textAlign: 'center'}}>
+                      <div>{game.status.displayClock}'</div>
+                      {game.status.period && game.status.period !== 2 && (
+                        <div style={{fontSize: '0.65rem'}}>MT</div>
+                      )}
+                    </div>
+                  )}
+                </div>
                 
                 <div className="team-inline away">
                   <div className="score-inline team-score">
