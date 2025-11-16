@@ -12,6 +12,7 @@ const Card = ({
   onClick,
   footer,
   badge,
+  badgeClassName = '',
   loading = false,
   ...props
 }) => {
@@ -22,6 +23,8 @@ const Card = ({
     onClick ? 'card--clickable' : '',
     className
   ].filter(Boolean).join(' ');
+  
+  const badgeClasses = ['card__badge', badgeClassName].filter(Boolean).join(' ');
 
   if (loading) {
     return (
@@ -41,7 +44,7 @@ const Card = ({
   return (
     <div className={cardClasses} onClick={onClick} {...props}>
       {badge && (
-        <div className="card__badge">
+        <div className={badgeClasses}>
           {badge}
         </div>
       )}

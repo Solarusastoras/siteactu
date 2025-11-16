@@ -75,6 +75,31 @@ $border-color: #3a3a3a;
     font-weight: 600;
     z-index: 2;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    
+    // Badge LIVE avec fond rouge et animation
+    &[data-live="true"],
+    &.live-badge {
+      background: #dc3545;
+      color: white;
+      animation: livePulse 2s infinite;
+    }
+    
+    // Badge TERMINÉ avec fond vert
+    &.finished-badge {
+      background: #28a745;
+      color: white;
+    }
+  }
+  
+  @keyframes livePulse {
+    0%, 100% {
+      box-shadow: 0 0 8px rgba(220, 53, 69, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 16px rgba(220, 53, 69, 0.9);
+    }
   }
 
   // Image
@@ -146,10 +171,6 @@ $border-color: #3a3a3a;
   
   .card__title {
     color: $primary-color;
-  }
-
-  .card__badge {
-    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   }
 }
 

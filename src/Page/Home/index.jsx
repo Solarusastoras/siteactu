@@ -4,6 +4,9 @@ import Actus from '../Actus';
 import Culture from '../Culture';
 import AllSports from '../Sports/AllSports';
 import Recre from '../Recre';
+import LogoOdyseeSavoir from '../../Utils/Logo/Logo_odyseedusavoir.webp';
+import LogoSolarus from '../../Utils/Logo/LogoSolarus.png';
+
 
 const Home = () => {
   const [activeSection, setActiveSection] = useState('actu');
@@ -24,10 +27,12 @@ const Home = () => {
   };
 
   return (
+    
     <div className="home-container">
+     
       <header className="home-header">
-        <h1>Accueil</h1>
-        <p className="subtitle">Découvrez toutes nos sections</p>
+        <img className="logosolarus" src={LogoSolarus} alt="Logo Solarus" />
+       
       </header>
 
       <nav className="home-tabs">
@@ -55,11 +60,39 @@ const Home = () => {
         >
           🎮 Jeux
         </button>
+        <button 
+          className="tab odyssee-tab"
+          onClick={() => document.querySelector('.home-footer').scrollIntoView({ behavior: 'smooth' })}
+        >
+          <img src={LogoOdyseeSavoir} alt="Logo Odysee du Savoir" className="odyssee-logo" /> Odyssée du savoir
+        </button>
       </nav>
+      
 
       <main className="home-content">
         {renderSection()}
       </main>
+
+      <footer className="home-footer">
+        <div className="footer-section">
+          <h3>🌟 Découvrez aussi</h3>
+          <a 
+            href="https://solarusweb.ovh/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="footer-link"
+          >
+            <img src={LogoOdyseeSavoir} alt="Odyssée du Savoir" className="footer-logo" />
+            <div className="footer-link-content">
+              <strong>Odyssée du Savoir</strong>
+              <span>Éducation CP à la 3ème</span>
+            </div>
+          </a>
+        </div>
+        <div className="footer-copyright">
+          <p>© 2025 SiteActu - Tous droits réservés</p>
+        </div>
+      </footer>
     </div>
   );
 };

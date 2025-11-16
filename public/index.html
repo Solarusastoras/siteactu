@@ -3,27 +3,86 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>SiteActu - Actualités France & Monde, Sport, Culture et Jeux</title>
+
+    <meta name="description" content="SiteActu : votre portail d'actualités complet avec news France & Monde, résultats sportifs en direct, culture et jeux interactifs. Informations fiables et actualisées en temps réel." />
+    <meta name="keywords" content="actualités France, news internationales, sport en direct, résultats sportifs, NBA, NFL, NHL, football, culture, cinéma, musique, jeux en ligne, météo, informations" />
+    <meta name="author" content="Solarus" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Theme color for various browsers -->
+    <meta name="theme-color" content="#1a1a1a" />
+    <meta name="msapplication-navbutton-color" content="#1a1a1a" />
+    <meta name="msapplication-TileColor" content="#1a1a1a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Additional browser-specific theme colors for better compatibility -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    
+    <!-- Fallback background color for unsupported browsers -->
+    <style>
+      :root { 
+        --theme-color: #1a1a1a;
+        color-scheme: dark;
+      }
+      html, body { 
+        background-color: var(--theme-color);
+        background-color: #1a1a1a;
+      }
+    </style>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SiteActu - Actualités, Sport, Culture et Jeux" />
+    <meta property="og:description" content="Votre portail d'actualités complet : news France & Monde, sport en direct, culture et jeux. Informations fiables et actualisées en temps réel." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://solarusweb.ovh/actu/" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo192.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="SiteActu" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SiteActu - Actualités & Sport en direct" />
+    <meta name="twitter:description" content="Actualités France & Monde, résultats sportifs en direct, culture et jeux interactifs. Restez informé 24/7." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo192.png" />
+
+    <!-- Apple & Manifest -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://www.franceinfo.fr" crossorigin />
+    <link rel="preconnect" href="https://api.open-meteo.com" crossorigin />
+    <link rel="dns-prefetch" href="https://corsproxy.io" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "SiteActu",
+      "url": "https://votre-domaine.fr/",
+      "description": "Portail d'actualités complet avec news, sport, culture et jeux",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Solarus",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "%PUBLIC_URL%/logo192.png"
+        }
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://votre-domaine.fr/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

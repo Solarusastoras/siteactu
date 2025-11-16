@@ -10,6 +10,15 @@ const Weather = () => {
   const [error, setError] = useState(null);
   const [showCurrentModal, setShowCurrentModal] = useState(false);
   const [selectedDayModal, setSelectedDayModal] = useState(null);
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 60000); // Actualise toutes les minutes
+
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     const fetchWeather = async () => {
@@ -156,35 +165,61 @@ const Weather = () => {
 
     return (
       <div className="custom-weather">
-        {showCurrentModal && (
+        {showCurrentModal && weatherData.daily && (
           <div className="weather-modal" onClick={() => setShowCurrentModal(false)}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
               <button className="modal-close" onClick={() => setShowCurrentModal(false)}>✕</button>
               <h2>🌤️ Météo actuelle</h2>
               <h3>{weatherData.city}, {weatherData.country}</h3>
-              <div className="modal-icon">{getWeatherIcon(weatherData.current.weathercode)}</div>
-              <div className="modal-temp">{parseTemperature(weatherData.current.temperature)}</div>
-              <p className="modal-desc">{getWeatherDescription(weatherData.current.weathercode)}</p>
+              <div className="modal-icon">{getWeatherIcon(weatherData.daily.weathercode[0])}</div>
+              <div className="modal-temp">
+                {Math.round(weatherData.daily.temperature_2m_min[0])}° / {Math.round(weatherData.daily.temperature_2m_max[0])}°
+              </div>
+              <p className="modal-desc">{getWeatherDescription(weatherData.daily.weathercode[0])}</p>
               <div className="modal-details-grid">
                 <div className="modal-detail-item">
+                  <span className="modal-detail-icon">🌡️</span>
+                  <span className="modal-detail-label">Température Min</span>
+                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_min[0])}°C</span>
+                </div>
+                <div className="modal-detail-item">
+                  <span className="modal-detail-icon">🌡️</span>
+                  <span className="modal-detail-label">Température Max</span>
+                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_max[0])}°C</span>
+                </div>
+                <div className="modal-detail-item">
                   <span className="modal-detail-icon">💨</span>
-                  <span className="modal-detail-label">Vent</span>
-                  <span className="modal-detail-value">{Math.round(weatherData.current.windSpeed)} km/h</span>
+                  <span className="modal-detail-label">Vent Max</span>
+                  <span className="modal-detail-value">{Math.round(weatherData.daily.wind_speed_10m_max[0])} km/h</span>
                 </div>
                 <div className="modal-detail-item">
                   <span className="modal-detail-icon">💧</span>
                   <span className="modal-detail-label">Précipitations</span>
-                  <span className="modal-detail-value">{weatherData.current.precipitationProbability || 0}%</span>
+                  <span className="modal-detail-value">{weatherData.daily.precipitation_probability_max[0] || 0}%</span>
+                </div>
+                {weatherData.daily.precipitation_sum[0] > 0 && (
+                  <div className="modal-detail-item">
+                    <span className="modal-detail-icon">🌧️</span>
+                    <span className="modal-detail-label">Quantité de pluie</span>
+                    <span className="modal-detail-value">{weatherData.daily.precipitation_sum[0]} mm</span>
+                  </div>
+                )}
+                {weatherData.daily.uv_index_max[0] > 0 && (
+                  <div className="modal-detail-item">
+                    <span className="modal-detail-icon">☀️</span>
+                    <span className="modal-detail-label">Indice UV</span>
+                    <span className="modal-detail-value">{Math.round(weatherData.daily.uv_index_max[0])}</span>
+                  </div>
+                )}
+                <div className="modal-detail-item">
+                  <span className="modal-detail-icon">🌅</span>
+                  <span className="modal-detail-label">Lever du soleil</span>
+                  <span className="modal-detail-value">{new Date(weatherData.daily.sunrise[0]).toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'})}</span>
                 </div>
                 <div className="modal-detail-item">
-                  <span className="modal-detail-icon">🌡️</span>
-                  <span className="modal-detail-label">Température</span>
-                  <span className="modal-detail-value">{parseTemperature(weatherData.current.temperature)}</span>
-                </div>
-                <div className="modal-detail-item">
-                  <span className="modal-detail-icon">🌪️</span>
-                  <span className="modal-detail-label">Conditions</span>
-                  <span className="modal-detail-value">{getWeatherDescription(weatherData.current.weathercode)}</span>
+                  <span className="modal-detail-icon">🌇</span>
+                  <span className="modal-detail-label">Coucher du soleil</span>
+                  <span className="modal-detail-value">{new Date(weatherData.daily.sunset[0]).toLocaleTimeString('fr-FR', {hour: '2-digit', minute: '2-digit'})}</span>
                 </div>
               </div>
             </div>
@@ -201,19 +236,19 @@ const Weather = () => {
               <h3>{formatDate(weatherData.daily.time[selectedDayModal])}</h3>
               <div className="modal-icon">{getWeatherIcon(weatherData.daily.weathercode[selectedDayModal])}</div>
               <div className="modal-temp">
-                {Math.round(weatherData.daily.temperature_2m_max[selectedDayModal])}° / {Math.round(weatherData.daily.temperature_2m_min[selectedDayModal])}°
+                {Math.round(weatherData.daily.temperature_2m_min[selectedDayModal])}° / {Math.round(weatherData.daily.temperature_2m_max[selectedDayModal])}°
               </div>
               <p className="modal-desc">{getWeatherDescription(weatherData.daily.weathercode[selectedDayModal])}</p>
               <div className="modal-details-grid">
                 <div className="modal-detail-item">
                   <span className="modal-detail-icon">🌡️</span>
-                  <span className="modal-detail-label">Température Max</span>
-                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_max[selectedDayModal])}°C</span>
+                  <span className="modal-detail-label">Température Min</span>
+                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_min[selectedDayModal])}°C</span>
                 </div>
                 <div className="modal-detail-item">
                   <span className="modal-detail-icon">🌡️</span>
-                  <span className="modal-detail-label">Température Min</span>
-                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_min[selectedDayModal])}°C</span>
+                  <span className="modal-detail-label">Température Max</span>
+                  <span className="modal-detail-value">{Math.round(weatherData.daily.temperature_2m_max[selectedDayModal])}°C</span>
                 </div>
                 <div className="modal-detail-item">
                   <span className="modal-detail-icon">💨</span>
@@ -261,6 +296,9 @@ const Weather = () => {
     <div className="weather-container">
       <header className="weather-header">
         <div className="header-left">
+          <div className="header-datetime">
+            {currentTime.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })} - {currentTime.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+          </div>
           <form onSubmit={handleSearch} className="city-search">
             <input
               type="text"
@@ -277,25 +315,20 @@ const Weather = () => {
         
         {weatherData && weatherData.daily && (
           <div className="header-weather-display">
-            <div className="current-day-wrapper">
-              <Card variant="weather" className="header-current-card" onClick={() => setShowCurrentModal(true)}>
-                <div className="forecast-icon">{getWeatherIcon(weatherData.daily.weathercode[0])}</div>
-                <div className="forecast-temps">
-                  <span className="temp-max">{Math.round(weatherData.daily.temperature_2m_max[0])}°</span>
-                  <span className="temp-min">{Math.round(weatherData.daily.temperature_2m_min[0])}°</span>
-                </div>
-              </Card>
-              <div className="current-datetime">
-                {new Date().toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' })} - {new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+            <Card variant="weather" className="header-current-card" onClick={() => setShowCurrentModal(true)}>
+              <div className="forecast-icon">{getWeatherIcon(weatherData.daily.weathercode[0])}</div>
+              <div className="forecast-temps">
+                <span className="temp-min">{Math.round(weatherData.daily.temperature_2m_min[0])}°</span>
+                <span className="temp-max">{Math.round(weatherData.daily.temperature_2m_max[0])}°</span>
               </div>
-            </div>
+            </Card>
             <div className="header-forecast-cards">
               {weatherData.daily.time.slice(1, 7).map((date, index) => (
                 <Card key={index} variant="weather" className="header-forecast-card" onClick={() => setSelectedDayModal(index + 1)}>
                   <div className="forecast-icon">{getWeatherIcon(weatherData.daily.weathercode[index + 1])}</div>
                   <div className="forecast-temps">
-                    <span className="temp-max">{Math.round(weatherData.daily.temperature_2m_max[index + 1])}°</span>
                     <span className="temp-min">{Math.round(weatherData.daily.temperature_2m_min[index + 1])}°</span>
+                    <span className="temp-max">{Math.round(weatherData.daily.temperature_2m_max[index + 1])}°</span>
                   </div>
                 </Card>
               ))}

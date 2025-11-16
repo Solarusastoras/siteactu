@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +31,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+img {
+  border-radius: 15px;
 }
 
 @keyframes App-logo-spin {

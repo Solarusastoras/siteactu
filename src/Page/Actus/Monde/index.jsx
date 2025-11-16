@@ -34,13 +34,13 @@ function ActuMonde() {
 
             // Utiliser un proxy CORS pour accéder au flux RSS Franceinfo Monde
             const RSS_URL = 'https://www.franceinfo.fr/monde.rss';
-            const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(RSS_URL)}`);
+            const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(RSS_URL)}`);
             
             if (!response.ok) throw new Error('Erreur lors de la récupération des actualités');
             
-            const data = await response.json();
+            const xmlText = await response.text();
             const parser = new DOMParser();
-            const xml = parser.parseFromString(data.contents, 'text/xml');
+            const xml = parser.parseFromString(xmlText, 'text/xml');
             
             const items = xml.querySelectorAll('item');
             const articles = Array.from(items).slice(0, 20).map((item, index) => {
@@ -77,7 +77,7 @@ function ActuMonde() {
     if (loading) {
         return (
             <div className="ActuMonde">
-                <h2>🌍 Actualités Internationales</h2>
+                <h2 >🌍 Actualités Internationales</h2>
                 <div className="loading">
                     <h3>Chargement des actualités...</h3>
                     <div className="loading-spinner"></div>
@@ -102,7 +102,7 @@ function ActuMonde() {
 
     return (
         <div className="ActuMonde">
-            <h2>🌍 Actualités Internationales - Franceinfo</h2>
+            <h2 style={{color: 'antiquewhite'}}>🌍 Actualités Internationales</h2>
             <div className="actualites-grid">
                 {actualites.length > 0 ? (
                     actualites.map((actu) => (

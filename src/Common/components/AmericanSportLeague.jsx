@@ -167,28 +167,36 @@ const AmericanSportLeague = ({
 
   return (
     <div className="games-grid">
-      {data.events.map((game) => (
-        <Card 
-          key={game.id} 
-          variant="sport"
-          className="game-card"
-          badge={game.status.type.state === 'in' ? 'LIVE' : !game.status.type.completed ? formatTime(game.date) : null}
-        >
-          <div className="game-header">
-            <span className={`game-status ${game.status.type.state.toLowerCase()}`}>
-              {game.status.type.description}
-            </span>
-            <span className="game-time">
-              {game.status.type.completed ? 
-                'FT' : 
-                game.status.type.state === 'in' ? 
-                  `${sportConfig.formatPeriod(game.status.period)} - ${game.status.displayClock}` :
-                  formatTime(game.date)}
-            </span>
-          </div>
-          {renderGameLayout(game)}
-        </Card>
-      ))}
+      {data.events.map((game) => {
+        const isLive = game.status.type.state === 'in';
+        const isFinished = game.status.type.completed;
+        const badgeContent = isLive ? 'LIVE' : isFinished ? 'TERMINÉ' : formatTime(game.date);
+        const badgeClass = isLive ? 'live-badge' : isFinished ? 'finished-badge' : '';
+        
+        return (
+          <Card 
+            key={game.id} 
+            variant="sport"
+            className="game-card"
+            badge={badgeContent}
+            badgeClassName={badgeClass}
+          >
+            <div className="game-header">
+              <span className={`game-status ${game.status.type.state.toLowerCase()}`}>
+                {game.status.type.description}
+              </span>
+              <span className="game-time">
+                {game.status.type.completed ? 
+                  'FT' : 
+                  game.status.type.state === 'in' ? 
+                    `${sportConfig.formatPeriod(game.status.period)} - ${game.status.displayClock}` :
+                    formatTime(game.date)}
+              </span>
+            </div>
+            {renderGameLayout(game)}
+          </Card>
+        );
+      })}
     </div>
   );
 };
