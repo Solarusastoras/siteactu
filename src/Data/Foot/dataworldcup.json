@@ -339,6 +339,14 @@
             { "team": "🇸🇳 Sénégal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": false },
             { "team": "🇶🇦 Qatar", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇶🇦 Qatar", "team2": "🇪🇨 Équateur", "score": "0-2", "winner": "🇪🇨 Équateur", "date": "20 novembre 2022" },
+            { "team1": "🇸🇳 Sénégal", "team2": "🇳🇱 Pays-Bas", "score": "0-2", "winner": "🇳🇱 Pays-Bas", "date": "21 novembre 2022" },
+            { "team1": "🇶🇦 Qatar", "team2": "🇸🇳 Sénégal", "score": "1-3", "winner": "🇸🇳 Sénégal", "date": "25 novembre 2022" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇪🇨 Équateur", "score": "1-1", "winner": null, "date": "25 novembre 2022" },
+            { "team1": "🇪🇨 Équateur", "team2": "🇸🇳 Sénégal", "score": "1-2", "winner": "🇸🇳 Sénégal", "date": "29 novembre 2022" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇶🇦 Qatar", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "29 novembre 2022" }
           ]
         },
         {
@@ -348,6 +356,14 @@
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pays de Galles", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇮🇷 Iran", "score": "6-2", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "21 novembre 2022" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pays de Galles", "score": "1-1", "winner": null, "date": "21 novembre 2022" },
+            { "team1": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pays de Galles", "team2": "🇮🇷 Iran", "score": "0-2", "winner": "🇮🇷 Iran", "date": "25 novembre 2022" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇺🇸 États-Unis", "score": "0-0", "winner": null, "date": "25 novembre 2022" },
+            { "team1": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Pays de Galles", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-3", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "29 novembre 2022" },
+            { "team1": "🇮🇷 Iran", "team2": "🇺🇸 États-Unis", "score": "0-1", "winner": "🇺🇸 États-Unis", "date": "29 novembre 2022" }
           ]
         },
         {
@@ -357,6 +373,14 @@
             { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 4, "qualified": false },
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇸🇦 Arabie Saoudite", "score": "1-2", "winner": "🇸🇦 Arabie Saoudite", "date": "22 novembre 2022" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇵🇱 Pologne", "score": "0-0", "winner": null, "date": "22 novembre 2022" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇸🇦 Arabie Saoudite", "score": "2-0", "winner": "🇵🇱 Pologne", "date": "26 novembre 2022" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇲🇽 Mexique", "score": "2-0", "winner": "🇦🇷 Argentine", "date": "26 novembre 2022" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇦🇷 Argentine", "score": "0-2", "winner": "🇦🇷 Argentine", "date": "30 novembre 2022" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇲🇽 Mexique", "score": "1-2", "winner": "🇲🇽 Mexique", "date": "30 novembre 2022" }
           ]
         },
         {
@@ -366,6 +390,14 @@
             { "team": "🇦🇺 Australie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 6, "qualified": true },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇩🇰 Danemark", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇰 Danemark", "team2": "🇹🇳 Tunisie", "score": "0-0", "winner": null, "date": "22 novembre 2022" },
+            { "team1": "🇫🇷 France", "team2": "🇦🇺 Australie", "score": "4-1", "winner": "🇫🇷 France", "date": "22 novembre 2022" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇦🇺 Australie", "score": "0-1", "winner": "🇦🇺 Australie", "date": "26 novembre 2022" },
+            { "team1": "🇫🇷 France", "team2": "🇩🇰 Danemark", "score": "2-1", "winner": "🇫🇷 France", "date": "26 novembre 2022" },
+            { "team1": "🇦🇺 Australie", "team2": "🇩🇰 Danemark", "score": "1-0", "winner": "🇦🇺 Australie", "date": "30 novembre 2022" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇫🇷 France", "score": "1-0", "winner": "🇹🇳 Tunisie", "date": "30 novembre 2022" }
           ]
         },
         {
@@ -375,6 +407,14 @@
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 9, "goalsAgainst": 3, "goalDiff": 6, "points": 4, "qualified": true },
             { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": false },
             { "team": "🇨🇷 Costa Rica", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 11, "goalDiff": -8, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇯🇵 Japon", "score": "1-2", "winner": "🇯🇵 Japon", "date": "23 novembre 2022" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇷 Costa Rica", "score": "7-0", "winner": "🇪🇸 Espagne", "date": "23 novembre 2022" },
+            { "team1": "🇯🇵 Japon", "team2": "🇨🇷 Costa Rica", "score": "0-1", "winner": "🇨🇷 Costa Rica", "date": "27 novembre 2022" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇩🇪 Allemagne", "score": "1-1", "winner": null, "date": "27 novembre 2022" },
+            { "team1": "🇯🇵 Japon", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇯🇵 Japon", "date": "1 décembre 2022" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇩🇪 Allemagne", "score": "2-4", "winner": "🇩🇪 Allemagne", "date": "1 décembre 2022" }
           ]
         },
         {
@@ -384,6 +424,14 @@
             { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
             { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 4, "qualified": false },
             { "team": "🇨🇦 Canada", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇲🇦 Maroc", "team2": "🇭🇷 Croatie", "score": "0-0", "winner": null, "date": "23 novembre 2022" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇨🇦 Canada", "score": "1-0", "winner": "🇧🇪 Belgique", "date": "23 novembre 2022" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇲🇦 Maroc", "score": "0-2", "winner": "🇲🇦 Maroc", "date": "27 novembre 2022" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇨🇦 Canada", "score": "4-1", "winner": "🇭🇷 Croatie", "date": "27 novembre 2022" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇧🇪 Belgique", "score": "0-0", "winner": null, "date": "1 décembre 2022" },
+            { "team1": "🇨🇦 Canada", "team2": "🇲🇦 Maroc", "score": "1-2", "winner": "🇲🇦 Maroc", "date": "1 décembre 2022" }
           ]
         },
         {
@@ -393,6 +441,14 @@
             { "team": "🇨🇭 Suisse", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇷🇸 Serbie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇭 Suisse", "team2": "🇨🇲 Cameroun", "score": "1-0", "winner": "🇨🇭 Suisse", "date": "24 novembre 2022" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇸 Serbie", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "24 novembre 2022" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇷🇸 Serbie", "score": "3-3", "winner": null, "date": "28 novembre 2022" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇭 Suisse", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "28 novembre 2022" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇧🇷 Brésil", "score": "1-0", "winner": "🇨🇲 Cameroun", "date": "2 décembre 2022" },
+            { "team1": "🇷🇸 Serbie", "team2": "🇨🇭 Suisse", "score": "2-3", "winner": "🇨🇭 Suisse", "date": "2 décembre 2022" }
           ]
         },
         {
@@ -402,6 +458,14 @@
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇬🇭 Ghana", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 7, "goalDiff": -2, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇰🇷 Corée du Sud", "score": "0-0", "winner": null, "date": "24 novembre 2022" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇬🇭 Ghana", "score": "3-2", "winner": "🇵🇹 Portugal", "date": "24 novembre 2022" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇬🇭 Ghana", "score": "2-3", "winner": "🇬🇭 Ghana", "date": "28 novembre 2022" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇺🇾 Uruguay", "score": "2-0", "winner": "🇵🇹 Portugal", "date": "28 novembre 2022" },
+            { "team1": "🇬🇭 Ghana", "team2": "🇺🇾 Uruguay", "score": "0-2", "winner": "🇺🇾 Uruguay", "date": "2 décembre 2022" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇵🇹 Portugal", "score": "2-1", "winner": "🇰🇷 Corée du Sud", "date": "2 décembre 2022" }
           ]
         }
       ],
@@ -458,6 +522,14 @@
             { "team": "🇷🇺 Russie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 6, "qualified": true },
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 3, "qualified": false },
             { "team": "🇪🇬 Égypte", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇺 Russie", "team2": "🇸🇦 Arabie Saoudite", "score": "5-0", "winner": "🇷🇺 Russie", "date": "14 juin 2018" },
+            { "team1": "🇪🇬 Égypte", "team2": "🇺🇾 Uruguay", "score": "0-1", "winner": "🇺🇾 Uruguay", "date": "15 juin 2018" },
+            { "team1": "🇷🇺 Russie", "team2": "🇪🇬 Égypte", "score": "3-1", "winner": "🇷🇺 Russie", "date": "19 juin 2018" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇸🇦 Arabie Saoudite", "score": "1-0", "winner": "🇺🇾 Uruguay", "date": "20 juin 2018" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇷🇺 Russie", "score": "3-0", "winner": "🇺🇾 Uruguay", "date": "25 juin 2018" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇪🇬 Égypte", "score": "2-1", "winner": "🇸🇦 Arabie Saoudite", "date": "25 juin 2018" }
           ]
         },
         {
@@ -467,6 +539,14 @@
             { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇹 Portugal", "team2": "🇪🇸 Espagne", "score": "3-3", "winner": null, "date": "15 juin 2018" },
+            { "team1": "🇲🇦 Maroc", "team2": "🇮🇷 Iran", "score": "0-1", "winner": "🇮🇷 Iran", "date": "15 juin 2018" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇲🇦 Maroc", "score": "1-0", "winner": "🇵🇹 Portugal", "date": "20 juin 2018" },
+            { "team1": "🇮🇷 Iran", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne", "date": "20 juin 2018" },
+            { "team1": "🇮🇷 Iran", "team2": "🇵🇹 Portugal", "score": "1-1", "winner": null, "date": "25 juin 2018" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇲🇦 Maroc", "score": "2-2", "winner": null, "date": "25 juin 2018" }
           ]
         },
         {
@@ -476,6 +556,14 @@
             { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇵🇪 Pérou", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇦🇺 Australie", "score": "2-1", "winner": "🇫🇷 France", "date": "16 juin 2018" },
+            { "team1": "🇵🇪 Pérou", "team2": "🇩🇰 Danemark", "score": "0-1", "winner": "🇩🇰 Danemark", "date": "16 juin 2018" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇦🇺 Australie", "score": "1-1", "winner": null, "date": "21 juin 2018" },
+            { "team1": "🇫🇷 France", "team2": "🇵🇪 Pérou", "score": "1-0", "winner": "🇫🇷 France", "date": "21 juin 2018" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "26 juin 2018" },
+            { "team1": "🇦🇺 Australie", "team2": "🇵🇪 Pérou", "score": "0-2", "winner": "🇵🇪 Pérou", "date": "26 juin 2018" }
           ]
         },
         {
@@ -494,6 +582,14 @@
             { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇷🇸 Serbie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇨🇷 Costa Rica", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇷🇸 Serbie", "score": "0-1", "winner": "🇷🇸 Serbie", "date": "17 juin 2018" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "17 juin 2018" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇷 Costa Rica", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "22 juin 2018" },
+            { "team1": "🇷🇸 Serbie", "team2": "🇨🇭 Suisse", "score": "1-2", "winner": "🇨🇭 Suisse", "date": "22 juin 2018" },
+            { "team1": "🇷🇸 Serbie", "team2": "🇧🇷 Brésil", "score": "0-2", "winner": "🇧🇷 Brésil", "date": "27 juin 2018" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇨🇷 Costa Rica", "score": "2-2", "winner": null, "date": "27 juin 2018" }
           ]
         },
         {
@@ -503,6 +599,14 @@
             { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 6, "qualified": true },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇲🇽 Mexique", "score": "0-1", "winner": "🇲🇽 Mexique", "date": "17 juin 2018" },
+            { "team1": "🇸🇪 Suède", "team2": "🇰🇷 Corée du Sud", "score": "1-0", "winner": "🇸🇪 Suède", "date": "18 juin 2018" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇲🇽 Mexique", "score": "1-2", "winner": "🇲🇽 Mexique", "date": "23 juin 2018" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇩🇪 Allemagne", "date": "23 juin 2018" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇩🇪 Allemagne", "score": "2-0", "winner": "🇰🇷 Corée du Sud", "date": "27 juin 2018" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇸🇪 Suède", "score": "0-3", "winner": "🇸🇪 Suède", "date": "27 juin 2018" }
           ]
         },
         {
@@ -512,6 +616,14 @@
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 6, "qualified": true },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🇵🇦 Panama", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 11, "goalDiff": -9, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇪 Belgique", "team2": "🇵🇦 Panama", "score": "3-0", "winner": "🇧🇪 Belgique", "date": "18 juin 2018" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "1-2", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "18 juin 2018" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇹🇳 Tunisie", "score": "5-2", "winner": "🇧🇪 Belgique", "date": "23 juin 2018" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇵🇦 Panama", "score": "6-1", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "24 juin 2018" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇧🇪 Belgique", "score": "0-1", "winner": "🇧🇪 Belgique", "date": "28 juin 2018" },
+            { "team1": "🇵🇦 Panama", "team2": "🇹🇳 Tunisie", "score": "1-2", "winner": "🇹🇳 Tunisie", "date": "28 juin 2018" }
           ]
         },
         {
@@ -521,6 +633,14 @@
             { "team": "🇯🇵 Japon", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇸🇳 Sénégal", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇴 Colombie", "team2": "🇯🇵 Japon", "score": "1-2", "winner": "🇯🇵 Japon", "date": "19 juin 2018" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇸🇳 Sénégal", "score": "1-2", "winner": "🇸🇳 Sénégal", "date": "19 juin 2018" },
+            { "team1": "🇯🇵 Japon", "team2": "🇸🇳 Sénégal", "score": "2-2", "winner": null, "date": "24 juin 2018" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇨🇴 Colombie", "score": "0-3", "winner": "🇨🇴 Colombie", "date": "24 juin 2018" },
+            { "team1": "🇯🇵 Japon", "team2": "🇵🇱 Pologne", "score": "0-1", "winner": "🇵🇱 Pologne", "date": "28 juin 2018" },
+            { "team1": "🇸🇳 Sénégal", "team2": "🇨🇴 Colombie", "score": "0-1", "winner": "🇨🇴 Colombie", "date": "28 juin 2018" }
           ]
         }
       ],
@@ -577,6 +697,14 @@
             { "team": "🇲🇽 Mexique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
             { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 9, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇭🇷 Croatie", "score": "3-1", "winner": "🇧🇷 Brésil", "date": "12 juin 2014" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇨🇲 Cameroun", "score": "1-0", "winner": "🇲🇽 Mexique", "date": "13 juin 2014" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇲🇽 Mexique", "score": "0-0", "winner": null, "date": "17 juin 2014" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇭🇷 Croatie", "score": "0-4", "winner": "🇭🇷 Croatie", "date": "18 juin 2014" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇧🇷 Brésil", "score": "1-4", "winner": "🇧🇷 Brésil", "date": "23 juin 2014" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇲🇽 Mexique", "score": "1-3", "winner": "🇲🇽 Mexique", "date": "23 juin 2014" }
           ]
         },
         {
@@ -586,6 +714,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 9, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇳🇱 Pays-Bas", "score": "1-5", "winner": "🇳🇱 Pays-Bas", "date": "13 juin 2014" },
+            { "team1": "🇨🇱 Chili", "team2": "🇦🇺 Australie", "score": "3-1", "winner": "🇨🇱 Chili", "date": "13 juin 2014" },
+            { "team1": "🇦🇺 Australie", "team2": "🇳🇱 Pays-Bas", "score": "2-3", "winner": "🇳🇱 Pays-Bas", "date": "18 juin 2014" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇱 Chili", "score": "0-2", "winner": "🇨🇱 Chili", "date": "18 juin 2014" },
+            { "team1": "🇦🇺 Australie", "team2": "🇪🇸 Espagne", "score": "0-3", "winner": "🇪🇸 Espagne", "date": "23 juin 2014" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇱 Chili", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "23 juin 2014" }
           ]
         },
         {
@@ -595,6 +731,14 @@
             { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 4, "qualified": true },
             { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇯🇵 Japon", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇴 Colombie", "team2": "🇬🇷 Grèce", "score": "3-0", "winner": "🇨🇴 Colombie", "date": "14 juin 2014" },
+            { "team1": "🇨🇮 Côte d'Ivoire", "team2": "🇯🇵 Japon", "score": "2-1", "winner": "🇨🇮 Côte d'Ivoire", "date": "14 juin 2014" },
+            { "team1": "🇨🇴 Colombie", "team2": "🇨🇮 Côte d'Ivoire", "score": "2-1", "winner": "🇨🇴 Colombie", "date": "19 juin 2014" },
+            { "team1": "🇯🇵 Japon", "team2": "🇬🇷 Grèce", "score": "0-0", "winner": null, "date": "19 juin 2014" },
+            { "team1": "🇯🇵 Japon", "team2": "🇨🇴 Colombie", "score": "1-4", "winner": "🇨🇴 Colombie", "date": "24 juin 2014" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇨🇮 Côte d'Ivoire", "score": "2-1", "winner": "🇬🇷 Grèce", "date": "24 juin 2014" }
           ]
         },
         {
@@ -604,6 +748,14 @@
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 6, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇨🇷 Costa Rica", "score": "1-3", "winner": "🇨🇷 Costa Rica", "date": "14 juin 2014" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇮🇹 Italie", "score": "1-2", "winner": "🇮🇹 Italie", "date": "14 juin 2014" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-1", "winner": "🇺🇾 Uruguay", "date": "19 juin 2014" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇷 Costa Rica", "score": "0-1", "winner": "🇨🇷 Costa Rica", "date": "20 juin 2014" },
+            { "team1": "🇮🇹 Italie", "team2": "🇺🇾 Uruguay", "score": "0-1", "winner": "🇺🇾 Uruguay", "date": "24 juin 2014" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-0", "winner": null, "date": "24 juin 2014" }
           ]
         },
         {
@@ -613,6 +765,14 @@
             { "team": "🇨🇭 Suisse", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇭 Suisse", "team2": "🇪🇨 Équateur", "score": "2-1", "winner": "🇨🇭 Suisse", "date": "15 juin 2014" },
+            { "team1": "🇫🇷 France", "team2": "🇭🇳 Honduras", "score": "3-0", "winner": "🇫🇷 France", "date": "15 juin 2014" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇫🇷 France", "score": "2-5", "winner": "🇫🇷 France", "date": "20 juin 2014" },
+            { "team1": "🇭🇳 Honduras", "team2": "🇪🇨 Équateur", "score": "1-2", "winner": "🇪🇨 Équateur", "date": "20 juin 2014" },
+            { "team1": "🇭🇳 Honduras", "team2": "🇨🇭 Suisse", "score": "0-3", "winner": "🇨🇭 Suisse", "date": "25 juin 2014" },
+            { "team1": "🇪🇨 Équateur", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "25 juin 2014" }
           ]
         },
         {
@@ -622,6 +782,14 @@
             { "team": "🇳🇬 Nigeria", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇧🇦 Bosnie-Herzégovine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇧🇦 Bosnie-Herzégovine", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "15 juin 2014" },
+            { "team1": "🇮🇷 Iran", "team2": "🇳🇬 Nigeria", "score": "0-0", "winner": null, "date": "16 juin 2014" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇮🇷 Iran", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "21 juin 2014" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇧🇦 Bosnie-Herzégovine", "score": "1-0", "winner": "🇳🇬 Nigeria", "date": "21 juin 2014" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇦🇷 Argentine", "score": "2-3", "winner": "🇦🇷 Argentine", "date": "25 juin 2014" },
+            { "team1": "🇧🇦 Bosnie-Herzégovine", "team2": "🇮🇷 Iran", "score": "3-1", "winner": "🇧🇦 Bosnie-Herzégovine", "date": "25 juin 2014" }
           ]
         },
         {
@@ -631,6 +799,14 @@
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 4, "qualified": false },
             { "team": "🇬🇭 Ghana", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇹 Portugal", "score": "4-0", "winner": "🇩🇪 Allemagne", "date": "16 juin 2014" },
+            { "team1": "🇬🇭 Ghana", "team2": "🇺🇸 États-Unis", "score": "1-2", "winner": "🇺🇸 États-Unis", "date": "16 juin 2014" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇬🇭 Ghana", "score": "2-2", "winner": null, "date": "21 juin 2014" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇵🇹 Portugal", "score": "2-2", "winner": null, "date": "22 juin 2014" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇩🇪 Allemagne", "score": "0-1", "winner": "🇩🇪 Allemagne", "date": "26 juin 2014" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇬🇭 Ghana", "score": "2-1", "winner": "🇵🇹 Portugal", "date": "26 juin 2014" }
           ]
         },
         {
@@ -640,6 +816,14 @@
             { "team": "🇩🇿 Algérie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇷🇺 Russie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇪 Belgique", "team2": "🇩🇿 Algérie", "score": "2-1", "winner": "🇧🇪 Belgique", "date": "17 juin 2014" },
+            { "team1": "🇷🇺 Russie", "team2": "🇰🇷 Corée du Sud", "score": "1-1", "winner": null, "date": "17 juin 2014" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇷🇺 Russie", "score": "1-0", "winner": "🇧🇪 Belgique", "date": "22 juin 2014" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇩🇿 Algérie", "score": "2-4", "winner": "🇩🇿 Algérie", "date": "22 juin 2014" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇧🇪 Belgique", "score": "0-1", "winner": "🇧🇪 Belgique", "date": "26 juin 2014" },
+            { "team1": "🇩🇿 Algérie", "team2": "🇷🇺 Russie", "score": "1-1", "winner": null, "date": "26 juin 2014" }
           ]
         }
       ],
@@ -696,6 +880,14 @@
             { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 4, "qualified": false },
             { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇲🇽 Mexique", "score": "1-1", "winner": null, "date": "11 juin 2010" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "11 juin 2010" },
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇺🇾 Uruguay", "score": "0-3", "winner": "🇺🇾 Uruguay", "date": "16 juin 2010" },
+            { "team1": "🇫🇷 France", "team2": "🇲🇽 Mexique", "score": "0-2", "winner": "🇲🇽 Mexique", "date": "17 juin 2010" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇺🇾 Uruguay", "score": "0-1", "winner": "🇺🇾 Uruguay", "date": "22 juin 2010" },
+            { "team1": "🇫🇷 France", "team2": "🇿🇦 Afrique du Sud", "score": "1-2", "winner": "🇿🇦 Afrique du Sud", "date": "22 juin 2010" }
           ]
         },
         {
@@ -705,6 +897,14 @@
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": true },
             { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🇳🇬 Nigeria", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇬🇷 Grèce", "score": "2-0", "winner": "🇰🇷 Corée du Sud", "date": "12 juin 2010" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇳🇬 Nigeria", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "12 juin 2010" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇳🇬 Nigeria", "score": "2-1", "winner": "🇬🇷 Grèce", "date": "17 juin 2010" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇰🇷 Corée du Sud", "score": "4-1", "winner": "🇦🇷 Argentine", "date": "17 juin 2010" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇰🇷 Corée du Sud", "score": "2-2", "winner": null, "date": "22 juin 2010" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇦🇷 Argentine", "score": "0-2", "winner": "🇦🇷 Argentine", "date": "22 juin 2010" }
           ]
         },
         {
@@ -714,6 +914,14 @@
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇸🇮 Slovénie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇩🇿 Algérie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 2, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇺🇸 États-Unis", "score": "1-1", "winner": null, "date": "12 juin 2010" },
+            { "team1": "🇩🇿 Algérie", "team2": "🇸🇮 Slovénie", "score": "0-1", "winner": "🇸🇮 Slovénie", "date": "13 juin 2010" },
+            { "team1": "🇸🇮 Slovénie", "team2": "🇺🇸 États-Unis", "score": "2-2", "winner": null, "date": "18 juin 2010" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇩🇿 Algérie", "score": "0-0", "winner": null, "date": "18 juin 2010" },
+            { "team1": "🇸🇮 Slovénie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-1", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "23 juin 2010" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇩🇿 Algérie", "score": "1-0", "winner": "🇺🇸 États-Unis", "date": "23 juin 2010" }
           ]
         },
         {
@@ -723,6 +931,14 @@
             { "team": "🇬🇭 Ghana", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇦🇺 Australie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 4, "qualified": false },
             { "team": "🇷🇸 Serbie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇦🇺 Australie", "score": "4-0", "winner": "🇩🇪 Allemagne", "date": "13 juin 2010" },
+            { "team1": "🇷🇸 Serbie", "team2": "🇬🇭 Ghana", "score": "0-1", "winner": "🇬🇭 Ghana", "date": "13 juin 2010" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇷🇸 Serbie", "score": "0-1", "winner": "🇷🇸 Serbie", "date": "18 juin 2010" },
+            { "team1": "🇬🇭 Ghana", "team2": "🇦🇺 Australie", "score": "1-1", "winner": null, "date": "19 juin 2010" },
+            { "team1": "🇬🇭 Ghana", "team2": "🇩🇪 Allemagne", "score": "0-1", "winner": "🇩🇪 Allemagne", "date": "23 juin 2010" },
+            { "team1": "🇦🇺 Australie", "team2": "🇷🇸 Serbie", "score": "2-1", "winner": "🇦🇺 Australie", "date": "23 juin 2010" }
           ]
         },
         {
@@ -732,6 +948,14 @@
             { "team": "🇯🇵 Japon", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
             { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇩🇰 Danemark", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "14 juin 2010" },
+            { "team1": "🇯🇵 Japon", "team2": "🇨🇲 Cameroun", "score": "1-0", "winner": "🇯🇵 Japon", "date": "14 juin 2010" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇯🇵 Japon", "score": "1-0", "winner": "🇳🇱 Pays-Bas", "date": "19 juin 2010" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇩🇰 Danemark", "score": "1-2", "winner": "🇩🇰 Danemark", "date": "19 juin 2010" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇯🇵 Japon", "score": "1-3", "winner": "🇯🇵 Japon", "date": "24 juin 2010" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇳🇱 Pays-Bas", "score": "1-2", "winner": "🇳🇱 Pays-Bas", "date": "24 juin 2010" }
           ]
         },
         {
@@ -741,6 +965,14 @@
             { "team": "🇸🇰 Slovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 4, "qualified": true },
             { "team": "🇳🇿 Nouvelle-Zélande", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇮🇹 Italie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇵🇾 Paraguay", "score": "1-1", "winner": null, "date": "14 juin 2010" },
+            { "team1": "🇳🇿 Nouvelle-Zélande", "team2": "🇸🇰 Slovaquie", "score": "1-1", "winner": null, "date": "15 juin 2010" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇵🇾 Paraguay", "score": "0-2", "winner": "🇵🇾 Paraguay", "date": "20 juin 2010" },
+            { "team1": "🇮🇹 Italie", "team2": "🇳🇿 Nouvelle-Zélande", "score": "1-1", "winner": null, "date": "20 juin 2010" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇮🇹 Italie", "score": "3-2", "winner": "🇸🇰 Slovaquie", "date": "24 juin 2010" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🇳🇿 Nouvelle-Zélande", "score": "0-0", "winner": null, "date": "24 juin 2010" }
           ]
         },
         {
@@ -750,6 +982,14 @@
             { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 0, "goalDiff": 7, "points": 5, "qualified": true },
             { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": false },
             { "team": "🇰🇵 Corée du Nord", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 12, "goalDiff": -11, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇮 Côte d'Ivoire", "team2": "🇵🇹 Portugal", "score": "0-0", "winner": null, "date": "15 juin 2010" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇰🇵 Corée du Nord", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "15 juin 2010" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇮 Côte d'Ivoire", "score": "3-1", "winner": "🇧🇷 Brésil", "date": "20 juin 2010" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇰🇵 Corée du Nord", "score": "7-0", "winner": "🇵🇹 Portugal", "date": "21 juin 2010" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇧🇷 Brésil", "score": "0-0", "winner": null, "date": "25 juin 2010" },
+            { "team1": "🇰🇵 Corée du Nord", "team2": "🇨🇮 Côte d'Ivoire", "score": "0-3", "winner": "🇨🇮 Côte d'Ivoire", "date": "25 juin 2010" }
           ]
         },
         {
@@ -759,6 +999,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 3, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇭🇳 Honduras", "team2": "🇨🇱 Chili", "score": "0-1", "winner": "🇨🇱 Chili", "date": "16 juin 2010" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇭 Suisse", "score": "0-1", "winner": "🇨🇭 Suisse", "date": "16 juin 2010" },
+            { "team1": "🇨🇱 Chili", "team2": "🇨🇭 Suisse", "score": "1-0", "winner": "🇨🇱 Chili", "date": "21 juin 2010" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇭🇳 Honduras", "score": "2-0", "winner": "🇪🇸 Espagne", "date": "21 juin 2010" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇭🇳 Honduras", "score": "0-0", "winner": null, "date": "25 juin 2010" },
+            { "team1": "🇨🇱 Chili", "team2": "🇪🇸 Espagne", "score": "1-2", "winner": "🇪🇸 Espagne", "date": "25 juin 2010" }
           ]
         }
       ],
@@ -815,6 +1063,14 @@
             { "team": "🇪🇨 Équateur", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
             { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇨🇷 Costa Rica", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇨🇷 Costa Rica", "score": "4-2", "winner": "🇩🇪 Allemagne", "date": "9 juin 2006" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇪🇨 Équateur", "score": "0-2", "winner": "🇪🇨 Équateur", "date": "9 juin 2006" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇱 Pologne", "score": "1-0", "winner": "🇩🇪 Allemagne", "date": "14 juin 2006" },
+            { "team1": "🇪🇨 Équateur", "team2": "🇨🇷 Costa Rica", "score": "3-0", "winner": "🇪🇨 Équateur", "date": "15 juin 2006" },
+            { "team1": "🇪🇨 Équateur", "team2": "🇩🇪 Allemagne", "score": "0-3", "winner": "🇩🇪 Allemagne", "date": "20 juin 2006" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇵🇱 Pologne", "score": "1-2", "winner": "🇵🇱 Pologne", "date": "20 juin 2006" }
           ]
         },
         {
@@ -824,6 +1080,14 @@
             { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇹🇹 Trinité-et-Tobago", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 4, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇵🇾 Paraguay", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "10 juin 2006" },
+            { "team1": "🇹🇹 Trinité-et-Tobago", "team2": "🇸🇪 Suède", "score": "0-0", "winner": null, "date": "10 juin 2006" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇹🇹 Trinité-et-Tobago", "score": "2-0", "winner": "🇬🇧 Angleterre", "date": "15 juin 2006" },
+            { "team1": "🇸🇪 Suède", "team2": "🇵🇾 Paraguay", "score": "1-0", "winner": "🇸🇪 Suède", "date": "15 juin 2006" },
+            { "team1": "🇸🇪 Suède", "team2": "🇬🇧 Angleterre", "score": "2-2", "winner": null, "date": "20 juin 2006" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🇹🇹 Trinité-et-Tobago", "score": "2-0", "winner": "🇵🇾 Paraguay", "date": "20 juin 2006" }
           ]
         },
         {
@@ -833,6 +1097,14 @@
             { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 7, "qualified": true },
             { "team": "🇨🇮 Côte d'Ivoire", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇷🇸 Serbie-et-Monténégro", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 10, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇨🇮 Côte d'Ivoire", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "10 juin 2006" },
+            { "team1": "🇷🇸 Serbie-et-Monténégro", "team2": "🇳🇱 Pays-Bas", "score": "0-1", "winner": "🇳🇱 Pays-Bas", "date": "11 juin 2006" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇷🇸 Serbie-et-Monténégro", "score": "6-0", "winner": "🇦🇷 Argentine", "date": "16 juin 2006" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇮 Côte d'Ivoire", "score": "2-1", "winner": "🇳🇱 Pays-Bas", "date": "16 juin 2006" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇷 Argentine", "score": "0-0", "winner": null, "date": "21 juin 2006" },
+            { "team1": "🇨🇮 Côte d'Ivoire", "team2": "🇷🇸 Serbie-et-Monténégro", "score": "3-2", "winner": "🇨🇮 Côte d'Ivoire", "date": "21 juin 2006" }
           ]
         },
         {
@@ -842,6 +1114,14 @@
             { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇦🇴 Angola", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇮🇷 Iran", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇲🇽 Mexique", "team2": "🇮🇷 Iran", "score": "3-1", "winner": "🇲🇽 Mexique", "date": "11 juin 2006" },
+            { "team1": "🇦🇴 Angola", "team2": "🇵🇹 Portugal", "score": "0-1", "winner": "🇵🇹 Portugal", "date": "11 juin 2006" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇦🇴 Angola", "score": "0-0", "winner": null, "date": "16 juin 2006" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇮🇷 Iran", "score": "2-0", "winner": "🇵🇹 Portugal", "date": "17 juin 2006" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇲🇽 Mexique", "score": "2-1", "winner": "🇵🇹 Portugal", "date": "21 juin 2006" },
+            { "team1": "🇮🇷 Iran", "team2": "🇦🇴 Angola", "score": "1-1", "winner": null, "date": "21 juin 2006" }
           ]
         },
         {
@@ -851,6 +1131,14 @@
             { "team": "🇬🇭 Ghana", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇨🇿 République tchèque", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇬🇭 Ghana", "score": "2-0", "winner": "🇮🇹 Italie", "date": "12 juin 2006" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇨🇿 République tchèque", "score": "0-3", "winner": "🇨🇿 République tchèque", "date": "12 juin 2006" },
+            { "team1": "🇮🇹 Italie", "team2": "🇺🇸 États-Unis", "score": "1-1", "winner": null, "date": "17 juin 2006" },
+            { "team1": "🇨🇿 République tchèque", "team2": "🇬🇭 Ghana", "score": "0-2", "winner": "🇬🇭 Ghana", "date": "17 juin 2006" },
+            { "team1": "🇨🇿 République tchèque", "team2": "🇮🇹 Italie", "score": "0-2", "winner": "🇮🇹 Italie", "date": "22 juin 2006" },
+            { "team1": "🇬🇭 Ghana", "team2": "🇺🇸 États-Unis", "score": "2-1", "winner": "🇬🇭 Ghana", "date": "22 juin 2006" }
           ]
         },
         {
@@ -860,6 +1148,14 @@
             { "team": "🇦🇺 Australie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇭🇷 Croatie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇯🇵 Japon", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇺 Australie", "team2": "🇯🇵 Japon", "score": "3-1", "winner": "🇦🇺 Australie", "date": "12 juin 2006" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇭🇷 Croatie", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "13 juin 2006" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇦🇺 Australie", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "18 juin 2006" },
+            { "team1": "🇯🇵 Japon", "team2": "🇭🇷 Croatie", "score": "0-0", "winner": null, "date": "18 juin 2006" },
+            { "team1": "🇯🇵 Japon", "team2": "🇧🇷 Brésil", "score": "1-4", "winner": "🇧🇷 Brésil", "date": "22 juin 2006" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇦🇺 Australie", "score": "2-2", "winner": null, "date": "22 juin 2006" }
           ]
         },
         {
@@ -869,6 +1165,14 @@
             { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 4, "qualified": false },
             { "team": "🇹🇬 Togo", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇹🇬 Togo", "score": "2-1", "winner": "🇰🇷 Corée du Sud", "date": "13 juin 2006" },
+            { "team1": "🇫🇷 France", "team2": "🇨🇭 Suisse", "score": "0-0", "winner": null, "date": "13 juin 2006" },
+            { "team1": "🇫🇷 France", "team2": "🇰🇷 Corée du Sud", "score": "1-1", "winner": null, "date": "18 juin 2006" },
+            { "team1": "🇹🇬 Togo", "team2": "🇨🇭 Suisse", "score": "0-2", "winner": "🇨🇭 Suisse", "date": "19 juin 2006" },
+            { "team1": "🇹🇬 Togo", "team2": "🇫🇷 France", "score": "0-2", "winner": "🇫🇷 France", "date": "23 juin 2006" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇰🇷 Corée du Sud", "score": "2-0", "winner": "🇨🇭 Suisse", "date": "23 juin 2006" }
           ]
         },
         {
@@ -878,6 +1182,14 @@
             { "team": "🇺🇦 Ukraine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇺🇦 Ukraine", "score": "4-0", "winner": "🇪🇸 Espagne", "date": "14 juin 2006" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇸🇦 Arabie Saoudite", "score": "2-2", "winner": null, "date": "14 juin 2006" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇹🇳 Tunisie", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "19 juin 2006" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇺🇦 Ukraine", "score": "0-4", "winner": "🇺🇦 Ukraine", "date": "19 juin 2006" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne", "date": "23 juin 2006" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇹🇳 Tunisie", "score": "1-0", "winner": "🇺🇦 Ukraine", "date": "23 juin 2006" }
           ]
         }
       ],
@@ -934,6 +1246,14 @@
             { "team": "🇸🇳 Sénégal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 3, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇸🇳 Sénégal", "score": "0-1", "winner": "🇸🇳 Sénégal", "date": "31 mai 2002" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇩🇰 Danemark", "score": "1-2", "winner": "🇩🇰 Danemark", "date": "1 juin 2002" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇸🇳 Sénégal", "score": "1-1", "winner": null, "date": "6 juin 2002" },
+            { "team1": "🇫🇷 France", "team2": "🇺🇾 Uruguay", "score": "0-0", "winner": null, "date": "6 juin 2002" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇫🇷 France", "score": "2-0", "winner": "🇩🇰 Danemark", "date": "11 juin 2002" },
+            { "team1": "🇸🇳 Sénégal", "team2": "🇺🇾 Uruguay", "score": "3-3", "winner": null, "date": "11 juin 2002" }
           ]
         },
         {
@@ -943,6 +1263,14 @@
             { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇸🇮 Slovénie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇾 Paraguay", "team2": "🇿🇦 Afrique du Sud", "score": "2-2", "winner": null, "date": "2 juin 2002" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇸🇮 Slovénie", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "2 juin 2002" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇵🇾 Paraguay", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "7 juin 2002" },
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇸🇮 Slovénie", "score": "1-0", "winner": "🇿🇦 Afrique du Sud", "date": "8 juin 2002" },
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇪🇸 Espagne", "score": "2-3", "winner": "🇪🇸 Espagne", "date": "12 juin 2002" },
+            { "team1": "🇸🇮 Slovénie", "team2": "🇵🇾 Paraguay", "score": "1-3", "winner": "🇵🇾 Paraguay", "date": "12 juin 2002" }
           ]
         },
         {
@@ -952,6 +1280,14 @@
             { "team": "🇹🇷 Turquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": true },
             { "team": "🇨🇷 Costa Rica", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": false },
             { "team": "🇨🇳 Chine", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 9, "goalDiff": -9, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇹🇷 Turquie", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "3 juin 2002" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇨🇳 Chine", "score": "2-0", "winner": "🇨🇷 Costa Rica", "date": "4 juin 2002" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇳 Chine", "score": "4-0", "winner": "🇧🇷 Brésil", "date": "8 juin 2002" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇹🇷 Turquie", "score": "1-1", "winner": null, "date": "9 juin 2002" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇧🇷 Brésil", "score": "2-5", "winner": "🇧🇷 Brésil", "date": "13 juin 2002" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇨🇳 Chine", "score": "3-0", "winner": "🇹🇷 Turquie", "date": "13 juin 2002" }
           ]
         },
         {
@@ -961,6 +1297,14 @@
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": true },
             { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 3, "qualified": false },
             { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 7, "goalDiff": -4, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇵🇱 Pologne", "score": "2-0", "winner": "🇰🇷 Corée du Sud", "date": "4 juin 2002" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇵🇹 Portugal", "score": "3-2", "winner": "🇺🇸 États-Unis", "date": "5 juin 2002" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇺🇸 États-Unis", "score": "1-1", "winner": null, "date": "10 juin 2002" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇵🇱 Pologne", "score": "4-0", "winner": "🇵🇹 Portugal", "date": "10 juin 2002" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇰🇷 Corée du Sud", "score": "0-1", "winner": "🇰🇷 Corée du Sud", "date": "14 juin 2002" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇺🇸 États-Unis", "score": "3-1", "winner": "🇵🇱 Pologne", "date": "14 juin 2002" }
           ]
         },
         {
@@ -970,6 +1314,14 @@
             { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 5, "qualified": true },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 4, "qualified": false },
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 12, "goalDiff": -12, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇸🇦 Arabie Saoudite", "score": "8-0", "winner": "🇩🇪 Allemagne", "date": "1 juin 2002" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇨🇲 Cameroun", "score": "1-1", "winner": null, "date": "1 juin 2002" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇮🇪 Irlande", "score": "1-1", "winner": null, "date": "5 juin 2002" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇸🇦 Arabie Saoudite", "score": "1-0", "winner": "🇨🇲 Cameroun", "date": "6 juin 2002" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇩🇪 Allemagne", "score": "0-2", "winner": "🇩🇪 Allemagne", "date": "11 juin 2002" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇮🇪 Irlande", "score": "0-3", "winner": "🇮🇪 Irlande", "date": "11 juin 2002" }
           ]
         },
         {
@@ -979,6 +1331,14 @@
             { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇳🇬 Nigeria", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇸🇪 Suède", "score": "1-1", "winner": null, "date": "2 juin 2002" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇳🇬 Nigeria", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "2 juin 2002" },
+            { "team1": "🇸🇪 Suède", "team2": "🇳🇬 Nigeria", "score": "2-1", "winner": "🇸🇪 Suède", "date": "7 juin 2002" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇬🇧 Angleterre", "score": "0-1", "winner": "🇬🇧 Angleterre", "date": "7 juin 2002" },
+            { "team1": "🇸🇪 Suède", "team2": "🇦🇷 Argentine", "score": "1-1", "winner": null, "date": "12 juin 2002" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇬🇧 Angleterre", "score": "0-0", "winner": null, "date": "12 juin 2002" }
           ]
         },
         {
@@ -988,6 +1348,14 @@
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇪🇨 Équateur", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇭🇷 Croatie", "team2": "🇲🇽 Mexique", "score": "0-1", "winner": "🇲🇽 Mexique", "date": "3 juin 2002" },
+            { "team1": "🇮🇹 Italie", "team2": "🇪🇨 Équateur", "score": "2-0", "winner": "🇮🇹 Italie", "date": "3 juin 2002" },
+            { "team1": "🇮🇹 Italie", "team2": "🇭🇷 Croatie", "score": "1-2", "winner": "🇭🇷 Croatie", "date": "8 juin 2002" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇪🇨 Équateur", "score": "2-1", "winner": "🇲🇽 Mexique", "date": "9 juin 2002" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "13 juin 2002" },
+            { "team1": "🇪🇨 Équateur", "team2": "🇭🇷 Croatie", "score": "1-0", "winner": "🇪🇨 Équateur", "date": "13 juin 2002" }
           ]
         },
         {
@@ -997,6 +1365,14 @@
             { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇯🇵 Japon", "team2": "🇧🇪 Belgique", "score": "2-2", "winner": null, "date": "4 juin 2002" },
+            { "team1": "🇷🇺 Russie", "team2": "🇹🇳 Tunisie", "score": "2-0", "winner": "🇷🇺 Russie", "date": "5 juin 2002" },
+            { "team1": "🇯🇵 Japon", "team2": "🇷🇺 Russie", "score": "1-0", "winner": "🇯🇵 Japon", "date": "9 juin 2002" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇧🇪 Belgique", "score": "1-1", "winner": null, "date": "10 juin 2002" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇯🇵 Japon", "score": "0-2", "winner": "🇯🇵 Japon", "date": "14 juin 2002" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇷🇺 Russie", "score": "3-2", "winner": "🇧🇪 Belgique", "date": "14 juin 2002" }
           ]
         }
       ],
@@ -1053,6 +1429,14 @@
             { "team": "🇳🇴 Norvège", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 5, "qualified": true },
             { "team": "🇲🇦 Maroc", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇬🇧 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇬🇧 Écosse", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "10 juin 1998" },
+            { "team1": "🇲🇦 Maroc", "team2": "🇳🇴 Norvège", "score": "2-2", "winner": null, "date": "10 juin 1998" },
+            { "team1": "🇬🇧 Écosse", "team2": "🇳🇴 Norvège", "score": "1-1", "winner": null, "date": "16 juin 1998" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇲🇦 Maroc", "score": "3-0", "winner": "🇧🇷 Brésil", "date": "16 juin 1998" },
+            { "team1": "🇬🇧 Écosse", "team2": "🇲🇦 Maroc", "score": "0-3", "winner": "🇲🇦 Maroc", "date": "23 juin 1998" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇳🇴 Norvège", "score": "1-2", "winner": "🇳🇴 Norvège", "date": "23 juin 1998" }
           ]
         },
         {
@@ -1062,6 +1446,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": true },
             { "team": "🇦🇹 Autriche", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇱 Chili", "score": "2-2", "winner": null, "date": "11 juin 1998" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇦🇹 Autriche", "score": "1-1", "winner": null, "date": "11 juin 1998" },
+            { "team1": "🇨🇱 Chili", "team2": "🇦🇹 Autriche", "score": "1-1", "winner": null, "date": "17 juin 1998" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇲 Cameroun", "score": "3-0", "winner": "🇮🇹 Italie", "date": "17 juin 1998" },
+            { "team1": "🇨🇱 Chili", "team2": "🇨🇲 Cameroun", "score": "1-1", "winner": null, "date": "23 juin 1998" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇮🇹 Italie", "score": "1-2", "winner": "🇮🇹 Italie", "date": "23 juin 1998" }
           ]
         },
         {
@@ -1071,6 +1463,14 @@
             { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇿🇦 Afrique du Sud", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 2, "qualified": false },
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇿🇦 Afrique du Sud", "score": "3-0", "winner": "🇫🇷 France", "date": "12 juin 1998" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇸🇦 Arabie Saoudite", "score": "1-0", "winner": "🇩🇰 Danemark", "date": "12 juin 1998" },
+            { "team1": "🇫🇷 France", "team2": "🇸🇦 Arabie Saoudite", "score": "4-0", "winner": "🇫🇷 France", "date": "18 juin 1998" },
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇩🇰 Danemark", "score": "1-1", "winner": null, "date": "18 juin 1998" },
+            { "team1": "🇿🇦 Afrique du Sud", "team2": "🇸🇦 Arabie Saoudite", "score": "2-2", "winner": null, "date": "24 juin 1998" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇫🇷 France", "score": "1-2", "winner": "🇫🇷 France", "date": "24 juin 1998" }
           ]
         },
         {
@@ -1080,6 +1480,14 @@
             { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 4, "qualified": false },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇾 Paraguay", "team2": "🇧🇬 Bulgarie", "score": "0-0", "winner": null, "date": "12 juin 1998" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇳🇬 Nigeria", "score": "2-3", "winner": "🇳🇬 Nigeria", "date": "13 juin 1998" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇧🇬 Bulgarie", "score": "1-0", "winner": "🇳🇬 Nigeria", "date": "19 juin 1998" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇵🇾 Paraguay", "score": "0-0", "winner": null, "date": "19 juin 1998" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇵🇾 Paraguay", "score": "1-3", "winner": "🇵🇾 Paraguay", "date": "24 juin 1998" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇪🇸 Espagne", "score": "1-6", "winner": "🇪🇸 Espagne", "date": "24 juin 1998" }
           ]
         },
         {
@@ -1089,6 +1497,14 @@
             { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 5, "qualified": true },
             { "team": "🇧🇪 Belgique", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 9, "goalDiff": -7, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇲🇽 Mexique", "score": "1-3", "winner": "🇲🇽 Mexique", "date": "13 juin 1998" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇧🇪 Belgique", "score": "0-0", "winner": null, "date": "13 juin 1998" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇲🇽 Mexique", "score": "2-2", "winner": null, "date": "20 juin 1998" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇰🇷 Corée du Sud", "score": "5-0", "winner": "🇳🇱 Pays-Bas", "date": "20 juin 1998" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇰🇷 Corée du Sud", "score": "1-1", "winner": null, "date": "25 juin 1998" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇲🇽 Mexique", "score": "2-2", "winner": null, "date": "25 juin 1998" }
           ]
         },
         {
@@ -1098,6 +1514,14 @@
             { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 7, "qualified": true },
             { "team": "🇮🇷 Iran", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇺🇸 États-Unis", "score": "2-0", "winner": "🇩🇪 Allemagne", "date": "15 juin 1998" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇮🇷 Iran", "score": "1-0", "winner": "🇷🇸 Yougoslavie", "date": "14 juin 1998" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇷🇸 Yougoslavie", "score": "2-2", "winner": null, "date": "21 juin 1998" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇮🇷 Iran", "score": "1-2", "winner": "🇮🇷 Iran", "date": "21 juin 1998" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇷🇸 Yougoslavie", "score": "0-1", "winner": "🇷🇸 Yougoslavie", "date": "25 juin 1998" },
+            { "team1": "🇮🇷 Iran", "team2": "🇩🇪 Allemagne", "score": "0-2", "winner": "🇩🇪 Allemagne", "date": "25 juin 1998" }
           ]
         },
         {
@@ -1107,6 +1531,14 @@
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 6, "qualified": true },
             { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇹🇳 Tunisie", "score": "2-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "15 juin 1998" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇨🇴 Colombie", "score": "1-0", "winner": "🇷🇴 Roumanie", "date": "15 juin 1998" },
+            { "team1": "🇨🇴 Colombie", "team2": "🇹🇳 Tunisie", "score": "1-0", "winner": "🇨🇴 Colombie", "date": "22 juin 1998" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-1", "winner": "🇷🇴 Roumanie", "date": "22 juin 1998" },
+            { "team1": "🇨🇴 Colombie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-2", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "26 juin 1998" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇷🇴 Roumanie", "score": "1-1", "winner": null, "date": "26 juin 1998" }
           ]
         },
         {
@@ -1116,6 +1548,14 @@
             { "team": "🇭🇷 Croatie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
             { "team": "🇯🇵 Japon", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇯🇲 Jamaïque", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇯🇵 Japon", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "14 juin 1998" },
+            { "team1": "🇯🇲 Jamaïque", "team2": "🇭🇷 Croatie", "score": "1-3", "winner": "🇭🇷 Croatie", "date": "14 juin 1998" },
+            { "team1": "🇯🇵 Japon", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie", "date": "20 juin 1998" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇯🇲 Jamaïque", "score": "5-0", "winner": "🇦🇷 Argentine", "date": "21 juin 1998" },
+            { "team1": "🇯🇵 Japon", "team2": "🇯🇲 Jamaïque", "score": "2-1", "winner": "🇯🇵 Japon", "date": "26 juin 1998" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇭🇷 Croatie", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "26 juin 1998" }
           ]
         }
       ],
@@ -1172,6 +1612,14 @@
             { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇸 États-Unis", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "18 juin 1994" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇨🇴 Colombie", "score": "3-1", "winner": "🇷🇴 Roumanie", "date": "18 juin 1994" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇨🇭 Suisse", "score": "1-4", "winner": "🇨🇭 Suisse", "date": "22 juin 1994" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇨🇴 Colombie", "score": "2-1", "winner": "🇺🇸 États-Unis", "date": "22 juin 1994" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇷🇴 Roumanie", "score": "0-1", "winner": "🇷🇴 Roumanie", "date": "26 juin 1994" },
+            { "team1": "🇨🇴 Colombie", "team2": "🇨🇭 Suisse", "score": "2-0", "winner": "🇨🇴 Colombie", "date": "26 juin 1994" }
           ]
         },
         {
@@ -1181,6 +1629,14 @@
             { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 6, "qualified": true },
             { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 11, "goalDiff": -8, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇲 Cameroun", "team2": "🇸🇪 Suède", "score": "2-2", "winner": null, "date": "19 juin 1994" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇺 Russie", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "20 juin 1994" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇲 Cameroun", "score": "3-0", "winner": "🇧🇷 Brésil", "date": "24 juin 1994" },
+            { "team1": "🇸🇪 Suède", "team2": "🇷🇺 Russie", "score": "3-1", "winner": "🇸🇪 Suède", "date": "24 juin 1994" },
+            { "team1": "🇷🇺 Russie", "team2": "🇨🇲 Cameroun", "score": "6-1", "winner": "🇷🇺 Russie", "date": "28 juin 1994" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Suède", "score": "1-1", "winner": null, "date": "28 juin 1994" }
           ]
         },
         {
@@ -1190,6 +1646,14 @@
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 5, "qualified": true },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": true },
             { "team": "🇧🇴 Bolivie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇧🇴 Bolivie", "score": "1-0", "winner": "🇩🇪 Allemagne", "date": "17 juin 1994" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇰🇷 Corée du Sud", "score": "2-2", "winner": null, "date": "17 juin 1994" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇪🇸 Espagne", "score": "1-1", "winner": null, "date": "21 juin 1994" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇧🇴 Bolivie", "score": "0-0", "winner": null, "date": "23 juin 1994" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇧🇴 Bolivie", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "27 juin 1994" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇰🇷 Corée du Sud", "score": "3-2", "winner": "🇩🇪 Allemagne", "date": "27 juin 1994" }
           ]
         },
         {
@@ -1199,6 +1663,14 @@
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
             { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
             { "team": "🇬🇷 Grèce", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 10, "goalDiff": -10, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇬🇷 Grèce", "score": "4-0", "winner": "🇦🇷 Argentine", "date": "21 juin 1994" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇧🇬 Bulgarie", "score": "3-0", "winner": "🇳🇬 Nigeria", "date": "21 juin 1994" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇳🇬 Nigeria", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "25 juin 1994" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇬🇷 Grèce", "score": "4-0", "winner": "🇧🇬 Bulgarie", "date": "26 juin 1994" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇦🇷 Argentine", "score": "2-0", "winner": "🇧🇬 Bulgarie", "date": "30 juin 1994" },
+            { "team1": "🇳🇬 Nigeria", "team2": "🇬🇷 Grèce", "score": "2-0", "winner": "🇳🇬 Nigeria", "date": "30 juin 1994" }
           ]
         },
         {
@@ -1208,6 +1680,14 @@
             { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": true },
             { "team": "🇳🇴 Norvège", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 4, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇮🇪 Irlande", "score": "0-1", "winner": "🇮🇪 Irlande", "date": "18 juin 1994" },
+            { "team1": "🇳🇴 Norvège", "team2": "🇲🇽 Mexique", "score": "1-0", "winner": "🇳🇴 Norvège", "date": "19 juin 1994" },
+            { "team1": "🇮🇹 Italie", "team2": "🇳🇴 Norvège", "score": "1-0", "winner": "🇮🇹 Italie", "date": "23 juin 1994" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇲🇽 Mexique", "score": "1-2", "winner": "🇲🇽 Mexique", "date": "24 juin 1994" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇳🇴 Norvège", "score": "0-0", "winner": null, "date": "28 juin 1994" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "28 juin 1994" }
           ]
         },
         {
@@ -1217,6 +1697,14 @@
             { "team": "🇸🇦 Arabie Saoudite", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 6, "qualified": true },
             { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇪 Belgique", "team2": "🇲🇦 Maroc", "score": "1-0", "winner": "🇧🇪 Belgique", "date": "19 juin 1994" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇸🇦 Arabie Saoudite", "score": "2-1", "winner": "🇳🇱 Pays-Bas", "date": "20 juin 1994" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇳🇱 Pays-Bas", "score": "1-0", "winner": "🇧🇪 Belgique", "date": "25 juin 1994" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇲🇦 Maroc", "score": "2-1", "winner": "🇸🇦 Arabie Saoudite", "date": "25 juin 1994" },
+            { "team1": "🇸🇦 Arabie Saoudite", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇸🇦 Arabie Saoudite", "date": "29 juin 1994" },
+            { "team1": "🇲🇦 Maroc", "team2": "🇳🇱 Pays-Bas", "score": "1-2", "winner": "🇳🇱 Pays-Bas", "date": "29 juin 1994" }
           ]
         }
       ],
@@ -1273,6 +1761,14 @@
             { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 4, "qualified": true },
             { "team": "🇦🇹 Autriche", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇦🇹 Autriche", "score": "1-0", "winner": "🇮🇹 Italie", "date": "9 juin 1990" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇺🇸 États-Unis", "score": "5-1", "winner": "🇨🇿 Tchécoslovaquie", "date": "10 juin 1990" },
+            { "team1": "🇮🇹 Italie", "team2": "🇺🇸 États-Unis", "score": "1-0", "winner": "🇮🇹 Italie", "date": "14 juin 1990" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇦🇹 Autriche", "score": "1-0", "winner": "🇨🇿 Tchécoslovaquie", "date": "15 juin 1990" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇿 Tchécoslovaquie", "score": "2-0", "winner": "🇮🇹 Italie", "date": "19 juin 1990" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇺🇸 États-Unis", "score": "2-1", "winner": "🇦🇹 Autriche", "date": "19 juin 1990" }
           ]
         },
         {
@@ -1282,6 +1778,14 @@
             { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇷🇺 URSS", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇲 Cameroun", "team2": "🇦🇷 Argentine", "score": "1-0", "winner": "🇨🇲 Cameroun", "date": "8 juin 1990" },
+            { "team1": "🇷🇺 URSS", "team2": "🇷🇴 Roumanie", "score": "0-2", "winner": "🇷🇴 Roumanie", "date": "9 juin 1990" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇷🇺 URSS", "score": "2-0", "winner": "🇦🇷 Argentine", "date": "13 juin 1990" },
+            { "team1": "🇨🇲 Cameroun", "team2": "🇷🇴 Roumanie", "score": "2-1", "winner": "🇨🇲 Cameroun", "date": "14 juin 1990" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇷🇴 Roumanie", "score": "1-1", "winner": null, "date": "18 juin 1990" },
+            { "team1": "🇷🇺 URSS", "team2": "🇨🇲 Cameroun", "score": "4-0", "winner": "🇷🇺 URSS", "date": "18 juin 1990" }
           ]
         },
         {
@@ -1291,6 +1795,14 @@
             { "team": "🇨🇷 Costa Rica", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 1, "qualified": false },
             { "team": "🇸🇪 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "10 juin 1990" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇸🇪 Écosse", "score": "1-0", "winner": "🇨🇷 Costa Rica", "date": "11 juin 1990" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇷 Costa Rica", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "16 juin 1990" },
+            { "team1": "🇸🇪 Suède", "team2": "🇸🇪 Écosse", "score": "2-1", "winner": "🇸🇪 Suède", "date": "16 juin 1990" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Écosse", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "20 juin 1990" },
+            { "team1": "🇨🇷 Costa Rica", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇨🇷 Costa Rica", "date": "20 juin 1990" }
           ]
         },
         {
@@ -1300,6 +1812,14 @@
             { "team": "🇾🇺 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇨🇴 Colombie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇦🇪 Émirats arabes unis", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 11, "goalDiff": -9, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇴 Colombie", "team2": "🇦🇪 Émirats arabes unis", "score": "2-0", "winner": "🇨🇴 Colombie", "date": "9 juin 1990" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇾🇺 Yougoslavie", "score": "4-1", "winner": "🇩🇪 Allemagne", "date": "10 juin 1990" },
+            { "team1": "🇾🇺 Yougoslavie", "team2": "🇨🇴 Colombie", "score": "1-0", "winner": "🇾🇺 Yougoslavie", "date": "14 juin 1990" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇦🇪 Émirats arabes unis", "score": "5-1", "winner": "🇩🇪 Allemagne", "date": "15 juin 1990" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇨🇴 Colombie", "score": "1-1", "winner": null, "date": "19 juin 1990" },
+            { "team1": "🇾🇺 Yougoslavie", "team2": "🇦🇪 Émirats arabes unis", "score": "4-1", "winner": "🇾🇺 Yougoslavie", "date": "19 juin 1990" }
           ]
         },
         {
@@ -1309,6 +1829,14 @@
             { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 4, "qualified": true },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": true },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇪 Belgique", "team2": "🇰🇷 Corée du Sud", "score": "2-0", "winner": "🇧🇪 Belgique", "date": "12 juin 1990" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇺🇾 Uruguay", "score": "0-0", "winner": null, "date": "13 juin 1990" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇰🇷 Corée du Sud", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "17 juin 1990" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇺🇾 Uruguay", "score": "3-1", "winner": "🇧🇪 Belgique", "date": "17 juin 1990" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇧🇪 Belgique", "score": "2-1", "winner": "🇪🇸 Espagne", "date": "21 juin 1990" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇰🇷 Corée du Sud", "score": "1-0", "winner": "🇺🇾 Uruguay", "date": "21 juin 1990" }
           ]
         },
         {
@@ -1318,6 +1846,14 @@
             { "team": "🇮🇪 Irlande", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
             { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": true },
             { "team": "🇪🇬 Égypte", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇮🇪 Irlande", "score": "1-1", "winner": null, "date": "11 juin 1990" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇪🇬 Égypte", "score": "1-1", "winner": null, "date": "12 juin 1990" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇳🇱 Pays-Bas", "score": "0-0", "winner": null, "date": "16 juin 1990" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇪🇬 Égypte", "score": "0-0", "winner": null, "date": "17 juin 1990" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇪🇬 Égypte", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "21 juin 1990" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇳🇱 Pays-Bas", "score": "1-1", "winner": null, "date": "21 juin 1990" }
           ]
         }
       ],
@@ -1374,6 +1910,14 @@
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 2, "qualified": true },
             { "team": "🇰🇷 Corée du Sud", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "31 mai 1986" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇰🇷 Corée du Sud", "score": "3-1", "winner": "🇦🇷 Argentine", "date": "2 juin 1986" },
+            { "team1": "🇮🇹 Italie", "team2": "🇦🇷 Argentine", "score": "1-1", "winner": null, "date": "5 juin 1986" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇧🇬 Bulgarie", "score": "1-1", "winner": null, "date": "5 juin 1986" },
+            { "team1": "🇰🇷 Corée du Sud", "team2": "🇮🇹 Italie", "score": "2-3", "winner": "🇮🇹 Italie", "date": "10 juin 1986" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇧🇬 Bulgarie", "score": "2-0", "winner": "🇦🇷 Argentine", "date": "10 juin 1986" }
           ]
         },
         {
@@ -1383,6 +1927,14 @@
             { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 3, "qualified": true },
             { "team": "🇮🇶 Irak", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇪 Belgique", "team2": "🇲🇽 Mexique", "score": "2-1", "winner": "🇧🇪 Belgique", "date": "3 juin 1986" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🇮🇶 Irak", "score": "1-0", "winner": "🇵🇾 Paraguay", "date": "4 juin 1986" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇵🇾 Paraguay", "score": "1-1", "winner": null, "date": "7 juin 1986" },
+            { "team1": "🇮🇶 Irak", "team2": "🇧🇪 Belgique", "score": "1-2", "winner": "🇧🇪 Belgique", "date": "8 juin 1986" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🇧🇪 Belgique", "score": "2-2", "winner": null, "date": "11 juin 1986" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇮🇶 Irak", "score": "1-0", "winner": "🇲🇽 Mexique", "date": "11 juin 1986" }
           ]
         },
         {
@@ -1392,6 +1944,14 @@
             { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 5, "qualified": true },
             { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 9, "goalDiff": -7, "points": 2, "qualified": false },
             { "team": "🇨🇦 Canada", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇨🇦 Canada", "score": "1-0", "winner": "🇫🇷 France", "date": "1 juin 1986" },
+            { "team1": "🇷🇺 URSS", "team2": "🇭🇺 Hongrie", "score": "6-0", "winner": "🇷🇺 URSS", "date": "2 juin 1986" },
+            { "team1": "🇫🇷 France", "team2": "🇷🇺 URSS", "score": "1-1", "winner": null, "date": "5 juin 1986" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇨🇦 Canada", "score": "2-0", "winner": "🇭🇺 Hongrie", "date": "6 juin 1986" },
+            { "team1": "🇷🇺 URSS", "team2": "🇨🇦 Canada", "score": "2-0", "winner": "🇷🇺 URSS", "date": "9 juin 1986" },
+            { "team1": "🇫🇷 France", "team2": "🇭🇺 Hongrie", "score": "3-0", "winner": "🇫🇷 France", "date": "9 juin 1986" }
           ]
         },
         {
@@ -1401,6 +1961,14 @@
             { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 4, "qualified": true },
             { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": true },
             { "team": "🇩🇿 Algérie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇪🇸 Espagne", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "1 juin 1986" },
+            { "team1": "🇩🇿 Algérie", "team2": "🇮🇪 Irlande du Nord", "score": "1-1", "winner": null, "date": "3 juin 1986" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇩🇿 Algérie", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "6 juin 1986" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇮🇪 Irlande du Nord", "score": "2-1", "winner": "🇪🇸 Espagne", "date": "7 juin 1986" },
+            { "team1": "🇮🇪 Irlande du Nord", "team2": "🇧🇷 Brésil", "score": "0-3", "winner": "🇧🇷 Brésil", "date": "12 juin 1986" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇩🇿 Algérie", "score": "3-0", "winner": "🇪🇸 Espagne", "date": "12 juin 1986" }
           ]
         },
         {
@@ -1410,6 +1978,14 @@
             { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": true },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 2, "qualified": true },
             { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇩🇪 Allemagne", "score": "1-1", "winner": null, "date": "4 juin 1986" },
+            { "team1": "🇩🇰 Danemark", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "1-0", "winner": "🇩🇰 Danemark", "date": "4 juin 1986" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "2-1", "winner": "🇩🇪 Allemagne", "date": "8 juin 1986" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇺🇾 Uruguay", "score": "6-1", "winner": "🇩🇰 Danemark", "date": "8 juin 1986" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇩🇪 Allemagne", "score": "2-0", "winner": "🇩🇰 Danemark", "date": "13 juin 1986" },
+            { "team1": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "team2": "🇺🇾 Uruguay", "score": "0-0", "winner": null, "date": "13 juin 1986" }
           ]
         },
         {
@@ -1419,6 +1995,14 @@
             { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 3, "qualified": true },
             { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": true },
             { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇱 Pologne", "team2": "🇲🇦 Maroc", "score": "0-0", "winner": null, "date": "2 juin 1986" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇬🇧 Angleterre", "score": "1-0", "winner": "🇵🇹 Portugal", "date": "3 juin 1986" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇲🇦 Maroc", "score": "0-0", "winner": null, "date": "6 juin 1986" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇵🇱 Pologne", "date": "7 juin 1986" },
+            { "team1": "🇲🇦 Maroc", "team2": "🇵🇹 Portugal", "score": "3-1", "winner": "🇲🇦 Maroc", "date": "11 juin 1986" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇵🇱 Pologne", "score": "3-0", "winner": "🇬🇧 Angleterre", "date": "11 juin 1986" }
           ]
         }
       ],
@@ -1475,6 +2059,14 @@
             { "team": "🇮🇹 Italie", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
             { "team": "🇨🇲 Cameroun", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 1, "goalsAgainst": 1, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇵🇪 Pérou", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇵🇱 Pologne", "score": "0-0", "winner": null, "date": "14 juin 1982" },
+            { "team1": "🇵🇪 Pérou", "team2": "🇨🇲 Cameroun", "score": "0-0", "winner": null, "date": "15 juin 1982" },
+            { "team1": "🇮🇹 Italie", "team2": "🇵🇪 Pérou", "score": "1-1", "winner": null, "date": "18 juin 1982" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇨🇲 Cameroun", "score": "0-0", "winner": null, "date": "19 juin 1982" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇵🇪 Pérou", "score": "5-1", "winner": "🇵🇱 Pologne", "date": "22 juin 1982" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇲 Cameroun", "score": "1-1", "winner": null, "date": "23 juin 1982" }
           ]
         },
         {
@@ -1484,6 +2076,14 @@
             { "team": "🇦🇹 Autriche", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 4, "qualified": true },
             { "team": "🇩🇿 Algérie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 4, "qualified": false },
             { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 8, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇿 Algérie", "team2": "🇩🇪 Allemagne", "score": "2-1", "winner": "🇩🇿 Algérie", "date": "16 juin 1982" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇨🇱 Chili", "score": "1-0", "winner": "🇦🇹 Autriche", "date": "17 juin 1982" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇨🇱 Chili", "score": "4-1", "winner": "🇩🇪 Allemagne", "date": "20 juin 1982" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇩🇿 Algérie", "score": "2-0", "winner": "🇦🇹 Autriche", "date": "21 juin 1982" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇦🇹 Autriche", "score": "1-0", "winner": "🇩🇪 Allemagne", "date": "25 juin 1982" },
+            { "team1": "🇩🇿 Algérie", "team2": "🇨🇱 Chili", "score": "3-2", "winner": "🇩🇿 Algérie", "date": "25 juin 1982" }
           ]
         },
         {
@@ -1493,6 +2093,14 @@
             { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 4, "qualified": true },
             { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 12, "goalsAgainst": 6, "goalDiff": 6, "points": 3, "qualified": false },
             { "team": "🇸🇻 Salvador", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 13, "goalDiff": -12, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇧🇪 Belgique", "score": "0-1", "winner": "🇧🇪 Belgique", "date": "13 juin 1982" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇸🇻 Salvador", "score": "10-1", "winner": "🇭🇺 Hongrie", "date": "15 juin 1982" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇭🇺 Hongrie", "score": "4-1", "winner": "🇦🇷 Argentine", "date": "18 juin 1982" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇸🇻 Salvador", "score": "1-0", "winner": "🇧🇪 Belgique", "date": "19 juin 1982" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇭🇺 Hongrie", "score": "1-1", "winner": null, "date": "26 juin 1982" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇸🇻 Salvador", "score": "2-0", "winner": "🇦🇷 Argentine", "date": "26 juin 1982" }
           ]
         },
         {
@@ -1502,6 +2110,14 @@
             { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇰🇼 Koweït", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇫🇷 France", "score": "3-1", "winner": "🇬🇧 Angleterre", "date": "16 juin 1982" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇰🇼 Koweït", "score": "1-1", "winner": null, "date": "17 juin 1982" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇨🇿 Tchécoslovaquie", "score": "2-0", "winner": "🇬🇧 Angleterre", "date": "20 juin 1982" },
+            { "team1": "🇫🇷 France", "team2": "🇰🇼 Koweït", "score": "4-1", "winner": "🇫🇷 France", "date": "21 juin 1982" },
+            { "team1": "🇫🇷 France", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-1", "winner": null, "date": "24 juin 1982" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇰🇼 Koweït", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "25 juin 1982" }
           ]
         },
         {
@@ -1511,6 +2127,14 @@
             { "team": "🇭🇳 Honduras", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇭🇳 Honduras", "score": "1-1", "winner": null, "date": "16 juin 1982" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇮🇪 Irlande du Nord", "score": "0-0", "winner": null, "date": "17 juin 1982" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇷🇸 Yougoslavie", "score": "2-1", "winner": "🇪🇸 Espagne", "date": "20 juin 1982" },
+            { "team1": "🇭🇳 Honduras", "team2": "🇮🇪 Irlande du Nord", "score": "1-1", "winner": null, "date": "21 juin 1982" },
+            { "team1": "🇭🇳 Honduras", "team2": "🇷🇸 Yougoslavie", "score": "0-1", "winner": "🇷🇸 Yougoslavie", "date": "24 juin 1982" },
+            { "team1": "🇮🇪 Irlande du Nord", "team2": "🇪🇸 Espagne", "score": "1-0", "winner": "🇮🇪 Irlande du Nord", "date": "25 juin 1982" }
           ]
         },
         {
@@ -1520,6 +2144,14 @@
             { "team": "🇷🇺 URSS", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 3, "qualified": true },
             { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 8, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇳🇿 Nouvelle-Zélande", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 12, "goalDiff": -10, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇺 URSS", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "14 juin 1982" },
+            { "team1": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "team2": "🇳🇿 Nouvelle-Zélande", "score": "5-2", "winner": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "date": "15 juin 1982" },
+            { "team1": "🇧🇷 Brésil", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "4-1", "winner": "🇧🇷 Brésil", "date": "18 juin 1982" },
+            { "team1": "🇷🇺 URSS", "team2": "🇳🇿 Nouvelle-Zélande", "score": "3-0", "winner": "🇷🇺 URSS", "date": "19 juin 1982" },
+            { "team1": "🇷🇺 URSS", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "2-2", "winner": null, "date": "22 juin 1982" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇳🇿 Nouvelle-Zélande", "score": "4-0", "winner": "🇧🇷 Brésil", "date": "23 juin 1982" }
           ]
         }
       ],
@@ -1566,6 +2198,14 @@
             { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 2, "qualified": false },
             { "team": "🇭🇺 Hongrie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 8, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇭🇺 Hongrie", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "2 juin 1978" },
+            { "team1": "🇮🇹 Italie", "team2": "🇫🇷 France", "score": "2-1", "winner": "🇮🇹 Italie", "date": "2 juin 1978" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇫🇷 France", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "6 juin 1978" },
+            { "team1": "🇮🇹 Italie", "team2": "🇭🇺 Hongrie", "score": "3-1", "winner": "🇮🇹 Italie", "date": "6 juin 1978" },
+            { "team1": "🇫🇷 France", "team2": "🇭🇺 Hongrie", "score": "3-1", "winner": "🇫🇷 France", "date": "10 juin 1978" },
+            { "team1": "🇮🇹 Italie", "team2": "🇦🇷 Argentine", "score": "1-0", "winner": "🇮🇹 Italie", "date": "10 juin 1978" }
           ]
         },
         {
@@ -1575,6 +2215,14 @@
             { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
             { "team": "🇹🇳 Tunisie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": false },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 12, "goalDiff": -10, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇱 Pologne", "score": "0-0", "winner": null, "date": "1 juin 1978" },
+            { "team1": "🇹🇳 Tunisie", "team2": "🇲🇽 Mexique", "score": "3-1", "winner": "🇹🇳 Tunisie", "date": "2 juin 1978" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇹🇳 Tunisie", "score": "1-0", "winner": "🇵🇱 Pologne", "date": "6 juin 1978" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇲🇽 Mexique", "score": "6-0", "winner": "🇩🇪 Allemagne", "date": "6 juin 1978" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇲🇽 Mexique", "score": "3-1", "winner": "🇵🇱 Pologne", "date": "10 juin 1978" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇹🇳 Tunisie", "score": "0-0", "winner": null, "date": "10 juin 1978" }
           ]
         },
         {
@@ -1584,6 +2232,14 @@
             { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇹 Autriche", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇦🇹 Autriche", "date": "3 juin 1978" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇸🇪 Suède", "score": "1-1", "winner": null, "date": "3 juin 1978" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇸🇪 Suède", "score": "1-0", "winner": "🇦🇹 Autriche", "date": "7 juin 1978" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇪🇸 Espagne", "score": "0-0", "winner": null, "date": "7 juin 1978" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇸🇪 Suède", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "11 juin 1978" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇦🇹 Autriche", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "11 juin 1978" }
           ]
         },
         {
@@ -1593,6 +2249,14 @@
             { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 3, "qualified": true },
             { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇮🇷 Iran", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇪 Pérou", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "3-1", "winner": "🇵🇪 Pérou", "date": "3 juin 1978" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇮🇷 Iran", "score": "3-0", "winner": "🇳🇱 Pays-Bas", "date": "3 juin 1978" },
+            { "team1": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "team2": "🇮🇷 Iran", "score": "1-1", "winner": null, "date": "7 juin 1978" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇵🇪 Pérou", "score": "0-0", "winner": null, "date": "7 juin 1978" },
+            { "team1": "🇵🇪 Pérou", "team2": "🇮🇷 Iran", "score": "4-1", "winner": "🇵🇪 Pérou", "date": "11 juin 1978" },
+            { "team1": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "team2": "🇳🇱 Pays-Bas", "score": "3-2", "winner": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "date": "11 juin 1978" }
           ]
         }
       ],
@@ -1633,6 +2297,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇩🇪 Allemagne de l'Est", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 4, "qualified": false },
             { "team": "🇦🇺 Australie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇱 Chili", "score": "1-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "14 juin 1974" },
+            { "team1": "🇩🇪 Allemagne de l'Est", "team2": "🇦🇺 Australie", "score": "2-0", "winner": "🇩🇪 Allemagne de l'Est", "date": "14 juin 1974" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇦🇺 Australie", "score": "3-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "18 juin 1974" },
+            { "team1": "🇩🇪 Allemagne de l'Est", "team2": "🇨🇱 Chili", "score": "1-1", "winner": null, "date": "18 juin 1974" },
+            { "team1": "🇩🇪 Allemagne de l'Est", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "1-0", "winner": "🇩🇪 Allemagne de l'Est", "date": "22 juin 1974" },
+            { "team1": "🇦🇺 Australie", "team2": "🇨🇱 Chili", "score": "0-0", "winner": null, "date": "22 juin 1974" }
           ]
         },
         {
@@ -1642,6 +2314,14 @@
             { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 0, "goalDiff": 3, "points": 4, "qualified": false },
             { "team": "🇸🇨 Écosse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 4, "qualified": false },
             { "team": "🇿🇷 Zaïre", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 14, "goalDiff": -14, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇾🇺 Yougoslavie", "score": "0-0", "winner": null, "date": "13 juin 1974" },
+            { "team1": "🇸🇨 Écosse", "team2": "🇿🇷 Zaïre", "score": "2-0", "winner": "🇸🇨 Écosse", "date": "14 juin 1974" },
+            { "team1": "🇾🇺 Yougoslavie", "team2": "🇿🇷 Zaïre", "score": "9-0", "winner": "🇾🇺 Yougoslavie", "date": "18 juin 1974" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇸🇨 Écosse", "score": "0-0", "winner": null, "date": "18 juin 1974" },
+            { "team1": "🇸🇨 Écosse", "team2": "🇾🇺 Yougoslavie", "score": "1-1", "winner": null, "date": "22 juin 1974" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇿🇷 Zaïre", "score": "3-0", "winner": "🇧🇷 Brésil", "date": "22 juin 1974" }
           ]
         },
         {
@@ -1651,6 +2331,14 @@
             { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 0, "goalDiff": 3, "points": 4, "qualified": false },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 2, "qualified": false },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇺🇾 Uruguay", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "15 juin 1974" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇸🇪 Suède", "score": "0-0", "winner": null, "date": "15 juin 1974" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇸🇪 Suède", "score": "0-0", "winner": null, "date": "19 juin 1974" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇺🇾 Uruguay", "score": "1-1", "winner": null, "date": "19 juin 1974" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇧🇬 Bulgarie", "score": "4-1", "winner": "🇳🇱 Pays-Bas", "date": "23 juin 1974" },
+            { "team1": "🇸🇪 Suède", "team2": "🇺🇾 Uruguay", "score": "3-0", "winner": "🇸🇪 Suède", "date": "23 juin 1974" }
           ]
         },
         {
@@ -1660,6 +2348,14 @@
             { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 3, "qualified": false },
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 3, "qualified": false },
             { "team": "🇭🇹 Haïti", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 14, "goalDiff": -12, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇵🇱 Pologne", "score": "3-2", "winner": "🇦🇷 Argentine", "date": "15 juin 1974" },
+            { "team1": "🇮🇹 Italie", "team2": "🇭🇹 Haïti", "score": "3-1", "winner": "🇮🇹 Italie", "date": "15 juin 1974" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇭🇹 Haïti", "score": "7-0", "winner": "🇵🇱 Pologne", "date": "19 juin 1974" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "19 juin 1974" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇭🇹 Haïti", "score": "4-1", "winner": "🇦🇷 Argentine", "date": "23 juin 1974" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇮🇹 Italie", "score": "2-1", "winner": "🇵🇱 Pologne", "date": "23 juin 1974" }
           ]
         },
         {
@@ -1714,6 +2410,14 @@
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 1, "goalsAgainst": 0, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇮🇱 Israël", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇮🇱 Israël", "score": "2-0", "winner": "🇺🇾 Uruguay", "date": "2 juin 1970" },
+            { "team1": "🇮🇹 Italie", "team2": "🇸🇪 Suède", "score": "1-0", "winner": "🇮🇹 Italie", "date": "3 juin 1970" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇮🇹 Italie", "score": "0-0", "winner": null, "date": "6 juin 1970" },
+            { "team1": "🇸🇪 Suède", "team2": "🇮🇱 Israël", "score": "1-1", "winner": null, "date": "7 juin 1970" },
+            { "team1": "🇸🇪 Suède", "team2": "🇺🇾 Uruguay", "score": "1-0", "winner": "🇸🇪 Suède", "date": "10 juin 1970" },
+            { "team1": "🇮🇹 Italie", "team2": "🇮🇱 Israël", "score": "0-0", "winner": null, "date": "11 juin 1970" }
           ]
         },
         {
@@ -1723,6 +2427,14 @@
             { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇿 Tchécoslovaquie", "score": "4-1", "winner": "🇧🇷 Brésil", "date": "3 juin 1970" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇷🇴 Roumanie", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "2 juin 1970" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇬🇧 Angleterre", "score": "1-0", "winner": "🇧🇷 Brésil", "date": "7 juin 1970" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇨🇿 Tchécoslovaquie", "score": "2-1", "winner": "🇷🇴 Roumanie", "date": "6 juin 1970" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇧🇷 Brésil", "score": "2-3", "winner": "🇧🇷 Brésil", "date": "10 juin 1970" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇬🇧 Angleterre", "score": "0-1", "winner": "🇬🇧 Angleterre", "date": "11 juin 1970" }
           ]
         },
         {
@@ -1732,6 +2444,14 @@
             { "team": "🇵🇪 Pérou", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 1, "qualified": false },
             { "team": "🇲🇦 Maroc", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇪 Pérou", "team2": "🇧🇬 Bulgarie", "score": "3-2", "winner": "🇵🇪 Pérou", "date": "2 juin 1970" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇲🇦 Maroc", "score": "2-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "3 juin 1970" },
+            { "team1": "🇵🇪 Pérou", "team2": "🇲🇦 Maroc", "score": "3-0", "winner": "🇵🇪 Pérou", "date": "6 juin 1970" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇧🇬 Bulgarie", "score": "5-2", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "7 juin 1970" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇵🇪 Pérou", "score": "3-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "10 juin 1970" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇲🇦 Maroc", "score": "1-1", "winner": null, "date": "11 juin 1970" }
           ]
         },
         {
@@ -1741,6 +2461,14 @@
             { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 5, "qualified": true },
             { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇸🇻 Salvador", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇲🇽 Mexique", "team2": "🇷🇺 URSS", "score": "0-0", "winner": null, "date": "31 mai 1970" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇸🇻 Salvador", "score": "3-0", "winner": "🇧🇪 Belgique", "date": "3 juin 1970" },
+            { "team1": "🇷🇺 URSS", "team2": "🇧🇪 Belgique", "score": "4-1", "winner": "🇷🇺 URSS", "date": "6 juin 1970" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇸🇻 Salvador", "score": "4-0", "winner": "🇲🇽 Mexique", "date": "7 juin 1970" },
+            { "team1": "🇷🇺 URSS", "team2": "🇸🇻 Salvador", "score": "2-0", "winner": "🇷🇺 URSS", "date": "10 juin 1970" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇲🇽 Mexique", "date": "11 juin 1970" }
           ]
         }
       ],
@@ -1787,6 +2515,14 @@
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 2, "qualified": false },
             { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇺🇾 Uruguay", "score": "0-0", "winner": null, "date": "11 juillet 1966" },
+            { "team1": "🇫🇷 France", "team2": "🇲🇽 Mexique", "score": "1-1", "winner": null, "date": "13 juillet 1966" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇫🇷 France", "score": "2-1", "winner": "🇺🇾 Uruguay", "date": "15 juillet 1966" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇲🇽 Mexique", "score": "2-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "16 juillet 1966" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇲🇽 Mexique", "score": "0-0", "winner": null, "date": "19 juillet 1966" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇫🇷 France", "score": "2-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "20 juillet 1966" }
           ]
         },
         {
@@ -1796,6 +2532,14 @@
             { "team": "🇦🇷 Argentine", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇨🇭 Suisse", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 9, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇭 Suisse", "score": "5-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "12 juillet 1966" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇦🇷 Argentine", "date": "13 juillet 1966" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇭 Suisse", "score": "2-1", "winner": "🇪🇸 Espagne", "date": "15 juillet 1966" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "0-0", "winner": null, "date": "16 juillet 1966" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇨🇭 Suisse", "score": "2-0", "winner": "🇦🇷 Argentine", "date": "19 juillet 1966" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "20 juillet 1966" }
           ]
         },
         {
@@ -1805,6 +2549,14 @@
             { "team": "🇭🇺 Hongrie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
             { "team": "🇧🇷 Brésil", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇧🇬 Bulgarie", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "12 juillet 1966" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇭🇺 Hongrie", "score": "3-1", "winner": "🇵🇹 Portugal", "date": "13 juillet 1966" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇧🇷 Brésil", "score": "3-1", "winner": "🇭🇺 Hongrie", "date": "15 juillet 1966" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇧🇬 Bulgarie", "score": "3-0", "winner": "🇵🇹 Portugal", "date": "16 juillet 1966" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇧🇷 Brésil", "score": "3-1", "winner": "🇵🇹 Portugal", "date": "19 juillet 1966" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇧🇬 Bulgarie", "score": "3-1", "winner": "🇭🇺 Hongrie", "date": "20 juillet 1966" }
           ]
         },
         {
@@ -1814,6 +2566,14 @@
             { "team": "🇰🇵 Corée du Nord", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false },
             { "team": "🇨🇱 Chili", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇺 URSS", "team2": "🇰🇵 Corée du Nord", "score": "3-0", "winner": "🇷🇺 URSS", "date": "12 juillet 1966" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇱 Chili", "score": "2-0", "winner": "🇮🇹 Italie", "date": "13 juillet 1966" },
+            { "team1": "🇨🇱 Chili", "team2": "🇰🇵 Corée du Nord", "score": "1-1", "winner": null, "date": "15 juillet 1966" },
+            { "team1": "🇷🇺 URSS", "team2": "🇮🇹 Italie", "score": "1-0", "winner": "🇷🇺 URSS", "date": "16 juillet 1966" },
+            { "team1": "🇰🇵 Corée du Nord", "team2": "🇮🇹 Italie", "score": "1-0", "winner": "🇰🇵 Corée du Nord", "date": "19 juillet 1966" },
+            { "team1": "🇷🇺 URSS", "team2": "🇨🇱 Chili", "score": "2-1", "winner": "🇷🇺 URSS", "date": "20 juillet 1966" }
           ]
         }
       ],
@@ -1860,6 +2620,14 @@
             { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 4, "qualified": true },
             { "team": "🇺🇾 Uruguay", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
             { "team": "🇨🇴 Colombie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 11, "goalDiff": -6, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇨🇴 Colombie", "score": "2-1", "winner": "🇺🇾 Uruguay", "date": "30 mai 1962" },
+            { "team1": "🇷🇺 URSS", "team2": "🇷🇸 Yougoslavie", "score": "2-0", "winner": "🇷🇺 URSS", "date": "31 mai 1962" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇺🇾 Uruguay", "score": "3-1", "winner": "🇷🇸 Yougoslavie", "date": "2 juin 1962" },
+            { "team1": "🇷🇺 URSS", "team2": "🇨🇴 Colombie", "score": "4-4", "winner": null, "date": "3 juin 1962" },
+            { "team1": "🇷🇺 URSS", "team2": "🇺🇾 Uruguay", "score": "2-1", "winner": "🇷🇺 URSS", "date": "6 juin 1962" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇨🇴 Colombie", "score": "5-0", "winner": "🇷🇸 Yougoslavie", "date": "7 juin 1962" }
           ]
         },
         {
@@ -1869,6 +2637,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 3, "qualified": false },
             { "team": "🇨🇭 Suisse", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇱 Chili", "team2": "🇨🇭 Suisse", "score": "3-1", "winner": "🇨🇱 Chili", "date": "30 mai 1962" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇮🇹 Italie", "score": "0-0", "winner": null, "date": "31 mai 1962" },
+            { "team1": "🇨🇱 Chili", "team2": "🇮🇹 Italie", "score": "2-0", "winner": "🇨🇱 Chili", "date": "2 juin 1962" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇭 Suisse", "score": "2-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "3 juin 1962" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇱 Chili", "score": "2-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "6 juin 1962" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇭 Suisse", "score": "3-0", "winner": "🇮🇹 Italie", "date": "7 juin 1962" }
           ]
         },
         {
@@ -1878,6 +2654,14 @@
             { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": true },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇲🇽 Mexique", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "30 mai 1962" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇪🇸 Espagne", "score": "1-0", "winner": "🇨🇿 Tchécoslovaquie", "date": "31 mai 1962" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇿 Tchécoslovaquie", "score": "0-0", "winner": null, "date": "2 juin 1962" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇲🇽 Mexique", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "3 juin 1962" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇧🇷 Brésil", "date": "6 juin 1962" },
+            { "team1": "🇲🇽 Mexique", "team2": "🇨🇿 Tchécoslovaquie", "score": "3-1", "winner": "🇲🇽 Mexique", "date": "7 juin 1962" }
           ]
         },
         {
@@ -1887,6 +2671,14 @@
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 7, "goalDiff": -6, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇷 Argentine", "team2": "🇧🇬 Bulgarie", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "30 mai 1962" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-1", "winner": "🇭🇺 Hongrie", "date": "31 mai 1962" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇦🇷 Argentine", "score": "3-1", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "2 juin 1962" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇧🇬 Bulgarie", "score": "6-1", "winner": "🇭🇺 Hongrie", "date": "3 juin 1962" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇦🇷 Argentine", "score": "0-0", "winner": null, "date": "6 juin 1962" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-0", "winner": null, "date": "7 juin 1962" }
           ]
         }
       ],
@@ -1933,6 +2725,14 @@
             { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 3, "qualified": true },
             { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false },
             { "team": "🇦🇷 Argentine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 10, "goalDiff": -5, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇦🇷 Argentine", "score": "3-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "8 juin 1958" },
+            { "team1": "🇮🇪 Irlande du Nord", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-0", "winner": "🇮🇪 Irlande du Nord", "date": "8 juin 1958" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇿 Tchécoslovaquie", "score": "2-2", "winner": null, "date": "11 juin 1958" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇮🇪 Irlande du Nord", "score": "3-1", "winner": "🇦🇷 Argentine", "date": "11 juin 1958" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇮🇪 Irlande du Nord", "score": "2-2", "winner": null, "date": "15 juin 1958" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇦🇷 Argentine", "score": "6-1", "winner": "🇨🇿 Tchécoslovaquie", "date": "15 juin 1958" }
           ]
         },
         {
@@ -1942,6 +2742,14 @@
             { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 4, "qualified": true },
             { "team": "🇵🇾 Paraguay", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 9, "goalsAgainst": 12, "goalDiff": -3, "points": 3, "qualified": false },
             { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇵🇾 Paraguay", "score": "7-3", "winner": "🇫🇷 France", "date": "8 juin 1958" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "1-1", "winner": null, "date": "8 juin 1958" },
+            { "team1": "🇫🇷 France", "team2": "🇷🇸 Yougoslavie", "score": "2-3", "winner": "🇷🇸 Yougoslavie", "date": "11 juin 1958" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "3-2", "winner": "🇵🇾 Paraguay", "date": "11 juin 1958" },
+            { "team1": "🇫🇷 France", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "2-1", "winner": "🇫🇷 France", "date": "15 juin 1958" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇵🇾 Paraguay", "score": "3-3", "winner": null, "date": "15 juin 1958" }
           ]
         },
         {
@@ -1951,6 +2759,14 @@
             { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 3, "qualified": true },
             { "team": "🇬🇧 Pays de Galles", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇭🇺 Hongrie", "team2": "🇬🇧 Pays de Galles", "score": "1-1", "winner": null, "date": "8 juin 1958" },
+            { "team1": "🇸🇪 Suède", "team2": "🇲🇽 Mexique", "score": "3-0", "winner": "🇸🇪 Suède", "date": "8 juin 1958" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇲🇽 Mexique", "score": "4-0", "winner": "🇭🇺 Hongrie", "date": "12 juin 1958" },
+            { "team1": "🇬🇧 Pays de Galles", "team2": "🇸🇪 Suède", "score": "0-0", "winner": null, "date": "12 juin 1958" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇸🇪 Suède", "score": "1-2", "winner": "🇸🇪 Suède", "date": "15 juin 1958" },
+            { "team1": "🇬🇧 Pays de Galles", "team2": "🇲🇽 Mexique", "score": "1-1", "winner": null, "date": "15 juin 1958" }
           ]
         },
         {
@@ -1960,6 +2776,14 @@
             { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 0, "goalDiff": 4, "points": 5, "qualified": true },
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
             { "team": "🇦🇹 Autriche", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇦🇹 Autriche", "score": "3-0", "winner": "🇧🇷 Brésil", "date": "8 juin 1958" },
+            { "team1": "🇷🇺 URSS", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "2-2", "winner": null, "date": "8 juin 1958" },
+            { "team1": "🇧🇷 Brésil", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-0", "winner": null, "date": "11 juin 1958" },
+            { "team1": "🇷🇺 URSS", "team2": "🇦🇹 Autriche", "score": "2-0", "winner": "🇷🇺 URSS", "date": "11 juin 1958" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇺 URSS", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "15 juin 1958" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇦🇹 Autriche", "score": "2-2", "winner": null, "date": "15 juin 1958" }
           ]
         }
       ],
@@ -2006,6 +2830,12 @@
             { "team": "🇧🇷 Brésil", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 3, "qualified": true },
             { "team": "🇫🇷 France", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 2, "qualified": false },
             { "team": "🇲🇽 Mexique", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇫🇷 France", "score": "1-0", "winner": "🇷🇸 Yougoslavie", "date": "16 juin 1954" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇲🇽 Mexique", "score": "5-0", "winner": "🇧🇷 Brésil", "date": "16 juin 1954" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇸 Yougoslavie", "score": "1-1", "winner": null, "date": "19 juin 1954" },
+            { "team1": "🇫🇷 France", "team2": "🇲🇽 Mexique", "score": "3-2", "winner": "🇫🇷 France", "date": "19 juin 1954" }
           ]
         },
         {
@@ -2015,6 +2845,12 @@
             { "team": "🇩🇪 Allemagne de l'Ouest", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 2, "qualified": true },
             { "team": "🇹🇷 Turquie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 2, "qualified": false },
             { "team": "🇰🇷 Corée du Sud", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 16, "goalDiff": -16, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇭🇺 Hongrie", "team2": "🇰🇷 Corée du Sud", "score": "9-0", "winner": "🇭🇺 Hongrie", "date": "17 juin 1954" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇹🇷 Turquie", "score": "4-1", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "17 juin 1954" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "8-3", "winner": "🇭🇺 Hongrie", "date": "20 juin 1954" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇰🇷 Corée du Sud", "score": "7-0", "winner": "🇹🇷 Turquie", "date": "20 juin 1954" }
           ]
         },
         {
@@ -2024,6 +2860,12 @@
             { "team": "🇦🇹 Autriche", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
             { "team": "🇨🇿 Tchécoslovaquie", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 7, "goalDiff": -7, "points": 0, "qualified": false },
             { "team": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇨🇿 Tchécoslovaquie", "score": "2-0", "winner": "🇺🇾 Uruguay", "date": "16 juin 1954" },
+            { "team1": "🇦🇹 Autriche", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "1-0", "winner": "🇦🇹 Autriche", "date": "16 juin 1954" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Écosse", "score": "7-0", "winner": "🇺🇾 Uruguay", "date": "19 juin 1954" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇨🇿 Tchécoslovaquie", "score": "5-0", "winner": "🇦🇹 Autriche", "date": "19 juin 1954" }
           ]
         },
         {
@@ -2033,6 +2875,12 @@
             { "team": "🇨🇭 Suisse", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 2, "qualified": false },
             { "team": "🇧🇪 Belgique", "played": 2, "won": 0, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇧🇪 Belgique", "score": "4-4", "winner": null, "date": "17 juin 1954" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇮🇹 Italie", "score": "2-1", "winner": "🇨🇭 Suisse", "date": "17 juin 1954" },
+            { "team1": "🇮🇹 Italie", "team2": "🇧🇪 Belgique", "score": "4-1", "winner": "🇮🇹 Italie", "date": "20 juin 1954" },
+            { "team1": "🇨🇭 Suisse", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "0-2", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "20 juin 1954" }
           ]
         }
       ],
@@ -2079,6 +2927,14 @@
             { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 3, "goalDiff": 4, "points": 4, "qualified": true },
             { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 3, "qualified": false },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 10, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇷 Brésil", "team2": "🇲🇽 Mexique", "score": "4-0", "winner": "🇧🇷 Brésil", "date": "24 juin 1950" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇨🇭 Suisse", "score": "3-0", "winner": "🇷🇸 Yougoslavie", "date": "25 juin 1950" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇨🇭 Suisse", "score": "2-2", "winner": null, "date": "28 juin 1950" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇲🇽 Mexique", "score": "4-1", "winner": "🇷🇸 Yougoslavie", "date": "28 juin 1950" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇷🇸 Yougoslavie", "score": "2-0", "winner": "🇧🇷 Brésil", "date": "1 juillet 1950" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇲🇽 Mexique", "score": "2-1", "winner": "🇨🇭 Suisse", "date": "2 juillet 1950" }
           ]
         },
         {
@@ -2088,6 +2944,14 @@
             { "team": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 2, "qualified": false },
             { "team": "🇨🇱 Chili", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 2, "qualified": false },
             { "team": "🇺🇸 États-Unis", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇺🇸 États-Unis", "score": "3-1", "winner": "🇪🇸 Espagne", "date": "25 juin 1950" },
+            { "team1": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "team2": "🇨🇱 Chili", "score": "2-0", "winner": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "date": "25 juin 1950" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "1-0", "winner": "🇺🇸 États-Unis", "date": "29 juin 1950" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇱 Chili", "score": "2-0", "winner": "🇪🇸 Espagne", "date": "29 juin 1950" },
+            { "team1": "🇪🇸 Espagne", "team2": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 Angleterre", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "2 juillet 1950" },
+            { "team1": "🇨🇱 Chili", "team2": "🇺🇸 États-Unis", "score": "5-2", "winner": "🇨🇱 Chili", "date": "2 juillet 1950" }
           ]
         },
         {
@@ -2096,6 +2960,11 @@
             { "team": "🇸🇪 Suède", "played": 2, "won": 1, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 3, "qualified": true },
             { "team": "🇮🇹 Italie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 2, "qualified": false },
             { "team": "🇵🇾 Paraguay", "played": 2, "won": 0, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇸🇪 Suède", "team2": "🇮🇹 Italie", "score": "3-2", "winner": "🇸🇪 Suède", "date": "25 juin 1950" },
+            { "team1": "🇸🇪 Suède", "team2": "🇵🇾 Paraguay", "score": "2-2", "winner": null, "date": "29 juin 1950" },
+            { "team1": "🇮🇹 Italie", "team2": "🇵🇾 Paraguay", "score": "2-0", "winner": "🇮🇹 Italie", "date": "2 juillet 1950" }
           ]
         },
         {
@@ -2103,6 +2972,9 @@
           "standings": [
             { "team": "🇺🇾 Uruguay", "played": 1, "won": 1, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 0, "goalDiff": 8, "points": 2, "qualified": true },
             { "team": "🇧🇴 Bolivie", "played": 1, "won": 0, "drawn": 0, "lost": 1, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇾 Uruguay", "team2": "🇧🇴 Bolivie", "score": "8-0", "winner": "🇺🇾 Uruguay", "date": "2 juillet 1950" }
           ]
         },
         {
@@ -2236,6 +3108,14 @@
             { "team": "🇨🇱 Chili", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": false },
             { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 2, "qualified": false },
             { "team": "🇲🇽 Mexique", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇲🇽 Mexique", "score": "4-1", "winner": "🇫🇷 France", "date": "13 juillet 1930" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇫🇷 France", "score": "1-0", "winner": "🇦🇷 Argentine", "date": "15 juillet 1930" },
+            { "team1": "🇨🇱 Chili", "team2": "🇲🇽 Mexique", "score": "3-0", "winner": "🇨🇱 Chili", "date": "16 juillet 1930" },
+            { "team1": "🇨🇱 Chili", "team2": "🇫🇷 France", "score": "1-0", "winner": "🇨🇱 Chili", "date": "19 juillet 1930" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇲🇽 Mexique", "score": "6-3", "winner": "🇦🇷 Argentine", "date": "19 juillet 1930" },
+            { "team1": "🇦🇷 Argentine", "team2": "🇨🇱 Chili", "score": "3-1", "winner": "🇦🇷 Argentine", "date": "22 juillet 1930" }
           ]
         },
         {
@@ -2244,6 +3124,11 @@
             { "team": "🇷🇸 Yougoslavie", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDiff": 5, "points": 4, "qualified": true },
             { "team": "🇧🇷 Brésil", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 2, "qualified": false },
             { "team": "🇧🇴 Bolivie", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇧🇷 Brésil", "score": "2-1", "winner": "🇷🇸 Yougoslavie", "date": "14 juillet 1930" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇧🇴 Bolivie", "score": "4-0", "winner": "🇷🇸 Yougoslavie", "date": "17 juillet 1930" },
+            { "team1": "🇧🇷 Brésil", "team2": "🇧🇴 Bolivie", "score": "4-0", "winner": "🇧🇷 Brésil", "date": "20 juillet 1930" }
           ]
         },
         {
@@ -2252,6 +3137,11 @@
             { "team": "🇺🇾 Uruguay", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 4, "qualified": true },
             { "team": "🇷🇴 Roumanie", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 2, "qualified": false },
             { "team": "🇵🇪 Pérou", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇴 Roumanie", "team2": "🇵🇪 Pérou", "score": "3-1", "winner": "🇷🇴 Roumanie", "date": "14 juillet 1930" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇵🇪 Pérou", "score": "1-0", "winner": "🇺🇾 Uruguay", "date": "18 juillet 1930" },
+            { "team1": "🇺🇾 Uruguay", "team2": "🇷🇴 Roumanie", "score": "4-0", "winner": "🇺🇾 Uruguay", "date": "21 juillet 1930" }
           ]
         },
         {
@@ -2260,6 +3150,11 @@
             { "team": "🇺🇸 États-Unis", "played": 2, "won": 2, "drawn": 0, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDiff": 6, "points": 4, "qualified": true },
             { "team": "🇵🇾 Paraguay", "played": 2, "won": 1, "drawn": 0, "lost": 1, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 2, "qualified": false },
             { "team": "🇧🇪 Belgique", "played": 2, "won": 0, "drawn": 0, "lost": 2, "goalsFor": 0, "goalsAgainst": 4, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇺🇸 États-Unis", "team2": "🇧🇪 Belgique", "score": "3-0", "winner": "🇺🇸 États-Unis", "date": "13 juillet 1930" },
+            { "team1": "🇺🇸 États-Unis", "team2": "🇵🇾 Paraguay", "score": "3-0", "winner": "🇺🇸 États-Unis", "date": "17 juillet 1930" },
+            { "team1": "🇵🇾 Paraguay", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇵🇾 Paraguay", "date": "20 juillet 1930" }
           ]
         }
       ],

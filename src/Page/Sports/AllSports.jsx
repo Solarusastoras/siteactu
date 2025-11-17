@@ -11,7 +11,9 @@ import NFLLogo from '../../Utils/Img/NFL.png';
 import NHLLogo from '../../Utils/Img/NHL.png';
 import MercatoFootLogo from '../../Utils/Img/MercatoFoot.png';
 import WorldCupLogo from '../../Utils/Img/WorldCup.png';
-
+import LogoCan from '../../Utils/Img/LogoCan.png';
+import EuroLogo from '../../Utils/Img/UEFA_Logo.png';
+import ChampionLeagueLogo from '../../Utils/Img/ChampionsLeague.png';
 
 import {
   MercatoFoot,
@@ -25,7 +27,10 @@ import {
   NHL,
   NFL,
   NBA,
-  WorldCup
+  WorldCup,
+  AfricNationCup,
+  EuropeCup,
+  ChampionLeague
 } from './leagues';
 
 const AllSports = () => {
@@ -56,7 +61,10 @@ const AllSports = () => {
       seriea: <SerieA view={footballView} />,
       bundesliga: <Bundesliga view={footballView} />,
       brasileirao: <Brasileirao view={footballView} />,
-      worldcup: <WorldCup view={footballView} />
+      championleague: <ChampionLeague view={footballView} />,
+      worldcup: <WorldCup view={footballView} />,
+      africnationcup: <AfricNationCup view={footballView} />,
+      europecup: <EuropeCup view={footballView} />
     };
 
     return leagueComponents[footballLeague];
@@ -147,11 +155,29 @@ const AllSports = () => {
             >
               <img src={BrasilLogo} alt="Brasileirão" className="league-logo" />
             </button>
+            <button
+              className={`control-btn ${footballLeague === 'championleague' ? 'active' : ''}`}
+              onClick={() => setFootballLeague('championleague')}
+            >
+              <img src={ChampionLeagueLogo} alt="Champion League" className="league-logo" />
+            </button>
             <button 
               className={`control-btn ${footballLeague === 'worldcup' ? 'active' : ''}`}
               onClick={() => setFootballLeague('worldcup')}
             >
               <img src={WorldCupLogo} alt="World Cup" className="league-logo" />
+            </button>
+            <button 
+              className={`control-btn ${footballLeague === 'africnationcup' ? 'active' : ''}`}
+              onClick={() => setFootballLeague('africnationcup')}
+            >
+              <img src={LogoCan} alt="Africa Cup of Nations" className="league-logo" />
+            </button>
+            <button 
+              className={`control-btn ${footballLeague === 'europecup' ? 'active' : ''}`}
+              onClick={() => setFootballLeague('europecup')}
+            >
+              <img src={EuroLogo} alt="Europe Cup" className="league-logo" />
             </button>
           </div>
         </div>

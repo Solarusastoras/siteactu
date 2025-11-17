@@ -103,6 +103,18 @@ export const brasileiraoConfig = {
   ]
 };
 
+// Configuration Champions League
+export const championsLeagueConfig = {
+  name: 'UEFA Champions League',
+  emoji: '🏆',
+  apiCode: 'uefa.champions',
+  storageKey: 'championsleague',
+  matchTimeRanges: [
+    { day: 2, start: 18 * 60 + 44, end: 23 * 60 + 30 }, // Mardi 18h44-23h30
+    { day: 3, start: 18 * 60 + 44, end: 23 * 60 + 30 }  // Mercredi 18h44-23h30
+  ]
+};
+
 /**
  * Fonction helper pour vérifier si on est dans une plage horaire de match
  */

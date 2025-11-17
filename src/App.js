@@ -1,6 +1,7 @@
 import './App.scss';
 import Home from './Page/Home';
 import Weather from './Page/Weather';
+import Footer from './Common/Footer';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
      
       <Weather />
       <Home />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,2148 @@
+{
+  "currentChampionLeague": {
+    "season": "2025-2026",
+    "year": "2025-2026",
+    "host": "Europe",
+    "startDate": "2025-09-17",
+    "endDate": "2026-05-31",
+    "finalVenue": "Puskás Aréna, Budapest",
+    "totalTeams": 36,
+    "format": "Phase de ligue unique (nouveau format)",
+    "phase": "Phase de ligue",
+    "status": "en_cours",
+    "currentMatchday": 5,
+    "matchesPlayed": 0,
+    "totalMatches": 189,
+    "currentMatches": [
+      { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Real Madrid", "date": "2025-11-27", "time": "21:00", "status": "À venir" },
+      { "team1": "🇩🇪 Bayern Munich", "team2": "🇫🇷 Paris Saint-Germain", "date": "2025-11-26", "time": "21:00", "status": "À venir" },
+      { "team1": "🇪🇸 FC Barcelona", "team2": "🇩🇪 Borussia Dortmund", "date": "2025-11-27", "time": "21:00", "status": "À venir" },
+      { "team1": "🇮🇹 Inter Milan", "team2": "🇩🇪 RB Leipzig", "date": "2025-11-26", "time": "21:00", "status": "À venir" },
+      { "team1": "🇬🇧 Arsenal FC", "team2": "🇫🇷 AS Monaco", "date": "2025-11-26", "time": "18:45", "status": "À venir" },
+      { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇨🇭 BSC Young Boys", "date": "2025-11-26", "time": "18:45", "status": "À venir" },
+      { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇦🇹 RB Salzbourg", "date": "2025-11-26", "time": "18:45", "status": "À venir" },
+      { "team1": "🇬🇧 Aston Villa", "team2": "🇮🇹 Juventus FC", "date": "2025-11-27", "time": "21:00", "status": "À venir" },
+      { "team1": "🇧🇪 Club Bruges", "team2": "🇬🇧 Celtic FC", "date": "2025-11-27", "time": "18:45", "status": "À venir" }
+    ],
+    "nextMatches": [
+      { "team1": "🇩🇪 Bayern Munich", "team2": "🇩🇪 Bayer Leverkusen", "date": "2025-12-10", "time": "21:00", "status": "À venir" },
+      { "team1": "🇮🇹 Inter Milan", "team2": "🇩🇪 Bayer Leverkusen", "date": "2025-12-10", "time": "21:00", "status": "À venir" },
+      { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Girona FC", "date": "2025-12-10", "time": "21:00", "status": "À venir" },
+      { "team1": "🇫🇷 LOSC Lille", "team2": "🇦🇹 Sturm Graz", "date": "2025-12-11", "time": "18:45", "status": "À venir" },
+      { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇸🇰 Slovan Bratislava", "date": "2025-12-11", "time": "21:00", "status": "À venir" },
+      { "team1": "🇪🇸 FC Barcelona", "team2": "🇫🇷 Stade Brestois", "date": "2025-12-10", "time": "18:45", "status": "À venir" },
+      { "team1": "🇪🇸 Real Madrid", "team2": "🇮🇹 Atalanta Bergame", "date": "2025-12-10", "time": "21:00", "status": "À venir" },
+      { "team1": "🇬🇧 Manchester City", "team2": "🇮🇹 Juventus FC", "date": "2025-12-11", "time": "21:00", "status": "À venir" },
+      { "team1": "🇵🇹 Sporting CP", "team2": "🇧🇪 Club Bruges", "date": "2025-12-10", "time": "18:45", "status": "À venir" }
+    ],
+    "standings": [
+      { "rank": 1, "team": "🇬🇧 Liverpool FC", "played": 4, "won": 4, "drawn": 0, "lost": 0, "goalsFor": 10, "goalsAgainst": 1, "goalDifference": 9, "points": 12 },
+      { "rank": 2, "team": "🇵🇹 Sporting CP", "played": 4, "won": 3, "drawn": 1, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDifference": 7, "points": 10 },
+      { "rank": 3, "team": "🇫🇷 AS Monaco", "played": 4, "won": 3, "drawn": 1, "lost": 0, "goalsFor": 10, "goalsAgainst": 4, "goalDifference": 6, "points": 10 },
+      { "rank": 4, "team": "🇩🇪 Bayer Leverkusen", "played": 4, "won": 3, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 1, "goalDifference": 5, "points": 10 },
+      { "rank": 5, "team": "🇮🇹 Inter Milan", "played": 4, "won": 3, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 0, "goalDifference": 6, "points": 10 },
+      { "rank": 6, "team": "🇪🇸 FC Barcelona", "played": 4, "won": 3, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 5, "goalDifference": 10, "points": 9 },
+      { "rank": 7, "team": "🇩🇪 Borussia Dortmund", "played": 4, "won": 3, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDifference": 7, "points": 9 },
+      { "rank": 8, "team": "🇬🇧 Aston Villa", "played": 4, "won": 3, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 1, "goalDifference": 5, "points": 9 },
+      { "rank": 9, "team": "🇮🇹 Atalanta Bergame", "played": 4, "won": 2, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDifference": 5, "points": 8 },
+      { "rank": 10, "team": "🇬🇧 Manchester City", "played": 4, "won": 2, "drawn": 1, "lost": 1, "goalsFor": 10, "goalsAgainst": 4, "goalDifference": 6, "points": 7 },
+      { "rank": 11, "team": "🇮🇹 Juventus FC", "played": 4, "won": 2, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDifference": 2, "points": 7 },
+      { "rank": 12, "team": "🇬🇧 Arsenal FC", "played": 4, "won": 2, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDifference": 2, "points": 7 },
+      { "rank": 13, "team": "🇫🇷 LOSC Lille", "played": 4, "won": 2, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDifference": 1, "points": 7 },
+      { "rank": 14, "team": "🇩🇪 Bayern Munich", "played": 4, "won": 2, "drawn": 0, "lost": 2, "goalsFor": 11, "goalsAgainst": 7, "goalDifference": 4, "points": 6 },
+      { "rank": 15, "team": "🇵🇹 Benfica Lisbonne", "played": 4, "won": 2, "drawn": 0, "lost": 2, "goalsFor": 7, "goalsAgainst": 5, "goalDifference": 2, "points": 6 },
+      { "rank": 16, "team": "🇪🇸 Atlético de Madrid", "played": 4, "won": 2, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 9, "goalDifference": -4, "points": 6 },
+      { "rank": 17, "team": "🇮🇹 AC Milan", "played": 4, "won": 2, "drawn": 0, "lost": 2, "goalsFor": 7, "goalsAgainst": 6, "goalDifference": 1, "points": 6 },
+      { "rank": 18, "team": "🇧🇪 Club Bruges", "played": 4, "won": 2, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDifference": -3, "points": 6 },
+      { "rank": 19, "team": "🇫🇷 Paris Saint-Germain", "played": 4, "won": 1, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 5, "goalDifference": -2, "points": 5 },
+      { "rank": 20, "team": "🇳🇱 PSV Eindhoven", "played": 4, "won": 1, "drawn": 2, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDifference": 2, "points": 5 },
+      { "rank": 21, "team": "🇭🇷 Dinamo Zagreb", "played": 4, "won": 1, "drawn": 1, "lost": 2, "goalsFor": 10, "goalsAgainst": 12, "goalDifference": -2, "points": 4 },
+      { "rank": 22, "team": "🇩🇪 VfB Stuttgart", "played": 4, "won": 1, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDifference": -3, "points": 4 },
+      { "rank": 23, "team": "🇺🇦 Shakhtar Donetsk", "played": 4, "won": 1, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDifference": -3, "points": 4 },
+      { "rank": 24, "team": "🇨🇿 Sparta Prague", "played": 4, "won": 1, "drawn": 1, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDifference": -3, "points": 4 },
+      { "rank": 25, "team": "🇩🇪 RB Leipzig", "played": 4, "won": 1, "drawn": 0, "lost": 3, "goalsFor": 4, "goalsAgainst": 9, "goalDifference": -5, "points": 3 },
+      { "rank": 26, "team": "🇳🇱 Feyenoord Rotterdam", "played": 4, "won": 1, "drawn": 0, "lost": 3, "goalsFor": 7, "goalsAgainst": 10, "goalDifference": -3, "points": 3 },
+      { "rank": 27, "team": "🇬🇧 Celtic FC", "played": 4, "won": 1, "drawn": 0, "lost": 3, "goalsFor": 9, "goalsAgainst": 9, "goalDifference": 0, "points": 3 },
+      { "rank": 28, "team": "🇪🇸 Real Madrid", "played": 4, "won": 1, "drawn": 0, "lost": 3, "goalsFor": 9, "goalsAgainst": 11, "goalDifference": -2, "points": 3 },
+      { "rank": 29, "team": "🇮🇹 Bologna FC", "played": 4, "won": 0, "drawn": 1, "lost": 3, "goalsFor": 0, "goalsAgainst": 5, "goalDifference": -5, "points": 1 },
+      { "rank": 30, "team": "🇫🇷 Stade Brestois", "played": 4, "won": 1, "drawn": 0, "lost": 3, "goalsFor": 4, "goalsAgainst": 8, "goalDifference": -4, "points": 3 },
+      { "rank": 31, "team": "🇪🇸 Girona FC", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 4, "goalsAgainst": 8, "goalDifference": -4, "points": 0 },
+      { "rank": 32, "team": "🇦🇹 Sturm Graz", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 1, "goalsAgainst": 6, "goalDifference": -5, "points": 0 },
+      { "rank": 33, "team": "🇦🇹 RB Salzbourg", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 3, "goalsAgainst": 15, "goalDifference": -12, "points": 0 },
+      { "rank": 34, "team": "🇷🇸 Étoile rouge de Belgrade", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 4, "goalsAgainst": 16, "goalDifference": -12, "points": 0 },
+      { "rank": 35, "team": "🇸🇰 Slovan Bratislava", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 2, "goalsAgainst": 15, "goalDifference": -13, "points": 0 },
+      { "rank": 36, "team": "🇨🇭 BSC Young Boys", "played": 4, "won": 0, "drawn": 0, "lost": 4, "goalsFor": 1, "goalsAgainst": 11, "goalDifference": -10, "points": 0 }
+    ]
+  },
+  "pastChampionLeagues": [
+    {
+      "season": "2024-2025",
+      "year": "24-25",
+      "winner": "🇫🇷 Paris Saint-Germain",
+      "runnerUp": "🇮🇹 Inter Milan",
+      "finalScore": "5-0",
+      "finalVenue": "Fußball Arena München, Munich",
+      "topScorer": "Robert Lewandowski (12 buts)",
+      "bestPlayer": "Achraf Hakimi",
+      "totalTeams": 36
+    },
+    {
+      "season": "2023-2024",
+      "year": "23-24",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇩🇪 Borussia Dortmund",
+      "finalScore": "2-0",
+      "finalVenue": "Wembley Stadium",
+      "topScorer": "Harry Kane (8 buts)",
+      "bestPlayer": "Vinícius Júnior",
+      "totalTeams": 32
+    },
+    {
+      "season": "2022-2023",
+      "year": "22-23",
+      "winner": "🇬🇧 Manchester City",
+      "runnerUp": "🇮🇹 Inter Milan",
+      "finalScore": "1-0",
+      "finalVenue": "Atatürk Olympic Stadium",
+      "topScorer": "Erling Haaland (12 buts)",
+      "bestPlayer": "Erling Haaland",
+      "totalTeams": 32
+    },
+    {
+      "season": "2021-2022",
+      "year": "21-22",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇬🇧 Liverpool",
+      "finalScore": "1-0",
+      "finalVenue": "Stade de France",
+      "topScorer": "Karim Benzema (15 buts)",
+      "bestPlayer": "Karim Benzema",
+      "totalTeams": 32
+    },
+    {
+      "season": "2020-2021",
+      "year": "20-21",
+      "winner": "🇬🇧 Chelsea",
+      "runnerUp": "🇬🇧 Manchester City",
+      "finalScore": "1-0",
+      "finalVenue": "Estádio do Dragão",
+      "topScorer": "Erling Haaland (10 buts)",
+      "bestPlayer": "N'Golo Kanté",
+      "totalTeams": 32
+    },
+    {
+      "season": "2019-2020",
+      "year": "19-20",
+      "winner": "🇩🇪 Bayern Munich",
+      "runnerUp": "🇫🇷 Paris Saint-Germain",
+      "finalScore": "1-0",
+      "finalVenue": "Estádio da Luz",
+      "topScorer": "Robert Lewandowski (15 buts)",
+      "bestPlayer": "Robert Lewandowski",
+      "totalTeams": 32
+    },
+    {
+      "season": "2018-2019",
+      "year": "18-19",
+      "winner": "🇬🇧 Liverpool",
+      "runnerUp": "🇬🇧 Tottenham",
+      "finalScore": "2-0",
+      "finalVenue": "Wanda Metropolitano",
+      "topScorer": "Lionel Messi (12 buts)",
+      "bestPlayer": "Virgil van Dijk",
+      "totalTeams": 32
+    },
+    {
+      "season": "2017-2018",
+      "year": "17-18",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇬🇧 Liverpool",
+      "finalScore": "3-1",
+      "finalVenue": "NSC Olimpiyskiy",
+      "topScorer": "Cristiano Ronaldo (15 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "totalTeams": 32
+    },
+    {
+      "season": "2016-2017",
+      "year": "16-17",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇮🇹 Juventus",
+      "finalScore": "4-1",
+      "finalVenue": "Millennium Stadium",
+      "topScorer": "Cristiano Ronaldo (12 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "totalTeams": 32
+    },
+    {
+      "season": "2015-2016",
+      "year": "15-16",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇪🇸 Atlético Madrid",
+      "finalScore": "1-1 (5-3 t.a.b.)",
+      "finalVenue": "San Siro",
+      "topScorer": "Cristiano Ronaldo (16 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "totalTeams": 32
+    },
+    {
+      "season": "2014-2015",
+      "year": "14-15",
+      "winner": "🇪🇸 Barcelona",
+      "runnerUp": "🇮🇹 Juventus",
+      "finalScore": "3-1",
+      "finalVenue": "Olympiastadion Berlin",
+      "topScorer": "Lionel Messi, Cristiano Ronaldo, Neymar (10 buts)",
+      "bestPlayer": "Lionel Messi",
+      "totalTeams": 32
+    }
+  ],
+  "detailedEditions": {
+    "2024-2025": {
+      "season": "2024-2025",
+      "year": "2024-2025",
+      "host": "Europe",
+      "winner": "🇫🇷 Paris Saint-Germain",
+      "runnerUp": "🇮🇹 Inter Milan",
+      "third": "🇪🇸 FC Barcelone",
+      "totalTeams": 36,
+      "topScorer": "Robert Lewandowski (12 buts)",
+      "bestPlayer": "Achraf Hakimi",
+      "finalVenue": "Fußball Arena München, Munich",
+      "finalScore": "5-0",
+      "venue": "Fußball Arena München, Munich",
+      "groupStage": [
+        {
+          "name": "Phase de Ligue",
+          "standings": [
+            { "team": "🇬🇧 Liverpool FC", "played": 8, "won": 7, "drawn": 0, "lost": 1, "goalsFor": 17, "goalsAgainst": 5, "goalDiff": 12, "points": 21, "qualified": true },
+            { "team": "🇪🇸 FC Barcelona", "played": 8, "won": 6, "drawn": 1, "lost": 1, "goalsFor": 28, "goalsAgainst": 13, "goalDiff": 15, "points": 19, "qualified": true },
+            { "team": "🇬🇧 Arsenal FC", "played": 8, "won": 6, "drawn": 1, "lost": 1, "goalsFor": 16, "goalsAgainst": 3, "goalDiff": 13, "points": 19, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 8, "won": 6, "drawn": 1, "lost": 1, "goalsFor": 11, "goalsAgainst": 1, "goalDiff": 10, "points": 19, "qualified": true },
+            { "team": "🇪🇸 Atlético de Madrid", "played": 8, "won": 6, "drawn": 0, "lost": 2, "goalsFor": 20, "goalsAgainst": 12, "goalDiff": 8, "points": 18, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 8, "won": 5, "drawn": 1, "lost": 2, "goalsFor": 15, "goalsAgainst": 7, "goalDiff": 8, "points": 16, "qualified": true },
+            { "team": "🇫🇷 LOSC Lille", "played": 8, "won": 5, "drawn": 1, "lost": 2, "goalsFor": 17, "goalsAgainst": 10, "goalDiff": 7, "points": 16, "qualified": true },
+            { "team": "🇬🇧 Aston Villa", "played": 8, "won": 5, "drawn": 1, "lost": 2, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 16, "qualified": true },
+            { "team": "🇮🇹 Atalanta Bergame", "played": 8, "won": 4, "drawn": 3, "lost": 1, "goalsFor": 20, "goalsAgainst": 6, "goalDiff": 14, "points": 15, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 8, "won": 5, "drawn": 0, "lost": 3, "goalsFor": 22, "goalsAgainst": 12, "goalDiff": 10, "points": 15, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 8, "won": 5, "drawn": 0, "lost": 3, "goalsFor": 20, "goalsAgainst": 12, "goalDiff": 8, "points": 15, "qualified": true },
+            { "team": "🇩🇪 Bayern Munich", "played": 8, "won": 5, "drawn": 0, "lost": 3, "goalsFor": 20, "goalsAgainst": 12, "goalDiff": 8, "points": 15, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 8, "won": 5, "drawn": 0, "lost": 3, "goalsFor": 14, "goalsAgainst": 11, "goalDiff": 3, "points": 15, "qualified": true },
+            { "team": "🇳🇱 PSV Eindhoven", "played": 8, "won": 4, "drawn": 2, "lost": 2, "goalsFor": 16, "goalsAgainst": 12, "goalDiff": 4, "points": 14, "qualified": true },
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 8, "won": 4, "drawn": 1, "lost": 3, "goalsFor": 14, "goalsAgainst": 9, "goalDiff": 5, "points": 13, "qualified": true },
+            { "team": "🇵🇹 Benfica Lisbonne", "played": 8, "won": 4, "drawn": 1, "lost": 3, "goalsFor": 16, "goalsAgainst": 12, "goalDiff": 4, "points": 13, "qualified": true },
+            { "team": "🇫🇷 AS Monaco", "played": 8, "won": 4, "drawn": 1, "lost": 3, "goalsFor": 13, "goalsAgainst": 13, "goalDiff": 0, "points": 13, "qualified": true },
+            { "team": "🇫🇷 Stade Brestois", "played": 8, "won": 4, "drawn": 1, "lost": 3, "goalsFor": 10, "goalsAgainst": 11, "goalDiff": -1, "points": 13, "qualified": true },
+            { "team": "🇳🇱 Feyenoord Rotterdam", "played": 8, "won": 4, "drawn": 1, "lost": 3, "goalsFor": 18, "goalsAgainst": 21, "goalDiff": -3, "points": 13, "qualified": false },
+            { "team": "🇮🇹 Juventus FC", "played": 8, "won": 3, "drawn": 3, "lost": 2, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 12, "qualified": false },
+            { "team": "🇬🇧 Celtic FC", "played": 8, "won": 3, "drawn": 3, "lost": 2, "goalsFor": 13, "goalsAgainst": 14, "goalDiff": -1, "points": 12, "qualified": false },
+            { "team": "🇬🇧 Manchester City", "played": 8, "won": 3, "drawn": 2, "lost": 3, "goalsFor": 18, "goalsAgainst": 14, "goalDiff": 4, "points": 11, "qualified": false },
+            { "team": "🇵🇹 Sporting CP", "played": 8, "won": 3, "drawn": 2, "lost": 3, "goalsFor": 13, "goalsAgainst": 12, "goalDiff": 1, "points": 11, "qualified": false },
+            { "team": "🇧🇪 Club Bruges", "played": 8, "won": 3, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 11, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 8, "won": 3, "drawn": 2, "lost": 3, "goalsFor": 12, "goalsAgainst": 19, "goalDiff": -7, "points": 11, "qualified": false },
+            { "team": "🇩🇪 VfB Stuttgart", "played": 8, "won": 3, "drawn": 1, "lost": 4, "goalsFor": 13, "goalsAgainst": 17, "goalDiff": -4, "points": 10, "qualified": false },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 8, "won": 2, "drawn": 1, "lost": 5, "goalsFor": 8, "goalsAgainst": 16, "goalDiff": -8, "points": 7, "qualified": false },
+            { "team": "🇮🇹 Bologne FC", "played": 8, "won": 1, "drawn": 3, "lost": 4, "goalsFor": 4, "goalsAgainst": 9, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇷🇸 Étoile rouge de Belgrade", "played": 8, "won": 2, "drawn": 0, "lost": 6, "goalsFor": 13, "goalsAgainst": 22, "goalDiff": -9, "points": 6, "qualified": false },
+            { "team": "🇦🇹 Sturm Graz", "played": 8, "won": 2, "drawn": 0, "lost": 6, "goalsFor": 5, "goalsAgainst": 14, "goalDiff": -9, "points": 6, "qualified": false },
+            { "team": "🇨🇿 Sparta Prague", "played": 8, "won": 1, "drawn": 1, "lost": 6, "goalsFor": 7, "goalsAgainst": 21, "goalDiff": -14, "points": 4, "qualified": false },
+            { "team": "🇩🇪 RB Leipzig", "played": 8, "won": 1, "drawn": 0, "lost": 7, "goalsFor": 8, "goalsAgainst": 15, "goalDiff": -7, "points": 3, "qualified": false },
+            { "team": "🇪🇸 Girona FC", "played": 8, "won": 1, "drawn": 0, "lost": 7, "goalsFor": 5, "goalsAgainst": 13, "goalDiff": -8, "points": 3, "qualified": false },
+            { "team": "🇦🇹 RB Salzbourg", "played": 8, "won": 1, "drawn": 0, "lost": 7, "goalsFor": 5, "goalsAgainst": 27, "goalDiff": -22, "points": 3, "qualified": false },
+            { "team": "🇸🇰 Slovan Bratislava", "played": 8, "won": 0, "drawn": 0, "lost": 8, "goalsFor": 7, "goalsAgainst": 27, "goalDiff": -20, "points": 0, "qualified": false },
+            { "team": "🇨🇭 BSC Young Boys", "played": 8, "won": 0, "drawn": 0, "lost": 8, "goalsFor": 3, "goalsAgainst": 24, "goalDiff": -21, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇮🇹 AC Milan", "score": "3-1" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇩🇪 RB Leipzig", "score": "1-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇩🇪 Bayer Leverkusen", "score": "4-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Real Madrid", "score": "2-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇳🇱 PSV Eindhoven", "score": "3-2" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Girona FC", "score": "1-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇫🇷 LOSC Lille", "score": "2-1" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇬🇧 Liverpool FC", "score": "0-3" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇬🇧 Manchester City", "score": "4-1" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇨🇭 BSC Young Boys", "score": "5-0" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇩🇪 Bayern Munich", "score": "4-1" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "5-2" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇵🇹 Benfica Lisbonne", "score": "5-4" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇩🇪 Borussia Dortmund", "score": "3-2" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇪🇸 FC Barcelona", "score": "0-3" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇮🇹 Atalanta Bergame", "score": "2-2" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇫🇷 Paris Saint-Germain", "score": "2-0" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇺🇦 Shakhtar Donetsk", "score": "1-0" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇵🇹 Sporting CP", "score": "5-1" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇫🇷 AS Monaco", "score": "3-0" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇭🇷 Dinamo Zagreb", "score": "3-0" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇮🇹 Inter Milan", "score": "0-1" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇪🇸 Girona FC", "score": "2-1" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇬🇧 Arsenal FC", "score": "0-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇩🇪 RB Leipzig", "score": "1-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇬🇧 Manchester City", "score": "0-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "4-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇨🇭 BSC Young Boys", "score": "1-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇪🇸 FC Barcelona", "score": "1-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇩🇪 Bayer Leverkusen", "score": "6-0" },
+            { "team1": "🇮🇹 Inter Milan", "team2": "🇫🇷 AS Monaco", "score": "3-0" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇩🇪 RB Leipzig", "score": "2-1" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇵🇹 Benfica Lisbonne", "score": "4-0" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇫🇷 LOSC Lille", "score": "3-1" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-2" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇩🇪 Bayer Leverkusen", "score": "1-2" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇨🇿 Sparta Prague", "score": "6-0" },
+            { "team1": "🇪🇸 Atlético de Madrid", "team2": "🇸🇰 Slovan Bratislava", "score": "3-1" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇪🇸 Atlético de Madrid", "score": "1-4" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "4-0" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇮🇹 AC Milan", "score": "1-0" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇦🇹 RB Salzbourg", "score": "5-0" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇪🇸 Atlético de Madrid", "score": "2-1" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇨🇭 Sturm Graz", "score": "1-0" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇮🇹 Inter Milan", "score": "0-6" },
+            { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇨🇿 Sparta Prague", "score": "2-1" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇩🇪 Bayer Leverkusen", "score": "4-0" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇨🇿 Slavia Prague", "score": "2-1" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇪🇸 Real Madrid", "score": "1-0" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇪🇸 Atlético de Madrid", "score": "1-3" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇮🇹 Juventus FC", "score": "1-1" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇮🇹 Bologna FC", "score": "2-1" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇩🇪 VfB Stuttgart", "score": "1-0" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "6-1" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇫🇷 LOSC Lille", "score": "2-1" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇨🇭 BSC Young Boys", "score": "3-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇩🇪 Bayern Munich", "score": "1-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇮🇹 Bologna FC", "score": "2-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇧🇪 Club Bruges", "score": "1-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇮🇹 Juventus FC", "score": "0-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇫🇷 AS Monaco", "score": "1-0" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "1-0" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇬🇧 Aston Villa", "score": "0-3" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇦🇹 RB Salzbourg", "score": "6-1" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇺🇦 Shakhtar Donetsk", "score": "3-0" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇩🇪 VfB Stuttgart", "score": "2-0" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇪🇸 Real Madrid", "score": "2-3" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇪🇸 FC Barcelona", "score": "2-2" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇨🇭 BSC Young Boys", "score": "6-1" },
+            { "team1": "🇮🇹 Atalanta Bergame", "team2": "🇨🇭 Sturm Graz", "score": "5-0" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇮🇹 Atalanta Bergame", "score": "2-2" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇧🇪 Club Bruges", "score": "3-0" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇬🇧 Celtic FC", "score": "7-1" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇦🇹 Sturm Graz", "score": "5-0" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇪🇸 FC Barcelona", "score": "2-3" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇭🇷 Dinamo Zagreb", "score": "3-0" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇺🇦 Shakhtar Donetsk", "score": "2-1" },
+            { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇮🇹 Bologna FC", "score": "2-1" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Borussia Dortmund", "score": "2-5" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 VfB Stuttgart", "score": "1-3" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇫🇷 LOSC Lille", "score": "0-1" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇮🇹 AC Milan", "score": "1-3" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇮🇹 Atalanta Bergame", "score": "3-2" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇦🇹 RB Salzbourg", "score": "5-1" },
+            { "team1": "🇪🇸 Real Madrid", "team2": "🇫🇷 Stade Brestois", "score": "3-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Real Madrid", "score": "2-0" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇭🇷 Dinamo Zagreb", "score": "9-2" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇵🇹 Benfica Lisbonne", "score": "1-0" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-0" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇪🇸 FC Barcelona", "score": "1-4" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇺🇦 Shakhtar Donetsk", "score": "1-1" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "3-0" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇸🇰 Slovan Bratislava", "score": "3-1" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇩🇪 Bayern Munich", "score": "1-0" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇧🇪 Club Bruges", "score": "3-1" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇩🇪 Bayer Leverkusen", "score": "0-1" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "2-1" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇪🇸 Real Madrid", "score": "3-1" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇸🇰 Slovan Bratislava", "score": "3-2" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇭🇷 Dinamo Zagreb", "score": "1-0" },
+            { "team1": "🇮🇹 AC Milan", "team2": "🇪🇸 Girona FC", "score": "1-0" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇮🇹 AC Milan", "score": "3-1" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇮🇹 Juventus FC", "score": "3-1" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇵🇹 Sporting CP", "score": "1-1" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇪🇸 Girona FC", "score": "4-0" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇺🇦 Shakhtar Donetsk", "score": "3-2" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "3-2" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇫🇷 Stade Brestois", "score": "1-0" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇩🇪 VfB Stuttgart", "score": "1-1" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇳🇱 PSV Eindhoven", "score": "3-2" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Girona FC", "score": "1-0" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Arsenal FC", "score": "0-2" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇳🇱 PSV Eindhoven", "score": "1-1" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Atlético de Madrid", "score": "2-1" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇩🇪 Bayern Munich", "score": "0-1" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇦🇹 RB Salzbourg", "score": "3-0" },
+            { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Manchester City", "score": "4-2" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-4" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "2-1" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇪🇸 Atlético de Madrid", "score": "0-4" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇮🇹 Bologna FC", "score": "0-0" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇫🇷 AS Monaco", "score": "2-3" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇩🇪 Bayern Munich", "score": "0-1" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇪🇸 FC Barcelona", "score": "4-5" },
+            { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇭🇷 Dinamo Zagreb", "score": "3-0" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇵🇹 Benfica Lisbonne", "score": "0-2" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇪🇸 FC Barcelona", "score": "1-2" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇭🇷 Dinamo Zagreb", "score": "2-2" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "5-1" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇵🇹 Benfica Lisbonne", "score": "3-2" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇮🇹 Bologna FC", "score": "1-0" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇮🇹 Inter Milan", "score": "0-3" },
+            { "team1": "🇫🇷 AS Monaco", "team2": "🇬🇧 Aston Villa", "score": "0-1" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇫🇷 AS Monaco", "score": "3-0" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇦🇹 Sturm Graz", "score": "2-1" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇦🇹 RB Salzbourg", "score": "0-4" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇺🇦 Shakhtar Donetsk", "score": "2-0" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇨🇿 Sparta Prague", "score": "2-1" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇳🇱 PSV Eindhoven", "score": "0-1" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇪🇸 FC Barcelona", "score": "0-3" },
+            { "team1": "🇫🇷 Stade Brestois", "team2": "🇪🇸 Real Madrid", "score": "0-3" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇫🇷 Stade Brestois", "score": "1-0" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇩🇪 Bayer Leverkusen", "score": "0-4" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇬🇧 Manchester City", "score": "3-3" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇵🇹 Benfica Lisbonne", "score": "3-1" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇦🇹 RB Salzbourg", "score": "1-3" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇩🇪 Bayern Munich", "score": "0-3" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇨🇿 Sparta Prague", "score": "4-2" },
+            { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇫🇷 LOSC Lille", "score": "1-6" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "1-4" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇳🇱 PSV Eindhoven", "score": "1-3" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇩🇪 RB Leipzig", "score": "3-2" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇩🇪 VfB Stuttgart", "score": "1-0" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇫🇷 LOSC Lille", "score": "1-1" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇬🇧 Aston Villa", "score": "0-0" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇵🇹 Benfica Lisbonne", "score": "0-2" },
+            { "team1": "🇮🇹 Juventus FC", "team2": "🇬🇧 Manchester City", "score": "2-0" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇮🇹 Juventus FC", "score": "0-0" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇸🇰 Slovan Bratislava", "score": "5-1" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇩🇪 RB Leipzig", "score": "3-1" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇩🇪 Borussia Dortmund", "score": "1-7" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇧🇪 Club Bruges", "score": "1-1" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇭🇷 Dinamo Zagreb", "score": "0-0" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇨🇭 BSC Young Boys", "score": "1-0" },
+            { "team1": "🇬🇧 Celtic FC", "team2": "🇪🇸 Atlético de Madrid", "score": "1-6" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇬🇧 Celtic FC", "score": "5-1" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇮🇹 Inter Milan", "score": "0-0" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇸🇰 Slovan Bratislava", "score": "4-0" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇨🇿 Sparta Prague", "score": "5-0" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "3-3" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇮🇹 Juventus FC", "score": "0-2" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇫🇷 Paris Saint-Germain", "score": "2-4" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇧🇪 Club Bruges", "score": "3-1" },
+            { "team1": "🇪🇸 FC Barcelona", "team2": "🇬🇧 Manchester City", "score": "4-1" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇫🇷 LOSC Lille", "score": "1-1" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇳🇱 PSV Eindhoven", "score": "1-1" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇬🇧 Manchester City", "score": "4-1" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇬🇧 Arsenal FC", "score": "1-5" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇩🇪 RB Leipzig", "score": "1-2" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇮🇹 Bologna FC", "score": "2-1" },
+            { "team1": "🇵🇹 Sporting CP", "team2": "🇧🇪 Club Bruges", "score": "2-1" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇵🇹 Sporting CP", "score": "5-1" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇩🇪 Borussia Dortmund", "score": "0-3" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇦🇹 Sturm Graz", "score": "1-0" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇮🇹 AC Milan", "score": "1-3" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇬🇧 Aston Villa", "score": "0-1" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇬🇧 Celtic FC", "score": "1-1" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇵🇹 Sporting CP", "score": "1-2" },
+            { "team1": "🇧🇪 Club Bruges", "team2": "🇮🇹 Juventus FC", "score": "0-0" },
+            { "team1": "🇬🇧 Manchester City", "team2": "🇧🇪 Club Bruges", "score": "3-1" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇩🇪 Bayern Munich", "score": "2-9" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇫🇷 AS Monaco", "score": "2-2" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇩🇪 Borussia Dortmund", "score": "0-3" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇬🇧 Celtic FC", "score": "0-0" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇮🇹 AC Milan", "score": "0-1" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇵🇹 Benfica Lisbonne", "score": "0-3" },
+            { "team1": "🇭🇷 Dinamo Zagreb", "team2": "🇸🇰 Slovan Bratislava", "score": "4-1" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇭🇷 Dinamo Zagreb", "score": "3-0" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇪🇸 Real Madrid", "score": "3-1" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇮🇹 Atalanta Bergame", "score": "0-2" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇮🇹 Juventus FC", "score": "0-1" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇵🇹 Sporting CP", "score": "5-1" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇬🇧 Celtic FC", "score": "5-1" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-4" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇫🇷 LOSC Lille", "score": "0-1" },
+            { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇩🇪 VfB Stuttgart", "score": "1-1" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇮🇹 Atalanta Bergame", "score": "0-3" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇧🇪 Club Bruges", "score": "0-1" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇩🇪 Bayern Munich", "score": "1-1" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇳🇱 PSV Eindhoven", "score": "2-3" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇩🇪 Borussia Dortmund", "score": "1-2" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇫🇷 Stade Brestois", "score": "0-2" },
+            { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇮🇹 Bologna FC", "score": "1-0" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇺🇦 Shakhtar Donetsk", "score": "1-0" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇺🇦 Shakhtar Donetsk", "score": "0-1" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇬🇧 Aston Villa", "score": "0-2" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇫🇷 LOSC Lille", "score": "1-2" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇵🇹 Benfica Lisbonne", "score": "0-0" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇫🇷 AS Monaco", "score": "0-1" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇩🇪 Borussia Dortmund", "score": "1-2" },
+            { "team1": "🇮🇹 Bologna FC", "team2": "🇵🇹 Sporting CP", "score": "1-2" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇮🇹 Bologna FC", "score": "2-1" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇵🇹 Benfica Lisbonne", "score": "1-2" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇮🇹 Inter Milan", "score": "0-4" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇫🇷 AS Monaco", "score": "1-5" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇪🇸 FC Barcelona", "score": "2-5" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇳🇱 PSV Eindhoven", "score": "2-3" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇮🇹 AC Milan", "score": "1-2" },
+            { "team1": "🇷🇸 Étoile rouge de Belgrade", "team2": "🇩🇪 VfB Stuttgart", "score": "5-1" },
+            { "team1": "🇬🇧 Aston Villa", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "1-0" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇫🇷 Stade Brestois", "score": "1-2" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇧🇪 Club Bruges", "score": "0-1" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇩🇪 Borussia Dortmund", "score": "0-5" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇮🇹 Atalanta Bergame", "score": "0-5" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇩🇪 RB Leipzig", "score": "0-1" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇩🇪 Bayer Leverkusen", "score": "0-1" },
+            { "team1": "🇦🇹 Sturm Graz", "team2": "🇸🇰 Slovan Bratislava", "score": "1-0" },
+            { "team1": "🇫🇷 LOSC Lille", "team2": "🇦🇹 Sturm Graz", "score": "3-2" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇦🇹 RB Salzbourg", "score": "3-0" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇩🇪 VfB Stuttgart", "score": "1-1" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇬🇧 Manchester City", "score": "0-5" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇫🇷 Stade Brestois", "score": "1-2" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇪🇸 Atlético de Madrid", "score": "0-6" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇩🇪 Bayer Leverkusen", "score": "1-2" },
+            { "team1": "🇨🇿 Sparta Prague", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "2-4" },
+            { "team1": "🇬🇧 Arsenal FC", "team2": "🇨🇿 Sparta Prague", "score": "0-0" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇮🇹 Inter Milan", "score": "0-1" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇮🇹 Juventus FC", "score": "2-3" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇬🇧 Celtic FC", "score": "1-3" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇪🇸 Atlético de Madrid", "score": "1-2" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇵🇹 Sporting CP", "score": "2-1" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇦🇹 Sturm Graz", "score": "1-0" },
+            { "team1": "🇩🇪 RB Leipzig", "team2": "🇮🇹 Bologna FC", "score": "2-1" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇩🇪 RB Leipzig", "score": "1-0" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇫🇷 Paris Saint-Germain", "score": "0-1" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "2-3" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇸🇰 Slovan Bratislava", "score": "2-0" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇳🇱 PSV Eindhoven", "score": "0-4" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇮🇹 AC Milan", "score": "0-1" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇦🇹 RB Salzbourg", "score": "0-3" },
+            { "team1": "🇪🇸 Girona FC", "team2": "🇬🇧 Arsenal FC", "score": "1-2" },
+            { "team1": "🇬🇧 Liverpool FC", "team2": "🇪🇸 Girona FC", "score": "1-0" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇨🇿 Sparta Prague", "score": "0-3" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇫🇷 Stade Brestois", "score": "4-0" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇮🇹 Atalanta Bergame", "score": "1-6" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇩🇪 Bayer Leverkusen", "score": "0-5" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "3-1" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇫🇷 Paris Saint-Germain", "score": "0-3" },
+            { "team1": "🇦🇹 RB Salzbourg", "team2": "🇪🇸 Girona FC", "score": "3-0" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇬🇧 Celtic FC", "score": "1-5" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇬🇧 Manchester City", "score": "0-4" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇪🇸 Girona FC", "score": "0-2" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇭🇷 Dinamo Zagreb", "score": "1-4" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇮🇹 AC Milan", "score": "2-3" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇪🇸 Atlético de Madrid", "score": "1-3" },
+            { "team1": "🇸🇰 Slovan Bratislava", "team2": "🇦🇹 Sturm Graz", "score": "0-1" },
+            { "team1": "🇩🇪 Bayern Munich", "team2": "🇸🇰 Slovan Bratislava", "score": "3-1" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇪🇸 FC Barcelona", "score": "0-5" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇮🇹 Atalanta Bergame", "score": "1-6" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇮🇹 Inter Milan", "score": "0-1" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇬🇧 Aston Villa", "score": "0-3" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇳🇱 Feyenoord Rotterdam", "score": "1-4" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇬🇧 Celtic FC", "score": "0-1" },
+            { "team1": "🇨🇭 BSC Young Boys", "team2": "🇷🇸 Étoile rouge de Belgrade", "score": "0-2" },
+            { "team1": "🇩🇪 VfB Stuttgart", "team2": "🇨🇭 BSC Young Boys", "score": "5-1" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "playOffs": [
+          { "team1": "🇫🇷 Stade Brestois", "team2": "🇫🇷 Paris Saint-Germain", "score": "0-10 (a.g. 0-3)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇧🇪 Club Bruges", "team2": "🇮🇹 Atalanta Bergame", "score": "5-2 (a.g. 2-1)", "winner": "🇧🇪 Club Bruges" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Real Madrid", "score": "3-6 (a.g. 2-3)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇮🇹 Juventus FC", "team2": "🇳🇱 PSV Eindhoven", "score": "3-4 (a.g. 2-1)", "winner": "🇳🇱 PSV Eindhoven" },
+          { "team1": "🇫🇷 AS Monaco", "team2": "🇵🇹 Benfica Lisbonne", "score": "3-4 (a.g. 0-1)", "winner": "🇵🇹 Benfica Lisbonne" },
+          { "team1": "🇵🇹 Sporting CP", "team2": "🇩🇪 Borussia Dortmund", "score": "0-3 (a.g. 0-3)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇬🇧 Celtic FC", "team2": "🇩🇪 Bayern Munich", "score": "2-3 (a.g. 1-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇮🇹 AC Milan", "score": "2-1 (a.g. 1-0)", "winner": "🇳🇱 Feyenoord Rotterdam" }
+        ],
+        "roundOf16": [
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Liverpool FC", "score": "1-1 (4-1 t.a.b.)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇧🇪 Club Bruges", "team2": "🇬🇧 Aston Villa", "score": "1-6 (a.g. 1-3)", "winner": "🇬🇧 Aston Villa" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇪🇸 Atlético de Madrid", "score": "2-2 (4-2 t.a.b.)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇬🇧 Arsenal FC", "score": "3-9 (a.g. 1-7)", "winner": "🇬🇧 Arsenal FC" },
+          { "team1": "🇵🇹 Benfica Lisbonne", "team2": "🇪🇸 FC Barcelone", "score": "1-4 (a.g. 0-1)", "winner": "🇪🇸 FC Barcelone" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇫🇷 LOSC Lille", "score": "3-2 (a.g. 1-1)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇩🇪 Bayer Leverkusen", "score": "5-0 (a.g. 3-0)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇳🇱 Feyenoord Rotterdam", "team2": "🇮🇹 Inter Milan", "score": "1-4 (a.g. 0-2)", "winner": "🇮🇹 Inter Milan" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Aston Villa", "score": "5-4 (a.g. 3-1)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇬🇧 Arsenal FC", "team2": "🇪🇸 Real Madrid", "score": "5-1 (a.g. 3-0)", "winner": "🇬🇧 Arsenal FC" },
+          { "team1": "🇪🇸 FC Barcelone", "team2": "🇩🇪 Borussia Dortmund", "score": "5-3 (a.g. 4-0)", "winner": "🇪🇸 FC Barcelone" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇮🇹 Inter Milan", "score": "3-4 (a.g. 1-2)", "winner": "🇮🇹 Inter Milan" }
+        ],
+        "semiFinals": [
+          { "team1": "🇬🇧 Arsenal FC", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-3 (a.g. 0-1)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇪🇸 FC Barcelone", "team2": "🇮🇹 Inter Milan", "score": "6-7 (a.g. 3-3)", "winner": "🇮🇹 Inter Milan" }
+        ],
+        "final": { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇮🇹 Inter Milan", "score": "5-0", "winner": "🇫🇷 Paris Saint-Germain" }
+      }
+    },
+    "2023-2024": {
+      "season": "2023-2024",
+      "year": "2023-2024",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇩🇪 Borussia Dortmund",
+      "third": "🇫🇷 Paris Saint-Germain",
+      "totalTeams": 32,
+      "topScorer": "Harry Kane (8 buts)",
+      "bestPlayer": "Vinícius Júnior",
+      "finalVenue": "Wembley Stadium",
+      "finalScore": "2-0",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇩🇰 FC Copenhague", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 10, "goalsAgainst": 10, "goalDiff": 0, "points": 7, "qualified": true },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 9, "goalsAgainst": 13, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 8, "goalsAgainst": 11, "goalDiff": -3, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Real Sociedad", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 16, "goalsAgainst": 3, "goalDiff": 13, "points": 18, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 11, "goalsAgainst": 12, "goalDiff": -1, "points": 9, "qualified": true },
+            { "team": "🇩🇪 SC Braga", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇩🇪 Union Berlin", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 6, "goalsAgainst": 14, "goalDiff": -8, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Real Sociedad", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 9, "goalsAgainst": 6, "goalDiff": 3, "points": 12, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 7, "goalDiff": 0, "points": 10, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 9, "goalDiff": 1, "points": 8, "qualified": false },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 9, "goalDiff": 5, "points": 13, "qualified": true },
+            { "team": "🇮🇹 Lazio", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇳🇱 Feyenoord", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 10, "goalsAgainst": 11, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇬🇧 Celtic", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 5, "goalsAgainst": 10, "goalDiff": -5, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 9, "goalsAgainst": 5, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 9, "goalsAgainst": 6, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 9, "goalDiff": 1, "points": 8, "qualified": false },
+            { "team": "🇬🇧 Newcastle United", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 8, "goalsAgainst": 16, "goalDiff": -8, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 18, "goalsAgainst": 3, "goalDiff": 15, "points": 18, "qualified": true },
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 6, "goalsAgainst": 7, "goalDiff": -1, "points": 7, "qualified": true },
+            { "team": "🇷🇸 Crvena Zvezda", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 10, "goalsAgainst": 16, "goalDiff": -6, "points": 5, "qualified": false },
+            { "team": "🇨🇭 Young Boys", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 15, "goalDiff": -8, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 12, "goalsAgainst": 4, "goalDiff": 8, "points": 14, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 9, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 12, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇧🇪 Royal Antwerp", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 8, "goalsAgainst": 17, "goalDiff": -9, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 RB Leipzig", "score": "2-1 (a.g. 1-1)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇩🇰 FC Copenhague", "score": "6-2 (a.g. 3-1)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇮🇹 Lazio", "score": "3-0 (a.g. 1-0)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Real Sociedad", "score": "4-1 (a.g. 2-0)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇮🇹 Inter Milan", "score": "3-3 (2-5 t.a.b.)", "winner": "🇮🇹 Inter Milan" },
+          { "team1": "🇪🇸 Barcelona", "team2": "🇮🇹 Napoli", "score": "4-2 (a.g. 1-1)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇳🇱 PSV Eindhoven", "score": "3-1 (a.g. 1-1)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇵🇹 Porto", "score": "1-1 (2-4 t.a.b.)", "winner": "🇵🇹 Porto" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Manchester City", "score": "4-4 (4-3 t.a.b.)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇬🇧 Arsenal", "score": "3-2 (a.g. 2-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Barcelona", "score": "6-4 (a.g. 3-2)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇪🇸 Atlético Madrid", "score": "5-4 (a.g. 2-1)", "winner": "🇩🇪 Borussia Dortmund" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Bayern Munich", "score": "4-3 (a.g. 2-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇫🇷 Paris Saint-Germain", "score": "2-0 (a.g. 1-0)", "winner": "🇩🇪 Borussia Dortmund" }
+        ],
+        "final": { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Borussia Dortmund", "score": "2-0", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2022-2023": {
+      "season": "2022-2023",
+      "year": "2022-2023",
+      "host": "Europe",
+      "winner": "🇬🇧 Manchester City",
+      "runnerUp": "🇮🇹 Inter Milan",
+      "third": "🇮🇹 AC Milan",
+      "totalTeams": 32,
+      "topScorer": "Erling Haaland (12 buts)",
+      "bestPlayer": "Erling Haaland",
+      "finalVenue": "Atatürk Olympic Stadium",
+      "finalScore": "1-0",
+      "venue": "Atatürk Olympic Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 20, "goalsAgainst": 6, "goalDiff": 14, "points": 15, "qualified": true },
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 17, "goalsAgainst": 6, "goalDiff": 11, "points": 15, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 11, "goalsAgainst": 16, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇬🇧 Rangers", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 2, "goalsAgainst": 22, "goalDiff": -20, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇵🇹 Porto", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 12, "goalsAgainst": 6, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Brugge", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 10, "goalsAgainst": 5, "goalDiff": 5, "points": 11, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 11, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 0, "drawn": 3, "lost": 3, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 18, "goalsAgainst": 2, "goalDiff": 16, "points": 18, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 10, "goalsAgainst": 7, "goalDiff": 3, "points": 10, "qualified": true },
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇨🇿 Viktoria Plzeň", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 5, "goalsAgainst": 24, "goalDiff": -19, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 8, "goalsAgainst": 6, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇩🇪 Eintracht Frankfurt", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 10, "qualified": true },
+            { "team": "🇵🇹 Sporting CP", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 8, "goalsAgainst": 8, "goalDiff": 0, "points": 8, "qualified": false },
+            { "team": "🇫🇷 Marseille", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 9, "goalDiff": -1, "points": 7, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 10, "goalsAgainst": 4, "goalDiff": 6, "points": 13, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 12, "goalsAgainst": 9, "goalDiff": 3, "points": 9, "qualified": true },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 6, "goalsAgainst": 9, "goalDiff": -3, "points": 6, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 13, "goalDiff": -6, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 15, "goalsAgainst": 6, "goalDiff": 9, "points": 13, "qualified": true },
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 13, "goalsAgainst": 9, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 10, "goalsAgainst": 13, "goalDiff": -3, "points": 6, "qualified": false },
+            { "team": "🇬🇧 Celtic", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 4, "goalsAgainst": 14, "goalDiff": -10, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 7, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 10, "goalsAgainst": 8, "goalDiff": 2, "points": 9, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇩🇰 FC Copenhagen", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 7, "goalDiff": 9, "points": 14, "qualified": true },
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 7, "goalDiff": 9, "points": 14, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 9, "goalsAgainst": 16, "goalDiff": -7, "points": 3, "qualified": false },
+            { "team": "🇮🇱 Maccabi Haifa", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 7, "goalsAgainst": 18, "goalDiff": -11, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇬🇧 Liverpool", "team2": "🇪🇸 Real Madrid", "score": "2-6 (a.g. 2-5)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇩🇪 Eintracht Frankfurt", "team2": "🇮🇹 Napoli", "score": "0-5 (a.g. 0-3)", "winner": "🇮🇹 Napoli" },
+          { "team1": "🇵🇹 Brugge", "team2": "🇵🇹 Benfica", "score": "1-7 (a.g. 0-2)", "winner": "🇵🇹 Benfica" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇬🇧 Chelsea", "score": "2-1 (a.g. 1-0)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇮🇹 Inter Milan", "team2": "🇵🇹 Porto", "score": "1-0 (a.g. 0-0)", "winner": "🇮🇹 Inter Milan" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇬🇧 Tottenham", "score": "1-1 (a.g. 0-1)", "winner": "🇮🇹 AC Milan" },
+          { "team1": "🇩🇪 RB Leipzig", "team2": "🇬🇧 Manchester City", "score": "1-8 (a.g. 1-1)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇩🇪 Bayern Munich", "score": "2-3 (a.g. 0-1)", "winner": "🇩🇪 Bayern Munich" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇮🇹 Napoli", "team2": "🇮🇹 AC Milan", "score": "2-1 (a.g. 1-1)", "winner": "🇮🇹 AC Milan" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇮🇹 Inter Milan", "score": "5-3 (a.g. 2-0)", "winner": "🇮🇹 Inter Milan" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇬🇧 Manchester City", "score": "1-4 (a.g. 1-3)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Chelsea", "score": "4-0 (a.g. 2-0)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "semiFinals": [
+          { "team1": "🇮🇹 AC Milan", "team2": "🇮🇹 Inter Milan", "score": "0-3 (a.g. 0-2)", "winner": "🇮🇹 Inter Milan" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Manchester City", "score": "1-5 (a.g. 1-1)", "winner": "🇬🇧 Manchester City" }
+        ],
+        "final": { "team1": "🇬🇧 Manchester City", "team2": "🇮🇹 Inter Milan", "score": "1-0", "winner": "🇬🇧 Manchester City" }
+      }
+    },
+    "2021-2022": {
+      "season": "2021-2022",
+      "year": "2021-2022",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇬🇧 Liverpool",
+      "third": "🇬🇧 Manchester City",
+      "totalTeams": 32,
+      "topScorer": "Karim Benzema (15 buts)",
+      "bestPlayer": "Karim Benzema",
+      "finalVenue": "Stade de France",
+      "finalScore": "1-0",
+      "venue": "Stade de France",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 11, "goalsAgainst": 3, "goalDiff": 8, "points": 14, "qualified": true },
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 14, "goalsAgainst": 9, "goalDiff": 5, "points": 11, "qualified": true },
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 10, "goalsAgainst": 13, "goalDiff": -3, "points": 4, "qualified": false },
+            { "team": "🇧🇪 Club Brugge", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 5, "goalsAgainst": 15, "goalDiff": -10, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 17, "goalsAgainst": 6, "goalDiff": 11, "points": 18, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 7, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 20, "goalsAgainst": 5, "goalDiff": 15, "points": 18, "qualified": true },
+            { "team": "🇵🇹 Sporting CP", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 12, "goalDiff": -3, "points": 7, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 12, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇹🇷 Beşiktaş", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 9, "goalsAgainst": 20, "goalDiff": -11, "points": 6, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 14, "goalsAgainst": 5, "goalDiff": 9, "points": 16, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 7, "goalDiff": 0, "points": 10, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 10, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇲🇩 Sheriff Tiraspol", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 22, "goalsAgainst": 3, "goalDiff": 19, "points": 18, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 9, "goalsAgainst": 10, "goalDiff": -1, "points": 8, "qualified": true },
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 2, "goalsAgainst": 12, "goalDiff": -10, "points": 6, "qualified": false },
+            { "team": "🇺🇦 Dynamo Kyiv", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 6, "goalsAgainst": 14, "goalDiff": -8, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 8, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Villarreal", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 12, "goalsAgainst": 10, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇮🇹 Atalanta", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 12, "goalsAgainst": 13, "goalDiff": -1, "points": 6, "qualified": false },
+            { "team": "🇨🇭 Young Boys", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇫🇷 Lille", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 10, "qualified": true },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 10, "goalsAgainst": 12, "goalDiff": -2, "points": 9, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 1, "drawn": 4, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇩🇪 VfL Wolfsburg", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 6, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 14, "goalsAgainst": 6, "goalDiff": 8, "points": 16, "qualified": true },
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 11, "goalsAgainst": 4, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 8, "goalsAgainst": 14, "goalDiff": -6, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Malmö FF", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 12, "goalDiff": -9, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Real Madrid", "score": "2-3 (a.g. 1-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇵🇹 Sporting CP", "team2": "🇬🇧 Manchester City", "score": "0-5 (a.g. 0-5)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇬🇧 Manchester United", "score": "2-1 (a.g. 1-1)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇦🇹 Red Bull Salzburg", "team2": "🇩🇪 Bayern Munich", "score": "1-8 (a.g. 1-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 Inter Milan", "team2": "🇬🇧 Liverpool", "score": "0-2 (a.g. 0-2)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇮🇹 Villarreal", "team2": "🇮🇹 Juventus", "score": "4-1 (a.g. 1-1)", "winner": "🇮🇹 Villarreal" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇳🇱 Ajax", "score": "3-2 (a.g. 2-2)", "winner": "🇵🇹 Benfica" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇫🇷 Lille", "score": "2-1 (a.g. 2-0)", "winner": "🇬🇧 Chelsea" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Atlético Madrid", "score": "1-0 (a.g. 0-0)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇬🇧 Liverpool", "score": "3-6 (a.g. 1-3)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇮🇹 Villarreal", "team2": "🇩🇪 Bayern Munich", "score": "2-1 (a.g. 1-1)", "winner": "🇮🇹 Villarreal" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇪🇸 Real Madrid", "score": "4-5 (a.g. 1-3)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "semiFinals": [
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Real Madrid", "score": "4-6 (a.g. 4-3)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇮🇹 Villarreal", "team2": "🇬🇧 Liverpool", "score": "2-5 (a.g. 2-2)", "winner": "🇬🇧 Liverpool" }
+        ],
+        "final": { "team1": "🇬🇧 Liverpool", "team2": "🇪🇸 Real Madrid", "score": "0-1", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2020-2021": {
+      "season": "2020-2021",
+      "year": "2020-2021",
+      "host": "Europe",
+      "winner": "🇬🇧 Chelsea",
+      "runnerUp": "🇬🇧 Manchester City",
+      "third": "🇪🇸 Real Madrid",
+      "totalTeams": 32,
+      "topScorer": "Erling Haaland (10 buts)",
+      "bestPlayer": "N'Golo Kanté",
+      "finalVenue": "Estádio do Dragão",
+      "finalScore": "1-0",
+      "venue": "Estádio do Dragão",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 18, "goalsAgainst": 3, "goalDiff": 15, "points": 18, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 9, "qualified": true },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 9, "qualified": false },
+            { "team": "🇷🇺 Lokomotiv Moscow", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 6, "goalsAgainst": 19, "goalDiff": -13, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 14, "qualified": true },
+            { "team": "🇩🇪 Borussia Mönchengladbach", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 10, "goalsAgainst": 14, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 7, "goalsAgainst": 12, "goalDiff": -5, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 13, "goalsAgainst": 1, "goalDiff": 12, "points": 16, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 10, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 4, "goalsAgainst": 11, "goalDiff": -7, "points": 4, "qualified": false },
+            { "team": "🇫🇷 Marseille", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 12, "goalDiff": -9, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 15, "qualified": true },
+            { "team": "🇮🇹 Atalanta", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 12, "goalsAgainst": 10, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 10, "goalsAgainst": 9, "goalDiff": 1, "points": 6, "qualified": false },
+            { "team": "🇩🇰 FC Midtjylland", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 4, "goalDiff": 10, "points": 13, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 13, "qualified": true },
+            { "team": "🇷🇺 Krasnodar", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 13, "goalDiff": -7, "points": 4, "qualified": false },
+            { "team": "🇫🇷 Rennes", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 4, "goalsAgainst": 9, "goalDiff": -5, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Lazio", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 12, "goalsAgainst": 11, "goalDiff": 1, "points": 11, "qualified": true },
+            { "team": "🇧🇪 Club Brugge", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 9, "goalsAgainst": 9, "goalDiff": 0, "points": 8, "qualified": false },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 4, "goalsAgainst": 12, "goalDiff": -8, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 12, "goalsAgainst": 4, "goalDiff": 8, "points": 13, "qualified": true },
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 5, "goalDiff": 9, "points": 13, "qualified": true },
+            { "team": "🇺🇦 Dynamo Kyiv", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 13, "goalDiff": -7, "points": 4, "qualified": false },
+            { "team": "🇭🇺 Ferencváros", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 16, "goalDiff": -10, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 8, "goalDiff": 5, "points": 11, "qualified": true },
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 9, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 11, "goalsAgainst": 11, "goalDiff": 0, "points": 8, "qualified": false },
+            { "team": "🇹🇷 İstanbul Başakşehir", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 6, "goalsAgainst": 15, "goalDiff": -9, "points": 2, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇬🇧 Chelsea", "score": "0-3 (a.g. 0-2)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇮🇹 Lazio", "team2": "🇩🇪 Bayern Munich", "score": "1-6 (a.g. 1-4)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇩🇪 Borussia Mönchengladbach", "team2": "🇬🇧 Manchester City", "score": "0-4 (a.g. 0-2)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇮🇹 Atalanta", "team2": "🇪🇸 Real Madrid", "score": "0-4 (a.g. 0-1)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇩🇪 RB Leipzig", "team2": "🇬🇧 Liverpool", "score": "2-4 (a.g. 0-2)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇪🇸 Barcelona", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-5 (a.g. 1-1)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇪🇸 Sevilla", "team2": "🇩🇪 Borussia Dortmund", "score": "2-5 (a.g. 2-3)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇵🇹 Porto", "team2": "🇮🇹 Juventus", "score": "4-4 (a.g. 2-1)", "winner": "🇵🇹 Porto" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇬🇧 Manchester City", "team2": "🇩🇪 Borussia Dortmund", "score": "4-2 (a.g. 2-1)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇵🇹 Porto", "team2": "🇬🇧 Chelsea", "score": "0-2 (a.g. 0-2)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇫🇷 Paris Saint-Germain", "score": "2-3 (a.g. 2-3)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇪🇸 Real Madrid", "score": "1-3 (a.g. 0-3)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Chelsea", "score": "1-3 (a.g. 1-1)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Manchester City", "score": "1-4 (a.g. 1-2)", "winner": "🇬🇧 Manchester City" }
+        ],
+        "final": { "team1": "🇬🇧 Manchester City", "team2": "🇬🇧 Chelsea", "score": "0-1", "winner": "🇬🇧 Chelsea" }
+      }
+    },
+    "2019-2020": {
+      "season": "2019-2020",
+      "year": "2019-2020",
+      "host": "Europe",
+      "winner": "🇩🇪 Bayern Munich",
+      "runnerUp": "🇫🇷 Paris Saint-Germain",
+      "third": "🇩🇪 RB Leipzig",
+      "totalTeams": 32,
+      "topScorer": "Robert Lewandowski (15 buts)",
+      "bestPlayer": "Robert Lewandowski",
+      "finalVenue": "Estádio da Luz",
+      "finalScore": "1-0",
+      "venue": "Estádio da Luz",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 17, "goalsAgainst": 2, "goalDiff": 15, "points": 16, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 9, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇧🇪 Club Brugge", "played": 6, "won": 0, "drawn": 3, "lost": 3, "goalsFor": 3, "goalsAgainst": 11, "goalDiff": -8, "points": 3, "qualified": false },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 2, "goalsAgainst": 13, "goalDiff": -11, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 24, "goalsAgainst": 5, "goalDiff": 19, "points": 18, "qualified": true },
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 18, "goalsAgainst": 13, "goalDiff": 5, "points": 10, "qualified": true },
+            { "team": "🇷🇸 Red Star Belgrade", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 7, "goalsAgainst": 19, "goalDiff": -12, "points": 3, "qualified": false },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 9, "goalsAgainst": 21, "goalDiff": -12, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 4, "goalDiff": 12, "points": 14, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 12, "goalDiff": -2, "points": 8, "qualified": true },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 13, "goalsAgainst": 13, "goalDiff": 0, "points": 8, "qualified": false },
+            { "team": "🇮🇹 Atalanta", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 17, "goalDiff": -10, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 16, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 9, "goalDiff": 1, "points": 8, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 10, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇷🇺 Lokomotiv Moscow", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 12, "goalDiff": -7, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 15, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇦🇹 Red Bull Salzburg", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 16, "goalsAgainst": 14, "goalDiff": 2, "points": 8, "qualified": false },
+            { "team": "🇧🇪 Genk", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 5, "goalsAgainst": 19, "goalDiff": -14, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 10, "goalsAgainst": 5, "goalDiff": 5, "points": 14, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 8, "goalDiff": 3, "points": 10, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 9, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇨🇿 Slavia Prague", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 4, "goalsAgainst": 12, "goalDiff": -8, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇫🇷 Lyon", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 11, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 14, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 8, "goalsAgainst": 11, "goalDiff": -3, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 8, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 10, "goalsAgainst": 8, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 10, "goalsAgainst": 7, "goalDiff": 3, "points": 10, "qualified": false },
+            { "team": "🇫🇷 Lille", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 4, "goalsAgainst": 12, "goalDiff": -8, "points": 1, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Manchester City", "score": "1-4 (a.g. 1-2)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇫🇷 Paris Saint-Germain", "score": "2-3 (a.g. 2-1)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇮🇹 Atalanta", "team2": "🇪🇸 Valencia", "score": "8-4 (a.g. 4-1)", "winner": "🇮🇹 Atalanta" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇬🇧 Liverpool", "score": "4-2 (a.p., a.g. 1-0)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇩🇪 Bayern Munich", "score": "0-7 (a.g. 0-3)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 Napoli", "team2": "🇪🇸 Barcelona", "score": "4-2 (a.g. 1-1)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇩🇪 RB Leipzig", "team2": "🇬🇧 Tottenham", "score": "4-0 (a.g. 1-0)", "winner": "🇩🇪 RB Leipzig" },
+          { "team1": "🇫🇷 Lyon", "team2": "🇮🇹 Juventus", "score": "2-2 (a.g. 1-0)", "winner": "🇫🇷 Lyon" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇮🇹 Atalanta", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-2", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇩🇪 RB Leipzig", "team2": "🇪🇸 Atlético Madrid", "score": "2-1", "winner": "🇩🇪 RB Leipzig" },
+          { "team1": "🇪🇸 Barcelona", "team2": "🇩🇪 Bayern Munich", "score": "2-8", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇫🇷 Lyon", "score": "1-3", "winner": "🇫🇷 Lyon" }
+        ],
+        "semiFinals": [
+          { "team1": "🇩🇪 RB Leipzig", "team2": "🇫🇷 Paris Saint-Germain", "score": "0-3", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇫🇷 Lyon", "team2": "🇩🇪 Bayern Munich", "score": "0-3", "winner": "🇩🇪 Bayern Munich" }
+        ],
+        "final": { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇩🇪 Bayern Munich", "score": "0-1", "winner": "🇩🇪 Bayern Munich" }
+      }
+    },
+    "2018-2019": {
+      "season": "2018-2019",
+      "year": "2018-2019",
+      "host": "Europe",
+      "winner": "🇬🇧 Liverpool",
+      "runnerUp": "🇬🇧 Tottenham",
+      "third": "🇳🇱 Ajax",
+      "totalTeams": 32,
+      "topScorer": "Lionel Messi (12 buts)",
+      "bestPlayer": "Virgil van Dijk",
+      "finalVenue": "Wanda Metropolitano",
+      "finalScore": "2-0",
+      "venue": "Wanda Metropolitano",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 11, "goalsAgainst": 6, "goalDiff": 5, "points": 13, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 9, "goalsAgainst": 6, "goalDiff": 3, "points": 12, "qualified": true },
+            { "team": "🇧🇪 Club Brugge", "played": 6, "won": 2, "drawn": 3, "lost": 1, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 9, "qualified": false },
+            { "team": "🇫🇷 Monaco", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 14, "goalsAgainst": 5, "goalDiff": 9, "points": 14, "qualified": true },
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 10, "goalDiff": 0, "points": 8, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 8, "qualified": false },
+            { "team": "🇳🇱 PSV Eindhoven", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 6, "goalsAgainst": 13, "goalDiff": -7, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 17, "goalsAgainst": 9, "goalDiff": 8, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 2, "drawn": 4, "lost": 0, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 9, "qualified": false },
+            { "team": "🇷🇸 Red Star Belgrade", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 6, "goalsAgainst": 18, "goalDiff": -12, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇵🇹 Porto", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 17, "goalsAgainst": 4, "goalDiff": 13, "points": 16, "qualified": true },
+            { "team": "🇩🇪 Schalke 04", "played": 6, "won": 2, "drawn": 3, "lost": 1, "goalsFor": 6, "goalsAgainst": 7, "goalDiff": -1, "points": 9, "qualified": true },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇷🇺 Lokomotiv Moscow", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 4, "goalsAgainst": 11, "goalDiff": -7, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 5, "goalDiff": 11, "points": 14, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 14, "goalsAgainst": 3, "goalDiff": 11, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 10, "goalDiff": -3, "points": 5, "qualified": false },
+            { "team": "🇬🇷 AEK Athens", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 2, "goalsAgainst": 21, "goalDiff": -19, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 16, "goalsAgainst": 5, "goalDiff": 11, "points": 13, "qualified": true },
+            { "team": "🇫🇷 Lyon", "played": 6, "won": 1, "drawn": 5, "lost": 0, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 8, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇩🇪 Hoffenheim", "played": 6, "won": 0, "drawn": 3, "lost": 3, "goalsFor": 6, "goalsAgainst": 14, "goalDiff": -8, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 12, "goalsAgainst": 7, "goalDiff": 5, "points": 12, "qualified": true },
+            { "team": "🇮🇹 Roma", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 12, "goalsAgainst": 9, "goalDiff": 3, "points": 9, "qualified": true },
+            { "team": "🇨🇿 Viktoria Plzeň", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 14, "goalDiff": -7, "points": 7, "qualified": false },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 7, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 12, "qualified": true },
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 8, "qualified": false },
+            { "team": "🇨🇭 Young Boys", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 6, "goalDiff": 0, "points": 4, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇮🇹 Juventus", "score": "2-3 (a.g. 2-0)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇬🇧 Manchester City", "score": "2-10 (a.g. 2-3)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇮🇹 Roma", "team2": "🇵🇹 Porto", "score": "3-4 (a.p., a.g. 2-1)", "winner": "🇵🇹 Porto" },
+          { "team1": "🇳🇱 Ajax", "team2": "🇪🇸 Real Madrid", "score": "5-3 (a.g. 1-2)", "winner": "🇳🇱 Ajax" },
+          { "team1": "🇬🇧 Tottenham", "team2": "🇩🇪 Borussia Dortmund", "score": "4-0 (a.g. 3-0)", "winner": "🇬🇧 Tottenham" },
+          { "team1": "🇫🇷 Lyon", "team2": "🇪🇸 Barcelona", "score": "0-5 (a.g. 0-0)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇩🇪 Bayern Munich", "score": "3-1 (a.g. 0-0)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇬🇧 Manchester United", "team2": "🇫🇷 Paris Saint-Germain", "score": "3-3 (a.g. 0-2)", "winner": "🇬🇧 Manchester United" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇬🇧 Manchester United", "team2": "🇪🇸 Barcelona", "score": "0-4 (a.g. 0-1)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇳🇱 Ajax", "team2": "🇮🇹 Juventus", "score": "3-2 (a.g. 1-1)", "winner": "🇳🇱 Ajax" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇵🇹 Porto", "score": "6-1 (a.g. 2-0)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇬🇧 Tottenham", "team2": "🇬🇧 Manchester City", "score": "4-4 (a.g. 1-0)", "winner": "🇬🇧 Tottenham" }
+        ],
+        "semiFinals": [
+          { "team1": "🇬🇧 Tottenham", "team2": "🇳🇱 Ajax", "score": "3-3 (a.g. 0-1)", "winner": "🇬🇧 Tottenham" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇪🇸 Barcelona", "score": "4-3 (a.g. 0-3)", "winner": "🇬🇧 Liverpool" }
+        ],
+        "final": { "team1": "🇬🇧 Tottenham", "team2": "🇬🇧 Liverpool", "score": "0-2", "winner": "🇬🇧 Liverpool" }
+      }
+    },
+    "2017-2018": {
+      "season": "2017-2018",
+      "year": "2017-2018",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇬🇧 Liverpool",
+      "third": "🇮🇹 Roma",
+      "totalTeams": 32,
+      "topScorer": "Cristiano Ronaldo (15 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "finalVenue": "NSC Olimpiyskiy Stadium",
+      "finalScore": "3-1",
+      "venue": "NSC Olimpiyskiy Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 12, "goalsAgainst": 3, "goalDiff": 9, "points": 15, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 9, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 11, "goalsAgainst": 8, "goalDiff": 3, "points": 9, "qualified": false },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 4, "goalsAgainst": 18, "goalDiff": -14, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 25, "goalsAgainst": 3, "goalDiff": 22, "points": 15, "qualified": true },
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇧🇪 Anderlecht", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 15, "goalDiff": -10, "points": 3, "qualified": false },
+            { "team": "🇹🇷 Celtic", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 24, "goalDiff": -19, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇮🇹 Roma", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 11, "goalsAgainst": 5, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 16, "goalsAgainst": 8, "goalDiff": 8, "points": 11, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 10, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇦🇿 Qarabağ", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 4, "goalsAgainst": 16, "goalDiff": -12, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 9, "goalsAgainst": 1, "goalDiff": 8, "points": 14, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇵🇹 Sporting CP", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 5, "qualified": false },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 12, "goalDiff": -7, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 23, "goalsAgainst": 6, "goalDiff": 17, "points": 12, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 1, "drawn": 5, "lost": 0, "goalsFor": 11, "goalsAgainst": 12, "goalDiff": -1, "points": 8, "qualified": true },
+            { "team": "🇷🇺 Spartak Moscow", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 8, "goalsAgainst": 13, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇸🇮 Maribor", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 3, "goalsAgainst": 14, "goalDiff": -11, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 6, "goalDiff": 9, "points": 15, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 9, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 13, "goalsAgainst": 9, "goalDiff": 4, "points": 8, "qualified": false },
+            { "team": "🇳🇱 Feyenoord", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 4, "goalsAgainst": 21, "goalDiff": -17, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇹🇷 Beşiktaş", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 17, "goalsAgainst": 6, "goalDiff": 11, "points": 11, "qualified": true },
+            { "team": "🇩🇪 RB Leipzig", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 12, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇫🇷 Monaco", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 19, "goalDiff": -12, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 16, "goalsAgainst": 4, "goalDiff": 12, "points": 16, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 14, "goalsAgainst": 9, "goalDiff": 5, "points": 11, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 9, "goalsAgainst": 10, "goalDiff": -1, "points": 6, "qualified": false },
+            { "team": "🇬🇷 APOEL", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 3, "goalsAgainst": 19, "goalDiff": -16, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇵🇹 Benfica", "team2": "🇩🇪 Bayern Munich", "score": "0-5 (a.g. 0-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 Juventus", "team2": "🇬🇧 Tottenham", "score": "4-3 (a.g. 2-2)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇨🇭 Basel", "team2": "🇬🇧 Manchester City", "score": "1-5 (a.g. 0-4)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇵🇹 Porto", "team2": "🇬🇧 Liverpool", "score": "0-5 (a.g. 0-5)", "winner": "🇬🇧 Liverpool" },
+          { "team1": "🇪🇸 Sevilla", "team2": "🇬🇧 Manchester United", "score": "2-1 (a.g. 0-0)", "winner": "🇪🇸 Sevilla" },
+          { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇮🇹 Roma", "score": "2-3 (a.g. 2-1)", "winner": "🇮🇹 Roma" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇪🇸 Barcelona", "score": "1-4 (a.g. 1-1)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇫🇷 Paris Saint-Germain", "score": "5-2 (a.g. 3-1)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇪🇸 Sevilla", "team2": "🇩🇪 Bayern Munich", "score": "1-2 (a.g. 1-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 Juventus", "team2": "🇪🇸 Real Madrid", "score": "3-4 (a.g. 0-3)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇮🇹 Roma", "team2": "🇪🇸 Barcelona", "score": "4-4 (a.g. 1-4)", "winner": "🇮🇹 Roma" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇬🇧 Manchester City", "score": "5-1 (a.g. 3-0)", "winner": "🇬🇧 Liverpool" }
+        ],
+        "semiFinals": [
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇪🇸 Real Madrid", "score": "3-4 (a.g. 1-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇬🇧 Liverpool", "team2": "🇮🇹 Roma", "score": "7-6 (a.g. 5-2)", "winner": "🇬🇧 Liverpool" }
+        ],
+        "final": { "team1": "🇬🇧 Liverpool", "team2": "🇪🇸 Real Madrid", "score": "1-3", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2016-2017": {
+      "season": "2016-2017",
+      "year": "2016-2017",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇮🇹 Juventus",
+      "third": "🇪🇸 Atlético Madrid",
+      "totalTeams": 32,
+      "topScorer": "Cristiano Ronaldo (12 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "finalVenue": "Millennium Stadium",
+      "finalScore": "4-1",
+      "venue": "Millennium Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 13, "qualified": true },
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 11, "qualified": true },
+            { "team": "🇧🇬 Ludogorets Razgrad", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 12, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 16, "goalDiff": -9, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 11, "goalsAgainst": 5, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 10, "goalsAgainst": 6, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇺🇦 Dynamo Kyiv", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 5, "qualified": false },
+            { "team": "🇹🇷 Beşiktaş", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 9, "goalsAgainst": 15, "goalDiff": -6, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 2, "goalDiff": 13, "points": 15, "qualified": true },
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 8, "goalsAgainst": 9, "goalDiff": -1, "points": 9, "qualified": true },
+            { "team": "🇩🇪 Borussia Mönchengladbach", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 10, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇬🇧 Celtic", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 18, "goalDiff": -11, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 3, "goalDiff": 13, "points": 14, "qualified": true },
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 17, "goalsAgainst": 3, "goalDiff": 14, "points": 15, "qualified": true },
+            { "team": "🇳🇱 PSV Eindhoven", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 6, "goalsAgainst": 16, "goalDiff": -10, "points": 2, "qualified": false },
+            { "team": "🇷🇺 Rostov", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 7, "goalsAgainst": 24, "goalDiff": -17, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇫🇷 Monaco", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 14, "goalsAgainst": 4, "goalDiff": 10, "points": 12, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 11, "qualified": true },
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 14, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 18, "goalDiff": -13, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇵🇹 Borussia Dortmund", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 5, "goalDiff": 9, "points": 13, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 14, "goalsAgainst": 4, "goalDiff": 10, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Sporting CP", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 11, "goalDiff": -6, "points": 5, "qualified": false },
+            { "team": "🇵🇱 Legia Warsaw", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 2, "goalsAgainst": 15, "goalDiff": -13, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇬🇧 Leicester City", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 13, "goalsAgainst": 8, "goalDiff": 5, "points": 10, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 16, "goalsAgainst": 11, "goalDiff": 5, "points": 10, "qualified": true },
+            { "team": "🇧🇪 Club Brugge", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 8, "qualified": false },
+            { "team": "🇩🇰 Copenhagen", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 14, "goalDiff": -9, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 3, "goalDiff": 10, "points": 15, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 9, "goalsAgainst": 9, "goalDiff": 0, "points": 10, "qualified": true },
+            { "team": "🇫🇷 Lyon", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 11, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 13, "goalDiff": -8, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇵🇹 Benfica", "team2": "🇩🇪 Borussia Dortmund", "score": "0-4 (a.g. 0-1)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇪🇸 Atlético Madrid", "score": "2-4 (a.g. 2-4)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇵🇹 Porto", "team2": "🇮🇹 Juventus", "score": "0-3 (a.g. 0-2)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇫🇷 Monaco", "score": "5-6 (a.g. 5-3)", "winner": "🇫🇷 Monaco" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇮🇹 Napoli", "score": "6-2 (a.g. 3-1)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇪🇸 Sevilla", "team2": "🇬🇧 Leicester City", "score": "3-2 (a.g. 2-1)", "winner": "🇪🇸 Sevilla" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇬🇧 Arsenal", "score": "10-2 (a.g. 5-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Barcelona", "score": "5-6 (a.g. 4-0)", "winner": "🇪🇸 Barcelona" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇫🇷 Monaco", "score": "3-6 (a.g. 2-3)", "winner": "🇫🇷 Monaco" },
+          { "team1": "🇮🇹 Juventus", "team2": "🇪🇸 Barcelona", "score": "3-0 (a.g. 0-0)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇪🇸 Real Madrid", "score": "3-6 (a.p., a.g. 1-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇬🇧 Leicester City", "score": "2-1 (a.g. 1-1)", "winner": "🇪🇸 Atlético Madrid" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇪🇸 Atlético Madrid", "score": "4-2 (a.g. 3-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇫🇷 Monaco", "team2": "🇮🇹 Juventus", "score": "1-4 (a.g. 0-2)", "winner": "🇮🇹 Juventus" }
+        ],
+        "final": { "team1": "🇮🇹 Juventus", "team2": "🇪🇸 Real Madrid", "score": "1-4", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2015-2016": {
+      "season": "2015-2016",
+      "year": "2015-2016",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇪🇸 Atlético Madrid",
+      "third": "🇩🇪 Bayern Munich",
+      "totalTeams": 32,
+      "topScorer": "Cristiano Ronaldo (16 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "finalVenue": "San Siro",
+      "finalScore": "1-1 (5-3 t.a.b.)",
+      "venue": "San Siro",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 11, "goalsAgainst": 4, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 19, "goalsAgainst": 6, "goalDiff": 13, "points": 12, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 7, "goalsAgainst": 15, "goalDiff": -8, "points": 6, "qualified": false },
+            { "team": "🇸🇪 Malmö FF", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 3, "goalsAgainst": 15, "goalDiff": -12, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 7, "goalsAgainst": 4, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇳🇱 PSV Eindhoven", "played": 6, "won": 2, "drawn": 3, "lost": 1, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 9, "qualified": true },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 8, "qualified": false },
+            { "team": "🇩🇪 VfL Wolfsburg", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 9, "goalDiff": -3, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 11, "goalsAgainst": 4, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 10, "goalsAgainst": 7, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 8, "goalsAgainst": 10, "goalDiff": -2, "points": 5, "qualified": false },
+            { "team": "🇰🇿 Astana", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 14, "goalDiff": -8, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 8, "goalsAgainst": 5, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇪🇸 Sevilla", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 8, "goalDiff": 3, "points": 10, "qualified": false },
+            { "team": "🇩🇪 Borussia Mönchengladbach", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 16, "goalDiff": -9, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 5, "goalDiff": 10, "points": 15, "qualified": true },
+            { "team": "🇮🇹 Roma", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 7, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 13, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇧🇾 BATE Borisov", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 6, "goalsAgainst": 14, "goalDiff": -8, "points": 6, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 20, "goalsAgainst": 4, "goalDiff": 16, "points": 15, "qualified": true },
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 9, "goalsAgainst": 8, "goalDiff": 1, "points": 9, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 10, "goalsAgainst": 13, "goalDiff": -3, "points": 9, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 7, "goalsAgainst": 21, "goalDiff": -14, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 13, "qualified": true },
+            { "team": "🇺🇦 Dynamo Kyiv", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇮🇱 Maccabi Tel Aviv", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 8, "goalsAgainst": 13, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Zenit Saint Petersburg", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 12, "goalsAgainst": 7, "goalDiff": 5, "points": 15, "qualified": true },
+            { "team": "🇧🇪 Gent", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 9, "goalsAgainst": 10, "goalDiff": -1, "points": 10, "qualified": true },
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 11, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇫🇷 Lyon", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 6, "goalsAgainst": 10, "goalDiff": -4, "points": 5, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇮🇹 Roma", "team2": "🇪🇸 Real Madrid", "score": "0-4 (a.g. 0-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇳🇱 PSV Eindhoven", "team2": "🇪🇸 Atlético Madrid", "score": "0-8 (a.g. 0-0)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇧🇪 Gent", "team2": "🇩🇪 VfL Wolfsburg", "score": "2-4 (a.g. 2-3)", "winner": "🇩🇪 VfL Wolfsburg" },
+          { "team1": "🇮🇹 Juventus", "team2": "🇩🇪 Bayern Munich", "score": "4-6 (a.g. 2-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇷🇺 Zenit Saint Petersburg", "score": "3-2 (a.g. 1-0)", "winner": "🇵🇹 Benfica" },
+          { "team1": "🇺🇦 Dynamo Kyiv", "team2": "🇬🇧 Manchester City", "score": "1-3 (a.g. 1-3)", "winner": "🇬🇧 Manchester City" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇪🇸 Barcelona", "score": "2-5 (a.g. 0-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Chelsea", "score": "4-2 (a.g. 2-1)", "winner": "🇫🇷 Paris Saint-Germain" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇩🇪 VfL Wolfsburg", "team2": "🇪🇸 Real Madrid", "score": "2-3 (a.g. 2-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇪🇸 Barcelona", "team2": "🇪🇸 Atlético Madrid", "score": "2-3 (a.g. 2-1)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇩🇪 Bayern Munich", "score": "2-3 (a.g. 2-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Manchester City", "score": "2-3 (a.g. 2-2)", "winner": "🇬🇧 Manchester City" }
+        ],
+        "semiFinals": [
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Real Madrid", "score": "0-1 (a.g. 0-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇩🇪 Bayern Munich", "score": "2-2 (a.g. 1-0)", "winner": "🇪🇸 Atlético Madrid" }
+        ],
+        "final": { "team1": "🇪🇸 Real Madrid", "team2": "🇪🇸 Atlético Madrid", "score": "1-1 (5-3 t.a.b.)", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2014-2015": {
+      "season": "2014-2015",
+      "year": "2014-2015",
+      "host": "Europe",
+      "winner": "🇪🇸 Barcelona",
+      "runnerUp": "🇮🇹 Juventus",
+      "third": "🇩🇪 Bayern Munich",
+      "totalTeams": 32,
+      "topScorer": "Lionel Messi & Cristiano Ronaldo & Neymar (10 buts)",
+      "bestPlayer": "Lionel Messi",
+      "finalVenue": "Olympiastadion Berlin",
+      "finalScore": "3-1",
+      "venue": "Olympiastadion Berlin",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 3, "goalDiff": 11, "points": 13, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 9, "goalsAgainst": 15, "goalDiff": -6, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Malmö FF", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 3, "goalsAgainst": 14, "goalDiff": -11, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 16, "goalsAgainst": 2, "goalDiff": 14, "points": 18, "qualified": true },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 7, "goalsAgainst": 8, "goalDiff": -1, "points": 8, "qualified": true },
+            { "team": "🇬🇧 Liverpool", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇧🇬 Ludogorets Razgrad", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 16, "goalDiff": -9, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 Monaco", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 11, "qualified": true },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 6, "qualified": false },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 15, "goalsAgainst": 6, "goalDiff": 9, "points": 13, "qualified": true },
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 15, "goalsAgainst": 8, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇧🇪 Anderlecht", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 10, "goalsAgainst": 14, "goalDiff": -4, "points": 6, "qualified": false },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 6, "goalsAgainst": 18, "goalDiff": -12, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 16, "goalsAgainst": 4, "goalDiff": 12, "points": 15, "qualified": true },
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 9, "goalsAgainst": 8, "goalDiff": 1, "points": 8, "qualified": true },
+            { "team": "🇮🇹 Roma", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 8, "goalsAgainst": 11, "goalDiff": -3, "points": 6, "qualified": false },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 16, "goalDiff": -10, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 5, "goalDiff": 10, "points": 15, "qualified": true },
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 10, "goalsAgainst": 8, "goalDiff": 2, "points": 13, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇨🇾 APOEL", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 2, "goalsAgainst": 14, "goalDiff": -12, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 17, "goalsAgainst": 5, "goalDiff": 12, "points": 14, "qualified": true },
+            { "team": "🇩🇪 Schalke 04", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇵🇹 Sporting CP", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇸🇮 Maribor", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 18, "goalDiff": -13, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇵🇹 Porto", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 16, "goalsAgainst": 9, "goalDiff": 7, "points": 12, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 15, "goalsAgainst": 5, "goalDiff": 10, "points": 10, "qualified": true },
+            { "team": "🇧🇾 Athletic Bilbao", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 12, "goalDiff": -1, "points": 10, "qualified": false },
+            { "team": "🇧🇾 BATE Borisov", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 6, "goalsAgainst": 22, "goalDiff": -16, "points": 3, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇪🇸 Real Madrid", "score": "3-9 (a.g. 1-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇩🇪 Bayern Munich", "score": "0-7 (a.g. 0-0)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇨🇭 Basel", "team2": "🇵🇹 Porto", "score": "1-4 (a.g. 1-1)", "winner": "🇵🇹 Porto" },
+          { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇪🇸 Atlético Madrid", "score": "0-1 (a.g. 0-1)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Chelsea", "score": "3-3 (a.g. 1-1)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Barcelona", "score": "1-3 (a.g. 1-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇮🇹 Juventus", "score": "1-5 (a.g. 1-2)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇫🇷 Monaco", "score": "1-3 (a.g. 1-3)", "winner": "🇫🇷 Monaco" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇵🇹 Porto", "team2": "🇩🇪 Bayern Munich", "score": "3-7 (a.g. 1-3)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇪🇸 Real Madrid", "score": "0-1 (a.g. 0-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇫🇷 Monaco", "team2": "🇮🇹 Juventus", "score": "0-1 (a.g. 0-0)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Barcelona", "score": "1-5 (a.g. 1-3)", "winner": "🇪🇸 Barcelona" }
+        ],
+        "semiFinals": [
+          { "team1": "🇮🇹 Juventus", "team2": "🇪🇸 Real Madrid", "score": "3-2 (a.g. 2-1)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇪🇸 Barcelona", "team2": "🇩🇪 Bayern Munich", "score": "5-3 (a.g. 3-0)", "winner": "🇪🇸 Barcelona" }
+        ],
+        "final": { "team1": "🇮🇹 Juventus", "team2": "🇪🇸 Barcelona", "score": "1-3", "winner": "🇪🇸 Barcelona" }
+      }
+    },
+    "2013-2014": {
+      "season": "2013-2014",
+      "year": "2013-2014",
+      "host": "Europe",
+      "winner": "🇪🇸 Real Madrid",
+      "runnerUp": "🇪🇸 Atlético Madrid",
+      "third": "🇩🇪 Bayern Munich",
+      "totalTeams": 32,
+      "topScorer": "Cristiano Ronaldo (17 buts)",
+      "bestPlayer": "Cristiano Ronaldo",
+      "finalVenue": "Estádio da Luz",
+      "finalScore": "1-4 (a.p.)",
+      "venue": "Estádio da Luz",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 12, "goalsAgainst": 2, "goalDiff": 10, "points": 16, "qualified": true },
+            { "team": "🇩🇪 Bayer Leverkusen", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 11, "goalsAgainst": 10, "goalDiff": 1, "points": 7, "qualified": false },
+            { "team": "🇬🇷 Real Sociedad", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 15, "goalDiff": -12, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 20, "goalsAgainst": 7, "goalDiff": 13, "points": 18, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 10, "qualified": true },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 10, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇩🇰 Copenhagen", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 15, "goalDiff": -12, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 12, "goalsAgainst": 5, "goalDiff": 7, "points": 12, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 2, "drawn": 3, "lost": 1, "goalsFor": 8, "goalsAgainst": 7, "goalDiff": 1, "points": 9, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 11, "goalDiff": -1, "points": 8, "qualified": false },
+            { "team": "🇧🇪 Anderlecht", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 7, "goalsAgainst": 14, "goalDiff": -7, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 13, "goalsAgainst": 3, "goalDiff": 10, "points": 16, "qualified": true },
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 2, "drawn": 3, "lost": 1, "goalsFor": 10, "goalsAgainst": 10, "goalDiff": 0, "points": 9, "qualified": true },
+            { "team": "🇷🇺 CSKA Moscow", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 9, "goalsAgainst": 10, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇨🇿 Viktoria Plzeň", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 13, "goalsAgainst": 4, "goalDiff": 9, "points": 14, "qualified": true },
+            { "team": "🇩🇪 Schalke 04", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 10, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇷🇴 Steaua Bucharest", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 5, "goalsAgainst": 15, "goalDiff": -10, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 11, "goalsAgainst": 4, "goalDiff": 7, "points": 14, "qualified": true },
+            { "team": "🇪🇸 Atlético Madrid", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 13, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 4, "qualified": false },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 7, "goalsAgainst": 17, "goalDiff": -10, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇵🇹 Porto", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 11, "goalsAgainst": 4, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 10, "goalsAgainst": 4, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇦🇹 Austria Wien", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 7, "goalsAgainst": 14, "goalDiff": -7, "points": 6, "qualified": false },
+            { "team": "🇪🇸 Athletic Bilbao", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 4, "goalsAgainst": 10, "goalDiff": -6, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 15, "goalsAgainst": 8, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 14, "goalsAgainst": 13, "goalDiff": 1, "points": 9, "qualified": false },
+            { "team": "🇫🇷 Marseille", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 5, "goalsAgainst": 20, "goalDiff": -15, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇫🇷 Paris Saint-Germain", "score": "4-6 (a.g. 4-0)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇪🇸 Real Madrid", "score": "1-9 (a.g. 1-6)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇷🇺 Zenit Saint Petersburg", "score": "4-5 (a.g. 2-2)", "winner": "🇷🇺 Zenit Saint Petersburg" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇷🇺 Zenit Saint Petersburg", "score": "1-2 (a.g. 0-2)", "winner": "🇷🇺 Zenit Saint Petersburg" },
+          { "team1": "🇬🇧 Manchester City", "team2": "🇪🇸 Barcelona", "score": "1-4 (a.g. 0-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇩🇪 Bayern Munich", "score": "0-3 (a.g. 0-2)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇪🇸 Atlético Madrid", "score": "0-5 (a.g. 0-1)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇬🇧 Manchester United", "team2": "🇬🇷 Olympiacos", "score": "2-3 (a.g. 0-2)", "winner": "🇬🇷 Olympiacos" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇬🇧 Chelsea", "score": "3-3 (a.g. 1-2)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇬🇧 Manchester United", "score": "3-1 (a.g. 1-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇪🇸 Barcelona", "score": "1-1 (a.g. 1-1)", "winner": "🇪🇸 Atlético Madrid" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Borussia Dortmund", "score": "3-2 (a.g. 3-0)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Bayern Munich", "score": "5-0 (a.g. 1-0)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇪🇸 Atlético Madrid", "team2": "🇬🇧 Chelsea", "score": "3-1 (a.g. 0-0)", "winner": "🇪🇸 Atlético Madrid" }
+        ],
+        "final": { "team1": "🇪🇸 Atlético Madrid", "team2": "🇪🇸 Real Madrid", "score": "1-4 (a.p.)", "winner": "🇪🇸 Real Madrid" }
+      }
+    },
+    "2012-2013": {
+      "season": "2012-2013",
+      "year": "2012-2013",
+      "host": "Europe",
+      "winner": "🇩🇪 Bayern Munich",
+      "runnerUp": "🇩🇪 Borussia Dortmund",
+      "third": "🇪🇸 Barcelona",
+      "totalTeams": 32,
+      "topScorer": "Cristiano Ronaldo (12 buts)",
+      "bestPlayer": "Franck Ribéry",
+      "finalVenue": "Wembley Stadium",
+      "finalScore": "2-1",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇫🇷 Paris Saint-Germain", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 13, "qualified": true },
+            { "team": "🇵🇹 Porto", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 13, "qualified": true },
+            { "team": "🇺🇦 Dynamo Kyiv", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 6, "goalsAgainst": 9, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 14, "goalDiff": -11, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 16, "goalsAgainst": 8, "goalDiff": 8, "points": 12, "qualified": true },
+            { "team": "🇩🇪 Schalke 04", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 15, "goalsAgainst": 11, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 14, "goalsAgainst": 13, "goalDiff": 1, "points": 9, "qualified": false },
+            { "team": "🇫🇷 Montpellier", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 5, "goalsAgainst": 18, "goalDiff": -13, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇪🇸 Málaga", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 11, "goalsAgainst": 5, "goalDiff": 6, "points": 13, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 10, "goalsAgainst": 8, "goalDiff": 2, "points": 8, "qualified": false },
+            { "team": "🇧🇪 Anderlecht", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 4, "goalsAgainst": 16, "goalDiff": -12, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Borussia Dortmund", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 14, "goalsAgainst": 3, "goalDiff": 11, "points": 14, "qualified": true },
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 16, "goalsAgainst": 5, "goalDiff": 11, "points": 14, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 10, "goalsAgainst": 15, "goalDiff": -5, "points": 5, "qualified": false },
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 0, "drawn": 2, "lost": 4, "goalsFor": 10, "goalsAgainst": 27, "goalDiff": -17, "points": 2, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 16, "goalsAgainst": 7, "goalDiff": 9, "points": 12, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 12, "goalsAgainst": 7, "goalDiff": 5, "points": 11, "qualified": true },
+            { "team": "🇮🇹 Juventus", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 12, "goalsAgainst": 9, "goalDiff": 3, "points": 10, "qualified": false },
+            { "team": "🇩🇰 Nordsjælland", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 3, "goalsAgainst": 20, "goalDiff": -17, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 14, "goalsAgainst": 10, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇧🇾 BATE Borisov", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 7, "goalsAgainst": 13, "goalDiff": -6, "points": 6, "qualified": false },
+            { "team": "🇫🇷 Lille", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 19, "goalsAgainst": 5, "goalDiff": 14, "points": 18, "qualified": true },
+            { "team": "🇬🇧 Celtic", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 8, "goalsAgainst": 11, "goalDiff": -3, "points": 9, "qualified": true },
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 9, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇷🇺 Spartak Moscow", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 6, "goalsAgainst": 16, "goalDiff": -10, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 15, "goalsAgainst": 6, "goalDiff": 9, "points": 15, "qualified": true },
+            { "team": "🇷🇴 CFR Cluj", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 5, "goalsAgainst": 7, "goalDiff": -2, "points": 8, "qualified": true },
+            { "team": "🇵🇹 Braga", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇹🇷 Galatasaray", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 7, "goalsAgainst": 12, "goalDiff": -5, "points": 4, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇹🇷 Galatasaray", "score": "3-4 (a.g. 1-1)", "winner": "🇹🇷 Galatasaray" },
+          { "team1": "🇪🇸 Valencia", "team2": "🇫🇷 Paris Saint-Germain", "score": "1-3 (a.g. 1-2)", "winner": "🇫🇷 Paris Saint-Germain" },
+          { "team1": "🇬🇧 Celtic", "team2": "🇮🇹 Juventus", "score": "0-5 (a.g. 0-3)", "winner": "🇮🇹 Juventus" },
+          { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇩🇪 Borussia Dortmund", "score": "2-5 (a.g. 2-2)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇪🇸 Barcelona", "score": "0-4 (a.g. 0-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇩🇪 Bayern Munich", "score": "0-3 (a.g. 0-3)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇬🇧 Manchester United", "score": "3-2 (a.g. 1-1)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇵🇹 Porto", "team2": "🇪🇸 Málaga", "score": "0-1 (a.g. 0-1)", "winner": "🇪🇸 Málaga" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇪🇸 Málaga", "team2": "🇩🇪 Borussia Dortmund", "score": "2-3 (a.g. 0-0)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇫🇷 Paris Saint-Germain", "team2": "🇪🇸 Barcelona", "score": "2-3 (a.g. 2-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇹🇷 Galatasaray", "team2": "🇪🇸 Real Madrid", "score": "3-5 (a.g. 3-2)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇮🇹 Juventus", "team2": "🇩🇪 Bayern Munich", "score": "0-2 (a.g. 0-2)", "winner": "🇩🇪 Bayern Munich" }
+        ],
+        "semiFinals": [
+          { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇪🇸 Real Madrid", "score": "4-3 (a.g. 4-1)", "winner": "🇩🇪 Borussia Dortmund" },
+          { "team1": "🇩🇪 Bayern Munich", "team2": "🇪🇸 Barcelona", "score": "7-0 (a.g. 4-0)", "winner": "🇩🇪 Bayern Munich" }
+        ],
+        "final": { "team1": "🇩🇪 Borussia Dortmund", "team2": "🇩🇪 Bayern Munich", "score": "1-2", "winner": "🇩🇪 Bayern Munich" }
+      }
+    },
+    "2011-2012": {
+      "season": "2011-2012",
+      "year": "2011-2012",
+      "host": "Europe",
+      "winner": "🇬🇧 Chelsea",
+      "runnerUp": "🇩🇪 Bayern Munich",
+      "third": "🇪🇸 Real Madrid",
+      "totalTeams": 32,
+      "topScorer": "Lionel Messi (14 buts)",
+      "bestPlayer": "Andrés Iniesta",
+      "finalVenue": "Allianz Arena",
+      "finalScore": "1-1 (4-3 t.a.b.)",
+      "venue": "Allianz Arena",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 3, "goalDiff": 10, "points": 15, "qualified": true },
+            { "team": "🇮🇹 Napoli", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 10, "goalsAgainst": 8, "goalDiff": 2, "points": 10, "qualified": true },
+            { "team": "🇬🇧 Manchester City", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 10, "goalsAgainst": 10, "goalDiff": 0, "points": 9, "qualified": false },
+            { "team": "🇪🇸 Villarreal", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 15, "goalDiff": -12, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 13, "goalsAgainst": 6, "goalDiff": 7, "points": 15, "qualified": true },
+            { "team": "🇫🇷 Marseille", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 8, "goalsAgainst": 10, "goalDiff": -2, "points": 9, "qualified": true },
+            { "team": "🇬🇷 Olympiacos", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 9, "goalDiff": -1, "points": 7, "qualified": false },
+            { "team": "🇵🇹 Borussia Dortmund", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 10, "goalsAgainst": 14, "goalDiff": -4, "points": 7, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 9, "goalsAgainst": 5, "goalDiff": 4, "points": 12, "qualified": true },
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 15, "goalsAgainst": 6, "goalDiff": 9, "points": 11, "qualified": true },
+            { "team": "🇧🇾 BATE Borisov", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 6, "goalsAgainst": 11, "goalDiff": -5, "points": 6, "qualified": false },
+            { "team": "🇨🇿 Viktoria Plzeň", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 5, "goalsAgainst": 13, "goalDiff": -8, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 16, "goalsAgainst": 3, "goalDiff": 13, "points": 18, "qualified": true },
+            { "team": "🇫🇷 Lyon", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 9, "goalsAgainst": 11, "goalDiff": -2, "points": 10, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 11, "goalsAgainst": 13, "goalDiff": -2, "points": 5, "qualified": false },
+            { "team": "🇭🇷 Dinamo Zagreb", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 6, "goalsAgainst": 15, "goalDiff": -9, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 7, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇵🇹 Bayer Leverkusen", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 11, "goalsAgainst": 7, "goalDiff": 4, "points": 11, "qualified": true },
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 12, "goalsAgainst": 12, "goalDiff": 0, "points": 7, "qualified": false },
+            { "team": "🇧🇪 Genk", "played": 6, "won": 1, "drawn": 0, "lost": 5, "goalsFor": 5, "goalsAgainst": 16, "goalDiff": -11, "points": 3, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇵🇹 Benfica", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 8, "goalsAgainst": 7, "goalDiff": 1, "points": 10, "qualified": true },
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 13, "goalsAgainst": 8, "goalDiff": 5, "points": 10, "qualified": true },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 14, "goalsAgainst": 11, "goalDiff": 3, "points": 10, "qualified": false },
+            { "team": "🇷🇴 Oțelul Galați", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 4, "goalsAgainst": 13, "goalDiff": -9, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇵🇹 Porto", "played": 6, "won": 5, "drawn": 1, "lost": 0, "goalsFor": 16, "goalsAgainst": 4, "goalDiff": 12, "points": 16, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 14, "goalsAgainst": 7, "goalDiff": 7, "points": 13, "qualified": true },
+            { "team": "🇷🇺 Zenit Saint Petersburg", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 8, "goalsAgainst": 13, "goalDiff": -5, "points": 4, "qualified": false },
+            { "team": "🇨🇾 APOEL", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 4, "goalsAgainst": 18, "goalDiff": -14, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 3, "drawn": 3, "lost": 0, "goalsFor": 14, "goalsAgainst": 6, "goalDiff": 8, "points": 12, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 2, "drawn": 2, "lost": 2, "goalsFor": 7, "goalsAgainst": 9, "goalDiff": -2, "points": 8, "qualified": true },
+            { "team": "🇨🇿 Viktoria Plzeň", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 10, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇧🇾 BATE Borisov", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 8, "goalDiff": -3, "points": 5, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇫🇷 Lyon", "team2": "🇨🇾 APOEL", "score": "1-1 (4-3 t.a.b., a.g. 0-1)", "winner": "🇨🇾 APOEL" },
+          { "team1": "🇩🇪 Bayer Leverkusen", "team2": "🇪🇸 Barcelona", "score": "1-10 (a.g. 1-3)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇮🇹 Napoli", "team2": "🇬🇧 Chelsea", "score": "3-5 (a.g. 3-1)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇫🇷 Marseille", "team2": "🇮🇹 Inter Milan", "score": "1-2 (a.g. 1-0)", "winner": "🇮🇹 Inter Milan" },
+          { "team1": "🇨🇭 Basel", "team2": "🇩🇪 Bayern Munich", "score": "0-7 (a.g. 0-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇬🇧 Arsenal", "score": "4-3 (a.g. 4-0)", "winner": "🇮🇹 AC Milan" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇷🇺 Zenit Saint Petersburg", "score": "4-3 (a.g. 2-0)", "winner": "🇵🇹 Benfica" },
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇷🇺 CSKA Moscow", "score": "5-2 (a.g. 1-1)", "winner": "🇪🇸 Real Madrid" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇨🇾 APOEL", "team2": "🇪🇸 Real Madrid", "score": "0-5 (a.g. 0-3)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇪🇸 Barcelona", "score": "2-3 (a.g. 0-0)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇵🇹 Benfica", "team2": "🇬🇧 Chelsea", "score": "1-3 (a.g. 0-1)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇫🇷 Marseille", "team2": "🇩🇪 Bayern Munich", "score": "0-2 (a.g. 0-2)", "winner": "🇩🇪 Bayern Munich" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇩🇪 Bayern Munich", "score": "3-3 (1-3 t.a.b., a.g. 2-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇪🇸 Barcelona", "score": "3-2 (a.g. 1-0)", "winner": "🇬🇧 Chelsea" }
+        ],
+        "final": { "team1": "🇩🇪 Bayern Munich", "team2": "🇬🇧 Chelsea", "score": "1-1 (3-4 t.a.b.)", "winner": "🇬🇧 Chelsea" }
+      }
+    },
+    "2010-2011": {
+      "season": "2010-2011",
+      "year": "2010-2011",
+      "host": "Europe",
+      "winner": "🇪🇸 Barcelona",
+      "runnerUp": "🇬🇧 Manchester United",
+      "third": "🇩🇪 Schalke 04",
+      "totalTeams": 32,
+      "topScorer": "Lionel Messi (12 buts)",
+      "bestPlayer": "Lionel Messi",
+      "finalVenue": "Wembley Stadium",
+      "finalScore": "3-1",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇬🇧 Tottenham", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 13, "qualified": true },
+            { "team": "🇮🇹 Inter Milan", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 13, "goalsAgainst": 7, "goalDiff": 6, "points": 12, "qualified": true },
+            { "team": "🇳🇱 Twente", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 10, "goalsAgainst": 10, "goalDiff": 0, "points": 10, "qualified": false },
+            { "team": "🇧🇾 Werder Bremen", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 6, "goalsAgainst": 18, "goalDiff": -12, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Barcelona", "played": 6, "won": 5, "drawn": 0, "lost": 1, "goalsFor": 14, "goalsAgainst": 6, "goalDiff": 8, "points": 15, "qualified": true },
+            { "team": "🇩🇰 Copenhagen", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 6, "goalsAgainst": 8, "goalDiff": -2, "points": 7, "qualified": true },
+            { "team": "🇷🇺 Rubin Kazan", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 7, "goalsAgainst": 11, "goalDiff": -4, "points": 7, "qualified": false },
+            { "team": "🇬🇷 Panathinaikos", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 8, "goalsAgainst": 10, "goalDiff": -2, "points": 6, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇬🇧 Manchester United", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 13, "goalsAgainst": 2, "goalDiff": 11, "points": 18, "qualified": true },
+            { "team": "🇪🇸 Valencia", "played": 6, "won": 3, "drawn": 0, "lost": 3, "goalsFor": 11, "goalsAgainst": 9, "goalDiff": 2, "points": 9, "qualified": true },
+            { "team": "🇷🇴 Rangers", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 4, "goalsAgainst": 7, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇹🇷 Bursaspor", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 13, "goalDiff": -10, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇩🇪 Bayern Munich", "played": 6, "won": 4, "drawn": 2, "lost": 0, "goalsFor": 15, "goalsAgainst": 3, "goalDiff": 12, "points": 14, "qualified": true },
+            { "team": "🇮🇹 Roma", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 15, "goalsAgainst": 7, "goalDiff": 8, "points": 11, "qualified": true },
+            { "team": "🇨🇭 Basel", "played": 6, "won": 1, "drawn": 3, "lost": 2, "goalsFor": 10, "goalsAgainst": 13, "goalDiff": -3, "points": 6, "qualified": false },
+            { "team": "🇷🇴 CFR Cluj", "played": 6, "won": 0, "drawn": 1, "lost": 5, "goalsFor": 3, "goalsAgainst": 20, "goalDiff": -17, "points": 1, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇩🇪 Bayern Leverkusen", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 10, "goalsAgainst": 7, "goalDiff": 3, "points": 11, "qualified": true },
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 12, "goalsAgainst": 7, "goalDiff": 5, "points": 10, "qualified": true },
+            { "team": "🇵🇹 Spartak Moscow", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 10, "goalsAgainst": 12, "goalDiff": -2, "points": 7, "qualified": false },
+            { "team": "🇸🇮 Žilina", "played": 6, "won": 1, "drawn": 2, "lost": 3, "goalsFor": 5, "goalsAgainst": 11, "goalDiff": -6, "points": 5, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇫🇷 Marseille", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 12, "qualified": true },
+            { "team": "🇬🇧 Chelsea", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 13, "goalsAgainst": 5, "goalDiff": 8, "points": 11, "qualified": true },
+            { "team": "🇷🇺 Spartak Moscow", "played": 6, "won": 2, "drawn": 1, "lost": 3, "goalsFor": 8, "goalsAgainst": 11, "goalDiff": -3, "points": 7, "qualified": false },
+            { "team": "🇸🇮 Žilina", "played": 6, "won": 1, "drawn": 1, "lost": 4, "goalsFor": 3, "goalsAgainst": 10, "goalDiff": -7, "points": 4, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe G",
+          "standings": [
+            { "team": "🇪🇸 Real Madrid", "played": 6, "won": 6, "drawn": 0, "lost": 0, "goalsFor": 18, "goalsAgainst": 2, "goalDiff": 16, "points": 18, "qualified": true },
+            { "team": "🇮🇹 AC Milan", "played": 6, "won": 4, "drawn": 0, "lost": 2, "goalsFor": 9, "goalsAgainst": 7, "goalDiff": 2, "points": 12, "qualified": true },
+            { "team": "🇳🇱 Ajax", "played": 6, "won": 2, "drawn": 0, "lost": 4, "goalsFor": 9, "goalsAgainst": 12, "goalDiff": -3, "points": 6, "qualified": false },
+            { "team": "🇫🇷 Auxerre", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 3, "goalsAgainst": 18, "goalDiff": -15, "points": 0, "qualified": false }
+          ]
+        },
+        {
+          "name": "Groupe H",
+          "standings": [
+            { "team": "🇬🇧 Arsenal", "played": 6, "won": 4, "drawn": 1, "lost": 1, "goalsFor": 17, "goalsAgainst": 6, "goalDiff": 11, "points": 13, "qualified": true },
+            { "team": "🇺🇦 Shakhtar Donetsk", "played": 6, "won": 3, "drawn": 2, "lost": 1, "goalsFor": 14, "goalsAgainst": 8, "goalDiff": 6, "points": 11, "qualified": true },
+            { "team": "🇵🇹 Braga", "played": 6, "won": 3, "drawn": 1, "lost": 2, "goalsFor": 12, "goalsAgainst": 13, "goalDiff": -1, "points": 10, "qualified": false },
+            { "team": "🇧🇪 Partizan", "played": 6, "won": 0, "drawn": 0, "lost": 6, "goalsFor": 3, "goalsAgainst": 19, "goalDiff": -16, "points": 0, "qualified": false }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇪🇸 Valencia", "team2": "🇩🇪 Schalke 04", "score": "1-2 (a.g. 1-1)", "winner": "🇩🇪 Schalke 04" },
+          { "team1": "🇮🇹 Inter Milan", "team2": "🇩🇪 Bayern Munich", "score": "2-3 (a.g. 0-1)", "winner": "🇩🇪 Bayern Munich" },
+          { "team1": "🇮🇹 Roma", "team2": "🇺🇦 Shakhtar Donetsk", "score": "2-6 (a.g. 2-3)", "winner": "🇺🇦 Shakhtar Donetsk" },
+          { "team1": "🇩🇰 Copenhagen", "team2": "🇬🇧 Chelsea", "score": "0-2 (a.g. 0-2)", "winner": "🇬🇧 Chelsea" },
+          { "team1": "🇮🇹 AC Milan", "team2": "🇬🇧 Tottenham", "score": "1-1 (a.g. 0-1)", "winner": "🇬🇧 Tottenham" },
+          { "team1": "🇫🇷 Marseille", "team2": "🇬🇧 Manchester United", "score": "0-2 (a.g. 0-0)", "winner": "🇬🇧 Manchester United" },
+          { "team1": "🇩🇪 Bayern Leverkusen", "team2": "🇪🇸 Barcelona", "score": "1-10 (a.g. 1-7)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇬🇧 Arsenal", "team2": "🇪🇸 Barcelona", "score": "2-4 (a.g. 2-1)", "winner": "🇪🇸 Barcelona" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇮🇹 Inter Milan", "score": "7-3 (a.g. 2-5)", "winner": "🇩🇪 Schalke 04" },
+          { "team1": "🇬🇧 Chelsea", "team2": "🇬🇧 Manchester United", "score": "1-2 (a.g. 0-1)", "winner": "🇬🇧 Manchester United" },
+          { "team1": "🇬🇧 Tottenham", "team2": "🇪🇸 Real Madrid", "score": "0-5 (a.g. 0-4)", "winner": "🇪🇸 Real Madrid" },
+          { "team1": "🇺🇦 Shakhtar Donetsk", "team2": "🇪🇸 Barcelona", "score": "1-6 (a.g. 1-5)", "winner": "🇪🇸 Barcelona" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Real Madrid", "team2": "🇪🇸 Barcelona", "score": "1-3 (a.g. 0-2)", "winner": "🇪🇸 Barcelona" },
+          { "team1": "🇩🇪 Schalke 04", "team2": "🇬🇧 Manchester United", "score": "2-6 (a.g. 2-2)", "winner": "🇬🇧 Manchester United" }
+        ],
+        "final": { "team1": "🇬🇧 Manchester United", "team2": "🇪🇸 Barcelona", "score": "1-3", "winner": "🇪🇸 Barcelona" }
+      }
+    }
+  },
+  "statistics": {
+    "mostWins": {
+      "team": "🇪🇸 Real Madrid",
+      "wins": 15,
+      "years": ["2023-24", "2021-22", "2017-18", "2016-17", "2015-16", "2013-14", "2001-02", "1999-00", "1997-98", "1965-66", "1959-60", "1958-59", "1957-58", "1956-57", "1955-56"]
+    },
+    "recentChampions": [
+      "2024-25: 🇫🇷 Paris Saint-Germain",
+      "2023-24: 🇪🇸 Real Madrid",
+      "2022-23: 🇬🇧 Manchester City",
+      "2021-22: 🇪🇸 Real Madrid",
+      "2020-21: 🇬🇧 Chelsea",
+      "2019-20: 🇩🇪 Bayern Munich"
+    ]
+  }
+}

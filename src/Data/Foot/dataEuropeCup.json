@@ -1,0 +1,1468 @@
+{
+  "currentEuro": {
+    "year": 2028,
+    "hosts": ["🇬🇧 Angleterre", "🇮🇪 Irlande", "🏴 Écosse", "🏴 Pays de Galles"],
+    "startDate": "2028-06-09",
+    "endDate": "2028-07-09",
+    "totalTeams": 24,
+    "totalMatches": 51,
+    "matchesPlayed": 0,
+    "phase": "Qualifications en cours",
+    "status": "à_venir"
+  },
+  "pastEuros": [
+    {
+      "year": 2024,
+      "host": "Allemagne",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇬🇧 Angleterre",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇫🇷 France",
+      "totalTeams": 24,
+      "finalScore": "2-1",
+      "topScorer": "Harry Kane (3 buts)",
+      "bestPlayer": "Rodri",
+      "venue": "Olympiastadion Berlin",
+      "attendance": "71091"
+    },
+    {
+      "year": 2020,
+      "host": "Multi-pays",
+      "hosts": ["🇬🇧 Angleterre", "🇩🇪 Allemagne", "🇮🇹 Italie", "🇪🇸 Espagne", "🇳🇱 Pays-Bas", "🇷🇴 Roumanie", "🇦🇿 Azerbaïdjan", "🇷🇺 Russie", "🇩🇰 Danemark", "🇭🇺 Hongrie", "🇸🇰 Slovaquie"],
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇬🇧 Angleterre",
+      "third": "🇪🇸 Espagne",
+      "fourth": "🇩🇰 Danemark",
+      "totalTeams": 24,
+      "finalScore": "1-1 (3-2 t.a.b.)",
+      "topScorer": "Cristiano Ronaldo, Patrik Schick (5 buts)",
+      "bestPlayer": "Gianluigi Donnarumma",
+      "venue": "Wembley Stadium",
+      "attendance": "67173"
+    },
+    {
+      "year": 2016,
+      "host": "France",
+      "winner": "🇵🇹 Portugal",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🏴 Pays de Galles",
+      "totalTeams": 24,
+      "finalScore": "1-0 (a.p.)",
+      "topScorer": "Antoine Griezmann (6 buts)",
+      "bestPlayer": "Antoine Griezmann",
+      "venue": "Stade de France",
+      "attendance": "75868"
+    },
+    {
+      "year": 2012,
+      "host": "Pologne/Ukraine",
+      "hosts": ["🇵🇱 Pologne", "🇺🇦 Ukraine"],
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇩🇪 Allemagne",
+      "fourth": "🇵🇹 Portugal",
+      "totalTeams": 16,
+      "finalScore": "4-0",
+      "topScorer": "Mario Balotelli, Fernando Torres, Alan Dzagoev, Mario Mandžukić, Mario Gómez, Cristiano Ronaldo (3 buts)",
+      "bestPlayer": "Andrés Iniesta",
+      "venue": "NSC Olimpiyskiy",
+      "attendance": "63170"
+    },
+    {
+      "year": 2008,
+      "host": "Autriche/Suisse",
+      "hosts": ["🇦🇹 Autriche", "🇨🇭 Suisse"],
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇷🇺 Russie",
+      "fourth": "🇹🇷 Turquie",
+      "totalTeams": 16,
+      "finalScore": "1-0",
+      "topScorer": "David Villa (4 buts)",
+      "bestPlayer": "Xavi",
+      "venue": "Ernst Happel Stadion",
+      "attendance": "51428"
+    },
+    {
+      "year": 2004,
+      "host": "Portugal",
+      "winner": "🇬🇷 Grèce",
+      "runnerUp": "🇵🇹 Portugal",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇨🇿 République tchèque",
+      "totalTeams": 16,
+      "finalScore": "1-0",
+      "topScorer": "Milan Baroš (5 buts)",
+      "bestPlayer": "Theodoros Zagorakis",
+      "venue": "Estádio da Luz",
+      "attendance": "62865"
+    },
+    {
+      "year": 2000,
+      "host": "Belgique/Pays-Bas",
+      "hosts": ["🇧🇪 Belgique", "🇳🇱 Pays-Bas"],
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇵🇹 Portugal",
+      "totalTeams": 16,
+      "finalScore": "2-1 (but en or)",
+      "topScorer": "Patrick Kluivert, Savo Milošević (5 buts)",
+      "bestPlayer": "Zinedine Zidane",
+      "venue": "Feijenoord Stadion",
+      "attendance": "48200"
+    },
+    {
+      "year": 1996,
+      "host": "Angleterre",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇨🇿 République tchèque",
+      "third": "🇫🇷 France",
+      "fourth": "🇬🇧 Angleterre",
+      "totalTeams": 16,
+      "finalScore": "2-1 (but en or)",
+      "topScorer": "Alan Shearer (5 buts)",
+      "bestPlayer": "Matthias Sammer",
+      "venue": "Wembley Stadium",
+      "attendance": "73611"
+    },
+    {
+      "year": 1992,
+      "host": "Suède",
+      "winner": "🇩🇰 Danemark",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇸🇪 Suède",
+      "totalTeams": 8,
+      "finalScore": "2-0",
+      "topScorer": "Henrik Larsen, Karl-Heinz Riedle, Dennis Bergkamp, Tomas Brolin (3 buts)",
+      "bestPlayer": "Peter Schmeichel",
+      "venue": "Råsunda Stadium",
+      "attendance": "37800"
+    },
+    {
+      "year": 1988,
+      "host": "Allemagne de l'Ouest",
+      "winner": "🇳🇱 Pays-Bas",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇩🇪 Allemagne de l'Ouest",
+      "fourth": "🇮🇹 Italie",
+      "totalTeams": 8,
+      "finalScore": "2-0",
+      "topScorer": "Marco van Basten (5 buts)",
+      "bestPlayer": "Marco van Basten",
+      "venue": "Olympiastadion München",
+      "attendance": "72308"
+    },
+    {
+      "year": 1984,
+      "host": "France",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇪🇸 Espagne",
+      "third": "🇩🇰 Danemark",
+      "fourth": "🇵🇹 Portugal",
+      "totalTeams": 8,
+      "finalScore": "2-0",
+      "topScorer": "Michel Platini (9 buts)",
+      "bestPlayer": "Michel Platini",
+      "venue": "Parc des Princes",
+      "attendance": "47368"
+    },
+    {
+      "year": 1980,
+      "host": "Italie",
+      "winner": "🇩🇪 Allemagne de l'Ouest",
+      "runnerUp": "🇧🇪 Belgique",
+      "third": "🇨🇿 Tchécoslovaquie",
+      "fourth": "🇮🇹 Italie",
+      "totalTeams": 8,
+      "finalScore": "2-1",
+      "topScorer": "Klaus Allofs (3 buts)",
+      "bestPlayer": "Horst Hrubesch",
+      "venue": "Stadio Olimpico",
+      "attendance": "47864"
+    },
+    {
+      "year": 1976,
+      "host": "Yougoslavie",
+      "winner": "🇨🇿 Tchécoslovaquie",
+      "runnerUp": "🇩🇪 Allemagne de l'Ouest",
+      "third": "🇳🇱 Pays-Bas",
+      "fourth": "🇷🇸 Yougoslavie",
+      "totalTeams": 4,
+      "finalScore": "2-2 (5-3 t.a.b.)",
+      "topScorer": "Dieter Müller (4 buts)",
+      "bestPlayer": "Ivo Viktor",
+      "venue": "Crvena Zvezda Stadium",
+      "attendance": "45000"
+    },
+    {
+      "year": 1972,
+      "host": "Belgique",
+      "winner": "🇩🇪 Allemagne de l'Ouest",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇧🇪 Belgique",
+      "fourth": "🇭🇺 Hongrie",
+      "totalTeams": 4,
+      "finalScore": "3-0",
+      "topScorer": "Gerd Müller (4 buts)",
+      "bestPlayer": "Gerd Müller",
+      "venue": "Heysel Stadium",
+      "attendance": "43437"
+    },
+    {
+      "year": 1968,
+      "host": "Italie",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇷🇸 Yougoslavie",
+      "third": "🇬🇧 Angleterre",
+      "fourth": "🇷🇺 URSS",
+      "totalTeams": 4,
+      "finalScore": "2-0 (après rejeu)",
+      "topScorer": "Dragan Džajić (2 buts)",
+      "bestPlayer": "Luigi Riva",
+      "venue": "Stadio Olimpico",
+      "attendance": "85000"
+    },
+    {
+      "year": 1964,
+      "host": "Espagne",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇭🇺 Hongrie",
+      "fourth": "🇩🇰 Danemark",
+      "totalTeams": 4,
+      "finalScore": "2-1",
+      "topScorer": "Ferenc Bene, Dezső Novák, Jesús María Pereda (2 buts)",
+      "bestPlayer": "Luis Suárez",
+      "venue": "Santiago Bernabéu",
+      "attendance": "79115"
+    },
+    {
+      "year": 1960,
+      "host": "France",
+      "winner": "🇷🇺 URSS",
+      "runnerUp": "🇷🇸 Yougoslavie",
+      "third": "🇨🇿 Tchécoslovaquie",
+      "fourth": "🇫🇷 France",
+      "totalTeams": 4,
+      "finalScore": "2-1 (a.p.)",
+      "topScorer": "François Heutte, Valentin Ivanov, Dražan Jerković, Viktor Ponedelnik, Milan Galić (2 buts)",
+      "bestPlayer": "Lev Yashin",
+      "venue": "Parc des Princes",
+      "attendance": "17966"
+    }
+  ],
+  "detailedEditions": {
+    "2024": {
+      "year": 2024,
+      "host": "Allemagne",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇬🇧 Angleterre",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 24,
+      "topScorer": "Harry Kane (3 buts)",
+      "bestPlayer": "Rodri",
+      "venue": "Olympiastadion Berlin",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 7, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false },
+            { "team": "🏴 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🏴 Écosse", "score": "5-1", "winner": "🇩🇪 Allemagne", "date": "14 juin 2024" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇨🇭 Suisse", "score": "1-3", "winner": "🇨🇭 Suisse", "date": "15 juin 2024" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇭🇺 Hongrie", "score": "2-0", "winner": "🇩🇪 Allemagne", "date": "19 juin 2024" },
+            { "team1": "🏴 Écosse", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "19 juin 2024" },
+            { "team1": "🏴 Écosse", "team2": "🇭🇺 Hongrie", "score": "0-1", "winner": "🇭🇺 Hongrie", "date": "23 juin 2024" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇩🇪 Allemagne", "score": "1-1", "winner": null, "date": "23 juin 2024" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 9, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇦🇱 Albanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 3, "goalsAgainst": 7, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇭🇷 Croatie", "score": "3-0", "winner": "🇪🇸 Espagne", "date": "15 juin 2024" },
+            { "team1": "🇮🇹 Italie", "team2": "🇦🇱 Albanie", "score": "2-1", "winner": "🇮🇹 Italie", "date": "15 juin 2024" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇦🇱 Albanie", "score": "2-2", "winner": null, "date": "19 juin 2024" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇮🇹 Italie", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "20 juin 2024" },
+            { "team1": "🇦🇱 Albanie", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne", "date": "24 juin 2024" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "24 juin 2024" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇸🇮 Slovénie", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇷🇸 Serbie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇸🇮 Slovénie", "team2": "🇩🇰 Danemark", "score": "1-1", "winner": null, "date": "16 juin 2024" },
+            { "team1": "🇷🇸 Serbie", "team2": "🇬🇧 Angleterre", "score": "0-1", "winner": "🇬🇧 Angleterre", "date": "16 juin 2024" },
+            { "team1": "🇸🇮 Slovénie", "team2": "🇷🇸 Serbie", "score": "1-1", "winner": null, "date": "20 juin 2024" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇬🇧 Angleterre", "score": "1-1", "winner": null, "date": "20 juin 2024" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇸🇮 Slovénie", "score": "0-0", "winner": null, "date": "25 juin 2024" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇷🇸 Serbie", "score": "0-0", "winner": null, "date": "25 juin 2024" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇱 Pologne", "team2": "🇳🇱 Pays-Bas", "score": "1-2", "winner": "🇳🇱 Pays-Bas", "date": "16 juin 2024" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇫🇷 France", "score": "0-1", "winner": "🇫🇷 France", "date": "17 juin 2024" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇦🇹 Autriche", "score": "1-3", "winner": "🇦🇹 Autriche", "date": "21 juin 2024" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "21 juin 2024" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇹 Autriche", "score": "2-3", "winner": "🇦🇹 Autriche", "date": "25 juin 2024" },
+            { "team1": "🇫🇷 France", "team2": "🇵🇱 Pologne", "score": "1-1", "winner": null, "date": "25 juin 2024" }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇸🇰 Slovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇺🇦 Ukraine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇴 Roumanie", "team2": "🇺🇦 Ukraine", "score": "3-0", "winner": "🇷🇴 Roumanie", "date": "17 juin 2024" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇸🇰 Slovaquie", "score": "0-1", "winner": "🇸🇰 Slovaquie", "date": "17 juin 2024" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇺🇦 Ukraine", "score": "1-2", "winner": "🇺🇦 Ukraine", "date": "21 juin 2024" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇷🇴 Roumanie", "score": "2-0", "winner": "🇧🇪 Belgique", "date": "22 juin 2024" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇷🇴 Roumanie", "score": "1-1", "winner": null, "date": "26 juin 2024" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇧🇪 Belgique", "score": "0-0", "winner": null, "date": "26 juin 2024" }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇬🇪 Géorgie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇹🇷 Turquie", "team2": "🇬🇪 Géorgie", "score": "3-1", "winner": "🇹🇷 Turquie", "date": "18 juin 2024" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇨🇿 Tchéquie", "score": "2-1", "winner": "🇵🇹 Portugal", "date": "18 juin 2024" },
+            { "team1": "🇬🇪 Géorgie", "team2": "🇨🇿 Tchéquie", "score": "1-1", "winner": null, "date": "22 juin 2024" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇵🇹 Portugal", "score": "0-3", "winner": "🇵🇹 Portugal", "date": "22 juin 2024" },
+            { "team1": "🇬🇪 Géorgie", "team2": "🇵🇹 Portugal", "score": "2-0", "winner": "🇬🇪 Géorgie", "date": "26 juin 2024" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇹🇷 Turquie", "score": "1-2", "winner": "🇹🇷 Turquie", "date": "26 juin 2024" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇨🇭 Suisse", "team2": "🇮🇹 Italie", "score": "2-0", "winner": "🇨🇭 Suisse" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇩🇰 Danemark", "score": "2-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇸🇰 Slovaquie", "score": "2-1 (a.p.)", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇬🇪 Géorgie", "score": "4-1", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇫🇷 France", "team2": "🇧🇪 Belgique", "score": "1-0", "winner": "🇫🇷 France" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇸🇮 Slovénie", "score": "0-0 (3-0 t.a.b.)", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇷🇴 Roumanie", "team2": "🇳🇱 Pays-Bas", "score": "0-3", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇦🇹 Autriche", "team2": "🇹🇷 Turquie", "score": "1-2", "winner": "🇹🇷 Turquie" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇪🇸 Espagne", "team2": "🇩🇪 Allemagne", "score": "2-1 (a.p.)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇵🇹 Portugal", "team2": "🇫🇷 France", "score": "0-0 (3-5 t.a.b.)", "winner": "🇫🇷 France" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇨🇭 Suisse", "score": "1-1 (5-3 t.a.b.)", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇹🇷 Turquie", "score": "2-1", "winner": "🇳🇱 Pays-Bas" }
+        ],
+        "semiFinals": [
+          { "team1": "🇪🇸 Espagne", "team2": "🇫🇷 France", "score": "2-1", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇬🇧 Angleterre", "score": "1-2", "winner": "🇬🇧 Angleterre" }
+        ],
+        "final": { "team1": "🇪🇸 Espagne", "team2": "🇬🇧 Angleterre", "score": "2-1", "winner": "🇪🇸 Espagne" }
+      }
+    },
+    "2020": {
+      "year": 2020,
+      "host": "Multi-pays",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇬🇧 Angleterre",
+      "third": "🇪🇸 Espagne",
+      "totalTeams": 24,
+      "topScorer": "Cristiano Ronaldo, Patrik Schick (5 buts)",
+      "bestPlayer": "Gianluigi Donnarumma",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 0, "goalDiff": 7, "points": 9, "qualified": true },
+            { "team": "🏴 Pays de Galles", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 8, "goalDiff": -7, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇹🇷 Turquie", "team2": "🇮🇹 Italie", "score": "0-3", "winner": "🇮🇹 Italie", "date": "11 juin 2021" },
+            { "team1": "🏴 Pays de Galles", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "12 juin 2021" },
+            { "team1": "🇹🇷 Turquie", "team2": "🏴 Pays de Galles", "score": "0-2", "winner": "🏴 Pays de Galles", "date": "16 juin 2021" },
+            { "team1": "🇮🇹 Italie", "team2": "🇨🇭 Suisse", "score": "3-0", "winner": "🇮🇹 Italie", "date": "16 juin 2021" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇹🇷 Turquie", "score": "3-1", "winner": "🇨🇭 Suisse", "date": "20 juin 2021" },
+            { "team1": "🇮🇹 Italie", "team2": "🏴 Pays de Galles", "score": "1-0", "winner": "🇮🇹 Italie", "date": "20 juin 2021" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 1, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 3, "qualified": true },
+            { "team": "🇫🇮 Finlande", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇰 Danemark", "team2": "🇫🇮 Finlande", "score": "0-1", "winner": "🇫🇮 Finlande", "date": "12 juin 2021" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇷🇺 Russie", "score": "3-0", "winner": "🇧🇪 Belgique", "date": "12 juin 2021" },
+            { "team1": "🇫🇮 Finlande", "team2": "🇷🇺 Russie", "score": "0-1", "winner": "🇷🇺 Russie", "date": "16 juin 2021" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇧🇪 Belgique", "score": "1-2", "winner": "🇧🇪 Belgique", "date": "17 juin 2021" },
+            { "team1": "🇷🇺 Russie", "team2": "🇩🇰 Danemark", "score": "1-4", "winner": "🇩🇰 Danemark", "date": "21 juin 2021" },
+            { "team1": "🇫🇮 Finlande", "team2": "🇧🇪 Belgique", "score": "0-2", "winner": "🇧🇪 Belgique", "date": "21 juin 2021" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 2, "goalDiff": 6, "points": 9, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇺🇦 Ukraine", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": true },
+            { "team": "🇲🇰 Macédoine du Nord", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 8, "goalDiff": -6, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇹 Autriche", "team2": "🇲🇰 Macédoine du Nord", "score": "3-1", "winner": "🇦🇹 Autriche", "date": "13 juin 2021" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇺🇦 Ukraine", "score": "3-2", "winner": "🇳🇱 Pays-Bas", "date": "13 juin 2021" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇲🇰 Macédoine du Nord", "score": "2-1", "winner": "🇺🇦 Ukraine", "date": "17 juin 2021" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇦🇹 Autriche", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "17 juin 2021" },
+            { "team1": "🇲🇰 Macédoine du Nord", "team2": "🇳🇱 Pays-Bas", "score": "0-3", "winner": "🇳🇱 Pays-Bas", "date": "21 juin 2021" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇦🇹 Autriche", "score": "0-1", "winner": "🇦🇹 Autriche", "date": "21 juin 2021" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 2, "goalsAgainst": 0, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🏴 Écosse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇭🇷 Croatie", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "13 juin 2021" },
+            { "team1": "🏴 Écosse", "team2": "🇨🇿 Tchéquie", "score": "0-2", "winner": "🇨🇿 Tchéquie", "date": "14 juin 2021" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇨🇿 Tchéquie", "score": "1-1", "winner": null, "date": "18 juin 2021" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🏴 Écosse", "score": "0-0", "winner": null, "date": "18 juin 2021" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇬🇧 Angleterre", "score": "0-1", "winner": "🇬🇧 Angleterre", "date": "22 juin 2021" },
+            { "team1": "🇭🇷 Croatie", "team2": "🏴 Écosse", "score": "3-1", "winner": "🇭🇷 Croatie", "date": "22 juin 2021" }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇸🇰 Slovaquie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 3, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇱 Pologne", "team2": "🇸🇰 Slovaquie", "score": "1-2", "winner": "🇸🇰 Slovaquie", "date": "14 juin 2021" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇸🇪 Suède", "score": "0-0", "winner": null, "date": "14 juin 2021" },
+            { "team1": "🇸🇪 Suède", "team2": "🇸🇰 Slovaquie", "score": "1-0", "winner": "🇸🇪 Suède", "date": "18 juin 2021" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇵🇱 Pologne", "score": "1-1", "winner": null, "date": "19 juin 2021" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇪🇸 Espagne", "score": "0-5", "winner": "🇪🇸 Espagne", "date": "23 juin 2021" },
+            { "team1": "🇸🇪 Suède", "team2": "🇵🇱 Pologne", "score": "3-2", "winner": "🇸🇪 Suède", "date": "23 juin 2021" }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 6, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇭🇺 Hongrie", "team2": "🇵🇹 Portugal", "score": "0-3", "winner": "🇵🇹 Portugal", "date": "15 juin 2021" },
+            { "team1": "🇫🇷 France", "team2": "🇩🇪 Allemagne", "score": "1-0", "winner": "🇫🇷 France", "date": "15 juin 2021" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇫🇷 France", "score": "1-1", "winner": null, "date": "19 juin 2021" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇩🇪 Allemagne", "score": "2-4", "winner": "🇩🇪 Allemagne", "date": "19 juin 2021" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇫🇷 France", "score": "2-2", "winner": null, "date": "23 juin 2021" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇭🇺 Hongrie", "score": "2-2", "winner": null, "date": "23 juin 2021" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🏴 Pays de Galles", "team2": "🇩🇰 Danemark", "score": "0-4", "winner": "🇩🇰 Danemark" },
+          { "team1": "🇮🇹 Italie", "team2": "🇦🇹 Autriche", "score": "2-1 (a.p.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇿 Tchéquie", "score": "0-2", "winner": "🇨🇿 Tchéquie" },
+          { "team1": "🇧🇪 Belgique", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇧🇪 Belgique" },
+          { "team1": "🇭🇷 Croatie", "team2": "🇪🇸 Espagne", "score": "3-5 (a.p.)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇫🇷 France", "team2": "🇨🇭 Suisse", "score": "3-3 (4-5 t.a.b.)", "winner": "🇨🇭 Suisse" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇩🇪 Allemagne", "score": "2-0", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇸🇪 Suède", "team2": "🇺🇦 Ukraine", "score": "1-2 (a.p.)", "winner": "🇺🇦 Ukraine" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇨🇭 Suisse", "team2": "🇪🇸 Espagne", "score": "1-1 (1-3 t.a.b.)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇧🇪 Belgique", "team2": "🇮🇹 Italie", "score": "1-2", "winner": "🇮🇹 Italie" },
+          { "team1": "🇨🇿 Tchéquie", "team2": "🇩🇰 Danemark", "score": "1-2", "winner": "🇩🇰 Danemark" },
+          { "team1": "🇺🇦 Ukraine", "team2": "🇬🇧 Angleterre", "score": "0-4", "winner": "🇬🇧 Angleterre" }
+        ],
+        "semiFinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "1-1 (4-2 t.a.b.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇩🇰 Danemark", "score": "2-1 (a.p.)", "winner": "🇬🇧 Angleterre" }
+        ],
+        "final": { "team1": "🇮🇹 Italie", "team2": "🇬🇧 Angleterre", "score": "1-1 (3-2 t.a.b.)", "winner": "🇮🇹 Italie" }
+      }
+    },
+    "2016": {
+      "year": 2016,
+      "host": "France",
+      "winner": "🇵🇹 Portugal",
+      "runnerUp": "🇫🇷 France",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 24,
+      "topScorer": "Antoine Griezmann (6 buts)",
+      "bestPlayer": "Antoine Griezmann",
+      "venue": "Stade de France",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇦🇱 Albanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇷🇴 Roumanie", "score": "2-1", "winner": "🇫🇷 France", "date": "10 juin 2016" },
+            { "team1": "🇦🇱 Albanie", "team2": "🇨🇭 Suisse", "score": "0-1", "winner": "🇨🇭 Suisse", "date": "11 juin 2016" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "15 juin 2016" },
+            { "team1": "🇫🇷 France", "team2": "🇦🇱 Albanie", "score": "2-0", "winner": "🇫🇷 France", "date": "15 juin 2016" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇦🇱 Albanie", "score": "0-1", "winner": "🇦🇱 Albanie", "date": "19 juin 2016" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "19 juin 2016" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🏴 Pays de Galles", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇸🇰 Slovaquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 6, "goalDiff": -4, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🏴 Pays de Galles", "team2": "🇸🇰 Slovaquie", "score": "2-1", "winner": "🏴 Pays de Galles", "date": "11 juin 2016" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇷🇺 Russie", "score": "1-1", "winner": null, "date": "11 juin 2016" },
+            { "team1": "🇷🇺 Russie", "team2": "🇸🇰 Slovaquie", "score": "1-2", "winner": "🇸🇰 Slovaquie", "date": "15 juin 2016" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🏴 Pays de Galles", "score": "2-1", "winner": "🇬🇧 Angleterre", "date": "16 juin 2016" },
+            { "team1": "🇷🇺 Russie", "team2": "🏴 Pays de Galles", "score": "0-3", "winner": "🏴 Pays de Galles", "date": "20 juin 2016" },
+            { "team1": "🇸🇰 Slovaquie", "team2": "🇬🇧 Angleterre", "score": "0-0", "winner": null, "date": "20 juin 2016" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 0, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 2, "goalsAgainst": 0, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇮🇪 Irlande du Nord", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇺🇦 Ukraine", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇱 Pologne", "team2": "🇮🇪 Irlande du Nord", "score": "1-0", "winner": "🇵🇱 Pologne", "date": "12 juin 2016" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇺🇦 Ukraine", "score": "2-0", "winner": "🇩🇪 Allemagne", "date": "12 juin 2016" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇮🇪 Irlande du Nord", "score": "0-2", "winner": "🇮🇪 Irlande du Nord", "date": "16 juin 2016" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇱 Pologne", "score": "0-0", "winner": null, "date": "16 juin 2016" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇵🇱 Pologne", "score": "0-1", "winner": "🇵🇱 Pologne", "date": "21 juin 2016" },
+            { "team1": "🇮🇪 Irlande du Nord", "team2": "🇩🇪 Allemagne", "score": "0-1", "winner": "🇩🇪 Allemagne", "date": "21 juin 2016" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 6, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇹🇷 Turquie", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie", "date": "12 juin 2016" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇨🇿 Tchéquie", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "13 juin 2016" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇭🇷 Croatie", "score": "2-2", "winner": null, "date": "17 juin 2016" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇹🇷 Turquie", "score": "3-0", "winner": "🇪🇸 Espagne", "date": "17 juin 2016" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇹🇷 Turquie", "score": "0-2", "winner": "🇹🇷 Turquie", "date": "21 juin 2016" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇭🇷 Croatie", "date": "21 juin 2016" }
+          ]
+        },
+        {
+          "name": "Groupe E",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 4, "qualified": true },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇪 Irlande", "team2": "🇸🇪 Suède", "score": "1-1", "winner": null, "date": "13 juin 2016" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇮🇹 Italie", "score": "0-2", "winner": "🇮🇹 Italie", "date": "13 juin 2016" },
+            { "team1": "🇮🇹 Italie", "team2": "🇸🇪 Suède", "score": "1-0", "winner": "🇮🇹 Italie", "date": "17 juin 2016" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇮🇪 Irlande", "score": "3-0", "winner": "🇧🇪 Belgique", "date": "18 juin 2016" },
+            { "team1": "🇮🇹 Italie", "team2": "🇮🇪 Irlande", "score": "0-1", "winner": "🇮🇪 Irlande", "date": "22 juin 2016" },
+            { "team1": "🇸🇪 Suède", "team2": "🇧🇪 Belgique", "score": "0-1", "winner": "🇧🇪 Belgique", "date": "22 juin 2016" }
+          ]
+        },
+        {
+          "name": "Groupe F",
+          "standings": [
+            { "team": "🇭🇺 Hongrie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 6, "goalsAgainst": 4, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇮🇸 Islande", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 0, "drawn": 3, "lost": 0, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇹 Portugal", "team2": "🇮🇸 Islande", "score": "1-1", "winner": null, "date": "14 juin 2016" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇭🇺 Hongrie", "score": "0-2", "winner": "🇭🇺 Hongrie", "date": "14 juin 2016" },
+            { "team1": "🇮🇸 Islande", "team2": "🇭🇺 Hongrie", "score": "1-1", "winner": null, "date": "18 juin 2016" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇦🇹 Autriche", "score": "0-0", "winner": null, "date": "18 juin 2016" },
+            { "team1": "🇮🇸 Islande", "team2": "🇦🇹 Autriche", "score": "2-1", "winner": "🇮🇸 Islande", "date": "22 juin 2016" },
+            { "team1": "🇭🇺 Hongrie", "team2": "🇵🇹 Portugal", "score": "3-3", "winner": null, "date": "22 juin 2016" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "roundOf16": [
+          { "team1": "🇨🇭 Suisse", "team2": "🇵🇱 Pologne", "score": "1-1 (4-5 t.a.b.)", "winner": "🇵🇱 Pologne" },
+          { "team1": "🏴 Pays de Galles", "team2": "🇮🇪 Irlande du Nord", "score": "1-0", "winner": "🏴 Pays de Galles" },
+          { "team1": "🇭🇷 Croatie", "team2": "🇵🇹 Portugal", "score": "0-1 (a.p.)", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇫🇷 France", "team2": "🇮🇪 Irlande", "score": "2-1", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇸🇰 Slovaquie", "score": "3-0", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇧🇪 Belgique", "score": "0-4", "winner": "🇧🇪 Belgique" },
+          { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "2-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇮🇸 Islande", "score": "1-2", "winner": "🇮🇸 Islande" }
+        ],
+        "quarterFinals": [
+          { "team1": "🇵🇱 Pologne", "team2": "🇵🇹 Portugal", "score": "1-1 (3-5 t.a.b.)", "winner": "🇵🇹 Portugal" },
+          { "team1": "🏴 Pays de Galles", "team2": "🇧🇪 Belgique", "score": "3-1", "winner": "🏴 Pays de Galles" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇮🇹 Italie", "score": "1-1 (6-5 t.a.b.)", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇫🇷 France", "team2": "🇮🇸 Islande", "score": "5-2", "winner": "🇫🇷 France" }
+        ],
+        "semiFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🏴 Pays de Galles", "score": "2-0", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇫🇷 France", "score": "0-2", "winner": "🇫🇷 France" }
+        ],
+        "final": { "team1": "🇵🇹 Portugal", "team2": "🇫🇷 France", "score": "1-0 (a.p.)", "winner": "🇵🇹 Portugal" }
+      }
+    },
+    "2012": {
+      "year": 2012,
+      "host": "Pologne/Ukraine",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇩🇪 Allemagne",
+      "totalTeams": 16,
+      "topScorer": "Mario Balotelli, Fernando Torres, Alan Dzagoev, Mario Mandžukić, Mario Gómez, Cristiano Ronaldo (3 buts)",
+      "bestPlayer": "Andrés Iniesta",
+      "venue": "NSC Olimpiyskiy",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 6, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": false },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇱 Pologne", "team2": "🇬🇷 Grèce", "score": "1-1", "winner": null, "date": "8 juin 2012" },
+            { "team1": "🇷🇺 Russie", "team2": "🇨🇿 Tchéquie", "score": "4-1", "winner": "🇷🇺 Russie", "date": "8 juin 2012" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇨🇿 Tchéquie", "score": "1-2", "winner": "🇨🇿 Tchéquie", "date": "12 juin 2012" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇷🇺 Russie", "score": "1-1", "winner": null, "date": "12 juin 2012" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇵🇱 Pologne", "score": "1-0", "winner": "🇨🇿 Tchéquie", "date": "16 juin 2012" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇷🇺 Russie", "score": "1-0", "winner": "🇬🇷 Grèce", "date": "16 juin 2012" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 4, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 5, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇩🇰 Danemark", "score": "0-1", "winner": "🇩🇰 Danemark", "date": "9 juin 2012" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇩🇪 Allemagne", "date": "9 juin 2012" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇵🇹 Portugal", "score": "2-3", "winner": "🇵🇹 Portugal", "date": "13 juin 2012" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇩🇪 Allemagne", "score": "1-2", "winner": "🇩🇪 Allemagne", "date": "13 juin 2012" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇳🇱 Pays-Bas", "score": "2-1", "winner": "🇵🇹 Portugal", "date": "17 juin 2012" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇩🇪 Allemagne", "score": "1-2", "winner": "🇩🇪 Allemagne", "date": "17 juin 2012" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 4, "qualified": false },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 9, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "10 juin 2012" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇭🇷 Croatie", "score": "1-3", "winner": "🇭🇷 Croatie", "date": "10 juin 2012" },
+            { "team1": "🇮🇹 Italie", "team2": "🇭🇷 Croatie", "score": "1-1", "winner": null, "date": "14 juin 2012" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇮🇪 Irlande", "score": "4-0", "winner": "🇪🇸 Espagne", "date": "14 juin 2012" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne", "date": "18 juin 2012" },
+            { "team1": "🇮🇹 Italie", "team2": "🇮🇪 Irlande", "score": "2-0", "winner": "🇮🇹 Italie", "date": "18 juin 2012" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 7, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 1, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇺🇦 Ukraine", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 5, "goalsAgainst": 9, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇬🇧 Angleterre", "score": "1-1", "winner": null, "date": "11 juin 2012" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇺🇦 Ukraine", "date": "11 juin 2012" },
+            { "team1": "🇸🇪 Suède", "team2": "🇬🇧 Angleterre", "score": "2-3", "winner": "🇬🇧 Angleterre", "date": "15 juin 2012" },
+            { "team1": "🇺🇦 Ukraine", "team2": "🇫🇷 France", "score": "0-2", "winner": "🇫🇷 France", "date": "15 juin 2012" },
+            { "team1": "🇸🇪 Suède", "team2": "🇫🇷 France", "score": "2-0", "winner": "🇸🇪 Suède", "date": "19 juin 2012" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇺🇦 Ukraine", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "19 juin 2012" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterFinals": [
+          { "team1": "🇨🇿 Tchéquie", "team2": "🇵🇹 Portugal", "score": "0-1", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇬🇷 Grèce", "score": "4-2", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇫🇷 France", "score": "2-0", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇮🇹 Italie", "score": "0-0 (2-4 t.a.b.)", "winner": "🇮🇹 Italie" }
+        ],
+        "semiFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🇪🇸 Espagne", "score": "0-0 (2-4 t.a.b.)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇮🇹 Italie", "score": "1-2", "winner": "🇮🇹 Italie" }
+        ],
+        "final": { "team1": "🇪🇸 Espagne", "team2": "🇮🇹 Italie", "score": "4-0", "winner": "🇪🇸 Espagne" }
+      }
+    },
+    "2008": {
+      "year": 2008,
+      "host": "Autriche/Suisse",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇷🇺 Russie",
+      "totalTeams": 16,
+      "topScorer": "David Villa (4 buts)",
+      "bestPlayer": "Xavi",
+      "venue": "Ernst Happel Stadion",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 5, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇭 Suisse", "team2": "🇨🇿 Tchéquie", "score": "0-1", "winner": "🇨🇿 Tchéquie", "date": "7 juin 2008" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇹🇷 Turquie", "score": "2-0", "winner": "🇵🇹 Portugal", "date": "7 juin 2008" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇵🇹 Portugal", "score": "1-3", "winner": "🇵🇹 Portugal", "date": "11 juin 2008" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇹🇷 Turquie", "score": "1-2", "winner": "🇹🇷 Turquie", "date": "11 juin 2008" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇵🇹 Portugal", "score": "2-0", "winner": "🇨🇭 Suisse", "date": "15 juin 2008" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇨🇿 Tchéquie", "score": "3-2", "winner": "🇹🇷 Turquie", "date": "15 juin 2008" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇦🇹 Autriche", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇵🇱 Pologne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇦🇹 Autriche", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie", "date": "8 juin 2008" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇱 Pologne", "score": "2-0", "winner": "🇩🇪 Allemagne", "date": "8 juin 2008" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇩🇪 Allemagne", "score": "2-1", "winner": "🇭🇷 Croatie", "date": "12 juin 2008" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇵🇱 Pologne", "score": "1-1", "winner": null, "date": "12 juin 2008" },
+            { "team1": "🇵🇱 Pologne", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie", "date": "16 juin 2008" },
+            { "team1": "🇦🇹 Autriche", "team2": "🇩🇪 Allemagne", "score": "0-1", "winner": "🇩🇪 Allemagne", "date": "16 juin 2008" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 1, "goalDiff": 8, "points": 9, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 3, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇮🇹 Italie", "score": "3-0", "winner": "🇳🇱 Pays-Bas", "date": "9 juin 2008" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇫🇷 France", "score": "0-0", "winner": null, "date": "9 juin 2008" },
+            { "team1": "🇮🇹 Italie", "team2": "🇷🇴 Roumanie", "score": "1-1", "winner": null, "date": "13 juin 2008" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇫🇷 France", "score": "4-1", "winner": "🇳🇱 Pays-Bas", "date": "13 juin 2008" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇴 Roumanie", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "17 juin 2008" },
+            { "team1": "🇫🇷 France", "team2": "🇮🇹 Italie", "score": "0-2", "winner": "🇮🇹 Italie", "date": "17 juin 2008" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 9, "qualified": true },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 3, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 3, "goalsAgainst": 6, "goalDiff": -3, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇷 Grèce", "team2": "🇸🇪 Suède", "score": "2-0", "winner": "🇬🇷 Grèce", "date": "10 juin 2008" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇷🇺 Russie", "score": "4-1", "winner": "🇪🇸 Espagne", "date": "10 juin 2008" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇷🇺 Russie", "score": "0-1", "winner": "🇷🇺 Russie", "date": "14 juin 2008" },
+            { "team1": "🇸🇪 Suède", "team2": "🇪🇸 Espagne", "score": "1-2", "winner": "🇪🇸 Espagne", "date": "14 juin 2008" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇪🇸 Espagne", "score": "1-2", "winner": "🇪🇸 Espagne", "date": "18 juin 2008" },
+            { "team1": "🇸🇪 Suède", "team2": "🇷🇺 Russie", "score": "2-0", "winner": "🇸🇪 Suède", "date": "18 juin 2008" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🇩🇪 Allemagne", "score": "2-3", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇭🇷 Croatie", "team2": "🇹🇷 Turquie", "score": "1-1 (1-3 t.a.b.)", "winner": "🇹🇷 Turquie" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇺 Russie", "score": "1-3", "winner": "🇷🇺 Russie" },
+          { "team1": "🇪🇸 Espagne", "team2": "🇮🇹 Italie", "score": "0-0 (4-2 t.a.b.)", "winner": "🇪🇸 Espagne" }
+        ],
+        "semiFinals": [
+          { "team1": "🇩🇪 Allemagne", "team2": "🇹🇷 Turquie", "score": "3-2", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇷🇺 Russie", "team2": "🇪🇸 Espagne", "score": "0-3", "winner": "🇪🇸 Espagne" }
+        ],
+        "final": { "team1": "🇩🇪 Allemagne", "team2": "🇪🇸 Espagne", "score": "0-1", "winner": "🇪🇸 Espagne" }
+      }
+    },
+    "2004": {
+      "year": 2004,
+      "host": "Portugal",
+      "winner": "🇬🇷 Grèce",
+      "runnerUp": "🇵🇹 Portugal",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 16,
+      "topScorer": "Milan Baroš (5 buts)",
+      "bestPlayer": "Theodoros Zagorakis",
+      "venue": "Estádio da Luz",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 6, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇹 Portugal", "team2": "🇬🇷 Grèce", "score": "1-2", "winner": "🇬🇷 Grèce", "date": "12 juin 2004" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇷🇺 Russie", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "12 juin 2004" },
+            { "team1": "🇷🇺 Russie", "team2": "🇬🇷 Grèce", "score": "2-1", "winner": "🇷🇺 Russie", "date": "16 juin 2004" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇵🇹 Portugal", "score": "0-1", "winner": "🇵🇹 Portugal", "date": "16 juin 2004" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇷🇺 Russie", "score": "2-0", "winner": "🇵🇹 Portugal", "date": "20 juin 2004" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇪🇸 Espagne", "score": "1-1", "winner": null, "date": "20 juin 2004" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 4, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 4, "goalDiff": 4, "points": 6, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 6, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇨🇭 Suisse", "team2": "🇭🇷 Croatie", "score": "0-0", "winner": null, "date": "13 juin 2004" },
+            { "team1": "🇫🇷 France", "team2": "🇬🇧 Angleterre", "score": "2-1", "winner": "🇫🇷 France", "date": "13 juin 2004" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇨🇭 Suisse", "score": "3-0", "winner": "🇬🇧 Angleterre", "date": "17 juin 2004" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇫🇷 France", "score": "2-2", "winner": null, "date": "17 juin 2004" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇬🇧 Angleterre", "score": "2-4", "winner": "🇬🇧 Angleterre", "date": "21 juin 2004" },
+            { "team1": "🇨🇭 Suisse", "team2": "🇫🇷 France", "score": "1-3", "winner": "🇫🇷 France", "date": "21 juin 2004" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇰 Danemark", "team2": "🇮🇹 Italie", "score": "0-0", "winner": null, "date": "14 juin 2004" },
+            { "team1": "🇸🇪 Suède", "team2": "🇧🇬 Bulgarie", "score": "5-0", "winner": "🇸🇪 Suède", "date": "14 juin 2004" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇩🇰 Danemark", "score": "0-2", "winner": "🇩🇰 Danemark", "date": "18 juin 2004" },
+            { "team1": "🇮🇹 Italie", "team2": "🇸🇪 Suède", "score": "1-1", "winner": null, "date": "18 juin 2004" },
+            { "team1": "🇮🇹 Italie", "team2": "🇧🇬 Bulgarie", "score": "2-1", "winner": "🇮🇹 Italie", "date": "22 juin 2004" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇸🇪 Suède", "score": "2-2", "winner": null, "date": "22 juin 2004" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 4, "goalDiff": 3, "points": 9, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 6, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇱🇻 Lettonie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne", "team2": "🇳🇱 Pays-Bas", "score": "1-1", "winner": null, "date": "15 juin 2004" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇱🇻 Lettonie", "score": "2-1", "winner": "🇨🇿 Tchéquie", "date": "15 juin 2004" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇿 Tchéquie", "score": "2-3", "winner": "🇨🇿 Tchéquie", "date": "19 juin 2004" },
+            { "team1": "🇱🇻 Lettonie", "team2": "🇩🇪 Allemagne", "score": "0-0", "winner": null, "date": "19 juin 2004" },
+            { "team1": "🇱🇻 Lettonie", "team2": "🇳🇱 Pays-Bas", "score": "0-3", "winner": "🇳🇱 Pays-Bas", "date": "23 juin 2004" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇨🇿 Tchéquie", "score": "1-2", "winner": "🇨🇿 Tchéquie", "date": "23 juin 2004" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🇬🇧 Angleterre", "score": "2-2 (6-5 t.a.b.)", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇫🇷 France", "team2": "🇬🇷 Grèce", "score": "0-1", "winner": "🇬🇷 Grèce" },
+          { "team1": "🇸🇪 Suède", "team2": "🇳🇱 Pays-Bas", "score": "0-0 (4-5 t.a.b.)", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇨🇿 Tchéquie", "team2": "🇩🇰 Danemark", "score": "3-0", "winner": "🇨🇿 Tchéquie" }
+        ],
+        "semiFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🇳🇱 Pays-Bas", "score": "2-1", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇬🇷 Grèce", "team2": "🇨🇿 Tchéquie", "score": "1-0", "winner": "🇬🇷 Grèce" }
+        ],
+        "final": { "team1": "🇵🇹 Portugal", "team2": "🇬🇷 Grèce", "score": "0-1", "winner": "🇬🇷 Grèce" }
+      }
+    },
+    "2000": {
+      "year": 2000,
+      "host": "Belgique/Pays-Bas",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇮🇹 Italie",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 16,
+      "topScorer": "Patrick Kluivert, Savo Milošević (5 buts)",
+      "bestPlayer": "Zinedine Zidane",
+      "venue": "Feijenoord Stadion",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 9, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇵🇹 Portugal", "team2": "🇬🇧 Angleterre", "score": "3-2", "winner": "🇵🇹 Portugal", "date": "12 juin 2000" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇩🇪 Allemagne", "score": "1-1", "winner": null, "date": "12 juin 2000" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇩🇪 Allemagne", "score": "1-0", "winner": "🇬🇧 Angleterre", "date": "17 juin 2000" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇷🇴 Roumanie", "score": "1-0", "winner": "🇵🇹 Portugal", "date": "17 juin 2000" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇬🇧 Angleterre", "score": "3-2", "winner": "🇷🇴 Roumanie", "date": "20 juin 2000" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇵🇹 Portugal", "score": "0-3", "winner": "🇵🇹 Portugal", "date": "20 juin 2000" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇮🇹 Italie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 4, "qualified": false },
+            { "team": "🇸🇪 Suède", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 5, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇹🇷 Turquie", "team2": "🇮🇹 Italie", "score": "1-2", "winner": "🇮🇹 Italie", "date": "11 juin 2000" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇧🇪 Belgique", "date": "10 juin 2000" },
+            { "team1": "🇮🇹 Italie", "team2": "🇧🇪 Belgique", "score": "2-0", "winner": "🇮🇹 Italie", "date": "14 juin 2000" },
+            { "team1": "🇸🇪 Suède", "team2": "🇹🇷 Turquie", "score": "0-0", "winner": null, "date": "14 juin 2000" },
+            { "team1": "🇮🇹 Italie", "team2": "🇸🇪 Suède", "score": "2-1", "winner": "🇮🇹 Italie", "date": "18 juin 2000" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇧🇪 Belgique", "score": "2-0", "winner": "🇹🇷 Turquie", "date": "18 juin 2000" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 2, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 8, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇩🇰 Danemark", "score": "3-0", "winner": "🇫🇷 France", "date": "11 juin 2000" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇿 Tchéquie", "score": "1-0", "winner": "🇳🇱 Pays-Bas", "date": "11 juin 2000" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇫🇷 France", "score": "1-2", "winner": "🇫🇷 France", "date": "15 juin 2000" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇳🇱 Pays-Bas", "score": "0-3", "winner": "🇳🇱 Pays-Bas", "date": "15 juin 2000" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇫🇷 France", "score": "2-2", "winner": null, "date": "21 juin 2000" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇨🇿 Tchéquie", "score": "0-2", "winner": "🇨🇿 Tchéquie", "date": "21 juin 2000" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇳🇴 Norvège", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 1, "goalsAgainst": 0, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 6, "goalsAgainst": 5, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 7, "goalsAgainst": 7, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇸🇮 Slovénie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 4, "goalsAgainst": 6, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇪🇸 Espagne", "team2": "🇳🇴 Norvège", "score": "1-0", "winner": "🇪🇸 Espagne", "date": "13 juin 2000" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇸🇮 Slovénie", "score": "3-3", "winner": null, "date": "13 juin 2000" },
+            { "team1": "🇳🇴 Norvège", "team2": "🇸🇮 Slovénie", "score": "0-0", "winner": null, "date": "18 juin 2000" },
+            { "team1": "🇷🇸 Yougoslavie", "team2": "🇪🇸 Espagne", "score": "3-4", "winner": "🇪🇸 Espagne", "date": "18 juin 2000" },
+            { "team1": "🇸🇮 Slovénie", "team2": "🇪🇸 Espagne", "score": "1-2", "winner": "🇪🇸 Espagne", "date": "21 juin 2000" },
+            { "team1": "🇳🇴 Norvège", "team2": "🇷🇸 Yougoslavie", "score": "0-1", "winner": "🇷🇸 Yougoslavie", "date": "21 juin 2000" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterFinals": [
+          { "team1": "🇵🇹 Portugal", "team2": "🇹🇷 Turquie", "score": "2-0", "winner": "🇵🇹 Portugal" },
+          { "team1": "🇮🇹 Italie", "team2": "🇷🇴 Roumanie", "score": "2-0", "winner": "🇮🇹 Italie" },
+          { "team1": "🇫🇷 France", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇫🇷 France" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇸 Yougoslavie", "score": "6-1", "winner": "🇳🇱 Pays-Bas" }
+        ],
+        "semiFinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇳🇱 Pays-Bas", "score": "0-0 (3-1 t.a.b.)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇫🇷 France", "team2": "🇵🇹 Portugal", "score": "2-1 (a.p.)", "winner": "🇫🇷 France" }
+        ],
+        "final": { "team1": "🇫🇷 France", "team2": "🇮🇹 Italie", "score": "2-1 (but en or)", "winner": "🇫🇷 France" }
+      }
+    },
+    "1996": {
+      "year": 1996,
+      "host": "Angleterre",
+      "winner": "🇩🇪 Allemagne",
+      "runnerUp": "🇨🇿 Tchéquie",
+      "third": "🇫🇷 France",
+      "totalTeams": 16,
+      "topScorer": "Alan Shearer (5 buts)",
+      "bestPlayer": "Matthias Sammer",
+      "venue": "Wembley Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 7, "goalsAgainst": 2, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🏴 Écosse", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 3, "qualified": false },
+            { "team": "🇨🇭 Suisse", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇬🇧 Angleterre", "team2": "🇨🇭 Suisse", "score": "1-1", "winner": null, "date": "8 juin 1996" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🏴 Écosse", "score": "0-0", "winner": null, "date": "10 juin 1996" },
+            { "team1": "🏴 Écosse", "team2": "🇬🇧 Angleterre", "score": "0-2", "winner": "🇬🇧 Angleterre", "date": "15 juin 1996" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇭 Suisse", "score": "2-0", "winner": "🇳🇱 Pays-Bas", "date": "13 juin 1996" },
+            { "team1": "🇨🇭 Suisse", "team2": "🏴 Écosse", "score": "0-1", "winner": "🏴 Écosse", "date": "18 juin 1996" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇳🇱 Pays-Bas", "score": "4-1", "winner": "🇬🇧 Angleterre", "date": "18 juin 1996" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 7, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇧🇬 Bulgarie", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 3, "goalsAgainst": 4, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 1, "goalsAgainst": 4, "goalDiff": -3, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇪🇸 Espagne", "score": "1-1", "winner": null, "date": "9 juin 1996" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇫🇷 France", "score": "0-1", "winner": "🇫🇷 France", "date": "10 juin 1996" },
+            { "team1": "🇫🇷 France", "team2": "🇪🇸 Espagne", "score": "1-1", "winner": null, "date": "15 juin 1996" },
+            { "team1": "🇧🇬 Bulgarie", "team2": "🇷🇴 Roumanie", "score": "1-0", "winner": "🇧🇬 Bulgarie", "date": "13 juin 1996" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇪🇸 Espagne", "score": "1-2", "winner": "🇪🇸 Espagne", "date": "18 juin 1996" },
+            { "team1": "🇫🇷 France", "team2": "🇧🇬 Bulgarie", "score": "3-1", "winner": "🇫🇷 France", "date": "18 juin 1996" }
+          ]
+        },
+        {
+          "name": "Groupe C",
+          "standings": [
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 0, "goalDiff": 5, "points": 7, "qualified": true },
+            { "team": "🇨🇿 Tchéquie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 5, "goalsAgainst": 6, "goalDiff": -1, "points": 4, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇷🇺 Russie", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 3, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇷🇺 Russie", "score": "2-1", "winner": "🇮🇹 Italie", "date": "9 juin 1996" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇨🇿 Tchéquie", "score": "2-0", "winner": "🇩🇪 Allemagne", "date": "9 juin 1996" },
+            { "team1": "🇷🇺 Russie", "team2": "🇩🇪 Allemagne", "score": "0-3", "winner": "🇩🇪 Allemagne", "date": "16 juin 1996" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇮🇹 Italie", "score": "2-1", "winner": "🇨🇿 Tchéquie", "date": "14 juin 1996" },
+            { "team1": "🇮🇹 Italie", "team2": "🇩🇪 Allemagne", "score": "0-0", "winner": null, "date": "19 juin 1996" },
+            { "team1": "🇨🇿 Tchéquie", "team2": "🇷🇺 Russie", "score": "3-3", "winner": null, "date": "19 juin 1996" }
+          ]
+        },
+        {
+          "name": "Groupe D",
+          "standings": [
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 7, "qualified": true },
+            { "team": "🇭🇷 Croatie", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 4, "goalsAgainst": 3, "goalDiff": 1, "points": 6, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 4, "qualified": false },
+            { "team": "🇹🇷 Turquie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 0, "goalsAgainst": 5, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇰 Danemark", "team2": "🇵🇹 Portugal", "score": "1-1", "winner": null, "date": "9 juin 1996" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇭🇷 Croatie", "score": "0-1", "winner": "🇭🇷 Croatie", "date": "9 juin 1996" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇹🇷 Turquie", "score": "1-0", "winner": "🇵🇹 Portugal", "date": "12 juin 1996" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇩🇰 Danemark", "score": "3-0", "winner": "🇭🇷 Croatie", "date": "13 juin 1996" },
+            { "team1": "🇹🇷 Turquie", "team2": "🇩🇰 Danemark", "score": "0-3", "winner": "🇩🇰 Danemark", "date": "18 juin 1996" },
+            { "team1": "🇭🇷 Croatie", "team2": "🇵🇹 Portugal", "score": "0-3", "winner": "🇵🇹 Portugal", "date": "18 juin 1996" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "quarterFinals": [
+          { "team1": "🇬🇧 Angleterre", "team2": "🇪🇸 Espagne", "score": "0-0 (4-2 t.a.b.)", "winner": "🇬🇧 Angleterre" },
+          { "team1": "🇫🇷 France", "team2": "🇳🇱 Pays-Bas", "score": "0-0 (5-4 t.a.b.)", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇪 Allemagne", "team2": "🇭🇷 Croatie", "score": "2-1", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇨🇿 Tchéquie", "team2": "🇵🇹 Portugal", "score": "1-0", "winner": "🇨🇿 Tchéquie" }
+        ],
+        "semiFinals": [
+          { "team1": "🇫🇷 France", "team2": "🇨🇿 Tchéquie", "score": "0-0 (5-6 t.a.b.)", "winner": "🇨🇿 Tchéquie" },
+          { "team1": "🇬🇧 Angleterre", "team2": "🇩🇪 Allemagne", "score": "1-1 (5-6 t.a.b.)", "winner": "🇩🇪 Allemagne" }
+        ],
+        "final": { "team1": "🇨🇿 Tchéquie", "team2": "🇩🇪 Allemagne", "score": "1-2 (a.p.)", "winner": "🇩🇪 Allemagne" }
+      }
+    },
+    "1992": {
+      "year": 1992,
+      "host": "Suède",
+      "winner": "🇩🇰 Danemark",
+      "runnerUp": "🇩🇪 Allemagne",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 8,
+      "topScorer": "Henrik Larsen, Karl-Heinz Riedle, Dennis Bergkamp, Tomas Brolin (3 buts)",
+      "bestPlayer": "Peter Schmeichel",
+      "venue": "Råsunda Stadium",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇸🇪 Suède", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": true },
+            { "team": "🇫🇷 France", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 0, "drawn": 2, "lost": 1, "goalsFor": 1, "goalsAgainst": 2, "goalDiff": -1, "points": 2, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇸🇪 Suède", "team2": "🇫🇷 France", "score": "1-1", "winner": null, "date": "10 juin 1992" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇬🇧 Angleterre", "score": "0-0", "winner": null, "date": "11 juin 1992" },
+            { "team1": "🇫🇷 France", "team2": "🇬🇧 Angleterre", "score": "0-0", "winner": null, "date": "14 juin 1992" },
+            { "team1": "🇸🇪 Suède", "team2": "🇩🇰 Danemark", "score": "1-0", "winner": "🇸🇪 Suède", "date": "14 juin 1992" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇸🇪 Suède", "score": "1-2", "winner": "🇸🇪 Suède", "date": "17 juin 1992" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇫🇷 France", "score": "2-1", "winner": "🇩🇰 Danemark", "date": "17 juin 1992" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 6, "goalsAgainst": 3, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇩🇪 Allemagne", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 7, "goalsAgainst": 5, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🏴 Écosse", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 2, "qualified": false },
+            { "team": "🇷🇺 CEI", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🏴 Écosse", "score": "1-0", "winner": "🇳🇱 Pays-Bas", "date": "12 juin 1992" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇷🇺 CEI", "score": "1-1", "winner": null, "date": "12 juin 1992" },
+            { "team1": "🏴 Écosse", "team2": "🇩🇪 Allemagne", "score": "0-2", "winner": "🇩🇪 Allemagne", "date": "15 juin 1992" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇺 CEI", "score": "0-0", "winner": null, "date": "15 juin 1992" },
+            { "team1": "🇷🇺 CEI", "team2": "🏴 Écosse", "score": "0-3", "winner": "🏴 Écosse", "date": "18 juin 1992" },
+            { "team1": "🇩🇪 Allemagne", "team2": "🇳🇱 Pays-Bas", "score": "3-1", "winner": "🇩🇪 Allemagne", "date": "18 juin 1992" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇸🇪 Suède", "team2": "🇩🇪 Allemagne", "score": "2-3", "winner": "🇩🇪 Allemagne" },
+          { "team1": "🇳🇱 Pays-Bas", "team2": "🇩🇰 Danemark", "score": "2-2 (4-5 t.a.b.)", "winner": "🇩🇰 Danemark" }
+        ],
+        "final": { "team1": "🇩🇰 Danemark", "team2": "🇩🇪 Allemagne", "score": "2-0", "winner": "🇩🇰 Danemark" }
+      }
+    },
+    "1988": {
+      "year": 1988,
+      "host": "Allemagne de l'Ouest",
+      "winner": "🇳🇱 Pays-Bas",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇩🇪 Allemagne de l'Ouest",
+      "totalTeams": 8,
+      "topScorer": "Marco van Basten (5 buts)",
+      "bestPlayer": "Marco van Basten",
+      "venue": "Olympiastadion München",
+      "groupStage": [
+        {
+          "name": "Groupe A",
+          "standings": [
+            { "team": "🇷🇺 URSS", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 2, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇮🇪 Irlande", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 2, "goalsAgainst": 3, "goalDiff": -1, "points": 2, "qualified": false },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇮🇹 Italie", "score": "1-1", "winner": null, "date": "10 juin 1988" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇩🇰 Danemark", "score": "3-2", "winner": "🇪🇸 Espagne", "date": "11 juin 1988" },
+            { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "1-0", "winner": "🇮🇹 Italie", "date": "14 juin 1988" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇩🇰 Danemark", "score": "2-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "14 juin 1988" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇮🇹 Italie", "score": "0-2", "winner": "🇮🇹 Italie", "date": "17 juin 1988" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇪🇸 Espagne", "score": "2-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "17 juin 1988" }
+          ]
+        },
+        {
+          "name": "Groupe B",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 5, "goalsAgainst": 1, "goalDiff": 4, "points": 5, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 1, "goalDiff": 3, "points": 5, "qualified": true },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 3, "goalsAgainst": 5, "goalDiff": -2, "points": 2, "qualified": false },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 7, "goalDiff": -5, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇷🇺 URSS", "team2": "🇳🇱 Pays-Bas", "score": "0-1", "winner": "🇳🇱 Pays-Bas", "date": "12 juin 1988" },
+            { "team1": "🇮🇪 Irlande", "team2": "🇬🇧 Angleterre", "score": "1-0", "winner": "🇮🇪 Irlande", "date": "12 juin 1988" },
+            { "team1": "🇬🇧 Angleterre", "team2": "🇳🇱 Pays-Bas", "score": "1-3", "winner": "🇳🇱 Pays-Bas", "date": "15 juin 1988" },
+            { "team1": "🇷🇺 URSS", "team2": "🇮🇪 Irlande", "score": "3-1", "winner": "🇷🇺 URSS", "date": "15 juin 1988" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇮🇪 Irlande", "score": "0-1", "winner": "🇮🇪 Irlande", "date": "18 juin 1988" },
+            { "team1": "🇷🇺 URSS", "team2": "🇬🇧 Angleterre", "score": "3-1", "winner": "🇷🇺 URSS", "date": "18 juin 1988" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇳🇱 Pays-Bas", "score": "1-2", "winner": "🇳🇱 Pays-Bas" },
+          { "team1": "🇮🇹 Italie", "team2": "🇷🇺 URSS", "score": "0-2", "winner": "🇷🇺 URSS" }
+        ],
+        "final": { "team1": "🇷🇺 URSS", "team2": "🇳🇱 Pays-Bas", "score": "0-2", "winner": "🇳🇱 Pays-Bas" }
+      }
+    },
+    "1984": {
+      "year": 1984,
+      "host": "France",
+      "winner": "🇫🇷 France",
+      "runnerUp": "🇪🇸 Espagne",
+      "third": "🇩🇰 Danemark",
+      "totalTeams": 8,
+      "topScorer": "Michel Platini (9 buts)",
+      "bestPlayer": "Michel Platini",
+      "venue": "Parc des Princes",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇫🇷 France", "played": 3, "won": 3, "drawn": 0, "lost": 0, "goalsFor": 9, "goalsAgainst": 2, "goalDiff": 7, "points": 6, "qualified": true },
+            { "team": "🇩🇰 Danemark", "played": 3, "won": 2, "drawn": 0, "lost": 1, "goalsFor": 8, "goalsAgainst": 3, "goalDiff": 5, "points": 4, "qualified": true },
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 1, "drawn": 0, "lost": 2, "goalsFor": 4, "goalsAgainst": 8, "goalDiff": -4, "points": 2, "qualified": false },
+            { "team": "🇷🇸 Yougoslavie", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 10, "goalDiff": -8, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇫🇷 France", "team2": "🇩🇰 Danemark", "score": "1-0", "winner": "🇫🇷 France", "date": "12 juin 1984" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇷🇸 Yougoslavie", "score": "2-0", "winner": "🇧🇪 Belgique", "date": "13 juin 1984" },
+            { "team1": "🇫🇷 France", "team2": "🇧🇪 Belgique", "score": "5-0", "winner": "🇫🇷 France", "date": "16 juin 1984" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇷🇸 Yougoslavie", "score": "5-0", "winner": "🇩🇰 Danemark", "date": "16 juin 1984" },
+            { "team1": "🇩🇰 Danemark", "team2": "🇧🇪 Belgique", "score": "3-2", "winner": "🇩🇰 Danemark", "date": "19 juin 1984" },
+            { "team1": "🇫🇷 France", "team2": "🇷🇸 Yougoslavie", "score": "3-2", "winner": "🇫🇷 France", "date": "19 juin 1984" }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇵🇹 Portugal", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 2, "goalsAgainst": 1, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇷🇴 Roumanie", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 3, "goalsAgainst": 3, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 0, "drawn": 1, "lost": 2, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 1, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇵🇹 Portugal", "score": "0-0", "winner": null, "date": "13 juin 1984" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇪🇸 Espagne", "score": "1-1", "winner": null, "date": "14 juin 1984" },
+            { "team1": "🇵🇹 Portugal", "team2": "🇷🇴 Roumanie", "score": "1-0", "winner": "🇵🇹 Portugal", "date": "17 juin 1984" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇪🇸 Espagne", "score": "1-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "17 juin 1984" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇵🇹 Portugal", "score": "1-1", "winner": null, "date": "20 juin 1984" },
+            { "team1": "🇷🇴 Roumanie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "2-1", "winner": "🇷🇴 Roumanie", "date": "20 juin 1984" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇫🇷 France", "team2": "🇵🇹 Portugal", "score": "3-2 (a.p.)", "winner": "🇫🇷 France" },
+          { "team1": "🇩🇰 Danemark", "team2": "🇪🇸 Espagne", "score": "1-1 (4-5 t.a.b.)", "winner": "🇪🇸 Espagne" }
+        ],
+        "final": { "team1": "🇫🇷 France", "team2": "🇪🇸 Espagne", "score": "2-0", "winner": "🇫🇷 France" }
+      }
+    },
+    "1980": {
+      "year": 1980,
+      "host": "Italie",
+      "winner": "🇩🇪 Allemagne de l'Ouest",
+      "runnerUp": "🇧🇪 Belgique",
+      "third": "🇨🇿 Tchécoslovaquie",
+      "totalTeams": 8,
+      "topScorer": "Klaus Allofs (3 buts)",
+      "bestPlayer": "Horst Hrubesch",
+      "venue": "Stadio Olimpico",
+      "groupStage": [
+        {
+          "name": "Groupe 1",
+          "standings": [
+            { "team": "🇩🇪 Allemagne de l'Ouest", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 4, "goalsAgainst": 2, "goalDiff": 2, "points": 5, "qualified": true },
+            { "team": "🇨🇿 Tchécoslovaquie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 5, "goalsAgainst": 3, "goalDiff": 2, "points": 4, "qualified": true },
+            { "team": "🇳🇱 Pays-Bas", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 4, "goalsAgainst": 4, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇬🇷 Grèce", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 1, "goalsAgainst": 5, "goalDiff": -4, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-0", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "11 juin 1980" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇬🇷 Grèce", "score": "1-0", "winner": "🇳🇱 Pays-Bas", "date": "11 juin 1980" },
+            { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇳🇱 Pays-Bas", "score": "3-2", "winner": "🇩🇪 Allemagne de l'Ouest", "date": "14 juin 1980" },
+            { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇬🇷 Grèce", "score": "3-1", "winner": "🇨🇿 Tchécoslovaquie", "date": "14 juin 1980" },
+            { "team1": "🇳🇱 Pays-Bas", "team2": "🇨🇿 Tchécoslovaquie", "score": "1-1", "winner": null, "date": "17 juin 1980" },
+            { "team1": "🇬🇷 Grèce", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "0-0", "winner": null, "date": "17 juin 1980" }
+          ]
+        },
+        {
+          "name": "Groupe 2",
+          "standings": [
+            { "team": "🇧🇪 Belgique", "played": 3, "won": 2, "drawn": 1, "lost": 0, "goalsFor": 3, "goalsAgainst": 2, "goalDiff": 1, "points": 5, "qualified": true },
+            { "team": "🇮🇹 Italie", "played": 3, "won": 1, "drawn": 2, "lost": 0, "goalsFor": 1, "goalsAgainst": 0, "goalDiff": 1, "points": 4, "qualified": true },
+            { "team": "🇬🇧 Angleterre", "played": 3, "won": 1, "drawn": 1, "lost": 1, "goalsFor": 2, "goalsAgainst": 2, "goalDiff": 0, "points": 3, "qualified": false },
+            { "team": "🇪🇸 Espagne", "played": 3, "won": 0, "drawn": 0, "lost": 3, "goalsFor": 2, "goalsAgainst": 4, "goalDiff": -2, "points": 0, "qualified": false }
+          ],
+          "matches": [
+            { "team1": "🇮🇹 Italie", "team2": "🇪🇸 Espagne", "score": "0-0", "winner": null, "date": "12 juin 1980" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇬🇧 Angleterre", "score": "1-1", "winner": null, "date": "12 juin 1980" },
+            { "team1": "🇮🇹 Italie", "team2": "🇧🇪 Belgique", "score": "0-0", "winner": null, "date": "15 juin 1980" },
+            { "team1": "🇪🇸 Espagne", "team2": "🇬🇧 Angleterre", "score": "1-2", "winner": "🇬🇧 Angleterre", "date": "15 juin 1980" },
+            { "team1": "🇮🇹 Italie", "team2": "🇬🇧 Angleterre", "score": "1-0", "winner": "🇮🇹 Italie", "date": "18 juin 1980" },
+            { "team1": "🇧🇪 Belgique", "team2": "🇪🇸 Espagne", "score": "2-1", "winner": "🇧🇪 Belgique", "date": "18 juin 1980" }
+          ]
+        }
+      ],
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇮🇹 Italie", "score": "0-0 (4-3 t.a.b.)", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇧🇪 Belgique", "score": "1-2 (a.p.)", "winner": "🇧🇪 Belgique" }
+        ],
+        "final": { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇧🇪 Belgique", "score": "2-1", "winner": "🇩🇪 Allemagne de l'Ouest" }
+      }
+    },
+    "1976": {
+      "year": 1976,
+      "host": "Yougoslavie",
+      "winner": "🇨🇿 Tchécoslovaquie",
+      "runnerUp": "🇩🇪 Allemagne de l'Ouest",
+      "third": "🇳🇱 Pays-Bas",
+      "totalTeams": 4,
+      "topScorer": "Dieter Müller (4 buts)",
+      "bestPlayer": "Ivo Viktor",
+      "venue": "Crvena Zvezda Stadium",
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇳🇱 Pays-Bas", "score": "3-1 (a.p.)", "winner": "🇨🇿 Tchécoslovaquie" },
+          { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇷🇸 Yougoslavie", "score": "4-2 (a.p.)", "winner": "🇩🇪 Allemagne de l'Ouest" }
+        ],
+        "thirdPlace": { "team1": "🇳🇱 Pays-Bas", "team2": "🇷🇸 Yougoslavie", "score": "3-2 (a.p.)", "winner": "🇳🇱 Pays-Bas" },
+        "final": { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "2-2 (5-3 t.a.b.)", "winner": "🇨🇿 Tchécoslovaquie" }
+      }
+    },
+    "1972": {
+      "year": 1972,
+      "host": "Belgique",
+      "winner": "🇩🇪 Allemagne de l'Ouest",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇧🇪 Belgique",
+      "totalTeams": 4,
+      "topScorer": "Gerd Müller (4 buts)",
+      "bestPlayer": "Gerd Müller",
+      "venue": "Heysel Stadium",
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇧🇪 Belgique", "team2": "🇩🇪 Allemagne de l'Ouest", "score": "1-2", "winner": "🇩🇪 Allemagne de l'Ouest" },
+          { "team1": "🇭🇺 Hongrie", "team2": "🇷🇺 URSS", "score": "0-1", "winner": "🇷🇺 URSS" }
+        ],
+        "thirdPlace": { "team1": "🇧🇪 Belgique", "team2": "🇭🇺 Hongrie", "score": "2-1", "winner": "🇧🇪 Belgique" },
+        "final": { "team1": "🇩🇪 Allemagne de l'Ouest", "team2": "🇷🇺 URSS", "score": "3-0", "winner": "🇩🇪 Allemagne de l'Ouest" }
+      }
+    },
+    "1968": {
+      "year": 1968,
+      "host": "Italie",
+      "winner": "🇮🇹 Italie",
+      "runnerUp": "🇷🇸 Yougoslavie",
+      "third": "🇬🇧 Angleterre",
+      "totalTeams": 4,
+      "topScorer": "Dragan Džajić (2 buts)",
+      "bestPlayer": "Luigi Riva",
+      "venue": "Stadio Olimpico",
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇮🇹 Italie", "team2": "🇷🇺 URSS", "score": "0-0 (reproduction après tirage au sort)", "winner": "🇮🇹 Italie" },
+          { "team1": "🇷🇸 Yougoslavie", "team2": "🇬🇧 Angleterre", "score": "1-0", "winner": "🇷🇸 Yougoslavie" }
+        ],
+        "thirdPlace": { "team1": "🇬🇧 Angleterre", "team2": "🇷🇺 URSS", "score": "2-0", "winner": "🇬🇧 Angleterre" },
+        "final": { "team1": "🇮🇹 Italie", "team2": "🇷🇸 Yougoslavie", "score": "2-0 (après rejeu 1-1)", "winner": "🇮🇹 Italie" }
+      }
+    },
+    "1964": {
+      "year": 1964,
+      "host": "Espagne",
+      "winner": "🇪🇸 Espagne",
+      "runnerUp": "🇷🇺 URSS",
+      "third": "🇭🇺 Hongrie",
+      "totalTeams": 4,
+      "topScorer": "Ferenc Bene, Dezső Novák, Jesús María Pereda (2 buts)",
+      "bestPlayer": "Luis Suárez",
+      "venue": "Santiago Bernabéu",
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇪🇸 Espagne", "team2": "🇭🇺 Hongrie", "score": "2-1 (a.p.)", "winner": "🇪🇸 Espagne" },
+          { "team1": "🇷🇺 URSS", "team2": "🇩🇰 Danemark", "score": "3-0", "winner": "🇷🇺 URSS" }
+        ],
+        "thirdPlace": { "team1": "🇭🇺 Hongrie", "team2": "🇩🇰 Danemark", "score": "3-1 (a.p.)", "winner": "🇭🇺 Hongrie" },
+        "final": { "team1": "🇪🇸 Espagne", "team2": "🇷🇺 URSS", "score": "2-1", "winner": "🇪🇸 Espagne" }
+      }
+    },
+    "1960": {
+      "year": 1960,
+      "host": "France",
+      "winner": "🇷🇺 URSS",
+      "runnerUp": "🇷🇸 Yougoslavie",
+      "third": "🇨🇿 Tchécoslovaquie",
+      "totalTeams": 4,
+      "topScorer": "François Heutte, Valentin Ivanov, Dražan Jerković, Viktor Ponedelnik, Milan Galić (2 buts)",
+      "bestPlayer": "Lev Yashin",
+      "venue": "Parc des Princes",
+      "knockoutMatches": {
+        "semiFinals": [
+          { "team1": "🇷🇺 URSS", "team2": "🇨🇿 Tchécoslovaquie", "score": "3-0", "winner": "🇷🇺 URSS" },
+          { "team1": "🇷🇸 Yougoslavie", "team2": "🇫🇷 France", "score": "5-4", "winner": "🇷🇸 Yougoslavie" }
+        ],
+        "thirdPlace": { "team1": "🇨🇿 Tchécoslovaquie", "team2": "🇫🇷 France", "score": "2-0", "winner": "🇨🇿 Tchécoslovaquie" },
+        "final": { "team1": "🇷🇺 URSS", "team2": "🇷🇸 Yougoslavie", "score": "2-1 (a.p.)", "winner": "🇷🇺 URSS" }
+      }
+    }
+  },
+  "statistics": {
+    "mostWins": {
+      "team": "🇪🇸 Espagne & 🇩🇪 Allemagne",
+      "wins": 3,
+      "years": [2024, 2012, 2008, 1996, 1980, 1972]
+    },
+    "recentChampions": [
+      "2024: 🇪🇸 Espagne",
+      "2020: 🇮🇹 Italie",
+      "2016: 🇵🇹 Portugal",
+      "2012: 🇪🇸 Espagne",
+      "2008: 🇪🇸 Espagne"
+    ]
+  }
+}

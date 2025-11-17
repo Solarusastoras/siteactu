@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import worldCupData from '../../../Data/Foot/dataworldcup.json';
+import GroupStageTable from '../../../Common/components/GroupStageTable';
+import KnockoutRound from '../../../Common/components/KnockoutRound';
+import EditionPodium from '../../../Common/components/EditionPodium';
+import EditionStats from '../../../Common/components/EditionStats';
 import './WorldCup.scss';
 
 const WorldCup = () => {
@@ -184,45 +188,7 @@ const WorldCup = () => {
                   <h4>Phase de groupes</h4>
                   <div className="groups-grid">
                     {selectedEdition.groupStage.map((group, idx) => (
-                      <div key={idx} className="group-card">
-                        <h5>{group.name}</h5>
-                        <div className="group-table">
-                          <table>
-                            <thead>
-                              <tr>
-                                <th>#</th>
-                                <th>Équipe</th>
-                                <th>J</th>
-                                <th>V</th>
-                                <th>N</th>
-                                <th>D</th>
-                                <th>BP</th>
-                                <th>BC</th>
-                                <th>Diff</th>
-                                <th>Pts</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {group.standings.map((standing, teamIdx) => (
-                                <tr key={teamIdx} className={standing.qualified ? 'qualified' : ''}>
-                                  <td className="position">{teamIdx + 1}</td>
-                                  <td className="team-name">{standing.team}</td>
-                                  <td>{standing.played}</td>
-                                  <td>{standing.won}</td>
-                                  <td>{standing.drawn}</td>
-                                  <td>{standing.lost}</td>
-                                  <td>{standing.goalsFor}</td>
-                                  <td>{standing.goalsAgainst}</td>
-                                  <td className={standing.goalDiff > 0 ? 'positive' : standing.goalDiff < 0 ? 'negative' : ''}>
-                                    {standing.goalDiff > 0 ? '+' : ''}{standing.goalDiff}
-                                  </td>
-                                  <td className="points">{standing.points}</td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
+                      <GroupStageTable key={idx} group={group} />
                     ))}
                   </div>
                 </div>
@@ -233,132 +199,25 @@ const WorldCup = () => {
                 
                 {selectedEdition.knockoutMatches && (
                   <div className="knockout-rounds">
-                    {selectedEdition.knockoutMatches.roundOf16 && (
-                      <div className="round-section">
-                        <h5>Huitièmes de finale</h5>
-                        <div className="matches-list">
-                          {selectedEdition.knockoutMatches.roundOf16.map((match, idx) => (
-                            <div key={idx} className="match-card">
-                              <div className="match-teams">
-                                <span className={match.winner === match.team1 ? 'winner' : ''}>{match.team1}</span>
-                                <span className="vs">vs</span>
-                                <span className={match.winner === match.team2 ? 'winner' : ''}>{match.team2}</span>
-                              </div>
-                              <div className="match-score">{match.score}</div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {selectedEdition.knockoutMatches.quarterfinals && (
-                      <div className="round-section">
-                        <h5>Quarts de finale</h5>
-                        <div className="matches-list">
-                          {selectedEdition.knockoutMatches.quarterfinals.map((match, idx) => (
-                            <div key={idx} className="match-card">
-                              <div className="match-teams">
-                                <span className={match.winner === match.team1 ? 'winner' : ''}>{match.team1}</span>
-                                <span className="vs">vs</span>
-                                <span className={match.winner === match.team2 ? 'winner' : ''}>{match.team2}</span>
-                              </div>
-                              <div className="match-score">{match.score}</div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {selectedEdition.knockoutMatches.semifinals && (
-                      <div className="round-section">
-                        <h5>Demi-finales</h5>
-                        <div className="matches-list">
-                          {selectedEdition.knockoutMatches.semifinals.map((match, idx) => (
-                            <div key={idx} className="match-card">
-                              <div className="match-teams">
-                                <span className={match.winner === match.team1 ? 'winner' : ''}>{match.team1}</span>
-                                <span className="vs">vs</span>
-                                <span className={match.winner === match.team2 ? 'winner' : ''}>{match.team2}</span>
-                              </div>
-                              <div className="match-score">{match.score}</div>
-                            </div>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-
-                    {selectedEdition.knockoutMatches.thirdPlace && (
-                      <div className="round-section">
-                        <h5>Match pour la 3ème place</h5>
-                        <div className="matches-list">
-                          <div className="match-card">
-                            <div className="match-teams">
-                              <span className={selectedEdition.knockoutMatches.thirdPlace.winner === selectedEdition.knockoutMatches.thirdPlace.team1 ? 'winner' : ''}>
-                                {selectedEdition.knockoutMatches.thirdPlace.team1}
-                              </span>
-                              <span className="vs">vs</span>
-                              <span className={selectedEdition.knockoutMatches.thirdPlace.winner === selectedEdition.knockoutMatches.thirdPlace.team2 ? 'winner' : ''}>
-                                {selectedEdition.knockoutMatches.thirdPlace.team2}
-                              </span>
-                            </div>
-                            <div className="match-score">{selectedEdition.knockoutMatches.thirdPlace.score}</div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
-
-                    {selectedEdition.knockoutMatches.final && (
-                      <div className="round-section final-round">
-                        <h5>🏆 FINALE</h5>
-                        <div className="matches-list">
-                          <div className="match-card final-card">
-                            <div className="match-teams">
-                              <span className={selectedEdition.knockoutMatches.final.winner === selectedEdition.knockoutMatches.final.team1 ? 'winner' : ''}>
-                                {selectedEdition.knockoutMatches.final.team1}
-                              </span>
-                              <span className="vs">vs</span>
-                              <span className={selectedEdition.knockoutMatches.final.winner === selectedEdition.knockoutMatches.final.team2 ? 'winner' : ''}>
-                                {selectedEdition.knockoutMatches.final.team2}
-                              </span>
-                            </div>
-                            <div className="match-score">{selectedEdition.knockoutMatches.final.score}</div>
-                            <div className="match-venue">📍 {selectedEdition.venue}</div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
+                    <KnockoutRound title="Huitièmes de finale" matches={selectedEdition.knockoutMatches.roundOf16} />
+                    <KnockoutRound title="Quarts de finale" matches={selectedEdition.knockoutMatches.quarterfinals} />
+                    <KnockoutRound title="Demi-finales" matches={selectedEdition.knockoutMatches.semifinals} />
+                    <KnockoutRound title="Match pour la 3ème place" matches={selectedEdition.knockoutMatches.thirdPlace} />
+                    <KnockoutRound title="🏆 FINALE" matches={selectedEdition.knockoutMatches.final} isFinal={true} />
                   </div>
                 )}
 
-                <div className="edition-podium">
-                  <div className="podium-final">
-                    <div className="podium-item winner">
-                      <span className="medal">🥇</span>
-                      <span className="team">{selectedEdition.winner}</span>
-                    </div>
-                    <div className="podium-item runner-up">
-                      <span className="medal">🥈</span>
-                      <span className="team">{selectedEdition.runnerUp}</span>
-                    </div>
-                    <div className="podium-item third">
-                      <span className="medal">🥉</span>
-                      <span className="team">{selectedEdition.third}</span>
-                    </div>
-                  </div>
-                </div>
+                <EditionPodium 
+                  winner={selectedEdition.winner}
+                  runnerUp={selectedEdition.runnerUp}
+                  third={selectedEdition.third}
+                />
 
-                <div className="edition-stats">
-                  <div className="stat-item">
-                    <span className="stat-icon">🎯</span>
-                    <span className="stat-label">Meilleur buteur:</span>
-                    <span className="stat-value">{selectedEdition.topScorer}</span>
-                  </div>
-                  <div className="stat-item">
-                    <span className="stat-icon">👤</span>
-                    <span className="stat-label">Meilleur joueur:</span>
-                    <span className="stat-value">{selectedEdition.bestPlayer}</span>
-                  </div>
-                </div>
+                <EditionStats
+                  topScorer={selectedEdition.topScorer}
+                  bestPlayer={selectedEdition.bestPlayer}
+                  venue={selectedEdition.venue}
+                />
               </div>
             </div>
           ) : (

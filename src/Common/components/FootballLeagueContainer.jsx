@@ -68,7 +68,7 @@ const FootballLeagueContainer = ({
         
         // Mise à jour hebdomadaire des matchs du week-end
         if (shouldFetchWeekend || neverFetched || isOutdated || forceUpdate) {
-          console.log(`${leagueConfig.emoji} ${leagueConfig.name} - Mise à jour des matchs du week-end...`);
+          console.log(`${leagueConfig.emoji} ${leagueConfig.name} - Mise à jour des matchs...`);
           
           // Récupérer les matchs d'aujourd'hui si pas déjà fait
           if (!isMatchTime) {
@@ -77,20 +77,25 @@ const FootballLeagueContainer = ({
             setData(matchesData);
           }
           
-          // Récupérer les matchs sur 3 week-ends
-          const weekends = getWeekendsToFetch(3);
-          
           try {
             const allFetches = [];
             
-            // Créer toutes les requêtes pour les week-ends
-            weekends.forEach((weekend) => {
-              allFetches.push(
-                fetch(getApiUrl(leagueConfig.apiCode, formatDateForApi(weekend.friday))),
-                fetch(getApiUrl(leagueConfig.apiCode, formatDateForApi(weekend.saturday))),
-                fetch(getApiUrl(leagueConfig.apiCode, formatDateForApi(weekend.sunday)))
-              );
-            });
+            // Récupérer les matchs sur 60 jours au total : 30 jours passés + 30 jours futurs
+            const today = new Date();
+            
+            // 30 jours dans le passé
+            for (let i = -30; i < 0; i++) {
+              const date = new Date(today);
+              date.setDate(today.getDate() + i);
+              allFetches.push(fetch(getApiUrl(leagueConfig.apiCode, formatDateForApi(date))));
+            }
+            
+            // 30 jours dans le futur (incluant aujourd'hui)
+            for (let i = 0; i < 30; i++) {
+              const date = new Date(today);
+              date.setDate(today.getDate() + i);
+              allFetches.push(fetch(getApiUrl(leagueConfig.apiCode, formatDateForApi(date))));
+            }
             
             // Exécuter toutes les requêtes en parallèle
             const responses = await Promise.all(allFetches);
@@ -106,29 +111,27 @@ const FootballLeagueContainer = ({
             let nextWeekendMatches = [];
             
             if (allMatches.length > 0) {
-              const firstMatchDate = new Date(allMatches[0].date);
-              const firstWeekendStart = new Date(firstMatchDate);
-              firstWeekendStart.setHours(0, 0, 0, 0);
+              const now = new Date();
+              const todayEnd = new Date(now);
+              todayEnd.setHours(23, 59, 59, 999); // Fin de la journée actuelle
               
-              const dayOfFirstMatch = firstMatchDate.getDay();
-              const daysUntilSunday = dayOfFirstMatch === 0 ? 0 : 7 - dayOfFirstMatch;
-              
-              const firstWeekendEnd = new Date(firstWeekendStart);
-              firstWeekendEnd.setDate(firstWeekendStart.getDate() + daysUntilSunday + 1);
-              
+              // Séparer les matchs : actuels (passés/en cours/aujourd'hui) vs futurs (demain et après)
               currentWeekendMatches = allMatches.filter(match => {
                 const matchDate = new Date(match.date);
-                return matchDate >= firstWeekendStart && matchDate < firstWeekendEnd;
+                return matchDate <= todayEnd;
               });
               
               nextWeekendMatches = allMatches.filter(match => {
                 const matchDate = new Date(match.date);
-                return matchDate >= firstWeekendEnd;
+                return matchDate > todayEnd;
               });
+              
+              console.log(`${leagueConfig.emoji} Matchs aujourd'hui et avant: ${currentWeekendMatches.length}`);
+              console.log(`${leagueConfig.emoji} Matchs futurs (à partir de demain): ${nextWeekendMatches.length}`);
             }
             
-            console.log(`${leagueConfig.emoji} Matchs semaine actuelle: ${currentWeekendMatches.length}`);
-            console.log(`${leagueConfig.emoji} Matchs semaine suivante: ${nextWeekendMatches.length}`);
+            console.log(`${leagueConfig.emoji} Matchs journée actuelle: ${currentWeekendMatches.length}`);
+            console.log(`${leagueConfig.emoji} Matchs journée suivante: ${nextWeekendMatches.length}`);
             
             setAllWeekendMatches(currentWeekendMatches);
             setUpcomingWeekendMatches(nextWeekendMatches);
@@ -147,7 +150,8 @@ const FootballLeagueContainer = ({
         
         // Récupérer le classement depuis l'API
         try {
-          const standingsResponse = await fetch(getStandingsApiUrl(leagueConfig.apiCode));
+          const standingsUrl = getStandingsApiUrl(leagueConfig.apiCode);
+          const standingsResponse = await fetch(standingsUrl);
           const standingsApiData = await standingsResponse.json();
           
           if (standingsApiData?.children?.[0]?.standings?.entries) {
@@ -164,7 +168,7 @@ const FootballLeagueContainer = ({
             setStandings(apiStandings);
           }
         } catch (standingsError) {
-          console.log(`${leagueConfig.name} - Classement API non disponible, utilisation des données de secours`);
+          console.error(`${leagueConfig.emoji} Erreur classement API:`, standingsError);
         }
         
       } catch (error) {

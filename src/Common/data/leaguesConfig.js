@@ -222,6 +222,29 @@ export const leaguesConfig = {
       endHour: 5,
       interval: 30
     }
+  },
+
+  championsLeague: {
+    id: 'championsLeague',
+    name: 'UEFA Champions League',
+    icon: '🏆',
+    flag: '🇪🇺',
+    apiEndpoint: 'uefa.champions',
+    positionRules: [
+      { range: [1, 8], class: 'qualified-direct' },
+      { range: [9, 24], class: 'qualified-playoff' }
+    ],
+    legend: [
+      { class: 'qualified-direct', icon: '✅', label: 'Qualifiés directs 1/8 (1 à 8)' },
+      { class: 'qualified-playoff', icon: '🔄', label: 'Barrages 1/8 (9 à 24)' }
+    ],
+    schedule: {
+      enabled: true,
+      days: [2, 3],
+      startHour: 18,
+      endHour: 23,
+      interval: 30
+    }
   }
 };
 
@@ -234,5 +257,6 @@ export const {
   seriea: serieaConfig,
   bundesliga: bundesligaConfig,
   botola: botolaConfig,
-  brasileirao: brasileiraoConfig
+  brasileirao: brasileiraoConfig,
+  championsLeague: championsLeagueDisplayConfig
 } = leaguesConfig;

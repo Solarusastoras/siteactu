@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 /**
  * Composant générique pour afficher une ligue de football
@@ -12,6 +12,8 @@ const FootballLeague = ({
   leagueConfig, 
   view = 'matches' 
 }) => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedTeam, setSelectedTeam] = useState(null);
   
   // Dictionnaire des abréviations pour la Ligue 1
   const teamAbbreviationsLigue1 = {
@@ -82,7 +84,6 @@ const FootballLeague = ({
     
     // Si on a un logo de secours pour cette équipe, l'utiliser en priorité
     if (fallbackLogo) {
-      console.log(`🔄 Utilisation logo local pour ${teamName}: ${fallbackLogo}`);
       return fallbackLogo;
     }
     
@@ -125,7 +126,7 @@ const FootballLeague = ({
       calculatedPoints: team.points
     }));
 
-    // Mettre à jour avec les matchs terminés
+    // Mettre à jour avec les matchs terminés de la journée en cours uniquement
     if (leagueData?.events) {
       leagueData.events.forEach(event => {
         const competition = event.competitions[0];
@@ -197,6 +198,8 @@ const FootballLeague = ({
     return (
       <div className="standings-container">
         <h2>{leagueConfig.icon} {leagueConfig.name}</h2>
+        
+        {/* Tableau de classement uniquement */}
         <div className="standings-table">
           <div className="standings-header">
             <div>Pos</div>
@@ -214,7 +217,15 @@ const FootballLeague = ({
             const positionClass = getPositionClass(position);
             
             return (
-              <div key={entry.team.id} className={`standings-row ${positionClass}`}>
+              <div 
+                key={entry.team.id} 
+                className={`standings-row ${positionClass}`}
+                onClick={() => {
+                  setSelectedTeam(entry.team.displayName);
+                  setShowModal(true);
+                }}
+                style={{ cursor: 'pointer' }}
+              >
                 <div className="position">{position}</div>
                 <div className="team-info">
                   <span className="team-name">{entry.team.displayName}</span>
@@ -230,6 +241,8 @@ const FootballLeague = ({
             );
           })}
         </div>
+        
+        {/* Légende */}
         <div className="standings-legend">
           {leagueConfig.legend.map((item, index) => (
             <div key={index} className={`legend-item ${item.class}`}>
@@ -266,11 +279,6 @@ const FootballLeague = ({
           const homeTeam = competitors.find(team => team.homeAway === 'home');
           const awayTeam = competitors.find(team => team.homeAway === 'away');
           
-          // Log pour déboguer les logos
-          console.log('Match:', homeTeam.team.displayName, 'vs', awayTeam.team.displayName);
-          console.log('Logo domicile:', homeTeam.team.logo);
-          console.log('Logo extérieur:', awayTeam.team.logo);
-          
           const getMatchStatus = () => {
             if (game.status.type.completed) return 'TERMINÉ';
             if (game.status.type.state === 'in') return 'EN COURS';
@@ -301,10 +309,8 @@ const FootballLeague = ({
                         src={getTeamLogo(homeTeam.team.displayName, homeTeam.team.logo)} 
                         alt={homeTeam.team.displayName}
                         onError={(e) => { 
-                          console.log(`Erreur chargement logo: ${homeTeam.team.displayName}`, getTeamLogo(homeTeam.team.displayName, homeTeam.team.logo));
                           e.target.style.display = 'none'; 
                         }}
-                        onLoad={() => console.log(`Logo chargé: ${homeTeam.team.displayName}`)}
                       />
                     )}
                   </div>
@@ -368,10 +374,17 @@ const FootballLeague = ({
   // ========================================
   
   const renderUpcomingMatches = () => {
-    // Utiliser upcomingMatches (semaine suivante) si disponible
+    // Utiliser upcomingMatches (semaine suivante) qui sont les matchs futurs
+    // Ne PAS utiliser weekendMatches ici
     const matchesToShow = upcomingMatches && upcomingMatches.length > 0 ? upcomingMatches : [];
     
-    if (matchesToShow.length === 0) {
+    // Filtrer pour ne garder que les matchs non commencés (STATUS_SCHEDULED)
+    const futureMatches = matchesToShow.filter(game => 
+      game.status.type.state === 'pre' || 
+      game.status.type.name === 'STATUS_SCHEDULED'
+    );
+    
+    if (futureMatches.length === 0) {
       return (
         <div className="games-grid">
           <div className="game-card">
@@ -383,16 +396,16 @@ const FootballLeague = ({
 
     return (
       <div className="games-grid">
-        {matchesToShow.map((game) => {
+        {futureMatches.map((game) => {
           const competitors = game.competitions[0].competitors;
           const homeTeam = competitors.find(team => team.homeAway === 'home');
           const awayTeam = competitors.find(team => team.homeAway === 'away');
 
           return (
-            <div key={game.id} className="game-card">
+            <div key={game.id} className="game-card upcoming-match">
               <div className="game-header">
                 <span className="game-status pre">
-                  À venir
+                  🔜 À venir
                 </span>
                 <span className="game-time">
                   {formatTime(game.date)}
@@ -429,7 +442,8 @@ const FootballLeague = ({
                       <div className="team-record-inline">
                         <small>{awayTeam.records[0].summary}</small>
                       </div>
-                    )}  </div>
+                    )}
+                  </div>
                   <div className="logo-container">
                     {getTeamLogo(awayTeam.team.displayName, awayTeam.team.logo) && (
                       <img 
@@ -482,12 +496,113 @@ const FootballLeague = ({
   };
 
   // ========================================
+  // MODAL MATCHS ÉQUIPE
+  // ========================================
+  
+  const getTeamMatches = () => {
+    if (!selectedTeam) return [];
+    
+    console.log('leagueData?.events:', leagueData?.events?.length || 0, 'matchs');
+    console.log('weekendMatches:', weekendMatches?.length || 0, 'matchs');
+    console.log('upcomingMatches:', upcomingMatches?.length || 0, 'matchs');
+    
+    // Combiner toutes les sources de matchs
+    const allMatches = [
+      ...(leagueData?.events || []),
+      ...(weekendMatches || []), 
+      ...(upcomingMatches || [])
+    ];
+    
+    // Supprimer les doublons en utilisant l'ID du match
+    const uniqueMatches = Array.from(
+      new Map(allMatches.map(match => [match.id, match])).values()
+    );
+    
+    console.log('Total matchs uniques combinés:', uniqueMatches.length);
+    
+    const filtered = uniqueMatches.filter(match => {
+      const homeTeam = match.competitions?.[0]?.competitors?.find(c => c.homeAway === 'home')?.team?.displayName;
+      const awayTeam = match.competitions?.[0]?.competitors?.find(c => c.homeAway === 'away')?.team?.displayName;
+      const status = match.competitions?.[0]?.status?.type?.name;
+      const isMatch = homeTeam === selectedTeam || awayTeam === selectedTeam;
+      if (isMatch) {
+        console.log('Match trouvé:', homeTeam, 'vs', awayTeam, '- Date:', new Date(match.date).toLocaleDateString(), '- Statut:', status);
+      }
+      return isMatch;
+    });
+    
+    console.log(`Matchs trouvés pour ${selectedTeam}:`, filtered.length);
+    return filtered.sort((a, b) => new Date(a.date) - new Date(b.date));
+  };
+
+  const renderModal = () => {
+    if (!showModal || !selectedTeam) return null;
+    
+    const teamMatches = getTeamMatches();
+    
+    return (
+      <div className="modal-overlay" onClick={() => { setShowModal(false); setSelectedTeam(null); }}>
+        <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-header">
+            <h3>Matchs de {selectedTeam}</h3>
+            <button className="modal-close" onClick={() => { setShowModal(false); setSelectedTeam(null); }}>✕</button>
+          </div>
+          <div className="modal-body">
+            {teamMatches.length > 0 ? (
+              <div className="scoreboard">
+                {teamMatches.map((match, idx) => {
+                  const competition = match.competitions?.[0];
+                  const homeTeam = competition?.competitors?.find(c => c.homeAway === 'home');
+                  const awayTeam = competition?.competitors?.find(c => c.homeAway === 'away');
+                  const status = competition?.status?.type?.name;
+                  const homeScore = homeTeam?.score;
+                  const awayScore = awayTeam?.score;
+                  
+                  return (
+                    <div key={idx} className="match-row">
+                      <div className="match-teams">
+                        <span className={`team ${homeScore > awayScore && status === 'STATUS_FINAL' ? 'winner' : ''}`}>
+                          {homeTeam?.team?.displayName}
+                        </span>
+                        <span className="match-score">
+                          {status === 'STATUS_FINAL' || status === 'STATUS_IN_PROGRESS' 
+                            ? `${homeScore} - ${awayScore}` 
+                            : 'vs'}
+                        </span>
+                        <span className={`team ${awayScore > homeScore && status === 'STATUS_FINAL' ? 'winner' : ''}`}>
+                          {awayTeam?.team?.displayName}
+                        </span>
+                      </div>
+                      <div className="match-date">{formatTime(match.date)}</div>
+                      {status === 'STATUS_IN_PROGRESS' && <div className="match-live">🔴 En direct</div>}
+                      {status === 'STATUS_SCHEDULED' && <div className="match-upcoming">À venir</div>}
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="no-matches">
+                <p>Aucun match disponible pour {selectedTeam}</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  };
+
+  // ========================================
   // RENDU
   // ========================================
   
-  if (view === 'classement') return renderStandings();
-  if (view === 'avenir') return renderUpcomingMatches();
-  return renderMatches();
+  return (
+    <>
+      {view === 'classement' && renderStandings()}
+      {view === 'avenir' && renderUpcomingMatches()}
+      {view === 'matches' && renderMatches()}
+      {renderModal()}
+    </>
+  );
 };
 
 export default FootballLeague;
