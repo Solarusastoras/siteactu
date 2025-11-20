@@ -40,12 +40,7 @@ const TournamentWrapper = React.memo(({
       </div>
 
       <div className="tabs">
-        <button 
-          className={`tab-btn ${activeTab === 'current' ? 'active' : ''}`}
-          onClick={() => setActiveTab('current')}
-        >
-          🔴 En cours ({currentTournament.year})
-        </button>
+        
         <button 
           className={`tab-btn ${activeTab === 'winners' ? 'active' : ''}`}
           onClick={() => setActiveTab('winners')}
@@ -183,57 +178,86 @@ const TournamentWrapper = React.memo(({
           {/* Classement */}
           {currentTournament.standings && currentTournament.standings.length > 0 && (
             <div className="current-standings-section">
-              <h3>📊 Classement général</h3>
-              <div className="standings-table">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Équipe</th>
-                      <th>J</th>
-                      <th>V</th>
-                      <th>N</th>
-                      <th>D</th>
-                      <th>BP</th>
-                      <th>BC</th>
-                      <th>Diff</th>
-                      <th>Pts</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {currentTournament.standings.map((team, idx) => {
-                      let rowClass = '';
-                      if (team.rank <= 8) rowClass = 'qualified-direct';
-                      else if (team.rank <= 24) rowClass = 'qualified-playoff';
-                      
-                      return (
-                        <tr key={idx} className={rowClass}>
-                          <td className="position">{team.rank}</td>
-                          <td className="team-name">{team.team}</td>
-                          <td>{team.played}</td>
-                          <td>{team.won}</td>
-                          <td>{team.drawn}</td>
-                          <td>{team.lost}</td>
-                          <td>{team.goalsFor}</td>
-                          <td>{team.goalsAgainst}</td>
-                          <td className={team.goalDifference >= 0 ? 'positive' : 'negative'}>
-                            {team.goalDifference > 0 ? '+' : ''}{team.goalDifference}
-                          </td>
-                          <td className="points">{team.points}</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-              <div className="standings-legend">
+              <h3>📊 Classement des groupes</h3>
+              
+              {/* Check if standings is grouped format or flat format */}
+              {currentTournament.standings[0].group ? (
+                // Grouped standings (by group)
+                <div className="groups-grid">
+                  {currentTournament.standings.map((groupData, idx) => (
+                    <GroupStageTable 
+                      key={idx} 
+                      group={{
+                        name: groupData.group,
+                        standings: groupData.teams
+                      }}
+                    />
+                  ))}
+                </div>
+              ) : (
+                // Flat standings (single table)
+                <div className="standings-table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Équipe</th>
+                        <th>J</th>
+                        <th>V</th>
+                        <th>N</th>
+                        <th>D</th>
+                        <th>BP</th>
+                        <th>BC</th>
+                        <th>Diff</th>
+                        <th>Pts</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {currentTournament.standings.map((team, idx) => {
+                        let rowClass = '';
+                        if (team.rank <= 8) rowClass = 'qualified-direct';
+                        else if (team.rank <= 24) rowClass = 'qualified-playoff';
+                        
+                        return (
+                          <tr key={idx} className={rowClass}>
+                            <td className="position">{team.rank}</td>
+                            <td className="team-name">{team.team}</td>
+                            <td>{team.played}</td>
+                            <td>{team.won}</td>
+                            <td>{team.drawn}</td>
+                            <td>{team.lost}</td>
+                            <td>{team.goalsFor}</td>
+                            <td>{team.goalsAgainst}</td>
+                            <td className={team.goalDifference >= 0 ? 'positive' : 'negative'}>
+                              {team.goalDifference > 0 ? '+' : ''}{team.goalDifference}
+                            </td>
+                            <td className="points">{team.points}</td>
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
+                  <div className="standings-legend">
+                    <div className="legend-item">
+                      <span className="legend-color qualified-direct"></span>
+                      <span>1-8 : Qualifiés directs pour les 1/8</span>
+                    </div>
+                    <div className="legend-item">
+                      <span className="legend-color qualified-playoff"></span>
+                      <span>9-24 : Barrages pour les 1/8</span>
+                    </div>
+                  </div>
+                </div>
+              )}
+              
+              <div className="standings-legend" style={{ marginTop: '20px' }}>
                 <div className="legend-item">
                   <span className="legend-color qualified-direct"></span>
-                  <span>1-8 : Qualifiés directs pour les 1/8</span>
+                  <span>Top 2 de chaque groupe : Qualifiés pour les 1/8</span>
                 </div>
                 <div className="legend-item">
                   <span className="legend-color qualified-playoff"></span>
-                  <span>9-24 : Barrages pour les 1/8</span>
+                  <span>4 meilleurs 3èmes : Qualifiés pour les 1/8</span>
                 </div>
               </div>
             </div>

@@ -331,36 +331,168 @@
   }
 }
 
-@media (max-width: 768px) {
+// Mobile (≤767px)
+@media (max-width: 767px) {
   .mercato-foot {
     padding: 10px;
     
     .mercato-header {
-      padding: 15px;
+      padding: 12px;
+      margin-bottom: 20px;
       
       h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        margin-bottom: 8px;
       }
       
       .mercato-subtitle {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
     }
     
     .mercato-grid {
-      gap: 12px;
+      gap: 10px;
+      margin-bottom: 20px;
     }
     
     .mercato-card {
-      height: 120px;
+      flex-direction: column !important;
+      min-height: 0;
+      height: auto;
       
-      .mercato-image {
-        width: 140px;
-        min-width: 140px;
+      .mercato-image,
+      .mercato-image-placeholder {
+        width: 100%;
+        min-width: 100%;
+        height: 180px;
+        
+        .mercato-badge {
+          top: 10px;
+          left: 10px;
+          bottom: auto;
+          transform: none;
+          padding: 6px 12px;
+          font-size: 0.8rem;
+        }
       }
       
       .mercato-content {
-        padding: 8px 10px;
+        padding: 12px;
+        
+        .mercato-title {
+          font-size: 0.95rem;
+          margin-bottom: 8px;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+        }
+        
+        .mercato-description {
+          font-size: 0.8rem;
+          margin-bottom: 10px;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+        }
+        
+        .mercato-meta-bottom {
+          padding-top: 8px;
+          
+          .mercato-date {
+            font-size: 0.75rem;
+          }
+          
+          .mercato-link {
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    .mercato-footer {
+      padding: 15px;
+      margin-top: 20px;
+      
+      .footer-content {
+        p {
+          font-size: 0.9rem;
+        }
+        
+        small {
+          font-size: 0.75rem;
+        }
+      }
+    }
+
+    .sources-info {
+      margin-bottom: 12px;
+      
+      .sources-label {
+        font-size: 0.9rem;
+      }
+      
+      .sources-badges {
+        .source-badge {
+          font-size: 0.75rem;
+          padding: 5px 10px;
+        }
+      }
+    }
+
+    .source-selector {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      
+      label {
+        font-size: 0.9rem;
+      }
+      
+      .source-dropdown {
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 10px 14px;
+      }
+    }
+  }
+}
+
+// Petit mobile (≤480px)
+@media (max-width: 480px) {
+  .mercato-foot {
+    padding: 8px;
+    
+    .mercato-header {
+      padding: 10px;
+      margin-bottom: 15px;
+      
+      h2 {
+        font-size: 1.3rem;
+        margin-bottom: 6px;
+      }
+      
+      .mercato-subtitle {
+        font-size: 0.85rem;
+      }
+    }
+    
+    .mercato-grid {
+      gap: 8px;
+    }
+    
+    .mercato-card {
+      .mercato-image,
+      .mercato-image-placeholder {
+        height: 150px;
+        
+        .mercato-badge {
+          top: 8px;
+          left: 8px;
+          font-size: 0.7rem;
+          padding: 4px 10px;
+        }
+      }
+      
+      .mercato-content {
+        padding: 10px;
         
         .mercato-title {
           font-size: 0.85rem;
@@ -370,11 +502,14 @@
         
         .mercato-description {
           font-size: 0.75rem;
-          -webkit-line-clamp: 1;
-          line-clamp: 1;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
         }
         
         .mercato-meta-bottom {
+          align-items: center;
+          gap: 6px;
+          
           .mercato-date {
             font-size: 0.7rem;
           }
@@ -382,6 +517,35 @@
           .mercato-link {
             font-size: 0.7rem;
           }
+        }
+      }
+    }
+
+    .mercato-footer {
+      padding: 12px;
+      
+      .footer-content {
+        p {
+          font-size: 0.85rem;
+        }
+        
+        small {
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .sources-info {
+      .sources-label {
+        font-size: 0.85rem;
+      }
+      
+      .sources-badges {
+        gap: 6px;
+        
+        .source-badge {
+          font-size: 0.7rem;
+          padding: 4px 8px;
         }
       }
     }

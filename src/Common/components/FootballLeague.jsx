@@ -18,25 +18,61 @@ const FootballLeague = ({
   // Dictionnaire des abréviations pour la Ligue 1
   const teamAbbreviationsLigue1 = {
     'Paris Saint-Germain': 'PSG',
+    'Paris': 'PSG',
+    'PSG': 'PSG',
     'Marseille': 'OM',
+    'Olympique de Marseille': 'OM',
+    'OM': 'OM',
     'Lyon': 'OL',
+    'Olympique Lyonnais': 'OL',
+    'OL': 'OL',
     'Monaco': 'ASM',
+    'AS Monaco': 'ASM',
+    'ASM': 'ASM',
     'Lille': 'LOSC',
-    'Nice': 'OGC Nice',
-    'Lens': 'RC Lens',
-    'Strasbourg': 'RC Strasbourg',
+    'LOSC': 'LOSC',
+    'LOSC Lille': 'LOSC',
+    'Nice': 'Nice',
+    'OGC Nice': 'Nice',
+    'Lens': 'Lens',
+    'RC Lens': 'Lens',
+    'Strasbourg': 'Strasbourg',
+    'RC Strasbourg': 'Strasbourg',
+    'Racing Strasbourg': 'Strasbourg',
     'Montpellier': 'MHSC',
-    'Nantes': 'FC Nantes',
+    'MHSC': 'MHSC',
+    'Montpellier HSC': 'MHSC',
+    'Nantes': 'Nantes',
+    'FC Nantes': 'Nantes',
     'Toulouse': 'TFC',
-    'Reims': 'Stade de Reims',
-    'Brest': 'Stade Brestois',
-    'Lorient': 'FC Lorient',
-    'Le Havre': 'Le Havre AC',
+    'TFC': 'TFC',
+    'Toulouse FC': 'TFC',
+    'Reims': 'Reims',
+    'Stade de Reims': 'Reims',
+    'Brest': 'Brest',
+    'Stade Brestois': 'Brest',
+    'SB29': 'Brest',
+    'Rennes': 'Rennes',
+    'Stade Rennais': 'Rennes',
+    'Lorient': 'Lorient',
+    'FC Lorient': 'Lorient',
+    'Le Havre': 'Le Havre',
+    'Le Havre AC': 'Le Havre',
+    'HAC': 'Le Havre',
     'Clermont Foot': 'Clermont',
-    'Auxerre': 'AJ Auxerre',
-    'Angers': 'SCO Angers',
-    'Metz': 'FC Metz',
-    'Saint-Étienne': 'ASSE'
+    'Clermont': 'Clermont',
+    'Auxerre': 'Auxerre',
+    'AJ Auxerre': 'Auxerre',
+    'AJA': 'Auxerre',
+    'Angers': 'Angers',
+    'SCO Angers': 'Angers',
+    'Angers SCO': 'Angers',
+    'Metz': 'Metz',
+    'FC Metz': 'Metz',
+    'Saint-Étienne': 'ASSE',
+    'AS Saint-Étienne': 'ASSE',
+    'ASSE': 'ASSE',
+    'Saint-Etienne': 'ASSE'
   };
 
   // Dictionnaire des abréviations pour la Ligue 2
@@ -228,7 +264,7 @@ const FootballLeague = ({
               >
                 <div className="position">{position}</div>
                 <div className="team-info">
-                  <span className="team-name">{entry.team.displayName}</span>
+                  <span className="team-name">{getTeamAbbreviation(entry.team.displayName)}</span>
                 </div>
                 <div className="matches">{entry.played}</div>
                 <div className="points">{entry.calculatedPoints}</div>
@@ -327,17 +363,7 @@ const FootballLeague = ({
                   </div>
                 </div>
                 
-                <div className="vs-inline" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'}}>
-                  <span>vs</span>
-                  {game.status.type.state === 'in' && game.status.displayClock && (
-                    <div style={{fontSize: '0.75rem', color: '#4caf50', fontWeight: '600', textAlign: 'center'}}>
-                      <div>{game.status.displayClock}'</div>
-                      {game.status.period && game.status.period !== 2 && (
-                        <div style={{fontSize: '0.65rem'}}>MT</div>
-                      )}
-                    </div>
-                  )}
-                </div>
+                <span className="vs-inline">vs</span>
                 
                 <div className="team-inline away">
                   <div className="score-inline team-score">

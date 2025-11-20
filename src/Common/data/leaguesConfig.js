@@ -245,6 +245,52 @@ export const leaguesConfig = {
       endHour: 23,
       interval: 30
     }
+  },
+
+  africancup: {
+    id: 'africancup',
+    name: 'CAN 2025',
+    icon: '🦁',
+    flag: '🇲🇦',
+    apiEndpoint: 'caf.nations',
+    positionRules: [
+      { range: [1, 2], class: 'qualified' },
+      { positions: [3], class: 'best-third' }
+    ],
+    legend: [
+      { class: 'qualified', icon: '✅', label: 'Top 2 : Qualifiés pour les 1/8 de finale' },
+      { class: 'best-third', icon: '🔄', label: '4 meilleurs 3èmes : Qualifiés pour les 1/8 de finale' }
+    ],
+    schedule: {
+      enabled: true,
+      days: [6, 0, 2, 3, 4],
+      startHour: 14,
+      endHour: 23,
+      interval: 30
+    }
+  },
+
+  worldcup: {
+    id: 'worldcup',
+    name: 'Coupe du Monde 2026',
+    icon: '🏆',
+    flag: '🌍',
+    apiEndpoint: 'fifa.world',
+    positionRules: [
+      { range: [1, 2], class: 'qualified-direct' },
+      { positions: [3], class: 'best-third' }
+    ],
+    legend: [
+      { class: 'qualified-direct', icon: '✅', label: 'Top 2 : Qualifiés pour les 1/8 de finale' },
+      { class: 'best-third', icon: '🔄', label: '4 meilleurs 3èmes : Qualifiés pour les 1/8 de finale' }
+    ],
+    schedule: {
+      enabled: true,
+      days: [6, 0, 1, 2, 3, 4, 5],
+      startHour: 14,
+      endHour: 23,
+      interval: 30
+    }
   }
 };
 
@@ -258,5 +304,7 @@ export const {
   bundesliga: bundesligaConfig,
   botola: botolaConfig,
   brasileirao: brasileiraoConfig,
-  championsLeague: championsLeagueDisplayConfig
+  championsLeague: championsLeagueDisplayConfig,
+  africancup: africancupConfig,
+  worldcup: worldcupDisplayConfig
 } = leaguesConfig;

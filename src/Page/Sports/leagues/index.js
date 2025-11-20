@@ -11,7 +11,7 @@ export { default as NBA } from './NBA';
 export { default as NHL } from './NHL';
 export { default as NFL } from './NFL';
 export { default as WorldCup } from './WorldCup';
-export { default as AfricNationCup } from './AfricNationCupWrapper';
+export { default as AfricNationCup } from './AfricNationCup';
 export { default as EuropeCup } from './EuropeCupWrapper';
 export { default as ChampionLeague } from './ChampionLeagueWrapper';
 

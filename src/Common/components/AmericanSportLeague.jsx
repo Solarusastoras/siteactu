@@ -129,15 +129,7 @@ const AmericanSportLeague = ({
           <div className="score-inline team-score">{awayTeam.score || '0'}</div>
         </div>
         
-        <div className="vs-inline" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px'}}>
-          <span>vs</span>
-          {game.status.type.state === 'in' && game.status.period && (
-            <div style={{fontSize: '0.75rem', color: sportConfig.liveColor, fontWeight: '600', textAlign: 'center'}}>
-              <div>{sportConfig.formatPeriod(game.status.period)}</div>
-              <div>{game.status.displayClock}</div>
-            </div>
-          )}
-        </div>
+        <span className="vs-inline">vs</span>
         
         <div className="team-inline home">
           <div className="score-inline team-score">{homeTeam.score || '0'}</div>
@@ -182,9 +174,6 @@ const AmericanSportLeague = ({
             badgeClassName={badgeClass}
           >
             <div className="game-header">
-              <span className={`game-status ${game.status.type.state.toLowerCase()}`}>
-                {game.status.type.description}
-              </span>
               <span className="game-time">
                 {game.status.type.completed ? 
                   'FT' : 

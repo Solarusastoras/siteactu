@@ -115,6 +115,38 @@ export const championsLeagueConfig = {
   ]
 };
 
+// Configuration CAN (Coupe d'Afrique des Nations)
+export const africanCupConfig = {
+  name: 'CAN 2025',
+  emoji: '🦁',
+  apiCode: 'caf.nations',
+  storageKey: 'africancup',
+  matchTimeRanges: [
+    { day: 6, start: 14 * 60, end: 23 * 60 + 30 },      // Samedi 14h-23h30
+    { day: 0, start: 14 * 60, end: 23 * 60 + 30 },      // Dimanche 14h-23h30
+    { day: 2, start: 17 * 60, end: 23 * 60 + 30 },      // Mardi 17h-23h30
+    { day: 3, start: 17 * 60, end: 23 * 60 + 30 },      // Mercredi 17h-23h30
+    { day: 4, start: 17 * 60, end: 23 * 60 + 30 }       // Jeudi 17h-23h30
+  ]
+};
+
+// Configuration Coupe du Monde
+export const worldCupConfig = {
+  name: 'Coupe du Monde 2026',
+  emoji: '🏆',
+  apiCode: 'fifa.world',
+  storageKey: 'worldcup',
+  matchTimeRanges: [
+    { day: 6, start: 14 * 60, end: 23 * 60 + 30 },      // Samedi 14h-23h30
+    { day: 0, start: 14 * 60, end: 23 * 60 + 30 },      // Dimanche 14h-23h30
+    { day: 1, start: 14 * 60, end: 23 * 60 + 30 },      // Lundi 14h-23h30
+    { day: 2, start: 14 * 60, end: 23 * 60 + 30 },      // Mardi 14h-23h30
+    { day: 3, start: 14 * 60, end: 23 * 60 + 30 },      // Mercredi 14h-23h30
+    { day: 4, start: 14 * 60, end: 23 * 60 + 30 },      // Jeudi 14h-23h30
+    { day: 5, start: 14 * 60, end: 23 * 60 + 30 }       // Vendredi 14h-23h30
+  ]
+};
+
 /**
  * Fonction helper pour vérifier si on est dans une plage horaire de match
  */

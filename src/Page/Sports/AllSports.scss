@@ -1085,7 +1085,7 @@
 
 .game-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 6px;
   margin-top: 5px;
@@ -1124,13 +1124,13 @@
 }
 
 .game-time {
-  color: #b0b0b0;
-  font-size: 0.85rem;
-  font-weight: 600;
+  color: #ffa726;
+  font-size: 1.1rem;
+  font-weight: 700;
   background: linear-gradient(135deg, #2a2a2a 0%, #333 100%);
-  padding: 4px 10px;
+  padding: 6px 14px;
   border-radius: 12px;
-  border: 1px solid #3a3a3a;
+  border: 1px solid #ff9800;
   transition: all 0.2s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -1385,16 +1385,175 @@
 }
 
 /* Responsive design */
+
+// Tablette (768px - 1024px)
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sports-container {
+    padding: 15px;
+  }
+
+  .sports-header h1 {
+    font-size: 2.4rem;
+  }
+
+  .league-tabs {
+    gap: 12px;
+    padding: 15px 8px;
+
+    .control-btn {
+      .league-logo {
+        width: 100px;
+        height: 100px;
+      }
+
+      &.mercato-btn,
+      &.actufoot-btn {
+        min-width: 120px;
+
+        .league-logo {
+          width: 90px;
+          height: 90px;
+        }
+      }
+    }
+  }
+
+  .sport-controls .control-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    min-width: 160px;
+  }
+
+  .standings-container {
+    padding: 15px;
+  }
+
+  .standings-header,
+  .standings-row {
+    grid-template-columns: 50px 1.5fr 55px 55px 45px 45px 45px 65px 80px;
+    gap: 8px;
+    padding: 14px 12px;
+    font-size: 0.85rem;
+  }
+
+  .standings-header {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+  }
+
+  .team-logo-small {
+    width: 32px;
+    height: 32px;
+  }
+
+  .team-name {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .position {
+    width: 34px;
+    height: 34px;
+    font-size: 0.85rem;
+  }
+
+  .matches, .wins, .draws, .losses, .goals {
+    text-align: center;
+  }
+
+  .points {
+    text-align: center;
+  }
+
+  .games-grid {
+    gap: 12px;
+  }
+
+  .game-card {
+    padding: 8px;
+  }
+
+  .team-logo,
+  .team-logo-inline {
+    width: 48px;
+    height: 48px;
+  }
+
+  // Scoreboard avec proportions desktop pour tablette
+  .game-header {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+  }
+  
+  .game-status {
+    display: none;
+  }
+  
+  .game-time {
+    font-size: 1.2rem;
+    padding: 6px 16px;
+    color: #ffa726;
+    border: 2px solid #ff9800;
+  }
+  
+  .teams-horizontal {
+    display: none;
+  }
+  
+  .match-inline {
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    position: relative;
+  }
+  
+  .team-inline {
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    min-width: auto;
+  }
+  
+  .team-logo-inline {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .score-inline.team-score,
+  .team-score {
+    margin: 0 4px !important;
+    padding: 5px 10px !important;
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 1.6rem !important;
+  }
+  
+  .vs-inline {
+    font-size: 1.6rem;
+    align-self: center;
+    font-weight: 500;
+    margin: 0 8px;
+    opacity: 0.8;
+  }
+}
+
+// Desktop (1025px+)
 @media (min-width: 1025px) {
   .standings-header,
   .standings-row {
-    grid-template-columns: 80px 1fr 80px 80px 70px 70px 70px 100px 120px;
+    grid-template-columns: 80px 2fr 80px 80px 70px 70px 70px 100px 120px;
     gap: 16px;
     font-size: 1.7rem;
   }
   
   .team-logo-small {
-    width: 44px; // Doublé (22px * 2)
+    width: 44px;
     height: 44px;
   }
   
@@ -1406,9 +1565,15 @@
     padding-bottom: 8px;
   }
   
-  .game-status,
+  .game-status {
+    display: none;
+  }
+  
   .game-time {
-    display: none; // Masquer les badges de statut séparés
+    font-size: 1.4rem;
+    padding: 8px 18px;
+    color: #ffa726;
+    border: 2px solid #ff9800;
   }
   
   .teams-horizontal {
@@ -1421,18 +1586,6 @@
     gap: 12px;
     padding: 12px 20px;
     position: relative;
-  }
-  
-  .match-inline::before {
-    content: attr(data-status);
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #666;
-    text-transform: uppercase;
   }
   
   .team-inline {
@@ -1466,122 +1619,85 @@
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .standings-header,
-  .standings-row {
-    grid-template-columns: 80px 1fr 80px 80px 70px 70px 70px 100px 120px;
-    gap: 16px;
-    font-size: 1.7rem;
-  }
-  
-  .team-logo-small {
-    width: 44px;
-    height: 44px;
-  }
-  
-  // Mode tablette : même layout mobile - temps logos scores
-  .game-header {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 6px;
-    padding-bottom: 4px;
-  }
-  
-  .game-status,
-  .game-time {
-    display: none; // Masquer les badges de statut séparés
-  }
-  
-  .teams-horizontal {
-    display: none; // Masquer layout traditionnel
-  }
-  
-  .match-inline {
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 20px;
-    position: relative;
-  }
-  
-  .match-inline::before {
-    content: attr(data-status);
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: #666;
-    text-transform: uppercase;
-  }
-  
-  .team-inline {
-    flex-direction: row;
-    align-items: center;
-    gap: 4px;
-    min-width: auto;
-  }
-  
-  .team-logo-inline {
-    width: 64px;
-    height: 64px;
-  }
-  
-  .score-inline.team-score,
-  .team-score {
-    margin: 0 4px !important;
-    padding: 6px 12px !important;
-    background: rgba(255,255,255,0.1) !important;
-    border-radius: 8px !important;
-    font-weight: 600 !important;
-    font-size: 2rem !important;
-  }
-  
-  .vs-inline {
-    font-size: 2rem;
-    align-self: center;
-    font-weight: 500;
-    margin: 0 8px;
-    opacity: 0.8;
-  }
-}
 
-@media (max-width: 768px) {
+
+// Mobile (max 767px)
+@media (max-width: 767px) {
   .sports-container {
-    padding: 15px;
+    padding: 12px;
   }
   
-  .sports-header h1 {
-    font-size: 2.2rem;
+  .sports-header {
+    padding: 15px 0;
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .date {
+    font-size: 1rem;
   }
   
   .sports-tabs {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .tab {
-    width: 100%;
-    max-width: 250px;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    .tab {
+      padding: 10px 20px;
+      font-size: 1rem;
+      min-width: auto;
+      flex: 1 1 auto;
+    }
   }
 
-  .layout-controls {
-    margin-bottom: 15px;
+  .league-tabs {
+    gap: 10px;
+    padding: 12px 8px;
+
+    .control-btn {
+      padding: 8px;
+
+      .league-logo {
+        width: 90px;
+        height: 90px;
+      }
+
+      &.mercato-btn,
+      &.actufoot-btn {
+        min-width: 100px;
+
+        .league-logo {
+          width: 80px;
+          height: 80px;
+        }
+
+        .mercato-text,
+        .actufoot-text {
+          font-size: 0.8rem;
+        }
+      }
+    }
   }
 
-  .control-group {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  .sport-controls {
+    gap: 8px;
+    padding: 8px;
+    flex-wrap: nowrap;
 
-  .control-label {
-    width: 100%;
-    text-align: center;
+    .control-btn {
+      padding: 10px 12px;
+      font-size: 0.8rem;
+      min-width: auto;
+      flex: 1;
+      gap: 6px;
+      white-space: nowrap;
+    }
   }
   
   .update-schedule-panel {
-    margin: 0 10px 20px;
+    margin: 0 8px 20px;
   }
   
   .schedule-summary {
@@ -1595,11 +1711,8 @@
   
   .schedule-input,
   .schedule-select {
-    font-size: 16px; // Évite le zoom automatique sur iOS
-  }
-  
-  .schedule-info {
-    font-size: 0.9rem;
+    font-size: 16px;
+    padding: 8px 12px;
   }
   
   .days-selector {
@@ -1609,239 +1722,416 @@
   .day-checkbox {
     min-width: 60px;
     padding: 6px 10px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   
   .schedule-row:has(.hour-suffix) {
     flex-direction: column;
     align-items: flex-start;
-  }
-  
-  .schedule-row:has(.hour-suffix) input {
-    flex: 1 1 auto;
-    width: 100%;
-  }
-  
-  .schedule-row:has(.hour-suffix) label {
-    margin-right: 0;
-    margin-bottom: 8px;
-    margin-bottom: 5px;
+
+    label {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+
+    input {
+      flex: 1 1 auto;
+      width: 100%;
+    }
   }
 
-  .games-grid.layout-horizontal {
-    grid-template-columns: 1fr;
-  }
+  .standings-container {
+    padding: 12px;
 
-  .teams-horizontal {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .team-horizontal {
-    justify-content: center !important;
-    flex-direction: row !important;
-  }
-
-  .score-center {
-    order: -1;
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
   }
   
   .standings-header,
   .standings-row {
-    grid-template-columns: 80px 1fr 80px 80px 70px 70px 70px 100px 120px;
-    gap: 16px;
-    padding: 20px;
-    font-size: 1.7rem;
+    grid-template-columns: 45px 2fr 55px 60px 70px;
+    gap: 6px;
+    padding: 12px 8px;
+    min-height: 50px;
+    font-size: 0.85rem;
   }
-  
-  .team-logo-small {
-    width: 44px;
-    height: 44px;
-  }
-  
-  .team-name {
-    font-size: 1.8rem;
-  }
-  
-  .games-grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
-  
-  // Mode mobile : tout sur une ligne - temps logos scores
-  .game-header {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 4px;
-    padding-bottom: 2px;
-  }
-  
-  .game-status,
-  .game-time {
-    display: none; // Masquer les badges de statut séparés
-  }
-  
-  .match-inline {
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 12px 20px;
-    position: relative;
-  }
-  
-  .match-inline::before {
-    content: attr(data-status);
-    position: absolute;
-    top: -14px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #666;
-    text-transform: uppercase;
-  }
-  
-  .team-inline {
-    flex-direction: row;
-    align-items: center;
-    gap: 4px;
-    min-width: auto;
-  }
-  
-  .score-inline.team-score,
-  .team-score {
-    margin: 0 4px !important;
-    padding: 6px 12px !important;
-    background: rgba(255,255,255,0.1) !important;
-    border-radius: 8px !important;
-    font-weight: 600 !important;
-    font-size: 2rem !important;
-  }
-  
-  .team-details-inline {
-    display: none; // Masquer noms et bilans
-  }
-  
-  .team-logo-inline {
-    width: 64px;
-    height: 64px;
-  }
-  
-  .score-inline {
-    font-size: 1.5rem;
-    padding: 6px 12px;
-    font-weight: bold;
-  }
-  
-  .vs-inline {
-    font-size: 2rem;
-    align-self: center;
-    font-weight: 500;
-    margin: 0 8px;
-    opacity: 0.8;
-  }
-  
-  .game-time {
-    font-size: 0.9rem;
-    padding: 4px 10px;
-    font-weight: 600;
-  }
-  
-  .standings-legend {
-    gap: 10px;
-  }
-  
-  .legend-item {
-    font-size: 0.75rem;
-  }
-}
 
-@media (max-width: 480px) {
-  .sports-header h1 {
-    font-size: 1.8rem;
-  }
-  
-  .standings-container h2 {
-    font-size: 1.6rem;
-  }
-  
-  .standings-header,
-  .standings-row {
-    grid-template-columns: 30px 1fr 30px 30px;
-    gap: 5px;
-  }
-  
-  .matches, .wins, .draws, .losses, .goals {
+  .standings-header > *:nth-child(5),
+  .standings-header > *:nth-child(6),
+  .standings-header > *:nth-child(7),
+  .standings-header > *:nth-child(9) {
     display: none;
   }
   
   .team-logo-small {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .position {
+    width: 30px;
+    height: 30px;
+    font-size: 0.85rem;
   }
   
   .team-name {
     font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
-  // Mode ultra-mobile : tout compact sur une ligne
-  .match-inline {
-    gap: 3px;
-    padding: 2px 4px;
+  .team-info {
+    min-width: 0;
   }
-  
-  .match-inline::before {
-    top: -18px;
-    font-size: 0.7rem;
-  }
-  
-  .team-inline {
-    gap: 0px;
-  }
-  
-  .score-inline.team-score,
-  .team-score {
-    margin: 0 !important;
-    padding: 1px 3px !important;
-    font-size: 0.9rem !important;
-  }
-  
-  .vs-inline {
-    margin: 0 2px;
-    font-size: 0.8rem;
-    font-weight: 400;
-    opacity: 0.7;
-  }
-  
-  .team-logo-inline {
-    width: 28px;
-    height: 28px;
-  }
-  
-  .score-inline {
-    font-size: 1.3rem;
-    padding: 4px 8px;
-    font-weight: bold;
-  }
-  
-  .vs-inline {
+
+  .points {
     font-size: 0.9rem;
-    font-weight: 500;
+    padding: 4px 6px;
+  }
+
+  .matches {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .wins, .draws, .losses {
+    display: none !important;
+  }
+
+  .goals {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .goals:last-child {
+    display: none !important;
   }
   
-  .game-time {
-    font-size: 0.85rem;
-    padding: 3px 8px;
-    font-weight: 600;
+  .standings-legend {
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 12px;
   }
   
+  .legend-item {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .games-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
   .game-card {
-    padding: 4px;
+    padding: 8px;
+    max-width: 100%;
+    overflow: hidden;
   }
   
   .game-header {
-    margin-bottom: 4px;
-    padding-bottom: 2px;
+    margin-bottom: 6px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .game-status {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+
+  .game-time {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    white-space: nowrap;
+  }
+
+  .team-logo,
+  .team-logo-inline {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .team-details h3,
+  .team-details-inline h3 {
+    display: none;
+  }
+
+  .team-record small,
+  .team-record-inline small {
+    font-size: 0.65rem;
+  }
+
+  .teams-horizontal {
+    gap: 8px;
+  }
+
+  .team-horizontal {
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .team-details {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .score {
+    font-size: 1.1rem;
+    min-width: 28px;
+    padding: 4px 6px;
+    flex-shrink: 0;
+  }
+
+  .score-center {
+    font-size: 1rem;
+    padding: 4px 6px;
+    flex-shrink: 0;
+  }
+
+  .score-inline {
+    font-size: 0.95rem;
+    padding: 3px 6px;
+    min-width: 22px;
+    flex-shrink: 0;
+  }
+
+  .vs-inline {
+    font-size: 0.7rem;
+    margin: 0 2px;
+    flex-shrink: 0;
+  }
+
+  .venue {
+    padding: 6px 0;
+    overflow: hidden;
+    
+    small {
+      font-size: 0.7rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+  }
+
+  .match-inline {
+    gap: 6px;
+    padding: 8px 6px;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .team-inline {
+    gap: 4px;
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  .conference-section,
+  .division-section {
+    margin-bottom: 20px;
+  }
+
+  .conference-title {
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+
+  .division-title {
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+
+  .sports-footer {
+    padding: 20px 0;
+
+    p {
+      font-size: 0.9rem;
+    }
+
+    small {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+// Petit mobile (max 480px)
+@media (max-width: 480px) {
+  .sports-container {
+    padding: 8px;
+  }
+
+  .sports-header h1 {
+    font-size: 1.6rem;
+  }
+  
+  .league-tabs {
+    gap: 8px;
+    padding: 10px 5px;
+
+    .control-btn {
+      padding: 6px;
+
+      .league-logo {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+  
+  .standings-container h2 {
+    font-size: 1.4rem;
+  }
+  
+  .standings-header,
+  .standings-row {
+    grid-template-columns: 40px 2fr 55px 65px;
+    gap: 5px;
+    padding: 10px 6px;
+    font-size: 0.8rem;
+    min-height: 50px;
+  }
+
+  .standings-header {
+    font-size: 0.75rem;
+    padding: 12px 6px;
+  }
+
+  .standings-header > *:nth-child(3),
+  .standings-header > *:nth-child(5),
+  .standings-header > *:nth-child(6),
+  .standings-header > *:nth-child(7),
+  .standings-header > *:nth-child(9) {
+    display: none;
+  }
+
+  .position {
+    width: 26px;
+    height: 26px;
+    font-size: 0.75rem;
+  }
+
+  .team-name {
+    font-size: 0.75rem;
+  }
+
+  .team-logo-small {
+    width: 24px;
+    height: 24px;
+  }
+
+  .points {
+    font-size: 0.8rem;
+    padding: 3px 5px;
+  }
+
+  .matches {
+    display: none !important;
+  }
+
+  .wins, .draws, .losses {
+    display: none !important;
+  }
+
+  .goals {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .goals:last-child {
+    display: none !important;
+  }
+  
+  .team-logo-small {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .team-name {
+    font-size: 0.8rem;
+  }
+
+  .points {
+    font-size: 0.9rem;
+    padding: 4px 6px;
+  }
+
+  .game-card {
+    padding: 6px;
+  }
+  
+  .game-header {
+    margin-bottom: 5px;
+    gap: 4px;
+    justify-content: center;
+  }
+
+  .game-status,
+  .game-time {
+    font-size: 0.65rem;
+    padding: 3px 6px;
+  }
+
+  .team-logo,
+  .team-logo-inline {
+    width: 26px;
+    height: 26px;
+  }
+
+  .team-details h3,
+  .team-details-inline h3 {
+    display: none;
+  }
+
+  .team-record small,
+  .team-record-inline small {
+    font-size: 0.6rem;
+  }
+
+  .score {
+    font-size: 1rem;
+    min-width: 24px;
+    padding: 3px 5px;
+  }
+
+  .score-center {
+    font-size: 0.9rem;
+    padding: 3px 5px;
+  }
+
+  .score-inline {
+    font-size: 0.85rem;
+    padding: 2px 5px;
+    min-width: 20px;
+  }
+  
+  .vs-inline {
+    font-size: 0.65rem;
+    margin: 0 1px;
+  }
+
+  .venue small {
+    font-size: 0.65rem;
+  }
+
+  // Layout inline optimisé pour ultra petit mobile
+  .match-inline {
+    gap: 4px;
+    padding: 6px 4px;
+  }
+  
+  .team-inline {
+    gap: 3px;
   }
 }
 
@@ -2144,60 +2434,131 @@
 
 @media (max-width: 768px) {
   .nhl-standings {
-    .nhl-table {
-      font-size: 0.85rem;
-
-      .standings-header,
-      .standings-row {
-        grid-template-columns: 2fr repeat(5, 0.6fr);
-        gap: 6px;
-        padding: 10px 6px;
-      }
-
-      .team-name-full {
-        font-size: 0.75rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .nhl-standings {
     .conference-title {
-      font-size: 1.3rem;
-      padding: 10px;
+      font-size: 1.4rem;
+      padding: 12px;
+    }
+
+    .divisions-grid {
+      gap: 15px;
+    }
+
+    .nhl-division {
+      padding: 12px;
+      overflow-x: auto;
     }
 
     .division-title {
-      font-size: 1rem;
+      font-size: 1.05rem;
+      padding: 8px;
     }
 
     .nhl-table {
-      font-size: 0.75rem;
+      font-size: 0.8rem;
+      min-width: 100%;
 
       .standings-header,
       .standings-row {
         grid-template-columns: 1.8fr repeat(5, 0.55fr);
-        padding: 8px 4px;
-        gap: 4px;
-      }
-
-      .position-indicator {
-        width: 20px;
-        height: 20px;
-        font-size: 0.75rem;
+        gap: 5px;
+        padding: 10px 6px;
       }
 
       .team-col {
-        gap: 4px;
+        gap: 6px;
+      }
+
+      .team-logo-small {
+        width: 28px;
+        height: 28px;
+      }
+
+      .position-indicator {
+        width: 22px;
+        height: 22px;
+        font-size: 0.75rem;
       }
 
       .team-abbr {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
+      }
+
+      .team-name-full {
+        font-size: 0.7rem;
+      }
+    }
+
+    .nhl-legend {
+      padding: 15px;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .nhl-standings {
+    .conference-title {
+      font-size: 1.2rem;
+      padding: 8px;
+    }
+
+    .divisions-grid {
+      gap: 12px;
+    }
+
+    .nhl-division {
+      padding: 8px;
+    }
+
+    .division-title {
+      font-size: 0.9rem;
+      padding: 6px;
+    }
+
+    .nhl-table {
+      font-size: 0.7rem;
+
+      .standings-header,
+      .standings-row {
+        grid-template-columns: 1.5fr 0.45fr 0.45fr 0.45fr 0.45fr 0.45fr;
+        padding: 6px 4px;
+        gap: 3px;
+      }
+
+      .position-indicator {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+      }
+
+      .team-col {
+        gap: 3px;
+      }
+
+      .team-logo-small {
+        width: 22px;
+        height: 22px;
+      }
+
+      .team-abbr {
+        font-size: 0.75rem;
       }
 
       .team-name-full {
         display: none;
+      }
+    }
+
+    .nhl-legend {
+      padding: 12px;
+      font-size: 0.75rem;
+
+      .legend-abbreviations {
+        padding: 10px;
+
+        p {
+          font-size: 0.75rem;
+        }
       }
     }
   }
@@ -2214,56 +2575,120 @@
 
 @media (max-width: 768px) {
   .nfl-standings {
+    .conference-title {
+      font-size: 1.4rem;
+      padding: 12px;
+    }
+
     .divisions-grid {
       grid-template-columns: 1fr;
+      gap: 15px;
     }
 
-    .nfl-table {
-      font-size: 0.85rem;
-
-      .standings-header,
-      .standings-row {
-        grid-template-columns: 2fr repeat(3, 0.5fr) 0.6fr repeat(3, 0.6fr);
-        gap: 6px;
-        padding: 10px 6px;
-      }
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .nfl-standings {
-    .conference-title {
-      font-size: 1.3rem;
-      padding: 10px;
+    .nfl-division {
+      padding: 12px;
+      overflow-x: auto;
     }
 
     .division-title {
       font-size: 1.1rem;
+      padding: 8px;
     }
 
     .nfl-table {
-      font-size: 0.75rem;
+      font-size: 0.8rem;
+      min-width: 100%;
 
       .standings-header,
       .standings-row {
-        grid-template-columns: 1.5fr repeat(7, 0.5fr);
-        padding: 8px 4px;
-        gap: 4px;
+        grid-template-columns: 1.8fr repeat(3, 0.5fr) 0.6fr repeat(3, 0.55fr);
+        gap: 5px;
+        padding: 10px 6px;
+      }
+
+      .team-col {
+        gap: 6px;
+      }
+
+      .team-logo-small {
+        width: 28px;
+        height: 28px;
+      }
+
+      .team-name {
+        font-size: 0.85rem;
+      }
+
+      .position-indicator {
+        width: 22px;
+        height: 22px;
+        font-size: 0.75rem;
+      }
+    }
+
+    .nfl-legend {
+      padding: 15px;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .nfl-standings {
+    .conference-title {
+      font-size: 1.2rem;
+      padding: 8px;
+    }
+
+    .division-title {
+      font-size: 0.95rem;
+      padding: 6px;
+    }
+
+    .nfl-division {
+      padding: 8px;
+    }
+
+    .nfl-table {
+      font-size: 0.7rem;
+
+      .standings-header,
+      .standings-row {
+        grid-template-columns: 1.3fr 0.4fr 0.4fr 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        padding: 6px 4px;
+        gap: 3px;
       }
 
       .position-indicator {
         width: 18px;
         height: 18px;
-        font-size: 0.7rem;
+        font-size: 0.65rem;
       }
 
       .team-col {
-        gap: 4px;
+        gap: 3px;
+      }
+
+      .team-logo-small {
+        width: 22px;
+        height: 22px;
       }
 
       .team-name {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
+      }
+    }
+
+    .nfl-legend {
+      padding: 12px;
+      font-size: 0.75rem;
+
+      .legend-abbreviations {
+        padding: 10px;
+
+        p {
+          font-size: 0.75rem;
+        }
       }
     }
   }
@@ -2425,56 +2850,123 @@
 
 @media (max-width: 768px) {
   .nba-standings {
-    .nba-table {
-      font-size: 0.85rem;
-
-      .standings-header,
-      .standings-row {
-        grid-template-columns: 2fr repeat(4, 0.6fr) 0.8fr 0.8fr;
-        gap: 8px;
-        padding: 10px 6px;
-      }
-
-      .team-name {
-        font-size: 0.95rem;
-      }
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .nba-standings {
     .conference-title {
-      font-size: 1.3rem;
-      padding: 10px;
+      font-size: 1.4rem;
+      padding: 12px;
+    }
+
+    .divisions-grid {
+      gap: 15px;
+    }
+
+    .nba-division {
+      padding: 12px;
+      overflow-x: auto;
     }
 
     .division-title {
-      font-size: 1rem;
+      font-size: 1.1rem;
+      padding: 8px;
     }
 
     .nba-table {
-      font-size: 0.75rem;
+      font-size: 0.8rem;
+      min-width: 100%;
 
       .standings-header,
       .standings-row {
         grid-template-columns: 1.8fr repeat(4, 0.55fr) 0.7fr 0.7fr;
-        padding: 8px 4px;
-        gap: 6px;
-      }
-
-      .position-indicator {
-        width: 20px;
-        height: 20px;
-        font-size: 0.75rem;
+        gap: 5px;
+        padding: 10px 6px;
       }
 
       .team-col {
-        gap: 4px;
+        gap: 6px;
+      }
+
+      .team-logo-small {
+        width: 28px;
+        height: 28px;
+      }
+
+      .position-indicator {
+        width: 22px;
+        height: 22px;
+        font-size: 0.75rem;
       }
 
       .team-name {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
+      }
+    }
+
+    .nba-legend {
+      padding: 15px;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .nba-standings {
+    .conference-title {
+      font-size: 1.2rem;
+      padding: 8px;
+    }
+
+    .divisions-grid {
+      gap: 12px;
+    }
+
+    .nba-division {
+      padding: 8px;
+    }
+
+    .division-title {
+      font-size: 0.95rem;
+      padding: 6px;
+    }
+
+    .nba-table {
+      font-size: 0.7rem;
+
+      .standings-header,
+      .standings-row {
+        grid-template-columns: 1.5fr 0.45fr 0.45fr 0.5fr 0.5fr 0.6fr 0.6fr;
+        padding: 6px 4px;
+        gap: 3px;
+      }
+
+      .position-indicator {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+      }
+
+      .team-col {
+        gap: 3px;
+      }
+
+      .team-logo-small {
+        width: 22px;
+        height: 22px;
+      }
+
+      .team-name {
+        font-size: 0.7rem;
+      }
+    }
+
+    .nba-legend {
+      padding: 12px;
+      font-size: 0.75rem;
+
+      .legend-abbreviations {
+        padding: 10px;
+
+        p {
+          font-size: 0.75rem;
+        }
       }
     }
   }
@@ -2505,6 +2997,7 @@
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
     max-width: 1000px;
     margin: 0 auto;
+    overflow-x: auto;
     
     .standings-header {
       display: grid;
@@ -2622,52 +3115,522 @@
 
 @media (max-width: 768px) {
   .proa-standings {
+    .conference-title {
+      font-size: 1.4rem;
+      padding: 12px;
+    }
+
     .proa-table {
-      font-size: 0.85rem;
+      font-size: 0.8rem;
+      min-width: 100%;
+      padding: 12px;
 
       .standings-header,
       .standings-row {
-        grid-template-columns: 2fr 0.6fr 0.6fr 0.8fr 0.7fr 0.8fr 0.8fr;
-        gap: 8px;
+        grid-template-columns: 1.8fr repeat(4, 0.55fr) 0.7fr 0.7fr;
+        gap: 5px;
         padding: 10px 6px;
       }
 
+      .team-col {
+        gap: 6px;
+      }
+
+      .team-logo-small {
+        width: 28px;
+        height: 28px;
+      }
+
+      .position-indicator {
+        width: 22px;
+        height: 22px;
+        font-size: 0.75rem;
+      }
+
       .team-name {
-        font-size: 0.95rem;
+        font-size: 0.85rem;
+      }
+    }
+
+    .proa-legend {
+      padding: 15px;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .proa-standings {
+    .conference-title {
+      font-size: 1.2rem;
+      padding: 8px;
+    }
+
+    .proa-table {
+      font-size: 0.7rem;
+      padding: 8px;
+
+      .standings-header,
+      .standings-row {
+        grid-template-columns: 1.5fr 0.45fr 0.45fr 0.5fr 0.5fr 0.6fr 0.6fr;
+        padding: 6px 4px;
+        gap: 3px;
+      }
+
+      .position-indicator {
+        width: 18px;
+        height: 18px;
+        font-size: 0.65rem;
+      }
+
+      .team-col {
+        gap: 3px;
+      }
+
+      .team-logo-small {
+        width: 22px;
+        height: 22px;
+      }
+
+      .team-name {
+        font-size: 0.7rem;
+      }
+    }
+
+    .proa-legend {
+      padding: 12px;
+      font-size: 0.75rem;
+
+      .legend-abbreviations {
+        padding: 10px;
+
+        p {
+          font-size: 0.75rem;
+        }
       }
     }
   }
 }
 
-@media (max-width: 600px) {
-  .proa-standings {
-    .conference-title {
-      font-size: 1.3rem;
-      padding: 10px;
+// Styles pour la phase éliminatoire CAN - Format Scoreboard
+.can-knockout {
+  padding: 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
+  min-height: 100vh;
+
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #42a5f5;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px rgba(66, 165, 245, 0.5);
+    font-weight: 800;
+  }
+
+  .knockout-bracket {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .knockout-round {
+    background: rgba(42, 42, 42, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(66, 165, 245, 0.1);
+
+    .round-title {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #64b5f6;
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #3a3a3a;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 700;
     }
 
-    .proa-table {
-      font-size: 0.75rem;
+    .final-title {
+      color: #ffd700;
+      font-size: 2.2rem;
+      font-weight: 900;
+      text-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 40px rgba(255, 215, 0, 0.3);
+      animation: pulse 2s ease-in-out infinite;
+    }
+  }
 
-      .standings-header,
-      .standings-row {
-        grid-template-columns: 1.8fr 0.55fr 0.55fr 0.75fr 0.65fr 0.7fr 0.7fr;
-        padding: 8px 4px;
-        gap: 6px;
+  // Grid des matchs au format scoreboard
+  .knockout-matches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 25px;
+    
+    &.semifinals,
+    &.finals {
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  }
+
+  // Carte de match au format scoreboard
+  .scoreboard-match {
+    background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+    border: 2px solid #3a3a3a;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+    &:hover {
+      border-color: #42a5f5;
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 12px 35px rgba(66, 165, 245, 0.4);
+    }
+
+    &.third-place {
+      border-color: #cd7f32;
+      
+      &:hover {
+        border-color: #ff9f4a;
+        box-shadow: 0 12px 35px rgba(205, 127, 50, 0.4);
+      }
+    }
+
+    &.final-match {
+      border-color: #ffd700;
+      background: linear-gradient(135deg, #3a2f0d 0%, #1a1a1a 100%);
+      box-shadow: 0 8px 30px rgba(255, 215, 0, 0.3);
+      
+      &:hover {
+        border-color: #ffed4e;
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 15px 50px rgba(255, 215, 0, 0.6);
+      }
+    }
+
+    // En-tête du scoreboard
+    .scoreboard-header {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid rgba(66, 165, 245, 0.2);
+
+      .match-number {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #42a5f5;
+        text-transform: uppercase;
+        letter-spacing: 1px;
       }
 
-      .position-indicator {
-        width: 20px;
-        height: 20px;
-        font-size: 0.75rem;
+      .match-datetime {
+        font-size: 0.85rem;
+        color: #b0b0b0;
+        font-weight: 500;
+      }
+    }
+
+    // Corps du scoreboard
+    .scoreboard-body {
+      padding: 25px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 15px;
+      background: rgba(255, 255, 255, 0.02);
+
+      .scoreboard-team {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        background: rgba(42, 42, 42, 0.6);
+        border-radius: 12px;
+        border: 1px solid rgba(66, 165, 245, 0.1);
+        transition: all 0.3s ease;
+
+        &:hover {
+          background: rgba(66, 165, 245, 0.1);
+          border-color: rgba(66, 165, 245, 0.3);
+        }
+
+        &.team-home {
+          justify-content: space-between;
+          
+          .team-name {
+            order: 1;
+          }
+          
+          .team-score {
+            order: 2;
+          }
+        }
+
+        &.team-away {
+          justify-content: space-between;
+          flex-direction: row-reverse;
+          
+          .team-name {
+            order: 1;
+            text-align: right;
+          }
+          
+          .team-score {
+            order: 2;
+          }
+        }
+
+        .team-name {
+          font-size: 1.05rem;
+          font-weight: 600;
+          color: #e0e0e0;
+          line-height: 1.3;
+          flex: 1;
+        }
+
+        .team-score {
+          font-size: 1.8rem;
+          font-weight: 800;
+          color: #42a5f5;
+          min-width: 40px;
+          text-align: center;
+          background: rgba(66, 165, 245, 0.1);
+          border-radius: 8px;
+          padding: 5px 10px;
+        }
       }
 
-      .team-col {
-        gap: 4px;
+      .scoreboard-separator {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+
+        .vs-badge {
+          font-size: 1.1rem;
+          font-weight: 800;
+          color: #42a5f5;
+          background: rgba(66, 165, 245, 0.15);
+          padding: 8px 16px;
+          border-radius: 20px;
+          border: 2px solid rgba(66, 165, 245, 0.3);
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          box-shadow: 0 0 15px rgba(66, 165, 245, 0.3);
+
+          &.trophy {
+            font-size: 1.5rem;
+            background: rgba(255, 215, 0, 0.15);
+            border-color: rgba(255, 215, 0, 0.4);
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+            animation: glow 2s ease-in-out infinite;
+          }
+        }
+      }
+    }
+
+    // Pied du scoreboard
+    .scoreboard-footer {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border-top: 1px solid rgba(66, 165, 245, 0.1);
+
+      .venue-icon {
+        font-size: 1rem;
       }
 
-      .team-name {
-        font-size: 0.8rem;
+      .venue-name {
+        font-size: 0.9rem;
+        color: #888;
+        font-style: italic;
+        font-weight: 500;
+      }
+
+      &.final-footer {
+        background: rgba(255, 215, 0, 0.1);
+        border-top-color: rgba(255, 215, 0, 0.2);
+        
+        .venue-name {
+          color: #ffd700;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  // Légende
+  .knockout-legend {
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px;
+    background: rgba(42, 42, 42, 0.6);
+    border-radius: 15px;
+    border: 1px solid rgba(66, 165, 245, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    p {
+      margin: 10px 0;
+      color: #b0b0b0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+
+      strong {
+        color: #42a5f5;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+// Animations
+@keyframes pulse {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 40px rgba(255, 215, 0, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(255, 215, 0, 0.8), 0 0 60px rgba(255, 215, 0, 0.5);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.7);
+  }
+}
+
+// Responsive
+@media (max-width: 1024px) {
+  .can-knockout {
+    .knockout-matches-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .can-knockout {
+    padding: 15px;
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+    }
+
+    .knockout-bracket {
+      gap: 30px;
+    }
+
+    .knockout-round {
+      padding: 20px 15px;
+
+      .round-title {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+      }
+
+      .final-title {
+        font-size: 1.6rem;
+      }
+    }
+
+    .knockout-matches-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      &.semifinals,
+      &.finals {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .scoreboard-match {
+      .scoreboard-header {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        padding: 10px 15px;
+      }
+
+      .scoreboard-body {
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 15px;
+
+        .scoreboard-team {
+          width: 100%;
+          padding: 12px;
+
+          &.team-home,
+          &.team-away {
+            flex-direction: row;
+            justify-content: space-between;
+            
+            .team-name {
+              text-align: left;
+              order: 1;
+            }
+            
+            .team-score {
+              order: 2;
+            }
+          }
+
+          .team-name {
+            font-size: 0.95rem;
+          }
+
+          .team-score {
+            font-size: 1.5rem;
+          }
+        }
+
+        .scoreboard-separator {
+          .vs-badge {
+            font-size: 0.9rem;
+            padding: 6px 12px;
+            
+            &.trophy {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+
+      .scoreboard-footer {
+        padding: 10px 15px;
+        
+        .venue-name {
+          font-size: 0.8rem;
+          text-align: center;
+        }
+      }
+    }
+
+    .knockout-legend {
+      padding: 15px;
+      
+      p {
+        font-size: 0.85rem;
       }
     }
   }

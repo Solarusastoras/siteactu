@@ -6,9 +6,394 @@
     "startDate": "2025-12-21",
     "endDate": "2026-01-18",
     "totalTeams": 24,
-    "phase": "Phase de groupes",
+    "phase": "À venir - Tournoi prévu du 21 décembre 2025 au 18 janvier 2026",
     "matchesPlayed": 0,
-    "totalMatches": 52
+    "totalMatches": 52,
+    "currentMatchday": 0,
+    "currentMatches": [],
+    "completedMatches": [],
+    "nextMatches": [
+      {
+        "matchNumber": 1,
+        "team1": "🇲🇦 Maroc",
+        "team2": "🇰🇲 Comores",
+        "date": "2025-12-21T19:00:00Z",
+        "time": "20:00",
+        "venue": "Stade Prince Moulay Abdellah, Rabat",
+        "status": "Groupe A - Match d'ouverture"
+      },
+      {
+        "matchNumber": 2,
+        "team1": "🇲🇱 Mali",
+        "team2": "🇿🇲 Zambie",
+        "date": "2025-12-22T14:30:00Z",
+        "time": "15:30",
+        "venue": "Complexe Mohammed V, Casablanca",
+        "status": "Groupe A"
+      },
+      {
+        "matchNumber": 3,
+        "team1": "🇪🇬 Égypte",
+        "team2": "🇿🇼 Zimbabwe",
+        "date": "2025-12-22T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 4,
+        "team1": "🇿🇦 Afrique du Sud",
+        "team2": "🇦🇴 Angola",
+        "date": "2025-12-22T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 5,
+        "team1": "🇳🇬 Nigeria",
+        "team2": "🇹🇿 Tanzanie",
+        "date": "2025-12-23T12:00:00Z",
+        "time": "13:00",
+        "venue": "Complexe sportif de Fès, Fès",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 6,
+        "team1": "🇹🇳 Tunisie",
+        "team2": "🇺🇬 Ouganda",
+        "date": "2025-12-23T14:30:00Z",
+        "time": "15:30",
+        "venue": "Stade olympique de Rabat, Rabat",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 7,
+        "team1": "🇸🇳 Sénégal",
+        "team2": "🇧🇼 Botswana",
+        "date": "2025-12-23T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Ibn-Batouta, Tanger",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 8,
+        "team1": "🇨🇩 RD Congo",
+        "team2": "🇧🇯 Bénin",
+        "date": "2025-12-23T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Al Barid, Rabat",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 9,
+        "team1": "🇩🇿 Algérie",
+        "team2": "🇸🇩 Soudan",
+        "date": "2025-12-24T12:00:00Z",
+        "time": "13:00",
+        "venue": "Stade Moulay Hassan, Rabat",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 10,
+        "team1": "🇧🇫 Burkina Faso",
+        "team2": "🇬🇶 Guinée équatoriale",
+        "date": "2025-12-24T14:30:00Z",
+        "time": "15:30",
+        "venue": "Stade Mohammed V, Casablanca",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 11,
+        "team1": "🇨🇮 Côte d'Ivoire",
+        "team2": "🇲🇿 Mozambique",
+        "date": "2025-12-24T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe F"
+      },
+      {
+        "matchNumber": 12,
+        "team1": "🇨🇲 Cameroun",
+        "team2": "🇬🇦 Gabon",
+        "date": "2025-12-24T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe F"
+      },
+      {
+        "matchNumber": 13,
+        "team1": "🇲🇦 Maroc",
+        "team2": "🇲🇱 Mali",
+        "date": "2025-12-26T12:00:00Z",
+        "time": "13:00",
+        "venue": "Stade Prince Moulay Abdellah, Rabat",
+        "status": "Groupe A"
+      },
+      {
+        "matchNumber": 14,
+        "team1": "🇿🇲 Zambie",
+        "team2": "🇰🇲 Comores",
+        "date": "2025-12-26T14:30:00Z",
+        "time": "15:30",
+        "venue": "Complexe Mohammed V, Casablanca",
+        "status": "Groupe A"
+      },
+      {
+        "matchNumber": 15,
+        "team1": "🇪🇬 Égypte",
+        "team2": "🇿🇦 Afrique du Sud",
+        "date": "2025-12-26T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 16,
+        "team1": "🇿🇼 Zimbabwe",
+        "team2": "🇦🇴 Angola",
+        "date": "2025-12-26T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 17,
+        "team1": "🇳🇬 Nigeria",
+        "team2": "🇹🇳 Tunisie",
+        "date": "2025-12-27T12:00:00Z",
+        "time": "13:00",
+        "venue": "Complexe sportif de Fès, Fès",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 18,
+        "team1": "🇺🇬 Ouganda",
+        "team2": "🇹🇿 Tanzanie",
+        "date": "2025-12-27T14:30:00Z",
+        "time": "15:30",
+        "venue": "Stade Al Barid, Rabat",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 19,
+        "team1": "🇸🇳 Sénégal",
+        "team2": "🇨🇩 RD Congo",
+        "date": "2025-12-27T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Ibn-Batouta, Tanger",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 20,
+        "team1": "🇧🇯 Bénin",
+        "team2": "🇧🇼 Botswana",
+        "date": "2025-12-27T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Al Barid, Rabat",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 21,
+        "team1": "🇩🇿 Algérie",
+        "team2": "🇧🇫 Burkina Faso",
+        "date": "2025-12-28T12:00:00Z",
+        "time": "13:00",
+        "venue": "Stade Moulay Hassan, Rabat",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 22,
+        "team1": "🇬🇶 Guinée équatoriale",
+        "team2": "🇸🇩 Soudan",
+        "date": "2025-12-28T14:30:00Z",
+        "time": "15:30",
+        "venue": "Stade Mohammed V, Casablanca",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 23,
+        "team1": "🇨🇮 Côte d'Ivoire",
+        "team2": "🇨🇲 Cameroun",
+        "date": "2025-12-28T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe F"
+      },
+      {
+        "matchNumber": 24,
+        "team1": "🇬🇦 Gabon",
+        "team2": "🇲🇿 Mozambique",
+        "date": "2025-12-28T18:00:00Z",
+        "time": "À déterminer",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe F"
+      },
+      {
+        "matchNumber": 25,
+        "team1": "🇿🇲 Zambie",
+        "team2": "🇲🇦 Maroc",
+        "date": "2025-12-29T17:30:00Z",
+        "time": "18:30",
+        "venue": "Stade Prince Moulay Abdellah, Rabat",
+        "status": "Groupe A"
+      },
+      {
+        "matchNumber": 26,
+        "team1": "🇰🇲 Comores",
+        "team2": "🇲🇱 Mali",
+        "date": "2025-12-29T17:30:00Z",
+        "time": "18:30",
+        "venue": "Complexe Mohammed V, Casablanca",
+        "status": "Groupe A"
+      },
+      {
+        "matchNumber": 27,
+        "team1": "🇦🇴 Angola",
+        "team2": "🇪🇬 Égypte",
+        "date": "2025-12-29T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 28,
+        "team1": "🇿🇼 Zimbabwe",
+        "team2": "🇿🇦 Afrique du Sud",
+        "date": "2025-12-29T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe B"
+      },
+      {
+        "matchNumber": 29,
+        "team1": "🇺🇬 Ouganda",
+        "team2": "🇳🇬 Nigeria",
+        "date": "2025-12-30T17:00:00Z",
+        "time": "18:00",
+        "venue": "Complexe sportif de Fès, Fès",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 30,
+        "team1": "🇹🇿 Tanzanie",
+        "team2": "🇹🇳 Tunisie",
+        "date": "2025-12-30T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade olympique de Rabat, Rabat",
+        "status": "Groupe C"
+      },
+      {
+        "matchNumber": 31,
+        "team1": "🇧🇯 Bénin",
+        "team2": "🇸🇳 Sénégal",
+        "date": "2025-12-30T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Ibn-Batouta, Tanger",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 32,
+        "team1": "🇧🇼 Botswana",
+        "team2": "🇨🇩 RD Congo",
+        "date": "2025-12-30T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Al Barid, Rabat",
+        "status": "Groupe D"
+      },
+      {
+        "matchNumber": 33,
+        "team1": "🇬🇶 Guinée équatoriale",
+        "team2": "🇩🇿 Algérie",
+        "date": "2025-12-31T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Moulay Hassan, Rabat",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 34,
+        "team1": "🇸🇩 Soudan",
+        "team2": "🇧🇫 Burkina Faso",
+        "date": "2025-12-31T17:00:00Z",
+        "time": "18:00",
+        "venue": "Stade Mohammed V, Casablanca",
+        "status": "Groupe E"
+      },
+      {
+        "matchNumber": 35,
+        "team1": "🇬🇦 Gabon",
+        "team2": "🇨🇮 Côte d'Ivoire",
+        "date": "2025-12-31T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade de Marrakech, Marrakech",
+        "status": "Groupe F"
+      },
+      {
+        "matchNumber": 36,
+        "team1": "🇲🇿 Mozambique",
+        "team2": "🇨🇲 Cameroun",
+        "date": "2025-12-31T19:30:00Z",
+        "time": "20:30",
+        "venue": "Stade Adrar, Agadir",
+        "status": "Groupe F"
+      }
+    ],
+    "standings": [
+      {
+        "group": "Groupe A",
+        "teams": [
+          { "pos": 1, "team": "🇲🇦 Maroc", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "�🇱 Mali", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇿🇲 Zambie", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇰🇲 Comores", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      },
+      {
+        "group": "Groupe B",
+        "teams": [
+          { "pos": 1, "team": "🇪🇬 Égypte", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "🇿🇦 Afrique du Sud", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇦🇴 Angola", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇿🇼 Zimbabwe", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      },
+      {
+        "group": "Groupe C",
+        "teams": [
+          { "pos": 1, "team": "🇳🇬 Nigeria", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "🇹🇳 Tunisie", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇺🇬 Ouganda", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇹🇿 Tanzanie", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      },
+      {
+        "group": "Groupe D",
+        "teams": [
+          { "pos": 1, "team": "🇸🇳 Sénégal", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "🇨🇩 RD Congo", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇧🇯 Bénin", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇧🇼 Botswana", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      },
+      {
+        "group": "Groupe E",
+        "teams": [
+          { "pos": 1, "team": "🇩🇿 Algérie", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "🇧🇫 Burkina Faso", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇬🇶 Guinée équatoriale", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇸🇩 Soudan", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      },
+      {
+        "group": "Groupe F",
+        "teams": [
+          { "pos": 1, "team": "🇨🇲 Cameroun", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 2, "team": "🇬🇦 Gabon", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 3, "team": "🇨🇮 Côte d'Ivoire", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 },
+          { "pos": 4, "team": "🇲🇿 Mozambique", "played": 0, "won": 0, "drawn": 0, "lost": 0, "goalsFor": 0, "goalsAgainst": 0, "goalDiff": 0, "points": 0 }
+        ]
+      }
+    ]
   },
   "pastCANs": [
     {

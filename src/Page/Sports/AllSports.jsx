@@ -197,12 +197,36 @@ const AllSports = () => {
           >
             🔜 Matchs à venir
           </button>
+          {(footballLeague === 'worldcup' || footballLeague === 'africnationcup' || footballLeague === 'championleague' || footballLeague === 'europecup') && (
+            <button 
+              className={`control-btn ${footballView === 'eliminatoire' ? 'active' : ''}`}
+              onClick={() => setFootballView('eliminatoire')}
+            >
+              🏅 Phase éliminatoire
+            </button>
+          )}
           <button 
             className={`control-btn ${footballView === 'classement' ? 'active' : ''}`}
             onClick={() => setFootballView('classement')}
           >
             🏆 Classement
           </button>
+          {(footballLeague === 'worldcup' || footballLeague === 'africnationcup' || footballLeague === 'championleague' || footballLeague === 'europecup') && (
+            <button 
+              className={`control-btn ${footballView === 'editions' ? 'active' : ''}`}
+              onClick={() => setFootballView('editions')}
+            >
+              📜 Historique & Éditions
+            </button>
+          )}
+          {footballLeague === 'worldcup' && (
+            <button 
+              className={`control-btn ${footballView === 'news' ? 'active' : ''}`}
+              onClick={() => setFootballView('news')}
+            >
+              📰 Actualités
+            </button>
+          )}
         </div>
       )}
 

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import TournamentWrapper from '../../../Common/components/TournamentWrapper';
 import FootballLeagueContainer from '../../../Common/components/FootballLeagueContainer';
 import championLeagueData from '../../../Data/Foot/dataChampionLeague.json';
@@ -6,7 +6,8 @@ import { championsLeagueConfig } from '../../../Common/data/footballLeaguesConfi
 import { leaguesConfig } from '../../../Common/data/leaguesConfig';
 
 const ChampionLeagueWrapper = ({ view = 'matches' }) => {
-  const [activeMode, setActiveMode] = useState('live'); // 'live' ou 'history'
+  // Si view='editions', afficher directement l'historique, sinon afficher live
+  const activeMode = view === 'editions' ? 'history' : 'live';
 
   const config = useMemo(() => ({
     title: 'UEFA Champions League',
@@ -48,22 +49,6 @@ const ChampionLeagueWrapper = ({ view = 'matches' }) => {
 
   return (
     <div className="champions-league-wrapper">
-      {/* Sélecteur de mode */}
-      <div className="mode-selector">
-        <button 
-          className={`mode-btn ${activeMode === 'live' ? 'active' : ''}`}
-          onClick={() => setActiveMode('live')}
-        >
-          🔴 Matchs & Classement
-        </button>
-        <button 
-          className={`mode-btn ${activeMode === 'history' ? 'active' : ''}`}
-          onClick={() => setActiveMode('history')}
-        >
-          📜 Historique & Éditions
-        </button>
-      </div>
-
       {/* Mode Live : Matchs et classement en temps réel */}
       {activeMode === 'live' && (
         <FootballLeagueContainer 
