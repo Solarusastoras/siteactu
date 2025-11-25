@@ -6,6 +6,7 @@
 export const leaguesConfig = {
   ligue1: {
     id: 'ligue1',
+    storageKey: 'ligue1',
     name: 'Ligue 1',
     icon: '🏆',
     flag: '🇫🇷',
@@ -37,6 +38,7 @@ export const leaguesConfig = {
 
   ligue2: {
     id: 'ligue2',
+    storageKey: 'ligue2',
     name: 'Ligue 2',
     icon: '⚽',
     flag: '🇫🇷',
@@ -64,6 +66,7 @@ export const leaguesConfig = {
 
   premier: {
     id: 'premier',
+    storageKey: 'premierleague',
     name: 'Premier League',
     icon: '🏆',
     flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
@@ -89,6 +92,7 @@ export const leaguesConfig = {
 
   laliga: {
     id: 'laliga',
+    storageKey: 'laliga',
     name: 'La Liga',
     icon: '🇪🇸',
     flag: '🇪🇸',
@@ -116,6 +120,7 @@ export const leaguesConfig = {
 
   seriea: {
     id: 'seriea',
+    storageKey: 'seriea',
     name: 'Serie A',
     icon: '🇮🇹',
     flag: '🇮🇹',
@@ -143,6 +148,7 @@ export const leaguesConfig = {
 
   bundesliga: {
     id: 'bundesliga',
+    storageKey: 'bundesliga',
     name: 'Bundesliga',
     icon: '🇩🇪',
     flag: '🇩🇪',
@@ -199,6 +205,7 @@ export const leaguesConfig = {
 
   brasileirao: {
     id: 'brasileirao',
+    storageKey: 'brasileirao',
     name: 'Brasileirão Betano',
     icon: '🇧🇷',
     flag: '🇧🇷',
@@ -226,6 +233,7 @@ export const leaguesConfig = {
 
   championsLeague: {
     id: 'championsLeague',
+    storageKey: 'championsleague',
     name: 'UEFA Champions League',
     icon: '🏆',
     flag: '🇪🇺',
@@ -304,7 +312,7 @@ export const {
   bundesliga: bundesligaConfig,
   botola: botolaConfig,
   brasileirao: brasileiraoConfig,
-  championsLeague: championsLeagueDisplayConfig,
+  championsLeague: championsLeagueConfig,
   africancup: africancupConfig,
-  worldcup: worldcupDisplayConfig
+  worldcup: worldcupConfig
 } = leaguesConfig;

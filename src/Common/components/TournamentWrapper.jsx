@@ -3,7 +3,7 @@ import GroupStageTable from './GroupStageTable';
 import KnockoutRound from './KnockoutRound';
 import EditionPodium from './EditionPodium';
 import EditionStats from './EditionStats';
-import '../../Page/Sports/leagues/WorldCup.scss';
+import '../../Page/Sports/sports.scss';
 
 const TournamentWrapper = React.memo(({ 
   title, 

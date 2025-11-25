@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Weather.scss';
+import './meteo.scss';
 import Card from '../../Common/card';
 
 const Weather = () => {
@@ -86,16 +86,11 @@ const Weather = () => {
     return renderCustomWeather();
   };
 
-  const parseTemperature = (temp) => {
-    if (temp === null || temp === undefined) return 'N/A';
-    return `${Math.round(temp)}°C`;
-  };
-
   const getWeatherIcon = (weathercode) => {
     // WMO Weather interpretation codes
     if (weathercode === 0) return '☀️'; // Clear sky
     if (weathercode <= 3) return '🌤️'; // Partly cloudy
-    if (weathercode <= 48) return '🌫️'; // Fog
+    if (weathercode <= 48) return '🌁'; // Fog
     if (weathercode <= 67) return '🌧️'; // Rain
     if (weathercode <= 77) return '❄️'; // Snow
     if (weathercode <= 82) return '🌧️'; // Rain showers

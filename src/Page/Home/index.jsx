@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Home.scss';
 import Actus from '../Actus';
 import Culture from '../Culture';
-import AllSports from '../Sports/AllSports';
+import AllSports from '../Sports';
 import Recre from '../Recre';
 import LogoOdyseeSavoir from '../../Utils/Logo/Logo_odyseedusavoir.webp';
 import LogoSolarus from '../../Utils/Logo/LogoSolarus.png';

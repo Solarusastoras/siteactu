@@ -1,0 +1,2081 @@
+{
+  "sports": {
+    "nba": {
+      "competition": "NBA",
+      "lastUpdate": "2025-11-24T01:51:40.970Z",
+      "scoreboard": {
+        "events": [
+          {
+            "id": "401810130",
+            "name": "Miami Heat at Philadelphia 76ers",
+            "shortName": "MIA @ PHI",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "20",
+                "name": "Philadelphia 76ers",
+                "shortName": "76ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phi.png",
+                "score": "117"
+              },
+              "awayTeam": {
+                "id": "14",
+                "name": "Miami Heat",
+                "shortName": "Heat",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/mia.png",
+                "score": "127"
+              },
+              "venue": "Xfinity Mobile Arena",
+              "time": "12:00"
+            }
+          },
+          {
+            "id": "401810131",
+            "name": "Charlotte Hornets at Atlanta Hawks",
+            "shortName": "CHA @ ATL",
+            "date": "2025-11-23T23:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "1",
+                "name": "Atlanta Hawks",
+                "shortName": "Hawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+                "score": "113"
+              },
+              "awayTeam": {
+                "id": "30",
+                "name": "Charlotte Hornets",
+                "shortName": "Hornets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cha.png",
+                "score": "110"
+              },
+              "venue": "State Farm Arena",
+              "time": "12:00"
+            }
+          },
+          {
+            "id": "401810132",
+            "name": "Orlando Magic at Boston Celtics",
+            "shortName": "ORL @ BOS",
+            "date": "2025-11-23T23:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "2",
+                "name": "Boston Celtics",
+                "shortName": "Celtics",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bos.png",
+                "score": "138"
+              },
+              "awayTeam": {
+                "id": "19",
+                "name": "Orlando Magic",
+                "shortName": "Magic",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/orl.png",
+                "score": "129"
+              },
+              "venue": "TD Garden",
+              "time": "12:00"
+            }
+          },
+          {
+            "id": "401810133",
+            "name": "LA Clippers at Cleveland Cavaliers",
+            "shortName": "LAC @ CLE",
+            "date": "2025-11-23T23:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "5",
+                "name": "Cleveland Cavaliers",
+                "shortName": "Cavaliers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/cle.png",
+                "score": "120"
+              },
+              "awayTeam": {
+                "id": "12",
+                "name": "LA Clippers",
+                "shortName": "Clippers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lac.png",
+                "score": "105"
+              },
+              "venue": "Rocket Arena",
+              "time": "0.0"
+            }
+          },
+          {
+            "id": "401810134",
+            "name": "Brooklyn Nets at Toronto Raptors",
+            "shortName": "BKN @ TOR",
+            "date": "2025-11-23T23:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "28",
+                "name": "Toronto Raptors",
+                "shortName": "Raptors",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/tor.png",
+                "score": "119"
+              },
+              "awayTeam": {
+                "id": "17",
+                "name": "Brooklyn Nets",
+                "shortName": "Nets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/bkn.png",
+                "score": "109"
+              },
+              "venue": "Scotiabank Arena",
+              "time": "0.0"
+            }
+          },
+          {
+            "id": "401810135",
+            "name": "Portland Trail Blazers at Oklahoma City Thunder",
+            "shortName": "POR @ OKC",
+            "date": "2025-11-24T00:00Z",
+            "status": {
+              "type": "STATUS_IN_PROGRESS",
+              "detail": "3:28 - 3rd Quarter",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "25",
+                "name": "Oklahoma City Thunder",
+                "shortName": "Thunder",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/okc.png",
+                "score": "81"
+              },
+              "awayTeam": {
+                "id": "22",
+                "name": "Portland Trail Blazers",
+                "shortName": "Trail Blazers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/por.png",
+                "score": "58"
+              },
+              "venue": "Paycom Center",
+              "time": "3:28"
+            }
+          },
+          {
+            "id": "401810136",
+            "name": "San Antonio Spurs at Phoenix Suns",
+            "shortName": "SA @ PHX",
+            "date": "2025-11-24T01:00Z",
+            "status": {
+              "type": "STATUS_IN_PROGRESS",
+              "detail": "6:24 - 2nd Quarter",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "21",
+                "name": "Phoenix Suns",
+                "shortName": "Suns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/phx.png",
+                "score": "34"
+              },
+              "awayTeam": {
+                "id": "24",
+                "name": "San Antonio Spurs",
+                "shortName": "Spurs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/sa.png",
+                "score": "45"
+              },
+              "venue": "Mortgage Matchup Center",
+              "time": "6:24"
+            }
+          },
+          {
+            "id": "401810137",
+            "name": "Los Angeles Lakers at Utah Jazz",
+            "shortName": "LAL @ UTAH",
+            "date": "2025-11-24T01:00Z",
+            "status": {
+              "type": "STATUS_IN_PROGRESS",
+              "detail": "5:25 - 2nd Quarter",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "26",
+                "name": "Utah Jazz",
+                "shortName": "Jazz",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/utah.png",
+                "score": "47"
+              },
+              "awayTeam": {
+                "id": "13",
+                "name": "Los Angeles Lakers",
+                "shortName": "Lakers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/lal.png",
+                "score": "48"
+              },
+              "venue": "Delta Center",
+              "time": "5:25"
+            }
+          }
+        ],
+        "season": {
+          "type": 2,
+          "year": 2026
+        }
+      },
+      "standings": []
+    },
+    "nfl": {
+      "competition": "NFL",
+      "lastUpdate": "2025-11-24T01:51:40.981Z",
+      "scoreboard": {
+        "events": [
+          {
+            "id": "401772929",
+            "name": "Tampa Bay Buccaneers at Los Angeles Rams",
+            "shortName": "TB @ LAR",
+            "date": "2025-11-24T01:20Z",
+            "status": {
+              "type": "STATUS_IN_PROGRESS",
+              "detail": "1:42 - 1st Quarter",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "14",
+                "name": "Los Angeles Rams",
+                "shortName": "Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lar.png",
+                "score": "14"
+              },
+              "awayTeam": {
+                "id": "27",
+                "name": "Tampa Bay Buccaneers",
+                "shortName": "Buccaneers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/tb.png",
+                "score": "0"
+              },
+              "venue": "SoFi Stadium",
+              "time": "1:42"
+            }
+          },
+          {
+            "id": "401772780",
+            "name": "Pittsburgh Steelers at Chicago Bears",
+            "shortName": "PIT @ CHI",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "3",
+                "name": "Chicago Bears",
+                "shortName": "Bears",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/chi.png",
+                "score": "31"
+              },
+              "awayTeam": {
+                "id": "23",
+                "name": "Pittsburgh Steelers",
+                "shortName": "Steelers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/pit.png",
+                "score": "28"
+              },
+              "venue": "Soldier Field",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772781",
+            "name": "New England Patriots at Cincinnati Bengals",
+            "shortName": "NE @ CIN",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "4",
+                "name": "Cincinnati Bengals",
+                "shortName": "Bengals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cin.png",
+                "score": "20"
+              },
+              "awayTeam": {
+                "id": "17",
+                "name": "New England Patriots",
+                "shortName": "Patriots",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ne.png",
+                "score": "26"
+              },
+              "venue": "Paycor Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772888",
+            "name": "New York Giants at Detroit Lions",
+            "shortName": "NYG @ DET",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final/OT",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "8",
+                "name": "Detroit Lions",
+                "shortName": "Lions",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/det.png",
+                "score": "34"
+              },
+              "awayTeam": {
+                "id": "19",
+                "name": "New York Giants",
+                "shortName": "Giants",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyg.png",
+                "score": "27"
+              },
+              "venue": "Ford Field",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772887",
+            "name": "Minnesota Vikings at Green Bay Packers",
+            "shortName": "MIN @ GB",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "9",
+                "name": "Green Bay Packers",
+                "shortName": "Packers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/gb.png",
+                "score": "23"
+              },
+              "awayTeam": {
+                "id": "16",
+                "name": "Minnesota Vikings",
+                "shortName": "Vikings",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/min.png",
+                "score": "6"
+              },
+              "venue": "Lambeau Field",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772886",
+            "name": "Seattle Seahawks at Tennessee Titans",
+            "shortName": "SEA @ TEN",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "10",
+                "name": "Tennessee Titans",
+                "shortName": "Titans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ten.png",
+                "score": "24"
+              },
+              "awayTeam": {
+                "id": "26",
+                "name": "Seattle Seahawks",
+                "shortName": "Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sea.png",
+                "score": "30"
+              },
+              "venue": "Nissan Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772779",
+            "name": "Indianapolis Colts at Kansas City Chiefs",
+            "shortName": "IND @ KC",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final/OT",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "12",
+                "name": "Kansas City Chiefs",
+                "shortName": "Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/kc.png",
+                "score": "23"
+              },
+              "awayTeam": {
+                "id": "11",
+                "name": "Indianapolis Colts",
+                "shortName": "Colts",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ind.png",
+                "score": "20"
+              },
+              "venue": "GEHA Field at Arrowhead Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772782",
+            "name": "New York Jets at Baltimore Ravens",
+            "shortName": "NYJ @ BAL",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "33",
+                "name": "Baltimore Ravens",
+                "shortName": "Ravens",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/bal.png",
+                "score": "23"
+              },
+              "awayTeam": {
+                "id": "20",
+                "name": "New York Jets",
+                "shortName": "Jets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/nyj.png",
+                "score": "10"
+              },
+              "venue": "M&T Bank Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772784",
+            "name": "Cleveland Browns at Las Vegas Raiders",
+            "shortName": "CLE @ LV",
+            "date": "2025-11-23T21:05Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "13",
+                "name": "Las Vegas Raiders",
+                "shortName": "Raiders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/lv.png",
+                "score": "10"
+              },
+              "awayTeam": {
+                "id": "5",
+                "name": "Cleveland Browns",
+                "shortName": "Browns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+                "score": "24"
+              },
+              "venue": "Allegiant Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772783",
+            "name": "Jacksonville Jaguars at Arizona Cardinals",
+            "shortName": "JAX @ ARI",
+            "date": "2025-11-23T21:05Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final/OT",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "22",
+                "name": "Arizona Cardinals",
+                "shortName": "Cardinals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/ari.png",
+                "score": "24"
+              },
+              "awayTeam": {
+                "id": "30",
+                "name": "Jacksonville Jaguars",
+                "shortName": "Jaguars",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/jax.png",
+                "score": "27"
+              },
+              "venue": "State Farm Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772890",
+            "name": "Philadelphia Eagles at Dallas Cowboys",
+            "shortName": "PHI @ DAL",
+            "date": "2025-11-23T21:25Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "6",
+                "name": "Dallas Cowboys",
+                "shortName": "Cowboys",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/dal.png",
+                "score": "24"
+              },
+              "awayTeam": {
+                "id": "21",
+                "name": "Philadelphia Eagles",
+                "shortName": "Eagles",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/phi.png",
+                "score": "21"
+              },
+              "venue": "AT&T Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772889",
+            "name": "Atlanta Falcons at New Orleans Saints",
+            "shortName": "ATL @ NO",
+            "date": "2025-11-23T21:25Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "18",
+                "name": "New Orleans Saints",
+                "shortName": "Saints",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/no.png",
+                "score": "10"
+              },
+              "awayTeam": {
+                "id": "1",
+                "name": "Atlanta Falcons",
+                "shortName": "Falcons",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/atl.png",
+                "score": "24"
+              },
+              "venue": "Caesars Superdome",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772946",
+            "name": "Buffalo Bills at Houston Texans",
+            "shortName": "BUF @ HOU",
+            "date": "2025-11-21T01:15Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "34",
+                "name": "Houston Texans",
+                "shortName": "Texans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/hou.png",
+                "score": "23"
+              },
+              "awayTeam": {
+                "id": "2",
+                "name": "Buffalo Bills",
+                "shortName": "Bills",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/buf.png",
+                "score": "19"
+              },
+              "venue": "NRG Stadium",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401772820",
+            "name": "Carolina Panthers at San Francisco 49ers",
+            "shortName": "CAR @ SF",
+            "date": "2025-11-25T01:15Z",
+            "status": {
+              "type": "STATUS_SCHEDULED",
+              "detail": "Mon, November 24th at 8:15 PM EST",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "25",
+                "name": "San Francisco 49ers",
+                "shortName": "49ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/sf.png",
+                "score": "0"
+              },
+              "awayTeam": {
+                "id": "29",
+                "name": "Carolina Panthers",
+                "shortName": "Panthers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/car.png",
+                "score": "0"
+              },
+              "venue": "Levi's Stadium",
+              "time": "0:00"
+            }
+          }
+        ],
+        "season": {
+          "type": 2,
+          "year": 2025
+        }
+      },
+      "standings": []
+    },
+    "nhl": {
+      "competition": "NHL",
+      "lastUpdate": "2025-11-24T01:51:40.986Z",
+      "scoreboard": {
+        "events": [
+          {
+            "id": "401802698",
+            "name": "Carolina Hurricanes at Buffalo Sabres",
+            "shortName": "CAR @ BUF",
+            "date": "2025-11-23T18:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "2",
+                "name": "Buffalo Sabres",
+                "shortName": "Sabres",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/buf.png",
+                "score": "4"
+              },
+              "awayTeam": {
+                "id": "7",
+                "name": "Carolina Hurricanes",
+                "shortName": "Hurricanes",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/car.png",
+                "score": "1"
+              },
+              "venue": "KeyBank Center",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401802699",
+            "name": "Minnesota Wild at Winnipeg Jets",
+            "shortName": "MIN @ WPG",
+            "date": "2025-11-23T21:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "28",
+                "name": "Winnipeg Jets",
+                "shortName": "Jets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png",
+                "score": "0"
+              },
+              "awayTeam": {
+                "id": "30",
+                "name": "Minnesota Wild",
+                "shortName": "Wild",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png",
+                "score": "3"
+              },
+              "venue": "Canada Life Centre",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401802700",
+            "name": "Seattle Kraken at New York Islanders",
+            "shortName": "SEA @ NYI",
+            "date": "2025-11-23T22:00Z",
+            "status": {
+              "type": "STATUS_FINAL",
+              "detail": "Final/SO",
+              "completed": true
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "12",
+                "name": "New York Islanders",
+                "shortName": "Islanders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/nyi.png",
+                "score": "1"
+              },
+              "awayTeam": {
+                "id": "124292",
+                "name": "Seattle Kraken",
+                "shortName": "Kraken",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png",
+                "score": "0"
+              },
+              "venue": "UBS Arena",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401802701",
+            "name": "Colorado Avalanche at Chicago Blackhawks",
+            "shortName": "COL @ CHI",
+            "date": "2025-11-24T00:00Z",
+            "status": {
+              "type": "STATUS_IN_PROGRESS",
+              "detail": "End of 2nd Period",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "4",
+                "name": "Chicago Blackhawks",
+                "shortName": "Blackhawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png",
+                "score": "0"
+              },
+              "awayTeam": {
+                "id": "17",
+                "name": "Colorado Avalanche",
+                "shortName": "Avalanche",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/col.png",
+                "score": "1"
+              },
+              "venue": "United Center",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401802702",
+            "name": "Boston Bruins at San Jose Sharks",
+            "shortName": "BOS @ SJ",
+            "date": "2025-11-24T01:00Z",
+            "status": {
+              "type": "STATUS_END_PERIOD",
+              "detail": "End of 1st Period",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "18",
+                "name": "San Jose Sharks",
+                "shortName": "Sharks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sj.png",
+                "score": "1"
+              },
+              "awayTeam": {
+                "id": "1",
+                "name": "Boston Bruins",
+                "shortName": "Bruins",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/bos.png",
+                "score": "0"
+              },
+              "venue": "SAP Center at San Jose",
+              "time": "0:00"
+            }
+          },
+          {
+            "id": "401802703",
+            "name": "Calgary Flames at Vancouver Canucks",
+            "shortName": "CGY @ VAN",
+            "date": "2025-11-24T02:00Z",
+            "status": {
+              "type": "STATUS_SCHEDULED",
+              "detail": "Sun, November 23rd at 9:00 PM EST",
+              "completed": false
+            },
+            "competitions": {
+              "homeTeam": {
+                "id": "22",
+                "name": "Vancouver Canucks",
+                "shortName": "Canucks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png",
+                "score": "0"
+              },
+              "awayTeam": {
+                "id": "3",
+                "name": "Calgary Flames",
+                "shortName": "Flames",
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/cgy.png",
+                "score": "0"
+              },
+              "venue": "Rogers Arena",
+              "time": "0:00"
+            }
+          }
+        ],
+        "season": {
+          "type": 2,
+          "year": 2026
+        }
+      },
+      "standings": []
+    }
+  },
+  "actus": {
+    "france": {
+      "feed": "Actualités France",
+      "lastUpdate": "2025-11-24T01:49:49.614Z",
+      "itemCount": 20,
+      "items": [
+        {
+          "title": "\"On ne sait plus quoi faire, on est coincés\" : vivre au quotidien face au narcotrafic",
+          "link": "https://www.franceinfo.fr/france/echirolles/on-ne-sait-plus-quoi-faire-on-est-coinces-vivre-au-quotidien-face-au-narcotrafic_7635347.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 23:46:52 +0100",
+          "description": "Comment stopper l’inflation des actes criminels et le climat de violence liés au narcobanditisme ? Au lendemain du rassemblement à Marseille en hommage à Mehdi Kessaci, France Télévisions se rend à Échirolles, en Isère, dimanche 23 novembre. Un immeuble entier avait été évacué il y a quelques mois, gangrené par le trafic.",
+          "content": "Comment stopper l’inflation des actes criminels et le climat de violence liés au narcobanditisme ? Au lendemain du rassemblement à Marseille en hommage à Mehdi Kessaci, France Télévisions se rend à Échirolles, en Isère, dimanche 23 novembre. Un immeuble entier avait été évacué il y a quelques mois, gangrené par le trafic.",
+          "image": "https://www.franceinfo.fr/pictures/RY8fgZuGAKc-rgYBzqcpUwM_MmY/0x0:1581x889/432x243/filters:format(jpg)/2025/11/23/echirolles-69238e63f1782884890156.jpg",
+          "categories": []
+        },
+        {
+          "title": "Vague de froid : la neige a fortement perturbé la circulation",
+          "link": "https://www.franceinfo.fr/environnement/meteo/neige/vague-de-froid-la-neige-a-fortement-perturbe-la-circulation_7635338.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 23:30:26 +0100",
+          "description": "L'épisode de neige et verglas du week-end des 22 et 23 novembre a notamment touché le Nord, l'Île-de-France et le Massif central, entraînant des retards à Roissy et Orly ou encore des accidents sur les routes. Six personnes ont été blessées dans l'Oise.",
+          "content": "L'épisode de neige et verglas du week-end des 22 et 23 novembre a notamment touché le Nord, l'Île-de-France et le Massif central, entraînant des retards à Roissy et Orly ou encore des accidents sur les routes. Six personnes ont été blessées dans l'Oise.",
+          "image": "https://www.franceinfo.fr/pictures/7NFneoFqRO8CXYQ32UbgNHrsW_4/44x0:1179x638/432x243/filters:format(jpg)/2025/11/23/neige-routes-69238a9e6a704000211400.jpg",
+          "categories": []
+        },
+        {
+          "title": "Isère : le compagnon de la femme retrouvée calcinée dans une voiture mis en examen et placé en détention provisoire",
+          "link": "https://www.franceinfo.fr/faits-divers/isere-le-compagnon-de-la-femme-retrouvee-calcinee-dans-une-voiture-mis-en-examen-et-place-en-detention-provisoire_7635287.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 21:13:38 +0100",
+          "description": "Le conjoint de la femme retrouvée brûlée dans une voiture, mercredi, en Isère a avoué les faits en garde à vue. Il est placé en détention provisoire précise le parquet de Grenoble, dimanche.",
+          "content": "Le conjoint de la femme retrouvée brûlée dans une voiture, mercredi, en Isère a avoué les faits en garde à vue. Il est placé en détention provisoire précise le parquet de Grenoble, dimanche.",
+          "image": "https://www.franceinfo.fr/pictures/tRQI1tanoixbDDIxEjGj-DcqaR4/0x406:3901x2599/432x243/filters:format(jpg)/2025/11/07/000-36fr7rq-690db466644e5330332281.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Symbole de diplomatie\" et \"trésor national\", les deux célèbres pandas du zoo de Beauval s'apprêtent à faire un long voyage pour rentrer en Chine",
+          "link": "https://www.franceinfo.fr/environnement/biodiversite/animaux/symbole-de-diplomatie-et-tresor-national-les-deux-celebres-pandas-du-zoo-de-beauval-s-appretent-a-faire-un-long-voyage-pour-rentrer-en-chine_7634957.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 17:43:24 +0100",
+          "description": "Huan Huan et Yuan Zi, arrivés en France en 2012, ont pris un dernier goûter en public dimanche avant de quitter la France mardi.",
+          "content": "Huan Huan et Yuan Zi, arrivés en France en 2012, ont pris un dernier goûter en public dimanche avant de quitter la France mardi.",
+          "image": "https://www.franceinfo.fr/pictures/GeN-cEQZpOctAo_944rTldS2MwA/0x55:1024x631/432x243/filters:format(jpg)/2025/11/23/000-par6782357-692317c831ed2279773701.jpg",
+          "categories": []
+        },
+        {
+          "title": "L'ambassadeur de Russie en visite sur l'île d'Oléron ce lundi, la préfecture assure qu'il n'y aura \"aucun accueil protocolaire\"",
+          "link": "https://www.franceinfo.fr/monde/russie/l-ambassadeur-de-russie-en-visite-sur-l-ile-d-oleron-ce-lundi-la-prefecture-assure-qu-il-n-y-aura-aucun-accueil-protocolaire_7635068.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 16:47:45 +0100",
+          "description": "Le diplomate, Alexeï Meshkov doit se rendre, lundi, au cimetière de Saint-Pierre-d'Oléron alors que reposent quatre soldats soviétiques, ayant contribué à libérer Oléron. Une visite vécue par certains comme une provocation.",
+          "content": "Le diplomate, Alexeï Meshkov doit se rendre, lundi, au cimetière de Saint-Pierre-d'Oléron alors que reposent quatre soldats soviétiques, ayant contribué à libérer Oléron. Une visite vécue par certains comme une provocation.",
+          "image": "https://www.franceinfo.fr/pictures/iI6Yn7Xe-sdZfBKIPkHtlY83NFQ/0x168:3240x1991/432x243/filters:format(jpg)/2025/11/23/maxnewsspecialtwo409274-69232ba781009250904685.jpg",
+          "categories": []
+        },
+        {
+          "title": "Pas-de-Calais : à Étaples, quand tout le monde chavire pour le hareng",
+          "link": "https://www.franceinfo.fr/culture/pas-de-calais-a-etaples-quand-tout-le-monde-chavire-pour-le-hareng_7634996.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 15:29:12 +0100",
+          "description": "Direction Étaples, dans le Pas-de-Calais, où le hareng est roi au mois de novembre. Sur le port et les quais, des chants et musiques celtes parcourent les rues, où le petit poisson se déguste sous toutes ses formes.",
+          "content": "Direction Étaples, dans le Pas-de-Calais, où le hareng est roi au mois de novembre. Sur le port et les quais, des chants et musiques celtes parcourent les rues, où le petit poisson se déguste sous toutes ses formes.",
+          "image": "https://www.franceinfo.fr/pictures/MfwwzNt9HxzzT02DyQGQLA7Kbk8/0x62:775x498/432x243/filters:format(jpg)/2025/11/23/hareng-6923146e7aa62725094248.png",
+          "categories": []
+        },
+        {
+          "title": "Vague de froid : Paris enchante sous un manteau blanc éphémère ",
+          "link": "https://www.franceinfo.fr/environnement/meteo/neige/vague-de-froid-paris-enchante-sous-un-manteau-blanc-ephemere_7634906.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 13:48:37 +0100",
+          "description": "Dans la soirée du samedi 22 novembre, Paris a revêtu un léger manteau de neige. Un spectacle tout aussi charmant qu’éphémère, qui a provoqué quelques perturbations dans la région.",
+          "content": "Dans la soirée du samedi 22 novembre, Paris a revêtu un léger manteau de neige. Un spectacle tout aussi charmant qu’éphémère, qui a provoqué quelques perturbations dans la région. ",
+          "image": "https://www.franceinfo.fr/pictures/cu0N5EnXUMru15Jsqns5DWvUwhk/0x49:731x461/432x243/filters:format(jpg)/2025/11/23/paris-6922ff6221d71441544769.png",
+          "categories": []
+        },
+        {
+          "title": "Marseille : des milliers de personnes rassemblées pour un hommage poignant à Mehdi Kessaci",
+          "link": "https://www.franceinfo.fr/marseille/marseille-des-milliers-de-personnes-rassemblees-pour-un-hommage-poignant-a-mehdi-kessaci_7634543.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 08:38:46 +0100",
+          "description": "La famille Kessaci et une foule immense étaient rassemblées à Marseille, samedi 22 novembre, pour rendre hommage à Mehdi, sous le regard bouleversé de son frère Amine, présent sous protection policière. Des milliers de personnes et de nombreux responsables politiques se sont joints à eux.",
+          "content": "La famille Kessaci et une foule immense étaient rassemblées à Marseille, samedi 22 novembre, pour rendre hommage à Mehdi, sous le regard bouleversé de son frère Amine, présent sous protection policière. Des milliers de personnes et de nombreux responsables politiques se sont joints à eux.",
+          "image": "https://www.franceinfo.fr/pictures/ShNN35fkeOWloHwodoXK5Pa3egA/187x0:1683x841/432x243/filters:format(jpg)/2025/11/23/marseille-l-hommage-poignant-a-mehdi-kessaci-6922a3f471145823361099.jpg",
+          "categories": []
+        },
+        {
+          "title": "VIDEO. \"Une nouvelle fois, on va faire porter le chapeau aux jeunes\" : comment les mensonges des autorités ont mené aux émeutes des banlieues en 2005",
+          "link": "https://www.franceinfo.fr/politique/banlieues/video-une-nouvelle-fois-on-va-faire-porter-le-chapeau-aux-jeunes-comment-les-mensonges-des-autorites-ont-mene-aux-emeutes-des-banlieues-en-2005_7513702.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 07:09:56 +0100",
+          "description": "Une série documentaire diffusée sur France 5 revient sur la mort de deux adolescents, Zyed Benna et Bouna Traoré, qui provoqua une flambée de violence dans les banlieues françaises.",
+          "content": "Une série documentaire diffusée sur France 5 revient sur la mort de deux adolescents, Zyed Benna et Bouna Traoré, qui provoqua une flambée de violence dans les banlieues françaises.",
+          "image": "https://www.franceinfo.fr/pictures/mdm91bO1d7AlOYwM2qNrFMg-KIs/0x5:508x292/432x243/filters:format(jpg)/2025/10/27/zyed-et-bouna-2-68ffa0d5d22fd165698898.jpg",
+          "categories": []
+        },
+        {
+          "title": "Vigilance neige-verglas : la vitesse sur les routes abaissée de 20 km/h à partir de 20 heures en Ile-de-France",
+          "link": "https://www.franceinfo.fr/environnement/meteo/alertes-meteo-et-vigilances/direct-vigilance-neige-verglas-la-vitesse-sur-les-routes-abaissee-de-20-km-h-a-partir-de-20-heures-en-ile-de-france_7633091.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 23:07:14 +0100",
+          "description": "Les huit départements de la région francilienne sont placés en vigilance orange neige-verglas par Météo-France à partir de 20 heures samedi. Six départements du Massif central seront également concernés par la vigilance à partir de minuit.",
+          "content": "Les huit départements de la région francilienne sont placés en vigilance orange neige-verglas par Météo-France à partir de 20 heures samedi. Six départements du Massif central seront également concernés par la vigilance à partir de minuit.",
+          "image": "https://www.franceinfo.fr/pictures/hlXTO2ccxP0AkZPNAnfpXNgw4Cg/0x505:5611x3660/432x243/filters:format(jpg)/2025/11/22/080-hl-vbelleville-1333972-6921d87ed3ffd065597899.jpg",
+          "categories": []
+        },
+        {
+          "title": "Olives : les particuliers produisent eux-mêmes leur huile",
+          "link": "https://www.franceinfo.fr/sante/alimentation/olives-les-particuliers-produisent-eux-memes-leur-huile_7633520.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 22:56:46 +0100",
+          "description": "La saison de la récolte d'olives est lancée ! Les cultures s'annoncent exceptionnelles et les moulins se retrouvent pris d'assaut par des centaines de particuliers qui apportent les fruits de leurs arbres afin de les transformer en huile. Une grande partie de la production d'huile en Provence et dans l'Hérault provient désormais d'oléiculteurs familiaux et amateurs.",
+          "content": "La saison de la récolte d'olives est lancée ! Les cultures s'annoncent exceptionnelles et les moulins se retrouvent pris d'assaut par des centaines de particuliers qui apportent les fruits de leurs arbres afin de les transformer en huile. Une grande partie de la production d'huile en Provence et dans l'Hérault provient désormais d'oléiculteurs familiaux et amateurs.",
+          "image": "https://www.franceinfo.fr/pictures/WbWgLvgCCFbrl1POZrvNb6EXx6Q/0x0:1679x945/432x243/filters:format(jpg)/2025/11/22/olive-69223106e901b183718703.jpg",
+          "categories": []
+        },
+        {
+          "title": "Violences conjugales : comment les commissariats accueillent les victimes",
+          "link": "https://www.franceinfo.fr/societe/violences-faites-aux-femmes/violences-conjugales-comment-les-commissariats-accueillent-les-victimes_7633484.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 22:43:31 +0100",
+          "description": "De nombreux rassemblements ont eu lieu dans toute la France samedi 22 novembre pour dénoncer les violences faites aux femmes. Les associations réclament l'adoption d'une loi-cadre contre les violences et s'insurgent contre les plaintes classées sans suite. À quoi ressemble l'accueil des victimes dans les commissariats de France ?",
+          "content": "De nombreux rassemblements ont eu lieu dans toute la France samedi 22 novembre pour dénoncer les violences faites aux femmes. Les associations réclament l'adoption d'une loi-cadre contre les violences et s'insurgent contre les plaintes classées sans suite. À quoi ressemble l'accueil des victimes dans les commissariats de France ?",
+          "image": "https://www.franceinfo.fr/pictures/1p4hCOQ684f8LoBrplwr7uhpcSA/0x0:1540x866/432x243/filters:format(jpg)/2025/11/22/violenceconjugales-69222d82012c3139301362.jpg",
+          "categories": []
+        },
+        {
+          "title": "Landes : une retraitée, déclarée morte par erreur à la place de sa belle-mère, se bat pour faire réactiver sa carte vitale",
+          "link": "https://www.franceinfo.fr/france/nouvelle-aquitaine/landes/landes-une-retraitee-declaree-morte-par-erreur-a-la-place-de-sa-belle-mere-se-bat-pour-faire-reactiver-sa-carte-vitale_7633475.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 21:12:59 +0100",
+          "description": "Victime d’une confusion administrative, une femme a été déclarée décédée en octobre 2025 à la place de sa belle-mère dans les Landes.",
+          "content": "Victime d’une confusion administrative, une femme a été déclarée décédée en octobre 2025 à la place de sa belle-mère dans les Landes.",
+          "image": "https://www.franceinfo.fr/pictures/2460TRdpWMxOZt93Zp8ioMJpscI/0x31:1024x606/432x243/filters:format(jpg)/2025/10/06/carte-vitale-68e35f8766fae862544392.jpg",
+          "categories": []
+        },
+        {
+          "title": "Hommage à Mehdi Kessaci : plus de 6 000 personnes se sont rassemblées à Marseille, selon la préfecture",
+          "link": "https://www.franceinfo.fr/societe/drogue/direct-assassinat-de-mehdi-kessaci-un-rassemblement-sous-haute-securite-attendu-a-marseille-a-partir-de-15-heures_7632836.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 21:05:07 +0100",
+          "description": "\"Mon cœur est déchiré, je suis inconsolable\", a déclaré la mère du jeune homme tué le 13 novembre, accompagnée de l'un de ses autres enfants, Amine, militant écologiste et anti-drogue de 22 ans.",
+          "content": "\"Mon cœur est déchiré, je suis inconsolable\", a déclaré la mère du jeune homme tué le 13 novembre, accompagnée de l'un de ses autres enfants, Amine, militant écologiste et anti-drogue de 22 ans.",
+          "image": "https://www.franceinfo.fr/pictures/i8B5Zu-ubgCry2-oczLj1GcCGd4/0x184:3534x2172/432x243/filters:format(jpg)/2025/11/22/000-84uj4jq-6921ef8329fa2150733839.jpg",
+          "categories": []
+        },
+        {
+          "title": "REPORTAGE. \"Plus on sera nombreux, moins ce sera possible de nous faire taire\" : à Marseille, l'émotion et la colère lors de l'hommage à Mehdi Kessaci",
+          "link": "https://www.franceinfo.fr/societe/drogue/reportage-plus-on-sera-nombreux-moins-ce-sera-possible-de-nous-faire-taire-a-marseille-l-emotion-et-la-colere-lors-de-l-hommage-a-mehdi-kessaci_7633274.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 19:37:03 +0100",
+          "description": "Plus de 6 000 personnes se sont rassemblées samedi après-midi dans la cité phocéenne, une semaine après l'assassinat du frère d'Amine Kessaci. Le militant a appelé à \"entrer en résistance\" face à l'emprise du narcotrafic.",
+          "content": "Plus de 6 000 personnes se sont rassemblées samedi après-midi dans la cité phocéenne, une semaine après l'assassinat du frère d'Amine Kessaci. Le militant a appelé à \"entrer en résistance\" face à l'emprise du narcotrafic.",
+          "image": "https://www.franceinfo.fr/pictures/zbwoLRERfH4c2cFppPTt0FvXzPU/0x414:4500x2944/432x243/filters:format(jpg)/2025/11/22/080-hl-frosa-2965692-6921f7f3b4b25480873758.jpg",
+          "categories": []
+        },
+        {
+          "title": "Mort de Tessa en 2018 : le suspect retourne en prison après avoir été contrôlé alcoolisé au volant",
+          "link": "https://www.franceinfo.fr/faits-divers/accident/mort-de-tessa-en-2018-le-suspect-retourne-en-prison-apres-avoir-ete-controle-alcoolise-au-volant_7633307.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 17:57:15 +0100",
+          "description": "Alors que la famille de Tessa Raimbault est toujours dans l'attente d'un procès après la mort de la jeune femme en 2018, percutée par un engin de chantier en Loire-Atlantique, le suspect retourne en prison, apprend ICI Loire Océan, samedi.",
+          "content": "Alors que la famille de Tessa Raimbault est toujours dans l'attente d'un procès après la mort de la jeune femme en 2018, percutée par un engin de chantier en Loire-Atlantique, le suspect retourne en prison, apprend ICI Loire Océan, samedi.",
+          "image": "https://www.franceinfo.fr/pictures/Z_vLNwL9NI9aZq-cns_ZiCGGbs0/0x620:5396x3656/432x243/filters:format(jpg)/2025/11/22/maxstockworld466205-1-6921eb6174718786084635.jpg",
+          "categories": []
+        },
+        {
+          "title": "Haute montagne : un lancement de saison réussi et sous la neige à Tignes",
+          "link": "https://www.franceinfo.fr/france/auvergne-rhone-alpes/savoie/haute-montagne-un-lancement-de-saison-reussi-et-sous-la-neige-a-tignes_7633112.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 14:23:51 +0100",
+          "description": "Côté températures, Tignes, en Savoie, est ce samedi 22 novembre sur le podium avec -19 degrés enregistrés dans la matinée. La neige est là et elle tombe plutôt bien, puisque la station ouvre officiellement ses portes pour la nouvelle saison.",
+          "content": "Côté températures, Tignes, en Savoie, est ce samedi 22 novembre sur le podium avec -19 degrés enregistrés dans la matinée. La neige est là et elle tombe plutôt bien, puisque la station ouvre officiellement ses portes pour la nouvelle saison.",
+          "image": "https://www.franceinfo.fr/pictures/OM-BcIHYmIKQ3qSaQreCARjvGAw/0x23:808x478/432x243/filters:format(jpg)/2025/11/22/montagne-6921b9149d932311751843.png",
+          "categories": []
+        },
+        {
+          "title": "Vague de froid : l'hiver avant l'heure en Alsace, les habitants s'adaptent",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/vagues-de-froid/vague-de-froid-l-hiver-avant-l-heure-en-alsace-les-habitants-s-adaptent_7633094.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 14:10:59 +0100",
+          "description": "Le froid s'installe sur le pays. Depuis vendredi 21 novembre, es températures ont chuté et sont dignes d'un mois de janvier : - 10 degrés ont été relevés samedi matin dans le Doubs et en Moselle, et jusqu'à moins 7 degrés dans le Bas-Rhin.",
+          "content": "Le froid s'installe sur le pays. Depuis vendredi 21 novembre, es températures ont chuté et sont dignes d'un mois de janvier : - 10 degrés ont été relevés samedi matin dans le Doubs et en Moselle, et jusqu'à moins 7 degrés dans le Bas-Rhin.",
+          "image": "https://www.franceinfo.fr/pictures/uV2-nm-Gr6fk251HVXCrTqOfG2k/0x50:757x476/432x243/filters:format(jpg)/2025/11/22/froid-6921b623bce2e669883604.png",
+          "categories": []
+        },
+        {
+          "title": "Marche pour Mehdi Kessaci : une cinquantaine de personnalités politiques annoncées à Marseille",
+          "link": "https://www.franceinfo.fr/faits-divers/criminalite-a-marseille/marche-pour-mehdi-kessaci-une-cinquantaine-de-personnalites-politiques-annoncees-a-marseille_7631585.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 12:06:53 +0100",
+          "description": "Les organisateurs de la marche pour Mehdi Kessaci à Marseille, samedi 22 novembre, ont communiqué vendredi une liste de près d'une cinquantaine de personnalités politiques annoncées à la marche en hommage au frère assassiné d'Amine Kessaci, militant engagé contre le narcotrafic.",
+          "content": "Les organisateurs de la marche pour Mehdi Kessaci à Marseille, samedi 22 novembre, ont communiqué vendredi une liste de près d'une cinquantaine de personnalités politiques annoncées à la marche en hommage au frère assassiné d'Amine Kessaci, militant engagé contre le narcotrafic.",
+          "image": "https://www.franceinfo.fr/pictures/uWdKCj1vLvQ6PbDZZaYhXf63mp4/0x208:4000x2458/432x243/filters:format(jpg)/2025/11/21/mehdi-kessaci-2-6920dcbf3ad83996170331.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"On ne veut pas de cette violence\" : la DZ Mafia revendique une expédition punitive",
+          "link": "https://www.franceinfo.fr/faits-divers/criminalite-a-marseille/on-ne-veut-pas-de-cette-violence-la-dz-mafia-revendique-une-expedition-punitive_7632755.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 07:11:00 +0100",
+          "description": "Une enquête a été ouverte, à Montpellier, après la diffusion d'une vidéo de menaces et d'un passage à tabac. L’agression aurait eu lieu dans un hall d’immeuble à Sète et les agresseurs semblent se revendiquer de la DZ mafia, le gang qui serait impliqué dans l'assassinat de Mehdi Kessaci.",
+          "content": "Une enquête a été ouverte, à Montpellier, après la diffusion d'une vidéo de menaces et d'un passage à tabac. L’agression aurait eu lieu dans un hall d’immeuble à Sète et les agresseurs semblent se revendiquer de la DZ mafia, le gang qui serait impliqué dans l'assassinat de Mehdi Kessaci.",
+          "image": "https://www.franceinfo.fr/pictures/kay7JXXTeP7TyNEsZEi8M8zLWFs/253x0:1622x770/432x243/filters:format(jpg)/2025/11/22/sete-la-dz-mafia-revendique-une-expedition-punitive-69215307ae255789531247.jpg",
+          "categories": []
+        }
+      ]
+    },
+    "monde": {
+      "feed": "Actualités Monde",
+      "lastUpdate": "2025-11-24T01:49:49.640Z",
+      "itemCount": 20,
+      "items": [
+        {
+          "title": "Inondations meurtrières au Vietnam : des drones pour sauver les habitants",
+          "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/inondations-meurtrieres-au-vietnam-des-drones-pour-sauver-les-habitants_7636088.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Mon, 24 Nov 2025 00:05:25 +0100",
+          "description": "D'impressionnantes inondations sont en cours, dimanche 23 novembre, dans le centre et le sud du Vietnam. Le bilan est d’au moins 90 morts, et un million de personnes sont sans électricité. Plusieurs opérations de sauvetage ont été réalisées grâce à des drones.",
+          "content": "D'impressionnantes inondations sont en cours, dimanche 23 novembre, dans le centre et le sud du Vietnam. Le bilan est d’au moins 90 morts, et un million de personnes sont sans électricité. Plusieurs opérations de sauvetage ont été réalisées grâce à des drones.",
+          "image": "https://www.franceinfo.fr/pictures/j4OtFAgAAVE8R-r2xaDhlI2wzHs/0x0:1437x808/432x243/filters:format(jpg)/2025/11/24/vietnam-692392e4e53ae970008773.jpg",
+          "categories": []
+        },
+        {
+          "title": "Libération de Boualem Sansal : “Je me suis senti mourir”, déclare l’écrivain au 20H de France 2",
+          "link": "https://www.franceinfo.fr/culture/livres/boualem-sansal/liberation-de-boualem-sansal-je-me-suis-senti-mourir-declare-l-ecrivain-au-20h-de-france-2_7635344.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 23:33:18 +0100",
+          "description": "L'écrivain franco-algérien Boualem Sansal a été gracié par le président Abdelmadjid Tebboune le 12 novembre, après un an d’emprisonnement en Algérie. Au cœur d'une crise diplomatique entre les deux pays, il a tenu à s’exprimer au 20H de France 2. C’est sa première apparition médiatique depuis sa libération.",
+          "content": "L'écrivain franco-algérien Boualem Sansal a été gracié par le président Abdelmadjid Tebboune le 12 novembre, après un an d’emprisonnement en Algérie. Au cœur d'une crise diplomatique entre les deux pays, il a tenu à s’exprimer au 20H de France 2. C’est sa première apparition médiatique depuis sa libération.",
+          "image": "https://www.franceinfo.fr/pictures/Lb8SHnKHTh2Hmja8J54S4YksMV0/0x0:1250x703/432x243/filters:format(jpg)/2025/11/23/boualem-sansal-69238b4136cc9467319612.jpg",
+          "categories": []
+        },
+        {
+          "title": "Guerre en Ukraine : le risque d’une capitulation de Volodymyr Zelensky ? ",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-le-risque-d-une-capitulation-de-volodymyr-zelensky_7635329.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 23:03:46 +0100",
+          "description": "Selon les Européens, le plan de paix soutenu par Donald Trump jetait qu’une validation d’une capitulation souhaitée par la Russie. Les lignes sont-elles en train de bouger à Genève et dans les coulisses du G20, en Afrique du Sud ?",
+          "content": "Selon les Européens, le plan de paix soutenu par Donald Trump jetait qu’une validation d’une capitulation souhaitée par la Russie. Les lignes sont-elles en train de bouger à Genève et dans les coulisses du G20, en Afrique du Sud ?",
+          "image": "https://www.franceinfo.fr/pictures/PdIEwif0GiZGYmIQvwX5QFpQ0Yg/0x0:976x549/432x243/filters:format(jpg)/2025/11/23/capitulationukraine-6923841e14acf343803178.jpg",
+          "categories": []
+        },
+        {
+          "title": "Boualem Sansal : \"J'ai peur pour ma famille\"",
+          "link": "https://www.franceinfo.fr/culture/livres/boualem-sansal/boualem-sansal-j-ai-peur-pour-ma-famille_7635317.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 22:11:17 +0100",
+          "description": "🔴⚡️🇩🇿 \"J'ai peur pour ma famille et que, si je retourne en Algérie, on arrête aussi ma femme\"\nBoualem Sansal révèle que sa parole est contrainte pour des raisons diplomatiques entre la France et l'Algérie.",
+          "content": "🔴⚡️🇩🇿 \"J'ai peur pour ma famille et que, si je retourne en Algérie, on arrête aussi ma femme\"\nBoualem Sansal révèle que sa parole est contrainte pour des raisons diplomatiques entre la France et l'Algérie.",
+          "image": "https://www.franceinfo.fr/pictures/zxQhoh0CEYPbw6fiEE_aCHmg8x0/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/23/version-2-lignes-quote-gris-692378030c7cf646563971.jpg",
+          "categories": []
+        },
+        {
+          "title": "Ukraine : le risque d'une capitulation ?",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/ukraine-le-risque-d-une-capitulation_7635293.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 21:17:51 +0100",
+          "description": "Trump agit-il vraiment ou suit-il Poutine en soutenant un plan de paix vu par l’Europe comme une capitulation ? Pendant que les lignes bougent à Genève et au G20, Zelensky reste porteur d’espoir et l’Europe tente d’ajuster les 28 points de négociation.",
+          "content": "Trump agit-il vraiment ou suit-il Poutine en soutenant un plan de paix vu par l’Europe comme une capitulation ? Pendant que les lignes bougent à Genève et au G20, Zelensky reste porteur d’espoir et l’Europe tente d’ajuster les 28 points de négociation.",
+          "image": "https://www.franceinfo.fr/pictures/z2f_ld29OzW5jMiGVpIDO6cggTc/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/23/251123-ukraine-vert-v1-00-08-41-20-still007-69236bafee559502644696.jpg",
+          "categories": []
+        },
+        {
+          "title": "Plan de paix pour l'Ukraine :  les négociateurs américains et ukrainiens saluent les \"bons progrès\" des pourparlers en Suisse",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-plan-de-paix-americain-pour-l-ukraine-donald-trump-se-dit-ouvert-a-la-negociation-avant-des-pourparlers-a-geneve_7634663.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 20:50:27 +0100",
+          "description": "Le chancelier allemand Friedrich Merz, s'est dit de son côté \"sceptique\" sur les chances de parvenir à un accord sur le plan proposé par Donald Trump d'ici jeudi, date butoir fixée par le président américain.",
+          "content": "Le chancelier allemand Friedrich Merz, s'est dit de son côté \"sceptique\" sur les chances de parvenir à un accord sur le plan proposé par Donald Trump d'ici jeudi, date butoir fixée par le président américain.",
+          "image": "https://www.franceinfo.fr/pictures/R6ACdvXxzbdqT0An8iZjQLtoRqQ/0x0:4389x2467/432x243/filters:format(jpg)/2025/11/23/000-84x46nu-692350370878a255974238.jpg",
+          "categories": []
+        },
+        {
+          "title": "Plan de paix pour l'Ukraine : les négociateurs américains et ukrainiens saluent les \"bons progrès\" des pourparlers en Suisse",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/plan-de-paix-pour-l-ukraine-les-negociateurs-americains-et-ukrainiens-saluent-les-bons-progres-des-pourparlers-en-suisse_7635275.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 20:49:51 +0100",
+          "description": "Les discussions portent sur le plan américain en 28 points, qui vise à mettre fin au conflit provoqué par près de quatre ans d'invasion russe.",
+          "content": "Les discussions portent sur le plan américain en 28 points, qui vise à mettre fin au conflit provoqué par près de quatre ans d'invasion russe.",
+          "image": "https://www.franceinfo.fr/pictures/Zs9USbpfmzeRzuQhjvgMzCmFD6E/0x160:5000x2971/432x243/filters:format(jpg)/2025/11/23/000-84x29vg-6923649554429718574522.jpg",
+          "categories": []
+        },
+        {
+          "title": "VIDEO. \"Ils m'ont passé une cagoule sur la tête, pendant six jours je n'ai pas su où j'étais\" : retrouvez l'interview de Boualem Sansal sur France 2 en intégralité",
+          "link": "https://www.franceinfo.fr/culture/livres/boualem-sansal/video-ils-m-ont-passe-une-cagoule-sur-la-tete-pendant-six-jours-je-n-ai-pas-su-ou-j-etais-boualem-sansal-se-confie-sur-sa-detention-en-algerie_7635059.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 20:49:18 +0100",
+          "description": "L'écrivain franco-algérien, qui a été gracié par le président Abdelmadjid Tebboune, a été au cœur d'une crise diplomatique entre les deux pays. Il a accordé à Laurent Delahousse sa première interview télévisée depuis sa libération.",
+          "content": "L'écrivain franco-algérien, qui a été gracié par le président Abdelmadjid Tebboune, a été au cœur d'une crise diplomatique entre les deux pays. Il a accordé à Laurent Delahousse sa première interview télévisée depuis sa libération.",
+          "image": "https://www.franceinfo.fr/pictures/_Az2PAy_nZlZFEPbR6wRMQ6z-QY/4x0:1581x887/432x243/filters:format(jpg)/2025/11/23/sansaljt-692349d6aa66f677974702.png",
+          "categories": []
+        },
+        {
+          "title": "Boualem Sansal dévoile les coulisses de son arrestation à Alger",
+          "link": "https://www.franceinfo.fr/culture/livres/boualem-sansal/boualem-sansal-devoile-les-coulisses-de-son-arrestation-a-alger_7635281.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 20:47:24 +0100",
+          "description": "🔴⚡️ \"Ils m'ont passé une cagoule sur la tête et pendant six jours, je ne savais pas où j'étais.\"\nL’écrivain franco-algérien Boualem Sansal dévoile les coulisses de son arrestation à Alger.",
+          "content": "🔴⚡️ \"Ils m'ont passé une cagoule sur la tête et pendant six jours, je ne savais pas où j'étais.\"\nL’écrivain franco-algérien Boualem Sansal dévoile les coulisses de son arrestation à Alger.",
+          "image": "https://www.franceinfo.fr/pictures/LSkLnLhpLNBQk9q4c_wBStmku6M/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/23/shuffle-692364ac3ed3d003763071.jpg",
+          "categories": []
+        },
+        {
+          "title": "L'ex-président brésilien Jair Bolsonaro dit avoir tenté de brûler son bracelet électronique dans un moment de \"paranoïa\"",
+          "link": "https://www.franceinfo.fr/monde/bresil/l-ex-president-bresilien-jair-bolsonaro-dit-avoir-tente-de-bruler-son-bracelet-electronique-dans-un-moment-de-paranoia_7635230.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 19:08:53 +0100",
+          "description": "L'imprévisible ancien dirigeant d'extrême droite a été condamné en septembre à 27 années de prison pour une tentative de coup d'Etat visant à empêcher le retour au pouvoir de son rival de gauche, Luiz Inacio Lula da Silva.",
+          "content": "L'imprévisible ancien dirigeant d'extrême droite a été condamné en septembre à 27 années de prison pour une tentative de coup d'Etat visant à empêcher le retour au pouvoir de son rival de gauche, Luiz Inacio Lula da Silva.",
+          "image": "https://www.franceinfo.fr/pictures/a-Aqx9Ml-bXk_m9u5_HJCFAgTPA/0x8:1024x584/432x243/filters:format(jpg)/2025/11/23/000-84tt6t3-1-69234c5b89ef6243743467.jpg",
+          "categories": []
+        },
+        {
+          "title": "Une frappe sur Beyrouth fait cinq morts et 28 blessés, l'armée israélienne affirme avoir éliminé le chef d'état-major du Hezbollah",
+          "link": "https://www.franceinfo.fr/monde/proche-orient/liban/au-liban-une-frappe-israelienne-sur-beyrouth-fait-un-mort-et-21-blesses-le-president-libanais-appelle-la-communaute-internationale-a-intervenir-avec-force_7635026.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 18:43:20 +0100",
+          "description": "Cette attaque, ordonnée par Benyamin Nétanyahou, a touché un immeuble de neuf étages dans une zone densément peuplée, fief du Hezbollah, selon le gouvernement israélien.",
+          "content": "Cette attaque, ordonnée par Benyamin Nétanyahou, a touché un immeuble de neuf étages dans une zone densément peuplée, fief du Hezbollah, selon le gouvernement israélien.",
+          "image": "https://www.franceinfo.fr/pictures/A2nfAVQ0JVRYCkSvBQMTATVqvHc/0x206:6046x3604/432x243/filters:format(jpg)/2025/11/23/000-84wm2dz-69231de4b37b2359285704.jpg",
+          "categories": []
+        },
+        {
+          "title": "Au Nigeria, 38 fidèles kidnappés lors de l'attaque d'une église mardi ont été secourus, annonce le président",
+          "link": "https://www.franceinfo.fr/monde/afrique/nigeria/au-nigeria-38-fideles-kidnappes-lors-de-l-attaque-d-une-eglise-mardi-ont-ete-secourus-annonce-le-president_7635191.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 18:29:54 +0100",
+          "description": "Mardi, plusieurs hommes armés ont fait irruption dans une petite église de l'ouest du pays, interrompant les fidèles venus prier. L'attaque a été filmée par une caméra de l'église qui enregistrait la messe.",
+          "content": "Mardi, plusieurs hommes armés ont fait irruption dans une petite église de l'ouest du pays, interrompant les fidèles venus prier. L'attaque a été filmée par une caméra de l'église qui enregistrait la messe.",
+          "image": "https://www.franceinfo.fr/pictures/k6-ii8IFFSjFMM_Fr4qduTVPZvY/0x72:3976x2306/432x243/filters:format(jpg)/2025/11/23/000-72eb8xq-692344301cc26878636028.jpg",
+          "categories": []
+        },
+        {
+          "title": "REPORTAGE. \"C'est le pain du cœur\" : un boulanger français sillonne l'Ukraine pour distribuer son pain au milieu de la guerre",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/reportage-c-est-le-pain-du-c-ur-un-boulanger-francais-sillonne-l-ukraine-pour-distribuer-son-pain-au-milieu-de-la-guerre_7635056.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 18:02:13 +0100",
+          "description": "C'est sa huitième mission en Ukraine. Depuis 2022, Loïc Nervi, un boulanger du Var parcourt les routes ukrainiennes pour distribuer son pain aux populations épuisées par la guerre.",
+          "content": "C'est sa huitième mission en Ukraine. Depuis 2022, Loïc Nervi, un boulanger du Var parcourt les routes ukrainiennes pour distribuer son pain aux populations épuisées par la guerre.",
+          "image": "https://www.franceinfo.fr/pictures/WA0VPnVVQr14bq758_5LVsu_UHU/0x191:2040x1339/432x243/filters:format(jpg)/2025/11/23/whatsapp-image-2025-11-23-at-14-20-36-692334cc80921383540097.jpg",
+          "categories": []
+        },
+        {
+          "title": "Cybercrime : l'IA passe du rôle de petite main à celui d'attaquant en chef",
+          "link": "https://www.franceinfo.fr/replay-radio/nouveau-monde/cybercrime-l-ia-passe-du-role-de-petite-main-a-celui-d-attaquant-en-chef_7605068.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 18:00:01 +0100",
+          "description": "Pour la première fois, une intelligence artificielle aurait élaboré en quasi autonomie technique un scénario d'attaque complexe visant à exfiltrer des informations volées.",
+          "content": "Pour la première fois, une intelligence artificielle aurait élaboré en quasi autonomie technique un scénario d'attaque complexe visant à exfiltrer des informations volées.",
+          "image": "https://www.franceinfo.fr/pictures/RvqPZfsUlSipoIBD8oPFatnQH1Q/0x0:2309x1299/432x243/filters:format(jpg)/2025/11/22/gettyimages-1472123000-6921cda48025e536980023.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Symbole de diplomatie\" et \"trésor national\", les deux célèbres pandas du zoo de Beauval s'apprêtent à faire un long voyage pour rentrer en Chine",
+          "link": "https://www.franceinfo.fr/environnement/biodiversite/animaux/symbole-de-diplomatie-et-tresor-national-les-deux-celebres-pandas-du-zoo-de-beauval-s-appretent-a-faire-un-long-voyage-pour-rentrer-en-chine_7634957.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 17:43:24 +0100",
+          "description": "Huan Huan et Yuan Zi, arrivés en France en 2012, ont pris un dernier goûter en public dimanche avant de quitter la France mardi.",
+          "content": "Huan Huan et Yuan Zi, arrivés en France en 2012, ont pris un dernier goûter en public dimanche avant de quitter la France mardi.",
+          "image": "https://www.franceinfo.fr/pictures/GeN-cEQZpOctAo_944rTldS2MwA/0x55:1024x631/432x243/filters:format(jpg)/2025/11/23/000-par6782357-692317c831ed2279773701.jpg",
+          "categories": []
+        },
+        {
+          "title": "L'ambassadeur de Russie en visite sur l'île d'Oléron ce lundi, la préfecture assure qu'il n'y aura \"aucun accueil protocolaire\"",
+          "link": "https://www.franceinfo.fr/monde/russie/l-ambassadeur-de-russie-en-visite-sur-l-ile-d-oleron-ce-lundi-la-prefecture-assure-qu-il-n-y-aura-aucun-accueil-protocolaire_7635068.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 16:47:45 +0100",
+          "description": "Le diplomate, Alexeï Meshkov doit se rendre, lundi, au cimetière de Saint-Pierre-d'Oléron alors que reposent quatre soldats soviétiques, ayant contribué à libérer Oléron. Une visite vécue par certains comme une provocation.",
+          "content": "Le diplomate, Alexeï Meshkov doit se rendre, lundi, au cimetière de Saint-Pierre-d'Oléron alors que reposent quatre soldats soviétiques, ayant contribué à libérer Oléron. Une visite vécue par certains comme une provocation.",
+          "image": "https://www.franceinfo.fr/pictures/iI6Yn7Xe-sdZfBKIPkHtlY83NFQ/0x168:3240x1991/432x243/filters:format(jpg)/2025/11/23/maxnewsspecialtwo409274-69232ba781009250904685.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Vous devez décider à qui vous allez donner de quoi survivre\" : l'ONG Handicap International dénonce la faiblesse de l'aide humanitaire au Soudan",
+          "link": "https://www.franceinfo.fr/monde/afrique/soudan/vous-devez-decider-a-qui-vous-allez-donner-de-quoi-survivre-l-ong-handicap-international-denonce-la-faiblesse-de-l-aide-humanitaire-au-soudan_7634969.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 16:24:15 +0100",
+          "description": "Alors que la crise humanitaire s'aggrave au Soudan après la prise de la ville d’al-Facher début novembre, Handicap International dénonce le manque de moyens des organisations humanitaires sur place.",
+          "content": "Alors que la crise humanitaire s'aggrave au Soudan après la prise de la ville d’al-Facher début novembre, Handicap International dénonce le manque de moyens des organisations humanitaires sur place.",
+          "image": "https://www.franceinfo.fr/pictures/rlDCEDuL4O9I7gZYrna9rW2fKhs/0x378:4032x2646/432x243/filters:format(jpg)/2025/11/23/epaliveeight211053-69230dd15e6d3375781487.jpg",
+          "categories": []
+        },
+        {
+          "title": "Au Nigeria, 50 des élèves enlevés dans une école catholique ont réussi à s'échapper",
+          "link": "https://www.franceinfo.fr/monde/afrique/nigeria/au-nigeria-50-des-eleves-enleves-dans-une-ecole-catholique-ont-reussi-a-s-echapper_7635017.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 15:24:15 +0100",
+          "description": "Des hommes armés ont attaqué tôt vendredi l'école catholique mixte Saint Mary et ont enlevé 303 enfants et 12 enseignants. Il s'agit de l'un des plus importants enlèvements de masse jamais perpétrés au Nigeria.",
+          "content": "Des hommes armés ont attaqué tôt vendredi l'école catholique mixte Saint Mary et ont enlevé 303 enfants et 12 enseignants. Il s'agit de l'un des plus importants enlèvements de masse jamais perpétrés au Nigeria.",
+          "image": "https://www.franceinfo.fr/pictures/Cwbc7Fy9393S0QNxVNbQWQchluE/0x218:4200x2581/432x243/filters:format(jpg)/2025/11/23/000-84wk2dj-692317e4609a4633441552.jpg",
+          "categories": []
+        },
+        {
+          "title": "Plan pour l'Ukraine : \"L'Europe est face à son destin\", déclare Yannick Jadot",
+          "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/plan-pour-l-ukraine-l-europe-est-face-a-son-destin-declare-yannick-jadot_7634978.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 14:57:00 +0100",
+          "description": "Pour Yannick Jadot, sénateur Les Écologistes et ex-eurodéputé déplore, dimanche, que l'Europe n'ait pas été associée dans les discussions autour du plan de paix de Donald Trump pour l’Ukraine, pour mettre fin à la guerre avec la Russie.",
+          "content": "Pour Yannick Jadot, sénateur Les Écologistes et ex-eurodéputé déplore, dimanche, que l'Europe n'ait pas été associée dans les discussions autour du plan de paix de Donald Trump pour l’Ukraine, pour mettre fin à la guerre avec la Russie.",
+          "image": "https://www.franceinfo.fr/pictures/JJGyLeqzoilHuwuPIY17619QOj4/0x94:1024x669/432x243/filters:format(jpg)/2022/06/24/phpmnWEmg.jpg",
+          "categories": []
+        },
+        {
+          "title": "Inondations au Vietnam : les précipitations incessantes depuis fin octobre ont fait au moins 90 morts",
+          "link": "https://www.franceinfo.fr/monde/asie/inondations-au-vietnam-les-precipitations-incessantes-depuis-fin-octobre-ont-fait-au-moins-90-morts_7634972.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 14:45:41 +0100",
+          "description": "Au Vietnam, des inondations ont fait au moins 90 morts en une semaine. C'est dans le centre du pays, une province montagneuse, que l'on recense le plus de victimes.",
+          "content": "Au Vietnam, des inondations ont fait au moins 90 morts en une semaine. C'est dans le centre du pays, une province montagneuse, que l'on recense le plus de victimes.",
+          "image": "https://www.franceinfo.fr/pictures/SkS1A3-nmw5BCgrtenKc7SIU__g/0x57:729x468/432x243/filters:format(jpg)/2025/11/23/vietnam-69230fda32a54351832813.png",
+          "categories": []
+        }
+      ]
+    }
+  },
+  "culture": {
+    "cinema": {
+      "feed": "Cinéma",
+      "lastUpdate": "2025-11-24T01:49:49.672Z",
+      "itemCount": 15,
+      "items": [
+        {
+          "title": "GRAND ENTRETIEN. \"C'est devenu un film dans ma tête quand je me suis dit, tiens, voilà un rôle pour Jodie Foster\" : Rebecca Zlotowski met en scène la star américaine dans un film passionnant",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/grand-entretien-c-est-devenu-un-film-dans-ma-tete-quand-je-me-suis-dit-tiens-voila-un-role-pour-jodie-foster-rebecca-zlotowski-met-en-scene-la-star-americaine-dans-un-film-passionnant_7628993.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 17:49:01 +0100",
+          "description": "Dans \"Vie privée\", la réalisatrice met l'actrice américaine dans la peau d'une psychanalyste sens dessus dessous.",
+          "content": "Dans \"Vie privée\", la réalisatrice met l'actrice américaine dans la peau d'une psychanalyste sens dessus dessous.",
+          "image": "https://www.franceinfo.fr/pictures/1fXeW0l9XzM99-WP07HnE_ikiTg/12x139:1528x991/432x243/filters:format(jpg)/2025/11/20/img-1058-691f45f757dc2524492483.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"La Voix de Hind Rajab\" de Kaouther Ben Hania : la guerre et toute son horreur à travers la voix d'une petite fille qu'on ne sauvera pas",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/la-voix-de-hind-rajab-de-kaouther-ben-hania-la-guerre-et-toute-son-horreur-a-travers-la-voix-d-une-petite-fille-qu-on-ne-sauvera-pas_7609586.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 06:00:01 +0100",
+          "description": "Avec ce film déchirant, la réalisatrice tunisienne imprime à jamais la petite voix de Hind Rajab dans le cœur du monde.",
+          "content": "Avec ce film déchirant, la réalisatrice tunisienne imprime à jamais la petite voix de Hind Rajab dans le cœur du monde.",
+          "image": "https://www.franceinfo.fr/pictures/IvPloNKylki9PUz3RCtPMLbo8iM/102x0:992x500/432x243/filters:format(jpg)/2025/11/11/la-voix-de-hind-rajab-6913406d9c361507095779.jpeg",
+          "categories": []
+        },
+        {
+          "title": "\"Vie privée\" : Jodie Foster, psychanalyste rigoriste, disjoncte après la mort d'une patiente dans un thriller loufoque signé Rebecca Zlotowski",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/vie-privee-jodie-foster-psychanalyste-rigoriste-disjoncte-apres-la-mort-d-une-patiente-dans-un-thriller-loufoque-signe-rebecca-zlotowski_7609418.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 15:58:27 +0100",
+          "description": "L'association de Rebecca Zlotowski avec la romancière Anne Berest, qui co-signe le scénario, et Jodie Foster, magistrale, fait des étincelles.",
+          "content": "L'association de Rebecca Zlotowski avec la romancière Anne Berest, qui co-signe le scénario, et Jodie Foster, magistrale, fait des étincelles.",
+          "image": "https://www.franceinfo.fr/pictures/KF2MPeHKPJX2sHBZd9nsvJ6LY5M/0x0:1600x900/432x243/filters:format(jpg)/2025/11/11/vie-privee-69131bc6b3d58744834321.jpeg",
+          "categories": []
+        },
+        {
+          "title": "Adapter au cinéma \"Dites-lui que je l'aime\", de Clémentine Autain, une \"impérieuse nécessité\" pour Romane Bohringer",
+          "link": "https://www.franceinfo.fr/culture/cinema/adapter-au-cinema-dites-lui-que-je-l-aime-de-clementine-autain-une-imperieuse-necessite-pour-romane-bohringer_7633139.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 15:10:59 +0100",
+          "description": "Romane Bohringer sera prochainement à l'affiche de \"Dites-lui que je l’aime\", un film adapté du livre autobiographique de la députée Clémentine Autain. Pour France 2, l'actrice s’est prêtée à l'exercice du \"Tac au tac\".",
+          "content": "Romane Bohringer sera prochainement à l'affiche de \"Dites-lui que je l’aime\", un film adapté du livre autobiographique de la députée Clémentine Autain. Pour France 2, l'actrice s’est prêtée à l'exercice du \"Tac au tac\".",
+          "image": "https://www.franceinfo.fr/pictures/Gx-P8LOHjkZDnif1fYZUx3x0E-k/0x45:729x456/432x243/filters:format(jpg)/2025/11/22/romane-6921bfb404ed4890107785.png",
+          "categories": []
+        },
+        {
+          "title": "Festival du film d'histoire de Pessac : des faussaires, des scandales et des secrets d'État en stars de cinéma",
+          "link": "https://www.franceinfo.fr/culture/festival/festival-du-film-d-histoire-de-pessac-des-faussaires-des-scandales-et-des-secrets-d-etat-en-stars-de-cinema_7624814.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 11:02:25 +0100",
+          "description": "Alors que le festival subit une baisse drastique de ses subventions par le Conseil départemental de la Gironde annoncée en début de semaine, le thème \"Secret et Mensonge\" résonne encore plus sur la situation politique actuelle.",
+          "content": "Alors que le festival subit une baisse drastique de ses subventions par le Conseil départemental de la Gironde annoncée en début de semaine, le thème \"Secret et Mensonge\" résonne encore plus sur la situation politique actuelle.",
+          "image": "https://www.franceinfo.fr/pictures/DWWoPEoss1FWDr8wN7xOftzSIVU/0x83:1600x983/432x243/filters:format(jpg)/2025/11/18/5acce5895b2080afc842c8d57340122c-691cca8c88ae4966856523.jpeg",
+          "categories": []
+        },
+        {
+          "title": "\"Dossier 137\" : un film enquête engagé, habile et pédagogique",
+          "link": "https://www.franceinfo.fr/replay-radio/les-experts-cinema/dossier-137-un-film-enquete-engage-habile-et-pedagogique_7603118.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 08:00:01 +0100",
+          "description": "Dans Les Experts Cinéma cette semaine, Matteu Maestracci évoque les films \"Dossier 137\" de Dominik Moll et \"Des preuves d'amour\" d'Alice Douard.",
+          "content": "Dans Les Experts Cinéma cette semaine, Matteu Maestracci évoque les films \"Dossier 137\" de Dominik Moll et \"Des preuves d'amour\" d'Alice Douard.",
+          "image": "https://www.franceinfo.fr/pictures/A8dHKs4iZCZDjQD0GH7udtz9iC4/0x28:932x553/432x243/filters:format(jpg)/2025/11/20/skfmuotqivcuzamvvfyeptbuie-691f0cd4dc2ea666123347.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Dossier 137\", \"Jean Valjean\", \"Franz K.\", \"Des preuves d'amour\"... Quels sont les films à voir (ou pas) cette semaine au cinéma ?",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/dossier-137-jean-valjean-franz-k-des-preuves-d-amour-quels-sont-les-films-a-voir-ou-pas-cette-semaine-au-cinema_7629083.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 06:00:02 +0100",
+          "description": "Découvrez les critiques et les entretiens de notre sélection des films sortis en salles le mercredi 19 novembre.",
+          "content": "Découvrez les critiques et les entretiens de notre sélection des films sortis en salles le mercredi 19 novembre.",
+          "image": "https://www.franceinfo.fr/pictures/vRnq9prWAiU4l3MyRqa_EUQgNys/0x0:1600x900/432x243/filters:format(jpg)/2025/11/21/5db7666220ffbd1e1b6bfafda0320d49-69204d75e325a559861550.jpeg",
+          "categories": []
+        },
+        {
+          "title": "\"20h30 le dimanche\". Avec Jodie Foster",
+          "link": "https://www.franceinfo.fr/replay-magazine/france-2/19h-le-dimanche/20h30-le-dimanche-avec-jodie-foster_7596212.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 14:22:13 +0100",
+          "description": "Des personnalités se confient en direct à Laurent Delahousse après le journal de 20 heures sur France 2 : entretien, rencontre(s)...",
+          "content": "Des personnalités se confient en direct à Laurent Delahousse après le journal de 20 heures sur France 2 : entretien, rencontre(s)...",
+          "image": "https://www.franceinfo.fr/pictures/9zsXOPAvf4afMTHb4OJwmKf_pbM/0x0:1920x1080/432x243/filters:format(jpg)/2025/11/21/20h30ld-invite-foster-2-69204894aa03a621807153.png",
+          "categories": []
+        },
+        {
+          "title": "\"Le Dernier Tango à Paris\" : Rachida Dati condamne les propos du directeur de la Cinémathèque niant l'agression sexuelle subie par Maria Schneider",
+          "link": "https://www.franceinfo.fr/culture/cinema/le-dernier-tango-a-paris-rachida-dati-condamne-les-propos-du-directeur-de-la-cinematheque-niant-l-agression-sexuelle-subie-par-maria-schneider_7628813.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 16:05:33 +0100",
+          "description": "La ministre de la Culture a demandé à l'institution \"d'examiner rapidement les mesures qu'appelle cet incident\".",
+          "content": "La ministre de la Culture a demandé à l'institution \"d'examiner rapidement les mesures qu'appelle cet incident\".",
+          "image": "https://www.franceinfo.fr/pictures/IliIGDZQuD2DmcilscceJZse584/0x88:1024x664/432x243/filters:format(jpg)/2025/11/20/010-a7a13090-395-691f22626097d826980473.jpg",
+          "categories": []
+        },
+        {
+          "title": "Vladimir Cosma donne deux concerts exceptionnels à la Seine musicale : \"Quand je vois le public, ça me donne envie de continuer\"",
+          "link": "https://www.franceinfo.fr/replay-radio/le-monde-d-elodie/vladimir-cosma-donne-deux-concerts-exceptionnels-a-la-seine-musicale-quand-je-vois-le-public-ca-me-donne-envie-de-continuer_7598540.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 12:57:16 +0100",
+          "description": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Jeudi 20 novembre 2025, le compositeur, musicien et chef d'orchestre Vladimir Cosma. Il donne deux concerts à la Seine musicale, les 6 et 7 décembre 2025.",
+          "content": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Jeudi 20 novembre 2025, le compositeur, musicien et chef d'orchestre Vladimir Cosma. Il donne deux concerts à la Seine musicale, les 6 et 7 décembre 2025.",
+          "image": "https://www.franceinfo.fr/pictures/hu13c3tNCOWQv4UEjxui8wVEHIs/0x444:6720x4221/432x243/filters:format(jpg)/2025/11/19/maxmatinnews559548-691dda23c6b72476885134.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Running Man\" : une nouvelle adaptation de Stephen King engagée et spectaculaire, mais fade",
+          "link": "https://www.franceinfo.fr/culture/cinema/sorties-de-films/running-man-une-nouvelle-adaptation-de-stephen-king-engagee-et-spectaculaire-mais-fade_7626641.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 18:59:58 +0100",
+          "description": "Le charisme de la nouvelle coqueluche de Hollywood, Glen Powell, ne suffit pas à faire de la version 2025 du film d'action une expérience mémorable.",
+          "content": "Le charisme de la nouvelle coqueluche de Hollywood, Glen Powell, ne suffit pas à faire de la version 2025 du film d'action une expérience mémorable.",
+          "image": "https://www.franceinfo.fr/pictures/gqd2cBfarRpia_0LuTEtKlC7BGY/0x0:1600x900/432x243/filters:format(jpg)/2025/11/19/running-mann-691dc36a8ca19773276753.jpeg",
+          "categories": []
+        },
+        {
+          "title": "Dossier 137 : un polar qui met l’IGPN sous les projecteurs",
+          "link": "https://www.franceinfo.fr/culture/cinema/dossier-137-un-polar-qui-met-l-igpn-sous-les-projecteurs_7626854.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 17:13:18 +0100",
+          "description": "Léa Drucker brille dans Dossier 137, polar réaliste où l’IGPN enquête sur des violences policières. Entre suspense et réflexion, le film de Dominique Moll explore les tensions citoyennes et les dilemmes des forces de l’ordre, séduisant spectateurs et critiques dès son avant-première parisienne.",
+          "content": "Léa Drucker brille dans Dossier 137, polar réaliste où l’IGPN enquête sur des violences policières. Entre suspense et réflexion, le film de Dominique Moll explore les tensions citoyennes et les dilemmes des forces de l’ordre, séduisant spectateurs et critiques dès son avant-première parisienne.",
+          "image": "https://www.franceinfo.fr/pictures/-mJdI2btXep_o6xKflYSsPjkEWM/0x19:998x581/432x243/filters:format(jpg)/2025/11/19/fdbdfbdfbfd-691de4e6bde43847245803.jpg",
+          "categories": []
+        },
+        {
+          "title": "Le Mexique à l'honneur du festival de cinéma d'Amérique latine Cinélatino",
+          "link": "https://www.franceinfo.fr/culture/cinema/le-mexique-a-l-honneur-du-festival-de-cinema-d-amerique-latine-cinelatino_7626722.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 14:57:19 +0100",
+          "description": "Après Cuba, la Colombie ou le Chili les années précédentes, le Mexique a été choisi comme invité d'honneur de cette 38e édition.",
+          "content": "Après Cuba, la Colombie ou le Chili les années précédentes, le Mexique a été choisi comme invité d'honneur de cette 38e édition.",
+          "image": "https://www.franceinfo.fr/pictures/hOseTmWRsSBbHqjSZC4hJp2LknI/0x43:1024x618/432x243/filters:format(jpg)/2025/11/19/063-2243326057-691dc8cb935bc202989916.jpg",
+          "categories": []
+        },
+        {
+          "title": "Grégory Gadebois à l'affiche du film \"Jean Valjean\" : \"Il est plus que blessé, il est détruit\"",
+          "link": "https://www.franceinfo.fr/replay-radio/le-monde-d-elodie/gregory-gadebois-a-l-affiche-du-film-jean-valjean-il-est-plus-que-blesse-il-est-detruit_7596299.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 11:33:50 +0100",
+          "description": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Mercredi 19 novembre 2025, l'acteur Grégory Gadebois. Il est à l'affiche du film \"Jean Valjean\" d'Eric Besnard, qui sort aujourd'hui.",
+          "content": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Mercredi 19 novembre 2025, l'acteur Grégory Gadebois. Il est à l'affiche du film \"Jean Valjean\" d'Eric Besnard, qui sort aujourd'hui.",
+          "image": "https://www.franceinfo.fr/pictures/TffkvZktGxSdyW7XLVlxAnH3bU8/0x14:1024x590/432x243/filters:format(jpg)/2025/11/18/000-72p49vy-691c8a828bf47843350105.jpg",
+          "categories": []
+        },
+        {
+          "title": "De Broadway à Wicked 2, comment Cynthia Erivo a conquis le monde du cinéma",
+          "link": "https://www.franceinfo.fr/culture/cinema/comment-cynthia-erivo-est-devenue-une-icone_7624631.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 09:44:15 +0100",
+          "description": "Cynthia Erivo, c’est la sorcière à la peau verte du film Wicked. Mais c'est surtout une icône de la comédie musicale et du cinéma !",
+          "content": "Cynthia Erivo, c’est la sorcière à la peau verte du film Wicked. Mais c'est surtout une icône de la comédie musicale et du cinéma !",
+          "image": "https://www.franceinfo.fr/pictures/uF1gsASCNO3H072R7euyDtjeebo/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/18/version-2-lignes-691ca6bcdeb61136012652.jpg",
+          "categories": []
+        }
+      ]
+    },
+    "musique": {
+      "feed": "Musique",
+      "lastUpdate": "2025-11-24T01:49:49.590Z",
+      "itemCount": 15,
+      "items": [
+        {
+          "title": "Où en sont les Beatles ?",
+          "link": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/ou-en-sont-les-beatles_7605026.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 17:30:02 +0100",
+          "description": "La sortie du double album \"Anthology 4\" invite à examiner l'influence des Beatles sur la musique populaire en France, alors que se tarit la réserve d'enregistrements inédits.",
+          "content": "La sortie du double album \"Anthology 4\" invite à examiner l'influence des Beatles sur la musique populaire en France, alors que se tarit la réserve d'enregistrements inédits.",
+          "image": "https://www.franceinfo.fr/pictures/ZF1uwQcrgjDsvp9CklBw7uwA3vo/0x70:1024x645/432x243/filters:format(jpg)/2025/11/22/gettyimages-2213075310-6921997677736688095479.jpg",
+          "categories": []
+        },
+        {
+          "title": "Des peignes de Johnny Hallyday et des cheveux de Claude François vendus aux enchères",
+          "link": "https://www.franceinfo.fr/culture/musique/johnny-hallyday/des-peignes-de-scene-de-johnny-hallyday-et-des-cheveux-de-claude-francois-vendus-aux-encheres_7634741.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 10:44:00 +0100",
+          "description": "Des enchères au poil, dédiées à la chanson française et internationale, ont aussi permis d'adjuger un agenda de Serge Gainsbourg et un trophée remporté par Mike Brant.",
+          "content": "Des enchères au poil, dédiées à la chanson française et internationale, ont aussi permis d'adjuger un agenda de Serge Gainsbourg et un trophée remporté par Mike Brant.",
+          "image": "https://www.franceinfo.fr/pictures/g9obRjsAh_sSBdhbzUy7NbMJYNs/0x606:5223x3542/432x243/filters:format(jpg)/2025/11/23/000-arp2569964-6922d3df78cc1212833226.jpg",
+          "categories": []
+        },
+        {
+          "title": "REPORTAGE. \"Je n'ai pas trouvé d'équivalent\": l'inquiétude des musiciens face au Brésil qui veut bannir la vente du pernambouc, ce bois qui sert à la fabrication des archets",
+          "link": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/convention-cites-le-bresil-veut-bannir-la-commercialisation-du-pernambouc-ce-bois-qui-sert-a-la-fabrication-des-archets_7605044.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 08:35:48 +0100",
+          "description": "La Convention sur le commerce international des espèces menacées d'extinction débute, lundi, en Ouzbékistan. Au menu des débats, la commercialisation du bois de pernambouc qui sert à la conception d'instruments professionnels.",
+          "content": "La Convention sur le commerce international des espèces menacées d'extinction débute, lundi, en Ouzbékistan. Au menu des débats, la commercialisation du bois de pernambouc qui sert à la conception d'instruments professionnels.",
+          "image": "https://www.franceinfo.fr/pictures/PboEqz5ptWLdrLSwCiJf9T1eG6E/0x150:1600x1050/432x243/filters:format(jpg)/2025/11/23/whatsapp-image-2025-11-23-at-14-20-21-69230b7c0f06a477307709.jpg",
+          "categories": []
+        },
+        {
+          "title": "Louane, une chanteuse dans ses mots",
+          "link": "https://www.franceinfo.fr/replay-radio/ces-chansons-qui-font-l-actu/louane-une-chanteuse-dans-ses-mots_7603154.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 18:30:02 +0100",
+          "description": "De nouveau sur la route un an après la sortie de l'album \"Solo\", elle assume un répertoire de plus en plus personnel dont elle est l'autrice.",
+          "content": "De nouveau sur la route un an après la sortie de l'album \"Solo\", elle assume un répertoire de plus en plus personnel dont elle est l'autrice.",
+          "image": "https://www.franceinfo.fr/pictures/tQFgYPIY_1IZ-dhM8T26Oookgp8/0x52:1024x628/432x243/filters:format(jpg)/2025/11/21/gettyimages-2215310730-69209e6d32540349536944.jpg",
+          "categories": []
+        },
+        {
+          "title": "Deux semaines après leur clash, Orelsan emploie l'humour à froid et l'ironie pour tacler Mbappé dans une vidéo",
+          "link": "https://www.franceinfo.fr/culture/musique/orelsan/deux-semaines-apres-leur-clash-orelsan-emploie-l-humour-a-froid-et-l-ironie-pour-tacler-mbappe-dans-une-video_7633142.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 15:43:04 +0100",
+          "description": "Le footballeur et le musicien s'étaient accrochés sur les réseaux sociaux au sujet d'une phrase du dernier album d'Orelsan concernant le club du Stade Malherbe de Caen.",
+          "content": "Le footballeur et le musicien s'étaient accrochés sur les réseaux sociaux au sujet d'une phrase du dernier album d'Orelsan concernant le club du Stade Malherbe de Caen.",
+          "image": "https://www.franceinfo.fr/pictures/YWNhP5HZdoxaDaNcQa9t0ULbKVw/0x74:1024x649/432x243/filters:format(jpg)/2025/11/22/080-hl-eadzemovic-2925001-6921c94b5cb36645662024.jpg",
+          "categories": []
+        },
+        {
+          "title": "Ce que l'on sait des accusations contre le rappeur Zola, mis en examen pour séquestration et violences aggravées",
+          "link": "https://www.franceinfo.fr/societe/justice/ce-que-l-on-sait-des-accusations-contre-le-rappeur-zola-mis-en-examen-pour-sequestration-et-violences-aggravees_7632908.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 15:39:23 +0100",
+          "description": "L'artiste est accusé d'avoir, le 6 novembre, asséné, avec trois autres personnes, de nombreuses violences, dont \"des coups de poing, coups de pied\", à un homme qui s'était présenté devant son domicile.",
+          "content": "L'artiste est accusé d'avoir, le 6 novembre, asséné, avec trois autres personnes, de nombreuses violences, dont \"des coups de poing, coups de pied\", à un homme qui s'était présenté devant son domicile.",
+          "image": "https://www.franceinfo.fr/pictures/zdACsiuExfK31mNFqpFnbLmz4RY/0x465:5808x3730/432x243/filters:format(jpg)/2025/11/22/maxpeopleworldtwo266162-6921a2dbd86c6874911655.jpg",
+          "categories": []
+        },
+        {
+          "title": "La chanteuse de variétés italienne Ornella Vanoni est morte à l'âge de 91 ans",
+          "link": "https://www.franceinfo.fr/culture/musique/la-chanteuse-de-varietes-italienne-ornella-vanoni-est-morte-a-l-age-de-91-ans_7632884.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 10:16:47 +0100",
+          "description": "Célèbre dans les années 1960 et 1970, elle avait été distinguée en 1999 à San Remo par un prix d'honneur récompensant l'ensemble de sa carrière.",
+          "content": "Célèbre dans les années 1960 et 1970, elle avait été distinguée en 1999 à San Remo par un prix d'honneur récompensant l'ensemble de sa carrière.",
+          "image": "https://www.franceinfo.fr/pictures/fOW4urBwt0KefkyRwJJ_rOLJUHQ/0x24:5997x3394/432x243/filters:format(jpg)/2025/11/22/075-bremec-notitle221213-np12i-69217ae680ee9030283163.jpg",
+          "categories": []
+        },
+        {
+          "title": "Le rappeur Zola mis en examen et placé en détention provisoire pour séquestration et violences aggravées",
+          "link": "https://www.franceinfo.fr/faits-divers/le-rappeur-zola-mis-en-examen-et-place-en-detention-provisoire-pour-sequestration-et-violences-aggravees_7632896.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 10:10:39 +0100",
+          "description": "La victime a été \"séquestrée dans la cave du domicile\" de l'artiste de 26 ans, rapporte le procureur de Meaux, qui décrit le calvaire subi par le jeune homme dans un communiqué diffusé samedi.",
+          "content": "La victime a été \"séquestrée dans la cave du domicile\" de l'artiste de 26 ans, rapporte le procureur de Meaux, qui décrit le calvaire subi par le jeune homme dans un communiqué diffusé samedi.",
+          "image": "https://www.franceinfo.fr/pictures/FU66tTuBeQB5sQfihLwrt_GJqoE/0x6:1024x582/432x243/filters:format(jpg)/2025/11/22/000-84hf3nq-69217d89830ce329352800.jpg",
+          "categories": []
+        },
+        {
+          "title": "Musique : La cassette fait son grand retour",
+          "link": "https://www.franceinfo.fr/culture/musique/musique-la-cassette-fait-son-grand-retour_7631570.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 22:55:44 +0100",
+          "description": "Après le retour du vinyle, voici celui de la cassette audio. Longtemps restée un objet collector d'une époque révolue où le walkman arpentait les rues, la cassette fait désormais de la résistance face aux plateformes d'écoute digitales.",
+          "content": "Après le retour du vinyle, voici celui de la cassette audio. Longtemps restée un objet collector d'une époque révolue où le walkman arpentait les rues, la cassette fait désormais de la résistance face aux plateformes d'écoute digitales.",
+          "image": "https://www.franceinfo.fr/pictures/LgX8_u_8VX7WlJ_Z3mGtgeEvQeo/0x0:1441x811/432x243/filters:format(jpg)/2025/11/21/cassette-6920df6298212119492171.jpg",
+          "categories": []
+        },
+        {
+          "title": "Le chanteur et parolier Jean Guidoni est mort à l'âge de 74 ans",
+          "link": "https://www.franceinfo.fr/culture/musique/chanson-francaise/le-chanteur-et-parolier-jean-guidoni-est-mort-a-l-age-de-74-ans_7631165.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 16:48:23 +0100",
+          "description": "Pendant quarante-cinq ans, Jean Guidoni a dessiné sa carrière comme il l'entendait, en marge des carcans commerciaux.",
+          "content": "Pendant quarante-cinq ans, Jean Guidoni a dessiné sa carrière comme il l'entendait, en marge des carcans commerciaux.",
+          "image": "https://www.franceinfo.fr/pictures/R5eAdGg3-KN0okRE70lxNRdOITg/0x370:5000x3181/432x243/filters:format(jpg)/2025/11/21/sipa-00845605-000017-69208388c848a773661313.jpg",
+          "categories": []
+        },
+        {
+          "title": "L'Eurovision modifie les règles de vote après la controverse autour d'Israël",
+          "link": "https://www.franceinfo.fr/culture/musique/eurovision/l-eurovision-modifie-les-regles-de-vote-apres-la-controverse-autour-d-israel_7630970.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 13:58:19 +0100",
+          "description": "En 2025, la chanteuse israélienne Yuval Raphael, survivante de l'attaque du 7-Octobre, était arrivée seconde au concours, portée par le vote du public. Plusieurs diffuseurs du concours avaient demandé que la lumière soit faite sur le détail des votes.",
+          "content": "En 2025, la chanteuse israélienne Yuval Raphael, survivante de l'attaque du 7-Octobre, était arrivée seconde au concours, portée par le vote du public. Plusieurs diffuseurs du concours avaient demandé que la lumière soit faite sur le détail des votes.",
+          "image": "https://www.franceinfo.fr/pictures/b54qYUlsPqxekNwUiuROnpWh_ZI/0x53:1024x629/432x243/filters:format(jpg)/2025/11/21/000-474v8ud-69205beddc7cd100992090.jpg",
+          "categories": []
+        },
+        {
+          "title": "La playlist de franceinfo : Alain, Pierre et Ours Souchon",
+          "link": "https://www.franceinfo.fr/replay-radio/la-playlist-franceinfo/la-playlist-de-franceinfo-alain-pierre-et-ours-souchon_7590359.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 13:30:55 +0100",
+          "description": "Dans La Playlist de franceinfo, Matteu Maestracci évoque \"Studio Saint-Germain\", best of acoustique d'Alain Souchon, accompagné de ses deux fils musiciens, Pierre et Ours.",
+          "content": "Dans La Playlist de franceinfo, Matteu Maestracci évoque \"Studio Saint-Germain\", best of acoustique d'Alain Souchon, accompagné de ses deux fils musiciens, Pierre et Ours.",
+          "image": "https://www.franceinfo.fr/pictures/xaVD2EO-mg6vK7hh8jJTiMoNk3A/0x310:1028x889/432x243/filters:format(jpg)/2025/11/21/live2024alainpierreourssouchon-hdpresse-photographie-c-lisaroze-scaled-e1708594268875-69205b1f520d1769101111.jpg",
+          "categories": []
+        },
+        {
+          "title": "La famille Souchon chante ensemble sur un album avant de repartir en tournée : \"On partage de très bons moments\"",
+          "link": "https://www.franceinfo.fr/replay-radio/le-monde-d-elodie/la-famille-souchon-chante-ensemble-sur-un-album-avant-de-repartir-en-tournee-on-partage-de-tres-bons-moments_7600805.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 12:48:52 +0100",
+          "description": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Vendredi 21 novembre 2025, Alain Souchon et ses fils, Pierre et Ours. Ils sortent un album commun, \"Studio Saint-Germain\".",
+          "content": "Tous les jours, une personnalité s'invite dans le monde d'Élodie Suigo. Vendredi 21 novembre 2025, Alain Souchon et ses fils, Pierre et Ours. Ils sortent un album commun, \"Studio Saint-Germain\".",
+          "image": "https://www.franceinfo.fr/pictures/IRUwPbtpCLe_AwPOdS0i0WJsowM/66x0:1853x1005/432x243/filters:format(jpg)/2025/11/20/la-famille-souchon-691f2ac471493591562495.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"C'est une fierté !\" : comment Aya Nakamura est devenue l'icône de la communauté malienne de France",
+          "link": "https://www.franceinfo.fr/culture/musique/c-est-une-fierte-comment-aya-nakamura-est-devenue-l-icone-de-la-communaute-malienne-de-france_7630643.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 11:41:20 +0100",
+          "description": "Son cinquième album, \"Destinée\", sort vendredi. L'artiste franco-malienne fait la fierté de nombreux membres de la communauté malienne en France, entre Paris et Montreuil.",
+          "content": "Son cinquième album, \"Destinée\", sort vendredi. L'artiste franco-malienne fait la fierté de nombreux membres de la communauté malienne en France, entre Paris et Montreuil.",
+          "image": "https://www.franceinfo.fr/pictures/hc5LMe9rZZmkZ_JtxFlHwWBvJPw/0x96:3000x1783/432x243/filters:format(jpg)/2025/11/21/maxpeopleworldtwo250495-69202632e545a531087545.jpg",
+          "categories": []
+        },
+        {
+          "title": "PODCAST. La Française la plus rapide, l'artiste la plus chère et celle qui était \"Destinée\" : ça dit quoi ce 21 novembre ?",
+          "link": "https://www.franceinfo.fr/replay-radio/ca-dit-quoi/podcast-la-francaise-la-plus-rapide-l-artiste-la-plus-chere-et-celle-qui-etait-destinee-ca-dit-quoi-ce-21-novembre_7621949.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 08:31:27 +0100",
+          "description": "Ce vendredi 21 novembre, Doriane Pin est en lice pour remporter le titre en F1 Academy, une œuvre de Frida Kahlo est devenue la plus chère jamais réalisée par une femme et Aya Nakamura est de retour avec un cinquième album.",
+          "content": "Ce vendredi 21 novembre, Doriane Pin est en lice pour remporter le titre en F1 Academy, une œuvre de Frida Kahlo est devenue la plus chère jamais réalisée par une femme et Aya Nakamura est de retour avec un cinquième album.",
+          "image": "https://www.franceinfo.fr/pictures/iq21OnSMyyqeIY-ABe0ALEN0frE/0x53:1024x629/432x243/filters:format(jpg)/2025/11/21/063-2220112966-1-692013ff5145c145265039.jpg",
+          "categories": []
+        }
+      ]
+    },
+    "jeuxvideo": {
+      "feed": "Jeux Vidéo",
+      "lastUpdate": "2025-11-24T01:49:49.918Z",
+      "itemCount": 20,
+      "items": [
+        {
+          "title": "“Il vaut mieux jouer aux jeux vidéo que de s'intéresser à leurs créateurs !” Cet expert Nintendo préfère l’anonymat...",
+          "link": "https://www.jeuxvideo.com/news/2046006/il-vaut-mieux-jouer-aux-jeux-video-que-de-s-interesser-a-leurs-createurs-cet-expert-nintendo-prefere-l-anonymat.htm",
+          "pubDate": "Sun, 23 Nov 2025 22:05:10 +0100",
+          "description": "Un concepteur légendaire de chez Nintendo, reconnu pour avoir donné naissance à deux franchises emblématiques du jeu vidéo, a récemment partagé son point de vue sur la notoriété dans l'industrie. Il exprime une préférence marquée pour l’anonymat.",
+          "content": "Un concepteur légendaire de chez Nintendo, reconnu pour avoir donné naissance à deux franchises emblématiques du jeu vidéo, a récemment partagé son point de vue sur la notoriété dans l'industrie. Il exprime une préférence marquée pour l’anonymat.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176372/1763716370-9327-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "\"Merci du fond du coeur\" Norman Reedus a incarné ce rôle pendant 15 ans mais maintenant il faut passer à autre chose",
+          "link": "https://www.jeuxvideo.com/news/2046144/merci-du-fond-du-coeur-norman-reedus-a-incarne-ce-role-pendant-15-ans-mais-maintenant-il-faut-passer-a-autre-chose.htm",
+          "pubDate": "Sun, 23 Nov 2025 21:49:10 +0100",
+          "description": "De nos jours, il n'est pas rare qu'un acteur incarne un même personnage pendant plusieurs années. Atteindre les 10 ans est déjà compliqué, et les dépasser paraît impossible. Et pourtant, Norman Reedus incarne Daryl Dixon depuis maintenant 15 ans... Et il pourrait bien s'arrêter là.",
+          "content": "De nos jours, il n'est pas rare qu'un acteur incarne un même personnage pendant plusieurs années. Atteindre les 10 ans est déjà compliqué, et les dépasser paraît impossible. Et pourtant, Norman Reedus incarne Daryl Dixon depuis maintenant 15 ans... Et il pourrait bien s'arrêter là.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763735267-7162-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Pour moins de 25 €, découvrez ce RPG bien particulier riche sur Nintendo Switch...",
+          "link": "https://www.jeuxvideo.com/news/2045723/pour-moins-de-25-decouvrez-ce-rpg-bien-particulier-riche-sur-nintendo-switch.htm",
+          "pubDate": "Sun, 23 Nov 2025 21:03:09 +0100",
+          "description": "Grâce à une réduction de 50% de son prix de base, ce RPG tactique et spin-off d’une licence massivement reconnue, est disponible à moindre coût sur le Nintendo eShop. C’est donc le moment idéal de tester ce très bon jeu passé à côté du succès qu’il mérite.",
+          "content": "Grâce à une réduction de 50% de son prix de base, ce RPG tactique et spin-off d’une licence massivement reconnue, est disponible à moindre coût sur le Nintendo eShop. C’est donc le moment idéal de tester ce très bon jeu passé à côté du succès qu’il mérite.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176365/1763645605-7768-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Ce film d'aventure et de SF est une prouesse technique mais malgré trois stars Marvel au casting, ça a été un méga flop au cinéma !",
+          "link": "https://www.jeuxvideo.com/news/2045997/ce-film-d-aventure-et-de-sf-est-une-prouesse-technique-mais-malgre-trois-stars-marvel-au-casting-ca-a-ete-un-mega-flop-au-cinema.htm",
+          "pubDate": "Sun, 23 Nov 2025 20:10:09 +0100",
+          "description": "Il y a deux décennies, une œuvre cinématographique ambitieuse, mêlant aventure et science-fiction, a fait sensation grâce à son approche visuelle révolutionnaire. Bien qu'ayant réuni à l'écran un casting impressionnant incluant trois figures majeures de l'univers cinématographique Marvel, cette superproduction...",
+          "content": "Il y a deux décennies, une œuvre cinématographique ambitieuse, mêlant aventure et science-fiction, a fait sensation grâce à son approche visuelle révolutionnaire. Bien qu'ayant réuni à l'écran un casting impressionnant incluant trois figures majeures de l'univers cinématographique Marvel, cette superproduction...",
+          "image": "https://image.jeuxvideo.com/medias-lg/176371/1763713757-579-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Battlefield 6 gratuit ? Oui, mais il va falloir faire vite pour en profiter !",
+          "link": "https://www.jeuxvideo.com/news/2045430/battlefield-6-gratuit-oui-mais-il-va-falloir-faire-vite-pour-en-profiter.htm",
+          "pubDate": "Sun, 23 Nov 2025 19:01:10 +0100",
+          "description": "Battlefield 6 s’offre une semaine d’accès gratuit ! Une occasion idéale pour découvrir son multijoueur et ses nouveaux modes sans payer, avant les promotions du Black Friday. Voici ce qu’il faut savoir pour en profiter.",
+          "content": "Battlefield 6 s’offre une semaine d’accès gratuit ! Une occasion idéale pour découvrir son multijoueur et ses nouveaux modes sans payer, avant les promotions du Black Friday. Voici ce qu’il faut savoir pour en profiter.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176356/1763564460-1960-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Seul Baldur's Gate 3 avait réussi un tel exploit auparavant : Clair Obscur : Expedition 33 est vraiment un phénomène !",
+          "link": "https://www.jeuxvideo.com/news/2046231/seul-baldur-s-gate-3-avait-reussi-un-tel-exploit-auparavant-clair-obscur-expedition-33-est-vraiment-un-phenomene.htm",
+          "pubDate": "Sun, 23 Nov 2025 18:00:11 +0100",
+          "description": "C'est la saison des cérémonies de récompenses dans le monde du jeu vidéo, et Clair Obscur : Expedition 33 fait clairement partie des favoris cette année. Après 12 nominations aux Game Awards 2025, le jeu de Sandfall rivalise avec Baldur's Gate 3 aux Golden Joystick Awards 2025.",
+          "content": "C'est la saison des cérémonies de récompenses dans le monde du jeu vidéo, et Clair Obscur : Expedition 33 fait clairement partie des favoris cette année. Après 12 nominations aux Game Awards 2025, le jeu de Sandfall rivalise avec Baldur's Gate 3 aux Golden Joystick Awards 2025.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763741685-9827-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Netflix, Paramount ou Comcast ? Qui va s'acheter ce géant du divertissement pour une somme monstrueuse ?",
+          "link": "https://www.jeuxvideo.com/news/2046113/netflix-paramount-ou-comcast-qui-va-s-acheter-ce-geant-du-divertissement-pour-une-somme-monstrueuse.htm",
+          "pubDate": "Sun, 23 Nov 2025 17:03:09 +0100",
+          "description": "Warner Bros. Discovery a officiellement reçu les premières offres de rachat de Paramount, Comcast et Netflix. Trois prétendants, trois stratégies, et un enjeu colossal : mettre la main sur l’un des plus grands catalogues du divertissement.",
+          "content": "Warner Bros. Discovery a officiellement reçu les premières offres de rachat de Paramount, Comcast et Netflix. Trois prétendants, trois stratégies, et un enjeu colossal : mettre la main sur l’un des plus grands catalogues du divertissement.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176373/1763729772-5240-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Mouchard ARC Raiders : où trouver ces adversaires et comment les éliminer ? ",
+          "link": "https://www.jeuxvideo.com/news/2046256/mouchard-arc-raiders-ou-trouver-ces-adversaires-et-comment-les-eliminer.htm",
+          "pubDate": "Sun, 23 Nov 2025 16:18:08 +0100",
+          "description": "Vous êtes à la recherche de scanners de mouchards pour progresser dans vos ateliers sur ARC Raiders, mais vous peinez à trouver les ARCs qui vous les procureront ? À la bonne heure, on a composé ce guide pour que vous puissiez enfin les trouver sur la surface !",
+          "content": "Vous êtes à la recherche de scanners de mouchards pour progresser dans vos ateliers sur ARC Raiders, mais vous peinez à trouver les ARCs qui vous les procureront ? À la bonne heure, on a composé ce guide pour que vous puissiez enfin les trouver sur la surface ! ",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763739136-6707-card.jpg",
+          "categories": [
+            "News astuce"
+          ]
+        },
+        {
+          "title": "Ce jeu vidéo ultra populaire va lancer une reco faciale pour empêcher les enfants de parler avec les adultes",
+          "link": "https://www.jeuxvideo.com/news/2045798/ce-jeu-video-ultra-populaire-va-lancer-une-reco-faciale-pour-empecher-les-enfants-de-parler-avec-les-adultes.htm",
+          "pubDate": "Sun, 23 Nov 2025 15:52:07 +0100",
+          "description": "Ce jeu au 88 millions de joueurs quotidiens va mettre en place une nouvelle mesure pour protéger les enfants.  Ces changements interviennent alors que le studio fait face à des poursuites judiciaires concernant la sécurité de ses jeunes utilisateurs.",
+          "content": "Ce jeu au 88 millions de joueurs quotidiens va mettre en place une nouvelle mesure pour protéger les enfants.  Ces changements interviennent alors que le studio fait face à des poursuites judiciaires concernant la sécurité de ses jeunes utilisateurs.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176365/1763650553-4417-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "\"Il ne serait qu'un amas informe\" Un astrophysicien explique pourquoi Godzilla ne pourrait jamais exister dans le monde réel",
+          "link": "https://www.jeuxvideo.com/news/2046185/il-ne-serait-qu-un-amas-informe-un-astrophysicien-explique-pourquoi-godzilla-ne-pourrait-jamais-exister-dans-le-monde-reel.htm",
+          "pubDate": "Sun, 23 Nov 2025 14:44:09 +0100",
+          "description": "Godzilla est une figure emblématique de la culture populaire, aussi bien au Japon que dans le reste du monde, et c'est une véritable référence dans le genre du cinéma de monstres. Mais mathématiquement parlant, ce reptile géant ne fait pas vraiment sens !",
+          "content": "Godzilla est une figure emblématique de la culture populaire, aussi bien au Japon que dans le reste du monde, et c'est une véritable référence dans le genre du cinéma de monstres. Mais mathématiquement parlant, ce reptile géant ne fait pas vraiment sens !",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763738227-7535-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "ARC Raiders : un joueur mène une expérience risquée et prouve que les barricades suffisent à désespérer vos ennemis",
+          "link": "https://www.jeuxvideo.com/news/2046048/arc-raiders-un-joueur-mene-une-experience-risquee-et-prouve-que-les-barricades-suffisent-a-desesperer-vos-ennemis.htm",
+          "pubDate": "Sun, 23 Nov 2025 13:38:09 +0100",
+          "description": "Dans ARC Raiders, certains joueurs redoublent d’imagination pour détourner des outils pourtant simples. L’un d’eux vient de mener une expérience... inattendue !",
+          "content": "Dans ARC Raiders, certains joueurs redoublent d’imagination pour détourner des outils pourtant simples. L’un d’eux vient de mener une expérience... inattendue !",
+          "image": "https://image.jeuxvideo.com/medias-lg/176372/1763720556-3190-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Un appartement pour Iguolta Pokémon ZA : comment réussir la mission secondaire 93 ?",
+          "link": "https://www.jeuxvideo.com/news/2045740/un-appartement-pour-iguolta-pokemon-za-comment-reussir-la-mission-secondaire-93.htm",
+          "pubDate": "Sun, 23 Nov 2025 13:02:13 +0100",
+          "description": "Compléter la mission secondaire 93 de Légendes Pokémon Z-A peut demander un peu d’orientation dans Illumis, surtout lorsque l’objectif consiste à trouver l’endroit idéal pour un duo Dresseur / Pokémon. Cette quête annexe permet pourtant de récupérer des ressources utiles pour la suite de l’aventure,...",
+          "content": "Compléter la mission secondaire 93 de Légendes Pokémon Z-A peut demander un peu d’orientation dans Illumis, surtout lorsque l’objectif consiste à trouver l’endroit idéal pour un duo Dresseur / Pokémon. Cette quête annexe permet pourtant de récupérer des ressources utiles pour la suite de l’aventure,...",
+          "image": "https://image.jeuxvideo.com/medias-lg/176365/1763648109-9274-card.jpg",
+          "categories": [
+            "News astuce"
+          ]
+        },
+        {
+          "title": "Netflix : 30 ans après son succès à Hollywood, cette star revient et c'est un carton",
+          "link": "https://www.jeuxvideo.com/news/2045885/netflix-30-ans-apres-son-succes-a-hollywood-cette-star-revient-et-c-est-un-carton.htm",
+          "pubDate": "Sun, 23 Nov 2025 12:52:10 +0100",
+          "description": "Trente ans après avoir dominé les écrans à Hollywood, une actrice culte des années 90 fait un retour remarqué sur Netflix et cartonne à nouveau, offrant un nouveau chapitre à sa carrière.",
+          "content": "Trente ans après avoir dominé les écrans à Hollywood, une actrice culte des années 90 fait un retour remarqué sur Netflix et cartonne à nouveau, offrant un nouveau chapitre à sa carrière.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176366/1763656283-4120-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Fortnite : Quentin Tarantino dévoile une séquence inédite d'un de ses films cultes...",
+          "link": "https://www.jeuxvideo.com/news/2046008/fortnite-quentin-tarantino-devoile-une-sequence-inedite-d-un-de-ses-films-cultes.htm",
+          "pubDate": "Sun, 23 Nov 2025 12:15:09 +0100",
+          "description": "Connu comme étant le lieu où tous les univers se rencontrent, Fortnite va accueillir une scène encore jamais dévoilée d’un film considéré comme culte. Son réalisateur, Quentin Tarantino, serait lui-même à la tête du projet prévu pour la collaboration avec le jeu.",
+          "content": "Connu comme étant le lieu où tous les univers se rencontrent, Fortnite va accueillir une scène encore jamais dévoilée d’un film considéré comme culte. Son réalisateur, Quentin Tarantino, serait lui-même à la tête du projet prévu pour la collaboration avec le jeu.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176372/1763717439-2151-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "\"Robert Downey Jr. est intervenu\" Tom Holland rend hommage à celui qui a sauvé sa première scène de Spider-Man, il y a 10 ans",
+          "link": "https://www.jeuxvideo.com/news/2046209/robert-downey-jr-est-intervenu-tom-holland-rend-hommage-a-celui-qui-a-sauve-sa-premiere-scene-de-spider-man-il-y-a-10-ans.htm",
+          "pubDate": "Sun, 23 Nov 2025 11:29:11 +0100",
+          "description": "Le parcours de Tom Holland au sein du Marvel Cinematic Universe a failli être entâché dès ses débuts sans l'intervention opportune de Robert Downey Jr.. Cette révélation, faite par l'acteur principal lors d'une entrevue récente, met en lumière le soutien crucial apporté par son collègue, l'interprète...",
+          "content": "Le parcours de Tom Holland au sein du Marvel Cinematic Universe a failli être entâché dès ses débuts sans l'intervention opportune de Robert Downey Jr.. Cette révélation, faite par l'acteur principal lors d'une entrevue récente, met en lumière le soutien crucial apporté par son collègue, l'interprète...",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763737464-5076-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Il y a un an, un chanceux a acheté une PS4 pour moins de 5 euros dans une friperie, l'a connectée chez lui et surprise... tout a fonctionné parfaitement",
+          "link": "https://www.jeuxvideo.com/news/2044883/il-y-a-un-an-un-chanceux-a-achete-une-ps4-pour-moins-de-5-euros-dans-une-friperie-l-a-connectee-chez-lui-et-surprise-tout-a-fonctionne-parfaitement.htm",
+          "pubDate": "Sun, 23 Nov 2025 10:31:07 +0100",
+          "description": "Un joueur raconte comment, dans une friperie, il a mis la main sur une PS4 pour même pas 5 € et surtout : elle fonctionne parfaitement. Une histoire improbable, presque magique, qui rappelle que les trésors se cachent parfois là où on ne les attend pas.",
+          "content": "Un joueur raconte comment, dans une friperie, il a mis la main sur une PS4 pour même pas 5 € et surtout : elle fonctionne parfaitement. Une histoire improbable, presque magique, qui rappelle que les trésors se cachent parfois là où on ne les attend pas.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176340/1763397117-6674-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Cette série culte de SF est relancée par Amazon pour le plus grand plaisir des fans : la franchise a déjà un long métrage et plusieurs séries en stock",
+          "link": "https://www.jeuxvideo.com/news/2046320/cette-serie-culte-de-sf-est-relancee-par-amazon-pour-le-plus-grand-plaisir-des-fans-la-franchise-a-deja-un-long-metrage-et-plusieurs-series-en-stock.htm",
+          "pubDate": "Sun, 23 Nov 2025 09:22:09 +0100",
+          "description": "Près de trente ans après le film culte de Roland Emmerich, cette franchise s’apprête à faire son grand retour. Amazon commande une nouvelle série ambitieuse, portée par des vétérans.",
+          "content": "Près de trente ans après le film culte de Roland Emmerich, cette franchise s’apprête à faire son grand retour. Amazon commande une nouvelle série ambitieuse, portée par des vétérans.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176374/1763741590-1215-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Il y a 15 ans, c'est la dernière fois qu'une exclu Xbox était nommée pour le prix de jeu de l'année : elle est notée 18/20",
+          "link": "https://www.jeuxvideo.com/news/2045468/il-y-a-15-ans-c-est-la-derniere-fois-qu-une-exclu-xbox-etait-nommee-pour-le-prix-de-jeu-de-l-annee-elle-est-notee-18-20.htm",
+          "pubDate": "Sun, 23 Nov 2025 08:35:09 +0100",
+          "description": "Depuis plus d’une décennie, les exclusivités Xbox brillent par leur absence dans la catégorie la plus prestigieuse des Game Awards. Un constant qu’il faut malgré tout mettre en perspective…",
+          "content": "Depuis plus d’une décennie, les exclusivités Xbox brillent par leur absence dans la catégorie la plus prestigieuse des Game Awards. Un constant qu’il faut malgré tout mettre en perspective…",
+          "image": "https://image.jeuxvideo.com/medias-lg/176357/1763565409-6654-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        },
+        {
+          "title": "Star Wars : Tout le monde s'est moqué de cette série, mais elle bat des records... sur ce point précis",
+          "link": "https://www.jeuxvideo.com/news/2045890/star-wars-tout-le-monde-s-est-moque-de-cette-serie-mais-elle-bat-des-records-sur-ce-point-precis.htm",
+          "pubDate": "Sun, 23 Nov 2025 07:44:09 +0100",
+          "description": "Une production récente issue de l'univers Star Wars, qui avait initialement suscité des doutes pour une partie du public, vient de réaliser une performance historique pour la licence.",
+          "content": "Une production récente issue de l'univers Star Wars, qui avait initialement suscité des doutes pour une partie du public, vient de réaliser une performance historique pour la licence. ",
+          "image": "https://image.jeuxvideo.com/medias-lg/176366/1763657876-894-card.jpg",
+          "categories": [
+            "News culture"
+          ]
+        },
+        {
+          "title": "Ghost of Yotei : une fonctionnalité attendue depuis longtemps par les fans arrive avec la dernière mise à jour !",
+          "link": "https://www.jeuxvideo.com/news/2045840/ghost-of-yotei-une-fonctionnalite-attendue-depuis-longtemps-par-les-fans-arrive-avec-la-derniere-mise-a-jour.htm",
+          "pubDate": "Sun, 23 Nov 2025 06:52:11 +0100",
+          "description": "Une mise à jour gratuite majeure est sur le point de transformer l'expérience de jeu pour les propriétaires de Ghost of Yotei. Non seulement elle introduit un mode qui permet de revivre l'aventure d'Atsu en affrontant de nouveaux défis, mais elle apporte également une quantité impressionnante de contenus.",
+          "content": "Une mise à jour gratuite majeure est sur le point de transformer l'expérience de jeu pour les propriétaires de Ghost of Yotei. Non seulement elle introduit un mode qui permet de revivre l'aventure d'Atsu en affrontant de nouveaux défis, mais elle apporte également une quantité impressionnante de contenus.",
+          "image": "https://image.jeuxvideo.com/medias-lg/176365/1763653391-4303-card.jpg",
+          "categories": [
+            "News jeu"
+          ]
+        }
+      ]
+    },
+    "sante": {
+      "feed": "Santé",
+      "lastUpdate": "2025-11-24T01:49:49.746Z",
+      "itemCount": 15,
+      "items": [
+        {
+          "title": "Bretagne : un homme plongé dans un coma végétatif depuis 20 ans est mort ce dimanche",
+          "link": "https://www.franceinfo.fr/societe/euthanasie/bretagne-un-homme-plonge-dans-un-coma-vegetatif-depuis-20-ans-est-mort-ce-dimanche_7635299.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 22:04:21 +0100",
+          "description": "Cet homme a été placé dans le coma après un accident de scooter survenu en 2005. L'homme est décédé, dimanche apprend ICI Armorique. Sa famille demandait à pouvoir mettre fin à ses souffrances plus tôt.",
+          "content": "Cet homme a été placé dans le coma après un accident de scooter survenu en 2005. L'homme est décédé, dimanche apprend ICI Armorique. Sa famille demandait à pouvoir mettre fin à ses souffrances plus tôt.",
+          "image": "https://www.franceinfo.fr/pictures/kHCqNG23XBTBA-alJc7E0RTSo1c/0x224:4300x2643/432x243/filters:format(jpg)/2025/11/23/maxnewsfrfive954741-692375bd64265737022237.jpg",
+          "categories": []
+        },
+        {
+          "title": "Mouvement \"Movember\" : porter la moustache pour sensibiliser aux cancers de la prostate et des testicules",
+          "link": "https://www.franceinfo.fr/sante/cancer/mouvement-movember-porter-la-moustache-pour-sensibiliser-aux-cancers-de-la-prostate-et-des-testicules_7634987.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 14:53:14 +0100",
+          "description": "Le \"Movember\" est une campagne de prévention contre les cancers qui touchent les hommes : celui de la prostate, mais aussi celui des testicules. Plus tabou, il est par conséquent pris en charge plus tardivement.",
+          "content": "Le \"Movember\" est une campagne de prévention contre les cancers qui touchent les hommes : celui de la prostate, mais aussi celui des testicules. Plus tabou, il est par conséquent pris en charge plus tardivement.",
+          "image": "https://www.franceinfo.fr/pictures/ZeNch6OJbvIyeZdFqHBPBd_VSRY/0x71:799x521/432x243/filters:format(jpg)/2025/11/23/moustache-6923119835aea015498486.png",
+          "categories": []
+        },
+        {
+          "title": "Les sénateurs rétablissent la vaccination obligatoire contre la grippe pour les soignants",
+          "link": "https://www.franceinfo.fr/sante/maladie/grippe/les-senateurs-retablissent-la-vaccination-obligatoire-contre-la-grippe-pour-les-soignants_7634909.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 13:26:05 +0100",
+          "description": "Cette mesure avait été écartée par les députés lors de l'examen en première lecture du budget de la Sécurité sociale pour 2026.",
+          "content": "Cette mesure avait été écartée par les députés lors de l'examen en première lecture du budget de la Sécurité sociale pour 2026.",
+          "image": "https://www.franceinfo.fr/pictures/apv0BkvDPUGvGPts1NG7VtFLPPA/0x0:1024x575/432x243/filters:format(jpg)/2025/11/23/063-2217713933-6922fcdc703ff746387301.jpg",
+          "categories": []
+        },
+        {
+          "title": "Un premier foyer de grippe aviaire détecté en Haute-Vienne",
+          "link": "https://www.franceinfo.fr/sante/maladie/grippe-aviaire/un-premier-foyer-de-grippe-aviaire-detecte-en-haute-vienne_7634864.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 12:16:11 +0100",
+          "description": "Le \"foyer d’influenza aviaire hautement pathogène\", a été confirmé vendredi.",
+          "content": "Le \"foyer d’influenza aviaire hautement pathogène\", a été confirmé vendredi.",
+          "image": "https://www.franceinfo.fr/pictures/FlhD5gpWV7VqPKVscZF04OC9gBU/0x486:5184x3402/432x243/filters:format(jpg)/2018/02/21/phpA76i5P_1.jpg",
+          "categories": []
+        },
+        {
+          "title": "Projections, intoxications, irritations, quels sont les produits ménagers à ne surtout pas mélanger ?",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante/projections-intoxications-irritations-quels-sont-les-produits-menagers-a-ne-surtout-pas-melanger_7605071.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 10:00:03 +0100",
+          "description": "Sur les réseaux sociaux, on retrouve de nombreux conseils sur le ménage, tous ne sont pas forcément exacts et certains peuvent même s'avérer dangereux.",
+          "content": "Sur les réseaux sociaux, on retrouve de nombreux conseils sur le ménage, tous ne sont pas forcément exacts et certains peuvent même s'avérer dangereux.",
+          "image": "https://www.franceinfo.fr/pictures/4q471w3WvSsQv2yvfD-Ypb6egl0/0x262:5040x3097/432x243/filters:format(jpg)/2025/11/19/menage-691dab7a73b55520840067.jpg",
+          "categories": []
+        },
+        {
+          "title": "Médicaments GLP-1 contre l'obésité : \"Ils ne sont pas faits pour de l'esthétique\" prévient le professeur Sébastien Czernichow",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante-conseils/medicaments-glp-1-contre-l-obesite-ils-ne-sont-pas-faits-pour-de-l-esthetique-previent-le-professeur-sebastien-czernichow_7605023.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 10:00:01 +0100",
+          "description": "Pour lutter contre l'obésité, de nouveaux médicaments agissant directement sur le cerveau en réduisant la sensation de faim sont mis en vente en pharmacie. Disponibles essentiellement sur prescription d'un médecin, ils ne sont, pour l'instant, pas encore remboursés par l'Assurance maladie.",
+          "content": "Pour lutter contre l'obésité, de nouveaux médicaments agissant directement sur le cerveau en réduisant la sensation de faim sont mis en vente en pharmacie. Disponibles essentiellement sur prescription d'un médecin, ils ne sont, pour l'instant, pas encore remboursés par l'Assurance maladie.",
+          "image": "https://www.franceinfo.fr/pictures/eqV8prV8v_dvf9s6aH_DgFfb6vk/0x68:2124x1262/432x243/filters:format(jpg)/2025/11/21/gettyimages-1572910532-6920783f0ca26449305510.jpg",
+          "categories": []
+        },
+        {
+          "title": "À quoi va servir la première charte d'engagement pour la santé mentale au travail ?",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-mon-boulot/a-quoi-va-servir-la-premiere-charte-d-engagement-pour-la-sante-mentale-au-travail_7605077.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 08:00:02 +0100",
+          "description": "Elle avait été annoncée à la fin du mois d'août. Elle a franchi une première étape cette semaine. La première charte pour la santé mentale au travail a été signée par 150 entreprises. À quoi s'engagent-elles ?",
+          "content": "Elle avait été annoncée à la fin du mois d'août. Elle a franchi une première étape cette semaine. La première charte pour la santé mentale au travail a été signée par 150 entreprises. À quoi s'engagent-elles ?",
+          "image": "https://www.franceinfo.fr/pictures/AcWynmOR9ATGURtHNlR87Cle-sY/0x110:2120x1303/432x243/filters:format(jpg)/2025/11/20/gettyimages-2182120567-691ef2f248814812764341.jpg",
+          "categories": []
+        },
+        {
+          "title": "Course à pied : comment des chercheurs français tentent de diagnostiquer la cause des arrêts cardiaques chez les jeunes sportifs",
+          "link": "https://www.franceinfo.fr/sante/sport-et-sante/course-a-pied-comment-des-chercheurs-francais-tentent-de-diagnostiquer-la-cause-des-arrets-cardiaques-chez-les-jeunes-sportifs_7480207.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 07:02:38 +0100",
+          "description": "Un programme de recherches a été lancé par les cardiologues François Carré et Xavier Jouven pour tenter d'apporter des réponses aux coureurs de moins de 35 ans victimes d'accidents cardiaques et à leurs familles.",
+          "content": "Un programme de recherches a été lancé par les cardiologues François Carré et Xavier Jouven pour tenter d'apporter des réponses aux coureurs de moins de 35 ans victimes d'accidents cardiaques et à leurs familles.",
+          "image": "https://www.franceinfo.fr/pictures/TY6W1fVmhodYNEjAaeN4v214_p8/0x18:1600x918/432x243/filters:format(jpg)/2025/09/08/whatsapp-image-2025-09-07-at-18-19-02-68be975834c3e143659662.jpg",
+          "categories": []
+        },
+        {
+          "title": "Les prothèses mammaires en silicone peuvent déclencher des maladies auto-immunes, selon une étude",
+          "link": "https://www.franceinfo.fr/sante/les-protheses-mammaires-en-silicone-peuvent-declencher-des-maladies-auto-immunes-selon-une-etude_7631558.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 06:15:29 +0100",
+          "description": "Le docteur Isabelle Pluvy, qui a mené l'étude, appelle à \"réaliser un suivi régulier de ces implants pour dépister une éventuelle évolution vers ce type de maladies\".",
+          "content": "Le docteur Isabelle Pluvy, qui a mené l'étude, appelle à \"réaliser un suivi régulier de ces implants pour dépister une éventuelle évolution vers ce type de maladies\".",
+          "image": "https://www.franceinfo.fr/pictures/k4FOb8VM7XGWLGR15W-z87m7iSM/0x219:4256x2613/432x243/filters:format(jpg)/2019/04/03/phpuzMtLL.jpg",
+          "categories": []
+        },
+        {
+          "title": "Olives : les particuliers produisent eux-mêmes leur huile",
+          "link": "https://www.franceinfo.fr/sante/alimentation/olives-les-particuliers-produisent-eux-memes-leur-huile_7633520.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 22:56:46 +0100",
+          "description": "La saison de la récolte d'olives est lancée ! Les cultures s'annoncent exceptionnelles et les moulins se retrouvent pris d'assaut par des centaines de particuliers qui apportent les fruits de leurs arbres afin de les transformer en huile. Une grande partie de la production d'huile en Provence et dans l'Hérault provient désormais d'oléiculteurs familiaux et amateurs.",
+          "content": "La saison de la récolte d'olives est lancée ! Les cultures s'annoncent exceptionnelles et les moulins se retrouvent pris d'assaut par des centaines de particuliers qui apportent les fruits de leurs arbres afin de les transformer en huile. Une grande partie de la production d'huile en Provence et dans l'Hérault provient désormais d'oléiculteurs familiaux et amateurs.",
+          "image": "https://www.franceinfo.fr/pictures/WbWgLvgCCFbrl1POZrvNb6EXx6Q/0x0:1679x945/432x243/filters:format(jpg)/2025/11/22/olive-69223106e901b183718703.jpg",
+          "categories": []
+        },
+        {
+          "title": "Budget 2026 : face au risque d'une Sécu exsangue, le Sénat vote un transfert de 15 milliards de dette",
+          "link": "https://www.franceinfo.fr/economie/budget/budget-2026-face-au-risque-d-une-secu-exsangue-le-senat-vote-un-transfert-de-15-milliards-de-dette_7633469.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 21:02:57 +0100",
+          "description": "La mesure, très technique mais qui met en jeu un montant extrêmement important, a été votée très largement dans le cadre de l'examen du projet de budget de la Sécurité sociale pour 2026.",
+          "content": "La mesure, très technique mais qui met en jeu un montant extrêmement important, a été votée très largement dans le cadre de l'examen du projet de budget de la Sécurité sociale pour 2026.",
+          "image": "https://www.franceinfo.fr/pictures/57fW73FwNuf5u5GnsSdybXB_J34/0x0:5000x2811/432x243/filters:format(jpg)/2025/11/22/080-hl-bandre-2964712-692216ab3c89b743785866.jpg",
+          "categories": []
+        },
+        {
+          "title": "Cocaïne : des labos clandestins au cœur de l'Europe",
+          "link": "https://www.franceinfo.fr/sante/drogue-addictions/cocaine/cocaine-des-labos-clandestins-au-c-ur-de-l-europe_7628945.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 15:00:02 +0100",
+          "description": "Les labos clandestins de drogues se multiplient en Europe, et la Belgique est en première ligne. Des dizaines ont été démantelés ces dernières années… et nous avons pu filmer à l’intérieur de l’un d’eux.",
+          "content": "Les labos clandestins de drogues se multiplient en Europe, et la Belgique est en première ligne. Des dizaines ont été démantelés ces dernières années… et nous avons pu filmer à l’intérieur de l’un d’eux.",
+          "image": "https://www.franceinfo.fr/pictures/qXsZNBtpeRrdNDPHms8ynatrTPA/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/20/251119-labos-clandestins-shuffle-691f366238b18928613099.jpg",
+          "categories": []
+        },
+        {
+          "title": "Sicile : sur les pentes de l'Etna, une pistache qui vaut de l'or",
+          "link": "https://www.franceinfo.fr/monde/italie/sicile-sur-les-pentes-de-l-etna-une-pistache-qui-vaut-de-l-or_7633118.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 14:40:05 +0100",
+          "description": "Direction la Sicile et les terres volcaniques de l'Etna pour la récolte de la pistache de Bronte. Un kilo décortiqué peut avoisiner les 100 euros. Aussi, le fruit donne des idées à certains fraudeurs...",
+          "content": "Direction la Sicile et les terres volcaniques de l'Etna pour la récolte de la pistache de Bronte. Un kilo décortiqué peut avoisiner les 100 euros. Aussi, le fruit donne des idées à certains fraudeurs...",
+          "image": "https://www.franceinfo.fr/pictures/Nt4v3wsY8voSB_iCcdWwXS9HvIo/0x40:730x451/432x243/filters:format(jpg)/2025/11/22/etna-6921bd06eef01116697929.png",
+          "categories": []
+        },
+        {
+          "title": "D'où vient la parurésie, l'impossibilité d'uriner en public ?",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante/d-ou-vient-la-paruresie-l-impossibilite-d-uriner-en-public_7603196.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 10:00:03 +0100",
+          "description": "Urinophobie, syndrome de la vessie timide... Certaines personnes se retrouvent incapables d’uriner dès qu’elles ne sont pas seules, ou en cas de stress. Un trouble d’origine psychologique, qui peut devenir handicapant au quotidien.",
+          "content": "Urinophobie, syndrome de la vessie timide... Certaines personnes se retrouvent incapables d’uriner dès qu’elles ne sont pas seules, ou en cas de stress. Un trouble d’origine psychologique, qui peut devenir handicapant au quotidien.",
+          "image": "https://www.franceinfo.fr/pictures/X2DSVy5rbr2fgwRmmqNmJkwxYm8/50x0:2164x1189/432x243/filters:format(jpg)/2025/11/19/gettyimages-sb10069997a-003-691da66304e14503131360.jpg",
+          "categories": []
+        },
+        {
+          "title": "Amour : quel effet sur notre santé ?",
+          "link": "https://www.franceinfo.fr/sante/amour-quel-effet-sur-notre-sante_7631543.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Fri, 21 Nov 2025 22:30:01 +0100",
+          "description": "Alors concrètement Quel est l’impact de l’état amoureux sur notre santé ? Les réponses du docteur Jimmy Mohamed.",
+          "content": "Alors concrètement Quel est l’impact de l’état amoureux sur notre santé ? Les réponses du docteur Jimmy Mohamed.",
+          "image": "https://www.franceinfo.fr/pictures/XDQvPDmMjW7z9X2bIBuFDUeEkoE/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/21/251121-chronique-jimmy-shuffle-6920cd62082d4537561858.jpg",
+          "categories": []
+        }
+      ]
+    },
+    "sciences": {
+      "feed": "Sciences",
+      "lastUpdate": "2025-11-24T01:49:49.708Z",
+      "itemCount": 15,
+      "items": [
+        {
+          "title": "Médicaments GLP-1 contre l'obésité : \"Ils ne sont pas faits pour de l'esthétique\" prévient le professeur Sébastien Czernichow",
+          "link": "https://www.franceinfo.fr/replay-radio/c-est-ma-sante-conseils/medicaments-glp-1-contre-l-obesite-ils-ne-sont-pas-faits-pour-de-l-esthetique-previent-le-professeur-sebastien-czernichow_7605023.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sun, 23 Nov 2025 10:00:01 +0100",
+          "description": "Pour lutter contre l'obésité, de nouveaux médicaments agissant directement sur le cerveau en réduisant la sensation de faim sont mis en vente en pharmacie. Disponibles essentiellement sur prescription d'un médecin, ils ne sont, pour l'instant, pas encore remboursés par l'Assurance maladie.",
+          "content": "Pour lutter contre l'obésité, de nouveaux médicaments agissant directement sur le cerveau en réduisant la sensation de faim sont mis en vente en pharmacie. Disponibles essentiellement sur prescription d'un médecin, ils ne sont, pour l'instant, pas encore remboursés par l'Assurance maladie.",
+          "image": "https://www.franceinfo.fr/pictures/eqV8prV8v_dvf9s6aH_DgFfb6vk/0x68:2124x1262/432x243/filters:format(jpg)/2025/11/21/gettyimages-1572910532-6920783f0ca26449305510.jpg",
+          "categories": []
+        },
+        {
+          "title": "Narcotrafic : les autorités alertent sur l'utilisation d'un système d'exploitation de téléphone pour échapper aux forces de l'ordre",
+          "link": "https://www.franceinfo.fr/faits-divers/narcotrafic-les-autorites-alertent-sur-l-utilisation-d-un-systeme-d-exploitation-de-telephone-pour-echapper-aux-forces-de-l-ordre_7631510.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Sat, 22 Nov 2025 06:00:02 +0100",
+          "description": "Ce dispositif permet d'assurer un haut niveau de confidentialité et de protection contre les intrusions. Selon les renseignements criminels, il intéresse les trafiquants de drogue en quête constante de nouvelles technologies.",
+          "content": "Ce dispositif permet d'assurer un haut niveau de confidentialité et de protection contre les intrusions. Selon les renseignements criminels, il intéresse les trafiquants de drogue en quête constante de nouvelles technologies.",
+          "image": "https://www.franceinfo.fr/pictures/HO13OkDSo63E6xNPsr1p_94WXzk/0x257:4950x3042/432x243/filters:format(jpg)/2025/11/21/telephone-6920ceca06fb7400487303.jpg",
+          "categories": []
+        },
+        {
+          "title": "REPORTAGE. Résistance aux antibiotiques : la France mise sur les phages, véritables tueurs de bactéries",
+          "link": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/pour-contrer-la-resistance-aux-antibiotiques-la-france-mise-sur-phages-veritables-tueurs-de-bacteries_7598537.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 12:41:53 +0100",
+          "description": "Avec le risque d'augmentation des bactéries résistantes aux antibiotiques, les phages, virus capables de détruire ces bactéries, sont porteurs d'espoir. En France, une équipe de chercheurs les fabriquent à Lyon, dans une unité unique au monde.",
+          "content": "Avec le risque d'augmentation des bactéries résistantes aux antibiotiques, les phages, virus capables de détruire ces bactéries, sont porteurs d'espoir. En France, une équipe de chercheurs les fabriquent à Lyon, dans une unité unique au monde.",
+          "image": "https://www.franceinfo.fr/pictures/WIf_-JrgC-QeGUa6e0DfYl6fmq0/464x0:7896x4180/432x243/filters:format(jpg)/2025/11/20/gettyimages-1155266154-691ec18f1517a158331062.jpg",
+          "categories": []
+        },
+        {
+          "title": "En Grèce, des scientifiques découvrent une toile d'araignée géante de 106 m2 dans une grotte",
+          "link": "https://www.franceinfo.fr/environnement/biodiversite/animaux/en-grece-des-scientifques-decouvrent-une-toile-d-araignee-geante-de-106-m2-dans-une-grotte_7628456.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 10:44:43 +0100",
+          "description": "Plus de 100 000 spécimens vivaient dans la \"Sulfur Cave\" à la frontière avec l'Albanie.",
+          "content": "Plus de 100 000 spécimens vivaient dans la \"Sulfur Cave\" à la frontière avec l'Albanie.",
+          "image": "https://www.franceinfo.fr/pictures/3qUnTzR6oucrTL28u_7TPCVBy-I/0x1574:3664x3631/432x243/filters:format(jpg)/2025/11/20/043-dpa-pa-250907-99-947162-dpai-691edc079b528933128430.jpg",
+          "categories": []
+        },
+        {
+          "title": "Vrai ou faux. 3IAtlas, l’étrange comète interstellaire est-elle un vaisseau extraterrestre ?",
+          "link": "https://www.franceinfo.fr/replay-radio/le-vrai-du-faux/vrai-ou-faux-3iatlas-l-etrange-comete-interstellaire-est-elle-un-vaisseau-extraterrestre_7598552.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 09:42:06 +0100",
+          "description": "Découverte l’été, la comète interstellaire 3I/Atlas intrigue autant qu’elle alimente les spéculations. Sa trajectoire atypique et plusieurs anomalies relevées par un astrophysicien controversé ont déclenché un flot de spéculations sur les réseaux sociaux. La Nasa a dû intervenir pour écarter tout scénario extraterrestre ou risque de collision avec la Terre.",
+          "content": "Découverte l’été, la comète interstellaire 3I/Atlas intrigue autant qu’elle alimente les spéculations. Sa trajectoire atypique et plusieurs anomalies relevées par un astrophysicien controversé ont déclenché un flot de spéculations sur les réseaux sociaux. La Nasa a dû intervenir pour écarter tout scénario extraterrestre ou risque de collision avec la Terre.",
+          "image": "https://www.franceinfo.fr/pictures/RKh6JosbEvfpdjpPZsrhnehkq5g/0x0:1920x1079/432x243/filters:format(jpg)/2025/11/20/atlas-691ed392bbe87895884715.jpg",
+          "categories": []
+        },
+        {
+          "title": "On vous explique la polémique sur la vente de la Pascaline, première machine à calculer de l'histoire, inventée par Blaise Pascal",
+          "link": "https://www.franceinfo.fr/culture/patrimoine/on-vous-explique-la-polemique-sur-la-vente-de-la-pascaline-premiere-machine-a-calculer-de-l-histoire-inventee-par-blaise-pascal_7626353.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Thu, 20 Nov 2025 05:53:03 +0100",
+          "description": "La société britannique Christie's a décidé, mercredi, de suspendre la mise aux enchères de l'objet à Paris, après une décision du tribunal administratif.",
+          "content": "La société britannique Christie's a décidé, mercredi, de suspendre la mise aux enchères de l'objet à Paris, après une décision du tribunal administratif.",
+          "image": "https://www.franceinfo.fr/pictures/bC0nRYGgIZYVG_lE_E1TsboS5Wc/0x53:1024x629/432x243/filters:format(jpg)/2025/11/19/000-747k7zq-691dc175dff9b593198310.jpg",
+          "categories": []
+        },
+        {
+          "title": "Le premier baiser pourrait remonter à 21 millions d'années, selon une étude britannique",
+          "link": "https://www.franceinfo.fr/sciences/le-premier-baiser-pourrait-remonter-a-21-millions-d-annees-selon-une-etude-britannique_7627244.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 22:42:32 +0100",
+          "description": "Cette étude, présentée comme la première sur l'histoire évolutive du baiser, est parue dans la revue spécialisée britannique \"Evolution and Human Behaviour\".",
+          "content": "Cette étude, présentée comme la première sur l'histoire évolutive du baiser, est parue dans la revue spécialisée britannique \"Evolution and Human Behaviour\".",
+          "image": "https://www.franceinfo.fr/pictures/yY6-_EC1LmdHK5P5VAKyGDY_jWM/0x74:1024x649/432x243/filters:format(jpg)/2025/11/19/068-aa-07082025-2361537-691e349d3340e227305566.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"Les momies participaient de cette proximité, cette habitude de la mort qu'on a complètement oubliée\", pointe Philippe Charlier, anthropologue au comité scientifique de l'exposition \"Momies\"",
+          "link": "https://www.franceinfo.fr/culture/arts-expos/les-momies-participaient-de-cette-proximite-cette-habitude-de-la-mort-qu-on-a-completement-oubliee-pointe-philippe-charlier-anthropologue-au-comite-scientifique-de-l-exposition-momies_7626704.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 14:50:10 +0100",
+          "description": "L'exposition \"Momies\" ouvre ses portes ce mercredi 19 novembre au Musée de l'Homme à Paris. Membre du comité scientifique de l'événement, qui propose de retracer à travers l'histoire d'individus momifiés la diversité de cette pratique répandue sur le globe, le médecin légiste et scientifique Philippe Charlier livre son expertise sur le sujet dans le \"11/13\" de franceinfo.",
+          "content": "L'exposition \"Momies\" ouvre ses portes ce mercredi 19 novembre au Musée de l'Homme à Paris. Membre du comité scientifique de l'événement, qui propose de retracer à travers l'histoire d'individus momifiés la diversité de cette pratique répandue sur le globe, le médecin légiste et scientifique Philippe Charlier livre son expertise sur le sujet dans le \"11/13\" de franceinfo.",
+          "image": "https://www.franceinfo.fr/pictures/wacXINfLQObgl_vDPJ58QRafrZY/0x2:1358x766/432x243/filters:format(jpg)/2025/11/19/invite-1113-1911-691dca6a59b19579451638.jpg",
+          "categories": []
+        },
+        {
+          "title": "REPORTAGE. \"Elles ont toujours suscité beaucoup de fascination\" : les mystères des momies dévoilés au musée de l'Homme à Paris",
+          "link": "https://www.franceinfo.fr/culture/arts-expos/elles-ont-toujours-suscite-beaucoup-de-fascination-les-mysteres-des-momies-devoiles-au-musee-de-l-homme-a-paris_7624646.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 08:40:40 +0100",
+          "description": "De l'Égypte à l'Amérique du Sud en passant par Strasbourg, des momies de tous les continents se dévoilent dans une exposition au musée de l'Homme, à partir de mercredi.",
+          "content": "De l'Égypte à l'Amérique du Sud en passant par Strasbourg, des momies de tous les continents se dévoilent dans une exposition au musée de l'Homme, à partir de mercredi.",
+          "image": "https://www.franceinfo.fr/pictures/dvlgzbvBq1Tt3_FmPA3wgJyJp3Q/0x322:6192x3805/432x243/filters:format(jpg)/2025/11/18/momies-691ca6e8405e4258126976.jpg",
+          "categories": []
+        },
+        {
+          "title": "Vente de la Pascaline suspendue : \"La justice a été extrêmement efficace\", se félicite la directrice du centre international Blaise Pascal",
+          "link": "https://www.franceinfo.fr/culture/patrimoine/vente-de-la-pascaline-suspendue-la-justice-a-ete-extremement-efficace-se-felicite-la-directrice-du-centre-international-blaise-pascal_7626101.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 07:27:30 +0100",
+          "description": "\"Premier calculateur fonctionnel de l'histoire de l'humanité\", la machine inventée par Blaise Pascal \"a une valeur scientifique absolument primordiale\", souligne Laurence Plazenet.",
+          "content": "\"Premier calculateur fonctionnel de l'histoire de l'humanité\", la machine inventée par Blaise Pascal \"a une valeur scientifique absolument primordiale\", souligne Laurence Plazenet.",
+          "image": "https://www.franceinfo.fr/pictures/ZN2CfJ7qY1J0SDgVHSZ49FrKpOQ/0x583:5600x3731/432x243/filters:format(jpg)/2025/11/18/pascaline-691c96a77aed4239734704.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"On leur a demandé d'inventer une combinaison d'astronaute à enfiler en deux minutes\"... Comment Decathlon s'investit dans un projet spatial français",
+          "link": "https://www.franceinfo.fr/sports/on-leur-a-demande-d-inventer-une-combinaison-d-astronaute-a-enfiler-en-deux-minutes-comment-decathlon-s-investit-dans-un-projet-spatial-francais_7623908.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Wed, 19 Nov 2025 06:00:15 +0100",
+          "description": "Reconnue pour ses compétences en design et ergonomie, l'entreprise nordiste a été sollicitée par le Centre national d'études spatiales pour développer une combinaison spatiale, avec la start-up Spartan Space. Le prototype sera testé dans la station internationale début 2026.",
+          "content": "Reconnue pour ses compétences en design et ergonomie, l'entreprise nordiste a été sollicitée par le Centre national d'études spatiales pour développer une combinaison spatiale, avec la start-up Spartan Space. Le prototype sera testé dans la station internationale début 2026.",
+          "image": "https://www.franceinfo.fr/pictures/6IWHiidW5AOzSRE6GlZOM_5x5II/0x92:3840x2250/432x243/filters:format(jpg)/2025/11/18/01-without-patch-2-691c6bfeb9925315032533.png",
+          "categories": []
+        },
+        {
+          "title": "EuroSuit, le prototype de combinaison spatiale conçue avec Decathlon",
+          "link": "https://www.franceinfo.fr/sciences/espace/eurosuit-le-prototype-de-combinaison-spatiale-concue-avec-decathlon_7624751.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Tue, 18 Nov 2025 19:20:05 +0100",
+          "description": "Decathlon dévoile sa dernière combinaison et ce n'est pas pour faire du surf. Mais pour aller dans l'espace !",
+          "content": "Decathlon dévoile sa dernière combinaison et ce n'est pas pour faire du surf. Mais pour aller dans l'espace !",
+          "image": "https://www.franceinfo.fr/pictures/vzu9Gr1Nja3D6mS6zEH3S5zWv-E/0x546:900x1053/432x243/filters:format(jpg)/2025/11/18/whatsapp-image-2025-11-18-at-16-03-11-691cb876e9388119727076.jpg",
+          "categories": []
+        },
+        {
+          "title": "\"La chute d'Icare\" : un parachutiste devant le soleil pour la photo de l'année",
+          "link": "https://www.franceinfo.fr/culture/arts-expos/photographie/la-chute-d-icare-un-parachutiste-devant-le-soleil-pour-la-photo-de-l-annee_7624457.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Tue, 18 Nov 2025 16:38:35 +0100",
+          "description": "Andrew McCarthy, astrophotographe américain, a réalisé une photo époustouflante lorsque son ami, Gabriel Brown, parachutiste, est passé devant le soleil. Une chute libre gravée à jamais.",
+          "content": "Andrew McCarthy, astrophotographe américain, a réalisé une photo époustouflante lorsque son ami, Gabriel Brown, parachutiste, est passé devant le soleil. Une chute libre gravée à jamais.",
+          "image": "https://www.franceinfo.fr/pictures/shep0ZuEtRgaiFDfO0wMgOCslL0/0x0:1020x573/432x243/filters:format(jpg)/2025/11/18/photographie-soleil-8h-1811-2-691c925e821e4572134563.jpg",
+          "categories": []
+        },
+        {
+          "title": "Les Chinois dévoilent leurs lunettes dopées à l'IA",
+          "link": "https://www.franceinfo.fr/monde/chine/les-chinois-devoilent-leurs-lunettes-dopees-a-l-ia_7624343.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Tue, 18 Nov 2025 15:05:21 +0100",
+          "description": "👓🇨🇳 À Hangzhou, capitale de l’IA en Chine, l'entreprise Rokid a présenté ses dernières lunettes. Son but : en faire un nouvel outil pour remplacer les smartphones.",
+          "content": "👓🇨🇳 À Hangzhou, capitale de l’IA en Chine, l'entreprise Rokid a présenté ses dernières lunettes. Son but : en faire un nouvel outil pour remplacer les smartphones.",
+          "image": "https://www.franceinfo.fr/pictures/Qwy28wZ-k5QkQDk6_uTbIPkqOXc/0x0:1080x1920/fit-in/432x243/filters:upscale():fill(black):format(jpg)/2025/11/18/shuffle-691c7c607bfbf203728703.jpg",
+          "categories": []
+        },
+        {
+          "title": "Les patrons de la Tech' investissent de plus en plus dans l'ingénierie génétique, pour créer des bébés génétiquement modifiés",
+          "link": "https://www.franceinfo.fr/replay-radio/bientot-chez-vous/les-patrons-de-la-tech-investissent-de-plus-en-plus-dans-l-ingenierie-genetique-pour-creer-des-bebes-genetiquement-modifies_7594115.html#xtor=RSS-3-%5Bgeneral%5D",
+          "pubDate": "Tue, 18 Nov 2025 13:56:33 +0100",
+          "description": "Aux États-Unis, certains patrons de la tech semblent prêts à flirter avec l'eugénisme, à se servir de la génétique pour améliorer l'espèce humaine. C'est le cas de Sam Altman, le patron fondateur d'Open AI, l'un des mastodontes de l'intelligence artificielle.",
+          "content": "Aux États-Unis, certains patrons de la tech semblent prêts à flirter avec l'eugénisme, à se servir de la génétique pour améliorer l'espèce humaine. C'est le cas de Sam Altman, le patron fondateur d'Open AI, l'un des mastodontes de l'intelligence artificielle.",
+          "image": "https://www.franceinfo.fr/pictures/zFD0zPnWWke0Yt_ZHE4x-a2vhko/0x110:2121x1304/432x243/filters:format(jpg)/2025/11/18/adn-691c4f8893ea2763718208.jpg",
+          "categories": []
+        }
+      ]
+    },
+    "litterature": {
+      "feed": "Littérature",
+      "lastUpdate": "2025-11-24T01:49:49.841Z",
+      "itemCount": 4,
+      "items": [
+        {
+          "title": "Dans « Energies et inégalités », Lucas Chancel interroge : « Qui a le pouvoir sur la puissance ? »",
+          "link": "https://www.nouvelobs.com/bibliobs/20251123.OBS110025/dans-energies-et-inegalites-lucas-chancel-interroge-qui-a-le-pouvoir-sur-la-puissance.html",
+          "pubDate": "Sun, 23 Nov 2025 16:30:14 +0100",
+          "description": "Faut-il privatiser ? Nationaliser ? Imaginer des coopératives ? A l’heure de la lutte contre le réchauffement climatique, l’économiste Lucas Chancel montre, dans son premier grand livre, que l’énergie est d’abord une question de pouvoir.",
+          "content": "Faut-il privatiser ? Nationaliser ? Imaginer des coopératives ? A l’heure de la lutte contre le réchauffement climatique, l’économiste Lucas Chancel montre, dans son premier grand livre, que l’énergie est d’abord une question de pouvoir.",
+          "image": "https://focus.nouvelobs.com/2025/11/17/48/0/5472/2736/640/320/60/0/de0ca4a_upload-1-jfhbx6hml2y1-091-i1754214683312.jpg",
+          "categories": [
+            "BibliObs"
+          ]
+        },
+        {
+          "title": "Margaret Atwood, icône des temps modernes : « Si un nouveau totalitarisme devait voir le jour aux Etats-Unis… »",
+          "link": "https://www.nouvelobs.com/bibliobs/20251122.OBS110009/margaret-atwood-icone-des-temps-modernes-si-un-nouveau-totalitarisme-devait-voir-le-jour-aux-etats-unis.html",
+          "pubDate": "Sat, 22 Nov 2025 17:01:59 +0100",
+          "description": "A 86 ans, la flamboyante romancière canadienne Margaret Atwood se raconte dans « le Livre des vies », une extraordinaire autobiographie. De passage à Paris, l’autrice de « la Servante écarlate » parle de termites, de Trump et de tricot.",
+          "content": "A 86 ans, la flamboyante romancière canadienne Margaret Atwood se raconte dans « le Livre des vies », une extraordinaire autobiographie. De passage à Paris, l’autrice de « la Servante écarlate » parle de termites, de Trump et de tricot.",
+          "image": "https://focus.nouvelobs.com/2025/11/18/1671/0/5344/2672/640/320/60/0/b33f20c_upload-1-fen5a0jsjazz-mr-05440.jpeg",
+          "categories": [
+            "BibliObs"
+          ]
+        },
+        {
+          "title": "On a trouvé la relève du « Masque et la plume » : les élèves qui votent pour le Goncourt des lycéens sont devenus de redoutables critiques",
+          "link": "https://www.nouvelobs.com/bibliobs/20251122.OBS110001/on-a-trouve-la-releve-du-masque-et-la-plume-les-eleves-qui-votent-pour-le-goncourt-des-lyceens-sont-devenus-de-redoutables-critiques.html",
+          "pubDate": "Sat, 22 Nov 2025 14:11:10 +0100",
+          "description": "Les élèves du lycée Docteur Charles-Mérieux, à Lyon, ont voté pour leurs trois livres finalistes. Des débats animés, avant les ultimes délibérations et la proclamation du lauréat du Goncourt des lycéens.",
+          "content": "Les élèves du lycée Docteur Charles-Mérieux, à Lyon, ont voté pour leurs trois livres finalistes. Des débats animés, avant les ultimes délibérations et la proclamation du lauréat du Goncourt des lycéens.",
+          "image": "https://focus.nouvelobs.com/2025/11/21/336/0/5032/2516/640/320/60/0/fb2125f_upload-1-9o40yjomeeao-cdr-1.JPG",
+          "categories": [
+            "BibliObs"
+          ]
+        },
+        {
+          "title": "Le chef Yves Camdeborde, sous influence : « François Hollande est un épicurien hors norme »",
+          "link": "https://www.nouvelobs.com/food/20251122.OBS109990/le-chef-yves-camdeborde-sous-influence-francois-hollande-est-un-epicurien-hors-norme.html",
+          "pubDate": "Sat, 22 Nov 2025 10:32:02 +0100",
+          "description": "Le chef précurseur du mouvement bistronomique a sillonné la France en allant visiter les potagers de trente chefs, un voyage dont il a tiré un beau livre. Il nous parle de son métier et de son amour pour son cher Béarn.",
+          "content": "Le chef précurseur du mouvement bistronomique a sillonné la France en allant visiter les potagers de trente chefs, un voyage dont il a tiré un beau livre. Il nous parle de son métier et de son amour pour son cher Béarn.",
+          "image": "https://focus.nouvelobs.com/2025/11/20/130/0/1565/782/640/320/60/0/52fef48_upload-1-kpaisr2jcdrz-si-3-12-camdeborde-01.jpg",
+          "categories": [
+            "Food"
+          ]
+        }
+      ]
+    }
+  },
+  "mercato": {},
+  "lastUpdate": "2025-11-24T01:51:41.029Z"
+}

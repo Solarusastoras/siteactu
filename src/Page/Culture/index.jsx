@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './Culture.scss';
-import Cinema from './Cinema';
-import Literature from './Literature';
-import Musique from './Musique';
-import JeuxVideo from './JeuxVideo';
-import Sciences from './Sciences';
-import Sante from './Sante';
+import './loisir.scss';
+import Cinema from '../../Common/CultureComposant/Cinema';
+import Literature from '../../Common/CultureComposant/Literature';
+import Musique from '../../Common/CultureComposant/Musique';
+import JeuxVideo from '../../Common/CultureComposant/JeuxVideo';
+import Sciences from '../../Common/CultureComposant/Sciences';
+import Sante from '../../Common/CultureComposant/Sante';
 
 const Culture = () => {
   const [activeSection, setActiveSection] = useState('cinema');

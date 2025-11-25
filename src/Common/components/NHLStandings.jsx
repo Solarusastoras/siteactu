@@ -2,60 +2,73 @@ import React from 'react';
 
 /**
  * Composant pour afficher le classement NHL
- * Organisé par conférences (Eastern/Western) et divisions
+ * Utilise les données de l'API ESPN (structure à plat triée par seed)
  */
 const NHLStandings = ({ standingsData }) => {
   
-  const renderDivision = (divisionName, teams, conference) => {
-    // Trier par points, puis par ROW (Regulation + OT Wins)
-    const sortedTeams = [...teams].sort((a, b) => {
-      if (b.pts !== a.pts) return b.pts - a.pts;
-      if (b.row !== a.row) return b.row - a.row;
-      return b.gf - a.gf;
+  if (!standingsData || !Array.isArray(standingsData) || standingsData.length === 0) {
+    return (
+      <div className="standings-container">
+        <p className="no-data">Classements NHL non disponibles pour le moment</p>
+      </div>
+    );
+  }
+
+  const renderConference = (conference) => {
+    if (!conference || !conference.standings || conference.standings.length === 0) {
+      return null;
+    }
+
+    // Trier par playoff seed ou par points
+    const sortedTeams = [...conference.standings].sort((a, b) => {
+      // Vérifier si playoffSeed existe
+      if (a.stats?.playoffSeed && b.stats?.playoffSeed) {
+        return a.stats.playoffSeed - b.stats.playoffSeed;
+      }
+      // Sinon trier par points (déjà fait par calculateStandingsFromMatches)
+      return (b.stats?.points || 0) - (a.stats?.points || 0);
     });
 
-    const divisionTitles = {
-      atlantic: 'Atlantic',
-      metropolitan: 'Metropolitan',
-      central: 'Central',
-      pacific: 'Pacific'
-    };
-
     return (
-      <div className="nhl-division" key={`${conference}-${divisionName}`}>
-        <h3 className="division-title">
-          {divisionTitles[divisionName]}
-        </h3>
+      <div className="nhl-conference" key={conference.abbreviation}>
+        <h2 className="conference-title">
+          🏒 {conference.name}
+        </h2>
         <div className="standings-table nhl-table">
           <div className="standings-header">
+            <div className="position-col">#</div>
             <div className="team-col">Équipe</div>
-            <div>GP</div>
+            <div>J</div>
+            <div>PTS</div>
             <div>V</div>
             <div>D</div>
             <div>OTL</div>
-            <div>PTS</div>
+            <div>+/-</div>
           </div>
-          {sortedTeams.map((team, index) => {
-            const position = index + 1;
-            const isPlayoffSpot = position <= 3;
+          {sortedTeams.map((entry, index) => {
+            const team = entry.team || {};
+            const stats = entry.stats || {};
+            const position = stats.playoffSeed || (index + 1);
+            const isPlayoffSpot = position <= 8;
             
             return (
               <div 
-                key={team.abbr} 
+                key={team.id || entry.abbr || index} 
                 className={`standings-row ${isPlayoffSpot ? 'playoff-spot' : ''}`}
               >
+                <div className="position-col">{position}</div>
                 <div className="team-info team-col">
-                  <span className="position-indicator">{position}</span>
-                  <div className="team-details">
-                    <span className="team-abbr">{team.abbr}</span>
-                    <span className="team-name-full">{team.team}</span>
-                  </div>
+                  {team.logo && <img src={team.logo} alt={team.shortName || team.name} className="team-logo-small" />}
+                  <span className="team-name">{team.shortName || team.name || entry.team}</span>
                 </div>
-                <div className="stat-gp">{team.gp}</div>
-                <div className="stat-wins">{team.wins}</div>
-                <div className="stat-losses">{team.losses}</div>
-                <div className="stat-otl">{team.otl}</div>
-                <div className="stat-pts">{team.pts}</div>
+                <div className="stat-gp">{stats.gamesPlayed || stats.GP || 0}</div>
+                <div className="stat-pts">{stats.points || stats.PTS || 0}</div>
+                <div className="stat-wins">{stats.wins || stats.W || 0}</div>
+                <div className="stat-losses">{stats.losses || stats.L || 0}</div>
+                <div className="stat-otl">{stats.otLosses || stats.OTL || 0}</div>
+                <div className={`stat-diff ${(stats.goalDifferential || 0) > 0 ? 'positive' : (stats.goalDifferential || 0) < 0 ? 'negative' : ''}`}>
+                  {(stats.goalDifferential || 0) > 0 ? '+' : ''}{stats.goalDifferential || 0}
+                </div>
               </div>
             );
           })}
@@ -64,51 +77,18 @@ const NHLStandings = ({ standingsData }) => {
     );
   };
 
-  const renderConference = (conferenceName, conferenceData) => {
-    return (
-      <div className="nhl-conference" key={conferenceName}>
-        <h2 className="conference-title">
-          {conferenceName === 'eastern' ? '🏒 EASTERN CONFERENCE' : '🏒 WESTERN CONFERENCE'}
-        </h2>
-        <div className="divisions-grid">
-          {conferenceName === 'eastern' ? (
-            <>
-              {renderDivision('atlantic', conferenceData.atlantic, conferenceName)}
-              {renderDivision('metropolitan', conferenceData.metropolitan, conferenceName)}
-            </>
-          ) : (
-            <>
-              {renderDivision('central', conferenceData.central, conferenceName)}
-              {renderDivision('pacific', conferenceData.pacific, conferenceName)}
-            </>
-          )}
-        </div>
-      </div>
-    );
-  };
-
-  if (!standingsData) {
-    return (
-      <div className="standings-container">
-        <p>Chargement des classements NHL...</p>
-      </div>
-    );
-  }
-
   return (
     <div className="standings-container nhl-standings">
-      {renderConference('eastern', standingsData.eastern)}
-      {renderConference('western', standingsData.western)}
+      {standingsData.map(conference => renderConference(conference))}
       
       <div className="standings-legend nhl-legend">
-        <div className="legend-item playoff-spot">🏆 Positions qualificatives pour les playoffs</div>
+        <div className="legend-item playoff-spot">🏆 Qualifié pour les playoffs (Top 8 par conférence)</div>
         <div className="legend-note">
-          <strong>Note:</strong> En NHL, les 3 premiers de chaque division se qualifient pour les playoffs
+          <strong>Note:</strong> En NHL, les 3 premiers de chaque division + 2 wild cards par conférence se qualifient pour les playoffs
         </div>
         <div className="legend-abbreviations">
           <p><strong>Abréviations:</strong></p>
-          <p>GP = Matchs joués | V = Victoires | D = Défaites | OTL = Défaites en prolongation/fusillade</p>
-          <p>PTS = Points (2 pts victoire, 1 pt défaite OT/SO)</p>
+          <p>J = Matchs joués | PTS = Points (2 pts victoire, 1 pt défaite OT/SO) | V = Victoires | D = Défaites | OTL = Défaites en prolongation/fusillade | +/- = Différentiel de buts</p>
         </div>
       </div>
     </div>

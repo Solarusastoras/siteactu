@@ -298,6 +298,8 @@ const FootballLeague = ({
     // Utiliser weekendMatches si disponible, sinon leagueData
     const matchesToDisplay = weekendMatches && weekendMatches.length > 0 ? weekendMatches : leagueData?.events || [];
     
+    console.log(`[${leagueConfig.name}] Matchs à afficher:`, matchesToDisplay.length, matchesToDisplay);
+    
     if (matchesToDisplay.length === 0) {
       return (
         <div className="games-grid">
@@ -311,27 +313,33 @@ const FootballLeague = ({
     return (
       <div className="games-grid">
         {matchesToDisplay.map((game) => {
-          const competitors = game.competitions[0].competitors;
-          const homeTeam = competitors.find(team => team.homeAway === 'home');
-          const awayTeam = competitors.find(team => team.homeAway === 'away');
+          // Vérification de sécurité - le script Debian a simplifié la structure
+          if (!game.competitions) {
+            console.warn('Match sans données de compétition:', game);
+            return null;
+          }
+          
+          // Nouvelle structure simplifiée : competitions est un objet avec homeTeam et awayTeam
+          const homeTeam = game.competitions.homeTeam;
+          const awayTeam = game.competitions.awayTeam;
           
           const getMatchStatus = () => {
-            if (game.status.type.completed) return 'TERMINÉ';
-            if (game.status.type.state === 'in') return 'EN COURS';
+            if (game.status?.completed) return 'TERMINÉ';
+            if (game.status?.detail?.toLowerCase().includes('live')) return 'EN COURS';
             return formatTime(game.date);
           };
 
           return (
             <div key={game.id} className="game-card">
               <div className="game-header">
-                <span className={`game-status ${game.status.type.state.toLowerCase()}`}>
-                  {game.status.type.description}
+                <span className={`game-status ${game.status?.completed ? 'completed' : 'scheduled'}`}>
+                  {game.status?.detail || 'À venir'}
                 </span>
                 <span className="game-time">
-                  {game.status.type.completed ? 
+                  {game.status?.completed ? 
                     'Terminé' : 
-                    game.status.type.state === 'in' ? 
-                      `${game.status.displayClock} ${game.status.period ? `- ${game.status.period}'` : ''}` :
+                    game.status?.detail?.toLowerCase().includes('live') ? 
+                      `En direct` :
                       formatTime(game.date)
                   }
                 </span>

@@ -1,109 +1,227 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../card';
+import StandingsTable from './StandingsTable';
+
+/**
+ * Calcule et met à jour les standings à partir des résultats des matchs
+ */
+const calculateStandingsFromMatches = (events, baseStandings, sportKey) => {
+  if (!events || events.length === 0 || !baseStandings || baseStandings.length === 0) {
+    return baseStandings;
+  }
+
+  // Cloner les standings de base
+  const updatedStandings = JSON.parse(JSON.stringify(baseStandings));
+  
+  // Filtrer uniquement les matchs terminés
+  const completedMatches = events.filter(event => event.status?.completed === true);
+  
+  if (completedMatches.length === 0) {
+    return baseStandings;
+  }
+
+  // Créer un map des équipes pour accès rapide
+  const teamsMap = new Map();
+  updatedStandings.forEach((conference, confIndex) => {
+    conference.standings?.forEach((entry, teamIndex) => {
+      // Gérer les différentes structures de données (NHL vs NBA/NFL)
+      const teamId = entry.team?.id || entry.team?.abbreviation || entry.abbr || entry.team;
+      const teamAbbr = entry.team?.abbreviation || entry.abbr;
+      
+      if (teamId) {
+        teamsMap.set(teamId, { confIndex, teamIndex, entry });
+      }
+      // Ajouter aussi l'abréviation comme clé alternative
+      if (teamAbbr && teamAbbr !== teamId) {
+        teamsMap.set(teamAbbr, { confIndex, teamIndex, entry });
+      }
+    });
+  });
+
+  // Traiter chaque match terminé
+  completedMatches.forEach(match => {
+    const competition = match.competitions?.[0];
+    if (!competition || !competition.competitors) return;
+
+    const homeComp = competition.competitors.find(c => c.homeAway === 'home');
+    const awayComp = competition.competitors.find(c => c.homeAway === 'away');
+    
+    if (!homeComp || !awayComp) return;
+
+    const homeTeamId = homeComp.team?.id;
+    const homeTeamAbbr = homeComp.team?.abbreviation;
+    const awayTeamId = awayComp.team?.id;
+    const awayTeamAbbr = awayComp.team?.abbreviation;
+    const homeScore = parseInt(homeComp.score || 0);
+    const awayScore = parseInt(awayComp.score || 0);
+
+    // Essayer de trouver l'équipe par ID d'abord, puis par abréviation
+    let homeTeamData = teamsMap.get(homeTeamId) || teamsMap.get(homeTeamAbbr);
+    let awayTeamData = teamsMap.get(awayTeamId) || teamsMap.get(awayTeamAbbr);
+
+    if (!homeTeamData || !awayTeamData) return;
+
+    const homeEntry = updatedStandings[homeTeamData.confIndex].standings[homeTeamData.teamIndex];
+    const awayEntry = updatedStandings[awayTeamData.confIndex].standings[awayTeamData.teamIndex];
+
+    // Déterminer le vainqueur
+    const homeWon = homeScore > awayScore;
+    const awayWon = awayScore > homeScore;
+    const tie = homeScore === awayScore;
+
+    if (sportKey === 'nhl') {
+      // NHL: vérifier si victoire en prolongation/fusillade
+      const isOT = competition.notes?.some(note => 
+        note.headline?.includes('OT') || note.headline?.includes('SO')
+      ) || match.status?.type?.detail?.includes('OT') || match.status?.type?.detail?.includes('SO');
+      
+      if (homeEntry.stats) {
+        if (homeWon) {
+          homeEntry.stats.wins = (homeEntry.stats.wins || 0) + 1;
+          homeEntry.stats.points = (homeEntry.stats.points || 0) + 2;
+        } else {
+          if (isOT) {
+            homeEntry.stats.otLosses = (homeEntry.stats.otLosses || 0) + 1;
+            homeEntry.stats.points = (homeEntry.stats.points || 0) + 1;
+          } else {
+            homeEntry.stats.losses = (homeEntry.stats.losses || 0) + 1;
+          }
+        }
+        homeEntry.stats.gamesPlayed = (homeEntry.stats.gamesPlayed || 0) + 1;
+      }
+
+      if (awayEntry.stats) {
+        if (awayWon) {
+          awayEntry.stats.wins = (awayEntry.stats.wins || 0) + 1;
+          awayEntry.stats.points = (awayEntry.stats.points || 0) + 2;
+        } else {
+          if (isOT) {
+            awayEntry.stats.otLosses = (awayEntry.stats.otLosses || 0) + 1;
+            awayEntry.stats.points = (awayEntry.stats.points || 0) + 1;
+          } else {
+            awayEntry.stats.losses = (awayEntry.stats.losses || 0) + 1;
+          }
+        }
+        awayEntry.stats.gamesPlayed = (awayEntry.stats.gamesPlayed || 0) + 1;
+      }
+    } else if (sportKey === 'nba') {
+      // NBA: simple victoires/défaites
+      if (homeWon) {
+        homeEntry.wins = (homeEntry.wins || 0) + 1;
+      } else {
+        homeEntry.losses = (homeEntry.losses || 0) + 1;
+      }
+      
+      if (awayWon) {
+        awayEntry.wins = (awayEntry.wins || 0) + 1;
+      } else {
+        awayEntry.losses = (awayEntry.losses || 0) + 1;
+      }
+      
+      // Recalculer le pourcentage
+      const calcPct = (entry) => {
+        const total = (entry.wins || 0) + (entry.losses || 0);
+        entry.pct = total > 0 ? entry.wins / total : 0;
+      };
+      calcPct(homeEntry);
+      calcPct(awayEntry);
+    } else if (sportKey === 'nfl') {
+      // NFL: victoires/défaites/nuls
+      if (tie) {
+        homeEntry.ties = (homeEntry.ties || 0) + 1;
+        awayEntry.ties = (awayEntry.ties || 0) + 1;
+      } else if (homeWon) {
+        homeEntry.wins = (homeEntry.wins || 0) + 1;
+        awayEntry.losses = (awayEntry.losses || 0) + 1;
+      } else {
+        awayEntry.wins = (awayEntry.wins || 0) + 1;
+        homeEntry.losses = (homeEntry.losses || 0) + 1;
+      }
+      
+      // Recalculer le pourcentage
+      const calcPct = (entry) => {
+        const total = (entry.wins || 0) + (entry.losses || 0) + (entry.ties || 0);
+        entry.pct = total > 0 ? ((entry.wins || 0) + (entry.ties || 0) * 0.5) / total : 0;
+      };
+      calcPct(homeEntry);
+      calcPct(awayEntry);
+    }
+  });
+
+  // Trier les standings
+  updatedStandings.forEach(conference => {
+    if (conference.standings) {
+      conference.standings.sort((a, b) => {
+        if (sportKey === 'nhl') {
+          return (b.stats?.points || 0) - (a.stats?.points || 0);
+        } else {
+          return (b.pct || 0) - (a.pct || 0);
+        }
+      });
+    }
+  });
+
+  return updatedStandings;
+};
 
 /**
  * Composant générique pour les sports américains (NBA, NFL, NHL)
- * Gère la récupération des matchs, le classement et l'affichage
+ * Accède directement aux données depuis data.json
  */
 const AmericanSportLeague = ({ 
   sportConfig,  // Configuration du sport (API, nom, emoji, etc.)
-  StandingsComponent,  // Composant de classement spécifique
-  view = 'matches' 
+  view = 'matches',
+  StandingsComponent // Composant de classement personnalisé (optionnel)
 }) => {
+  const sportKey = sportConfig.storageKey; // 'nba', 'nfl', 'nhl'
   const [data, setData] = useState(null);
-  const [standings, setStandings] = useState(sportConfig.defaultStandings || null);
   const [loading, setLoading] = useState(true);
-  const [firstLoad, setFirstLoad] = useState(true);
-  const [matchTimeRange, setMatchTimeRange] = useState(() => {
-    const cached = localStorage.getItem(`${sportConfig.storageKey}_match_time_range`);
-    return cached ? JSON.parse(cached) : sportConfig.defaultTimeRange;
-  });
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Loading uniquement au premier chargement
-        if (firstLoad) {
-          setLoading(true);
-        }
+        const response = await fetch(`${process.env.PUBLIC_URL}/data/data.json`);
+        const jsonData = await response.json();
+        const sportData = jsonData.sports?.[sportKey];
         
-        const now = new Date();
-        const hours = now.getHours();
-        const minutes = now.getMinutes();
-        const currentTime = hours * 60 + minutes;
-        
-        // Premier chargement : récupérer toujours les matchs
-        if (firstLoad) {
-          setFirstLoad(false);
-          console.log(`${sportConfig.emoji} ${sportConfig.name} - Premier chargement...`);
-          const matchesResponse = await fetch(sportConfig.matchesUrl);
-          const matchesData = await matchesResponse.json();
-          setData(matchesData);
-          
-          // Calculer la plage horaire si on a des matchs
-          if (matchesData?.events && matchesData.events.length > 0) {
-            const firstMatchTime = new Date(matchesData.events[0].date);
-            const firstMatchMinutes = firstMatchTime.getHours() * 60 + firstMatchTime.getMinutes();
-            
-            const lastMatchTime = new Date(matchesData.events[matchesData.events.length - 1].date);
-            const lastMatchMinutes = (lastMatchTime.getHours() + sportConfig.matchDuration) * 60 + lastMatchTime.getMinutes();
-            
-            const newTimeRange = {
-              start: firstMatchMinutes,
-              end: lastMatchMinutes > 24 * 60 ? lastMatchMinutes - 24 * 60 : lastMatchMinutes
-            };
-            
-            console.log(`${sportConfig.emoji} ${sportConfig.name} - Plage: ${Math.floor(newTimeRange.start / 60)}h${newTimeRange.start % 60} - ${Math.floor(newTimeRange.end / 60)}h${newTimeRange.end % 60}`);
-            
-            setMatchTimeRange(newTimeRange);
-            localStorage.setItem(`${sportConfig.storageKey}_match_time_range`, JSON.stringify(newTimeRange));
-          }
-        }
-        // Après le premier chargement : utiliser la plage horaire
-        else if (matchTimeRange && !firstLoad) {
-          const isMatchTime = sportConfig.checkMatchTime 
-            ? sportConfig.checkMatchTime(currentTime, matchTimeRange)
-            : currentTime >= matchTimeRange.start && currentTime <= matchTimeRange.end;
-          
-          if (isMatchTime) {
-            console.log(`${sportConfig.emoji} ${sportConfig.name} - Actualisation...`);
-            const matchesResponse = await fetch(sportConfig.matchesUrl);
-            const matchesData = await matchesResponse.json();
-            setData(matchesData);
-          } else {
-            console.log(`📦 ${sportConfig.name} - Hors plage horaire`);
-          }
-        }
-        
-        // Récupérer le classement si une fonction est fournie
-        if (sportConfig.fetchStandings) {
-          try {
-            const standingsData = await sportConfig.fetchStandings();
-            setStandings(standingsData);
-          } catch (standingsError) {
-            console.error(`Classement ${sportConfig.name} API erreur:`, standingsError);
-          }
-        }
-        
-      } catch (error) {
-        console.error(`Erreur lors du chargement ${sportConfig.name}:`, error);
-      } finally {
-        // Désactiver le loading après le premier chargement seulement
-        if (loading) {
-          setLoading(false);
-        }
+        setData(sportData);
+        setLoading(false);
+      } catch (err) {
+        console.error(`Erreur chargement ${sportConfig.name}:`, err);
+        setLoading(false);
       }
     };
 
     fetchData();
-    const interval = setInterval(fetchData, 10000); // Vérifier toutes les 10 secondes
+    const interval = setInterval(fetchData, 30000);
     return () => clearInterval(interval);
-  }, [matchTimeRange, firstLoad, loading, sportConfig]);
+  }, [sportKey, sportConfig.name]);
 
-  if (loading) return <div className="loading"><h2>Chargement...</h2></div>;
+  const events = data?.scoreboard?.events || [];
+  let standings = data?.standings || [];
 
-  if (view === 'classement' && StandingsComponent) {
-    return <StandingsComponent standingsData={standings} />;
+  // Si standings vides mais qu'on a une config avec defaultStandings, les utiliser
+  if ((!standings || standings.length === 0) && sportConfig.defaultStandings) {
+    standings = sportConfig.defaultStandings;
+  }
+
+  // Calculer les standings mis à jour à partir des résultats des matchs
+  const updatedStandings = calculateStandingsFromMatches(events, standings, sportKey);
+
+  if (loading) {
+    return <div className="loading"><h2>Chargement {sportConfig.name}...</h2></div>;
+  }
+
+  if (!data) {
+    return <div className="error-message"><h2>⚠️ Données {sportConfig.name} indisponibles</h2></div>;
+  }
+
+  if (view === 'classement') {
+    // Utiliser le composant de classement personnalisé si fourni, sinon utiliser StandingsTable
+    if (StandingsComponent) {
+      return <StandingsComponent standingsData={updatedStandings} />;
+    }
+    return <StandingsTable standingsData={updatedStandings} sportType={sportKey} />;
   }
 
   const formatTime = (dateString) => {
@@ -112,19 +230,18 @@ const AmericanSportLeague = ({
   };
 
   const renderGameLayout = (game) => {
-    const competitors = game.competitions[0].competitors;
-    const homeTeam = competitors.find(team => team.homeAway === 'home');
-    const awayTeam = competitors.find(team => team.homeAway === 'away');
+    const homeTeam = game.competitions.homeTeam;
+    const awayTeam = game.competitions.awayTeam;
+
+    // L'API ESPN ne fournit pas les records dans les événements
+    // Les records ne seront pas affichés sous les noms d'équipes
 
     return (
       <div className="match-inline">
         <div className="team-inline away">
-          <img src={awayTeam.team.logo} alt={awayTeam.team.displayName} className="team-logo-inline" />
+          <img src={awayTeam.logo} alt={awayTeam.name} className="team-logo-inline" />
           <div className="team-details-inline">
-            <h3>{awayTeam.team.abbreviation}</h3>
-            {awayTeam.records && awayTeam.records[0] && (
-              <div className="team-record-inline"><small>{awayTeam.records[0].summary}</small></div>
-            )}
+            <h3>{awayTeam.shortName}</h3>
           </div>
           <div className="score-inline team-score">{awayTeam.score || '0'}</div>
         </div>
@@ -134,18 +251,15 @@ const AmericanSportLeague = ({
         <div className="team-inline home">
           <div className="score-inline team-score">{homeTeam.score || '0'}</div>
           <div className="team-details-inline">
-            <h3>{homeTeam.team.abbreviation}</h3>
-            {homeTeam.records && homeTeam.records[0] && (
-              <div className="team-record-inline"><small>{homeTeam.records[0].summary}</small></div>
-            )}
+            <h3>{homeTeam.shortName}</h3>
           </div>
-          <img src={homeTeam.team.logo} alt={homeTeam.team.displayName} className="team-logo-inline" />
+          <img src={homeTeam.logo} alt={homeTeam.name} className="team-logo-inline" />
         </div>
       </div>
     );
   };
 
-  if (!data?.events || data.events.length === 0) {
+  if (!events || events.length === 0) {
     return (
       <div className="games-grid">
         <Card 
@@ -159,9 +273,9 @@ const AmericanSportLeague = ({
 
   return (
     <div className="games-grid">
-      {data.events.map((game) => {
-        const isLive = game.status.type.state === 'in';
-        const isFinished = game.status.type.completed;
+      {events.map((game) => {
+        const isLive = game.status.type === 'STATUS_IN_PROGRESS';
+        const isFinished = game.status.completed === true;
         const badgeContent = isLive ? 'LIVE' : isFinished ? 'TERMINÉ' : formatTime(game.date);
         const badgeClass = isLive ? 'live-badge' : isFinished ? 'finished-badge' : '';
         
@@ -175,10 +289,10 @@ const AmericanSportLeague = ({
           >
             <div className="game-header">
               <span className="game-time">
-                {game.status.type.completed ? 
+                {game.status.completed ? 
                   'FT' : 
-                  game.status.type.state === 'in' ? 
-                    `${sportConfig.formatPeriod(game.status.period)} - ${game.status.displayClock}` :
+                  isLive ? 
+                    game.status.detail :
                     formatTime(game.date)}
               </span>
             </div>
