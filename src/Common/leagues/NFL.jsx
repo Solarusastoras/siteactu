@@ -1,87 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react';
 import Card from '../card';
 import NFLStandings from '../components/NFLStandings';
-import { currentNFLStandings } from '../data/nflStandingsData';
-
-/**
- * Calcule les standings à jour en fonction des résultats des matchs
- */
-const calculateStandings = (events, baseStandings) => {
-  if (!events || events.length === 0 || !baseStandings) {
-    return baseStandings;
-  }
-
-  // Cloner les standings
-  const standings = JSON.parse(JSON.stringify(baseStandings));
-  
-  // Filtrer les matchs terminés
-  const completedMatches = events.filter(e => e.status?.completed === true);
-  
-  if (completedMatches.length === 0) {
-    return standings;
-  }
-
-  // Créer une map des équipes par abréviation
-  const teamsMap = new Map();
-  standings.forEach((conference, confIndex) => {
-    conference.standings.forEach((team, teamIndex) => {
-      teamsMap.set(team.abbr, { confIndex, teamIndex });
-    });
-  });
-
-  // Traiter chaque match terminé
-  completedMatches.forEach(match => {
-    const competition = match.competitions?.[0];
-    if (!competition?.competitors) return;
-
-    const homeComp = competition.competitors.find(c => c.homeAway === 'home');
-    const awayComp = competition.competitors.find(c => c.homeAway === 'away');
-    
-    if (!homeComp || !awayComp) return;
-
-    const homeAbbr = homeComp.team?.abbreviation;
-    const awayAbbr = awayComp.team?.abbreviation;
-    const homeScore = parseInt(homeComp.score || 0);
-    const awayScore = parseInt(awayComp.score || 0);
-
-    const homeTeamRef = teamsMap.get(homeAbbr);
-    const awayTeamRef = teamsMap.get(awayAbbr);
-
-    if (!homeTeamRef || !awayTeamRef) return;
-
-    const homeTeam = standings[homeTeamRef.confIndex].standings[homeTeamRef.teamIndex];
-    const awayTeam = standings[awayTeamRef.confIndex].standings[awayTeamRef.teamIndex];
-
-    // Mise à jour des stats
-    if (homeScore > awayScore) {
-      homeTeam.wins++;
-      awayTeam.losses++;
-    } else if (awayScore > homeScore) {
-      awayTeam.wins++;
-      homeTeam.losses++;
-    } else {
-      homeTeam.ties = (homeTeam.ties || 0) + 1;
-      awayTeam.ties = (awayTeam.ties || 0) + 1;
-    }
-
-    // Recalculer pourcentage et matchs joués
-    const updateTeam = (team) => {
-      team.gamesPlayed = team.wins + team.losses + (team.ties || 0);
-      const total = team.gamesPlayed;
-      team.pct = total > 0 ? (team.wins + (team.ties || 0) * 0.5) / total : 0;
-    };
-
-    updateTeam(homeTeam);
-    updateTeam(awayTeam);
-  });
-
-  // Trier par pourcentage
-  standings.forEach(conference => {
-    conference.standings.sort((a, b) => b.pct - a.pct);
-  });
-
-  return standings;
-};
 
 const NFL = ({ view = 'matches' }) => {
   const [data, setData] = useState(null);
@@ -90,7 +9,7 @@ const NFL = ({ view = 'matches' }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${process.env.PUBLIC_URL}/data/data.json`);
+        const response = await fetch('/actu/data/data.json');
         const jsonData = await response.json();
         const nflData = jsonData.sports?.nfl;
         
@@ -107,6 +26,45 @@ const NFL = ({ view = 'matches' }) => {
     return () => clearInterval(interval);
   }, []);
 
+  // Filtrer les matchs de jeudi à mardi (semaine NFL)
+  const filterNFLWeekMatches = (events) => {
+    if (!events || events.length === 0) return [];
+
+    const now = new Date();
+    const currentDay = now.getDay(); // 0=Dimanche, 1=Lundi, ..., 6=Samedi
+
+    // Calculer le jeudi de la semaine en cours ou précédente
+    let thursdayStart = new Date(now);
+    
+    if (currentDay === 0) { // Dimanche
+      thursdayStart.setDate(now.getDate() - 3); // Jeudi précédent
+    } else if (currentDay === 1) { // Lundi
+      thursdayStart.setDate(now.getDate() - 4); // Jeudi précédent
+    } else if (currentDay === 2) { // Mardi
+      thursdayStart.setDate(now.getDate() - 5); // Jeudi précédent
+    } else if (currentDay === 3) { // Mercredi
+      thursdayStart.setDate(now.getDate() + 1); // Jeudi prochain
+    } else if (currentDay === 4) { // Jeudi
+      thursdayStart.setDate(now.getDate()); // Aujourd'hui
+    } else if (currentDay === 5) { // Vendredi
+      thursdayStart.setDate(now.getDate() - 1); // Jeudi précédent
+    } else { // Samedi
+      thursdayStart.setDate(now.getDate() - 2); // Jeudi précédent
+    }
+    
+    thursdayStart.setHours(0, 0, 0, 0);
+
+    // Le mardi suivant à 23h59
+    const tuesdayEnd = new Date(thursdayStart);
+    tuesdayEnd.setDate(thursdayStart.getDate() + 5); // +5 jours = Mardi
+    tuesdayEnd.setHours(23, 59, 59, 999);
+
+    return events.filter(event => {
+      const matchDate = new Date(event.date);
+      return matchDate >= thursdayStart && matchDate <= tuesdayEnd;
+    });
+  };
+
   if (loading) {
     return <div className="loading"><h2>Chargement NFL...</h2></div>;
   }
@@ -115,13 +73,24 @@ const NFL = ({ view = 'matches' }) => {
     return <div className="error-message"><h2>⚠️ Données NFL indisponibles</h2></div>;
   }
 
-  const events = data?.scoreboard?.events || [];
+  // Support des deux formats de données
+  const matches = data?.matches || {};
+  const scoreboardEvents = data?.scoreboard?.events || [];
+  
+  // Combiner les matchs des deux sources
+  const combinedMatches = [
+    ...(matches.completed || []),
+    ...(matches.live || []),
+    ...(matches.upcoming || []),
+    ...scoreboardEvents
+  ];
+  
+  const events = filterNFLWeekMatches(combinedMatches);
 
   if (view === 'classement') {
-    // Calculer les standings mis à jour avec les matchs du scoreboard
-    const updatedStandings = calculateStandings(events, currentNFLStandings);
+    const standings = data.standings || [];
     
-    return <NFLStandings standingsData={updatedStandings} />;
+    return <NFLStandings standingsData={standings} />;
   }
 
   const formatTime = (dateString) => {

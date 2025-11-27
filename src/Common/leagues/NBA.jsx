@@ -1,81 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../card';
 import NBAStandings from '../components/NBAStandings';
-import { currentNBAStandings } from '../data/nbaStandingsData';
-
-/**
- * Calcule les standings à jour en fonction des résultats des matchs NBA
- */
-const calculateStandings = (events, baseStandings) => {
-  if (!events || events.length === 0 || !baseStandings) {
-    return baseStandings;
-  }
-
-  // Cloner les standings
-  const standings = JSON.parse(JSON.stringify(baseStandings));
-  
-  // Filtrer les matchs terminés
-  const completedMatches = events.filter(e => e.status?.completed === true);
-  
-  if (completedMatches.length === 0) {
-    return standings;
-  }
-
-  // Créer une map des équipes par abréviation
-  const teamsMap = new Map();
-  standings.forEach((conference, confIndex) => {
-    conference.standings.forEach((team, teamIndex) => {
-      const abbr = team.abbr;
-      if (abbr) teamsMap.set(abbr, { confIndex, teamIndex });
-    });
-  });
-
-  // Traiter chaque match terminé
-  completedMatches.forEach(match => {
-    const competition = match.competitions?.[0];
-    if (!competition?.competitors) return;
-
-    const homeComp = competition.competitors.find(c => c.homeAway === 'home');
-    const awayComp = competition.competitors.find(c => c.homeAway === 'away');
-    
-    if (!homeComp || !awayComp) return;
-
-    const homeAbbr = homeComp.team?.abbreviation;
-    const awayAbbr = awayComp.team?.abbreviation;
-    const homeScore = parseInt(homeComp.score || 0);
-    const awayScore = parseInt(awayComp.score || 0);
-
-    const homeTeamRef = teamsMap.get(homeAbbr);
-    const awayTeamRef = teamsMap.get(awayAbbr);
-
-    if (!homeTeamRef || !awayTeamRef) return;
-
-    const homeTeam = standings[homeTeamRef.confIndex].standings[homeTeamRef.teamIndex];
-    const awayTeam = standings[awayTeamRef.confIndex].standings[awayTeamRef.teamIndex];
-
-    // Mise à jour des victoires/défaites
-    if (homeScore > awayScore) {
-      homeTeam.wins++;
-      awayTeam.losses++;
-    } else if (awayScore > homeScore) {
-      awayTeam.wins++;
-      homeTeam.losses++;
-    }
-
-    // Recalculer le pourcentage
-    const homeGames = homeTeam.wins + homeTeam.losses;
-    const awayGames = awayTeam.wins + awayTeam.losses;
-    homeTeam.pct = homeGames > 0 ? homeTeam.wins / homeGames : 0;
-    awayTeam.pct = awayGames > 0 ? awayTeam.wins / awayGames : 0;
-  });
-
-  // Trier par pourcentage dans chaque conférence
-  standings.forEach(conference => {
-    conference.standings.sort((a, b) => (b.pct || 0) - (a.pct || 0));
-  });
-
-  return standings;
-};
 
 const NBA = ({ view = 'matches' }) => {
   const [data, setData] = useState(null);
@@ -84,7 +9,7 @@ const NBA = ({ view = 'matches' }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${process.env.PUBLIC_URL}/data/data.json`);
+        const response = await fetch('/actu/data/data.json');
         const jsonData = await response.json();
         const nbaData = jsonData.sports?.nba;
         
@@ -109,13 +34,22 @@ const NBA = ({ view = 'matches' }) => {
     return <div className="error-message"><h2>⚠️ Données NBA indisponibles</h2></div>;
   }
 
+  // Support des deux formats de données
+  const matches = data?.matches || {};
   const events = data?.scoreboard?.events || [];
+  
+  // Combiner les matchs des deux sources
+  const allMatches = [
+    ...(matches.completed || []),
+    ...(matches.live || []),
+    ...(matches.upcoming || []),
+    ...events
+  ];
 
   if (view === 'classement') {
-    // Calculer les standings mis à jour avec les matchs du scoreboard
-    const updatedStandings = calculateStandings(events, currentNBAStandings);
+    const standings = data.standings || [];
     
-    return <NBAStandings standingsData={updatedStandings} />;
+    return <NBAStandings standingsData={standings} />;
   }
 
   const formatTime = (dateString) => {
@@ -180,7 +114,7 @@ const NBA = ({ view = 'matches' }) => {
     );
   };
 
-  if (!events || events.length === 0) {
+  if (!allMatches || allMatches.length === 0) {
     return (
       <div className="games-grid">
         <Card 
@@ -194,7 +128,7 @@ const NBA = ({ view = 'matches' }) => {
 
   return (
     <div className="games-grid">
-      {events.map((game) => {
+      {allMatches.map((game) => {
         const isLive = game.status?.type === 'STATUS_IN_PROGRESS';
         const isFinished = game.status?.completed === true;
         const badgeContent = isLive ? 'LIVE' : isFinished ? 'TERMINÉ' : formatTime(game.date);

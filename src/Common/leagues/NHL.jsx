@@ -1,106 +1,6 @@
 ﻿import React, { useState, useEffect } from 'react';
 import Card from '../card';
 import NHLStandings from '../components/NHLStandings';
-import { currentNHLStandings } from '../data/nhlStandingsData';
-
-/**
- * Calcule les standings à jour en fonction des résultats des matchs NHL
- */
-const calculateStandings = (events, baseStandings) => {
-  if (!events || events.length === 0 || !baseStandings) {
-    return baseStandings;
-  }
-
-  // Cloner les standings
-  const standings = JSON.parse(JSON.stringify(baseStandings));
-  
-  // Filtrer les matchs terminés
-  const completedMatches = events.filter(e => e.status?.completed === true);
-  
-  if (completedMatches.length === 0) {
-    return standings;
-  }
-
-  // Créer une map des équipes par ID et abréviation
-  const teamsMap = new Map();
-  standings.forEach((conference, confIndex) => {
-    conference.standings.forEach((team, teamIndex) => {
-      const teamId = team.team?.id || team.team?.abbreviation;
-      const teamAbbr = team.team?.abbreviation;
-      if (teamId) teamsMap.set(teamId, { confIndex, teamIndex });
-      if (teamAbbr) teamsMap.set(teamAbbr, { confIndex, teamIndex });
-    });
-  });
-
-  // Traiter chaque match terminé
-  completedMatches.forEach(match => {
-    const competition = match.competitions?.[0];
-    if (!competition?.competitors) return;
-
-    const homeComp = competition.competitors.find(c => c.homeAway === 'home');
-    const awayComp = competition.competitors.find(c => c.homeAway === 'away');
-    
-    if (!homeComp || !awayComp) return;
-
-    const homeId = homeComp.team?.id;
-    const homeAbbr = homeComp.team?.abbreviation;
-    const awayId = awayComp.team?.id;
-    const awayAbbr = awayComp.team?.abbreviation;
-    const homeScore = parseInt(homeComp.score || 0);
-    const awayScore = parseInt(awayComp.score || 0);
-
-    const homeTeamRef = teamsMap.get(homeId) || teamsMap.get(homeAbbr);
-    const awayTeamRef = teamsMap.get(awayId) || teamsMap.get(awayAbbr);
-
-    if (!homeTeamRef || !awayTeamRef) return;
-
-    const homeTeam = standings[homeTeamRef.confIndex].standings[homeTeamRef.teamIndex];
-    const awayTeam = standings[awayTeamRef.confIndex].standings[awayTeamRef.teamIndex];
-
-    if (!homeTeam.stats || !awayTeam.stats) return;
-
-    // Vérifier si match en prolongation/fusillade
-    const isOT = match.status?.type?.detail?.includes('OT') || 
-                 match.status?.type?.detail?.includes('SO') ||
-                 competition.notes?.some(note => 
-                   note.headline?.includes('OT') || note.headline?.includes('SO')
-                 );
-
-    // Mise à jour des stats
-    if (homeScore > awayScore) {
-      // Victoire domicile
-      homeTeam.stats.wins++;
-      homeTeam.stats.points += 2;
-      if (isOT) {
-        awayTeam.stats.otLosses++;
-        awayTeam.stats.points += 1;
-      } else {
-        awayTeam.stats.losses++;
-      }
-    } else if (awayScore > homeScore) {
-      // Victoire visiteur
-      awayTeam.stats.wins++;
-      awayTeam.stats.points += 2;
-      if (isOT) {
-        homeTeam.stats.otLosses++;
-        homeTeam.stats.points += 1;
-      } else {
-        homeTeam.stats.losses++;
-      }
-    }
-
-    // Mettre à jour matchs joués
-    homeTeam.stats.gamesPlayed++;
-    awayTeam.stats.gamesPlayed++;
-  });
-
-  // Trier par points
-  standings.forEach(conference => {
-    conference.standings.sort((a, b) => (b.stats?.points || 0) - (a.stats?.points || 0));
-  });
-
-  return standings;
-};
 
 const NHL = ({ view = 'matches' }) => {
   const [data, setData] = useState(null);
@@ -109,7 +9,7 @@ const NHL = ({ view = 'matches' }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`${process.env.PUBLIC_URL}/data/data.json`);
+        const response = await fetch('/actu/data/data.json');
         const jsonData = await response.json();
         const nhlData = jsonData.sports?.nhl;
         
@@ -134,13 +34,22 @@ const NHL = ({ view = 'matches' }) => {
     return <div className="error-message"><h2>⚠️ Données NHL indisponibles</h2></div>;
   }
 
+  // Support des deux formats de données
+  const matches = data?.matches || {};
   const events = data?.scoreboard?.events || [];
+  
+  // Combiner les matchs des deux sources
+  const allMatches = [
+    ...(matches.completed || []),
+    ...(matches.live || []),
+    ...(matches.upcoming || []),
+    ...events
+  ];
 
   if (view === 'classement') {
-    // Calculer les standings mis à jour avec les matchs du scoreboard
-    const updatedStandings = calculateStandings(events, currentNHLStandings);
+    const standings = data.standings || [];
     
-    return <NHLStandings standingsData={updatedStandings} />;
+    return <NHLStandings standingsData={standings} />;
   }
 
   const formatTime = (dateString) => {
@@ -205,7 +114,7 @@ const NHL = ({ view = 'matches' }) => {
     );
   };
 
-  if (!events || events.length === 0) {
+  if (!allMatches || allMatches.length === 0) {
     return (
       <div className="games-grid">
         <Card 
@@ -219,7 +128,7 @@ const NHL = ({ view = 'matches' }) => {
 
   return (
     <div className="games-grid">
-      {events.map((game) => {
+      {allMatches.map((game) => {
         const isLive = game.status?.type === 'STATUS_IN_PROGRESS';
         const isFinished = game.status?.completed === true;
         const badgeContent = isLive ? 'LIVE' : isFinished ? 'TERMINÉ' : formatTime(game.date);

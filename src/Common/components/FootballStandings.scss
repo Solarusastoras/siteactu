@@ -1,0 +1,244 @@
+.football-standings {
+  width: 100%;
+  margin: 2rem 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  .standings-title {
+    padding: 1.5rem;
+    margin: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .standings-table-wrapper {
+    overflow-x: auto;
+    
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+  }
+
+  .standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+
+    thead {
+      background: #f8f9fa;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+
+      th {
+        padding: 1rem 0.5rem;
+        text-align: center;
+        font-weight: 600;
+        color: #495057;
+        border-bottom: 2px solid #dee2e6;
+        white-space: nowrap;
+
+        &.col-team {
+          text-align: left;
+          padding-left: 1rem;
+        }
+
+        &.col-pos {
+          width: 50px;
+        }
+
+        &.col-pts {
+          font-weight: 700;
+          color: #667eea;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        transition: background-color 0.2s ease;
+        border-left: 4px solid transparent;
+
+        &:hover {
+          background-color: #f8f9fa;
+        }
+
+        &.zone-ucl {
+          border-left-color: #4CAF50;
+          background-color: rgba(76, 175, 80, 0.05);
+        }
+
+        &.zone-europa {
+          border-left-color: #FF9800;
+          background-color: rgba(255, 152, 0, 0.05);
+        }
+
+        &.zone-conference {
+          border-left-color: #03A9F4;
+          background-color: rgba(3, 169, 244, 0.05);
+        }
+
+        &.zone-relegation {
+          border-left-color: #f44336;
+          background-color: rgba(244, 67, 54, 0.05);
+        }
+      }
+
+      td {
+        padding: 0.75rem 0.5rem;
+        text-align: center;
+        border-bottom: 1px solid #e9ecef;
+
+        &.col-team {
+          text-align: left;
+          padding-left: 1rem;
+        }
+
+        &.col-pos {
+          font-weight: 600;
+          color: #495057;
+        }
+
+        &.col-pts {
+          font-weight: 700;
+          font-size: 1.1rem;
+          color: #667eea;
+        }
+
+        &.positive {
+          color: #4CAF50;
+          font-weight: 600;
+        }
+
+        &.negative {
+          color: #f44336;
+          font-weight: 600;
+        }
+
+        &.neutral {
+          color: #9e9e9e;
+        }
+      }
+    }
+  }
+
+  .team-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    .team-logo {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .team-name {
+      font-weight: 500;
+      color: #212529;
+    }
+  }
+
+  .standings-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: #6c757d;
+
+      .legend-color {
+        width: 20px;
+        height: 4px;
+        border-radius: 2px;
+
+        &.ucl {
+          background-color: #4CAF50;
+        }
+
+        &.europa {
+          background-color: #FF9800;
+        }
+
+        &.conference {
+          background-color: #03A9F4;
+        }
+
+        &.relegation {
+          background-color: #f44336;
+        }
+      }
+    }
+  }
+
+  .football-standings-empty {
+    padding: 3rem;
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+  }
+}
+
+// Responsive
+@media (max-width: 768px) {
+  .football-standings {
+    .standings-title {
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+
+    .standings-table {
+      font-size: 0.85rem;
+
+      thead th,
+      tbody td {
+        padding: 0.5rem 0.25rem;
+      }
+
+      .team-info {
+        gap: 0.5rem;
+
+        .team-logo {
+          width: 20px;
+          height: 20px;
+        }
+
+        .team-name {
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .standings-legend {
+      gap: 0.5rem;
+      padding: 0.75rem 1rem;
+
+      .legend-item {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

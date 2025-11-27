@@ -1,0 +1,31 @@
+{
+  "name": "sports-news-culture-updater",
+  "version": "2.0.0",
+  "description": "Service automatique de mise à jour ESPN Sports, Actualités RSS et Culture RSS vers OVH via FTP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "espn",
+    "sports",
+    "news",
+    "rss",
+    "culture",
+    "sftp",
+    "auto-update"
+  ],
+  "author": "Micyo",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "rss-parser": "^3.13.0",
+    "basic-ftp": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

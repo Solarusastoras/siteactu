@@ -1,0 +1,246 @@
+{
+  "eastern": [
+    {
+      "team": "Cleveland Cavaliers",
+      "abbr": "CLE",
+      "wins": 18,
+      "losses": 1,
+      "pointsFor": 2310,
+      "pointsAgainst": 2124
+    },
+    {
+      "team": "Boston Celtics",
+      "abbr": "BOS",
+      "wins": 14,
+      "losses": 5,
+      "pointsFor": 2242,
+      "pointsAgainst": 2116
+    },
+    {
+      "team": "Orlando Magic",
+      "abbr": "ORL",
+      "wins": 13,
+      "losses": 7,
+      "pointsFor": 2162,
+      "pointsAgainst": 2072
+    },
+    {
+      "team": "New York Knicks",
+      "abbr": "NY",
+      "wins": 11,
+      "losses": 7,
+      "pointsFor": 2069,
+      "pointsAgainst": 1953
+    },
+    {
+      "team": "Atlanta Hawks",
+      "abbr": "ATL",
+      "wins": 10,
+      "losses": 10,
+      "pointsFor": 2246,
+      "pointsAgainst": 2239
+    },
+    {
+      "team": "Miami Heat",
+      "abbr": "MIA",
+      "wins": 9,
+      "losses": 8,
+      "pointsFor": 1919,
+      "pointsAgainst": 1834
+    },
+    {
+      "team": "Detroit Pistons",
+      "abbr": "DET",
+      "wins": 9,
+      "losses": 11,
+      "pointsFor": 2149,
+      "pointsAgainst": 2160
+    },
+    {
+      "team": "Brooklyn Nets",
+      "abbr": "BKN",
+      "wins": 8,
+      "losses": 11,
+      "pointsFor": 2120,
+      "pointsAgainst": 2175
+    },
+    {
+      "team": "Indiana Pacers",
+      "abbr": "IND",
+      "wins": 8,
+      "losses": 11,
+      "pointsFor": 2199,
+      "pointsAgainst": 2256
+    },
+    {
+      "team": "Chicago Bulls",
+      "abbr": "CHI",
+      "wins": 8,
+      "losses": 12,
+      "pointsFor": 2243,
+      "pointsAgainst": 2312
+    },
+    {
+      "team": "Milwaukee Bucks",
+      "abbr": "MIL",
+      "wins": 7,
+      "losses": 10,
+      "pointsFor": 2012,
+      "pointsAgainst": 2030
+    },
+    {
+      "team": "Charlotte Hornets",
+      "abbr": "CHA",
+      "wins": 6,
+      "losses": 12,
+      "pointsFor": 2058,
+      "pointsAgainst": 2161
+    },
+    {
+      "team": "Philadelphia 76ers",
+      "abbr": "PHI",
+      "wins": 4,
+      "losses": 13,
+      "pointsFor": 1924,
+      "pointsAgainst": 2015
+    },
+    {
+      "team": "Toronto Raptors",
+      "abbr": "TOR",
+      "wins": 4,
+      "losses": 15,
+      "pointsFor": 2127,
+      "pointsAgainst": 2293
+    },
+    {
+      "team": "Washington Wizards",
+      "abbr": "WAS",
+      "wins": 2,
+      "losses": 13,
+      "pointsFor": 1722,
+      "pointsAgainst": 1913
+    }
+  ],
+  "western": [
+    {
+      "team": "Oklahoma City Thunder",
+      "abbr": "OKC",
+      "wins": 15,
+      "losses": 4,
+      "pointsFor": 2200,
+      "pointsAgainst": 2050
+    },
+    {
+      "team": "Golden State Warriors",
+      "abbr": "GS",
+      "wins": 13,
+      "losses": 6,
+      "pointsFor": 2180,
+      "pointsAgainst": 2095
+    },
+    {
+      "team": "Houston Rockets",
+      "abbr": "HOU",
+      "wins": 13,
+      "losses": 6,
+      "pointsFor": 2095,
+      "pointsAgainst": 1985
+    },
+    {
+      "team": "Los Angeles Lakers",
+      "abbr": "LAL",
+      "wins": 11,
+      "losses": 7,
+      "pointsFor": 2080,
+      "pointsAgainst": 2030
+    },
+    {
+      "team": "Phoenix Suns",
+      "abbr": "PHX",
+      "wins": 11,
+      "losses": 7,
+      "pointsFor": 2120,
+      "pointsAgainst": 2080
+    },
+    {
+      "team": "Dallas Mavericks",
+      "abbr": "DAL",
+      "wins": 11,
+      "losses": 8,
+      "pointsFor": 2150,
+      "pointsAgainst": 2100
+    },
+    {
+      "team": "Memphis Grizzlies",
+      "abbr": "MEM",
+      "wins": 11,
+      "losses": 8,
+      "pointsFor": 2175,
+      "pointsAgainst": 2145
+    },
+    {
+      "team": "Los Angeles Clippers",
+      "abbr": "LAC",
+      "wins": 11,
+      "losses": 8,
+      "pointsFor": 2080,
+      "pointsAgainst": 2065
+    },
+    {
+      "team": "Denver Nuggets",
+      "abbr": "DEN",
+      "wins": 10,
+      "losses": 8,
+      "pointsFor": 2125,
+      "pointsAgainst": 2100
+    },
+    {
+      "team": "Minnesota Timberwolves",
+      "abbr": "MIN",
+      "wins": 10,
+      "losses": 9,
+      "pointsFor": 2100,
+      "pointsAgainst": 2080
+    },
+    {
+      "team": "Sacramento Kings",
+      "abbr": "SAC",
+      "wins": 9,
+      "losses": 10,
+      "pointsFor": 2150,
+      "pointsAgainst": 2175
+    },
+    {
+      "team": "San Antonio Spurs",
+      "abbr": "SA",
+      "wins": 9,
+      "losses": 10,
+      "pointsFor": 2115,
+      "pointsAgainst": 2135
+    },
+    {
+      "team": "Portland Trail Blazers",
+      "abbr": "POR",
+      "wins": 7,
+      "losses": 12,
+      "pointsFor": 2080,
+      "pointsAgainst": 2165
+    },
+    {
+      "team": "Utah Jazz",
+      "abbr": "UTAH",
+      "wins": 4,
+      "losses": 15,
+      "pointsFor": 2050,
+      "pointsAgainst": 2235
+    },
+    {
+      "team": "New Orleans Pelicans",
+      "abbr": "NO",
+      "wins": 4,
+      "losses": 15,
+      "pointsFor": 2015,
+      "pointsAgainst": 2180
+    }
+  ]
+}

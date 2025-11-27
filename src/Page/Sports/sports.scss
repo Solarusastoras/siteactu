@@ -1132,6 +1132,47 @@
   color: #42a5f5;
 }
 
+.game-status.next-day {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+// Section matchs du jour suivant
+.next-day-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 15px;
+  border: 2px solid rgba(102, 126, 234, 0.3);
+
+  .section-title {
+    color: #667eea;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .next-day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+  }
+
+  .game-card.next-day-match {
+    border: 2px solid rgba(102, 126, 234, 0.5);
+    background: linear-gradient(135deg, #2a2a2a 0%, #333 100%);
+    
+    &:hover {
+      border-color: #667eea;
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+    }
+  }
+}
+
 @keyframes pulse {
   0% {
     opacity: 1;

@@ -1,0 +1,738 @@
+{
+  "competition": "Ligue 2",
+  "lastUpdate": "2025-11-27T01:06:10.159Z",
+  "scoreboard": {
+    "events": [
+      {
+        "id": "747557",
+        "uid": "s:600~l:3926~e:747557",
+        "date": "2025-11-25T19:00Z",
+        "name": "Stade Laval at Bastia",
+        "shortName": "SLFC @ BAS",
+        "season": {
+          "year": 2025,
+          "type": 13553,
+          "slug": "2025-26-ligue-2"
+        },
+        "competitions": [
+          {
+            "id": "747557",
+            "uid": "s:600~l:3926~e:747557~c:747557",
+            "date": "2025-11-25T19:00Z",
+            "startDate": "2025-11-25T19:00Z",
+            "attendance": 0,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 5400,
+              "displayClock": "90'+6'",
+              "period": 2,
+              "type": {
+                "id": "28",
+                "name": "STATUS_FULL_TIME",
+                "state": "post",
+                "completed": true,
+                "description": "Full Time",
+                "detail": "FT",
+                "shortDetail": "FT"
+              }
+            },
+            "venue": {
+              "id": "3367",
+              "fullName": "Stade Armand-Cesari",
+              "address": {
+                "city": "Furiani",
+                "country": "France"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "notes": [],
+            "geoBroadcasts": [],
+            "broadcasts": [],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "173",
+                "uid": "s:600~t:173",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": false,
+                "form": "LLLWL",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "1-4-10",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "173",
+                  "uid": "s:600~t:173",
+                  "abbreviation": "BAS",
+                  "displayName": "Bastia",
+                  "shortDisplayName": "Bastia",
+                  "name": "Bastia",
+                  "location": "Bastia",
+                  "color": "0000bf",
+                  "alternateColor": "fafafc",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/173.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/173/bastia",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/173/bastia",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/173/bastia",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/173/bastia",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "3367"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "17"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "6"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "66.4"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "ST",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SH",
+                    "displayValue": "9"
+                  }
+                ]
+              },
+              {
+                "id": "3266",
+                "uid": "s:600~t:3266",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": true,
+                "form": "WLWLD",
+                "score": "2",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "3-6-6",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "3266",
+                  "uid": "s:600~t:3266",
+                  "abbreviation": "SLFC",
+                  "displayName": "Stade Laval",
+                  "shortDisplayName": "Stade Laval",
+                  "name": "Stade Laval",
+                  "location": "Stade Laval",
+                  "color": "1a1a1a",
+                  "alternateColor": "1a1a1a",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3266.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/3266/stade-laval",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/3266/stade-laval",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/3266/stade-laval",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/3266/stade-laval",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "10666"
+                  }
+                },
+                "statistics": [
+                  {
+                    "name": "appearances",
+                    "abbreviation": "APP",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "foulsCommitted",
+                    "abbreviation": "FC",
+                    "displayValue": "23"
+                  },
+                  {
+                    "name": "wonCorners",
+                    "abbreviation": "CW",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "goalAssists",
+                    "abbreviation": "A",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "possessionPct",
+                    "abbreviation": "PP",
+                    "displayValue": "33.6"
+                  },
+                  {
+                    "name": "shotAssists",
+                    "abbreviation": "SHAST",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "shotsOnTarget",
+                    "abbreviation": "ST",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "totalGoals",
+                    "abbreviation": "G",
+                    "displayValue": "2"
+                  },
+                  {
+                    "name": "totalShots",
+                    "abbreviation": "SH",
+                    "displayValue": "12"
+                  }
+                ]
+              }
+            ],
+            "details": [
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 720,
+                  "displayValue": "12'"
+                },
+                "team": {
+                  "id": "3266"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "332875",
+                    "displayName": "Julien Maggiotti",
+                    "shortName": "J Maggiotti",
+                    "fullName": "Julien Maggiotti",
+                    "jersey": "28",
+                    "team": {
+                      "id": "3266"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/332875/julien-maggiotti",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "M"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 1200,
+                  "displayValue": "20'"
+                },
+                "team": {
+                  "id": "3266"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "259017",
+                    "displayName": "William Bianda",
+                    "shortName": "W Bianda",
+                    "fullName": "William Bianda",
+                    "jersey": "3",
+                    "team": {
+                      "id": "3266"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/259017/william-bianda",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "D"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 1620,
+                  "displayValue": "27'"
+                },
+                "team": {
+                  "id": "173"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "333589",
+                    "displayName": "Noah Zilliox",
+                    "shortName": "N Zilliox",
+                    "fullName": "Noah Zilliox",
+                    "jersey": "12",
+                    "team": {
+                      "id": "173"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/333589/noah-zilliox",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "D"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "70",
+                  "text": "Goal"
+                },
+                "clock": {
+                  "value": 2340,
+                  "displayValue": "39'"
+                },
+                "team": {
+                  "id": "3266"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "412865",
+                    "displayName": "Joseph Samb",
+                    "shortName": "J Samb",
+                    "fullName": "Joseph Samb",
+                    "jersey": "35",
+                    "team": {
+                      "id": "3266"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/412865/joseph-samb",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "D"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 2520,
+                  "displayValue": "42'"
+                },
+                "team": {
+                  "id": "3266"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "367724",
+                    "displayName": "William Benard",
+                    "shortName": "W Benard",
+                    "fullName": "William Benard",
+                    "jersey": "26",
+                    "team": {
+                      "id": "3266"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/367724/william-benard",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "M"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "98",
+                  "text": "Penalty - Scored"
+                },
+                "clock": {
+                  "value": 3480,
+                  "displayValue": "58'"
+                },
+                "team": {
+                  "id": "3266"
+                },
+                "scoreValue": 1,
+                "scoringPlay": true,
+                "redCard": false,
+                "yellowCard": false,
+                "penaltyKick": true,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "215127",
+                    "displayName": "Malik Tchokounte",
+                    "shortName": "M Tchokounte",
+                    "fullName": "Malik Tchokounte",
+                    "jersey": "18",
+                    "team": {
+                      "id": "3266"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/215127/malik-tchokounte",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "F"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 3780,
+                  "displayValue": "63'"
+                },
+                "team": {
+                  "id": "173"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "380158",
+                    "displayName": "Tom Meynadier",
+                    "shortName": "T Meynadier",
+                    "fullName": "Tom Meynadier",
+                    "jersey": "24",
+                    "team": {
+                      "id": "173"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/380158/tom-meynadier",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "D"
+                  }
+                ]
+              },
+              {
+                "type": {
+                  "id": "94",
+                  "text": "Yellow Card"
+                },
+                "clock": {
+                  "value": 4920,
+                  "displayValue": "82'"
+                },
+                "team": {
+                  "id": "173"
+                },
+                "scoreValue": 0,
+                "scoringPlay": false,
+                "redCard": false,
+                "yellowCard": true,
+                "penaltyKick": false,
+                "ownGoal": false,
+                "shootout": false,
+                "athletesInvolved": [
+                  {
+                    "id": "410721",
+                    "displayName": "Matteo Petrignani",
+                    "shortName": "M Petrignani",
+                    "fullName": "Matteo Petrignani",
+                    "jersey": "33",
+                    "team": {
+                      "id": "173"
+                    },
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/soccer/player/_/id/410721/matteo-petrignani",
+                        "isHidden": false
+                      }
+                    ],
+                    "position": "M"
+                  }
+                ]
+              }
+            ],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 5400,
+          "displayClock": "90'+6'",
+          "period": 2,
+          "type": {
+            "id": "28",
+            "name": "STATUS_FULL_TIME",
+            "state": "post",
+            "completed": true,
+            "description": "Full Time",
+            "detail": "FT",
+            "shortDetail": "FT"
+          }
+        },
+        "venue": {
+          "displayName": "Stade Armand-Cesari"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/747557/stade-laval-bastia",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/747557",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      }
+    ],
+    "season": {
+      "type": 13553,
+      "year": 2025
+    }
+  },
+  "standings": []
+}

@@ -1,0 +1,737 @@
+{
+  "competition": "La Liga",
+  "lastUpdate": "2025-11-27T01:06:10.051Z",
+  "scoreboard": {
+    "events": [
+      {
+        "id": "748280",
+        "uid": "s:600~l:740~e:748280",
+        "date": "2025-11-28T20:00Z",
+        "name": "Elche at Getafe",
+        "shortName": "ELC @ GET",
+        "season": {
+          "year": 2025,
+          "type": 13561,
+          "slug": "2025-26-laliga"
+        },
+        "competitions": [
+          {
+            "id": "748280",
+            "uid": "s:600~l:740~e:748280~c:748280",
+            "date": "2025-11-28T20:00Z",
+            "startDate": "2025-11-28T20:00Z",
+            "attendance": 0,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 0,
+              "displayClock": "0'",
+              "type": {
+                "id": "1",
+                "name": "STATUS_SCHEDULED",
+                "state": "pre",
+                "completed": false,
+                "description": "Scheduled",
+                "detail": "Fri, November 28th at 3:00 PM EST",
+                "shortDetail": "Scheduled"
+              }
+            },
+            "venue": {
+              "id": "4154",
+              "fullName": "Estadio Coliseum",
+              "address": {
+                "city": "Getafe",
+                "country": "Spain"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "ESPN Deportes",
+                  "logo": "https://a.espncdn.com/guid/58f5b8d0-704b-35dc-b6a6-b32e0e123050/logos/default.png",
+                  "darkLogo": "https://a.espncdn.com/guid/58f5b8d0-704b-35dc-b6a6-b32e0e123050/logos/default-dark.png"
+                },
+                "lang": "en",
+                "region": "us"
+              },
+              {
+                "type": {
+                  "id": "4",
+                  "shortName": "STREAMING"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "ESPN+",
+                  "logo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default.png",
+                  "darkLogo": "https://a.espncdn.com/guid/322a7e47-3cdb-3b5c-ab1b-678e1f2c27e5/logos/default-dark.png"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "ESPN Deportes",
+                  "ESPN+"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "2922",
+                "uid": "s:600~t:2922",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": false,
+                "form": "LLWWW",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "5-2-6",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "2922",
+                  "uid": "s:600~t:2922",
+                  "abbreviation": "GET",
+                  "displayName": "Getafe",
+                  "shortDisplayName": "Getafe",
+                  "name": "Getafe",
+                  "location": "Getafe",
+                  "color": "0000ff",
+                  "alternateColor": "C8142F",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/2922/getafe",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/2922/getafe",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/2922/getafe",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/2922/getafe",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "4154"
+                  }
+                },
+                "statistics": [],
+                "leaders": [
+                  {
+                    "name": "goals",
+                    "displayName": "Goals",
+                    "shortDisplayName": "Goals",
+                    "abbreviation": "G",
+                    "leaders": [
+                      {
+                        "displayValue": "4",
+                        "value": 4,
+                        "athlete": {
+                          "id": "218793",
+                          "displayName": "Borja Mayoral",
+                          "shortName": "B Mayoral",
+                          "fullName": "Borja Mayoral",
+                          "jersey": "9",
+                          "active": true,
+                          "team": {
+                            "id": "2922"
+                          },
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/soccer/player/_/id/218793/borja-mayoral",
+                              "isHidden": false
+                            }
+                          ],
+                          "position": {
+                            "abbreviation": "F"
+                          }
+                        },
+                        "team": {
+                          "id": "2922"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "goalsLeaders",
+                    "displayName": "Goals",
+                    "shortDisplayName": "Goals",
+                    "abbreviation": "G",
+                    "leaders": [
+                      {
+                        "displayValue": "4",
+                        "value": 4,
+                        "athlete": {
+                          "id": "218793",
+                          "displayName": "Borja Mayoral",
+                          "shortName": "B Mayoral",
+                          "fullName": "Borja Mayoral",
+                          "jersey": "9",
+                          "active": true,
+                          "team": {
+                            "id": "2922"
+                          },
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/soccer/player/_/id/218793/borja-mayoral",
+                              "isHidden": false
+                            }
+                          ],
+                          "position": {
+                            "abbreviation": "F"
+                          }
+                        },
+                        "team": {
+                          "id": "2922"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "3751",
+                "uid": "s:600~t:3751",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "form": "DDLWL",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "3-7-3",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "3751",
+                  "uid": "s:600~t:3751",
+                  "abbreviation": "ELC",
+                  "displayName": "Elche",
+                  "shortDisplayName": "Elche",
+                  "name": "Elche",
+                  "location": "Elche",
+                  "color": "ffffff",
+                  "alternateColor": "288A00",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/club/_/id/3751/elche",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/3751/elche",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/3751/elche",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/3751/elche",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "3468"
+                  }
+                },
+                "statistics": [],
+                "leaders": [
+                  {
+                    "name": "goals",
+                    "displayName": "Goals",
+                    "shortDisplayName": "Goals",
+                    "abbreviation": "G",
+                    "leaders": [
+                      {
+                        "displayValue": "4",
+                        "value": 4,
+                        "athlete": {
+                          "id": "230974",
+                          "displayName": "Rafa Mir",
+                          "shortName": "R Mir",
+                          "fullName": "Rafa Mir",
+                          "jersey": "10",
+                          "active": true,
+                          "team": {
+                            "id": "3751"
+                          },
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/soccer/player/_/id/230974/rafa-mir",
+                              "isHidden": false
+                            }
+                          ],
+                          "position": {
+                            "abbreviation": "F"
+                          }
+                        },
+                        "team": {
+                          "id": "3751"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "goalsLeaders",
+                    "displayName": "Goals",
+                    "shortDisplayName": "Goals",
+                    "abbreviation": "G",
+                    "leaders": [
+                      {
+                        "displayValue": "4",
+                        "value": 4,
+                        "athlete": {
+                          "id": "230974",
+                          "displayName": "Rafa Mir",
+                          "shortName": "R Mir",
+                          "fullName": "Rafa Mir",
+                          "jersey": "10",
+                          "active": true,
+                          "team": {
+                            "id": "3751"
+                          },
+                          "links": [
+                            {
+                              "rel": [
+                                "playercard",
+                                "desktop",
+                                "athlete"
+                              ],
+                              "href": "https://www.espn.com/soccer/player/_/id/230974/rafa-mir",
+                              "isHidden": false
+                            }
+                          ],
+                          "position": {
+                            "abbreviation": "F"
+                          }
+                        },
+                        "team": {
+                          "id": "3751"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "details": [],
+            "odds": [
+              {
+                "overUnder": 1.5,
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "game",
+                    "desktop",
+                    "bets"
+                  ],
+                  "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0",
+                  "text": "Game",
+                  "shortText": "Game",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "isHidden": false
+                },
+                "provider": {
+                  "id": "58",
+                  "name": "ESPN BET",
+                  "priority": 1
+                },
+                "drawOdds": {
+                  "moneyLine": 190,
+                  "link": {
+                    "language": "en-US",
+                    "rel": [
+                      "draw",
+                      "desktop",
+                      "bets",
+                      "espn-bet"
+                    ],
+                    "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=c87a120b-c931-4f78-8cb6-6e153d7e9c8c&odds_numerator[0]=29&odds_denominator[0]=10",
+                    "text": "Draw Bet",
+                    "shortText": "Draw Bet",
+                    "isExternal": true,
+                    "isPremium": false,
+                    "isHidden": false
+                  }
+                },
+                "total": {
+                  "displayName": "Total",
+                  "shortDisplayName": "Total",
+                  "over": {
+                    "open": {
+                      "line": "o0.5",
+                      "odds": "-900"
+                    },
+                    "close": {
+                      "line": "o1.5",
+                      "odds": "-175",
+                      "link": {
+                        "rel": [
+                          "over",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=0c69adf0-dbef-4efa-b04f-9e089eb6668f&odds_numerator[0]=11&odds_denominator[0]=7",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "over",
+                            "betType": "straight",
+                            "betDetails": "Over:1.5"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "under": {
+                    "open": {
+                      "line": "u0.5",
+                      "odds": "+450"
+                    },
+                    "close": {
+                      "line": "u1.5",
+                      "odds": "+130",
+                      "link": {
+                        "rel": [
+                          "under",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=b67f79fb-9bdd-482d-846f-30659853d56d&odds_numerator[0]=23&odds_denominator[0]=10",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "under",
+                            "betType": "straight",
+                            "betDetails": "Under:1.5"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "pointSpread": {
+                  "displayName": "Spread",
+                  "shortDisplayName": "Spread",
+                  "home": {
+                    "open": {
+                      "line": "-1.5",
+                      "odds": "+290"
+                    },
+                    "close": {
+                      "line": "-0.5",
+                      "odds": "+105",
+                      "link": {
+                        "rel": [
+                          "homeSpread",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=a1bc11e1-d5f7-432e-95e4-426518ec38f2&odds_numerator[0]=41&odds_denominator[0]=20",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "home",
+                            "betType": "straight",
+                            "betDetails": "Spread:GET-0.5"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "line": "+1.5",
+                      "odds": "-500"
+                    },
+                    "close": {
+                      "line": "+0.5",
+                      "odds": "-150",
+                      "link": {
+                        "rel": [
+                          "awaySpread",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=f2746d03-78fc-4bbf-a255-bf3d85535894&odds_numerator[0]=5&odds_denominator[0]=3",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "away",
+                            "betType": "straight",
+                            "betDetails": "Spread:ELC+0.5"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "moneyline": {
+                  "displayName": "Moneyline",
+                  "shortDisplayName": "ML",
+                  "home": {
+                    "open": {
+                      "odds": "-105"
+                    },
+                    "close": {
+                      "odds": "+115",
+                      "link": {
+                        "rel": [
+                          "home",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=9c4f3fe7-c0cc-4f3e-ba14-2f7c90f6f40e&odds_numerator[0]=43&odds_denominator[0]=20",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "home",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "away": {
+                    "open": {
+                      "odds": "+333"
+                    },
+                    "close": {
+                      "odds": "+280",
+                      "link": {
+                        "rel": [
+                          "away",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=018bb725-6747-41cf-b5c9-0cb3058ae576&odds_numerator[0]=19&odds_denominator[0]=5",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "away",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "draw": {
+                    "open": {
+                      "odds": "+200"
+                    },
+                    "close": {
+                      "odds": "+190",
+                      "link": {
+                        "rel": [
+                          "draw",
+                          "bets"
+                        ],
+                        "href": "https://espnbet.app.link/integrations?%243p=a_espn&clr=espnbettingintegration&$canonical_url=/sport/soccer/organization/spain/competition/la-liga/event/54194c44-582f-4bdb-8080-4bffcbe9fcc0&market_selection_id[0]=c87a120b-c931-4f78-8cb6-6e153d7e9c8c&odds_numerator[0]=29&odds_denominator[0]=10",
+                        "tracking": {
+                          "campaign": "betting-integrations",
+                          "tags": {
+                            "league": "esp.1",
+                            "sport": "soccer",
+                            "gameId": 748280,
+                            "betSide": "draw",
+                            "betType": "straight"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "details": "GET +115"
+              }
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 0,
+          "displayClock": "0'",
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Fri, November 28th at 3:00 PM EST",
+            "shortDetail": "Scheduled"
+          }
+        },
+        "venue": {
+          "displayName": "Estadio Coliseum"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/748280/elche-getafe",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/748280",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      }
+    ],
+    "season": {
+      "type": 13561,
+      "year": 2025
+    }
+  },
+  "standings": []
+}

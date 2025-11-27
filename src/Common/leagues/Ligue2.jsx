@@ -1,6 +1,7 @@
 ﻿import React, { useState, useEffect } from 'react';
 import { ligue2Config } from '../data/leaguesConfig';
 import { currentLigue2Standings } from '../data/standingsData';
+import FootballStandings from '../components/FootballStandings';
 import './foot.scss';
 
 const calculateStandings = (events, baseStandings) => {
@@ -76,18 +77,6 @@ const Ligue2 = ({ view = 'matches' }) => {
     return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
   };
 
-  const getPositionClass = (position) => {
-    for (const rule of ligue2Config.positionRules) {
-      if (rule.range && position >= rule.range[0] && position <= rule.range[1]) {
-        return rule.class;
-      }
-      if (rule.positions && rule.positions.includes(position)) {
-        return rule.class;
-      }
-    }
-    return '';
-  };
-
   if (loading) {
     return <div className="loading"><h2>Chargement Ligue 2...</h2></div>;
   }
@@ -96,9 +85,14 @@ const Ligue2 = ({ view = 'matches' }) => {
     return <div className="error-message"><h2>⚠️ Données indisponibles</h2></div>;
   }
 
-  const allMatches = data.scoreboard?.events || [];
+  // Support des deux formats de données
+  const allMatches = data.matches 
+    ? [...(data.matches.completed || []), ...(data.matches.live || []), ...(data.matches.upcoming || [])]
+    : (data.scoreboard?.events || []);
+  
   const standings = calculateStandings(allMatches, currentLigue2Standings);
   const matches = allMatches;
+  const nextDayMatches = data?.nextDayMatches || [];
 
   // Vue Matchs
   if (view === 'matches') {
@@ -108,6 +102,76 @@ const Ligue2 = ({ view = 'matches' }) => {
           <h2>{ligue2Config.icon} {ligue2Config.name}</h2>
         </div>
 
+        {/* Section Matchs du jour suivant */}
+        {nextDayMatches.length > 0 && (
+          <div className="next-day-section">
+            <h3 className="section-title">🔜 Matchs du jour suivant</h3>
+            <div className="games-grid next-day-grid">
+              {nextDayMatches.map((game) => {
+                const competition = game.competitions?.[0];
+                if (!competition || !competition.competitors) return null;
+
+                const homeComp = competition.competitors.find(c => c.homeAway === 'home');
+                const awayComp = competition.competitors.find(c => c.homeAway === 'away');
+                
+                if (!homeComp || !awayComp) return null;
+
+                const homeLogo = homeComp.team?.logo || homeComp.team?.logos?.[0]?.href;
+                const awayLogo = awayComp.team?.logo || awayComp.team?.logos?.[0]?.href;
+                const homeName = homeComp.team?.displayName || homeComp.team?.name || 'Équipe';
+                const awayName = awayComp.team?.displayName || awayComp.team?.name || 'Équipe';
+
+                return (
+                  <div key={game.id} className="game-card next-day-match">
+                    <div className="game-header">
+                      <span className="game-status next-day">Demain</span>
+                      <span className="game-time">{formatTime(game.date)}</span>
+                    </div>
+
+                    <div className="match-inline">
+                      <div className="team-inline home">
+                        {homeLogo && (
+                          <img 
+                            src={homeLogo} 
+                            alt={homeName}
+                            className="team-logo-inline"
+                            onError={(e) => { e.target.style.display = 'none'; }}
+                          />
+                        )}
+                        <div className="team-details-inline">
+                          <h3>{homeName}</h3>
+                        </div>
+                      </div>
+
+                      <div className="vs-section">
+                        <span className="vs-inline">vs</span>
+                      </div>
+
+                      <div className="team-inline away">
+                        <div className="team-details-inline">
+                          <h3>{awayName}</h3>
+                        </div>
+                        {awayLogo && (
+                          <img 
+                            src={awayLogo} 
+                            alt={awayName}
+                            className="team-logo-inline"
+                            onError={(e) => { e.target.style.display = 'none'; }}
+                          />
+                        )}
+                      </div>
+                    </div>
+
+                    {competition.venue?.fullName && (
+                      <div className="game-venue">📍 {competition.venue.fullName}</div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         <div className="games-grid">
           {matches.length === 0 ? (
             <div className="game-card">
@@ -115,17 +179,22 @@ const Ligue2 = ({ view = 'matches' }) => {
             </div>
           ) : (
             matches.map((game) => {
-              const homeTeam = game.competitions?.homeTeam;
-              const awayTeam = game.competitions?.awayTeam;
+              const competition = game.competitions?.[0];
+              if (!competition || !competition.competitors) return null;
 
-              if (!homeTeam || !awayTeam) return null;
+              const homeComp = competition.competitors?.find(c => c.homeAway === 'home');
+              const awayComp = competition.competitors?.find(c => c.homeAway === 'away');
+              
+              if (!homeComp || !awayComp) return null;
 
-              const homeLogo = homeTeam.team?.logo || homeTeam.logo;
-              const awayLogo = awayTeam.team?.logo || awayTeam.logo;
-              const homeName = homeTeam.team?.displayName || homeTeam.team?.name || homeTeam.displayName || homeTeam.name || 'Équipe';
-              const awayName = awayTeam.team?.displayName || awayTeam.team?.name || awayTeam.displayName || awayTeam.name || 'Équipe';
-              const homeRecord = homeTeam.team?.record || homeTeam.record;
-              const awayRecord = awayTeam.team?.record || awayTeam.record;
+              const homeLogo = homeComp.team?.logo || homeComp.team?.logos?.[0]?.href;
+              const awayLogo = awayComp.team?.logo || awayComp.team?.logos?.[0]?.href;
+              const homeName = homeComp.team?.displayName || homeComp.team?.name || 'Équipe';
+              const awayName = awayComp.team?.displayName || awayComp.team?.name || 'Équipe';
+              const homeScore = homeComp.score || '0';
+              const awayScore = awayComp.score || '0';
+              const clock = competition.status?.displayClock || game.status?.displayClock || '';
+              const isLive = game.status?.type?.state === 'in' || game.status?.type === 'STATUS_IN_PROGRESS';
 
               return (
                 <div key={game.id} className="game-card">
@@ -140,58 +209,45 @@ const Ligue2 = ({ view = 'matches' }) => {
 
                   <div className="match-inline">
                     <div className="team-inline home">
-                      <div className="logo-container">
-                        {homeLogo && (
-                          <img 
-                            src={homeLogo} 
-                            alt={homeName}
-                            onError={(e) => { e.target.style.display = 'none'; }}
-                          />
-                        )}
-                      </div>
+                      {homeLogo && (
+                        <img 
+                          src={homeLogo} 
+                          alt={homeName}
+                          className="team-logo-inline"
+                          onError={(e) => { e.target.style.display = 'none'; }}
+                        />
+                      )}
                       <div className="team-details-inline">
                         <h3>{homeName}</h3>
-                        {homeRecord && (
-                          <p className="team-record-inline">
-                            <small>{homeRecord}</small>
-                          </p>
-                        )}
                       </div>
                     </div>
 
-                    <div className="score-inline team-score">
-                      {homeTeam.score || '0'}
+                    <div className="score-inline team-score">{homeScore}</div>
+
+                    <div className="vs-section">
+                      {isLive && clock && <div className="period-indicator">{clock}</div>}
+                      <span className="vs-inline">vs</span>
                     </div>
 
-                    <span className="vs-inline">vs</span>
-
-                    <div className="score-inline team-score">
-                      {awayTeam.score || '0'}
-                    </div>
+                    <div className="score-inline team-score">{awayScore}</div>
 
                     <div className="team-inline away">
                       <div className="team-details-inline">
                         <h3>{awayName}</h3>
-                        {awayRecord && (
-                          <p className="team-record-inline">
-                            <small>{awayRecord}</small>
-                          </p>
-                        )}
                       </div>
-                      <div className="logo-container">
-                        {awayLogo && (
-                          <img 
-                            src={awayLogo} 
-                            alt={awayName}
-                            onError={(e) => { e.target.style.display = 'none'; }}
-                          />
-                        )}
-                      </div>
+                      {awayLogo && (
+                        <img 
+                          src={awayLogo} 
+                          alt={awayName}
+                          className="team-logo-inline"
+                          onError={(e) => { e.target.style.display = 'none'; }}
+                        />
+                      )}
                     </div>
                   </div>
 
-                  {game.competitions?.venue && (
-                    <div className="game-venue">📍 {game.competitions.venue}</div>
+                  {competition.venue?.fullName && (
+                    <div className="game-venue">📍 {competition.venue.fullName}</div>
                   )}
                 </div>
               );
@@ -205,80 +261,11 @@ const Ligue2 = ({ view = 'matches' }) => {
   // Vue Classement
   if (view === 'classement') {
     return (
-      <div className="football-league">
-        <div className="league-header">
-          <h2>{ligue2Config.icon} Classement {ligue2Config.name}</h2>
-        </div>
-
-        <div className="legend-container">
-          {ligue2Config.legend.map((item, index) => (
-            <div key={index} className="legend-item">
-              <span className={`legend-badge ${item.class}`}></span>
-              <span>{item.icon} {item.label}</span>
-            </div>
-          ))}
-        </div>
-
-        {!standings || standings.length === 0 ? (
-          <div className="no-standings">
-            <p>Classement non disponible</p>
-          </div>
-        ) : (
-          <div className="foot-standings-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Équipe</th>
-                  <th>PTS</th>
-                  <th>J</th>
-                  <th>G</th>
-                  <th>N</th>
-                  <th>P</th>
-                  <th>+/-</th>
-                </tr>
-              </thead>
-              <tbody>
-                {standings.map((team, index) => {
-                  const teamLogo = team.team?.logo || team.logo;
-                  const teamName = team.team?.displayName || team.team?.shortDisplayName || team.displayName || team.name;
-                  const stats = team.stats || [];
-                  
-                  const positionClass = getPositionClass(index + 1);
-                  const getEmoji = (className) => {
-                    if (className === 'champions-league') return '🏆 ';
-                    if (className === 'champions-league-playoff') return '🎯 ';
-                    if (className === 'europa-league') return '🥈 ';
-                    if (className === 'conference-league') return '🥉 ';
-                    if (className === 'promotion') return '⬆️ ';
-                    if (className === 'playoff-relegation') return '⚠️ ';
-                    if (className === 'relegation') return '⬇️ ';
-                    return '';
-                  };
-                  
-                  return (
-                    <tr key={index} className={positionClass}>
-                      <td className="foot-position">{index + 1}</td>
-                      <td className="foot-team-name">
-                        {teamLogo && (
-                          <img src={teamLogo} alt="" className="foot-team-logo" />
-                        )}
-                        <span>{getEmoji(positionClass)}{teamName}</span>
-                      </td>
-                      <td className="foot-points"><strong>{stats.find(s => s.name === 'points')?.displayValue || '0'}</strong></td>
-                      <td>{stats.find(s => s.name === 'gamesPlayed')?.displayValue || '0'}</td>
-                      <td>{stats.find(s => s.name === 'wins')?.displayValue || '0'}</td>
-                      <td>{stats.find(s => s.name === 'ties')?.displayValue || '0'}</td>
-                      <td>{stats.find(s => s.name === 'losses')?.displayValue || '0'}</td>
-                      <td>{stats.find(s => s.name === 'pointDifferential')?.displayValue || '0'}</td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </div>
+      <FootballStandings 
+        standings={data?.standings || standings} 
+        leagueName={ligue2Config.name}
+        config={ligue2Config}
+      />
     );
   }
 
