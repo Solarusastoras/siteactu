@@ -10,9 +10,9 @@ const Sciences = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/actu/data/data.json');
+        const response = await fetch('./data/culture-sciences.json');
         const jsonData = await response.json();
-        const sciencesData = jsonData.culture?.sciences?.items || [];
+        const sciencesData = jsonData.items || [];
         setActualites(sciencesData.map(item => ({
           titre: item.title,
           description: item.description,

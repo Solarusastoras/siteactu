@@ -11,9 +11,9 @@ const Cinema = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/actu/data/data.json');
+        const response = await fetch('./data/culture-cinema.json');
         const jsonData = await response.json();
-        const cinemaData = jsonData.culture?.cinema?.items || [];
+        const cinemaData = jsonData.items || [];
         setActualites(cinemaData.map(item => ({
           titre: item.title,
           description: item.description,

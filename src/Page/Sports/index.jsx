@@ -191,12 +191,6 @@ const AllSports = () => {
           >
             📅 Matchs
           </button>
-          <button 
-            className={`control-btn ${footballView === 'avenir' ? 'active' : ''}`}
-            onClick={() => setFootballView('avenir')}
-          >
-            🔜 Matchs à venir
-          </button>
           {(footballLeague === 'worldcup' || footballLeague === 'africnationcup' || footballLeague === 'championleague' || footballLeague === 'europecup') && (
             <button 
               className={`control-btn ${footballView === 'eliminatoire' ? 'active' : ''}`}

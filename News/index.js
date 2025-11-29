@@ -4,7 +4,419 @@ const ftp = require('basic-ftp');
 const fs = require('fs').promises;
 const path = require('path');
 const Parser = require('rss-parser');
-const { calculateLiveStandings } = require('./standings-calculator');
+
+// ==================== STANDINGS CALCULATOR (intégré) ====================
+
+// Import des standings initiaux
+const nhlInitial = require('./nhl-initial-standings');
+const nbaInitial = require('./nba-initial-standings');
+const nflInitial = require('./nfl-initial-standings');
+
+// Fichiers de sauvegarde des standings courants
+const STANDINGS_FILES = {
+  nhl: path.join(__dirname, 'output', 'nhl-live-standings.json'),
+  nba: path.join(__dirname, 'output', 'nba-live-standings.json'),
+  nfl: path.join(__dirname, 'output', 'nfl-live-standings.json')
+};
+
+// Fichiers de tracking des matchs traités
+const PROCESSED_MATCHES_FILES = {
+  nhl: path.join(__dirname, 'output', 'nhl-processed-matches.json'),
+  nba: path.join(__dirname, 'output', 'nba-processed-matches.json'),
+  nfl: path.join(__dirname, 'output', 'nfl-processed-matches.json')
+};
+
+// Charger les standings sauvegardés ou utiliser les initiaux
+async function loadStandings(sport) {
+  try {
+    const data = await fs.readFile(STANDINGS_FILES[sport], 'utf8');
+    const parsed = JSON.parse(data);
+    console.log(`✓ Standings ${sport.toUpperCase()} chargés depuis cache`);
+    return parsed;
+  } catch (error) {
+    console.log(`→ Initialisation des standings ${sport.toUpperCase()}`);
+    const initial = sport === 'nhl' ? nhlInitial : sport === 'nba' ? nbaInitial : nflInitial;
+    await saveStandings(sport, initial);
+    return initial;
+  }
+}
+
+// Sauvegarder les standings
+async function saveStandings(sport, standings) {
+  try {
+    await fs.writeFile(STANDINGS_FILES[sport], JSON.stringify(standings, null, 2));
+    console.log(`✓ Standings ${sport.toUpperCase()} sauvegardés`);
+  } catch (error) {
+    console.error(`✗ Erreur sauvegarde standings ${sport.toUpperCase()}:`, error.message);
+  }
+}
+
+// Charger les IDs des matchs déjà traités
+async function loadProcessedMatches(sport) {
+  try {
+    const data = await fs.readFile(PROCESSED_MATCHES_FILES[sport], 'utf8');
+    return new Set(JSON.parse(data));
+  } catch (error) {
+    return new Set();
+  }
+}
+
+// Sauvegarder les IDs des matchs traités
+async function saveProcessedMatches(sport, processedIds) {
+  try {
+    await fs.writeFile(PROCESSED_MATCHES_FILES[sport], JSON.stringify([...processedIds], null, 2));
+  } catch (error) {
+    console.error(`✗ Erreur sauvegarde matches traités ${sport.toUpperCase()}:`, error.message);
+  }
+}
+
+// Mettre à jour les standings NHL avec résultats des matchs
+function updateNHLStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
+  
+  const updated = JSON.parse(JSON.stringify(standings));
+  const newMatches = [];
+  
+  for (const event of scoreboard.events) {
+    if (event.status?.type?.state !== 'post') continue;
+    
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
+    
+    const competition = event.competitions?.[0];
+    if (!competition) continue;
+    
+    const homeTeam = competition.competitors?.find(c => c.homeAway === 'home');
+    const awayTeam = competition.competitors?.find(c => c.homeAway === 'away');
+    
+    if (!homeTeam || !awayTeam) continue;
+    
+    const homeScore = parseInt(homeTeam.score) || 0;
+    const awayScore = parseInt(awayTeam.score) || 0;
+    const homeWin = homeScore > awayScore;
+    const overtime = event.status?.type?.detail?.includes('OT') || event.status?.type?.detail?.includes('SO');
+    
+    newMatches.push(matchId);
+    
+    ['eastern', 'western'].forEach(conf => {
+      updated[conf].forEach(team => {
+        if (team.abbr === homeTeam.team.abbreviation) {
+          if (homeWin) {
+            team.wins++;
+            team.points += 2;
+          } else {
+            if (overtime) {
+              team.otLosses++;
+              team.points += 1;
+            } else {
+              team.losses++;
+            }
+          }
+          team.goalsFor += homeScore;
+          team.goalsAgainst += awayScore;
+        } else if (team.abbr === awayTeam.team.abbreviation) {
+          if (!homeWin) {
+            team.wins++;
+            team.points += 2;
+          } else {
+            if (overtime) {
+              team.otLosses++;
+              team.points += 1;
+            } else {
+              team.losses++;
+            }
+          }
+          team.goalsFor += awayScore;
+          team.goalsAgainst += homeScore;
+        }
+      });
+    });
+  }
+  
+  ['eastern', 'western'].forEach(conf => {
+    updated[conf].sort((a, b) => {
+      if (b.points !== a.points) return b.points - a.points;
+      const diffA = a.goalsFor - a.goalsAgainst;
+      const diffB = b.goalsFor - b.goalsAgainst;
+      return diffB - diffA;
+    });
+  });
+  
+  return { standings: updated, newMatches };
+}
+
+// Mettre à jour les standings NBA avec résultats des matchs
+function updateNBAStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
+  
+  const updated = JSON.parse(JSON.stringify(standings));
+  const newMatches = [];
+  
+  for (const event of scoreboard.events) {
+    if (event.status?.type?.state !== 'post') continue;
+    
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
+    
+    const competition = event.competitions?.[0];
+    if (!competition) continue;
+    
+    const homeTeam = competition.competitors?.find(c => c.homeAway === 'home');
+    const awayTeam = competition.competitors?.find(c => c.homeAway === 'away');
+    
+    if (!homeTeam || !awayTeam) continue;
+    
+    const homeScore = parseInt(homeTeam.score) || 0;
+    const awayScore = parseInt(awayTeam.score) || 0;
+    const homeWin = homeScore > awayScore;
+    
+    newMatches.push(matchId);
+    
+    ['eastern', 'western'].forEach(conf => {
+      updated[conf].forEach(team => {
+        if (team.abbr === homeTeam.team.abbreviation) {
+          if (homeWin) team.wins++;
+          else team.losses++;
+          team.pointsFor += homeScore;
+          team.pointsAgainst += awayScore;
+        } else if (team.abbr === awayTeam.team.abbreviation) {
+          if (!homeWin) team.wins++;
+          else team.losses++;
+          team.pointsFor += awayScore;
+          team.pointsAgainst += homeScore;
+        }
+      });
+    });
+  }
+  
+  ['eastern', 'western'].forEach(conf => {
+    updated[conf].sort((a, b) => {
+      if (b.wins !== a.wins) return b.wins - a.wins;
+      const winPctA = a.wins / (a.wins + a.losses);
+      const winPctB = b.wins / (b.wins + b.losses);
+      return winPctB - winPctA;
+    });
+  });
+  
+  return { standings: updated, newMatches };
+}
+
+// Mettre à jour les standings NFL avec résultats des matchs
+function updateNFLStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
+  
+  const updated = JSON.parse(JSON.stringify(standings));
+  const newMatches = [];
+  
+  for (const event of scoreboard.events) {
+    if (event.status?.type?.state !== 'post') continue;
+    
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
+    
+    const competition = event.competitions?.[0];
+    if (!competition) continue;
+    
+    const homeTeam = competition.competitors?.find(c => c.homeAway === 'home');
+    const awayTeam = competition.competitors?.find(c => c.homeAway === 'away');
+    
+    if (!homeTeam || !awayTeam) continue;
+    
+    const homeScore = parseInt(homeTeam.score) || 0;
+    const awayScore = parseInt(awayTeam.score) || 0;
+    
+    newMatches.push(matchId);
+    
+    if (homeScore === awayScore) {
+      ['nfc', 'afc'].forEach(conf => {
+        updated[conf].forEach(team => {
+          if (team.abbr === homeTeam.team.abbreviation || team.abbr === awayTeam.team.abbreviation) {
+            team.ties++;
+            team.pointsFor += (team.abbr === homeTeam.team.abbreviation) ? homeScore : awayScore;
+            team.pointsAgainst += (team.abbr === homeTeam.team.abbreviation) ? awayScore : homeScore;
+          }
+        });
+      });
+    } else {
+      const homeWin = homeScore > awayScore;
+      
+      ['nfc', 'afc'].forEach(conf => {
+        updated[conf].forEach(team => {
+          if (team.abbr === homeTeam.team.abbreviation) {
+            if (homeWin) team.wins++;
+            else team.losses++;
+            team.pointsFor += homeScore;
+            team.pointsAgainst += awayScore;
+          } else if (team.abbr === awayTeam.team.abbreviation) {
+            if (!homeWin) team.wins++;
+            else team.losses++;
+            team.pointsFor += awayScore;
+            team.pointsAgainst += homeScore;
+          }
+        });
+      });
+    }
+  }
+  
+  ['nfc', 'afc'].forEach(conf => {
+    updated[conf].sort((a, b) => {
+      if (b.wins !== a.wins) return b.wins - a.wins;
+      const diffA = a.pointsFor - a.pointsAgainst;
+      const diffB = b.pointsFor - b.pointsAgainst;
+      return diffB - diffA;
+    });
+  });
+  
+  return { standings: updated, newMatches };
+}
+
+// Formater pour le format SofaScore (compatible avec le frontend)
+function formatForSofaScore(standings, sport) {
+  const conferences = [];
+  
+  if (sport === 'nhl') {
+    conferences.push({
+      name: 'Eastern Conference',
+      standings: standings.eastern.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses + team.otLosses,
+        wins: team.wins,
+        draws: 0,
+        losses: team.losses + team.otLosses,
+        points: team.points,
+        goalsFor: team.goalsFor,
+        goalsAgainst: team.goalsAgainst,
+        goalDifference: team.goalsFor - team.goalsAgainst,
+        otLosses: team.otLosses
+      }))
+    });
+    
+    conferences.push({
+      name: 'Western Conference',
+      standings: standings.western.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses + team.otLosses,
+        wins: team.wins,
+        draws: 0,
+        losses: team.losses + team.otLosses,
+        points: team.points,
+        goalsFor: team.goalsFor,
+        goalsAgainst: team.goalsAgainst,
+        goalDifference: team.goalsFor - team.goalsAgainst,
+        otLosses: team.otLosses
+      }))
+    });
+  } else if (sport === 'nba') {
+    conferences.push({
+      name: 'Eastern Conference',
+      standings: standings.eastern.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses,
+        wins: team.wins,
+        losses: team.losses,
+        winPercentage: (team.wins / (team.wins + team.losses)).toFixed(3),
+        pointsFor: team.pointsFor,
+        pointsAgainst: team.pointsAgainst
+      }))
+    });
+    
+    conferences.push({
+      name: 'Western Conference',
+      standings: standings.western.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses,
+        wins: team.wins,
+        losses: team.losses,
+        winPercentage: (team.wins / (team.wins + team.losses)).toFixed(3),
+        pointsFor: team.pointsFor,
+        pointsAgainst: team.pointsAgainst
+      }))
+    });
+  } else if (sport === 'nfl') {
+    conferences.push({
+      name: 'NFC',
+      standings: standings.nfc.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses + team.ties,
+        wins: team.wins,
+        losses: team.losses,
+        ties: team.ties,
+        winPercentage: ((team.wins + team.ties * 0.5) / (team.wins + team.losses + team.ties)).toFixed(3),
+        pointsFor: team.pointsFor,
+        pointsAgainst: team.pointsAgainst,
+        division: team.division
+      }))
+    });
+    
+    conferences.push({
+      name: 'AFC',
+      standings: standings.afc.map((team, idx) => ({
+        position: idx + 1,
+        team: team.team,
+        teamId: 0,
+        logo: '',
+        played: team.wins + team.losses + team.ties,
+        wins: team.wins,
+        losses: team.losses,
+        ties: team.ties,
+        winPercentage: ((team.wins + team.ties * 0.5) / (team.wins + team.losses + team.ties)).toFixed(3),
+        pointsFor: team.pointsFor,
+        pointsAgainst: team.pointsAgainst,
+        division: team.division
+      }))
+    });
+  }
+  
+  return conferences;
+}
+
+// Fonction principale : calculer standings dynamiques
+async function calculateLiveStandings(sport, scoreboard) {
+  console.log(`\n→ Calcul standings ${sport.toUpperCase()}...`);
+  
+  const currentStandings = await loadStandings(sport);
+  const processedMatches = await loadProcessedMatches(sport);
+  
+  let result;
+  if (sport === 'nhl') {
+    result = updateNHLStandings(currentStandings, scoreboard, processedMatches);
+  } else if (sport === 'nba') {
+    result = updateNBAStandings(currentStandings, scoreboard, processedMatches);
+  } else if (sport === 'nfl') {
+    result = updateNFLStandings(currentStandings, scoreboard, processedMatches);
+  }
+  
+  const { standings: updatedStandings, newMatches } = result;
+  
+  if (newMatches.length > 0) {
+    console.log(`📊 ${newMatches.length} nouveau(x) match(s) traité(s)`);
+    newMatches.forEach(id => processedMatches.add(id));
+    await saveProcessedMatches(sport, processedMatches);
+    await saveStandings(sport, updatedStandings);
+  }
+  
+  const formatted = formatForSofaScore(updatedStandings, sport);
+  
+  console.log(`✓ Standings ${sport.toUpperCase()} calculés (${processedMatches.size} matchs au total)`);
+  return formatted;
+}
+
+// ==================== FIN STANDINGS CALCULATOR ====================
 
 // Configuration
 const CONFIG = {
@@ -17,7 +429,7 @@ const CONFIG = {
     remotePath: process.env.FTP_REMOTE_PATH || '/www/actu/data'
   },
   sportsUpdateInterval: parseInt(process.env.SPORTS_UPDATE_INTERVAL) || 10000,
-  newsUpdateInterval: parseInt(process.env.NEWS_UPDATE_INTERVAL) || 3600000,
+  newsUpdateInterval: parseInt(process.env.NEWS_UPDATE_INTERVAL) || 1800000, // 30 minutes
   outputDir: path.join(__dirname, 'output'),
   debug: process.env.DEBUG === 'true',
   // Heures de mise à jour quotidienne
@@ -79,21 +491,21 @@ const ESPN_COMPETITIONS = {
     name: 'Ligue 2',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard',
     output: 'ligue2.json',
-    matchHours: { start: 19, end: 23.5 },
-    matchDays: [5, 6, 1] // Vendredi, Lundi
+    matchHours: { start: 17, end: 23.5 },
+    matchDays: [5, 6, 1] // Vendredi, Samedi, Lundi
   },
   premierLeague: {
     name: 'Premier League',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard',
     output: 'premierleague.json',
-    matchHours: { start: 13, end: 23.5 },
-    matchDays: [6, 0, 1] // Samedi, Dimanche, Lundi
+    matchHours: { start: 12.5, end: 23.5 },
+    matchDays: [5, 6, 0, 1] // Vendredi, Samedi, Dimanche, Lundi
   },
   laLiga: {
     name: 'La Liga',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard',
     output: 'laliga.json',
-    matchHours: { start: 14, end: 23.75 },
+    matchHours: { start: 13, end: 23.75 },
     matchDays: [5, 6, 0, 1] // Vendredi, Samedi, Dimanche, Lundi
   },
   serieA: {
@@ -101,14 +513,14 @@ const ESPN_COMPETITIONS = {
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard',
     output: 'seriea.json',
     matchHours: { start: 12, end: 23.5 },
-    matchDays: [6, 0, 1] // Samedi, Dimanche, Lundi
+    matchDays: [5, 6, 0, 1] // Vendredi, Samedi, Dimanche, Lundi
   },
   bundesliga: {
     name: 'Bundesliga',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard',
     output: 'bundesliga.json',
     matchHours: { start: 15, end: 23.5 },
-    matchDays: [5, 6, 0] // Vendredi, Samedi, Dimanche
+    matchDays: [5, 6, 0, 1] // Vendredi, Samedi, Dimanche, Lundi
   },
   brasileirao: {
     name: 'Brasileirão Série A',
@@ -137,7 +549,7 @@ const ESPN_COMPETITIONS = {
     name: 'NBA',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard',
     output: 'nba.json',
-    matchHours: { start: 0, end: 7 },
+    matchHours: { start: 18, end: 7 },
     matchDays: [0, 1, 2, 3, 4, 5, 6], // Tous les jours
     dailyUpdateHour: 6.5
   },
@@ -147,7 +559,7 @@ const ESPN_COMPETITIONS = {
     output: 'nfl.json',
     matchSchedule: [
       { day: 5, start: 2, end: 6.5 },   // Vendredi 2h-6h30
-      { day: 0, start: 19, end: 6.5 },  // Dimanche 19h-Lundi 6h30
+      { day: 0, start: 18.5, end: 6.5 },  // Dimanche 19h-Lundi 6h30
       { day: 2, start: 2, end: 6.5 }    // Mardi 2h-6h30
     ],
     dailyUpdateHour: 6.5
@@ -156,7 +568,7 @@ const ESPN_COMPETITIONS = {
     name: 'NHL',
     scoreboard: 'https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard',
     output: 'nhl.json',
-    matchHours: { start: 0, end: 7 },
+    matchHours: { start: 18, end: 7 },
     matchDays: [0, 1, 2, 3, 4, 5, 6], // Tous les jours
     dailyUpdateHour: 6.5
   }
@@ -221,28 +633,29 @@ const CULTURE_FEEDS = {
 
 // RSS Mercato Feeds
 const MERCATO_FEEDS = {
-  maxifoot: {
-    name: 'Mercato Maxifoot',
-    url: 'https://www.maxifoot.fr/rss/news-mercato.xml',
-    output: 'mercato-maxifoot.json',
+  lequipe: {
+    name: 'Mercato L\'Équipe',
+    url: 'https://www.lequipe.fr/rss/actu_rss_Football_Transferts.xml',
+    output: 'mercato-lequipe.json',
     maxItems: 15
+  },
+  madeinfoot: {
+    name: 'Mercato MadeInFoot',
+    url: 'https://madeinfoot.ouest-france.fr/rss/infos-rss.xml',
+    output: 'mercato-madeinfoot.json',
+    maxItems: 15,
+    filter: 'mercato'
   },
   rmcsport: {
     name: 'Mercato RMC Sport',
-    url: 'https://rmcsport.bfmtv.com/rss/football/mercato/',
+    url: 'https://rmcsport.bfmtv.com/football/rss.xml',
     output: 'mercato-rmcsport.json',
-    maxItems: 15
-  },
-  le10sport: {
-    name: 'Mercato Le 10 Sport',
-    url: 'https://le10sport.com/rss',
-    output: 'mercato-le10sport.json',
     maxItems: 15,
     filter: 'mercato'
   },
   footmercato: {
     name: 'Mercato Foot Mercato',
-    url: 'https://www.footmercato.net/rss/all.xml',
+    url: 'https://www.footmercato.net/rss.xml',
     output: 'mercato-footmercato.json',
     maxItems: 15,
     filter: 'mercato'
@@ -456,12 +869,55 @@ async function fetchESPNCompetition(key, competition, forceStandingsUpdate = fal
   const outputPath = path.join(CONFIG.outputDir, competition.output);
   
   try {
-    // Fetch scoreboard ESPN
-    const scoreboardRes = await axios.get(competition.scoreboard, { timeout: CONFIG.timeout });
-    const events = scoreboardRes.data?.events || [];
+    // Fetch scoreboard ESPN pour plusieurs jours (garder historique du week-end complet)
+    const allEvents = [];
+    const today = new Date();
+    
+    // Récupérer les matchs sur 7 jours pour capturer tout le week-end
+    // De -3 jours à +4 jours pour garder l'historique (ex: samedi garde vendredi)
+    for (let i = -3; i <= 4; i++) {
+      const date = new Date(today);
+      date.setDate(date.getDate() + i);
+      const dateStr = date.toISOString().split('T')[0].replace(/-/g, ''); // Format YYYYMMDD
+      
+      try {
+        const url = `${competition.scoreboard}?dates=${dateStr}`;
+        const scoreboardRes = await axios.get(url, { timeout: CONFIG.timeout });
+        const dayEvents = scoreboardRes.data?.events || [];
+        
+        if (dayEvents.length > 0) {
+          allEvents.push(...dayEvents);
+          log(`📅 ${competition.name} - ${dayEvents.length} matchs le ${date.toLocaleDateString('fr-FR')}`);
+        }
+      } catch (err) {
+        // Continuer même si une date échoue
+        if (CONFIG.debug) log(`⚠️ Erreur pour ${dateStr}: ${err.message}`, 'warn');
+      }
+    }
+    
+    // Dédupliquer les matchs par ID
+    const uniqueEvents = Array.from(new Map(allEvents.map(e => [e.id, e])).values());
+    
+    // Garder les matchs terminés des 3 derniers jours + tous les matchs à venir
+    const threeDaysAgo = new Date();
+    threeDaysAgo.setDate(threeDaysAgo.getDate() - 3);
+    threeDaysAgo.setHours(0, 0, 0, 0);
+    
+    const filteredEvents = uniqueEvents.filter(event => {
+      const eventDate = new Date(event.date);
+      const isCompleted = event.status?.type?.state === 'post';
+      
+      // Garder tous les matchs à venir et en cours
+      if (!isCompleted) return true;
+      
+      // Garder les matchs terminés des 3 derniers jours
+      return eventDate >= threeDaysAgo;
+    });
+    
+    log(`📊 ${competition.name} - Total: ${filteredEvents.length} matchs (historique 3 jours)`);
     
     // Catégoriser les matchs ESPN
-    const matchData = categorizeMatches(events);
+    const matchData = categorizeMatches(filteredEvents);
     let { completed, live, upcoming } = matchData;
     
     // Enrichir les matchs à venir avec TheSportsDB si c'est une ligue de football
@@ -523,7 +979,10 @@ async function fetchESPNCompetition(key, competition, forceStandingsUpdate = fal
     // Mettre à jour standings
     if (isAmericanSport) {
       // Sports US : calculer depuis les résultats du scoreboard
-      standings = await calculateLiveStandings(key, scoreboardRes.data);
+      const scoreboardData = {
+        events: filteredEvents
+      };
+      standings = await calculateLiveStandings(key, scoreboardData);
       log(`🔄 ${competition.name} - Classement calculé dynamiquement`);
     } else if (forceStandingsUpdate || isFirstRun || (isFootballLeague && standings.length === 0) || shouldUpdateStandings(matchData)) {
       // Ligues de football : utiliser SofaScore API
@@ -539,15 +998,29 @@ async function fetchESPNCompetition(key, competition, forceStandingsUpdate = fal
       lastUpdate: new Date().toISOString(),
       matches: { completed, live, upcoming },
       nextDayMatches: nextDayMatches || [],
-      standings,
-      season: scoreboardRes.data?.season
+      standings
     };
 
+    // Lire l'ancien fichier pour comparaison
+    let oldData = null;
+    try {
+      const oldContent = await fs.readFile(outputPath, 'utf8');
+      oldData = JSON.parse(oldContent);
+    } catch {
+      // Fichier n'existe pas encore
+    }
+    
+    // Détecter si les données ont changé
+    const hasChanged = hasDataChanged(oldData, data);
+    
+    // Toujours écrire le fichier localement (pour mise à jour de lastUpdate)
     await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
     
     const summary = `${completed.length} terminés, ${live.length} en cours, ${upcoming.length} à venir`;
     log(`✓ ${competition.name} - ${summary}`);
-    return { key, outputPath, data };
+    
+    // Retourner les données uniquement si changement (pour upload FTP)
+    return hasChanged ? { key, outputPath, data, changed: true } : { key, changed: false };
   } catch (error) {
     log(`✗ Erreur ${competition.name}: ${error.message}`, 'error');
     return null;
@@ -562,6 +1035,79 @@ async function readCachedStandings(filePath) {
     return data.standings || [];
   } catch {
     return [];
+  }
+}
+
+// Comparer deux ensembles de données pour détecter les changements
+function hasDataChanged(oldData, newData) {
+  if (!oldData) return true; // Première exécution
+  
+  try {
+    const oldMatches = oldData.matches || {};
+    const newMatches = newData.matches || {};
+    
+    // Vérifier les changements dans les matchs
+    const oldCompleted = oldMatches.completed || [];
+    const oldLive = oldMatches.live || [];
+    const oldUpcoming = oldMatches.upcoming || [];
+    const newCompleted = newMatches.completed || [];
+    const newLive = newMatches.live || [];
+    const newUpcoming = newMatches.upcoming || [];
+    
+    // Changement si le nombre de matchs live change (match démarre ou se termine)
+    if (oldLive.length !== newLive.length) {
+      log('  → Changement détecté: nombre de matchs live modifié', 'debug');
+      return true;
+    }
+    
+    // Changement si le nombre de matchs terminés change
+    if (oldCompleted.length !== newCompleted.length) {
+      log('  → Changement détecté: nouveau(x) match(s) terminé(s)', 'debug');
+      return true;
+    }
+    
+    // Vérifier les scores des matchs live
+    for (const newMatch of newLive) {
+      const oldMatch = oldLive.find(m => m.id === newMatch.id);
+      if (!oldMatch) {
+        log('  → Changement détecté: nouveau match live', 'debug');
+        return true;
+      }
+      
+      const newComp = newMatch.competitions?.[0];
+      const oldComp = oldMatch.competitions?.[0];
+      
+      if (!newComp || !oldComp) continue;
+      
+      const newHome = newComp.competitors?.find(c => c.homeAway === 'home');
+      const newAway = newComp.competitors?.find(c => c.homeAway === 'away');
+      const oldHome = oldComp.competitors?.find(c => c.homeAway === 'home');
+      const oldAway = oldComp.competitors?.find(c => c.homeAway === 'away');
+      
+      // Changement si les scores changent
+      if (newHome?.score !== oldHome?.score || newAway?.score !== oldAway?.score) {
+        log('  → Changement détecté: score modifié', 'debug');
+        return true;
+      }
+      
+      // Changement si le statut du match change (période, temps, etc.)
+      if (newMatch.status?.displayClock !== oldMatch.status?.displayClock) {
+        log('  → Changement détecté: horloge du match modifiée', 'debug');
+        return true;
+      }
+    }
+    
+    // Vérifier si les matchs à venir ont changé (nouveau match ajouté)
+    if (oldUpcoming.length !== newUpcoming.length) {
+      log('  → Changement détecté: matchs à venir modifiés', 'debug');
+      return true;
+    }
+    
+    // Aucun changement significatif détecté
+    return false;
+  } catch (error) {
+    log(`Erreur comparaison données: ${error.message}`, 'warn');
+    return true; // En cas d'erreur, on considère qu'il y a un changement
   }
 }
 
@@ -832,46 +1378,29 @@ async function connectFTP() {
 async function uploadAllFiles(results) {
   let client;
   try {
-    // Créer un fichier JSON consolidé avec toutes les données
-    const consolidatedData = {
-      sports: {},
-      actus: {},
-      culture: {},
-      mercato: {},
-      lastUpdate: new Date().toISOString()
-    };
-
-    // Lire et consolider tous les fichiers JSON
+    client = await connectFTP();
+    if (!client) return;
+    
+    log(`📤 Upload de ${results.length} fichiers JSON individuels...`);
+    
+    let uploadCount = 0;
     for (const result of results) {
       try {
-        const filename = path.basename(result.outputPath, '.json');
-        const fileContent = await fs.readFile(result.outputPath, 'utf8');
-        const data = JSON.parse(fileContent);
+        const filename = path.basename(result.outputPath);
+        const remotePath = `${CONFIG.ftp.remotePath}/${filename}`;
         
-        // Catégoriser par préfixe
-        const [category, key] = (
-          filename.startsWith('actus-') ? ['actus', filename.replace('actus-', '')] :
-          filename.startsWith('culture-') ? ['culture', filename.replace('culture-', '')] :
-          filename.startsWith('mercato-') ? ['mercato', filename.replace('mercato-', '')] :
-          ['sports', filename]
-        );
+        await client.uploadFrom(result.outputPath, remotePath);
+        uploadCount++;
         
-        consolidatedData[category][key] = data;
+        if (CONFIG.debug) {
+          log(`  ✓ ${filename} → ${remotePath}`);
+        }
       } catch (err) {
-        log(`⚠️ Erreur lecture ${result.outputPath}: ${err.message}`, 'warn');
+        log(`  ✗ Erreur upload ${path.basename(result.outputPath)}: ${err.message}`, 'warn');
       }
     }
-
-    // Écrire le fichier consolidé
-    const consolidatedPath = path.join(CONFIG.outputDir, 'data.json');
-    await fs.writeFile(consolidatedPath, JSON.stringify(consolidatedData, null, 2));
-    log(`✓ Fichier consolidé créé: data.json (${results.length} sources)`);
-
-    // Upload du fichier unique
-    client = await connectFTP();
-    const remotePath = `${CONFIG.ftp.remotePath}/data.json`;
-    await client.uploadFrom(consolidatedPath, remotePath);
-    log(`✓ Fichier uploadé vers OVH: ${remotePath}`);
+    
+    log(`✓ ${uploadCount}/${results.length} fichiers uploadés vers OVH`);
     
   } catch (error) {
     log(`Erreur upload FTP: ${error.message}`, 'error');
@@ -965,11 +1494,16 @@ async function sportsLoop() {
       fetchESPNCompetition(key, comp, forceStandingsUpdate)
     );
     
-    const espnResults = (await Promise.all(promises)).filter(r => r !== null);
+    const allResults = (await Promise.all(promises)).filter(r => r !== null);
     
-    if (espnResults.length > 0) {
-      log(`Sports: ${espnResults.length} compétitions mises à jour`);
-      await uploadAllFiles(espnResults);
+    // Filtrer uniquement les résultats qui ont changé
+    const changedResults = allResults.filter(r => r.changed === true);
+    
+    if (changedResults.length > 0) {
+      log(`📤 Sports: ${changedResults.length}/${allResults.length} compétitions avec changements → Upload FTP`);
+      await uploadAllFiles(changedResults);
+    } else if (allResults.length > 0) {
+      log(`✓ Sports: ${allResults.length} compétitions vérifiées, aucun changement`);
     }
   } catch (error) {
     log(`Erreur dans sportsLoop: ${error.message}`, 'error');
@@ -999,7 +1533,7 @@ async function newsLoop() {
     log(`Erreur dans newsLoop: ${error.message}`, 'error');
   }
   
-  log(`=== News/Culture/Mercato: Prochaine mise à jour dans 1 heure ===\n`);
+  log(`=== News/Culture/Mercato: Prochaine mise à jour dans 30 minutes ===\n`);
 }
 
 // ==================== DÉMARRAGE ====================
@@ -1008,9 +1542,9 @@ async function start() {
   log('🚀 Démarrage du service de mise à jour automatique');
   log(`Configuration:`);
   log(`  - ${Object.keys(ESPN_COMPETITIONS).length} sports (refresh intelligent par plage horaire + 23h45 quotidien)`);
-  log(`  - ${Object.keys(NEWS_FEEDS).length} actualités (refresh: toutes les heures)`);
-  log(`  - ${Object.keys(CULTURE_FEEDS).length} culture (refresh: toutes les heures)`);
-  log(`  - ${Object.keys(MERCATO_FEEDS).length} mercato (refresh: toutes les heures)`);
+  log(`  - ${Object.keys(NEWS_FEEDS).length} actualités (refresh: toutes les 30 minutes)`);
+  log(`  - ${Object.keys(CULTURE_FEEDS).length} culture (refresh: toutes les 30 minutes)`);
+  log(`  - ${Object.keys(MERCATO_FEEDS).length} mercato (refresh: toutes les 30 minutes)`);
   log(`Destination FTP: ${CONFIG.ftp.host}:${CONFIG.ftp.remotePath}`);
   log(``);
   
@@ -1032,14 +1566,15 @@ async function start() {
   }
   log(``);
   
-  // Première exécution immédiate des deux boucles
-  await Promise.all([
-    sportsLoop(),
-    newsLoop()
-  ]);
+  // Première exécution immédiate - News/Culture/Mercato d'abord
+  log('⚡ Première mise à jour : News/Culture/Mercato...');
+  await newsLoop();
+  
+  log('⚡ Première mise à jour : Sports...');
+  await sportsLoop();
   
   // Boucles infinies avec intervalles différents
-  setInterval(sportsLoop, CONFIG.sportsUpdateInterval); // 5 secondes (mais intelligent)
+  setInterval(sportsLoop, CONFIG.sportsUpdateInterval); // 10 secondes (mais intelligent)
   setInterval(newsLoop, CONFIG.newsUpdateInterval); // 30 minutes
 }
 

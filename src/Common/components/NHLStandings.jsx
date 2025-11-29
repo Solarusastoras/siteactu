@@ -14,6 +14,21 @@ const NHLStandings = ({ standingsData }) => {
     );
   }
 
+  // Fonction pour extraire le surnom (dernier mot)
+  const getTeamNickname = (fullName) => {
+    if (!fullName) return '';
+    const words = fullName.trim().split(' ');
+    return words[words.length - 1];
+  };
+
+  // Fonction pour obtenir la classe CSS selon la position
+  const getPositionClass = (position) => {
+    if (position >= 1 && position <= 3) return 'standings-row division1-playoff';
+    if (position >= 4 && position <= 6) return 'standings-row division2-playoff';
+    if (position === 7 || position === 8) return 'standings-row wildcard-playoff';
+    return 'standings-row';
+  };
+
   // Détection du format de données SofaScore avec conférences structurées
   const hasSofaScoreConferences = standingsData[0]?.name && standingsData[0]?.standings;
   
@@ -39,22 +54,29 @@ const NHLStandings = ({ standingsData }) => {
                   <div>+/-</div>
                 </div>
                 {conference.standings.map((entry) => {
-                  const isPlayoffSpot = entry.position <= 8; // Top 8 par conférence
+                  const otLosses = entry.otLosses || 0;
                   
                   return (
                     <div 
-                      key={entry.teamId} 
-                      className={`standings-row ${isPlayoffSpot ? 'playoff-spot' : ''}`}
+                      key={entry.teamId || entry.team} 
+                      className={getPositionClass(entry.position)}
                     >
                       <div className="position-col">{entry.position}</div>
                       <div className="team-info team-col">
-                        {entry.logo && <img src={entry.logo} alt={entry.team} className="team-logo-small" />}
-                        <span className="team-name">{entry.team}</span>
+                        {entry.logo && (
+                          <img 
+                            src={entry.logo} 
+                            alt={entry.team} 
+                            className="team-logo-small"
+                            onError={(e) => { e.target.style.display = 'none'; }}
+                          />
+                        )}
+                        <span className="team-name">{getTeamNickname(entry.team)}</span>
                       </div>
                       <div className="stat-gp">{entry.played}</div>
                       <div className="stat-wins">{entry.wins}</div>
                       <div className="stat-losses">{entry.losses}</div>
-                      <div className="stat-ties">{entry.draws || 0}</div>
+                      <div className="stat-ties">{otLosses}</div>
                       <div className="stat-pts">{entry.points}</div>
                       <div className={`stat-diff ${entry.goalDifference > 0 ? 'positive' : entry.goalDifference < 0 ? 'negative' : ''}`}>
                         {entry.goalDifference > 0 ? '+' : ''}{entry.goalDifference}
@@ -68,10 +90,15 @@ const NHLStandings = ({ standingsData }) => {
         })}
         
         <div className="standings-legend nhl-legend">
-          <div className="legend-item playoff-spot">🏆 Qualifié pour les playoffs (Top 8 par conférence)</div>
+          <div className="legend-item division1-playoff">🏆 Division 1 (Top 3) - Qualifié automatiquement</div>
+          <div className="legend-item division2-playoff">🥈 Division 2 (Top 3) - Qualifié automatiquement</div>
+          <div className="legend-item wildcard-playoff">🎟️ Wild Card - Qualifié (2 meilleurs restants par conférence)</div>
+          <div className="legend-note">
+            <strong>Système de qualification:</strong> 16 équipes aux playoffs - 3 meilleures de chaque division (12) + 2 wild cards par conférence (4)
+          </div>
           <div className="legend-abbreviations">
             <p><strong>Abréviations:</strong></p>
-            <p>J = Matchs joués | V = Victoires | D = Défaites | N = Nuls | PTS = Points | +/- = Différentiel de buts</p>
+            <p>J = Matchs joués | V = Victoires | D = Défaites | N = Défaites OT/SO | PTS = Points | +/- = Différentiel de buts</p>
           </div>
         </div>
       </div>
@@ -108,8 +135,15 @@ const NHLStandings = ({ standingsData }) => {
               >
                 <div className="position-col">{entry.position}</div>
                 <div className="team-info team-col">
-                  {entry.logo && <img src={entry.logo} alt={entry.team} className="team-logo-small" />}
-                  <span className="team-name">{entry.team}</span>
+                  {entry.logo && (
+                    <img 
+                      src={entry.logo} 
+                      alt={entry.team} 
+                      className="team-logo-small"
+                      onError={(e) => { e.target.style.display = 'none'; }}
+                    />
+                  )}
+                  <span className="team-name">{getTeamNickname(entry.team)}</span>
                 </div>
                 <div className="stat-gp">{entry.played}</div>
                 <div className="stat-wins">{entry.wins}</div>
@@ -177,8 +211,15 @@ const NHLStandings = ({ standingsData }) => {
               >
                 <div className="position-col">{position}</div>
                 <div className="team-info team-col">
-                  {team.logo && <img src={team.logo} alt={team.shortName || team.name} className="team-logo-small" />}
-                  <span className="team-name">{team.shortName || team.name || entry.team}</span>
+                  {team.logo && (
+                    <img 
+                      src={team.logo} 
+                      alt={team.shortName || team.name} 
+                      className="team-logo-small"
+                      onError={(e) => { e.target.style.display = 'none'; }}
+                    />
+                  )}
+                  <span className="team-name">{getTeamNickname(team.shortName || team.name || entry.team)}</span>
                 </div>
                 <div className="stat-gp">{stats.gamesPlayed || stats.GP || 0}</div>
                 <div className="stat-pts">{stats.points || stats.PTS || 0}</div>

@@ -11,9 +11,9 @@ function JeuxVideo() {
     useEffect(() => {
         const fetchActu = async () => {
             try {
-                const response = await fetch('/actu/data/data.json');
+                const response = await fetch('./data/culture-jeuxvideo.json');
                 const jsonData = await response.json();
-                const jeuxvideoData = jsonData.culture?.jeuxvideo?.items || [];
+                const jeuxvideoData = jsonData.items || [];
                 setActualites(jeuxvideoData.map(item => ({
                     titre: item.title,
                     description: item.description,

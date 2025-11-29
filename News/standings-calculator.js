@@ -16,6 +16,13 @@ const STANDINGS_FILES = {
   nfl: path.join(__dirname, 'output', 'nfl-live-standings.json')
 };
 
+// Fichiers de tracking des matchs traités
+const PROCESSED_MATCHES_FILES = {
+  nhl: path.join(__dirname, 'output', 'nhl-processed-matches.json'),
+  nba: path.join(__dirname, 'output', 'nba-processed-matches.json'),
+  nfl: path.join(__dirname, 'output', 'nfl-processed-matches.json')
+};
+
 // Charger les standings sauvegardés ou utiliser les initiaux
 async function loadStandings(sport) {
   try {
@@ -41,15 +48,39 @@ async function saveStandings(sport, standings) {
   }
 }
 
+// Charger les IDs des matchs déjà traités
+async function loadProcessedMatches(sport) {
+  try {
+    const data = await fs.readFile(PROCESSED_MATCHES_FILES[sport], 'utf8');
+    return new Set(JSON.parse(data));
+  } catch (error) {
+    return new Set();
+  }
+}
+
+// Sauvegarder les IDs des matchs traités
+async function saveProcessedMatches(sport, processedIds) {
+  try {
+    await fs.writeFile(PROCESSED_MATCHES_FILES[sport], JSON.stringify([...processedIds], null, 2));
+  } catch (error) {
+    console.error(`✗ Erreur sauvegarde matches traités ${sport.toUpperCase()}:`, error.message);
+  }
+}
+
 // Mettre à jour les standings NHL avec résultats des matchs
-function updateNHLStandings(standings, scoreboard) {
-  if (!scoreboard?.events) return standings;
+function updateNHLStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
   
   const updated = JSON.parse(JSON.stringify(standings)); // Deep copy
+  const newMatches = [];
   
   for (const event of scoreboard.events) {
     // Seulement les matchs terminés
     if (event.status?.type?.state !== 'post') continue;
+    
+    // Vérifier si ce match a déjà été traité
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
     
     const competition = event.competitions?.[0];
     if (!competition) continue;
@@ -63,6 +94,9 @@ function updateNHLStandings(standings, scoreboard) {
     const awayScore = parseInt(awayTeam.score) || 0;
     const homeWin = homeScore > awayScore;
     const overtime = event.status?.type?.detail?.includes('OT') || event.status?.type?.detail?.includes('SO');
+    
+    // Marquer comme traité
+    newMatches.push(matchId);
     
     // Mettre à jour les stats
     ['eastern', 'western'].forEach(conf => {
@@ -110,17 +144,21 @@ function updateNHLStandings(standings, scoreboard) {
     });
   });
   
-  return updated;
+  return { standings: updated, newMatches };
 }
 
 // Mettre à jour les standings NBA avec résultats des matchs
-function updateNBAStandings(standings, scoreboard) {
-  if (!scoreboard?.events) return standings;
+function updateNBAStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
   
   const updated = JSON.parse(JSON.stringify(standings));
+  const newMatches = [];
   
   for (const event of scoreboard.events) {
     if (event.status?.type?.state !== 'post') continue;
+    
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
     
     const competition = event.competitions?.[0];
     if (!competition) continue;
@@ -133,6 +171,8 @@ function updateNBAStandings(standings, scoreboard) {
     const homeScore = parseInt(homeTeam.score) || 0;
     const awayScore = parseInt(awayTeam.score) || 0;
     const homeWin = homeScore > awayScore;
+    
+    newMatches.push(matchId);
     
     ['eastern', 'western'].forEach(conf => {
       updated[conf].forEach(team => {
@@ -161,17 +201,21 @@ function updateNBAStandings(standings, scoreboard) {
     });
   });
   
-  return updated;
+  return { standings: updated, newMatches };
 }
 
 // Mettre à jour les standings NFL avec résultats des matchs
-function updateNFLStandings(standings, scoreboard) {
-  if (!scoreboard?.events) return standings;
+function updateNFLStandings(standings, scoreboard, processedMatches) {
+  if (!scoreboard?.events) return { standings, newMatches: [] };
   
   const updated = JSON.parse(JSON.stringify(standings));
+  const newMatches = [];
   
   for (const event of scoreboard.events) {
     if (event.status?.type?.state !== 'post') continue;
+    
+    const matchId = event.id;
+    if (processedMatches.has(matchId)) continue;
     
     const competition = event.competitions?.[0];
     if (!competition) continue;
@@ -183,6 +227,8 @@ function updateNFLStandings(standings, scoreboard) {
     
     const homeScore = parseInt(homeTeam.score) || 0;
     const awayScore = parseInt(awayTeam.score) || 0;
+    
+    newMatches.push(matchId);
     
     if (homeScore === awayScore) {
       // Tie (rare en NFL moderne)
@@ -226,7 +272,7 @@ function updateNFLStandings(standings, scoreboard) {
     });
   });
   
-  return updated;
+  return { standings: updated, newMatches };
 }
 
 // Formater pour le format SofaScore (compatible avec le frontend)
@@ -239,11 +285,11 @@ function formatForSofaScore(standings, sport) {
       standings: standings.eastern.map((team, idx) => ({
         position: idx + 1,
         team: team.team,
-        teamId: 0, // Pas d'ID SofaScore
-        logo: '', // Logo à récupérer si besoin
+        teamId: 0,
+        logo: '',
         played: team.wins + team.losses + team.otLosses,
         wins: team.wins,
-        draws: 0, // NHL n'a pas de draws
+        draws: 0,
         losses: team.losses + team.otLosses,
         points: team.points,
         goalsFor: team.goalsFor,
@@ -348,26 +394,34 @@ function formatForSofaScore(standings, sport) {
 async function calculateLiveStandings(sport, scoreboard) {
   console.log(`\n→ Calcul standings ${sport.toUpperCase()}...`);
   
-  // Charger standings actuels
+  // Charger standings actuels et matchs déjà traités
   const currentStandings = await loadStandings(sport);
+  const processedMatches = await loadProcessedMatches(sport);
   
   // Mettre à jour avec résultats du scoreboard
-  let updatedStandings;
+  let result;
   if (sport === 'nhl') {
-    updatedStandings = updateNHLStandings(currentStandings, scoreboard);
+    result = updateNHLStandings(currentStandings, scoreboard, processedMatches);
   } else if (sport === 'nba') {
-    updatedStandings = updateNBAStandings(currentStandings, scoreboard);
+    result = updateNBAStandings(currentStandings, scoreboard, processedMatches);
   } else if (sport === 'nfl') {
-    updatedStandings = updateNFLStandings(currentStandings, scoreboard);
+    result = updateNFLStandings(currentStandings, scoreboard, processedMatches);
   }
   
-  // Sauvegarder les standings mis à jour
-  await saveStandings(sport, updatedStandings);
+  const { standings: updatedStandings, newMatches } = result;
+  
+  // Si de nouveaux matchs ont été traités, sauvegarder
+  if (newMatches.length > 0) {
+    console.log(`📊 ${newMatches.length} nouveau(x) match(s) traité(s)`);
+    newMatches.forEach(id => processedMatches.add(id));
+    await saveProcessedMatches(sport, processedMatches);
+    await saveStandings(sport, updatedStandings);
+  }
   
   // Formater pour le frontend
   const formatted = formatForSofaScore(updatedStandings, sport);
   
-  console.log(`✓ Standings ${sport.toUpperCase()} calculés`);
+  console.log(`✓ Standings ${sport.toUpperCase()} calculés (${processedMatches.size} matchs au total)`);
   return formatted;
 }
 

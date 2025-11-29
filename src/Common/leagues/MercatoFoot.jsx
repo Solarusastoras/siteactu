@@ -9,31 +9,36 @@ const MercatoFoot = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/actu/data/data.json');
-        const jsonData = await response.json();
-        
-        // Consolider tous les mercatos en un seul tableau
+        // Charger tous les fichiers mercato
+        const mercatoSources = ['lequipe', 'madeinfoot', 'rmcsport', 'footmercato'];
         const allMercato = [];
-        if (jsonData.mercato) {
-          Object.values(jsonData.mercato).forEach(source => {
-            if (source.items && Array.isArray(source.items)) {
-              const items = source.items.map(item => ({
-                id: `${source.feed}-${item.link}`,
+        
+        await Promise.all(mercatoSources.map(async (source) => {
+          try {
+            const response = await fetch(`./data/mercato-${source}.json`);
+            const jsonData = await response.json();
+            
+            if (jsonData.items && Array.isArray(jsonData.items)) {
+              const items = jsonData.items.map(item => ({
+                id: `${jsonData.feed}-${item.link}`,
                 titre: item.title,
                 description: item.description,
                 lien: item.link,
                 date: new Date(item.pubDate).toLocaleDateString('fr-FR'),
+                pubDate: item.pubDate,
                 image: item.image,
-                source: source.feed,
-                sourceEmoji: getSourceEmoji(source.feed)
+                source: jsonData.feed,
+                sourceEmoji: getSourceEmoji(jsonData.feed)
               }));
               allMercato.push(...items);
             }
-          });
-        }
+          } catch (err) {
+            console.warn(`Erreur chargement mercato-${source}:`, err);
+          }
+        }));
         
-        // Trier par date décroissante
-        allMercato.sort((a, b) => new Date(b.date) - new Date(a.date));
+        // Trier par date décroissante (utiliser pubDate original)
+        allMercato.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         
         setActualites(allMercato);
         setLoading(false);

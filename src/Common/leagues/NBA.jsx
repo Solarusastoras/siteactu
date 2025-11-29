@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../card';
 import NBAStandings from '../components/NBAStandings';
+import { calculateNBAStandings } from '../../Utils/standingsCalculator';
+import { formatTime, getMatchStatus } from './matchHelpers';
 
 const NBA = ({ view = 'matches' }) => {
   const [data, setData] = useState(null);
@@ -9,9 +11,8 @@ const NBA = ({ view = 'matches' }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/actu/data/data.json');
-        const jsonData = await response.json();
-        const nbaData = jsonData.sports?.nba;
+        const response = await fetch('./data/nba.json');
+        const nbaData = await response.json();
         
         setData(nbaData);
         setLoading(false);
@@ -47,15 +48,11 @@ const NBA = ({ view = 'matches' }) => {
   ];
 
   if (view === 'classement') {
-    const standings = data.standings || [];
+    // Calculer les standings dynamiquement à partir des matchs
+    const calculatedStandings = calculateNBAStandings(matches);
     
-    return <NBAStandings standingsData={standings} />;
+    return <NBAStandings standingsData={calculatedStandings} />;
   }
-
-  const formatTime = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-  };
 
   const getTeamData = (competitor) => {
     if (!competitor) return null;
@@ -129,26 +126,21 @@ const NBA = ({ view = 'matches' }) => {
   return (
     <div className="games-grid">
       {allMatches.map((game) => {
-        const isLive = game.status?.type === 'STATUS_IN_PROGRESS';
-        const isFinished = game.status?.completed === true;
-        const badgeContent = isLive ? 'LIVE' : isFinished ? 'TERMINÉ' : formatTime(game.date);
-        const badgeClass = isLive ? 'live-badge' : isFinished ? 'finished-badge' : '';
+        const matchStatus = getMatchStatus(game, formatTime);
+        const badgeClass = matchStatus.className === 'status-live' ? 'live-badge' : 
+                          matchStatus.className === 'status-completed' ? 'finished-badge' : '';
         
         return (
           <Card 
             key={game.id} 
             variant="sport"
             className="game-card"
-            badge={badgeContent}
+            badge={matchStatus.label}
             badgeClassName={badgeClass}
           >
             <div className="game-header">
               <span className="game-time">
-                {game.status?.completed ? 
-                  'FT' : 
-                  isLive ? 
-                    game.status?.detail :
-                    formatTime(game.date)}
+                {matchStatus.time}
               </span>
             </div>
             {renderGame(game)}

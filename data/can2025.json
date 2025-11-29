@@ -1,0 +1,371 @@
+{
+  "competition": "CAN 2025",
+  "lastUpdate": "2025-11-29T05:25:32.420Z",
+  "matches": {
+    "completed": [],
+    "live": [],
+    "upcoming": [
+      {
+        "id": "732133",
+        "uid": "s:600~l:3908~e:732133",
+        "date": "2025-12-21T19:00Z",
+        "name": "Comoros at Morocco",
+        "shortName": "COM @ MAR",
+        "season": {
+          "year": 2025,
+          "type": 13252,
+          "slug": "group-stage"
+        },
+        "competitions": [
+          {
+            "id": "732133",
+            "uid": "s:600~l:3908~e:732133~c:732133",
+            "date": "2025-12-21T19:00Z",
+            "startDate": "2025-12-21T19:00Z",
+            "attendance": 0,
+            "timeValid": true,
+            "recent": false,
+            "status": {
+              "clock": 0,
+              "displayClock": "0'",
+              "type": {
+                "id": "1",
+                "name": "STATUS_SCHEDULED",
+                "state": "pre",
+                "completed": false,
+                "description": "Scheduled",
+                "detail": "Sun, December 21st at 2:00 PM EST",
+                "shortDetail": "Scheduled"
+              }
+            },
+            "venue": {
+              "id": "7378",
+              "fullName": "Stade Prince Moulay Abdallah",
+              "address": {
+                "city": "Rabat",
+                "country": "Morocco"
+              }
+            },
+            "format": {
+              "regulation": {
+                "periods": 2
+              }
+            },
+            "notes": [],
+            "geoBroadcasts": [
+              {
+                "type": {
+                  "id": "1",
+                  "shortName": "TV"
+                },
+                "market": {
+                  "id": "1",
+                  "type": "National"
+                },
+                "media": {
+                  "shortName": "beIn Sports"
+                },
+                "lang": "en",
+                "region": "us"
+              }
+            ],
+            "broadcasts": [
+              {
+                "market": "national",
+                "names": [
+                  "beIn Sports"
+                ]
+              }
+            ],
+            "broadcast": "",
+            "competitors": [
+              {
+                "id": "2869",
+                "uid": "s:600~t:2869",
+                "type": "team",
+                "order": 0,
+                "homeAway": "home",
+                "winner": false,
+                "form": "WWWWW",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-0-0",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "2869",
+                  "uid": "s:600~t:2869",
+                  "abbreviation": "MAR",
+                  "displayName": "Morocco",
+                  "shortDisplayName": "Morocco",
+                  "name": "Morocco",
+                  "location": "Morocco",
+                  "color": "009060",
+                  "alternateColor": "df2027",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/2869/morocco",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/2869/morocco",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/2869/morocco",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/2869/morocco",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ],
+                  "venue": {
+                    "id": "5368"
+                  }
+                },
+                "statistics": []
+              },
+              {
+                "id": "8601",
+                "uid": "s:600~t:8601",
+                "type": "team",
+                "order": 1,
+                "homeAway": "away",
+                "winner": false,
+                "form": "WLLWL",
+                "score": "0",
+                "records": [
+                  {
+                    "name": "All Splits",
+                    "type": "total",
+                    "summary": "0-0-0",
+                    "abbreviation": "Total"
+                  }
+                ],
+                "team": {
+                  "id": "8601",
+                  "uid": "s:600~t:8601",
+                  "abbreviation": "COM",
+                  "displayName": "Comoros",
+                  "shortDisplayName": "Comoros",
+                  "name": "Comoros",
+                  "location": "Comoros",
+                  "color": "3d8e33",
+                  "alternateColor": "ffc61E",
+                  "isActive": true,
+                  "logo": "https://a.espncdn.com/i/teamlogos/countries/500/com.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "clubhouse",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/_/id/8601/comoros",
+                      "text": "Clubhouse",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "stats",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/stats/_/id/8601/comoros",
+                      "text": "Stats",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "schedule",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/fixtures/_/id/8601/comoros",
+                      "text": "Fixtures",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    },
+                    {
+                      "rel": [
+                        "squad",
+                        "desktop",
+                        "team"
+                      ],
+                      "href": "https://www.espn.com/soccer/team/squad/_/id/8601/comoros",
+                      "text": "Squad",
+                      "isExternal": false,
+                      "isPremium": false,
+                      "isHidden": false
+                    }
+                  ]
+                },
+                "statistics": []
+              }
+            ],
+            "details": [],
+            "odds": [
+              null
+            ],
+            "wasSuspended": false,
+            "playByPlayAvailable": true,
+            "playByPlayAthletes": true
+          }
+        ],
+        "status": {
+          "clock": 0,
+          "displayClock": "0'",
+          "type": {
+            "id": "1",
+            "name": "STATUS_SCHEDULED",
+            "state": "pre",
+            "completed": false,
+            "description": "Scheduled",
+            "detail": "Sun, December 21st at 2:00 PM EST",
+            "shortDetail": "Scheduled"
+          }
+        },
+        "venue": {
+          "displayName": "Stade Prince Moulay Abdallah"
+        },
+        "links": [
+          {
+            "language": "en-US",
+            "rel": [
+              "summary",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/match/_/gameId/732133/comoros-morocco",
+            "text": "Summary",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          },
+          {
+            "language": "en-US",
+            "rel": [
+              "stats",
+              "desktop",
+              "event"
+            ],
+            "href": "https://www.espn.com/soccer/matchstats/_/gameId/732133",
+            "text": "Statistics",
+            "shortText": "Statistics",
+            "isExternal": false,
+            "isPremium": false,
+            "isHidden": false
+          }
+        ]
+      }
+    ]
+  },
+  "nextDayMatches": [],
+  "standings": [
+    {
+      "position": 1,
+      "team": "Comoros",
+      "teamId": 23494,
+      "logo": "https://api.sofascore.com/api/v1/team/23494/image",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0
+    },
+    {
+      "position": 2,
+      "team": "Mali",
+      "teamId": 4831,
+      "logo": "https://api.sofascore.com/api/v1/team/4831/image",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0
+    },
+    {
+      "position": 3,
+      "team": "Morocco",
+      "teamId": 4778,
+      "logo": "https://api.sofascore.com/api/v1/team/4778/image",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0
+    },
+    {
+      "position": 4,
+      "team": "Zambia",
+      "teamId": 4720,
+      "logo": "https://api.sofascore.com/api/v1/team/4720/image",
+      "played": 0,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "points": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0
+    }
+  ],
+  "season": {
+    "type": 13252,
+    "year": 2025
+  }
+}

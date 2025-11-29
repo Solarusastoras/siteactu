@@ -11,9 +11,9 @@ const Musique = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/actu/data/data.json');
+        const response = await fetch('./data/culture-musique.json');
         const jsonData = await response.json();
-        const musiqueData = jsonData.culture?.musique?.items || [];
+        const musiqueData = jsonData.items || [];
         setActualites(musiqueData.map(item => ({
           titre: item.title,
           description: item.description,

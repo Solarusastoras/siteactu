@@ -9,9 +9,9 @@ function ActuMonde() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/actu/data/data.json');
+                const response = await fetch('./data/actus-monde.json');
                 const jsonData = await response.json();
-                const mondeData = jsonData.actus?.monde?.items || [];
+                const mondeData = jsonData.items || [];
                 setActualites(mondeData.map(item => ({
                     titre: item.title,
                     description: item.description,

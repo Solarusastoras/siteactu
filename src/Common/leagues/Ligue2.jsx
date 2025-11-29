@@ -2,6 +2,7 @@
 import { ligue2Config } from '../data/leaguesConfig';
 import { currentLigue2Standings } from '../data/standingsData';
 import FootballStandings from '../components/FootballStandings';
+import { formatTime, getMatchStatus } from './matchHelpers';
 import './foot.scss';
 
 const calculateStandings = (events, baseStandings) => {
@@ -72,11 +73,6 @@ const Ligue2 = ({ view = 'matches' }) => {
     return () => clearInterval(interval);
   }, []);
 
-  const formatTime = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-  };
-
   if (loading) {
     return <div className="loading"><h2>Chargement Ligue 2...</h2></div>;
   }
@@ -121,11 +117,13 @@ const Ligue2 = ({ view = 'matches' }) => {
                 const homeName = homeComp.team?.displayName || homeComp.team?.name || 'Équipe';
                 const awayName = awayComp.team?.displayName || awayComp.team?.name || 'Équipe';
 
+                const matchStatus = getMatchStatus(game, formatTime);
+
                 return (
                   <div key={game.id} className="game-card next-day-match">
                     <div className="game-header">
-                      <span className="game-status next-day">Demain</span>
                       <span className="game-time">{formatTime(game.date)}</span>
+                      <span className="match-status-badge status-upcoming">Demain</span>
                     </div>
 
                     <div className="match-inline">
@@ -195,15 +193,16 @@ const Ligue2 = ({ view = 'matches' }) => {
               const awayScore = awayComp.score || '0';
               const clock = competition.status?.displayClock || game.status?.displayClock || '';
               const isLive = game.status?.type?.state === 'in' || game.status?.type === 'STATUS_IN_PROGRESS';
+              const matchStatus = getMatchStatus(game, formatTime);
 
               return (
                 <div key={game.id} className="game-card">
                   <div className="game-header">
-                    <span className={`game-status ${game.status?.completed ? 'completed' : 'scheduled'}`}>
-                      {game.status?.detail || 'À venir'}
-                    </span>
                     <span className="game-time">
-                      {game.status?.completed ? 'Terminé' : formatTime(game.date)}
+                      {matchStatus.time}
+                    </span>
+                    <span className={`match-status-badge ${matchStatus.className}`}>
+                      {matchStatus.label}
                     </span>
                   </div>
 

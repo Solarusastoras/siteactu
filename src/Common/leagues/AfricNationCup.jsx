@@ -5,6 +5,7 @@ import TournamentWrapper from '../components/TournamentWrapper';
 import africanCupData from '../../Data/Foot/dataAfricNationCup.json';
 import { useSportsData } from '../../hooks/useDataAPI';
 import { africancupConfig as africanCupConfig } from '../data/leaguesConfig';
+import { formatTime, getMatchStatus } from './matchHelpers';
 
 const AfricNationCup = ({ view = 'matches' }) => {
   const { sportData: canData, loading, error } = useSportsData('can2025');
@@ -204,12 +205,16 @@ const AfricNationCup = ({ view = 'matches' }) => {
                 const team2 = isApiData ? match.competitions?.[0]?.competitors?.[1]?.team?.displayName : match.team2;
                 const matchDate = new Date(match.date);
                 const matchTime = isApiData ? matchDate.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) : match.time;
-                const matchStatus = isApiData ? (match.competitions?.[0]?.status?.type?.detail || 'À venir') : match.status;
+                const matchStatusData = isApiData ? getMatchStatus(match, formatTime) : null;
+                const matchStatusLabel = matchStatusData ? matchStatusData.label : (match.status || 'À venir');
+                const matchStatusClass = matchStatusData ? matchStatusData.className : 'status-upcoming';
                 return (
                   <div key={idx} className="match-card upcoming">
                     <div className="match-header">
-                      <span className="match-date">{matchDate.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'short' })}</span>
                       <span className="match-time">{matchTime}</span>
+                      <span className={`match-status-badge ${matchStatusClass}`}>
+                        {matchStatusLabel}
+                      </span>
                     </div>
                     <div className="match-body">
                       <div className="team home">
@@ -223,7 +228,7 @@ const AfricNationCup = ({ view = 'matches' }) => {
                       </div>
                     </div>
                     <div className="match-footer">
-                      <span className="match-group">{matchStatus}</span>
+                      <span className="match-group">{matchStatusLabel}</span>
                       {match.venue && <span className="match-venue"> • {match.venue}</span>}
                     </div>
                   </div>

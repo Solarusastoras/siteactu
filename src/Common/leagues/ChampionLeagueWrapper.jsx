@@ -3,6 +3,7 @@ import TournamentWrapper from '../components/TournamentWrapper';
 import championLeagueData from '../../Data/Foot/dataChampionLeague.json';
 import { championsLeagueConfig } from '../data/leaguesConfig';
 import FootballStandings from '../components/FootballStandings';
+import { formatTime, getMatchStatus } from './matchHelpers';
 import './foot.scss';
 
 const ChampionLeagueWrapper = ({ view = 'matches' }) => {
@@ -33,11 +34,6 @@ const ChampionLeagueWrapper = ({ view = 'matches' }) => {
       return () => clearInterval(interval);
     }
   }, [activeMode]);
-
-  const formatTime = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-  };
 
   const config = useMemo(() => ({
     title: 'UEFA Champions League',
@@ -166,15 +162,16 @@ const ChampionLeagueWrapper = ({ view = 'matches' }) => {
               const awayScore = awayComp.score || '0';
               const clock = competition.status?.displayClock || game.status?.displayClock || '';
               const isLive = competition.status?.type?.state === 'in' || game.status?.type?.state === 'in';
+              const matchStatus = getMatchStatus(game, formatTime);
 
               return (
                 <div key={game.id} className="game-card">
                   <div className="game-header">
-                    <span className={`game-status ${competition.status?.type?.completed ? 'completed' : 'scheduled'}`}>
-                      {competition.status?.type?.detail || game.status?.detail || 'À venir'}
-                    </span>
                     <span className="game-time">
-                      {competition.status?.type?.completed ? 'Terminé' : formatTime(game.date)}
+                      {matchStatus.time}
+                    </span>
+                    <span className={`match-status-badge ${matchStatus.className}`}>
+                      {matchStatus.label}
                     </span>
                   </div>
 

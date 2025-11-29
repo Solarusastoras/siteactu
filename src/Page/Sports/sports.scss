@@ -730,6 +730,22 @@
   background: linear-gradient(90deg, rgba(244, 67, 54, 0.15) 0%, rgba(244, 67, 54, 0.05) 100%);
 }
 
+// NHL Playoff zones - 3 couleurs distinctes
+.standings-row.division1-playoff {
+  border-left: 5px solid #4caf50;
+  background: linear-gradient(90deg, rgba(76, 175, 80, 0.15) 0%, rgba(76, 175, 80, 0.05) 100%);
+}
+
+.standings-row.division2-playoff {
+  border-left: 5px solid #2196F3;
+  background: linear-gradient(90deg, rgba(33, 150, 243, 0.15) 0%, rgba(33, 150, 243, 0.05) 100%);
+}
+
+.standings-row.wildcard-playoff {
+  border-left: 5px solid #FF9800;
+  background: linear-gradient(90deg, rgba(255, 152, 0, 0.15) 0%, rgba(255, 152, 0, 0.05) 100%);
+}
+
 .position {
   font-weight: 900;
   text-align: center;
@@ -2256,12 +2272,11 @@
   }
 
   .nfl-table {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 
     .standings-header,
     .standings-row {
       display: grid;
-      grid-template-columns: 2.5fr repeat(3, 0.6fr) 0.8fr repeat(3, 0.7fr);
       gap: 10px;
       align-items: center;
       padding: 12px 10px;
@@ -2271,6 +2286,12 @@
       display: flex;
       align-items: center;
       gap: 8px;
+    }
+    
+    .team-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
     .position-indicator {
