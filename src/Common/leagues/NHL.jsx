@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import Card from '../card';
 import NHLStandings from '../components/NHLStandings';
 import { calculateNHLStandings } from '../../Utils/standingsCalculator';
@@ -9,11 +9,11 @@ const NHL = ({ view = 'matches' }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    let timeoutId;
     const fetchData = async () => {
       try {
         const response = await fetch('./data/nhl.json');
         const nhlData = await response.json();
-        
         setData(nhlData);
         setLoading(false);
       } catch (err) {
@@ -22,9 +22,37 @@ const NHL = ({ view = 'matches' }) => {
       }
     };
 
-    fetchData();
-    const interval = setInterval(fetchData, 30000);
-    return () => clearInterval(interval);
+    // Calcule le temps (en ms) jusqu'à la prochaine exécution (8h ou 23h59min59s)
+    const getNextUpdateDelay = () => {
+      const now = new Date();
+      const today8 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 0, 0, 0);
+      const todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59, 0);
+      let next;
+      if (now < today8) {
+        next = today8;
+      } else if (now < todayMidnight) {
+        next = todayMidnight;
+      } else {
+        // Si après 23h59:59, prochaine maj à 8h le lendemain
+        next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 8, 0, 0, 0);
+      }
+      return next - now;
+    };
+
+    const scheduleNextFetch = () => {
+      const delay = getNextUpdateDelay();
+      timeoutId = setTimeout(async () => {
+        await fetchData();
+        scheduleNextFetch();
+      }, delay);
+    };
+
+    fetchData(); // Premier chargement immédiat
+    scheduleNextFetch();
+
+    return () => {
+      if (timeoutId) clearTimeout(timeoutId);
+    };
   }, []);
 
   if (loading) {
@@ -39,13 +67,38 @@ const NHL = ({ view = 'matches' }) => {
   const matches = data?.matches || {};
   const events = data?.scoreboard?.events || [];
   
-  // Combiner les matchs des deux sources
+
+  // Filtrer les matchs pour n'afficher que ceux du jour courant (00h00 à 23h59)
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const start = new Date(today);
+  start.setHours(0, 0, 0, 0); // 00h00 aujourd'hui
+  const end = new Date(today);
+  end.setHours(23, 59, 59, 999); // 23h59 aujourd'hui
+
+  // Fonction utilitaire pour extraire la date de début d'un match
+  function getMatchDate(game) {
+    // ESPN/SoFaScore: game.date ou game.startDate ou game.competitions[0]?.date
+    let dateStr = game.date || game.startDate || (game.competitions && game.competitions[0]?.date);
+    if (!dateStr) return null;
+    // Format ISO ou timestamp
+    return new Date(dateStr);
+  }
+
+  // Fusionner et filtrer les matchs
   const allMatches = [
     ...(matches.completed || []),
     ...(matches.live || []),
     ...(matches.upcoming || []),
     ...events
-  ];
+  ].filter(game => {
+    const matchDate = getMatchDate(game);
+    if (!matchDate || isNaN(matchDate)) return false;
+    // Si le match est en live, toujours afficher
+    if (game.status?.type === 'STATUS_IN_PROGRESS') return true;
+    // Afficher si le match commence entre 18h aujourd'hui et 8h demain
+    return matchDate >= start && matchDate < end;
+  });
 
   if (view === 'classement') {
     // Calculer les standings dynamiquement à partir des matchs

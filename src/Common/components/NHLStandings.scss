@@ -1,0 +1,79 @@
+.stat-pts {
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+.nhl-table .stat-pts {
+  font-size: 1rem !important;
+  font-weight: 600;
+}
+
+.nhl-table {
+  width: 100%;
+  min-width: 0;
+}
+
+.standings-header, .standings-row {
+  display: flex;
+  align-items: center;
+}
+
+.standings-header > div,
+.standings-row > div {
+  flex: 1 1 0;
+  text-align: center;
+  padding: 0.3em 0.2em;
+  font-size: 1rem;
+}
+
+.position-col {
+  flex: 0 0 32px;
+  text-align: center;
+}
+
+.team-col {
+  flex: 2 1 0;
+  text-align: left;
+  padding-left: 0.5em;
+}
+
+@media (max-width: 700px) {
+  .nhl-table {
+    font-size: 0.92rem;
+  }
+  .standings-header > div,
+  .standings-row > div {
+    font-size: 0.92rem;
+    padding: 0.2em 0.1em;
+  }
+  .team-col {
+    padding-left: 0.2em;
+  }
+}
+
+@media (max-width: 500px) {
+  .nhl-table {
+    font-size: 0.85rem;
+  }
+  .standings-header > div,
+  .standings-row > div {
+    font-size: 0.85rem;
+    padding: 0.1em 0.05em;
+  }
+  .team-col {
+    padding-left: 0.1em;
+    font-size: 0.85rem;
+  }
+  .standings-header > div:nth-child(3),
+  .standings-header > div:nth-child(4),
+  .standings-header > div:nth-child(5),
+  .standings-header > div:nth-child(6) {
+    display: none;
+  }
+  .standings-row > div:nth-child(3),
+  .standings-row > div:nth-child(4),
+  .standings-row > div:nth-child(5),
+  .standings-row > div:nth-child(6) {
+    display: none;
+  }
+}
