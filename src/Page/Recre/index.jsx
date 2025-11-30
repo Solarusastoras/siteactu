@@ -55,7 +55,7 @@ function Recre() {
         ) : (
           <div className="recre-game-container">
             <button className="recre-back-button" onClick={() => setActiveGame("")}>
-             élection des jeux
+             Sélection des jeux
             </button>
             {ActiveGameComponent && <ActiveGameComponent />}
           </div>
